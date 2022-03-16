@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRIGger:SEQuence:OSCilloscope:COUPling
+
+.. code-block:: python
+
+	TRIGger:SEQuence:OSCilloscope:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Trigger.Sequence.Oscilloscope.Coupling.Coupling
+	:members:
+	:undoc-members:
+	:noindex:

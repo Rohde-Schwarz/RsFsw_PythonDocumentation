@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PULSe:PHASe:RERRor:MINimum
+
+.. code-block:: python
+
+	SENSe:PULSe:PHASe:RERRor:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Rerror.Minimum.Minimum
+	:members:
+	:undoc-members:
+	:noindex:

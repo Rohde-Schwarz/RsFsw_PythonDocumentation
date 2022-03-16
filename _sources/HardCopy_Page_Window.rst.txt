@@ -1,0 +1,39 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.hardCopy.page.window.repcap_window_get()
+	driver.hardCopy.page.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Window.Window
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.page.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Page_Window_Channel.rst
+	HardCopy_Page_Window_Count.rst
+	HardCopy_Page_Window_Scale.rst
+	HardCopy_Page_Window_State.rst

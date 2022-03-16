@@ -1,0 +1,20 @@
+Sarea
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:SPECtrogram:SARea
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:SPECtrogram:SARea
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.DeltaMarker.Spectrogram.Sarea.Sarea
+	:members:
+	:undoc-members:
+	:noindex:

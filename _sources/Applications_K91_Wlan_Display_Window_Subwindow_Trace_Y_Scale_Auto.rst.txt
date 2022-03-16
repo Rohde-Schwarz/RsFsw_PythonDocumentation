@@ -1,0 +1,40 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:Y:SCALe:AUTO
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:Y:SCALe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.Subwindow.Trace.Y.Scale.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.display.window.subwindow.trace.y.scale.auto.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_Y_Scale_Auto_Fixed.rst
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_Y_Scale_Auto_Hysteresis.rst
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_Y_Scale_Auto_Memory.rst
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_Y_Scale_Auto_Mode.rst

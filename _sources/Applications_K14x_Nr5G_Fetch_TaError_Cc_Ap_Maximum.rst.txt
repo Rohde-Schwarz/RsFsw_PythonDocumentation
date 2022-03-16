@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:TAERror:CC<CarrierComponent>:AP:MAXimum
+
+.. code-block:: python
+
+	FETCh:TAERror:CC<CarrierComponent>:AP:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.TaError.Cc.Ap.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

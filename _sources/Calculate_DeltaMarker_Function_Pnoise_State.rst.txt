@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:PNOise:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:PNOise:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Pnoise.State.State
+	:members:
+	:undoc-members:
+	:noindex:

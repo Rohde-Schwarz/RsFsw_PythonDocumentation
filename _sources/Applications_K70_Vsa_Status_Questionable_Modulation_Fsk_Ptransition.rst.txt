@@ -1,0 +1,20 @@
+Ptransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:MODulation<Window>:FSK:PTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<Window>:FSK:PTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Fsk.Ptransition.Ptransition
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:TRACe<Trace>:X:SCALe:STARt
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:TRACe<Trace>:X:SCALe:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.Trace.X.Scale.Start.Start
+	:members:
+	:undoc-members:
+	:noindex:

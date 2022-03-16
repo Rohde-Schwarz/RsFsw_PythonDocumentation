@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:FREQuency:STARt
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:FREQuency:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.Frequency.Start.Start
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+RefLevel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:RLEVel
+
+.. code-block:: python
+
+	INSTrument:COUPle:RLEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.RefLevel.RefLevel
+	:members:
+	:undoc-members:
+	:noindex:

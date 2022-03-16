@@ -1,0 +1,20 @@
+Location
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:SUMMary:RANGing:RMARker:LOCation
+
+.. code-block:: python
+
+	FETCh<Window>:SUMMary:RANGing:RMARker:LOCation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Ranging.Rmarker.Location.Location
+	:members:
+	:undoc-members:
+	:noindex:

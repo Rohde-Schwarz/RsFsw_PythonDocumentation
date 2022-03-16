@@ -1,0 +1,20 @@
+Trace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PNLimit:TRACe
+
+.. code-block:: python
+
+	CALCulate<Window>:PNLimit:TRACe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.PnLimit.Trace.Trace
+	:members:
+	:undoc-members:
+	:noindex:

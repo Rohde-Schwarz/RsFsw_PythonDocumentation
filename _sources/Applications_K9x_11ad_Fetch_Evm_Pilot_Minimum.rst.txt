@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:EVM:PILot:MINimum
+
+.. code-block:: python
+
+	FETCh:EVM:PILot:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Evm.Pilot.Minimum.Minimum
+	:members:
+	:undoc-members:
+	:noindex:

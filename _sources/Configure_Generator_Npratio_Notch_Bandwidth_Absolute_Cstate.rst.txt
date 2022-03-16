@@ -1,0 +1,20 @@
+Cstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:NOTCh<Notch>:BWIDth:ABSolute:CSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:NOTCh<Notch>:BWIDth:ABSolute:CSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Notch.Bandwidth.Absolute.Cstate.Cstate
+	:members:
+	:undoc-members:
+	:noindex:

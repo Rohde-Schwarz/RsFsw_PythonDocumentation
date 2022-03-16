@@ -1,0 +1,20 @@
+Period
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SWEep:EGATe:TRACe<Trace>:PERiod
+
+.. code-block:: python
+
+	SENSe:SWEep:EGATe:TRACe<Trace>:PERiod
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Trace.Period.Period
+	:members:
+	:undoc-members:
+	:noindex:

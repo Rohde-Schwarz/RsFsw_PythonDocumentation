@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe:IQ:SRATe
+
+.. code-block:: python
+
+	TRACe:IQ:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Trace.Iq.SymbolRate.SymbolRate
+	:members:
+	:undoc-members:
+	:noindex:

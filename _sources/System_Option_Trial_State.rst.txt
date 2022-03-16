@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:OPTion:TRIal:STATe
+
+.. code-block:: python
+
+	SYSTem:OPTion:TRIal:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Option.Trial.State.State
+	:members:
+	:undoc-members:
+	:noindex:

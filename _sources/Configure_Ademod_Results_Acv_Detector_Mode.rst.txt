@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:ADEMod:RESults:ACV:DETector<Trace>:MODE
+
+.. code-block:: python
+
+	CONFigure:ADEMod:RESults:ACV:DETector<Trace>:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Ademod.Results.Acv.Detector.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

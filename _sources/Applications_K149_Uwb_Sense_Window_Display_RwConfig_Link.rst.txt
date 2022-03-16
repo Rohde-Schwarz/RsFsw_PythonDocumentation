@@ -1,0 +1,20 @@
+Link
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:WINDow<Window>:DISPlay:RWConfig:LINK
+
+.. code-block:: python
+
+	SENSe:WINDow<Window>:DISPlay:RWConfig:LINK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.RwConfig.Link.Link
+	:members:
+	:undoc-members:
+	:noindex:

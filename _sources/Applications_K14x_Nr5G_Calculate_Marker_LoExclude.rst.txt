@@ -1,0 +1,20 @@
+LoExclude
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:LOEXclude
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:LOEXclude
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.LoExclude.LoExclude
+	:members:
+	:undoc-members:
+	:noindex:

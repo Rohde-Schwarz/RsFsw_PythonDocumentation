@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:REFSignal:GOS:BWIDth
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:BWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Bandwidth.Bandwidth
+	:members:
+	:undoc-members:
+	:noindex:

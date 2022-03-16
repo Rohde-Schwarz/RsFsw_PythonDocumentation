@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MASK:UPPer:DATA
+
+.. code-block:: python
+
+	CALCulate<Window>:MASK:UPPer:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Upper.Data.Data
+	:members:
+	:undoc-members:
+	:noindex:

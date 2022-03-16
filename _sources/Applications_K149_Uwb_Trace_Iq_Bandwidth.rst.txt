@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe:IQ:BWIDth
+
+.. code-block:: python
+
+	TRACe:IQ:BWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Trace.Iq.Bandwidth.Bandwidth
+	:members:
+	:undoc-members:
+	:noindex:

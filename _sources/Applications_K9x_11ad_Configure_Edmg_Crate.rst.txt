@@ -1,0 +1,20 @@
+Crate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:EDMG:CRATe
+
+.. code-block:: python
+
+	CONFigure:EDMG:CRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Configure.Edmg.Crate.Crate
+	:members:
+	:undoc-members:
+	:noindex:

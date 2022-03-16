@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TABLe:EMODel:RBPTime:LIMit:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:TABLe:EMODel:RBPTime:LIMit:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Emodel.RiseBasePoint.Time.Limit.State.State
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:TOUChscreen:STATe
+
+.. code-block:: python
+
+	DISPlay:TOUChscreen:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Touchscreen.State.State
+	:members:
+	:undoc-members:
+	:noindex:

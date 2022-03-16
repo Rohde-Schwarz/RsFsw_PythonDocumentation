@@ -1,0 +1,20 @@
+DutGain
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:MCGD:LEVel:DUTGain
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:LEVel:DUTGain
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Level.DutGain.DutGain
+	:members:
+	:undoc-members:
+	:noindex:

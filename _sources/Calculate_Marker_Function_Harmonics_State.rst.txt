@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:HARMonics:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:HARMonics:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Harmonics.State.State
+	:members:
+	:undoc-members:
+	:noindex:

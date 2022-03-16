@@ -1,0 +1,20 @@
+Plid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:PLCI:PLID
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:PLCI:PLID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Plci.Plid.Plid
+	:members:
+	:undoc-members:
+	:noindex:

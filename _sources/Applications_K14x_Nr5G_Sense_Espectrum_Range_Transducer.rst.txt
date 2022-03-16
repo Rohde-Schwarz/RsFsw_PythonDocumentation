@@ -1,0 +1,20 @@
+Transducer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:TRANsducer
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:TRANsducer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Transducer.Transducer
+	:members:
+	:undoc-members:
+	:noindex:

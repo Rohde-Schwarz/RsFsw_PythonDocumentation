@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SOURce:EXTernal<ExternalGen>:FREQuency:SWEep:STATe
+
+.. code-block:: python
+
+	SOURce:EXTernal<ExternalGen>:FREQuency:SWEep:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Frequency.Sweep.State.State
+	:members:
+	:undoc-members:
+	:noindex:

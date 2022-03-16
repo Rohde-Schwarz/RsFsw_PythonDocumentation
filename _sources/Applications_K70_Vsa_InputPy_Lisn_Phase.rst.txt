@@ -1,0 +1,20 @@
+Phase
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:LISN:PHASe
+
+.. code-block:: python
+
+	INPut<InputIx>:LISN:PHASe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.InputPy.Lisn.Phase.Phase
+	:members:
+	:undoc-members:
+	:noindex:

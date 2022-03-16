@@ -1,0 +1,20 @@
+Apackets
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:PACKet:DATA:RANGing:BIT:APACkets
+
+.. code-block:: python
+
+	FETCh<Window>:PACKet:DATA:RANGing:BIT:APACkets
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Ranging.Bit.Apackets.Apackets
+	:members:
+	:undoc-members:
+	:noindex:

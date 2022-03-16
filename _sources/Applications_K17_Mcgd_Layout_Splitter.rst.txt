@@ -1,0 +1,20 @@
+Splitter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: LAYout:SPLitter
+
+.. code-block:: python
+
+	LAYout:SPLitter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Layout.Splitter.Splitter
+	:members:
+	:undoc-members:
+	:noindex:

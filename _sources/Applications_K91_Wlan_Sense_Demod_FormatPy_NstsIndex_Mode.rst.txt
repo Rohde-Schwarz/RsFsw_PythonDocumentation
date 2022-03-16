@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DEMod:FORMat:NSTSindex:MODE
+
+.. code-block:: python
+
+	SENSe:DEMod:FORMat:NSTSindex:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.NstsIndex.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

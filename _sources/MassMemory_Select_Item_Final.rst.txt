@@ -1,0 +1,20 @@
+Final
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:SELect:ITEM:FINal
+
+.. code-block:: python
+
+	MMEMory:SELect:ITEM:FINal
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.Final.Final
+	:members:
+	:undoc-members:
+	:noindex:

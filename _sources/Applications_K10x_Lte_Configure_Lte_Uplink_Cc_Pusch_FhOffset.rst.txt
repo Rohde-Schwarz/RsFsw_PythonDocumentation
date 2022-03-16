@@ -1,0 +1,20 @@
+FhOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:PUSCh:FHOFfset
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:PUSCh:FHOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pusch.FhOffset.FhOffset
+	:members:
+	:undoc-members:
+	:noindex:

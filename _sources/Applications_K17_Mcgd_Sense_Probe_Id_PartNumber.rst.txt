@@ -1,0 +1,20 @@
+PartNumber
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PROBe<Probe>:ID:PARTnumber
+
+.. code-block:: python
+
+	SENSe:PROBe<Probe>:ID:PARTnumber
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Probe.Id.PartNumber.PartNumber
+	:members:
+	:undoc-members:
+	:noindex:

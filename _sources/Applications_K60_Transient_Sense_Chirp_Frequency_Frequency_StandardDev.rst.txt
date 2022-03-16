@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CHIRp:FREQuency:FREQuency:SDEViation
+
+.. code-block:: python
+
+	SENSe:CHIRp:FREQuency:FREQuency:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Frequency.StandardDev.StandardDev
+	:members:
+	:undoc-members:
+	:noindex:

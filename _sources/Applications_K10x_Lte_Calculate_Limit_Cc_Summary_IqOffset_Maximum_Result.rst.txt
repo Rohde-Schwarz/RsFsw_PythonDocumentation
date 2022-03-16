@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:SUMMary:IQOFfset:MAXimum:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:SUMMary:IQOFfset:MAXimum:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.Cc.Summary.IqOffset.Maximum.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

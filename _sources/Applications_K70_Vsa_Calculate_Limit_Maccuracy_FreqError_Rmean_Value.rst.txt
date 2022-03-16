@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit:MACCuracy:FERRor:RMEan:VALue
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit:MACCuracy:FERRor:RMEan:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.FreqError.Rmean.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

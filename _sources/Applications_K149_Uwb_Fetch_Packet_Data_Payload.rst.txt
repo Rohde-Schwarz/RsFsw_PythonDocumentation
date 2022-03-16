@@ -1,0 +1,20 @@
+Payload
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:PACKet:DATA:PAYLoad
+
+.. code-block:: python
+
+	FETCh<Window>:PACKet:DATA:PAYLoad
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Payload.Payload
+	:members:
+	:undoc-members:
+	:noindex:

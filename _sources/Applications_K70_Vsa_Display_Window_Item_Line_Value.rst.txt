@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:ITEM:LINE:VALue
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:ITEM:LINE:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.Item.Line.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

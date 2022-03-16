@@ -1,0 +1,20 @@
+Joined
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:WLAN:RSYNc:JOINed
+
+.. code-block:: python
+
+	CONFigure:WLAN:RSYNc:JOINed
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Rsync.Joined.Joined
+	:members:
+	:undoc-members:
+	:noindex:

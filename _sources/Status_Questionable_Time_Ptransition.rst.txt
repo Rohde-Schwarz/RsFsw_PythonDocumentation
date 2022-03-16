@@ -1,0 +1,20 @@
+Ptransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:TIME:PTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:TIME:PTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Time.Ptransition.Ptransition
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Evm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:DDEMod:STATistic:EVM
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:DDEMod:STATistic:EVM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Evm.Evm
+	:members:
+	:undoc-members:
+	:noindex:

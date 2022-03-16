@@ -1,0 +1,20 @@
+Nfft
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:NFFT
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:NFFT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.Nfft.Nfft
+	:members:
+	:undoc-members:
+	:noindex:

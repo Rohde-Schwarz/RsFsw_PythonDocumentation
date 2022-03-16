@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:SHIMmediate:STATe
+
+.. code-block:: python
+
+	SYSTem:SHIMmediate:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.System.ShImmediate.State.State
+	:members:
+	:undoc-members:
+	:noindex:

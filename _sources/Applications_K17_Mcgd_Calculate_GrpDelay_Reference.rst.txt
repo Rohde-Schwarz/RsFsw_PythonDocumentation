@@ -1,0 +1,37 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:GRPDelay:REFerence
+
+.. code-block:: python
+
+	CALCulate<Window>:GRPDelay:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calculate.GrpDelay.Reference.Reference
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.calculate.grpDelay.reference.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Calculate_GrpDelay_Reference_Frequency.rst

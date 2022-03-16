@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:HOP:FMSettling:FMSPoint:SDEViation
+
+.. code-block:: python
+
+	SENSe:HOP:FMSettling:FMSPoint:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.FmSettling.FmSpoint.StandardDev.StandardDev
+	:members:
+	:undoc-members:
+	:noindex:

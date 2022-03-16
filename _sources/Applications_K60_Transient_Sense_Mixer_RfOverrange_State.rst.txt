@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MIXer:RFOVerrange:STATe
+
+.. code-block:: python
+
+	SENSe:MIXer:RFOVerrange:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Mixer.RfOverrange.State.State
+	:members:
+	:undoc-members:
+	:noindex:

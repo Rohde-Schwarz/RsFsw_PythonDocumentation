@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:THReshold:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:THReshold:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Threshold.State.State
+	:members:
+	:undoc-members:
+	:noindex:

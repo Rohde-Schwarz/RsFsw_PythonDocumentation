@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:STATes:AUTO
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:STATes:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.States.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

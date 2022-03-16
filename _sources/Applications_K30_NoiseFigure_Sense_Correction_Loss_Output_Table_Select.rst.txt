@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:LOSS:OUTPut:TABLe:SELect
+
+.. code-block:: python
+
+	SENSe:CORRection:LOSS:OUTPut:TABLe:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Output.Table.Select.Select
+	:members:
+	:undoc-members:
+	:noindex:

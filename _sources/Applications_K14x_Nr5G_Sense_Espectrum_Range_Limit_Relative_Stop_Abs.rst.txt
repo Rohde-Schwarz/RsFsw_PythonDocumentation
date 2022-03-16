@@ -1,0 +1,20 @@
+Abs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:LIMit<LimitIx>:RELative:STOP:ABS
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:LIMit<LimitIx>:RELative:STOP:ABS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Limit.Relative.Stop.Abs.Abs
+	:members:
+	:undoc-members:
+	:noindex:

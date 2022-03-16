@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:UPORt:STATe
+
+.. code-block:: python
+
+	INPut<InputIx>:UPORt:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Uport.State.State
+	:members:
+	:undoc-members:
+	:noindex:

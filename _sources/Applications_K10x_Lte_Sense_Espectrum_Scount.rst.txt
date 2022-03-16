@@ -1,0 +1,20 @@
+Scount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:SCOunt
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:SCOunt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Espectrum.Scount.Scount
+	:members:
+	:undoc-members:
+	:noindex:

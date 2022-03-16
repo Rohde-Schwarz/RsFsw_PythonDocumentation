@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:HOP:TIMing:SWITching:SDEViation
+
+.. code-block:: python
+
+	SENSe:HOP:TIMing:SWITching:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Timing.Switching.StandardDev.StandardDev
+	:members:
+	:undoc-members:
+	:noindex:

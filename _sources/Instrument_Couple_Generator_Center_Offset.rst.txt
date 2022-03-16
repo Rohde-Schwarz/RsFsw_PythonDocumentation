@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:GENerator:CENTer:OFFSet
+
+.. code-block:: python
+
+	INSTrument:COUPle:GENerator:CENTer:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Generator.Center.Offset.Offset
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Unit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:PAGE:MARGin:UNIT
+
+.. code-block:: python
+
+	HCOPy:PAGE:MARGin:UNIT
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Margin.Unit.Unit
+	:members:
+	:undoc-members:
+	:noindex:

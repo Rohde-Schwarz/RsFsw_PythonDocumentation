@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:SEARch:BURSt:LENGth:MAXimum
+
+.. code-block:: python
+
+	SENSe:DDEMod:SEARch:BURSt:LENGth:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Burst.Length.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

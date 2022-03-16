@@ -1,0 +1,20 @@
+Periodicity
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SRS:SLOT:PERiodicity
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SRS:SLOT:PERiodicity
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Srs.Slot.Periodicity.Periodicity
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,361 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>MaxPm &mdash; RsFsw 5.0.0.206 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RmsPm" href="Applications_K60_Transient_Calculate_ChrDetection_Table_Phase_RmsPm.html" />
+    <link rel="prev" title="AvgPm" href="Applications_K60_Transient_Calculate_ChrDetection_Table_Phase_AvgPm.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> RsFsw
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="Applications_K60_Transient_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_TriggerInvoke.html">TriggerInvoke</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+        
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+        
+          <li><a href="Applications_K60_Transient.html">K60_Transient</a> &raquo;</li>
+        
+          <li><a href="Applications_K60_Transient_Calculate.html">Calculate&lt;Window&gt;</a> &raquo;</li>
+        
+          <li><a href="Applications_K60_Transient_Calculate_ChrDetection.html">ChrDetection</a> &raquo;</li>
+        
+          <li><a href="Applications_K60_Transient_Calculate_ChrDetection_Table.html">Table</a> &raquo;</li>
+        
+          <li><a href="Applications_K60_Transient_Calculate_ChrDetection_Table_Phase.html">Phase</a> &raquo;</li>
+        
+      <li>MaxPm</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Applications_K60_Transient_Calculate_ChrDetection_Table_Phase_MaxPm.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="maxpm">
+<h1>MaxPm<a class="headerlink" href="#maxpm" title="Permalink to this headline">¶</a></h1>
+<p class="rubric">SCPI Commands</p>
+<div class="highlight-python notranslate" id="index-0"><div class="highlight"><pre><span></span><span class="n">CALCulate</span><span class="o">&lt;</span><span class="n">Window</span><span class="o">&gt;</span><span class="p">:</span><span class="n">CHRDetection</span><span class="p">:</span><span class="n">TABLe</span><span class="p">:</span><span class="n">PHASe</span><span class="p">:</span><span class="n">MAXPm</span>
+</pre></div>
+</div>
+<dl class="py class">
+<dt>
+<em class="property">class </em><code class="sig-name descname">MaxPm</code><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/ChrDetection/Table/Phase/MaxPm.html#MaxPm"><span class="viewcode-link">[source]</span></a></dt>
+<dd><p>MaxPm commands group definition. 1 total commands, 0 Subgroups, 1 group commands</p>
+<dl class="py class">
+<dt>
+<em class="property">class </em><code class="sig-name descname">MaxPmStruct</code><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/ChrDetection/Table/Phase/MaxPm.html#MaxPm.MaxPmStruct"><span class="viewcode-link">[source]</span></a></dt>
+<dd><p>Response structure. Fields:</p>
+<ul class="simple">
+<li><p>State: bool: ON | OFF | 0 | 1 OFF | 0 The parameter is included. ON | 1 The parameter is not included</p></li>
+<li><p>Scaling: enums.AngleUnit: DEG | RAD Defines the scaling for the phase parameters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt>
+<code class="sig-name descname">get</code><span class="sig-paren">(</span><em class="sig-param">window=&lt;Window.Default: -1&gt;</em><span class="sig-paren">)</span> &#x2192; MaxPmStruct<a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/ChrDetection/Table/Phase/MaxPm.html#MaxPm.get"><span class="viewcode-link">[source]</span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CALCulate&lt;n&gt;:CHRDetection:TABLe:PHASe:MAXPm</span>
+<span class="n">value</span><span class="p">:</span> <span class="n">MaxPmStruct</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k60Transient</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">chrDetection</span><span class="o">.</span><span class="n">table</span><span class="o">.</span><span class="n">phase</span><span class="o">.</span><span class="n">maxPm</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">window</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If enabled, the specified phase deviation parameter is included in the result tables (see ‘Phase parameters’) . Note that
+only the enabled columns are returned for the method RsFsw.Applications.K60_Transient.Calculate.ChrDetection.Table.
+<a href="#id1"><span class="problematic" id="id2">Results.get_</span></a> query.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">param window</dt>
+<dd class="field-odd"><p>optional repeated capability selector. Default value: Nr1 (settable in the interface ‘Calculate’)</p>
+</dd>
+<dt class="field-even">return</dt>
+<dd class="field-even"><p>structure: for return value, see the help for MaxPmStruct structure arguments.</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt>
+<code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param">state: bool</em>, <em class="sig-param">scaling: RsFsw.enums.AngleUnit = None</em>, <em class="sig-param">window=&lt;Window.Default: -1&gt;</em><span class="sig-paren">)</span> &#x2192; None<a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/ChrDetection/Table/Phase/MaxPm.html#MaxPm.set"><span class="viewcode-link">[source]</span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CALCulate&lt;n&gt;:CHRDetection:TABLe:PHASe:MAXPm</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k60Transient</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">chrDetection</span><span class="o">.</span><span class="n">table</span><span class="o">.</span><span class="n">phase</span><span class="o">.</span><span class="n">maxPm</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">state</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">scaling</span> <span class="o">=</span> <span class="n">enums</span><span class="o">.</span><span class="n">AngleUnit</span><span class="o">.</span><span class="n">DEG</span><span class="p">,</span> <span class="n">window</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If enabled, the specified phase deviation parameter is included in the result tables (see ‘Phase parameters’) . Note that
+only the enabled columns are returned for the method RsFsw.Applications.K60_Transient.Calculate.ChrDetection.Table.
+<a href="#id3"><span class="problematic" id="id4">Results.get_</span></a> query.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">param state</dt>
+<dd class="field-odd"><p>ON | OFF | 0 | 1 OFF | 0 The parameter is included. ON | 1 The parameter is not included</p>
+</dd>
+<dt class="field-even">param scaling</dt>
+<dd class="field-even"><p>DEG | RAD Defines the scaling for the phase parameters</p>
+</dd>
+<dt class="field-odd">param window</dt>
+<dd class="field-odd"><p>optional repeated capability selector. Default value: Nr1 (settable in the interface ‘Calculate’)</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="Applications_K60_Transient_Calculate_ChrDetection_Table_Phase_RmsPm.html" class="btn btn-neutral float-right" title="RmsPm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="Applications_K60_Transient_Calculate_ChrDetection_Table_Phase_AvgPm.html" class="btn btn-neutral float-left" title="AvgPm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright © Rohde &amp; Schwarz 2021
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

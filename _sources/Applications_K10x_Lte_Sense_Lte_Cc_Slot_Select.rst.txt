@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LTE:CC<CarrierComponent>:SLOT:SELect
+
+.. code-block:: python
+
+	SENSe:LTE:CC<CarrierComponent>:SLOT:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Cc.Slot.Select.Select
+	:members:
+	:undoc-members:
+	:noindex:

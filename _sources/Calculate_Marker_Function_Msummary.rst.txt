@@ -1,0 +1,20 @@
+Msummary
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:MSUMmary
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:MSUMmary
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Msummary.Msummary
+	:members:
+	:undoc-members:
+	:noindex:

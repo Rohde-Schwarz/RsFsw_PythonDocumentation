@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:Z:ALL
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:Z:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Z.All.All
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Timing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:CHIRp:TIMing
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:CHIRp:TIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Chirp.Timing.Timing
+	:members:
+	:undoc-members:
+	:noindex:

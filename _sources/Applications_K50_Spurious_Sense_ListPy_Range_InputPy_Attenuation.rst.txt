@@ -1,0 +1,20 @@
+Attenuation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:INPut:ATTenuation
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:INPut:ATTenuation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.InputPy.Attenuation.Attenuation
+	:members:
+	:undoc-members:
+	:noindex:

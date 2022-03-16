@@ -1,0 +1,20 @@
+Pb
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:PDSCh:PB
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:PDSCh:PB
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Pdsch.Pb.Pb
+	:members:
+	:undoc-members:
+	:noindex:

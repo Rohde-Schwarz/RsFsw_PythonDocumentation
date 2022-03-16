@@ -1,0 +1,20 @@
+Espectrum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INITiate:ESPectrum
+
+.. code-block:: python
+
+	INITiate:ESPectrum
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Espectrum.Espectrum
+	:members:
+	:undoc-members:
+	:noindex:

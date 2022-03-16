@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:MODE
+
+.. code-block:: python
+
+	HCOPy:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

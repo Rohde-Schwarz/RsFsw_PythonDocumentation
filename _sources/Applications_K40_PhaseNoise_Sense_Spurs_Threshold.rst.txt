@@ -1,0 +1,20 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SPURs:THReshold
+
+.. code-block:: python
+
+	SENSe:SPURs:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Spurs.Threshold.Threshold
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Nfft
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DIRected:NFFT
+
+.. code-block:: python
+
+	SENSe:DIRected:NFFT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.Nfft.Nfft
+	:members:
+	:undoc-members:
+	:noindex:

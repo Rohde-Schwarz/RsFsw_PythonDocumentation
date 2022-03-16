@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SWEep:EGATe:AUTO
+
+.. code-block:: python
+
+	SENSe:SWEep:EGATe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

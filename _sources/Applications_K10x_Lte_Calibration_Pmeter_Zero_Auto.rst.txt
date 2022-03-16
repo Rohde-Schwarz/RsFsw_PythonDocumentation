@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALibration:PMETer<PowerMeter>:ZERO:AUTO
+
+.. code-block:: python
+
+	CALibration:PMETer<PowerMeter>:ZERO:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calibration.Pmeter.Zero.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

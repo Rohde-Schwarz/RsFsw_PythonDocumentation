@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CHIRp:FMSettling:FMSTime:SDEViation
+
+.. code-block:: python
+
+	SENSe:CHIRp:FMSettling:FMSTime:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.FmSettling.FmStime.StandardDev.StandardDev
+	:members:
+	:undoc-members:
+	:noindex:

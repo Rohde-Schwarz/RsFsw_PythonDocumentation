@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:SUMMary:EVM:USOP:AVERage
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:SUMMary:EVM:USOP:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Evm.Usop.Average.Average
+	:members:
+	:undoc-members:
+	:noindex:

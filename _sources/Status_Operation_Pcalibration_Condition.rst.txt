@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:OPERation:PCALibration:CONDition
+
+.. code-block:: python
+
+	STATus:OPERation:PCALibration:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Operation.Pcalibration.Condition.Condition
+	:members:
+	:undoc-members:
+	:noindex:

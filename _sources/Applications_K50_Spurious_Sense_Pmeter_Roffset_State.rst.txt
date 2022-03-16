@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:ROFFset:STATe
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:ROFFset:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Pmeter.Roffset.State.State
+	:members:
+	:undoc-members:
+	:noindex:

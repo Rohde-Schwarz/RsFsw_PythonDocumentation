@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:BURSt:PREamble:IMMediate
+
+.. code-block:: python
+
+	CONFigure:BURSt:PREamble:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Preamble.Immediate.Immediate
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:BURSt:PPDU:TYPE
+
+.. code-block:: python
+
+	FETCh:BURSt:PPDU:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Ppdu.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

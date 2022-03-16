@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:SUMMary:MEAN:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:SUMMary:MEAN:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Summary.Mean.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

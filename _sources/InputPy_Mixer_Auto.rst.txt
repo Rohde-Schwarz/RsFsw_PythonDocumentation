@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:MIXer:AUTO
+
+.. code-block:: python
+
+	INPut<InputIx>:MIXer:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Mixer.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

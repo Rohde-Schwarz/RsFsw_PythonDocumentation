@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SOURce:EXTernal<ExternalGen>:FREQuency:COUPling:STATe
+
+.. code-block:: python
+
+	SOURce:EXTernal<ExternalGen>:FREQuency:COUPling:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Frequency.Coupling.State.State
+	:members:
+	:undoc-members:
+	:noindex:

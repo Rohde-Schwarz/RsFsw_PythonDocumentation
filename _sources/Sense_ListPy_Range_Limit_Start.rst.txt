@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:LIMit:STARt
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:LIMit:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Limit.Start.Start
+	:members:
+	:undoc-members:
+	:noindex:

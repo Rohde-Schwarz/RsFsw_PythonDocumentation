@@ -1,0 +1,20 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FREQuency:SPAN
+
+.. code-block:: python
+
+	SENSe:FREQuency:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Frequency.Span.Span
+	:members:
+	:undoc-members:
+	:noindex:

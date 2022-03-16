@@ -1,0 +1,20 @@
+Phase
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:PHASe
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:PHASe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.Phase.Phase
+	:members:
+	:undoc-members:
+	:noindex:

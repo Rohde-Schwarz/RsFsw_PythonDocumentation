@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:FREQuency:BWIDth
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:FREQuency:BWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.Bandwidth.Bandwidth
+	:members:
+	:undoc-members:
+	:noindex:

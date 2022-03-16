@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:EXTended:CONDition
+
+.. code-block:: python
+
+	STATus:QUEStionable:EXTended:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Extended.Condition.Condition
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:FREQuency:REFerence
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:FREQuency:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Frequency.Reference.Reference
+	:members:
+	:undoc-members:
+	:noindex:

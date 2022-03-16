@@ -1,0 +1,20 @@
+Llines
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:LLINes
+
+.. code-block:: python
+
+	INSTrument:COUPle:LLINes
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Llines.Llines
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SWEep:TIME:AUTO
+
+.. code-block:: python
+
+	SENSe:SWEep:TIME:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Time.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

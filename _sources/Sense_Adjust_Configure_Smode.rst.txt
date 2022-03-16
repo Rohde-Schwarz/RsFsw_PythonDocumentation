@@ -1,0 +1,20 @@
+Smode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADJust:CONFigure:SMODe
+
+.. code-block:: python
+
+	SENSe:ADJust:CONFigure:SMODe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Adjust.Configure.Smode.Smode
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Msis
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:MSIS
+
+.. code-block:: python
+
+	MMEMory:MSIS
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Msis.Msis
+	:members:
+	:undoc-members:
+	:noindex:

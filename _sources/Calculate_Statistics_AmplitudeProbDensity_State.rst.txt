@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:STATistics:APD:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:STATistics:APD:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.AmplitudeProbDensity.State.State
+	:members:
+	:undoc-members:
+	:noindex:

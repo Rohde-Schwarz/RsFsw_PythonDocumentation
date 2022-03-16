@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INITiate:SEQuencer:MODE
+
+.. code-block:: python
+
+	INITiate:SEQuencer:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Sequencer.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

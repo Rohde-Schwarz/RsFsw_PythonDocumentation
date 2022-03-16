@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:TOI:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:TOI:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Toi.State.State
+	:members:
+	:undoc-members:
+	:noindex:

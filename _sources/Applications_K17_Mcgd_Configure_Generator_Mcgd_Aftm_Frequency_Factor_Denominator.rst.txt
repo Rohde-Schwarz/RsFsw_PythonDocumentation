@@ -1,0 +1,20 @@
+Denominator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:MCGD:AFTM:FREQuency:FACTor:DENominator
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:AFTM:FREQuency:FACTor:DENominator
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Frequency.Factor.Denominator.Denominator
+	:members:
+	:undoc-members:
+	:noindex:

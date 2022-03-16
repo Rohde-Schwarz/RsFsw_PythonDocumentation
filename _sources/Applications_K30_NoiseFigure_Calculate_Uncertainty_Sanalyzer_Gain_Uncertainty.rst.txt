@@ -1,0 +1,20 @@
+Uncertainty
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNCertainty:SANalyzer:GAIN:UNCertainty
+
+.. code-block:: python
+
+	CALCulate<Window>:UNCertainty:SANalyzer:GAIN:UNCertainty
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Sanalyzer.Gain.Uncertainty.Uncertainty
+	:members:
+	:undoc-members:
+	:noindex:

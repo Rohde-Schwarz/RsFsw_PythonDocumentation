@@ -1,0 +1,20 @@
+MaxVolume
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:SPEaker:MAXVolume
+
+.. code-block:: python
+
+	SYSTem:SPEaker:MAXVolume
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Speaker.MaxVolume.MaxVolume
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Dspread
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DEMod:INTerpolate:WIENer:DSPRead
+
+.. code-block:: python
+
+	SENSe:DEMod:INTerpolate:WIENer:DSPRead
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Interpolate.Wiener.Dspread.Dspread
+	:members:
+	:undoc-members:
+	:noindex:

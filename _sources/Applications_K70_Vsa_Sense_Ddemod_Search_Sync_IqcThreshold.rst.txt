@@ -1,0 +1,20 @@
+IqcThreshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:SEARch:SYNC:IQCThreshold
+
+.. code-block:: python
+
+	SENSe:DDEMod:SEARch:SYNC:IQCThreshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.IqcThreshold.IqcThreshold
+	:members:
+	:undoc-members:
+	:noindex:

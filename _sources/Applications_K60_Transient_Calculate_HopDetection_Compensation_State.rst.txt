@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:COMPensation:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:COMPensation:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Compensation.State.State
+	:members:
+	:undoc-members:
+	:noindex:

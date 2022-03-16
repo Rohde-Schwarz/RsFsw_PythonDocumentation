@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:FREQuency:COUPling:STATe
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:FREQuency:COUPling:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Frequency.Coupling.State.State
+	:members:
+	:undoc-members:
+	:noindex:

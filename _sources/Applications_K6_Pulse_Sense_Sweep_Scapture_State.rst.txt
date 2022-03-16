@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SWEep:SCAPture:STATe
+
+.. code-block:: python
+
+	SENSe:SWEep:SCAPture:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Sweep.Scapture.State.State
+	:members:
+	:undoc-members:
+	:noindex:

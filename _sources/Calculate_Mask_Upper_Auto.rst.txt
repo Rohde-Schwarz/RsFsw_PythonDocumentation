@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MASK:UPPer:AUTO
+
+.. code-block:: python
+
+	CALCulate<Window>:MASK:UPPer:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Upper.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

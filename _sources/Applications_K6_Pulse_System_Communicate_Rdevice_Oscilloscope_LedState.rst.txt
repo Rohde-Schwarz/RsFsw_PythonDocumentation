@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:LEDState
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.System.Communicate.Rdevice.Oscilloscope.LedState.LedState
+	:members:
+	:undoc-members:
+	:noindex:

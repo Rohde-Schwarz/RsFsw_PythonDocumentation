@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:WLAN:STBC:AUTO:TYPE
+
+.. code-block:: python
+
+	CONFigure:WLAN:STBC:AUTO:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Stbc.Auto.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

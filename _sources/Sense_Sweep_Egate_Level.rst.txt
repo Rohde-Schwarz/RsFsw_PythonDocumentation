@@ -1,0 +1,30 @@
+Level
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Level.Level
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.sweep.egate.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Sweep_Egate_Level_External.rst
+	Sense_Sweep_Egate_Level_IfPower.rst
+	Sense_Sweep_Egate_Level_RfPower.rst

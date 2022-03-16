@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:LISN:FILTer:HPASs:STATe
+
+.. code-block:: python
+
+	INPut<InputIx>:LISN:FILTer:HPASs:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.InputPy.Lisn.FilterPy.Hpass.State.State
+	:members:
+	:undoc-members:
+	:noindex:

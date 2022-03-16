@@ -1,0 +1,20 @@
+Rrange
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RRANge
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RRANge
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Espectrum.Rrange.Rrange
+	:members:
+	:undoc-members:
+	:noindex:

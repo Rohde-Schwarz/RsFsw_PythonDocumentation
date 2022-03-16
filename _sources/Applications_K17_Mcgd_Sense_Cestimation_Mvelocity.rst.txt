@@ -1,0 +1,20 @@
+Mvelocity
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CESTimation:MVELocity
+
+.. code-block:: python
+
+	SENSe:CESTimation:MVELocity
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Cestimation.Mvelocity.Mvelocity
+	:members:
+	:undoc-members:
+	:noindex:

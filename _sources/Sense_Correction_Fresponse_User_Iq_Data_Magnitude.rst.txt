@@ -1,0 +1,20 @@
+Magnitude
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FORMAT REAL,32;SENSe:CORRection:FRESponse:USER:IQ:DATA:MAGNitude
+
+.. code-block:: python
+
+	FORMAT REAL,32;SENSe:CORRection:FRESponse:USER:IQ:DATA:MAGNitude
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Iq.Data.Magnitude.Magnitude
+	:members:
+	:undoc-members:
+	:noindex:

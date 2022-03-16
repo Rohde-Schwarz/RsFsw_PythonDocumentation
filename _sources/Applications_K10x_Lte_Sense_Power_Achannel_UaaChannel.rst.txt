@@ -1,0 +1,20 @@
+UaaChannel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:ACHannel:UAAChannel
+
+.. code-block:: python
+
+	SENSe:POWer:ACHannel:UAAChannel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Achannel.UaaChannel.UaaChannel
+	:members:
+	:undoc-members:
+	:noindex:

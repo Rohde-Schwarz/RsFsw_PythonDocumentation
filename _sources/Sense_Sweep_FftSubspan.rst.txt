@@ -1,0 +1,20 @@
+FftSubspan
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SWEep:FFTSubspan
+
+.. code-block:: python
+
+	SENSe:SWEep:FFTSubspan
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.FftSubspan.FftSubspan
+	:members:
+	:undoc-members:
+	:noindex:

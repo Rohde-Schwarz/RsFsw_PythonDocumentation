@@ -1,0 +1,20 @@
+Found
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:SEARch:SYNC:FOUNd
+
+.. code-block:: python
+
+	SENSe:DDEMod:SEARch:SYNC:FOUNd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Found.Found
+	:members:
+	:undoc-members:
+	:noindex:

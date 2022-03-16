@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MSRA:ALINe:VALue
+
+.. code-block:: python
+
+	CALCulate<Window>:MSRA:ALINe:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Msra.Aline.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

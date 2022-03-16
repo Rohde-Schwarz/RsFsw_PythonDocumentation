@@ -1,0 +1,20 @@
+Absolute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate<Channel>:RESult:ABSolute
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate<Channel>:RESult:ABSolute
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.AcPower.Alternate.Result.Absolute.Absolute
+	:members:
+	:undoc-members:
+	:noindex:

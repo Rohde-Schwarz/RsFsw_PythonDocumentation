@@ -1,0 +1,20 @@
+DeviceFootprint
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:DFPRint
+
+.. code-block:: python
+
+	SYSTem:DFPRint
+
+
+
+.. autoclass:: RsFsw.Implementations.System.DeviceFootprint.DeviceFootprint
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+High
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SOURce:CURRent:CONTrol<Source>:LIMit:HIGH
+
+.. code-block:: python
+
+	SOURce:CURRent:CONTrol<Source>:LIMit:HIGH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Current.Control.Limit.High.High
+	:members:
+	:undoc-members:
+	:noindex:

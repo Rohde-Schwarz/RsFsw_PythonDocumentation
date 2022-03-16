@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:DCYCle:STATe
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:DCYCle:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Pmeter.Dcycle.State.State
+	:members:
+	:undoc-members:
+	:noindex:

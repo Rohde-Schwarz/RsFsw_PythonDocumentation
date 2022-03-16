@@ -1,0 +1,20 @@
+Cestimation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DEMod:CESTimation
+
+.. code-block:: python
+
+	SENSe:DEMod:CESTimation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Cestimation.Cestimation
+	:members:
+	:undoc-members:
+	:noindex:

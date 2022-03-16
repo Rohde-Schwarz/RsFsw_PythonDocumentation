@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:ACHannel:SPACing:GAP<GapChannel>:MANual:UPPer
+
+.. code-block:: python
+
+	SENSe:POWer:ACHannel:SPACing:GAP<GapChannel>:MANual:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Spacing.Gap.Manual.Upper.Upper
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:FREQuency:REFerence
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:FREQuency:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Frequency.Reference.Reference
+	:members:
+	:undoc-members:
+	:noindex:

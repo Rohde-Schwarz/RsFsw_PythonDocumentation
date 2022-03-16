@@ -1,0 +1,20 @@
+Summary
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DIAGnostic:HUMS:SYSTem:STATus:SUMMary
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:SYSTem:STATus:SUMMary
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.System.Status.Summary.Summary
+	:members:
+	:undoc-members:
+	:noindex:

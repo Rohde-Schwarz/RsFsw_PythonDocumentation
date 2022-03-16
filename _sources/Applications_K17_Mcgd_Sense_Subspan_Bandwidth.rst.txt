@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SUBSpan:BANDwidth
+
+.. code-block:: python
+
+	SENSe:SUBSpan:BANDwidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Subspan.Bandwidth.Bandwidth
+	:members:
+	:undoc-members:
+	:noindex:

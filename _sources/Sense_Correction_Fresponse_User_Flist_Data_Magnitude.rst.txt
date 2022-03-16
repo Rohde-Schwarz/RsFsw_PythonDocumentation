@@ -1,0 +1,20 @@
+Magnitude
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:FRESponse:USER:FLISt<FileList>:DATA:MAGNitude
+
+.. code-block:: python
+
+	SENSe:CORRection:FRESponse:USER:FLISt<FileList>:DATA:MAGNitude
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Flist.Data.Magnitude.Magnitude
+	:members:
+	:undoc-members:
+	:noindex:

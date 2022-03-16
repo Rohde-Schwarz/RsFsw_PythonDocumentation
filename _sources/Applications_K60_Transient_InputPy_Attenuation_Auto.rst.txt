@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut:ATTenuation:AUTO
+
+.. code-block:: python
+
+	INPut:ATTenuation:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.InputPy.Attenuation.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

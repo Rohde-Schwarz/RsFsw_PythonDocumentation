@@ -1,0 +1,20 @@
+Ddpd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe<Store>:DDPD
+
+.. code-block:: python
+
+	MMEMory:STORe<Store>:DDPD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.MassMemory.Store.Ddpd.Ddpd
+	:members:
+	:undoc-members:
+	:noindex:

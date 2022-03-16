@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:STRack:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:STRack:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Strack.State.State
+	:members:
+	:undoc-members:
+	:noindex:

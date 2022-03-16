@@ -1,0 +1,20 @@
+Tsidelobe
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:TSIDelobe
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:TSIDelobe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.Tsidelobe.Tsidelobe
+	:members:
+	:undoc-members:
+	:noindex:

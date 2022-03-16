@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:Y:SCALe:AUTO:MODE
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:Y:SCALe:AUTO:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.Subwindow.Trace.Y.Scale.Auto.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

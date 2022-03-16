@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:REFSignal:GOS:SRATe
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.SymbolRate.SymbolRate
+	:members:
+	:undoc-members:
+	:noindex:

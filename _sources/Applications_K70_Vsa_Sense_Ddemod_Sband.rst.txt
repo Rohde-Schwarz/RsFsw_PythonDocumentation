@@ -1,0 +1,20 @@
+Sband
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:SBANd
+
+.. code-block:: python
+
+	SENSe:DDEMod:SBANd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Sband.Sband
+	:members:
+	:undoc-members:
+	:noindex:

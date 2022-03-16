@@ -1,0 +1,20 @@
+Dummy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:POINts:MINinum:VALue:DUMMy
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:POINts:MINinum:VALue:DUMMy
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Points.Minimum.Value.Dummy.Dummy
+	:members:
+	:undoc-members:
+	:noindex:

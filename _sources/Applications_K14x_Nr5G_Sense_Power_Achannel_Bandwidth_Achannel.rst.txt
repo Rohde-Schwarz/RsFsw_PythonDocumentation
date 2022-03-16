@@ -1,0 +1,20 @@
+Achannel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:ACHannel:BWIDth:ACHannel
+
+.. code-block:: python
+
+	SENSe:POWer:ACHannel:BWIDth:ACHannel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Bandwidth.Achannel.Achannel
+	:members:
+	:undoc-members:
+	:noindex:

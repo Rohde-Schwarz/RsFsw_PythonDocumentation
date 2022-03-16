@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MASK:COMMent
+
+.. code-block:: python
+
+	CALCulate<Window>:MASK:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Comment.Comment
+	:members:
+	:undoc-members:
+	:noindex:

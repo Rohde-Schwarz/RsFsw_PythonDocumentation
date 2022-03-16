@@ -1,0 +1,20 @@
+Rlength
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADEMod:RLENgth
+
+.. code-block:: python
+
+	SENSe:ADEMod:RLENgth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Rlength.Rlength
+	:members:
+	:undoc-members:
+	:noindex:

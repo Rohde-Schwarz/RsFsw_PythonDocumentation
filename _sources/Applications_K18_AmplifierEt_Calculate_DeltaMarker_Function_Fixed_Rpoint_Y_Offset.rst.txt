@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:FIXed:RPOint:Y:OFFSet
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:FIXed:RPOint:Y:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.DeltaMarker.Function.Fixed.Rpoint.Y.Offset.Offset
+	:members:
+	:undoc-members:
+	:noindex:

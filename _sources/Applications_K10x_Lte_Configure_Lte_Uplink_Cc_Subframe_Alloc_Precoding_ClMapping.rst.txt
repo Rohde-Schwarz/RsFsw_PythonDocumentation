@@ -1,0 +1,20 @@
+ClMapping
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc:PRECoding:CLMapping
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc:PRECoding:CLMapping
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Precoding.ClMapping.ClMapping
+	:members:
+	:undoc-members:
+	:noindex:

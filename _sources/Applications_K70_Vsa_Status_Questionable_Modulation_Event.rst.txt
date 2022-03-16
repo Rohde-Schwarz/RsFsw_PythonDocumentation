@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:MODulation<Window>:EVENt
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<Window>:EVENt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Event.Event
+	:members:
+	:undoc-members:
+	:noindex:

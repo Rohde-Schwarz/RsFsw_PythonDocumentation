@@ -1,0 +1,20 @@
+Psignal
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:PSIGnal
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:PSIGnal
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Psignal.Psignal
+	:members:
+	:undoc-members:
+	:noindex:

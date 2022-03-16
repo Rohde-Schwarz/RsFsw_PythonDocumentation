@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:VIDeo:STATe
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:VIDeo:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Video.State.State
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,37 @@
+Hbursts
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:PACKet:DATA:HBURsts
+
+.. code-block:: python
+
+	FETCh<Window>:PACKet:DATA:HBURsts
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Hbursts.Hbursts
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.packet.data.hbursts.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Packet_Data_Hbursts_Apackets.rst

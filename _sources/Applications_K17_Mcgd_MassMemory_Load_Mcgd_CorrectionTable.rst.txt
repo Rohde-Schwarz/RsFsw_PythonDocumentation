@@ -1,0 +1,20 @@
+CorrectionTable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:LOAD:MCGD:CTABle
+
+.. code-block:: python
+
+	MMEMory:LOAD:MCGD:CTABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.MassMemory.Load.Mcgd.CorrectionTable.CorrectionTable
+	:members:
+	:undoc-members:
+	:noindex:

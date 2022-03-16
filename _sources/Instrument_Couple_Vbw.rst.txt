@@ -1,0 +1,20 @@
+Vbw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:VBW
+
+.. code-block:: python
+
+	INSTrument:COUPle:VBW
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Vbw.Vbw
+	:members:
+	:undoc-members:
+	:noindex:

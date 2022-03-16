@@ -1,0 +1,20 @@
+Begin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:TIMing:BEGin
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:TIMing:BEGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Timing.Begin.Begin
+	:members:
+	:undoc-members:
+	:noindex:

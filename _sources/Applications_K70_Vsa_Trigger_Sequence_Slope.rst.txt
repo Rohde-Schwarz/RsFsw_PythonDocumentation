@@ -1,0 +1,20 @@
+Slope
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRIGger<TriggerPort>:SEQuence:SLOPe
+
+.. code-block:: python
+
+	TRIGger<TriggerPort>:SEQuence:SLOPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.Slope.Slope
+	:members:
+	:undoc-members:
+	:noindex:

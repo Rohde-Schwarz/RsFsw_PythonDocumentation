@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PNLimit:TYPE
+
+.. code-block:: python
+
+	CALCulate<Window>:PNLimit:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.PnLimit.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PULSe:EMODel:FTPTime:LIMit
+
+.. code-block:: python
+
+	SENSe:PULSe:EMODel:FTPTime:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallTopPoint.Time.Limit.Limit
+	:members:
+	:undoc-members:
+	:noindex:

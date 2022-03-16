@@ -1,0 +1,20 @@
+Configure
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:WINDow<Window>:DISPlay:RWConfig:CONFigure
+
+.. code-block:: python
+
+	SENSe:WINDow<Window>:DISPlay:RWConfig:CONFigure
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.RwConfig.Configure.Configure
+	:members:
+	:undoc-members:
+	:noindex:

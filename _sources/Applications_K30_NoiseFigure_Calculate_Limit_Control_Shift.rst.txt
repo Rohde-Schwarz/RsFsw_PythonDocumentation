@@ -1,0 +1,20 @@
+Shift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CONTrol:SHIFt
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CONTrol:SHIFt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Limit.Control.Shift.Shift
+	:members:
+	:undoc-members:
+	:noindex:

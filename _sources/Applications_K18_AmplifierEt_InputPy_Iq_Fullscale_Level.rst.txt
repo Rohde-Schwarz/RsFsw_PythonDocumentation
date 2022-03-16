@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:IQ:FULLscale:LEVel
+
+.. code-block:: python
+
+	INPut<InputIx>:IQ:FULLscale:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.InputPy.Iq.Fullscale.Level.Level
+	:members:
+	:undoc-members:
+	:noindex:

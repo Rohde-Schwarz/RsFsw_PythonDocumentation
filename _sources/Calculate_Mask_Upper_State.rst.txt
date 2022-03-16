@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MASK:UPPer:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MASK:UPPer:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Upper.State.State
+	:members:
+	:undoc-members:
+	:noindex:

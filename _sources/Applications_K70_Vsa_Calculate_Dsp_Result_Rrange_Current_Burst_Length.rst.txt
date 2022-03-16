@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DSP:RESult:RRANge:CURRent:BURSt:LENGth
+
+.. code-block:: python
+
+	CALCulate<Window>:DSP:RESult:RRANge:CURRent:BURSt:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Rrange.Current.Burst.Length.Length
+	:members:
+	:undoc-members:
+	:noindex:

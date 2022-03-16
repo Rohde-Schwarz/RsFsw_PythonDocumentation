@@ -1,0 +1,20 @@
+Usqp
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:USQP
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:USQP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Usqp.Usqp
+	:members:
+	:undoc-members:
+	:noindex:

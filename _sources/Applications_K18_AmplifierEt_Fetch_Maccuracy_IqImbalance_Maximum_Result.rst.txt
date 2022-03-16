@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:MACCuracy:IQIMbalance:MAXimum:RESult
+
+.. code-block:: python
+
+	FETCh:MACCuracy:IQIMbalance:MAXimum:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.IqImbalance.Maximum.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

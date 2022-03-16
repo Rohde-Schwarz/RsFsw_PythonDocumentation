@@ -1,0 +1,20 @@
+Center
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:ACHannel:SBLock<SubBlock>:FREQuency:CENTer
+
+.. code-block:: python
+
+	SENSe:POWer:ACHannel:SBLock<SubBlock>:FREQuency:CENTer
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Sblock.Frequency.Center.Center
+	:members:
+	:undoc-members:
+	:noindex:

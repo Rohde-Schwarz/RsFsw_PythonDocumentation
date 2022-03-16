@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:MODulation<Window>:EVM:CONDition
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<Window>:EVM:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Evm.Condition.Condition
+	:members:
+	:undoc-members:
+	:noindex:

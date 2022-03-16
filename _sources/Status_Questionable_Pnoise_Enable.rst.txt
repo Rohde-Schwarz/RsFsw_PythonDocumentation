@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:PNOise:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:PNOise:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Pnoise.Enable.Enable
+	:members:
+	:undoc-members:
+	:noindex:

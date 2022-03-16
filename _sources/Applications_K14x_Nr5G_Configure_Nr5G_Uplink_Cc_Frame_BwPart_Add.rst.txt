@@ -1,0 +1,20 @@
+Add
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:ADD
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:ADD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Add.Add
+	:members:
+	:undoc-members:
+	:noindex:

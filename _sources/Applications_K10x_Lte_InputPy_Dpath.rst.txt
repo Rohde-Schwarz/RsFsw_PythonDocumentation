@@ -1,0 +1,20 @@
+Dpath
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:DPATh
+
+.. code-block:: python
+
+	INPut<InputIx>:DPATh
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Dpath.Dpath
+	:members:
+	:undoc-members:
+	:noindex:

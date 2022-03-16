@@ -1,0 +1,20 @@
+Link
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:LINK
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:LINK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Link.Link
+	:members:
+	:undoc-members:
+	:noindex:

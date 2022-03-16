@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: LAYout:ADD:WINDow
+
+.. code-block:: python
+
+	LAYout:ADD:WINDow
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Layout.Add.Window.Window
+	:members:
+	:undoc-members:
+	:noindex:

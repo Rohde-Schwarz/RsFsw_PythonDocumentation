@@ -1,0 +1,20 @@
+PmSettling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:HOP:PMSettling
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:HOP:PMSettling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Hop.PmSettling.PmSettling
+	:members:
+	:undoc-members:
+	:noindex:

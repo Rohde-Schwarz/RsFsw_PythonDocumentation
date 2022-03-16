@@ -1,0 +1,20 @@
+Bcount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:STATistics:SCALe:X:BCOunt
+
+.. code-block:: python
+
+	CALCulate<Window>:STATistics:SCALe:X:BCOunt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Statistics.Scale.X.Bcount.Bcount
+	:members:
+	:undoc-members:
+	:noindex:

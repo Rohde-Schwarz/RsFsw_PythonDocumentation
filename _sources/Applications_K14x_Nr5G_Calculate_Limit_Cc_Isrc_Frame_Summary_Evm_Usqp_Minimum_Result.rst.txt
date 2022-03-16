@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:EVM:USQP:MINimum:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:EVM:USQP:MINimum:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Cc.Isrc.Frame.Summary.Evm.Usqp.Minimum.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

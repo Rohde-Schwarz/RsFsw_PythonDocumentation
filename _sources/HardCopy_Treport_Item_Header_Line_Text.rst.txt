@@ -1,0 +1,20 @@
+Text
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:TREPort:ITEM:HEADer:LINE<Line>:TEXT
+
+.. code-block:: python
+
+	HCOPy:TREPort:ITEM:HEADer:LINE<Line>:TEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.Header.Line.Text.Text
+	:members:
+	:undoc-members:
+	:noindex:

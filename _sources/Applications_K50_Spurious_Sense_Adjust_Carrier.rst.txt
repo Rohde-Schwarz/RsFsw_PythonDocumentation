@@ -1,0 +1,20 @@
+Carrier
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADJust:CARRier
+
+.. code-block:: python
+
+	SENSe:ADJust:CARRier
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Adjust.Carrier.Carrier
+	:members:
+	:undoc-members:
+	:noindex:

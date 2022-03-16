@@ -1,0 +1,20 @@
+Angle
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNIT:ANGLe
+
+.. code-block:: python
+
+	CALCulate<Window>:UNIT:ANGLe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Unit.Angle.Angle
+	:members:
+	:undoc-members:
+	:noindex:

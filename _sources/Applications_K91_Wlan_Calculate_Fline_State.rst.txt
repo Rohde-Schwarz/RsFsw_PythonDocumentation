@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:FLINe<FreqLine>:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:FLINe<FreqLine>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Fline.State.State
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Standard
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:PRESet:STANdard
+
+.. code-block:: python
+
+	SENSe:DDEMod:PRESet:STANdard
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Preset.Standard.Standard
+	:members:
+	:undoc-members:
+	:noindex:

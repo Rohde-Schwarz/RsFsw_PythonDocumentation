@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:BURSt:RMS:AVERage
+
+.. code-block:: python
+
+	FETCh:BURSt:RMS:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Rms.Average.Average
+	:members:
+	:undoc-members:
+	:noindex:

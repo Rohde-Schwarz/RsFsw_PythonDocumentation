@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DETector<Trace>:FUNCtion:AUTO
+
+.. code-block:: python
+
+	SENSe:DETector<Trace>:FUNCtion:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Detector.Function.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

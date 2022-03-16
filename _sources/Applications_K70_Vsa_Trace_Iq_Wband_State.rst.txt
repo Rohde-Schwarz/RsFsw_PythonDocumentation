@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe:IQ:WBANd:STATe
+
+.. code-block:: python
+
+	TRACe:IQ:WBANd:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trace.Iq.Wband.State.State
+	:members:
+	:undoc-members:
+	:noindex:

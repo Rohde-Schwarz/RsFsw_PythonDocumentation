@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:TRIGger:LEVel
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:TRIGger:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Trigger.Level.Level
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:ANNotation:FREQuency
+
+.. code-block:: python
+
+	DISPlay:ANNotation:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Annotation.Frequency.Frequency
+	:members:
+	:undoc-members:
+	:noindex:

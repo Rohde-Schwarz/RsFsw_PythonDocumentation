@@ -1,0 +1,20 @@
+Nsamples
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:ALLocation<Allocation>:PTRS:NSAMples
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:ALLocation<Allocation>:PTRS:NSAMples
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Slot.Allocation.Ptrs.Nsamples.Nsamples
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:FPEaks:IMMediate
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:FPEaks:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Fpeaks.Immediate.Immediate
+	:members:
+	:undoc-members:
+	:noindex:

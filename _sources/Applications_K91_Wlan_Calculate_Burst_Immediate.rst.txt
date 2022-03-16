@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:BURSt:IMMediate
+
+.. code-block:: python
+
+	CALCulate<Window>:BURSt:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Burst.Immediate.Immediate
+	:members:
+	:undoc-members:
+	:noindex:

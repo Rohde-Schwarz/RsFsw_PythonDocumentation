@@ -1,0 +1,20 @@
+FmSpoint
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:FMSettling:FMSPoint
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:FMSettling:FMSPoint
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.FmSettling.FmSpoint.FmSpoint
+	:members:
+	:undoc-members:
+	:noindex:

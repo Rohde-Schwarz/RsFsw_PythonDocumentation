@@ -1,0 +1,20 @@
+Sdst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:SDST
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:SDST
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Sdst.Sdst
+	:members:
+	:undoc-members:
+	:noindex:

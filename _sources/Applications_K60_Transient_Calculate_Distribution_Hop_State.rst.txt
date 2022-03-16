@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:HOP:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:HOP:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Hop.State.State
+	:members:
+	:undoc-members:
+	:noindex:

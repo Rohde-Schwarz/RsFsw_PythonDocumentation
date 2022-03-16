@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:LISN:TYPE
+
+.. code-block:: python
+
+	INPut<InputIx>:LISN:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Lisn.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

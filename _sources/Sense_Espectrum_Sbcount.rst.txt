@@ -1,0 +1,20 @@
+Sbcount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:SBCount
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:SBCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Sbcount.Sbcount
+	:members:
+	:undoc-members:
+	:noindex:

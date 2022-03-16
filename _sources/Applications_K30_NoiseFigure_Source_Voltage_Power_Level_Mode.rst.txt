@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SOURce:VOLTage:POWer<Source>:LEVel:MODE
+
+.. code-block:: python
+
+	SOURce:VOLTage:POWer<Source>:LEVel:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.Power.Level.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

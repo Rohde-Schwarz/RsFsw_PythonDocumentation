@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:QPSK:FORMat
+
+.. code-block:: python
+
+	SENSe:DDEMod:QPSK:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Qpsk.FormatPy.FormatPy
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe<Store>:PEAK
+
+.. code-block:: python
+
+	MMEMory:STORe<Store>:PEAK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.MassMemory.Store.Peak.Peak
+	:members:
+	:undoc-members:
+	:noindex:

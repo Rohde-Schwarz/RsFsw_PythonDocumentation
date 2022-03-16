@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.AcPower.Alternate.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

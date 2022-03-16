@@ -1,0 +1,20 @@
+Nwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:REFSignal:GOS:NWIDth
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:NWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Nwidth.Nwidth
+	:members:
+	:undoc-members:
+	:noindex:

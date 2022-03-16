@@ -1,0 +1,20 @@
+ConMeas
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INITiate:CONMeas
+
+.. code-block:: python
+
+	INITiate:CONMeas
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.ConMeas.ConMeas
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:MDEPth:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:MDEPth:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Mdepth.State.State
+	:members:
+	:undoc-members:
+	:noindex:

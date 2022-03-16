@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:TYPE
+
+.. code-block:: python
+
+	INPut<InputIx>:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.InputPy.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Timing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:HOP:TIMing
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:HOP:TIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Hop.Timing.Timing
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Phase
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:FRESponse:USER:FLISt<FileList>:DATA:PHASe
+
+.. code-block:: python
+
+	SENSe:CORRection:FRESponse:USER:FLISt<FileList>:DATA:PHASe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Flist.Data.Phase.Phase
+	:members:
+	:undoc-members:
+	:noindex:

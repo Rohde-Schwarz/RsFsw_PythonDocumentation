@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:BPOWer:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:BPOWer:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Bpower.State.State
+	:members:
+	:undoc-members:
+	:noindex:

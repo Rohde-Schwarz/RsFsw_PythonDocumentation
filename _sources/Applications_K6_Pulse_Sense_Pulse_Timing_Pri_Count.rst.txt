@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PULSe:TIMing:PRI:COUNt
+
+.. code-block:: python
+
+	SENSe:PULSe:TIMing:PRI:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Pri.Count.Count
+	:members:
+	:undoc-members:
+	:noindex:

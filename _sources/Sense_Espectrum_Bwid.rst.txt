@@ -1,0 +1,20 @@
+Bwid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:BWID
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:BWID
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Bwid.Bwid
+	:members:
+	:undoc-members:
+	:noindex:

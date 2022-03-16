@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:NPRatio:MODE
+
+.. code-block:: python
+
+	SENSe:NPRatio:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

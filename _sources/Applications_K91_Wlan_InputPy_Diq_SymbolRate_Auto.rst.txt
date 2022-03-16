@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:DIQ:SRATe:AUTO
+
+.. code-block:: python
+
+	INPut<InputIx>:DIQ:SRATe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.Diq.SymbolRate.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

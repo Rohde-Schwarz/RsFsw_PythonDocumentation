@@ -1,0 +1,20 @@
+CidGroup
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:PLC:CIDGroup
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:PLC:CIDGroup
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Plc.CidGroup.CidGroup
+	:members:
+	:undoc-members:
+	:noindex:

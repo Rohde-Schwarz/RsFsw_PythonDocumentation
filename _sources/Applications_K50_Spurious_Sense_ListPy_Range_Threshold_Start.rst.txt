@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:THReshold:STARt
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:THReshold:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.Threshold.Start.Start
+	:members:
+	:undoc-members:
+	:noindex:

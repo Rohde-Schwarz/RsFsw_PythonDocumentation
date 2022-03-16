@@ -1,0 +1,20 @@
+Right
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:MINimum:RIGHt
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:MINimum:RIGHt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.Marker.Minimum.Right.Right
+	:members:
+	:undoc-members:
+	:noindex:

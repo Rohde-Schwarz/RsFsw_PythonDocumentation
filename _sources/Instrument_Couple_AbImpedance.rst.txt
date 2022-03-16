@@ -1,0 +1,20 @@
+AbImpedance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:ABIMpedance
+
+.. code-block:: python
+
+	INSTrument:COUPle:ABIMpedance
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.AbImpedance.AbImpedance
+	:members:
+	:undoc-members:
+	:noindex:

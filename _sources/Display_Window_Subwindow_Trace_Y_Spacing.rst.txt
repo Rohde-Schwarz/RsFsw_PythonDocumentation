@@ -1,0 +1,20 @@
+Spacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:Y:SPACing
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:Y:SPACing
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Trace.Y.Spacing.Spacing
+	:members:
+	:undoc-members:
+	:noindex:

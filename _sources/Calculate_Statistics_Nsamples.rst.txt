@@ -1,0 +1,20 @@
+Nsamples
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:STATistics:NSAMples
+
+.. code-block:: python
+
+	CALCulate<Window>:STATistics:NSAMples
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Nsamples.Nsamples
+	:members:
+	:undoc-members:
+	:noindex:

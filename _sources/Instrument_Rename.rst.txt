@@ -1,0 +1,20 @@
+Rename
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:REName
+
+.. code-block:: python
+
+	INSTrument:REName
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Rename.Rename
+	:members:
+	:undoc-members:
+	:noindex:

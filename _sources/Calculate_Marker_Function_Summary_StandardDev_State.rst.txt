@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:SUMMary:SDEViation:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:SUMMary:SDEViation:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Summary.StandardDev.State.State
+	:members:
+	:undoc-members:
+	:noindex:

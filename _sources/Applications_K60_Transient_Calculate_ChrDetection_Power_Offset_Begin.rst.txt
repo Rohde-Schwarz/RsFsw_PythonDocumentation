@@ -1,0 +1,20 @@
+Begin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:POWer:OFFSet:BEGin
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:POWer:OFFSet:BEGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Power.Offset.Begin.Begin
+	:members:
+	:undoc-members:
+	:noindex:

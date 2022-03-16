@@ -1,0 +1,20 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TRENd:TSIDelobe:Y
+
+.. code-block:: python
+
+	CALCulate<Window>:TRENd:TSIDelobe:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Tsidelobe.Y.Y
+	:members:
+	:undoc-members:
+	:noindex:

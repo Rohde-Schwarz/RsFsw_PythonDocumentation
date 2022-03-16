@@ -1,0 +1,20 @@
+NrbOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:NRBoffset
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:NRBoffset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.NrbOffset.NrbOffset
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Meas
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe<Store>:MCGD:MEAS
+
+.. code-block:: python
+
+	MMEMory:STORe<Store>:MCGD:MEAS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.MassMemory.Store.Mcgd.Meas.Meas
+	:members:
+	:undoc-members:
+	:noindex:

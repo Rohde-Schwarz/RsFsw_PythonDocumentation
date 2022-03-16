@@ -1,0 +1,20 @@
+Size
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:FRESponse:USER:SLISt<TouchStone>:SIZE
+
+.. code-block:: python
+
+	SENSe:CORRection:FRESponse:USER:SLISt<TouchStone>:SIZE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Slist.Size.Size
+	:members:
+	:undoc-members:
+	:noindex:

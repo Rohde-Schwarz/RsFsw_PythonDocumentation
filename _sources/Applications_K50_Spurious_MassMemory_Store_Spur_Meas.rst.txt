@@ -1,0 +1,20 @@
+Meas
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe:SPUR:MEAS
+
+.. code-block:: python
+
+	MMEMory:STORe:SPUR:MEAS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.MassMemory.Store.Spur.Meas.Meas
+	:members:
+	:undoc-members:
+	:noindex:

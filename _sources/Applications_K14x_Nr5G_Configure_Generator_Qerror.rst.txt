@@ -1,0 +1,20 @@
+Qerror
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:QERRor
+
+.. code-block:: python
+
+	CONFigure:GENerator:QERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Generator.Qerror.Qerror
+	:members:
+	:undoc-members:
+	:noindex:

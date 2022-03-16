@@ -1,0 +1,20 @@
+Z
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:Z
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:Z
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Z.Z
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+AvgFm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:FREQuency:AVGFm
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:FREQuency:AVGFm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.AvgFm.AvgFm
+	:members:
+	:undoc-members:
+	:noindex:

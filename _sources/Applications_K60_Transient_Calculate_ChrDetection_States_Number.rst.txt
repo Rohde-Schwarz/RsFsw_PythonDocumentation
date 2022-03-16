@@ -1,0 +1,20 @@
+Number
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:STATes:NUMBer
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:STATes:NUMBer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.States.Number.Number
+	:members:
+	:undoc-members:
+	:noindex:

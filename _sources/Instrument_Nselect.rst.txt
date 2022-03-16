@@ -1,0 +1,20 @@
+Nselect
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:NSELect
+
+.. code-block:: python
+
+	INSTrument:NSELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Nselect.Nselect
+	:members:
+	:undoc-members:
+	:noindex:

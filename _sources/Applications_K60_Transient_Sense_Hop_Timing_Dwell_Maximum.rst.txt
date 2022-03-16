@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:HOP:TIMing:DWELl:MAXimum
+
+.. code-block:: python
+
+	SENSe:HOP:TIMing:DWELl:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Timing.Dwell.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

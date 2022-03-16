@@ -1,0 +1,20 @@
+Print
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:PRINt
+
+.. code-block:: python
+
+	HCOPy:PRINt
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Print.Print
+	:members:
+	:undoc-members:
+	:noindex:

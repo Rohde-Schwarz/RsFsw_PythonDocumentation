@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit:MACCuracy:MERRor:PMEan:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit:MACCuracy:MERRor:PMEan:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Merror.Pmean.State.State
+	:members:
+	:undoc-members:
+	:noindex:

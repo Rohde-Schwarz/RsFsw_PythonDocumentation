@@ -1,0 +1,20 @@
+Standard
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:PRESet:STANdard
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:PRESet:STANdard
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Preset.Standard.Standard
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Impedance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut:IMPedance
+
+.. code-block:: python
+
+	INPut:IMPedance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.InputPy.Impedance.Impedance
+	:members:
+	:undoc-members:
+	:noindex:

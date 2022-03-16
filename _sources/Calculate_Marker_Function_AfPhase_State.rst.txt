@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:AFPHase:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:AFPHase:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.AfPhase.State.State
+	:members:
+	:undoc-members:
+	:noindex:

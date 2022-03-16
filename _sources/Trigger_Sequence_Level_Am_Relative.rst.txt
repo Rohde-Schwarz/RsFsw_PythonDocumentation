@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRIGger:SEQuence:LEVel:AM:RELative
+
+.. code-block:: python
+
+	TRIGger:SEQuence:LEVel:AM:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Level.Am.Relative.Relative
+	:members:
+	:undoc-members:
+	:noindex:

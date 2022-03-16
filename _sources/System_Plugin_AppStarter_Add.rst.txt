@@ -1,0 +1,20 @@
+Add
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:ADD
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:ADD
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Add.Add
+	:members:
+	:undoc-members:
+	:noindex:

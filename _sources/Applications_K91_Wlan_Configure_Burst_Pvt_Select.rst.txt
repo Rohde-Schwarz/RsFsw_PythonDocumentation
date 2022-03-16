@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:BURSt:PVT:SELect
+
+.. code-block:: python
+
+	CONFigure:BURSt:PVT:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Pvt.Select.Select
+	:members:
+	:undoc-members:
+	:noindex:

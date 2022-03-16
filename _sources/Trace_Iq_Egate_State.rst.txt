@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe:IQ:EGATe:STATe
+
+.. code-block:: python
+
+	TRACe:IQ:EGATe:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Egate.State.State
+	:members:
+	:undoc-members:
+	:noindex:

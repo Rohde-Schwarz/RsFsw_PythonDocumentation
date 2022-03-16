@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:UPORt:VALue
+
+.. code-block:: python
+
+	INPut<InputIx>:UPORt:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Uport.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

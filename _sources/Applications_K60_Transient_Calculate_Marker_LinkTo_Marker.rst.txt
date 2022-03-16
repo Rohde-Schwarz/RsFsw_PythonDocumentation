@@ -1,0 +1,36 @@
+Marker<MarkerDestination>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k60Transient.calculate.marker.linkTo.marker.repcap_markerDestination_get()
+	driver.applications.k60Transient.calculate.marker.linkTo.marker.repcap_markerDestination_set(repcap.MarkerDestination.Nr1)
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:LINK:TO:MARKer<MarkerDestination>
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:LINK:TO:MARKer<MarkerDestination>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Marker.LinkTo.Marker.Marker
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.marker.linkTo.marker.clone()

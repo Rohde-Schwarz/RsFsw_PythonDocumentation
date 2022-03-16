@@ -1,0 +1,20 @@
+Tpis
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe:IQ:TPIS
+
+.. code-block:: python
+
+	TRACe:IQ:TPIS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Trace.Iq.Tpis.Tpis
+	:members:
+	:undoc-members:
+	:noindex:

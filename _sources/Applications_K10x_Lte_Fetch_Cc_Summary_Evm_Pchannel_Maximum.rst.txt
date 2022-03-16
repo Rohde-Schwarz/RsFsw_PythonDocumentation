@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:SUMMary:EVM:PCHannel:MAXimum
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:SUMMary:EVM:PCHannel:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Evm.Pchannel.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

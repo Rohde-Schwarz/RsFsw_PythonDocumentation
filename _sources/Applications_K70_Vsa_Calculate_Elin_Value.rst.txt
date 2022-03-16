@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:ELIN:VALue
+
+.. code-block:: python
+
+	CALCulate<Window>:ELIN:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Elin.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

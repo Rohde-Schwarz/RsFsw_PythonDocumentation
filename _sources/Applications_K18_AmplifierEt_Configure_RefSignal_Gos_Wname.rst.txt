@@ -1,0 +1,20 @@
+Wname
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:REFSignal:GOS:WNAMe
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:WNAMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Wname.Wname
+	:members:
+	:undoc-members:
+	:noindex:

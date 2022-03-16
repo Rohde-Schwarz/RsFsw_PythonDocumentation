@@ -1,0 +1,20 @@
+New
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:CREate:NEW
+
+.. code-block:: python
+
+	INSTrument:CREate:NEW
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Create.New.New
+	:members:
+	:undoc-members:
+	:noindex:

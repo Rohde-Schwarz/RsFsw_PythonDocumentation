@@ -1,0 +1,20 @@
+Sindex
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:PRACh:SINDex
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:PRACh:SINDex
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Prach.Sindex.Sindex
+	:members:
+	:undoc-members:
+	:noindex:

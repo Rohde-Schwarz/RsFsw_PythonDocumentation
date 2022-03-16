@@ -1,0 +1,20 @@
+Current
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:RESult:CURRent
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:RESult:CURRent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.Result.Current.Current
+	:members:
+	:undoc-members:
+	:noindex:

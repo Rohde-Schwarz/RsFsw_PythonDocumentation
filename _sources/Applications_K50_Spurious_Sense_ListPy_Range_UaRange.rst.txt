@@ -1,0 +1,20 @@
+UaRange
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:UARange
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:UARange
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.UaRange.UaRange
+	:members:
+	:undoc-members:
+	:noindex:

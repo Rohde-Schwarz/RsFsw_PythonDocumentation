@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:FRESponse:BASeband:USER:SLISt<TouchStone>:SELect
+
+.. code-block:: python
+
+	SENSe:CORRection:FRESponse:BASeband:USER:SLISt<TouchStone>:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Slist.Select.Select
+	:members:
+	:undoc-members:
+	:noindex:

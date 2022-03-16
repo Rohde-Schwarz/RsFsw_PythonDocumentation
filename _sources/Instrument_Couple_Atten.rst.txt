@@ -1,0 +1,20 @@
+Atten
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:ATTen
+
+.. code-block:: python
+
+	INSTrument:COUPle:ATTen
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Atten.Atten
+	:members:
+	:undoc-members:
+	:noindex:

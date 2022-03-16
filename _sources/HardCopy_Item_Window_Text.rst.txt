@@ -1,0 +1,20 @@
+Text
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:ITEM:WINDow<Window>:TEXT
+
+.. code-block:: python
+
+	HCOPy:ITEM:WINDow<Window>:TEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Item.Window.Text.Text
+	:members:
+	:undoc-members:
+	:noindex:

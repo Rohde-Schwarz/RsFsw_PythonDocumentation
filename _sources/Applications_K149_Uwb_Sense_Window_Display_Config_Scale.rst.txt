@@ -1,0 +1,20 @@
+Scale
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:WINDow<Window>:DISPlay:CONFig:SCALe
+
+.. code-block:: python
+
+	SENSe:WINDow<Window>:DISPlay:CONFig:SCALe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.Config.Scale.Scale
+	:members:
+	:undoc-members:
+	:noindex:

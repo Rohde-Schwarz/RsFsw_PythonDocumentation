@@ -1,0 +1,20 @@
+Compatible
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:COMPatible
+
+.. code-block:: python
+
+	SYSTem:COMPatible
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Compatible.Compatible
+	:members:
+	:undoc-members:
+	:noindex:

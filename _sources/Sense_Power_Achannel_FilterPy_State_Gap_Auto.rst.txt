@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:ACHannel:FILTer:STATe:GAP<GapChannel>:AUTO
+
+.. code-block:: python
+
+	SENSe:POWer:ACHannel:FILTer:STATe:GAP<GapChannel>:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.FilterPy.State.Gap.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

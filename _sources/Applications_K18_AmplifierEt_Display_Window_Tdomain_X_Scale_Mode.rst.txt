@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:TDOMain:X:SCALe:MODE
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:TDOMain:X:SCALe:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Tdomain.X.Scale.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

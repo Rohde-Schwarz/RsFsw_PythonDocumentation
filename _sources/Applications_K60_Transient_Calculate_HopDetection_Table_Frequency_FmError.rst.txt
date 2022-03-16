@@ -1,0 +1,20 @@
+FmError
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:FREQuency:FMERror
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:FREQuency:FMERror
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Frequency.FmError.FmError
+	:members:
+	:undoc-members:
+	:noindex:

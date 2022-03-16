@@ -1,0 +1,20 @@
+Copy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:COPY
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:COPY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Limit.Copy.Copy
+	:members:
+	:undoc-members:
+	:noindex:

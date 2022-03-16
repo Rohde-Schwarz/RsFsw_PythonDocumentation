@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:DIQ:EVENt
+
+.. code-block:: python
+
+	STATus:QUEStionable:DIQ:EVENt
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Diq.Event.Event
+	:members:
+	:undoc-members:
+	:noindex:

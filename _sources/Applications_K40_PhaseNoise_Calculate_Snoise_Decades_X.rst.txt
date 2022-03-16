@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SNOise<Marker>:DECades:X
+
+.. code-block:: python
+
+	CALCulate<Window>:SNOise<Marker>:DECades:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Snoise.Decades.X.X
+	:members:
+	:undoc-members:
+	:noindex:

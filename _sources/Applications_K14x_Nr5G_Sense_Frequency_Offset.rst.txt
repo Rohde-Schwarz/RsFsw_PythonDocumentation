@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FREQuency:OFFSet
+
+.. code-block:: python
+
+	SENSe:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Frequency.Offset.Offset
+	:members:
+	:undoc-members:
+	:noindex:

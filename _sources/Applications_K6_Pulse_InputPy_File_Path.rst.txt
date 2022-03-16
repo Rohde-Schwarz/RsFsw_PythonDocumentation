@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut:FILE:PATH
+
+.. code-block:: python
+
+	INPut:FILE:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.InputPy.File.Path.Path
+	:members:
+	:undoc-members:
+	:noindex:

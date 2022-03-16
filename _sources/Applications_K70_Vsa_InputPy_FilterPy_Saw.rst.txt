@@ -1,0 +1,20 @@
+Saw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:FILTer:SAW
+
+.. code-block:: python
+
+	INPut<InputIx>:FILTer:SAW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.InputPy.FilterPy.Saw.Saw
+	:members:
+	:undoc-members:
+	:noindex:

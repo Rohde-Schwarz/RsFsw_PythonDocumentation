@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DLINe<DisplayLine>:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:DLINe<DisplayLine>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Dline.State.State
+	:members:
+	:undoc-members:
+	:noindex:

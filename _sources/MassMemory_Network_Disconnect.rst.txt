@@ -1,0 +1,20 @@
+Disconnect
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:NETWork:DISConnect
+
+.. code-block:: python
+
+	MMEMory:NETWork:DISConnect
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Network.Disconnect.Disconnect
+	:members:
+	:undoc-members:
+	:noindex:

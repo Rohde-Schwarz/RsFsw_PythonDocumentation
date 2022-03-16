@@ -1,0 +1,20 @@
+Numerator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SOURce:EXTernal<ExternalGen>:FREQuency:FACTor:NUMerator
+
+.. code-block:: python
+
+	SOURce:EXTernal<ExternalGen>:FREQuency:FACTor:NUMerator
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Frequency.Factor.Numerator.Numerator
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:SELect:BBANalog:STATe
+
+.. code-block:: python
+
+	INPut<InputIx>:SELect:BBANalog:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.InputPy.Select.BbAnalog.State.State
+	:members:
+	:undoc-members:
+	:noindex:

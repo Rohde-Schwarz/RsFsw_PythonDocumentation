@@ -1,0 +1,20 @@
+Splitter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: LAYout:SPLitter
+
+.. code-block:: python
+
+	LAYout:SPLitter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Layout.Splitter.Splitter
+	:members:
+	:undoc-members:
+	:noindex:

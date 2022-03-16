@@ -1,0 +1,20 @@
+Scope
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:COReset<Coreset>:PDCCh0:DCISettings:SCOPe
+
+.. code-block:: python
+
+	CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:COReset<Coreset>:PDCCh0:DCISettings:SCOPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.Coreset.Pdcch.DciSettings.Scope.Scope
+	:members:
+	:undoc-members:
+	:noindex:

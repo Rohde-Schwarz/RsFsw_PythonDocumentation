@@ -1,0 +1,20 @@
+Waveform
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe:MDPD:WAVeform
+
+.. code-block:: python
+
+	MMEMory:STORe:MDPD:WAVeform
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.MassMemory.Store.Mdpd.Waveform.Waveform
+	:members:
+	:undoc-members:
+	:noindex:

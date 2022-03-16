@@ -1,0 +1,20 @@
+LastResult
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DIAGnostic:SERVice:SFUNction:LASTresult
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SFUNction:LASTresult
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Sfunction.LastResult.LastResult
+	:members:
+	:undoc-members:
+	:noindex:

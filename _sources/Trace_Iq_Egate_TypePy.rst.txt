@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe:IQ:EGATe:TYPE
+
+.. code-block:: python
+
+	TRACe:IQ:EGATe:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Egate.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

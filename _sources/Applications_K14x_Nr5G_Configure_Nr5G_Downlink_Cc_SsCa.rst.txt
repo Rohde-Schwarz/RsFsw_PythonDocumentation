@@ -1,0 +1,20 @@
+SsCa
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:DL:CC<CarrierComponent>:SSCA
+
+.. code-block:: python
+
+	CONFigure:NR5G:DL:CC<CarrierComponent>:SSCA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsCa.SsCa
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+MaxPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:POWer:MAXPower
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:POWer:MAXPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Power.MaxPower.MaxPower
+	:members:
+	:undoc-members:
+	:noindex:

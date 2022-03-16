@@ -1,0 +1,20 @@
+Mixer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:CVL:MIXer
+
+.. code-block:: python
+
+	SENSe:CORRection:CVL:MIXer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Correction.Cvl.Mixer.Mixer
+	:members:
+	:undoc-members:
+	:noindex:

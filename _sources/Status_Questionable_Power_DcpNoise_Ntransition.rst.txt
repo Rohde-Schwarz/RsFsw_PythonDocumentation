@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:POWer:DCPNoise:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:POWer:DCPNoise:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Power.DcpNoise.Ntransition.Ntransition
+	:members:
+	:undoc-members:
+	:noindex:

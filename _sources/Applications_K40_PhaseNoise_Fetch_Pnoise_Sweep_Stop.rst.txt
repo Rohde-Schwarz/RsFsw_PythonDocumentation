@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:PNOise<Trace>:SWEep:STOP
+
+.. code-block:: python
+
+	FETCh:PNOise<Trace>:SWEep:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Sweep.Stop.Stop
+	:members:
+	:undoc-members:
+	:noindex:

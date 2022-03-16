@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:WLAN:SMAPping:MODE
+
+.. code-block:: python
+
+	CONFigure:WLAN:SMAPping:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Smapping.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

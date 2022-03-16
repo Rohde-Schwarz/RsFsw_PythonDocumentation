@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FORMat:DEXPort:MODE
+
+.. code-block:: python
+
+	FORMat:DEXPort:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.FormatPy.Dexport.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

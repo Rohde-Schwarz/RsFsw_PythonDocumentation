@@ -1,0 +1,20 @@
+Fm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRIGger:SEQuence:LEVel:FM
+
+.. code-block:: python
+
+	TRIGger:SEQuence:LEVel:FM
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Level.Fm.Fm
+	:members:
+	:undoc-members:
+	:noindex:

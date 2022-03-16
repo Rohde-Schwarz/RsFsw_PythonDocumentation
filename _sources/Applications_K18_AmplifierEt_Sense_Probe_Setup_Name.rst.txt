@@ -1,0 +1,20 @@
+Name
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PROBe<Probe>:SETup:NAME
+
+.. code-block:: python
+
+	SENSe:PROBe<Probe>:SETup:NAME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Probe.Setup.Name.Name
+	:members:
+	:undoc-members:
+	:noindex:

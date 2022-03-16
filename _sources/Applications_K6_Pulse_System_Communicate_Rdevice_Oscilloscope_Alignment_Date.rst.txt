@@ -1,0 +1,20 @@
+Date
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:ALIGnment:DATE
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:ALIGnment:DATE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.System.Communicate.Rdevice.Oscilloscope.Alignment.Date.Date
+	:members:
+	:undoc-members:
+	:noindex:

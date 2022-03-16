@@ -1,0 +1,20 @@
+End
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:FDEViation:OFFSet:END
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:FDEViation:OFFSet:END
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Fdeviation.Offset.End.End
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TABLe:FREQuency:POINt:LIMit:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:TABLe:FREQuency:POINt:LIMit:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Frequency.Point.Limit.State.State
+	:members:
+	:undoc-members:
+	:noindex:

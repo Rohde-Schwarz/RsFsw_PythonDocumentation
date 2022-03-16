@@ -1,0 +1,20 @@
+Ratio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: UNIT:PMETer<PowerMeter>:POWer:RATio
+
+.. code-block:: python
+
+	UNIT:PMETer<PowerMeter>:POWer:RATio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Unit.Pmeter.Power.Ratio.Ratio
+	:members:
+	:undoc-members:
+	:noindex:

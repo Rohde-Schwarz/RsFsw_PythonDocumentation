@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:FERRor:CC<CarrierComponent>:MINimum
+
+.. code-block:: python
+
+	FETCh:FERRor:CC<CarrierComponent>:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.FreqError.Cc.Minimum.Minimum
+	:members:
+	:undoc-members:
+	:noindex:

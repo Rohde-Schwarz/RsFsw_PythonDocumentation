@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNIT:FREQuency
+
+.. code-block:: python
+
+	CALCulate<Window>:UNIT:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Unit.Frequency.Frequency
+	:members:
+	:undoc-members:
+	:noindex:

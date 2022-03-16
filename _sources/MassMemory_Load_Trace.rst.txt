@@ -1,0 +1,20 @@
+Trace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:LOAD<Window>:TRACe
+
+.. code-block:: python
+
+	MMEMory:LOAD<Window>:TRACe
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Load.Trace.Trace
+	:members:
+	:undoc-members:
+	:noindex:

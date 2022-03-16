@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:PSWeep:ADJust:LEVel:STATe
+
+.. code-block:: python
+
+	CONFigure:PSWeep:ADJust:LEVel:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.Adjust.Level.State.State
+	:members:
+	:undoc-members:
+	:noindex:

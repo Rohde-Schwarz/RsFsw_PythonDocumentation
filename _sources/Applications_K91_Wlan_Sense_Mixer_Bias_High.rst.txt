@@ -1,0 +1,20 @@
+High
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MIXer:BIAS:HIGH
+
+.. code-block:: python
+
+	SENSe:MIXer:BIAS:HIGH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Mixer.Bias.High.High
+	:members:
+	:undoc-members:
+	:noindex:

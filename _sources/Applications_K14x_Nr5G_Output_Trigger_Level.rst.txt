@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:TRIGger<TriggerPort>:LEVel
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:TRIGger<TriggerPort>:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Output.Trigger.Level.Level
+	:members:
+	:undoc-members:
+	:noindex:

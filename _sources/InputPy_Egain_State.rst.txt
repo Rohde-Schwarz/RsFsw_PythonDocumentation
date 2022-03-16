@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:EGAin:STATe
+
+.. code-block:: python
+
+	INPut<InputIx>:EGAin:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Egain.State.State
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+ScData
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:SELect:CHANnel:ITEM:SCData
+
+.. code-block:: python
+
+	MMEMory:SELect:CHANnel:ITEM:SCData
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.ScData.ScData
+	:members:
+	:undoc-members:
+	:noindex:

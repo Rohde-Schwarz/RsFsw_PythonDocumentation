@@ -1,0 +1,20 @@
+Tsidelobe
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PSPectrum:TSIDelobe
+
+.. code-block:: python
+
+	CALCulate<Window>:PSPectrum:TSIDelobe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Tsidelobe.Tsidelobe
+	:members:
+	:undoc-members:
+	:noindex:

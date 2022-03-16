@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SWEep:MODE
+
+.. code-block:: python
+
+	SENSe:SWEep:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Sweep.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

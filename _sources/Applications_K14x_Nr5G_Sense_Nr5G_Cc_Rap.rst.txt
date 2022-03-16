@@ -1,0 +1,20 @@
+Rap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:NR5G:CC<CarrierComponent>:RAP
+
+.. code-block:: python
+
+	SENSe:NR5G:CC<CarrierComponent>:RAP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Cc.Rap.Rap
+	:members:
+	:undoc-members:
+	:noindex:

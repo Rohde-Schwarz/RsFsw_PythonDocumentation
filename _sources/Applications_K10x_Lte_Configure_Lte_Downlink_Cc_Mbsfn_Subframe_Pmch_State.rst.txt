@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:MBSFn:SUBFrame<Subframe>:PMCH:STATe
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:MBSFn:SUBFrame<Subframe>:PMCH:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mbsfn.Subframe.Pmch.State.State
+	:members:
+	:undoc-members:
+	:noindex:

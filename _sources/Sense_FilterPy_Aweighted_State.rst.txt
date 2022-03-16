@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FILTer<FilterPy>:AWEighted:STATe
+
+.. code-block:: python
+
+	SENSe:FILTer<FilterPy>:AWEighted:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Aweighted.State.State
+	:members:
+	:undoc-members:
+	:noindex:

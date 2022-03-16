@@ -1,0 +1,20 @@
+Highest
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:SEGMent<Segment>:CHANnel<Channel>:RULocation<RuAllocationIx>:COUNt:HIGHest
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:SEGMent<Segment>:CHANnel<Channel>:RULocation<RuAllocationIx>:COUNt:HIGHest
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.Count.Highest.Highest
+	:members:
+	:undoc-members:
+	:noindex:

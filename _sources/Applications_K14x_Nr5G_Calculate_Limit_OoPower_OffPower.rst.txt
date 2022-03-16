@@ -1,0 +1,20 @@
+OffPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:OOPower:OFFPower
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:OOPower:OFFPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.OoPower.OffPower.OffPower
+	:members:
+	:undoc-members:
+	:noindex:

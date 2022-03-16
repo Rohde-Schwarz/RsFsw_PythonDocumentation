@@ -1,0 +1,20 @@
+ZcZone
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:PRACh:ZCZone
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:PRACh:ZCZone
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Prach.ZcZone.ZcZone
+	:members:
+	:undoc-members:
+	:noindex:

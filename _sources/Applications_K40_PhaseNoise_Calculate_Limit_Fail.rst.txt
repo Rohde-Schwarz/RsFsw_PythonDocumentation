@@ -1,0 +1,20 @@
+Fail
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:FAIL
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:FAIL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Limit.Fail.Fail
+	:members:
+	:undoc-members:
+	:noindex:

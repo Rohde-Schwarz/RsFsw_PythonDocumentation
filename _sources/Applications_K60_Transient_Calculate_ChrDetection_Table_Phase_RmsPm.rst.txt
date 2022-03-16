@@ -1,0 +1,20 @@
+RmsPm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:PHASe:RMSPm
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:PHASe:RMSPm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Phase.RmsPm.RmsPm
+	:members:
+	:undoc-members:
+	:noindex:

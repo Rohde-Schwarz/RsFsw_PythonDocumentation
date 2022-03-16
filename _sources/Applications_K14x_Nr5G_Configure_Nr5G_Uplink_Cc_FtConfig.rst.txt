@@ -1,0 +1,20 @@
+FtConfig
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FTConfig
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FTConfig
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.FtConfig.FtConfig
+	:members:
+	:undoc-members:
+	:noindex:

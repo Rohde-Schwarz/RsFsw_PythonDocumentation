@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PULSe:EMODel:RMPLevel:MAXimum
+
+.. code-block:: python
+
+	SENSe:PULSe:EMODel:RMPLevel:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseMidPoint.Level.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

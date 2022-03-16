@@ -1,0 +1,20 @@
+Slength
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:REFSignal:GOS:SLENgth
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:SLENgth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Slength.Slength
+	:members:
+	:undoc-members:
+	:noindex:

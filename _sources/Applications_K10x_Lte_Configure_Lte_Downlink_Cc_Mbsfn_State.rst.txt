@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:MBSFn:STATe
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:MBSFn:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mbsfn.State.State
+	:members:
+	:undoc-members:
+	:noindex:

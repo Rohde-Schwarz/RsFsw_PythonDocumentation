@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TLRel:VALue
+
+.. code-block:: python
+
+	CALCulate<Window>:TLRel:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.TlRel.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

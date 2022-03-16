@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:PHASe:ALL:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:PHASe:ALL:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Phase.All.State.State
+	:members:
+	:undoc-members:
+	:noindex:

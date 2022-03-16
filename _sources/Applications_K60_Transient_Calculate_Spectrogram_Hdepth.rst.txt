@@ -1,0 +1,20 @@
+Hdepth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SPECtrogram:HDEPth
+
+.. code-block:: python
+
+	CALCulate<Window>:SPECtrogram:HDEPth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Spectrogram.Hdepth.Hdepth
+	:members:
+	:undoc-members:
+	:noindex:

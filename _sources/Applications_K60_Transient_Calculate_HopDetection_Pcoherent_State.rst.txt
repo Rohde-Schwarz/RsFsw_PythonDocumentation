@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:PCOHerent:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:PCOHerent:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Pcoherent.State.State
+	:members:
+	:undoc-members:
+	:noindex:

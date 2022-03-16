@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:SUMMary:XCORr:MLOBe:WIDTh:AVERage
+
+.. code-block:: python
+
+	FETCh<Window>:SUMMary:XCORr:MLOBe:WIDTh:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Xcorr.Mlobe.Width.Average.Average
+	:members:
+	:undoc-members:
+	:noindex:

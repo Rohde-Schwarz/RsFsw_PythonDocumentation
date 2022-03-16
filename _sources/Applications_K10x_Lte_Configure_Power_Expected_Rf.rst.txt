@@ -1,0 +1,20 @@
+Rf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:POWer:EXPected:RF
+
+.. code-block:: python
+
+	CONFigure:POWer:EXPected:RF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Power.Expected.Rf.Rf
+	:members:
+	:undoc-members:
+	:noindex:

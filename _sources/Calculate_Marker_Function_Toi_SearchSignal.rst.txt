@@ -1,0 +1,20 @@
+SearchSignal
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:TOI:SEARchsignal
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:TOI:SEARchsignal
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Toi.SearchSignal.SearchSignal
+	:members:
+	:undoc-members:
+	:noindex:

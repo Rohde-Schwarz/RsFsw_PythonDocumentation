@@ -1,0 +1,20 @@
+RefLevel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:STATistics:SCALe:X:RLEVel
+
+.. code-block:: python
+
+	CALCulate<Window>:STATistics:SCALe:X:RLEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Scale.X.RefLevel.RefLevel
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:STATe
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.State.State
+	:members:
+	:undoc-members:
+	:noindex:

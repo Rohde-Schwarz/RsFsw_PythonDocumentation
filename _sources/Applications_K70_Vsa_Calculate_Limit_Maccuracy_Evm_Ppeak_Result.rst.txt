@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit:MACCuracy:EVM:PPEak:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit:MACCuracy:EVM:PPEak:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Evm.Ppeak.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

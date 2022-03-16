@@ -1,0 +1,20 @@
+Chips
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CAPTure:LENGth:CHIPs
+
+.. code-block:: python
+
+	SENSe:CAPTure:LENGth:CHIPs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Capture.Length.Chips.Chips
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Plid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:PLCI:PLID
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:PLCI:PLID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Plci.Plid.Plid
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:SCDetailed:EVM:ALL
+
+.. code-block:: python
+
+	FETCh:SCDetailed:EVM:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.ScDetailed.Evm.All.All
+	:members:
+	:undoc-members:
+	:noindex:

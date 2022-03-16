@@ -1,0 +1,20 @@
+Resolution
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADEMod:SPECtrum:BWIDth:RESolution
+
+.. code-block:: python
+
+	SENSe:ADEMod:SPECtrum:BWIDth:RESolution
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Spectrum.Bandwidth.Resolution.Resolution
+	:members:
+	:undoc-members:
+	:noindex:

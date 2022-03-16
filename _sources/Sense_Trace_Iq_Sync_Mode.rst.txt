@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:TRACe:IQ:SYNC:MODE
+
+.. code-block:: python
+
+	SENSe:TRACe:IQ:SYNC:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Trace.Iq.Sync.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

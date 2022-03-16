@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MIXer:STATe
+
+.. code-block:: python
+
+	SENSe:MIXer:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Mixer.State.State
+	:members:
+	:undoc-members:
+	:noindex:

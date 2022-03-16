@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:FRESponse:BASeband:USER:FLISt<FileList>:PHASe:STATe
+
+.. code-block:: python
+
+	SENSe:CORRection:FRESponse:BASeband:USER:FLISt<FileList>:PHASe:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Flist.Phase.State.State
+	:members:
+	:undoc-members:
+	:noindex:

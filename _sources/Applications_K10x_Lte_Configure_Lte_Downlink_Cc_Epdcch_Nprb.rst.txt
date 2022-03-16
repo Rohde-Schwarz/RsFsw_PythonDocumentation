@@ -1,0 +1,20 @@
+Nprb
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:EPDCch:NPRB
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:EPDCch:NPRB
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Epdcch.Nprb.Nprb
+	:members:
+	:undoc-members:
+	:noindex:

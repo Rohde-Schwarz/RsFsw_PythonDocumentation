@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SPECtrogram:TRESolution:AUTO
+
+.. code-block:: python
+
+	CALCulate<Window>:SPECtrogram:TRESolution:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Spectrogram.Tresolution.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

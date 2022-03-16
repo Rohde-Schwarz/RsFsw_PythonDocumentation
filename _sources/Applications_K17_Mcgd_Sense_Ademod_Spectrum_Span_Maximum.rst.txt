@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADEMod:SPECtrum:SPAN:MAXimum
+
+.. code-block:: python
+
+	SENSe:ADEMod:SPECtrum:SPAN:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Spectrum.Span.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

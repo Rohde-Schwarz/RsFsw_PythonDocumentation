@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SNOise<Marker>:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:SNOise<Marker>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Snoise.State.State
+	:members:
+	:undoc-members:
+	:noindex:

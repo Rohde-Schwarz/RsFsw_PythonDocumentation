@@ -1,0 +1,20 @@
+Text
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:SEARch:SYNC:TEXT
+
+.. code-block:: python
+
+	SENSe:DDEMod:SEARch:SYNC:TEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Text.Text
+	:members:
+	:undoc-members:
+	:noindex:

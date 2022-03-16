@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:SUMMary:POWer:PSDU:MEAN:AVERage
+
+.. code-block:: python
+
+	FETCh<Window>:SUMMary:POWer:PSDU:MEAN:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Power.Psdu.Mean.Average.Average
+	:members:
+	:undoc-members:
+	:noindex:

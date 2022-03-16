@@ -1,0 +1,20 @@
+AcDc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:ACDC
+
+.. code-block:: python
+
+	INSTrument:COUPle:ACDC
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.AcDc.AcDc
+	:members:
+	:undoc-members:
+	:noindex:

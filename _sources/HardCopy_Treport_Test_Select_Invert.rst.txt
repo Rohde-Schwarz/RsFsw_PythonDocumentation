@@ -1,0 +1,20 @@
+Invert
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:TREPort:TEST:SELect:INVert
+
+.. code-block:: python
+
+	HCOPy:TREPort:TEST:SELect:INVert
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Test.Select.Invert.Invert
+	:members:
+	:undoc-members:
+	:noindex:

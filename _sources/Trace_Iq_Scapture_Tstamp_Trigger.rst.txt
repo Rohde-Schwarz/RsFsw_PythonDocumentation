@@ -1,0 +1,20 @@
+Trigger
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe<Window>:IQ:SCAPture:TSTamp:TRIGger
+
+.. code-block:: python
+
+	TRACe<Window>:IQ:SCAPture:TSTamp:TRIGger
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Scapture.Tstamp.Trigger.Trigger
+	:members:
+	:undoc-members:
+	:noindex:

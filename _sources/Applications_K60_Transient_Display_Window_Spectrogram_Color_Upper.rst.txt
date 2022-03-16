@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SPECtrogram:COLor:UPPer
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SPECtrogram:COLor:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Display.Window.Spectrogram.Color.Upper.Upper
+	:members:
+	:undoc-members:
+	:noindex:

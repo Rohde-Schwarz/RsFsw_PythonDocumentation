@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:SPECtrogram:Y:MINimum:NEXT
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:SPECtrogram:Y:MINimum:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Marker.Spectrogram.Y.Minimum.Next.Next
+	:members:
+	:undoc-members:
+	:noindex:

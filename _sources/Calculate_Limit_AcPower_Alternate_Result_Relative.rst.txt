@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate<Channel>:RESult:RELative
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate<Channel>:RESult:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.Alternate.Result.Relative.Relative
+	:members:
+	:undoc-members:
+	:noindex:

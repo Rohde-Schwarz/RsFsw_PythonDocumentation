@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:X:SLIMits:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:X:SLIMits:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.X.Slimits.State.State
+	:members:
+	:undoc-members:
+	:noindex:

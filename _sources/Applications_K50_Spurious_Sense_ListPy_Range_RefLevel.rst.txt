@@ -1,0 +1,20 @@
+RefLevel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:RLEVel
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:RLEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.RefLevel.RefLevel
+	:members:
+	:undoc-members:
+	:noindex:

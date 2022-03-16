@@ -1,0 +1,20 @@
+Packet
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:WINDow<Window>:DISPlay:RWConfig:PACKet
+
+.. code-block:: python
+
+	SENSe:WINDow<Window>:DISPlay:RWConfig:PACKet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.RwConfig.Packet.Packet
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:PHASe:ALL:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:PHASe:ALL:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Phase.All.State.State
+	:members:
+	:undoc-members:
+	:noindex:

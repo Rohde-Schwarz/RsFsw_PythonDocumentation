@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:UPORt:VALue
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:UPORt:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Uport.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

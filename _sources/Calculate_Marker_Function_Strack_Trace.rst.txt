@@ -1,0 +1,20 @@
+Trace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:STRack:TRACe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:STRack:TRACe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Strack.Trace.Trace
+	:members:
+	:undoc-members:
+	:noindex:

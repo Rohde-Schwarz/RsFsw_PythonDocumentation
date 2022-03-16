@@ -1,0 +1,20 @@
+Noise
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNCertainty:DATA:NOISe
+
+.. code-block:: python
+
+	CALCulate<Window>:UNCertainty:DATA:NOISe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Data.Noise.Noise
+	:members:
+	:undoc-members:
+	:noindex:

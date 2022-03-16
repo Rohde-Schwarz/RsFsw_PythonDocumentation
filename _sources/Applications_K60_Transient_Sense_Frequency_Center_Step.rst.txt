@@ -1,0 +1,20 @@
+Step
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FREQuency:CENTer:STEP
+
+.. code-block:: python
+
+	SENSe:FREQuency:CENTer:STEP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Frequency.Center.Step.Step
+	:members:
+	:undoc-members:
+	:noindex:

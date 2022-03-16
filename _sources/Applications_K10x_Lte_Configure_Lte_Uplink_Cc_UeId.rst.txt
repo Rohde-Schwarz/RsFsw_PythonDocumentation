@@ -1,0 +1,20 @@
+UeId
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:UEID
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:UEID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.UeId.UeId
+	:members:
+	:undoc-members:
+	:noindex:

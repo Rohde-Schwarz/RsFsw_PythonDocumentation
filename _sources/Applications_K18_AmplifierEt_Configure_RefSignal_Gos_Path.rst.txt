@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:REFSignal:GOS:PATH
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Path.Path
+	:members:
+	:undoc-members:
+	:noindex:

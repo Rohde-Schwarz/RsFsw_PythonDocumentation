@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FREQuency:CENTer:STEP:AUTO
+
+.. code-block:: python
+
+	SENSe:FREQuency:CENTer:STEP:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Frequency.Center.Step.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

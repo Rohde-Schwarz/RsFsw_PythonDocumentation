@@ -1,0 +1,20 @@
+ClassPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:SEM:CLASs
+
+.. code-block:: python
+
+	SENSe:POWer:SEM:CLASs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Sem.ClassPy.ClassPy
+	:members:
+	:undoc-members:
+	:noindex:

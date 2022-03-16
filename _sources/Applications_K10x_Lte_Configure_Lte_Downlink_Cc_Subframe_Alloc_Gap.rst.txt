@@ -1,0 +1,20 @@
+Gap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc<Allocation>:GAP
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc<Allocation>:GAP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Gap.Gap
+	:members:
+	:undoc-members:
+	:noindex:

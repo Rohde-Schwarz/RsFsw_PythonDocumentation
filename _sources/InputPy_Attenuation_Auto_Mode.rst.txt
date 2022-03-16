@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:ATTenuation:AUTO:MODE
+
+.. code-block:: python
+
+	INPut<InputIx>:ATTenuation:AUTO:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Attenuation.Auto.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

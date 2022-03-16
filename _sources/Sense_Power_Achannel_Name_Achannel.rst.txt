@@ -1,0 +1,20 @@
+Achannel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:POWer:ACHannel:NAME:ACHannel
+
+.. code-block:: python
+
+	SENSe:POWer:ACHannel:NAME:ACHannel
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Name.Achannel.Achannel
+	:members:
+	:undoc-members:
+	:noindex:

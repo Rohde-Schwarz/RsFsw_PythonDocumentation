@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PMETer<PowerMeter>:RELative:MAGNitude:AUTO
+
+.. code-block:: python
+
+	CALCulate<Window>:PMETer<PowerMeter>:RELative:MAGNitude:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Pmeter.Relative.Magnitude.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

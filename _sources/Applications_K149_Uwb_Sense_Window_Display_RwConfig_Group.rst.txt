@@ -1,0 +1,20 @@
+Group
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:WINDow<Window>:DISPlay:RWConfig:GROup
+
+.. code-block:: python
+
+	SENSe:WINDow<Window>:DISPlay:RWConfig:GROup
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.RwConfig.Group.Group
+	:members:
+	:undoc-members:
+	:noindex:

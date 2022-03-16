@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:COUNt:FREQuency
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:COUNt:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Marker.Count.Frequency.Frequency
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Transient
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:OOPower:TRANsient
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:OOPower:TRANsient
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.OoPower.Transient.Transient
+	:members:
+	:undoc-members:
+	:noindex:

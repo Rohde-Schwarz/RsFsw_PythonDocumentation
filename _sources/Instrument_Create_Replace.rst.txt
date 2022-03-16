@@ -1,0 +1,20 @@
+Replace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:CREate:REPLace
+
+.. code-block:: python
+
+	INSTrument:CREate:REPLace
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Create.Replace.Replace
+	:members:
+	:undoc-members:
+	:noindex:

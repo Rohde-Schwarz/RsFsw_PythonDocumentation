@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:TRIGger:STATe
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:TRIGger:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Pmeter.Trigger.State.State
+	:members:
+	:undoc-members:
+	:noindex:

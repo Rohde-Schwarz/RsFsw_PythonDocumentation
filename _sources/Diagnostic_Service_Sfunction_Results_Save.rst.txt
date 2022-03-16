@@ -1,0 +1,20 @@
+Save
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DIAGnostic:SERVice:SFUNction:RESults:SAVE
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SFUNction:RESults:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Sfunction.Results.Save.Save
+	:members:
+	:undoc-members:
+	:noindex:

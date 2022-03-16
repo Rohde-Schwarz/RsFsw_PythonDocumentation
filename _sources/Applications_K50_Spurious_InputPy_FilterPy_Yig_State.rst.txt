@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut:FILTer:YIG:STATe
+
+.. code-block:: python
+
+	INPut:FILTer:YIG:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.InputPy.FilterPy.Yig.State.State
+	:members:
+	:undoc-members:
+	:noindex:

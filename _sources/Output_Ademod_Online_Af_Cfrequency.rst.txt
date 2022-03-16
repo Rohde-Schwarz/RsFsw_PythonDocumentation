@@ -1,0 +1,20 @@
+Cfrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:ADEMod:ONLine:AF:CFRequency
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:ADEMod:ONLine:AF:CFRequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ademod.Online.Af.Cfrequency.Cfrequency
+	:members:
+	:undoc-members:
+	:noindex:

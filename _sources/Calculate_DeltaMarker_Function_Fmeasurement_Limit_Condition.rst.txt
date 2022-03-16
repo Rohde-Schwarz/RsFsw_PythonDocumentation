@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:FMEasurement:LIMit<LimitIx>:CONDition
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:FMEasurement:LIMit<LimitIx>:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Fmeasurement.Limit.Condition.Condition
+	:members:
+	:undoc-members:
+	:noindex:

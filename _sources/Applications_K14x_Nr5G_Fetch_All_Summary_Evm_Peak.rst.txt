@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:PEAK
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:PEAK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Peak.Peak
+	:members:
+	:undoc-members:
+	:noindex:

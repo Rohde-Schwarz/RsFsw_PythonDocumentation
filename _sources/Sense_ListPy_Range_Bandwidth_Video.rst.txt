@@ -1,0 +1,20 @@
+Video
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:BANDwidth:VIDeo
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:BANDwidth:VIDeo
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Bandwidth.Video.Video
+	:members:
+	:undoc-members:
+	:noindex:

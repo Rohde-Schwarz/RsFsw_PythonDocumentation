@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PULSe:EMODel:FLPTime:MINimum
+
+.. code-block:: python
+
+	SENSe:PULSe:EMODel:FLPTime:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallLowPoint.Time.Minimum.Minimum
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mtime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADEMod:MTIMe
+
+.. code-block:: python
+
+	SENSe:ADEMod:MTIMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Mtime.Mtime
+	:members:
+	:undoc-members:
+	:noindex:

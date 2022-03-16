@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MIXer:HARMonic:HIGH:STATe
+
+.. code-block:: python
+
+	SENSe:MIXer:HARMonic:HIGH:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Mixer.Harmonic.High.State.State
+	:members:
+	:undoc-members:
+	:noindex:

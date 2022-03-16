@@ -1,0 +1,20 @@
+Execute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:CTABle:EDIT:CARRier:EXECute
+
+.. code-block:: python
+
+	CONFigure:CTABle:EDIT:CARRier:EXECute
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.CorrectionTable.Edit.Carrier.Execute.Execute
+	:members:
+	:undoc-members:
+	:noindex:

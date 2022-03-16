@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:SYNC:CC<CarrierComponent>:STATe
+
+.. code-block:: python
+
+	SENSe:SYNC:CC<CarrierComponent>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Sync.Cc.State.State
+	:members:
+	:undoc-members:
+	:noindex:

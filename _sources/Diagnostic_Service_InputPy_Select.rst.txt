@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:SELect
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Select.Select
+	:members:
+	:undoc-members:
+	:noindex:

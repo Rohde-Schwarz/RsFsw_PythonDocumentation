@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:LIST
+
+.. code-block:: python
+
+	INSTrument:LIST
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.ListPy.ListPy
+	:members:
+	:undoc-members:
+	:noindex:

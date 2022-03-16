@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut:FILTer:ACHannels:STATe
+
+.. code-block:: python
+
+	INPut:FILTer:ACHannels:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.InputPy.FilterPy.Achannels.State.State
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+FmStime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:FMSettling:FMSTime
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:FMSettling:FMSTime
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.FmSettling.FmStime.FmStime
+	:members:
+	:undoc-members:
+	:noindex:

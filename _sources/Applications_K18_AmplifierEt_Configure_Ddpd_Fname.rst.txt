@@ -1,0 +1,20 @@
+Fname
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:DDPD:FNAMe
+
+.. code-block:: python
+
+	CONFigure:DDPD:FNAMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Fname.Fname
+	:members:
+	:undoc-members:
+	:noindex:

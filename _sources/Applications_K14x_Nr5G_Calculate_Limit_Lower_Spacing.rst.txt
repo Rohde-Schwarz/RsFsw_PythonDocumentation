@@ -1,0 +1,20 @@
+Spacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:LOWer:SPACing
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:LOWer:SPACing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Lower.Spacing.Spacing
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Crosstalk
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:MIMO:CROSstalk
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:MIMO:CROSstalk
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mimo.Crosstalk.Crosstalk
+	:members:
+	:undoc-members:
+	:noindex:

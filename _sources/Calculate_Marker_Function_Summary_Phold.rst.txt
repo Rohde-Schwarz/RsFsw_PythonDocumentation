@@ -1,0 +1,20 @@
+Phold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:SUMMary:PHOLd
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:SUMMary:PHOLd
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Summary.Phold.Phold
+	:members:
+	:undoc-members:
+	:noindex:

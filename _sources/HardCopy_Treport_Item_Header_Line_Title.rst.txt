@@ -1,0 +1,20 @@
+Title
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:TREPort:ITEM:HEADer:LINE<Line>:TITLe
+
+.. code-block:: python
+
+	HCOPy:TREPort:ITEM:HEADer:LINE<Line>:TITLe
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.Header.Line.Title.Title
+	:members:
+	:undoc-members:
+	:noindex:

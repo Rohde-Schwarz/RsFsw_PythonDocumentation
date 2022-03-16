@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:SYNC:CSWeight:STATe
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:SYNC:CSWeight:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sync.CsWeight.State.State
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Index
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:STATe:INDex
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:STATe:INDex
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.State.Index.Index
+	:members:
+	:undoc-members:
+	:noindex:

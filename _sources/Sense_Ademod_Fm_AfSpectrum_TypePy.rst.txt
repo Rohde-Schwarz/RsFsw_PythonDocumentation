@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADEMod:FM:AFSPectrum:TYPE
+
+.. code-block:: python
+
+	SENSe:ADEMod:FM:AFSPectrum:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Fm.AfSpectrum.TypePy.TypePy
+	:members:
+	:undoc-members:
+	:noindex:

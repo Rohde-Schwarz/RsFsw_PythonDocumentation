@@ -1,0 +1,20 @@
+AlCount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALCount
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.AlCount.AlCount
+	:members:
+	:undoc-members:
+	:noindex:

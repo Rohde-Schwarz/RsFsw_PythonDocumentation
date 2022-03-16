@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FILTer<FilterPy>:HPASs:STATe
+
+.. code-block:: python
+
+	SENSe:FILTer<FilterPy>:HPASs:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Hpass.State.State
+	:members:
+	:undoc-members:
+	:noindex:

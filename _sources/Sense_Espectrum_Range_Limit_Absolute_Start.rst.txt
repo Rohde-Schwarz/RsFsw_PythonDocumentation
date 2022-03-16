@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:LIMit<LimitIx>:ABSolute:STARt
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:LIMit<LimitIx>:ABSolute:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.Limit.Absolute.Start.Start
+	:members:
+	:undoc-members:
+	:noindex:

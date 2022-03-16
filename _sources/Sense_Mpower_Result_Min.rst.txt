@@ -1,0 +1,20 @@
+Min
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MPOWer:RESult:MIN
+
+.. code-block:: python
+
+	SENSe:MPOWer:RESult:MIN
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mpower.Result.Min.Min
+	:members:
+	:undoc-members:
+	:noindex:

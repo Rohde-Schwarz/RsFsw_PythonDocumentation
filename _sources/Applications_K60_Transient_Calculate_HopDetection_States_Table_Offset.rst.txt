@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:STATes:TABLe:OFFSet
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:STATes:TABLe:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Table.Offset.Offset
+	:members:
+	:undoc-members:
+	:noindex:

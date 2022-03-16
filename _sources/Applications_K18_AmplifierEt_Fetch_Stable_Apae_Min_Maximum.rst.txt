@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:STABle:APAE:MIN:MAXimum
+
+.. code-block:: python
+
+	FETCh:STABle:APAE:MIN:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Apae.Min.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

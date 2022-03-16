@@ -1,0 +1,20 @@
+Ssetup
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:SSETup
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:SSETup
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Ssetup.Ssetup
+	:members:
+	:undoc-members:
+	:noindex:

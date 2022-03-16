@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:SPECtrogram:Y:MINimum:PEAK
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:SPECtrogram:Y:MINimum:PEAK
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Spectrogram.Y.Minimum.Peak.Peak
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TABLe:TIMing:SETTling:LIMit:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:TABLe:TIMing:SETTling:LIMit:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Timing.Settling.Limit.State.State
+	:members:
+	:undoc-members:
+	:noindex:

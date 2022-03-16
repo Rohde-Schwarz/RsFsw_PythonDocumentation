@@ -1,0 +1,20 @@
+Mtime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MTIMe
+
+.. code-block:: python
+
+	SENSe:MTIMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Mtime.Mtime
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:FEPPm:CC<CarrierComponent>:MAXimum
+
+.. code-block:: python
+
+	FETCh:FEPPm:CC<CarrierComponent>:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.FePpm.Cc.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Shift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:UPPer:SHIFt
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:UPPer:SHIFt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Upper.Shift.Shift
+	:members:
+	:undoc-members:
+	:noindex:

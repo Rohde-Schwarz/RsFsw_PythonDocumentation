@@ -1,0 +1,20 @@
+Default
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:SELect:ITEM:DEFault
+
+.. code-block:: python
+
+	MMEMory:SELect:ITEM:DEFault
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.Default.Default
+	:members:
+	:undoc-members:
+	:noindex:

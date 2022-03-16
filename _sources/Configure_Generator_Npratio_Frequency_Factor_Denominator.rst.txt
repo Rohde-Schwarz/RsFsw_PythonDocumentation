@@ -1,0 +1,20 @@
+Denominator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:FREQuency:FACTor:DENominator
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:FREQuency:FACTor:DENominator
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Frequency.Factor.Denominator.Denominator
+	:members:
+	:undoc-members:
+	:noindex:

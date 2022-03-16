@@ -1,0 +1,20 @@
+Meas
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe:TA:MEAS
+
+.. code-block:: python
+
+	MMEMory:STORe:TA:MEAS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.MassMemory.Store.Ta.Meas.Meas
+	:members:
+	:undoc-members:
+	:noindex:

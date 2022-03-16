@@ -1,0 +1,20 @@
+Amplitude
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SOURce:VOLTage:CONTrol<Source>:LEVel:AMPLitude
+
+.. code-block:: python
+
+	SOURce:VOLTage:CONTrol<Source>:LEVel:AMPLitude
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.Control.Level.Amplitude.Amplitude
+	:members:
+	:undoc-members:
+	:noindex:

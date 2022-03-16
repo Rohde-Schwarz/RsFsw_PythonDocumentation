@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:UPDate:STATe
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:UPDate:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Update.State.State
+	:members:
+	:undoc-members:
+	:noindex:

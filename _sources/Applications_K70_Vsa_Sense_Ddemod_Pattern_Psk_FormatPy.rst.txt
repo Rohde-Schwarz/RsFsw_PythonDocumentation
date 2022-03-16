@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:DDEMod:PATTern:PSK:FORMat
+
+.. code-block:: python
+
+	SENSe:DDEMod:PATTern:PSK:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Psk.FormatPy.FormatPy
+	:members:
+	:undoc-members:
+	:noindex:

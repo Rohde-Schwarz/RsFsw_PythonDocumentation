@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:ESPectrum:PSEarch:IMMediate
+
+.. code-block:: python
+
+	CALCulate<Window>:ESPectrum:PSEarch:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Espectrum.PeakSearch.Immediate.Immediate
+	:members:
+	:undoc-members:
+	:noindex:

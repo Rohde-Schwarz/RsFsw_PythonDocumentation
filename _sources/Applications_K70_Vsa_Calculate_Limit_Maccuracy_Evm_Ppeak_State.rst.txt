@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit:MACCuracy:EVM:PPEak:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit:MACCuracy:EVM:PPEak:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Evm.Ppeak.State.State
+	:members:
+	:undoc-members:
+	:noindex:

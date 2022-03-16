@@ -1,0 +1,20 @@
+Inverted
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:IQ:OSC:SKEW:I:INVerted
+
+.. code-block:: python
+
+	INPut<InputIx>:IQ:OSC:SKEW:I:INVerted
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.Skew.Icomponent.Inverted.Inverted
+	:members:
+	:undoc-members:
+	:noindex:

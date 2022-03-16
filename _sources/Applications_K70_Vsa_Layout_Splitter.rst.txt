@@ -1,0 +1,20 @@
+Splitter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: LAYout:SPLitter
+
+.. code-block:: python
+
+	LAYout:SPLitter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Layout.Splitter.Splitter
+	:members:
+	:undoc-members:
+	:noindex:

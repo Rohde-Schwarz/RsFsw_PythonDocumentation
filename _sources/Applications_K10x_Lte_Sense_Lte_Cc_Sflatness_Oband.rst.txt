@@ -1,0 +1,20 @@
+Oband
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LTE:CC<CarrierComponent>:SFLatness:OBANd
+
+.. code-block:: python
+
+	SENSe:LTE:CC<CarrierComponent>:SFLatness:OBANd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Cc.Sflatness.Oband.Oband
+	:members:
+	:undoc-members:
+	:noindex:

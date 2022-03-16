@@ -1,0 +1,20 @@
+Aocc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:DRS:AOCC
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:DRS:AOCC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Drs.Aocc.Aocc
+	:members:
+	:undoc-members:
+	:noindex:

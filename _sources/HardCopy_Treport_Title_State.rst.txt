@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:TREPort:TITLe:STATe
+
+.. code-block:: python
+
+	HCOPy:TREPort:TITLe:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Title.State.State
+	:members:
+	:undoc-members:
+	:noindex:

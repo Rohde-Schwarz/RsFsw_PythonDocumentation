@@ -1,0 +1,20 @@
+Bsymbol
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:BSYMbol
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:BSYMbol
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.Bsymbol.Bsymbol
+	:members:
+	:undoc-members:
+	:noindex:

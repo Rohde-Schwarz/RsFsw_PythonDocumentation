@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:PATH
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Path.Path
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Otype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:TRIGger<TriggerPort>:OTYPe
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:TRIGger<TriggerPort>:OTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Output.Trigger.Otype.Otype
+	:members:
+	:undoc-members:
+	:noindex:

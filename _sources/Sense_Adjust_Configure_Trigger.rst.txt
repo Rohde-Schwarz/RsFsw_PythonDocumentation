@@ -1,0 +1,20 @@
+Trigger
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ADJust:CONFigure:TRIGger
+
+.. code-block:: python
+
+	SENSe:ADJust:CONFigure:TRIGger
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Adjust.Configure.Trigger.Trigger
+	:members:
+	:undoc-members:
+	:noindex:

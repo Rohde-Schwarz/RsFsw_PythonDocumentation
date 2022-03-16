@@ -1,0 +1,20 @@
+Direction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:TRIGger<TriggerPort>:DIRection
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:TRIGger<TriggerPort>:DIRection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Output.Trigger.Direction.Direction
+	:members:
+	:undoc-members:
+	:noindex:

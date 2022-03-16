@@ -1,0 +1,20 @@
+Rtype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RTYPe
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Rtype.Rtype
+	:members:
+	:undoc-members:
+	:noindex:

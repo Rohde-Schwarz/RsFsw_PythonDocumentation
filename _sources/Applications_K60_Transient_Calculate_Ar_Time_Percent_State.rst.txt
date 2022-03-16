@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:AR:TIME:PERCent:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:AR:TIME:PERCent:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Ar.Time.Percent.State.State
+	:members:
+	:undoc-members:
+	:noindex:

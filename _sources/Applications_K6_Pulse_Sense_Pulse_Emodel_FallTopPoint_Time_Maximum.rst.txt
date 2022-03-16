@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PULSe:EMODel:FTPTime:MAXimum
+
+.. code-block:: python
+
+	SENSe:PULSe:EMODel:FTPTime:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallTopPoint.Time.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

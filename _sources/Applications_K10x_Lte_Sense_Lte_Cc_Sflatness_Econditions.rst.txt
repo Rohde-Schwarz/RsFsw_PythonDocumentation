@@ -1,0 +1,20 @@
+Econditions
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LTE:CC<CarrierComponent>:SFLatness:ECONditions
+
+.. code-block:: python
+
+	SENSe:LTE:CC<CarrierComponent>:SFLatness:ECONditions
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Cc.Sflatness.Econditions.Econditions
+	:members:
+	:undoc-members:
+	:noindex:

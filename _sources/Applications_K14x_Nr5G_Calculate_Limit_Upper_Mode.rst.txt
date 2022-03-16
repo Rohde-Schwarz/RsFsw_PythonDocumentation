@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:UPPer:MODE
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:UPPer:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Upper.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

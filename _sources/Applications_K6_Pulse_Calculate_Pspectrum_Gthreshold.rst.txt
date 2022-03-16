@@ -1,0 +1,20 @@
+Gthreshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PSPectrum:GTHReshold
+
+.. code-block:: python
+
+	CALCulate<Window>:PSPectrum:GTHReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Gthreshold.Gthreshold
+	:members:
+	:undoc-members:
+	:noindex:

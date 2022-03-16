@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:ADEMod:ONLine:SOURce
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:ADEMod:ONLine:SOURce
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ademod.Online.Source.Source
+	:members:
+	:undoc-members:
+	:noindex:

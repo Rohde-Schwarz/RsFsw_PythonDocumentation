@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:EVM:FERRor:AVERage:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:EVM:FERRor:AVERage:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Cc.Isrc.Frame.Summary.Evm.FreqError.Average.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

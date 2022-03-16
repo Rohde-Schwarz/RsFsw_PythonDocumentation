@@ -1,0 +1,20 @@
+Service
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DIAGnostic:HUMS:SERVice
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:SERVice
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Service.Service
+	:members:
+	:undoc-members:
+	:noindex:

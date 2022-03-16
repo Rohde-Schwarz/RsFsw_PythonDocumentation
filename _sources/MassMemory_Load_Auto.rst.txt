@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:LOAD:AUTO 1,
+
+.. code-block:: python
+
+	MMEMory:LOAD:AUTO 1,
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Load.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

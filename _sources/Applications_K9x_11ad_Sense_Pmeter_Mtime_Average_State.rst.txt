@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:MTIMe:AVERage:STATe
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:MTIMe:AVERage:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Pmeter.Mtime.Average.State.State
+	:members:
+	:undoc-members:
+	:noindex:

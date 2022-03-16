@@ -1,0 +1,20 @@
+Pscd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LTE:DL:FORMat:PSCD
+
+.. code-block:: python
+
+	SENSe:LTE:DL:FORMat:PSCD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.FormatPy.Pscd.Pscd
+	:members:
+	:undoc-members:
+	:noindex:

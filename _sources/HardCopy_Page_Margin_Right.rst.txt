@@ -1,0 +1,20 @@
+Right
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:PAGE:MARGin:RIGHt
+
+.. code-block:: python
+
+	HCOPy:PAGE:MARGin:RIGHt
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Margin.Right.Right
+	:members:
+	:undoc-members:
+	:noindex:

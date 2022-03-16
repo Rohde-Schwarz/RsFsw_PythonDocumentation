@@ -1,0 +1,37 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRACe<Window>:DATA
+
+.. code-block:: python
+
+	TRACe<Window>:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Trace.Data.Data
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.trace.data.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Trace_Data_X.rst

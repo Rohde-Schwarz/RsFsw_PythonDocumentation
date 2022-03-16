@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:GAIN:VALue
+
+.. code-block:: python
+
+	INPut<InputIx>:GAIN:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.Gain.Value.Value
+	:members:
+	:undoc-members:
+	:noindex:

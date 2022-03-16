@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:HOP:FMSettling:FMSPoint:AVERage
+
+.. code-block:: python
+
+	SENSe:HOP:FMSettling:FMSPoint:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.FmSettling.FmSpoint.Average.Average
+	:members:
+	:undoc-members:
+	:noindex:

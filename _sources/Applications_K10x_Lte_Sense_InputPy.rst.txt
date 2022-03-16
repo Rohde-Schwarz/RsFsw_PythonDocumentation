@@ -1,0 +1,20 @@
+InputPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:INPut
+
+.. code-block:: python
+
+	SENSe:INPut
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.InputPy.InputPy
+	:members:
+	:undoc-members:
+	:noindex:

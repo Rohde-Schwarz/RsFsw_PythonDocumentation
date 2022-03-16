@@ -1,0 +1,20 @@
+BreakPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:BREak
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:BREak
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.BreakPy.BreakPy
+	:members:
+	:undoc-members:
+	:noindex:

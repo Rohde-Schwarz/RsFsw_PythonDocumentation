@@ -1,0 +1,20 @@
+Update
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SYSTem:DISPlay:UPDate
+
+.. code-block:: python
+
+	SYSTem:DISPlay:UPDate
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Display.Update.Update
+	:members:
+	:undoc-members:
+	:noindex:

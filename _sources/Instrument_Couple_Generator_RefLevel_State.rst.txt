@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:GENerator:RLEVel:STATe
+
+.. code-block:: python
+
+	INSTrument:COUPle:GENerator:RLEVel:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Generator.RefLevel.State.State
+	:members:
+	:undoc-members:
+	:noindex:

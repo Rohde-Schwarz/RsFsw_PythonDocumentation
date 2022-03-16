@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:PTABle:EVM:MINimum:RESult
+
+.. code-block:: python
+
+	FETCh:PTABle:EVM:MINimum:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.Evm.Minimum.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

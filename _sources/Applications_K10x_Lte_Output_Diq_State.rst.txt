@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:DIQ:STATe
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:DIQ:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Output.Diq.State.State
+	:members:
+	:undoc-members:
+	:noindex:

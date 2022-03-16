@@ -1,0 +1,20 @@
+Terminator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:TERMinator
+
+.. code-block:: python
+
+	INPut<InputIx>:TERMinator
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Terminator.Terminator
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Output
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ROSCillator:O<OutputSignal>
+
+.. code-block:: python
+
+	SENSe:ROSCillator:O<OutputSignal>
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.Output.Output
+	:members:
+	:undoc-members:
+	:noindex:

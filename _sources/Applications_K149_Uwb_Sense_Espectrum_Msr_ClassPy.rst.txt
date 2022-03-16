@@ -1,0 +1,20 @@
+ClassPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:MSR:CLASs
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:MSR:CLASs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Msr.ClassPy.ClassPy
+	:members:
+	:undoc-members:
+	:noindex:

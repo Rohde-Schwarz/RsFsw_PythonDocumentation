@@ -1,0 +1,20 @@
+PsOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc<Allocation>:PSOFfset
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc<Allocation>:PSOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.PsOffset.PsOffset
+	:members:
+	:undoc-members:
+	:noindex:

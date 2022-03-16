@@ -1,0 +1,20 @@
+Correction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CONFigure:CORRection
+
+.. code-block:: python
+
+	SENSe:CONFigure:CORRection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.Correction.Correction
+	:members:
+	:undoc-members:
+	:noindex:

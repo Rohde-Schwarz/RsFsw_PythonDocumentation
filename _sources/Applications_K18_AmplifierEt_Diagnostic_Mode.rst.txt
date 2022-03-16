@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DIAGnostic:MODE
+
+.. code-block:: python
+
+	DIAGnostic:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Diagnostic.Mode.Mode
+	:members:
+	:undoc-members:
+	:noindex:

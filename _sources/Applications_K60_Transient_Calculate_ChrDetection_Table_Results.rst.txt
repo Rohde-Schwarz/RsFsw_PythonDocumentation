@@ -1,0 +1,20 @@
+Results
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:RESults
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:RESults
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results.Results
+	:members:
+	:undoc-members:
+	:noindex:

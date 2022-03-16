@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:BURSt:IQOFfset:AVERage:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:BURSt:IQOFfset:AVERage:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.Burst.IqOffset.Average.Result.Result
+	:members:
+	:undoc-members:
+	:noindex:

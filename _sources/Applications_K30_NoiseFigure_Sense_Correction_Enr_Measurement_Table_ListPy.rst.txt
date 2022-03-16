@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:ENR:MEASurement:TABLe:LIST
+
+.. code-block:: python
+
+	SENSe:CORRection:ENR:MEASurement:TABLe:LIST
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Measurement.Table.ListPy.ListPy
+	:members:
+	:undoc-members:
+	:noindex:

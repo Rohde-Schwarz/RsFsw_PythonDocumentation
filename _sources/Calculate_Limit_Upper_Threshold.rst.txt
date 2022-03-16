@@ -1,0 +1,20 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:UPPer:THReshold
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:UPPer:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Upper.Threshold.Threshold
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Pexcursion
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer:PEXCursion
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer:PEXCursion
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Calculate.Marker.Pexcursion.Pexcursion
+	:members:
+	:undoc-members:
+	:noindex:

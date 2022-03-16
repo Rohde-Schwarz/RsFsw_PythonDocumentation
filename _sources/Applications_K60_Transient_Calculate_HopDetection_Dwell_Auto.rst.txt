@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:DWELl:AUTO
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:DWELl:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Dwell.Auto.Auto
+	:members:
+	:undoc-members:
+	:noindex:

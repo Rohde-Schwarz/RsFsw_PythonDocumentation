@@ -1,0 +1,20 @@
+Pshow
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PSEarch:PSHow
+
+.. code-block:: python
+
+	CALCulate<Window>:PSEarch:PSHow
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.PeakSearch.Pshow.Pshow
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Cpresent
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:MSR:GSM:CPResent
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:MSR:GSM:CPResent
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Msr.Gsm.Cpresent.Cpresent
+	:members:
+	:undoc-members:
+	:noindex:

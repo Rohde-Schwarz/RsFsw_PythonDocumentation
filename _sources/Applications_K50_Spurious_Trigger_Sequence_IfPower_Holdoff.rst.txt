@@ -1,0 +1,20 @@
+Holdoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRIGger:SEQuence:IFPower:HOLDoff
+
+.. code-block:: python
+
+	TRIGger:SEQuence:IFPower:HOLDoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Trigger.Sequence.IfPower.Holdoff.Holdoff
+	:members:
+	:undoc-members:
+	:noindex:

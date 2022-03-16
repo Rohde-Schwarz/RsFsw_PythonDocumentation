@@ -1,0 +1,20 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:MIXer:THReshold
+
+.. code-block:: python
+
+	SENSe:MIXer:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Mixer.Threshold.Threshold
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:HOP:POWer:AVEPower:MINimum
+
+.. code-block:: python
+
+	SENSe:HOP:POWer:AVEPower:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Power.AvePower.Minimum.Minimum
+	:members:
+	:undoc-members:
+	:noindex:

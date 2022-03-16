@@ -1,0 +1,20 @@
+Search
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:SEARch
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:SEARch
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Search.Search
+	:members:
+	:undoc-members:
+	:noindex:

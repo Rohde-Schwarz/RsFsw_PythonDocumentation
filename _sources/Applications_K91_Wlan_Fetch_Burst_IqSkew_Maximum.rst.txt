@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:BURSt:IQSKew:MAXimum
+
+.. code-block:: python
+
+	FETCh:BURSt:IQSKew:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.IqSkew.Maximum.Maximum
+	:members:
+	:undoc-members:
+	:noindex:

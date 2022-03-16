@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut<OutputConnector>:IF:STATe
+
+.. code-block:: python
+
+	OUTPut<OutputConnector>:IF:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ifreq.State.State
+	:members:
+	:undoc-members:
+	:noindex:

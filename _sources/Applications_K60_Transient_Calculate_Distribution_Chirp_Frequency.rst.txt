@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:CHIRp:FREQuency
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:CHIRp:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Chirp.Frequency.Frequency
+	:members:
+	:undoc-members:
+	:noindex:

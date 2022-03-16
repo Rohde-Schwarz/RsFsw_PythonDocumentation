@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:POWer:LEVel:OFFSet
+
+.. code-block:: python
+
+	CONFigure:GENerator:POWer:LEVel:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Power.Level.Offset.Offset
+	:members:
+	:undoc-members:
+	:noindex:
