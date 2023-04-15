@@ -1,0 +1,20 @@
+Delete
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:STANdard:DELete
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:STANdard:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.Standard.Delete.DeleteCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:FILE:PATH
+
+.. code-block:: python
+
+	INPut<InputIx>:FILE:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.File.Path.PathCls
+	:members:
+	:undoc-members:
+	:noindex:

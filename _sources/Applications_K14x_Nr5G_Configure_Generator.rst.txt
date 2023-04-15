@@ -1,0 +1,34 @@
+Generator
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Generator.GeneratorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.generator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Generator_Control.rst
+	Applications_K14x_Nr5G_Configure_Generator_Frequency.rst
+	Applications_K14x_Nr5G_Configure_Generator_Level.rst
+	Applications_K14x_Nr5G_Configure_Generator_Power.rst
+	Applications_K14x_Nr5G_Configure_Generator_Qerror.rst
+	Applications_K14x_Nr5G_Configure_Generator_RfOutput.rst
+	Applications_K14x_Nr5G_Configure_Generator_Settings.rst

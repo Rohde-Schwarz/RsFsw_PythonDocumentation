@@ -1,0 +1,29 @@
+Dcycle
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Dcycle.DcycleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.pmeter.dcycle.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Pmeter_Dcycle_State.rst
+	Sense_Pmeter_Dcycle_Value.rst

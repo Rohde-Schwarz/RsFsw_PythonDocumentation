@@ -1,0 +1,20 @@
+FmsLength
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:FMSettling:FMSLength
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:FMSettling:FMSLength
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.FmSettling.FmsLength.FmsLengthCls
+	:members:
+	:undoc-members:
+	:noindex:

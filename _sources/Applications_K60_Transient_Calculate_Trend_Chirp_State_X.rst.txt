@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TRENd:CHIRp:STATe:X
+
+.. code-block:: python
+
+	CALCulate<Window>:TRENd:CHIRp:STATe:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Chirp.State.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

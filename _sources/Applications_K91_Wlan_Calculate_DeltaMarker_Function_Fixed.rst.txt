@@ -1,0 +1,29 @@
+Fixed
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.DeltaMarker.Function.Fixed.FixedCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.deltaMarker.function.fixed.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_DeltaMarker_Function_Fixed_Rpoint.rst
+	Applications_K91_Wlan_Calculate_DeltaMarker_Function_Fixed_State.rst

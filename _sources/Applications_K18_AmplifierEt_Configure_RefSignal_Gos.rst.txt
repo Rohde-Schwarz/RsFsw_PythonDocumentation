@@ -1,0 +1,40 @@
+Gos
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.GosCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.refSignal.gos.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Bandwidth.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Crest.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Dcycle.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Fpath.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_LedState.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Nposition.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Nwidth.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Path.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Rlength.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Slength.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_SymbolRate.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Wname.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos_Write.rst

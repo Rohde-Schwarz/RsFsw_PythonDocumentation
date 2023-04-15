@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:SUMMary:POWer:MINimum
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:SUMMary:POWer:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Power.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

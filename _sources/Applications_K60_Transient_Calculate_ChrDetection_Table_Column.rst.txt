@@ -1,0 +1,20 @@
+Column
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:COLumn
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:COLumn
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Column.ColumnCls
+	:members:
+	:undoc-members:
+	:noindex:

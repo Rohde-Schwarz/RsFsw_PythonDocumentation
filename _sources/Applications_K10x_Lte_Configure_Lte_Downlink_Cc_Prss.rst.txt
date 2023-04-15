@@ -1,0 +1,32 @@
+Prss
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Prss.PrssCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.prss.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Prss_Bw.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Prss_Ci.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Prss_Nprs.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Prss_Power.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Prss_State.rst

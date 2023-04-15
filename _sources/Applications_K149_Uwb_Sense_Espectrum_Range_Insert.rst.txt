@@ -1,0 +1,20 @@
+Insert
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:INSert
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:INSert
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range.Insert.InsertCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,28 @@
+Points
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Points.PointsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.listPy.range.points.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_ListPy_Range_Points_Value.rst

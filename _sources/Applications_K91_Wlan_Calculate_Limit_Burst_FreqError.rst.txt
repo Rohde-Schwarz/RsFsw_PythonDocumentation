@@ -1,0 +1,29 @@
+FreqError
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.Burst.FreqError.FreqErrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.limit.burst.freqError.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Limit_Burst_FreqError_Average.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_FreqError_Maximum.rst

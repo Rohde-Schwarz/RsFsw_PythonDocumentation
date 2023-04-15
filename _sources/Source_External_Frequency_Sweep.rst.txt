@@ -1,0 +1,28 @@
+Sweep
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Frequency.Sweep.SweepCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.source.external.frequency.sweep.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Source_External_Frequency_Sweep_State.rst

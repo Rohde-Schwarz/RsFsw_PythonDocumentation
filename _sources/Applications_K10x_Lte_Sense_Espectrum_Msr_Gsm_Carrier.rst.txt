@@ -1,0 +1,20 @@
+Carrier
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:MSR:GSM:CARRier
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:MSR:GSM:CARRier
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Espectrum.Msr.Gsm.Carrier.CarrierCls
+	:members:
+	:undoc-members:
+	:noindex:

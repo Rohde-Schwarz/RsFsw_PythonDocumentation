@@ -1,0 +1,32 @@
+Phase
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Phase.PhaseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.chirp.phase.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Chirp_Phase_AvgPm.rst
+	Applications_K60_Transient_Sense_Chirp_Phase_MaxPm.rst
+	Applications_K60_Transient_Sense_Chirp_Phase_Overshoot.rst
+	Applications_K60_Transient_Sense_Chirp_Phase_RmsPm.rst
+	Applications_K60_Transient_Sense_Chirp_Phase_Undershoot.rst

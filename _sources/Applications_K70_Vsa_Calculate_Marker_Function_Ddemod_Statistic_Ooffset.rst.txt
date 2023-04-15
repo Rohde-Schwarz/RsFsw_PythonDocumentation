@@ -1,0 +1,20 @@
+Ooffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:DDEMod:STATistic:OOFFset
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:DDEMod:STATistic:OOFFset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Ooffset.OoffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

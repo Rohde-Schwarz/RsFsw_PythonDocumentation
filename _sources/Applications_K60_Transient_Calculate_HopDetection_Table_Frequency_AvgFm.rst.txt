@@ -1,0 +1,20 @@
+AvgFm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:FREQuency:AVGFm
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:FREQuency:AVGFm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Frequency.AvgFm.AvgFmCls
+	:members:
+	:undoc-members:
+	:noindex:

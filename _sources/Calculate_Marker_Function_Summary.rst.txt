@@ -1,0 +1,35 @@
+Summary
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Summary.SummaryCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.summary.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Summary_Aoff.rst
+	Calculate_Marker_Function_Summary_Average.rst
+	Calculate_Marker_Function_Summary_Mean.rst
+	Calculate_Marker_Function_Summary_Phold.rst
+	Calculate_Marker_Function_Summary_Ppeak.rst
+	Calculate_Marker_Function_Summary_Rms.rst
+	Calculate_Marker_Function_Summary_StandardDev.rst
+	Calculate_Marker_Function_Summary_State.rst

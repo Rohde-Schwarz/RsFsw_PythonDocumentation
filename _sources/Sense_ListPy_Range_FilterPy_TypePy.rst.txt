@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:FILTer:TYPE
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:FILTer:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.FilterPy.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

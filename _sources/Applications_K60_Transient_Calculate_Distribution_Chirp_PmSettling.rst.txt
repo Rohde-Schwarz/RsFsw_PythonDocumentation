@@ -1,0 +1,20 @@
+PmSettling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:CHIRp:PMSettling
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:CHIRp:PMSettling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Chirp.PmSettling.PmSettlingCls
+	:members:
+	:undoc-members:
+	:noindex:

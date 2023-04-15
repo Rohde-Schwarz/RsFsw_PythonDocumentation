@@ -1,0 +1,33 @@
+Spacing
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Spacing.SpacingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.spacing.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_Spacing_Achannel.rst
+	Sense_Power_Achannel_Spacing_Alternate.rst
+	Sense_Power_Achannel_Spacing_Channel.rst
+	Sense_Power_Achannel_Spacing_Gap.rst
+	Sense_Power_Achannel_Spacing_UaChannel.rst
+	Sense_Power_Achannel_Spacing_Ualternate.rst

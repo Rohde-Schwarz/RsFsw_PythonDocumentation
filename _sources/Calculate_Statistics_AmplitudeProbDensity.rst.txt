@@ -1,0 +1,28 @@
+AmplitudeProbDensity
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.AmplitudeProbDensity.AmplitudeProbDensityCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.statistics.amplitudeProbDensity.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Statistics_AmplitudeProbDensity_State.rst

@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:REFSig:POWer
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:REFSig:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Refsig.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

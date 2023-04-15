@@ -1,0 +1,29 @@
+Self
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Gpib.Self.SelfCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.gpib.self.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Gpib_Self_Address.rst
+	System_Communicate_Gpib_Self_Rterminator.rst

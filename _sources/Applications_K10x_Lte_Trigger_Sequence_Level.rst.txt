@@ -1,0 +1,41 @@
+Level<Instrument>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr4
+	rc = driver.applications.k10Xlte.trigger.sequence.level.repcap_instrument_get()
+	driver.applications.k10Xlte.trigger.sequence.level.repcap_instrument_set(repcap.Instrument.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Trigger.Sequence.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.trigger.sequence.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Trigger_Sequence_Level_BbPower.rst
+	Applications_K10x_Lte_Trigger_Sequence_Level_External.rst
+	Applications_K10x_Lte_Trigger_Sequence_Level_IfPower.rst
+	Applications_K10x_Lte_Trigger_Sequence_Level_IqPower.rst
+	Applications_K10x_Lte_Trigger_Sequence_Level_Power.rst
+	Applications_K10x_Lte_Trigger_Sequence_Level_RfPower.rst

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate:ABSolute:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ACPower:ALTernate:ABSolute:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.AcPower.Alternate.Absolute.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

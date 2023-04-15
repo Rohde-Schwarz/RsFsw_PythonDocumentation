@@ -1,0 +1,41 @@
+Store<Store>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Pos1 .. Pos32
+	rc = driver.applications.k10Xlte.massMemory.store.repcap_store_get()
+	driver.applications.k10Xlte.massMemory.store.repcap_store_set(repcap.Store.Pos1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.MassMemory.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.massMemory.store.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_MassMemory_Store_Cc.rst
+	Applications_K10x_Lte_MassMemory_Store_Iq.rst
+	Applications_K10x_Lte_MassMemory_Store_ListPy.rst
+	Applications_K10x_Lte_MassMemory_Store_Mservice.rst
+	Applications_K10x_Lte_MassMemory_Store_Peak.rst
+	Applications_K10x_Lte_MassMemory_Store_Trace.rst

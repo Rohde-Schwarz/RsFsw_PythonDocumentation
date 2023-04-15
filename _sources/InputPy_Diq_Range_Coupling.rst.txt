@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:DIQ:RANGe:COUPling
+
+.. code-block:: python
+
+	INPut<InputIx>:DIQ:RANGe:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Diq.Range.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:

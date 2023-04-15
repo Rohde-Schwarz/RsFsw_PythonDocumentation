@@ -1,0 +1,30 @@
+CpError
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.CpError.CpErrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.fetch.burst.cpError.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Fetch_Burst_CpError_Average.rst
+	Applications_K91_Wlan_Fetch_Burst_CpError_Maximum.rst
+	Applications_K91_Wlan_Fetch_Burst_CpError_Minimum.rst

@@ -1,0 +1,20 @@
+SbCenter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:SBCenter
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:SBCenter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.SbCenter.SbCenterCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,43 @@
+Pmeter<PowerMeter>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.sense.pmeter.repcap_powerMeter_get()
+	driver.sense.pmeter.repcap_powerMeter_set(repcap.PowerMeter.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.PmeterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.pmeter.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Pmeter_Dcycle.rst
+	Sense_Pmeter_Frequency.rst
+	Sense_Pmeter_Mtime.rst
+	Sense_Pmeter_Roffset.rst
+	Sense_Pmeter_Soffset.rst
+	Sense_Pmeter_State.rst
+	Sense_Pmeter_Trigger.rst
+	Sense_Pmeter_Update.rst

@@ -1,0 +1,29 @@
+Alignment
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.System.Communicate.Rdevice.Oscilloscope.Alignment.AlignmentCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.system.communicate.rdevice.oscilloscope.alignment.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_System_Communicate_Rdevice_Oscilloscope_Alignment_Date.rst
+	Applications_K60_Transient_System_Communicate_Rdevice_Oscilloscope_Alignment_Step.rst

@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MATH:MODE
+
+.. code-block:: python
+
+	CALCulate<Window>:MATH:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Math.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:WINDow<Window>:DETector<Trace>:FUNCtion:AUTO
+
+.. code-block:: python
+
+	SENSe:WINDow<Window>:DETector<Trace>:FUNCtion:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Window.Detector.Function.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

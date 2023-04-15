@@ -1,0 +1,20 @@
+Ratio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:BWIDth:WINDow<Window>:RATio
+
+.. code-block:: python
+
+	SENSe:BWIDth:WINDow<Window>:RATio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Bandwidth.Window.Ratio.RatioCls
+	:members:
+	:undoc-members:
+	:noindex:

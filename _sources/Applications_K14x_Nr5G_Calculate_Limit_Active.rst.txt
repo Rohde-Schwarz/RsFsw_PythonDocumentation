@@ -1,0 +1,20 @@
+Active
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ACTive
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ACTive
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Active.ActiveCls
+	:members:
+	:undoc-members:
+	:noindex:

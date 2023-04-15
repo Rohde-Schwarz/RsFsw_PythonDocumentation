@@ -1,0 +1,20 @@
+Cshift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SRS:SEQuence:CSHift
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SRS:SEQuence:CSHift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Srs.Sequence.Cshift.CshiftCls
+	:members:
+	:undoc-members:
+	:noindex:

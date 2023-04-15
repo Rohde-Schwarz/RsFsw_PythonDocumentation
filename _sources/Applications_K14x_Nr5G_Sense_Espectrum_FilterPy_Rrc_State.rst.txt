@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:FILTer:RRC:STATe
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:FILTer:RRC:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.FilterPy.Rrc.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

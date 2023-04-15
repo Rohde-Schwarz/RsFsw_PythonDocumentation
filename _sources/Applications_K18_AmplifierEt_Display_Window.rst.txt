@@ -1,0 +1,46 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k18AmplifierEt.display.window.repcap_window_get()
+	driver.applications.k18AmplifierEt.display.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.display.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Display_Window_Minfo.rst
+	Applications_K18_AmplifierEt_Display_Window_Mtable.rst
+	Applications_K18_AmplifierEt_Display_Window_Psweep.rst
+	Applications_K18_AmplifierEt_Display_Window_Ptable.rst
+	Applications_K18_AmplifierEt_Display_Window_Size.rst
+	Applications_K18_AmplifierEt_Display_Window_Stable.rst
+	Applications_K18_AmplifierEt_Display_Window_State.rst
+	Applications_K18_AmplifierEt_Display_Window_Subwindow.rst
+	Applications_K18_AmplifierEt_Display_Window_Table.rst
+	Applications_K18_AmplifierEt_Display_Window_Tdomain.rst
+	Applications_K18_AmplifierEt_Display_Window_Trace.rst

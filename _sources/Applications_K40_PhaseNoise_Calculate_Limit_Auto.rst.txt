@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:AUTO
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Limit.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

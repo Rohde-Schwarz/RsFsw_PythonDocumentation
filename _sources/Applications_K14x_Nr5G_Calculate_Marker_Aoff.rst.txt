@@ -1,0 +1,20 @@
+Aoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:AOFF
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:AOFF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Aoff.AoffCls
+	:members:
+	:undoc-members:
+	:noindex:

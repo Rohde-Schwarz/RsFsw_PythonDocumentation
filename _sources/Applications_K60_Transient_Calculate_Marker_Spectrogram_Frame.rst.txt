@@ -1,0 +1,20 @@
+Frame
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:SPECtrogram:FRAMe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:SPECtrogram:FRAMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Marker.Spectrogram.Frame.FrameCls
+	:members:
+	:undoc-members:
+	:noindex:

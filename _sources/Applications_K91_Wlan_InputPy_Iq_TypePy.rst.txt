@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:IQ:TYPE
+
+.. code-block:: python
+
+	INPut<InputIx>:IQ:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.Iq.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

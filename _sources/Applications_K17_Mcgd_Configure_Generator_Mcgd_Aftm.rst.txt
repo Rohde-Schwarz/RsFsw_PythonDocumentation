@@ -1,0 +1,30 @@
+Aftm
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.AftmCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.configure.generator.mcgd.aftm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Configure_Generator_Mcgd_Aftm_Frequency.rst
+	Applications_K17_Mcgd_Configure_Generator_Mcgd_Aftm_Ostate.rst
+	Applications_K17_Mcgd_Configure_Generator_Mcgd_Aftm_State.rst

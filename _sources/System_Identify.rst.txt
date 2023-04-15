@@ -1,0 +1,29 @@
+Identify
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Identify.IdentifyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.identify.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Identify_Factory.rst
+	System_Identify_String.rst

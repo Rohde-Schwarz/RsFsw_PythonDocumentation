@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

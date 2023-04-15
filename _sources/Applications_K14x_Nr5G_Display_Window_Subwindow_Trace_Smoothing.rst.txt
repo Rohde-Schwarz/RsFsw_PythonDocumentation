@@ -1,0 +1,29 @@
+Smoothing
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Display.Window.Subwindow.Trace.Smoothing.SmoothingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.display.window.subwindow.trace.smoothing.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Trace_Smoothing_Aperture.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Trace_Smoothing_State.rst

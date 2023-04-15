@@ -1,0 +1,48 @@
+Store<Store>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Pos1 .. Pos32
+	rc = driver.massMemory.store.repcap_store_get()
+	driver.massMemory.store.repcap_store_set(repcap.Store.Pos1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.store.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Store_Iq.rst
+	MassMemory_Store_Limit.rst
+	MassMemory_Store_ListPy.rst
+	MassMemory_Store_Peak.rst
+	MassMemory_Store_Pspectrum.rst
+	MassMemory_Store_Spectrogram.rst
+	MassMemory_Store_Spurious.rst
+	MassMemory_Store_State.rst
+	MassMemory_Store_Table.rst
+	MassMemory_Store_Tfactor.rst
+	MassMemory_Store_Trace.rst
+	MassMemory_Store_TypePy.rst
+	MassMemory_Store_Wav.rst

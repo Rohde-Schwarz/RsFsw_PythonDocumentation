@@ -1,0 +1,20 @@
+SelectName
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:SELect
+
+.. code-block:: python
+
+	INSTrument:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.SelectName.SelectNameCls
+	:members:
+	:undoc-members:
+	:noindex:

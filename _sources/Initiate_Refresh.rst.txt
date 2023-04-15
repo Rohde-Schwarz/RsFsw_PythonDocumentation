@@ -1,0 +1,20 @@
+Refresh
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INITiate:REFResh
+
+.. code-block:: python
+
+	INITiate:REFResh
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Refresh.RefreshCls
+	:members:
+	:undoc-members:
+	:noindex:

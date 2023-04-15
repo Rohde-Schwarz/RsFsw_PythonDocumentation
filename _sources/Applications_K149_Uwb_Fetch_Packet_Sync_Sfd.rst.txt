@@ -1,0 +1,38 @@
+Sfd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh<Window>:PACKet:SYNC:SFD
+
+.. code-block:: python
+
+	FETCh<Window>:PACKet:SYNC:SFD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Sync.Sfd.SfdCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.packet.sync.sfd.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Packet_Sync_Sfd_Apackets.rst
+	Applications_K149_Uwb_Fetch_Packet_Sync_Sfd_Length.rst

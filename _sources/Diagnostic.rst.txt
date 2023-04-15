@@ -1,0 +1,30 @@
+Diagnostic
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.DiagnosticCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Hums.rst
+	Diagnostic_Info.rst
+	Diagnostic_Service.rst

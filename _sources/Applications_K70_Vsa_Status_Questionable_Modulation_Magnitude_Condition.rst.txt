@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:MODulation<Window>:MAGNitude:CONDition
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<Window>:MAGNitude:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Magnitude.Condition.ConditionCls
+	:members:
+	:undoc-members:
+	:noindex:

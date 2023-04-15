@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:MBSFn:POWer
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:MBSFn:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mbsfn.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

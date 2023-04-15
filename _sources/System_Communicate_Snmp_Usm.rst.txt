@@ -1,0 +1,28 @@
+Usm
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Snmp.Usm.UsmCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.snmp.usm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Snmp_Usm_User.rst

@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: OUTPut:TRIGger<TriggerPort>:LEVel
+
+.. code-block:: python
+
+	OUTPut:TRIGger<TriggerPort>:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Output.Trigger.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

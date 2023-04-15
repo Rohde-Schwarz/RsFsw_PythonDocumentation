@@ -1,0 +1,29 @@
+Coupling
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.roscillator.coupling.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Roscillator_Coupling_Bandwidth.rst
+	Sense_Roscillator_Coupling_Mode.rst

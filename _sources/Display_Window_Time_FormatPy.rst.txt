@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:TIME:FORMat
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:TIME:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Time.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Catalog
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:STANdard:CATalog
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:STANdard:CATalog
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.Standard.Catalog.CatalogCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+Speaker
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Speaker.SpeakerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.speaker.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Speaker_MaxVolume.rst
+	System_Speaker_State.rst
+	System_Speaker_Volume.rst

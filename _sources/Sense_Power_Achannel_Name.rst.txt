@@ -1,0 +1,32 @@
+Name
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Name.NameCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.name.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_Name_Achannel.rst
+	Sense_Power_Achannel_Name_Alternate.rst
+	Sense_Power_Achannel_Name_Channel.rst
+	Sense_Power_Achannel_Name_UaChannel.rst
+	Sense_Power_Achannel_Name_Ualternate.rst

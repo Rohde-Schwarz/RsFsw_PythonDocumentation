@@ -1,0 +1,34 @@
+Generator
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Generator.GeneratorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.generator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_Generator_Channel.rst
+	Applications_K30_NoiseFigure_Source_Generator_DutBypass.rst
+	Applications_K30_NoiseFigure_Source_Generator_Frequency.rst
+	Applications_K30_NoiseFigure_Source_Generator_Level.rst
+	Applications_K30_NoiseFigure_Source_Generator_Modulation.rst
+	Applications_K30_NoiseFigure_Source_Generator_Pulse.rst
+	Applications_K30_NoiseFigure_Source_Generator_State.rst

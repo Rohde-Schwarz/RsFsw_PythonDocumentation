@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:CLEar:STATe 1,
+
+.. code-block:: python
+
+	MMEMory:CLEar:STATe 1,
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Clear.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

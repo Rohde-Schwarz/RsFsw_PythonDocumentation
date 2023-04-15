@@ -1,0 +1,38 @@
+Detector<Trace>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Tr1 .. Tr16
+	rc = driver.configure.ademod.results.pm.detector.repcap_trace_get()
+	driver.configure.ademod.results.pm.detector.repcap_trace_set(repcap.Trace.Tr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Ademod.Results.Pm.Detector.DetectorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.ademod.results.pm.detector.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Ademod_Results_Pm_Detector_Mode.rst
+	Configure_Ademod_Results_Pm_Detector_Reference.rst
+	Configure_Ademod_Results_Pm_Detector_State.rst

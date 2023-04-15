@@ -1,0 +1,30 @@
+Create
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Create.CreateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.instrument.create.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Instrument_Create_Duplicate.rst
+	Instrument_Create_New.rst
+	Instrument_Create_Replace.rst

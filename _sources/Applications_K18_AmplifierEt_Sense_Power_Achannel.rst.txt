@@ -1,0 +1,34 @@
+Achannel
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Power.Achannel.AchannelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.sense.power.achannel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_Aabw.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_AcPairs.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_FilterPy.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_Mode.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_Reference.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_Spacing.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_TxChannel.rst

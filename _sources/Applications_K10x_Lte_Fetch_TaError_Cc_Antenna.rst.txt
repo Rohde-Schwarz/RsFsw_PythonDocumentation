@@ -1,0 +1,38 @@
+Antenna<Antenna>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k10Xlte.fetch.taError.cc.antenna.repcap_antenna_get()
+	driver.applications.k10Xlte.fetch.taError.cc.antenna.repcap_antenna_set(repcap.Antenna.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.TaError.Cc.Antenna.AntennaCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.fetch.taError.cc.antenna.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Fetch_TaError_Cc_Antenna_Average.rst
+	Applications_K10x_Lte_Fetch_TaError_Cc_Antenna_Maximum.rst
+	Applications_K10x_Lte_Fetch_TaError_Cc_Antenna_Minimum.rst

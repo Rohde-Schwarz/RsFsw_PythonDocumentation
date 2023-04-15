@@ -1,0 +1,29 @@
+High
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Mixer.Harmonic.High.HighCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.mixer.harmonic.high.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Mixer_Harmonic_High_State.rst
+	Applications_K50_Spurious_Sense_Mixer_Harmonic_High_Value.rst

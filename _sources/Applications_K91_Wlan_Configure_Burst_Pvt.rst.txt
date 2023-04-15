@@ -1,0 +1,31 @@
+Pvt
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Pvt.PvtCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.burst.pvt.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Burst_Pvt_Average.rst
+	Applications_K91_Wlan_Configure_Burst_Pvt_Immediate.rst
+	Applications_K91_Wlan_Configure_Burst_Pvt_Rpower.rst
+	Applications_K91_Wlan_Configure_Burst_Pvt_Select.rst

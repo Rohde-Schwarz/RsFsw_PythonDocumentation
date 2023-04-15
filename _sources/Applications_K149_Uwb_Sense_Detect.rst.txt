@@ -1,0 +1,33 @@
+Detect
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.DetectCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.detect.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Detect_Burst.rst
+	Applications_K149_Uwb_Sense_Detect_Default.rst
+	Applications_K149_Uwb_Sense_Detect_Evaluation.rst
+	Applications_K149_Uwb_Sense_Detect_Off.rst
+	Applications_K149_Uwb_Sense_Detect_Reference.rst
+	Applications_K149_Uwb_Sense_Detect_Threshold.rst

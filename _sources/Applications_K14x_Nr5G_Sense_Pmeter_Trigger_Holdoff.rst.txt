@@ -1,0 +1,20 @@
+Holdoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:TRIGger:HOLDoff
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:TRIGger:HOLDoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Pmeter.Trigger.Holdoff.HoldoffCls
+	:members:
+	:undoc-members:
+	:noindex:

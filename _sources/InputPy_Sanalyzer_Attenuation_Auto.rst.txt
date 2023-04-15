@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:SANalyzer:ATTenuation:AUTO
+
+.. code-block:: python
+
+	INPut<InputIx>:SANalyzer:ATTenuation:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Sanalyzer.Attenuation.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

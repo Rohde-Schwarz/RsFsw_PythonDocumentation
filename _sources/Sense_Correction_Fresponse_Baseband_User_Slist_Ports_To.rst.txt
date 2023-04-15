@@ -1,0 +1,20 @@
+To
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:CORRection:FRESponse:BASeband:USER:SLISt<TouchStone>:PORTs:TO
+
+.. code-block:: python
+
+	SENSe:CORRection:FRESponse:BASeband:USER:SLISt<TouchStone>:PORTs:TO
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Slist.Ports.To.ToCls
+	:members:
+	:undoc-members:
+	:noindex:

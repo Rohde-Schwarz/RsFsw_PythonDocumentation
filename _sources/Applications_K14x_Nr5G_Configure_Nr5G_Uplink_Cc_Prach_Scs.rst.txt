@@ -1,0 +1,20 @@
+Scs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:PRACh:SCS
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:PRACh:SCS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Prach.Scs.ScsCls
+	:members:
+	:undoc-members:
+	:noindex:

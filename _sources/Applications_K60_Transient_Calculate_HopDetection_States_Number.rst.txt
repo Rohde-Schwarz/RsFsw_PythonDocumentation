@@ -1,0 +1,20 @@
+Number
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:STATes:NUMBer
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:STATes:NUMBer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Number.NumberCls
+	:members:
+	:undoc-members:
+	:noindex:

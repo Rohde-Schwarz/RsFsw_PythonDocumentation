@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:PNOise<Trace>:SWEep:SRATe
+
+.. code-block:: python
+
+	FETCh:PNOise<Trace>:SWEep:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Sweep.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

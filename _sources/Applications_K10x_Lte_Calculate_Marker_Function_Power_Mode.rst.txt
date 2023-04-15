@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:MODE
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:POWer<SubBlock>:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

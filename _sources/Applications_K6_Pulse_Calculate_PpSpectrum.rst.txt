@@ -1,0 +1,34 @@
+PpSpectrum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.PpSpectrum.PpSpectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.ppSpectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_PpSpectrum_Auto.rst
+	Applications_K6_Pulse_Calculate_PpSpectrum_BlockSize.rst
+	Applications_K6_Pulse_Calculate_PpSpectrum_Gthreshold.rst
+	Applications_K6_Pulse_Calculate_PpSpectrum_MaxFrequency.rst
+	Applications_K6_Pulse_Calculate_PpSpectrum_Rbw.rst
+	Applications_K6_Pulse_Calculate_PpSpectrum_Sthreshold.rst
+	Applications_K6_Pulse_Calculate_PpSpectrum_Window.rst

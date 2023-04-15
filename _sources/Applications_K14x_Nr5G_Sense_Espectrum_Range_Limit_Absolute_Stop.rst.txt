@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:LIMit:ABSolute:STOP
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:RANGe<RangePy>:LIMit:ABSolute:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Limit.Absolute.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

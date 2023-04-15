@@ -1,0 +1,29 @@
+Pucch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Pucch.PucchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.uplink.cc.subframe.alloc.pucch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Subframe_Alloc_Pucch_FormatPy.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Subframe_Alloc_Pucch_Npar.rst

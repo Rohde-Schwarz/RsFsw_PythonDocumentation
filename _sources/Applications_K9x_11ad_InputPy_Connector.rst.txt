@@ -1,0 +1,20 @@
+Connector
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:CONNector
+
+.. code-block:: python
+
+	INPut<InputIx>:CONNector
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.InputPy.Connector.ConnectorCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:LIMit<Window>:EVENt
+
+.. code-block:: python
+
+	STATus:QUEStionable:LIMit<Window>:EVENt
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Limit.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

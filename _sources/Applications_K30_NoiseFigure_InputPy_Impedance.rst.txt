@@ -1,0 +1,20 @@
+Impedance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:IMPedance
+
+.. code-block:: python
+
+	INPut<InputIx>:IMPedance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.InputPy.Impedance.ImpedanceCls
+	:members:
+	:undoc-members:
+	:noindex:

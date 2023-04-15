@@ -1,0 +1,29 @@
+Factor
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Frequency.Factor.FactorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.configure.generator.mcgd.aftm.frequency.factor.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Configure_Generator_Mcgd_Aftm_Frequency_Factor_Denominator.rst
+	Applications_K17_Mcgd_Configure_Generator_Mcgd_Aftm_Frequency_Factor_Numerator.rst

@@ -1,0 +1,20 @@
+Color
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SPECtrogram:COLor
+
+.. code-block:: python
+
+	CALCulate<Window>:SPECtrogram:COLor
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.Color.ColorCls
+	:members:
+	:undoc-members:
+	:noindex:

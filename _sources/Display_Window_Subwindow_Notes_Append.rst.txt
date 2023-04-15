@@ -1,0 +1,28 @@
+Append
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Notes.Append.AppendCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.subwindow.notes.append.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Subwindow_Notes_Append_Text.rst

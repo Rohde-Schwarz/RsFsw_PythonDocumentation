@@ -1,0 +1,45 @@
+Marker<Marker>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k50Spurious.calculate.marker.repcap_marker_get()
+	driver.applications.k50Spurious.calculate.marker.repcap_marker_set(repcap.Marker.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Calculate.Marker.MarkerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.calculate.marker.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Calculate_Marker_Aoff.rst
+	Applications_K50_Spurious_Calculate_Marker_Link.rst
+	Applications_K50_Spurious_Calculate_Marker_LinkTo.rst
+	Applications_K50_Spurious_Calculate_Marker_Maximum.rst
+	Applications_K50_Spurious_Calculate_Marker_Minimum.rst
+	Applications_K50_Spurious_Calculate_Marker_Pexcursion.rst
+	Applications_K50_Spurious_Calculate_Marker_State.rst
+	Applications_K50_Spurious_Calculate_Marker_Trace.rst
+	Applications_K50_Spurious_Calculate_Marker_X.rst
+	Applications_K50_Spurious_Calculate_Marker_Y.rst

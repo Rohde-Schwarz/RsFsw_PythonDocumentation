@@ -1,0 +1,52 @@
+Cc<CarrierComponent>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k10Xlte.configure.lte.uplink.cc.repcap_carrierComponent_get()
+	driver.applications.k10Xlte.configure.lte.uplink.cc.repcap_carrierComponent_set(repcap.CarrierComponent.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.CcCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.uplink.cc.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Bw.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Csubframes.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_CycPrefix.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Mimo.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_NoRb.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Plc.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Plci.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Pucch.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Pusch.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Scin.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Sfno.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Srs.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Subframe.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Tdd.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_UeId.rst

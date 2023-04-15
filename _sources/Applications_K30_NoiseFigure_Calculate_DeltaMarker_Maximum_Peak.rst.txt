@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:MAXimum:PEAK
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:MAXimum:PEAK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.DeltaMarker.Maximum.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:

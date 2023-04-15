@@ -1,0 +1,31 @@
+Slimits
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.X.Slimits.SlimitsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.marker.x.slimits.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Marker_X_Slimits_Left.rst
+	Applications_K14x_Nr5G_Calculate_Marker_X_Slimits_Right.rst
+	Applications_K14x_Nr5G_Calculate_Marker_X_Slimits_State.rst
+	Applications_K14x_Nr5G_Calculate_Marker_X_Slimits_Zoom.rst

@@ -1,0 +1,20 @@
+CceIndex
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:COReset<Coreset>:PDCCh0:CCEindex
+
+.. code-block:: python
+
+	CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:COReset<Coreset>:PDCCh0:CCEindex
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.Coreset.Pdcch.CceIndex.CceIndexCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,40 @@
+K40_PhaseNoise
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.K40_PhaseNoiseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40_PhaseNoise.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Calculate.rst
+	Applications_K40_PhaseNoise_Configure.rst
+	Applications_K40_PhaseNoise_Display.rst
+	Applications_K40_PhaseNoise_Fetch.rst
+	Applications_K40_PhaseNoise_FormatPy.rst
+	Applications_K40_PhaseNoise_Initiate.rst
+	Applications_K40_PhaseNoise_InputPy.rst
+	Applications_K40_PhaseNoise_Layout.rst
+	Applications_K40_PhaseNoise_MassMemory.rst
+	Applications_K40_PhaseNoise_Output.rst
+	Applications_K40_PhaseNoise_Sense.rst
+	Applications_K40_PhaseNoise_Trace.rst
+	Applications_K40_PhaseNoise_TriggerInvoke.rst

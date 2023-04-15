@@ -1,0 +1,20 @@
+Duplicate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:DUPLicate
+
+.. code-block:: python
+
+	CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:DUPLicate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Duplicate.DuplicateCls
+	:members:
+	:undoc-members:
+	:noindex:

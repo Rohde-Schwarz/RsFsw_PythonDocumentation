@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:STRack:BWIDth
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:STRack:BWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Strack.Bandwidth.BandwidthCls
+	:members:
+	:undoc-members:
+	:noindex:

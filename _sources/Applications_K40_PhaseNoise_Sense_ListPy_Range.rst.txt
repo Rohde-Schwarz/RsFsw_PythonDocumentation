@@ -1,0 +1,39 @@
+Range<HalfDecadeRange>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Rng_1Hz_3Hz .. Rng_100GHz_300GHz
+	rc = driver.applications.k40PhaseNoise.sense.listPy.range.repcap_halfDecadeRange_get()
+	driver.applications.k40PhaseNoise.sense.listPy.range.repcap_halfDecadeRange_set(repcap.HalfDecadeRange.Rng_1Hz_3Hz)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.ListPy.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.sense.listPy.range.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Sense_ListPy_Range_Bandwidth.rst
+	Applications_K40_PhaseNoise_Sense_ListPy_Range_FilterPy.rst
+	Applications_K40_PhaseNoise_Sense_ListPy_Range_IqWindow.rst
+	Applications_K40_PhaseNoise_Sense_ListPy_Range_Sweep.rst

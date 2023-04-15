@@ -1,0 +1,32 @@
+DcpNoise
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Power.DcpNoise.DcpNoiseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.status.questionable.power.dcpNoise.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Status_Questionable_Power_DcpNoise_Condition.rst
+	Status_Questionable_Power_DcpNoise_Enable.rst
+	Status_Questionable_Power_DcpNoise_Event.rst
+	Status_Questionable_Power_DcpNoise_Ntransition.rst
+	Status_Questionable_Power_DcpNoise_Ptransition.rst

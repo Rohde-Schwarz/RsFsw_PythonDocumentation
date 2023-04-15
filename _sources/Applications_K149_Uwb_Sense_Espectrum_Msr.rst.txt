@@ -1,0 +1,35 @@
+Msr
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Msr.MsrCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.espectrum.msr.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Espectrum_Msr_Apply.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_Band.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_Bcategory.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_ClassPy.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_Gsm.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_Lte.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_Mpower.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr_RfbWidth.rst

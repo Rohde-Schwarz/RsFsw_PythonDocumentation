@@ -1,0 +1,40 @@
+Sense
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.SenseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Adjust.rst
+	Applications_K91_Wlan_Sense_Average.rst
+	Applications_K91_Wlan_Sense_Burst.rst
+	Applications_K91_Wlan_Sense_Demod.rst
+	Applications_K91_Wlan_Sense_Frequency.rst
+	Applications_K91_Wlan_Sense_Iq.rst
+	Applications_K91_Wlan_Sense_Mixer.rst
+	Applications_K91_Wlan_Sense_Power.rst
+	Applications_K91_Wlan_Sense_Probe.rst
+	Applications_K91_Wlan_Sense_SwapIq.rst
+	Applications_K91_Wlan_Sense_Sweep.rst
+	Applications_K91_Wlan_Sense_Tracking.rst
+	Applications_K91_Wlan_Sense_Window.rst

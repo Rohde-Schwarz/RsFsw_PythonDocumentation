@@ -1,0 +1,30 @@
+Dwell
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Dwell.DwellCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.hopDetection.dwell.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_HopDetection_Dwell_Auto.rst
+	Applications_K60_Transient_Calculate_HopDetection_Dwell_Maximum.rst
+	Applications_K60_Transient_Calculate_HopDetection_Dwell_Minimum.rst

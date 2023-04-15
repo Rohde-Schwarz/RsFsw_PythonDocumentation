@@ -1,0 +1,38 @@
+Burst
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.BurstCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.burst.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Burst_Am.rst
+	Applications_K91_Wlan_Configure_Burst_Const.rst
+	Applications_K91_Wlan_Configure_Burst_Evm.rst
+	Applications_K91_Wlan_Configure_Burst_Gain.rst
+	Applications_K91_Wlan_Configure_Burst_Iq.rst
+	Applications_K91_Wlan_Configure_Burst_Preamble.rst
+	Applications_K91_Wlan_Configure_Burst_Ptracking.rst
+	Applications_K91_Wlan_Configure_Burst_Pvt.rst
+	Applications_K91_Wlan_Configure_Burst_Quad.rst
+	Applications_K91_Wlan_Configure_Burst_Spectrum.rst
+	Applications_K91_Wlan_Configure_Burst_Statistics.rst

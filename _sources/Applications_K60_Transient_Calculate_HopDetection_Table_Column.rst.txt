@@ -1,0 +1,20 @@
+Column
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:COLumn
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:COLumn
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Column.ColumnCls
+	:members:
+	:undoc-members:
+	:noindex:

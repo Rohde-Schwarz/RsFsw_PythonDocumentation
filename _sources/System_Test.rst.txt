@@ -1,0 +1,29 @@
+Test
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Test.TestCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.test.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Test_Redo.rst
+	System_Test_Undo.rst

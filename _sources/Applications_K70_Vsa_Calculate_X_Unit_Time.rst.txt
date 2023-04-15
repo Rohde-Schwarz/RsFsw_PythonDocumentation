@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:X:UNIT:TIME
+
+.. code-block:: python
+
+	CALCulate<Window>:X:UNIT:TIME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.X.Unit.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

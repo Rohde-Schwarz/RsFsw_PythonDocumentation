@@ -1,0 +1,20 @@
+Tframe
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:ISRC:SUMMary:TFRame
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:ISRC:SUMMary:TFRame
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Summary.Tframe.TframeCls
+	:members:
+	:undoc-members:
+	:noindex:

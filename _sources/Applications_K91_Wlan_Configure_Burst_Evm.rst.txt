@@ -1,0 +1,31 @@
+Evm
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Evm.EvmCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.burst.evm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Burst_Evm_Ecarrier.rst
+	Applications_K91_Wlan_Configure_Burst_Evm_Esymbol.rst
+	Applications_K91_Wlan_Configure_Burst_Evm_EvChip.rst
+	Applications_K91_Wlan_Configure_Burst_Evm_Standard.rst

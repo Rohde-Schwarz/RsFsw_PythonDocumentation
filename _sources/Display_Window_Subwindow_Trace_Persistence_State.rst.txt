@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:PERSistence:STATe
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SUBWindow<SubWindow>:TRACe<Trace>:PERSistence:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Trace.Persistence.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

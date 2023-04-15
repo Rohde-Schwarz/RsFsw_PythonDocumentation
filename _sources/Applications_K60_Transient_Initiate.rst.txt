@@ -1,0 +1,31 @@
+Initiate
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Initiate.InitiateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.initiate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Initiate_ConMeas.rst
+	Applications_K60_Transient_Initiate_Continuous.rst
+	Applications_K60_Transient_Initiate_Immediate.rst
+	Applications_K60_Transient_Initiate_Sync.rst

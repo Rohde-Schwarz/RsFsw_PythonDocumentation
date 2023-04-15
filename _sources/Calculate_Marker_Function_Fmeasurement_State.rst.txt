@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:FMEasurement:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:FMEasurement:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Fmeasurement.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

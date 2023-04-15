@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:FREQuency:LENGth
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:FREQuency:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Frequency.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

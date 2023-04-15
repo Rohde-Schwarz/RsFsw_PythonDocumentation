@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:NPRatio:NOTCh<Notch>:FREQuency:OFFSet
+
+.. code-block:: python
+
+	SENSe:NPRatio:NOTCh<Notch>:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Notch.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

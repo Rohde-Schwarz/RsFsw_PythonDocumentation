@@ -1,0 +1,20 @@
+End
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:POWer:OFFSet:END
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:POWer:OFFSet:END
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Power.Offset.End.EndCls
+	:members:
+	:undoc-members:
+	:noindex:

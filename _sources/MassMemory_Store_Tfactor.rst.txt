@@ -1,0 +1,20 @@
+Tfactor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe<Store>:TFACtor
+
+.. code-block:: python
+
+	MMEMory:STORe<Store>:TFACtor
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.Tfactor.TfactorCls
+	:members:
+	:undoc-members:
+	:noindex:

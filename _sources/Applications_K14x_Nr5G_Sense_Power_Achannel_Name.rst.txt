@@ -1,0 +1,33 @@
+Name
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Name.NameCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.power.achannel.name.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Name_Achannel.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Name_Alternate.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Name_Channel.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Name_Gap.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Name_UaChannel.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Name_Ualternate.rst

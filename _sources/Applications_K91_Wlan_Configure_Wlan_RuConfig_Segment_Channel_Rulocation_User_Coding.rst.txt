@@ -1,0 +1,20 @@
+Coding
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:SEGMent<Segment>:CHANnel<Channel>:RULocation<RuAllocationIx>:USER<UserIx>:CODing
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:SEGMent<Segment>:CHANnel<Channel>:RULocation<RuAllocationIx>:USER<UserIx>:CODing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User.Coding.CodingCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mpower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:ESPectrum<SubBlock>:MSR:MPOWer
+
+.. code-block:: python
+
+	SENSe:ESPectrum<SubBlock>:MSR:MPOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Espectrum.Msr.Mpower.MpowerCls
+	:members:
+	:undoc-members:
+	:noindex:

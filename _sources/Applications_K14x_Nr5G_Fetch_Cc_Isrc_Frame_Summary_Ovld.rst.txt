@@ -1,0 +1,20 @@
+Ovld
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:OVLD
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:OVLD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.Ovld.OvldCls
+	:members:
+	:undoc-members:
+	:noindex:

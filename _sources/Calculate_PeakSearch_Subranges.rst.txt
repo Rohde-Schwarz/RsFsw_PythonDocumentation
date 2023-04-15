@@ -1,0 +1,20 @@
+Subranges
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PSEarch:SUBRanges
+
+.. code-block:: python
+
+	CALCulate<Window>:PSEarch:SUBRanges
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.PeakSearch.Subranges.SubrangesCls
+	:members:
+	:undoc-members:
+	:noindex:

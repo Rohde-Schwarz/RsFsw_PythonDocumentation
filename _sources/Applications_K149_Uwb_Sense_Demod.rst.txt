@@ -1,0 +1,32 @@
+Demod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.demod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Demod_Mac.rst
+	Applications_K149_Uwb_Sense_Demod_Mode.rst
+	Applications_K149_Uwb_Sense_Demod_Payload.rst
+	Applications_K149_Uwb_Sense_Demod_PhrRate.rst
+	Applications_K149_Uwb_Sense_Demod_Sts.rst

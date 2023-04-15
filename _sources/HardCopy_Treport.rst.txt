@@ -1,0 +1,37 @@
+Treport
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.TreportCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Append.rst
+	HardCopy_Treport_Description.rst
+	HardCopy_Treport_Item.rst
+	HardCopy_Treport_New.rst
+	HardCopy_Treport_Pagecount.rst
+	HardCopy_Treport_PageSize.rst
+	HardCopy_Treport_Pcolors.rst
+	HardCopy_Treport_TdDtamp.rst
+	HardCopy_Treport_Test.rst
+	HardCopy_Treport_Title.rst

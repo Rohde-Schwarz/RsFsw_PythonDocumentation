@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FILTer<FilterPy>:LPASs:FREQuency:RELative
+
+.. code-block:: python
+
+	SENSe:FILTer<FilterPy>:LPASs:FREQuency:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Lpass.Frequency.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:

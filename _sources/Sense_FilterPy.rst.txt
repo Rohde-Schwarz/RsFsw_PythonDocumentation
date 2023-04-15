@@ -1,0 +1,41 @@
+FilterPy<FilterPy>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.sense.filterPy.repcap_filterPy_get()
+	driver.sense.filterPy.repcap_filterPy_set(repcap.FilterPy.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.FilterPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.filterPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_FilterPy_Aoff.rst
+	Sense_FilterPy_Aweighted.rst
+	Sense_FilterPy_Ccir.rst
+	Sense_FilterPy_Demphasis.rst
+	Sense_FilterPy_Hpass.rst
+	Sense_FilterPy_Lpass.rst

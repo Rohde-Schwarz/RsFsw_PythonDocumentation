@@ -1,0 +1,45 @@
+K18_AmplifierEt
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.K18_AmplifierEtCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18_AmplifierEt.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Calculate.rst
+	Applications_K18_AmplifierEt_Calibration.rst
+	Applications_K18_AmplifierEt_Configure.rst
+	Applications_K18_AmplifierEt_Diagnostic.rst
+	Applications_K18_AmplifierEt_Display.rst
+	Applications_K18_AmplifierEt_Fetch.rst
+	Applications_K18_AmplifierEt_FormatPy.rst
+	Applications_K18_AmplifierEt_Initiate.rst
+	Applications_K18_AmplifierEt_InputPy.rst
+	Applications_K18_AmplifierEt_Layout.rst
+	Applications_K18_AmplifierEt_MassMemory.rst
+	Applications_K18_AmplifierEt_Output.rst
+	Applications_K18_AmplifierEt_Sense.rst
+	Applications_K18_AmplifierEt_System.rst
+	Applications_K18_AmplifierEt_Trace.rst
+	Applications_K18_AmplifierEt_Trigger.rst
+	Applications_K18_AmplifierEt_TriggerInvoke.rst
+	Applications_K18_AmplifierEt_Unit.rst

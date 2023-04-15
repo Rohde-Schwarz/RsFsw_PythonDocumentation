@@ -1,0 +1,20 @@
+Mharmonic
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FPLan:COMPonent<Component>:PORT<Port>:MHARmonic
+
+.. code-block:: python
+
+	SENSe:FPLan:COMPonent<Component>:PORT<Port>:MHARmonic
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Component.Port.Mharmonic.MharmonicCls
+	:members:
+	:undoc-members:
+	:noindex:

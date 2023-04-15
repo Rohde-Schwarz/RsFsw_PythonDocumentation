@@ -1,0 +1,48 @@
+Espectrum<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.sense.espectrum.repcap_subBlock_get()
+	driver.sense.espectrum.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.EspectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.espectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Espectrum_Bwid.rst
+	Sense_Espectrum_FilterPy.rst
+	Sense_Espectrum_Hspeed.rst
+	Sense_Espectrum_Msr.rst
+	Sense_Espectrum_Preset.rst
+	Sense_Espectrum_Range.rst
+	Sense_Espectrum_Rrange.rst
+	Sense_Espectrum_Rtype.rst
+	Sense_Espectrum_SbCenter.rst
+	Sense_Espectrum_Sbcount.rst
+	Sense_Espectrum_Scenter.rst
+	Sense_Espectrum_Scount.rst
+	Sense_Espectrum_Ssetup.rst

@@ -1,0 +1,46 @@
+Function
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.FunctionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Ademod.rst
+	Calculate_Marker_Function_AfPhase.rst
+	Calculate_Marker_Function_Bpower.rst
+	Calculate_Marker_Function_Center.rst
+	Calculate_Marker_Function_Cstep.rst
+	Calculate_Marker_Function_Demodulation.rst
+	Calculate_Marker_Function_Fmeasurement.rst
+	Calculate_Marker_Function_Fpeaks.rst
+	Calculate_Marker_Function_Harmonics.rst
+	Calculate_Marker_Function_Mdepth.rst
+	Calculate_Marker_Function_Msummary.rst
+	Calculate_Marker_Function_NdbDown.rst
+	Calculate_Marker_Function_Noise.rst
+	Calculate_Marker_Function_Pnoise.rst
+	Calculate_Marker_Function_Power.rst
+	Calculate_Marker_Function_Reference.rst
+	Calculate_Marker_Function_Strack.rst
+	Calculate_Marker_Function_Summary.rst
+	Calculate_Marker_Function_Toi.rst

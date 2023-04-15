@@ -1,0 +1,30 @@
+Evm
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.ScDetailed.Evm.EvmCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.fetch.scDetailed.evm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Fetch_ScDetailed_Evm_All.rst
+	Applications_K91_Wlan_Fetch_ScDetailed_Evm_Data.rst
+	Applications_K91_Wlan_Fetch_ScDetailed_Evm_Pilot.rst

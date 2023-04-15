@@ -1,0 +1,59 @@
+Ddemod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.DdemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.ddemod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Ddemod_Apsk.rst
+	Applications_K70_Vsa_Sense_Ddemod_Ask.rst
+	Applications_K70_Vsa_Sense_Ddemod_Bordering.rst
+	Applications_K70_Vsa_Sense_Ddemod_Ecalc.rst
+	Applications_K70_Vsa_Sense_Ddemod_EpRate.rst
+	Applications_K70_Vsa_Sense_Ddemod_Equalizer.rst
+	Applications_K70_Vsa_Sense_Ddemod_Factory.rst
+	Applications_K70_Vsa_Sense_Ddemod_FilterPy.rst
+	Applications_K70_Vsa_Sense_Ddemod_FormatPy.rst
+	Applications_K70_Vsa_Sense_Ddemod_Fsk.rst
+	Applications_K70_Vsa_Sense_Ddemod_Fsync.rst
+	Applications_K70_Vsa_Sense_Ddemod_Kdata.rst
+	Applications_K70_Vsa_Sense_Ddemod_Mapping.rst
+	Applications_K70_Vsa_Sense_Ddemod_Mfilter.rst
+	Applications_K70_Vsa_Sense_Ddemod_Msk.rst
+	Applications_K70_Vsa_Sense_Ddemod_Normalize.rst
+	Applications_K70_Vsa_Sense_Ddemod_Optimization.rst
+	Applications_K70_Vsa_Sense_Ddemod_Pattern.rst
+	Applications_K70_Vsa_Sense_Ddemod_Prate.rst
+	Applications_K70_Vsa_Sense_Ddemod_Preset.rst
+	Applications_K70_Vsa_Sense_Ddemod_Psk.rst
+	Applications_K70_Vsa_Sense_Ddemod_Qam.rst
+	Applications_K70_Vsa_Sense_Ddemod_Qpsk.rst
+	Applications_K70_Vsa_Sense_Ddemod_Rlength.rst
+	Applications_K70_Vsa_Sense_Ddemod_Sband.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search.rst
+	Applications_K70_Vsa_Sense_Ddemod_Signal.rst
+	Applications_K70_Vsa_Sense_Ddemod_Standard.rst
+	Applications_K70_Vsa_Sense_Ddemod_SymbolRate.rst
+	Applications_K70_Vsa_Sense_Ddemod_Tfilter.rst
+	Applications_K70_Vsa_Sense_Ddemod_Time.rst
+	Applications_K70_Vsa_Sense_Ddemod_User.rst

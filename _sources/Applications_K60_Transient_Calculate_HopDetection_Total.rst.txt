@@ -1,0 +1,20 @@
+Total
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TOTal
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TOTal
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Total.TotalCls
+	:members:
+	:undoc-members:
+	:noindex:

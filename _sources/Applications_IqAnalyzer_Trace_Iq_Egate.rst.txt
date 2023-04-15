@@ -1,0 +1,32 @@
+Egate
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Trace.Iq.Egate.EgateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.iqAnalyzer.trace.iq.egate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_IqAnalyzer_Trace_Iq_Egate_Gap.rst
+	Applications_IqAnalyzer_Trace_Iq_Egate_Length.rst
+	Applications_IqAnalyzer_Trace_Iq_Egate_Nof.rst
+	Applications_IqAnalyzer_Trace_Iq_Egate_State.rst
+	Applications_IqAnalyzer_Trace_Iq_Egate_TypePy.rst

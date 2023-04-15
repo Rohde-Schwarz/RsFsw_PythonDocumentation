@@ -1,0 +1,20 @@
+End
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:FREQuency:OFFSet:END
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:FREQuency:OFFSet:END
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Frequency.Offset.End.EndCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PROBe<Probe>:SETup:MODE
+
+.. code-block:: python
+
+	SENSe:PROBe<Probe>:SETup:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Probe.Setup.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

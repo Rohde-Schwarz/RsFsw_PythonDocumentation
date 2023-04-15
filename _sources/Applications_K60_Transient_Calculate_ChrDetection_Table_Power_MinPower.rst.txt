@@ -1,0 +1,20 @@
+MinPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:POWer:MINPower
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:POWer:MINPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Power.MinPower.MinPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

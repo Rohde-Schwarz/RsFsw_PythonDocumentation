@@ -1,0 +1,29 @@
+Ports
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Slist.Ports.PortsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.baseband.user.slist.ports.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_Baseband_User_Slist_Ports_FromPy.rst
+	Sense_Correction_Fresponse_Baseband_User_Slist_Ports_To.rst

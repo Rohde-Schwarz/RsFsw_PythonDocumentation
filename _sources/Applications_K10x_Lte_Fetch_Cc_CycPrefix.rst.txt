@@ -1,0 +1,20 @@
+CycPrefix
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:CYCPrefix
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:CYCPrefix
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.CycPrefix.CycPrefixCls
+	:members:
+	:undoc-members:
+	:noindex:

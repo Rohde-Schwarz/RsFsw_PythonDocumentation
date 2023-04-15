@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:POWer:LENGth
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:POWer:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Power.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

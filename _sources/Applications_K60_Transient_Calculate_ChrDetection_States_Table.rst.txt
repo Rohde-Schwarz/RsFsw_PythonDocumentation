@@ -1,0 +1,22 @@
+Table
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:STATes:TABLe:LOAD
+	single: CALCulate<Window>:CHRDetection:STATes:TABLe:SAVE
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:STATes:TABLe:LOAD
+	CALCulate<Window>:CHRDetection:STATes:TABLe:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.States.Table.TableCls
+	:members:
+	:undoc-members:
+	:noindex:

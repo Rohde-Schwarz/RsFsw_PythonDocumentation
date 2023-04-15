@@ -1,0 +1,30 @@
+Data
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Spectrum.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.user.spectrum.data.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_User_Spectrum_Data_Frequency.rst
+	Sense_Correction_Fresponse_User_Spectrum_Data_Magnitude.rst
+	Sense_Correction_Fresponse_User_Spectrum_Data_Phase.rst

@@ -1,0 +1,28 @@
+Video
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Video.VideoCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.output.video.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Output_Video_State.rst

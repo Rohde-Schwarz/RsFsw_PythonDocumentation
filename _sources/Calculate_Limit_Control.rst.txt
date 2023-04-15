@@ -1,0 +1,33 @@
+Control
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Control.ControlCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.control.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_Control_Data.rst
+	Calculate_Limit_Control_Domain.rst
+	Calculate_Limit_Control_Mode.rst
+	Calculate_Limit_Control_Offset.rst
+	Calculate_Limit_Control_Shift.rst
+	Calculate_Limit_Control_Spacing.rst

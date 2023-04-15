@@ -1,0 +1,40 @@
+Osc
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.OscCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.inputPy.iq.osc.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	InputPy_Iq_Osc_Balanced.rst
+	InputPy_Iq_Osc_ConState.rst
+	InputPy_Iq_Osc_Coupling.rst
+	InputPy_Iq_Osc_Fullscale.rst
+	InputPy_Iq_Osc_Idn.rst
+	InputPy_Iq_Osc_Impedance.rst
+	InputPy_Iq_Osc_Skew.rst
+	InputPy_Iq_Osc_State.rst
+	InputPy_Iq_Osc_SymbolRate.rst
+	InputPy_Iq_Osc_Tcpip.rst
+	InputPy_Iq_Osc_TypePy.rst
+	InputPy_Iq_Osc_Vdevice.rst
+	InputPy_Iq_Osc_Vfirmware.rst

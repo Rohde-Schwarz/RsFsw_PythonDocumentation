@@ -1,0 +1,20 @@
+Timing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:TIMing
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:TIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.Timing.TimingCls
+	:members:
+	:undoc-members:
+	:noindex:

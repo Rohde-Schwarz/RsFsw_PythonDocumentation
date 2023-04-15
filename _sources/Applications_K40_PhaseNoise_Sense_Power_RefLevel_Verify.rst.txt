@@ -1,0 +1,29 @@
+Verify
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Power.RefLevel.Verify.VerifyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.sense.power.refLevel.verify.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Sense_Power_RefLevel_Verify_State.rst
+	Applications_K40_PhaseNoise_Sense_Power_RefLevel_Verify_Tolerance.rst

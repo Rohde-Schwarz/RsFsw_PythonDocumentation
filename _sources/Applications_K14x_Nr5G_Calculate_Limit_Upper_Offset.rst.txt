@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:UPPer:OFFSet
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:UPPer:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Upper.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

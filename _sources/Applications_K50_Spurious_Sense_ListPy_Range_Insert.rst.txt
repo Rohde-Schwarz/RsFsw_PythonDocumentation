@@ -1,0 +1,20 @@
+Insert
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:INSert
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:INSert
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.Insert.InsertCls
+	:members:
+	:undoc-members:
+	:noindex:

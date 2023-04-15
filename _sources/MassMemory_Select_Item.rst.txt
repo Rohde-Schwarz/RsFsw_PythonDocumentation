@@ -1,0 +1,43 @@
+Item
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.ItemCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.select.item.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Select_Item_All.rst
+	MassMemory_Select_Item_Cdata.rst
+	MassMemory_Select_Item_Csetup.rst
+	MassMemory_Select_Item_Default.rst
+	MassMemory_Select_Item_Final.rst
+	MassMemory_Select_Item_HardCopy.rst
+	MassMemory_Select_Item_HwSettings.rst
+	MassMemory_Select_Item_Lines.rst
+	MassMemory_Select_Item_Macros.rst
+	MassMemory_Select_Item_NonePy.rst
+	MassMemory_Select_Item_ScData.rst
+	MassMemory_Select_Item_Spectrogram.rst
+	MassMemory_Select_Item_Trace.rst
+	MassMemory_Select_Item_Transducer.rst
+	MassMemory_Select_Item_ViqData.rst
+	MassMemory_Select_Item_Weighting.rst

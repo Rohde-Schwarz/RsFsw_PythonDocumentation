@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:LIMit:STOP
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:LIMit:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Limit.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

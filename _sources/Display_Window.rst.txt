@@ -1,0 +1,45 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.display.window.repcap_window_get()
+	driver.display.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Minfo.rst
+	Display_Window_Mtable.rst
+	Display_Window_Pspectrum.rst
+	Display_Window_Size.rst
+	Display_Window_Spectrogram.rst
+	Display_Window_State.rst
+	Display_Window_Statistics.rst
+	Display_Window_Subwindow.rst
+	Display_Window_Time.rst
+	Display_Window_Trace.rst

@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SPECtrogram:FRAMe:SELect
+
+.. code-block:: python
+
+	CALCulate<Window>:SPECtrogram:FRAMe:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.Frame.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,43 @@
+Subwindow<SubWindow>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k14Xnr5G.display.window.subwindow.repcap_subWindow_get()
+	driver.applications.k14Xnr5G.display.window.subwindow.repcap_subWindow_set(repcap.SubWindow.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Display.Window.Subwindow.SubwindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.display.window.subwindow.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Display_Window_Subwindow_CcNumber.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Coupling.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Fnumber.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Isnumber.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Select.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Size.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Trace.rst
+	Applications_K14x_Nr5G_Display_Window_Subwindow_Zoom.rst

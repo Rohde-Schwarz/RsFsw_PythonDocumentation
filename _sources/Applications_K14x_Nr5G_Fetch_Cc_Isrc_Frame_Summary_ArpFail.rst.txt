@@ -1,0 +1,20 @@
+ArpFail
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:ARPFail
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:ARPFail
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.ArpFail.ArpFailCls
+	:members:
+	:undoc-members:
+	:noindex:

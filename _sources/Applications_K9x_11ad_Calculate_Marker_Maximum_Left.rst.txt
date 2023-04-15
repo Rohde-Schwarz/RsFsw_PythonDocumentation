@@ -1,0 +1,20 @@
+Left
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:MAXimum:LEFT
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:MAXimum:LEFT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Calculate.Marker.Maximum.Left.LeftCls
+	:members:
+	:undoc-members:
+	:noindex:

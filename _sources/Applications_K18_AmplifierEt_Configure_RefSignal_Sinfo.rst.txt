@@ -1,0 +1,32 @@
+Sinfo
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Sinfo.SinfoCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.refSignal.sinfo.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_RefSignal_Sinfo_Cfactor.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Sinfo_Fpath.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Sinfo_Obw.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Sinfo_Slength.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Sinfo_SymbolRate.rst

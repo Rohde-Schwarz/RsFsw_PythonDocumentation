@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNCertainty:PREamp:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:UNCertainty:PREamp:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Preamp.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

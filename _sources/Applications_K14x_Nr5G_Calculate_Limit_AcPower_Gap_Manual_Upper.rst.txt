@@ -1,0 +1,30 @@
+Upper
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.AcPower.Gap.Manual.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.limit.acPower.gap.manual.upper.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Limit_AcPower_Gap_Manual_Upper_Absolute.rst
+	Applications_K14x_Nr5G_Calculate_Limit_AcPower_Gap_Manual_Upper_Aclr.rst
+	Applications_K14x_Nr5G_Calculate_Limit_AcPower_Gap_Manual_Upper_Caclr.rst

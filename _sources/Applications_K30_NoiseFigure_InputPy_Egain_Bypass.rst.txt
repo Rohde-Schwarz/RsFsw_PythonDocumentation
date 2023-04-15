@@ -1,0 +1,20 @@
+Bypass
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:EGAin:BYPass
+
+.. code-block:: python
+
+	INPut<InputIx>:EGAin:BYPass
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.InputPy.Egain.Bypass.BypassCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Spsc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:TDD:SPSC
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:TDD:SPSC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Tdd.Spsc.SpscCls
+	:members:
+	:undoc-members:
+	:noindex:

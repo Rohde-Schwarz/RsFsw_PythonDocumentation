@@ -1,0 +1,40 @@
+Espectrum<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k14Xnr5G.calculate.limit.espectrum.repcap_subBlock_get()
+	driver.applications.k14Xnr5G.calculate.limit.espectrum.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Espectrum.EspectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.limit.espectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Limit_Espectrum_Mode.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Espectrum_Pclass.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Espectrum_Restore.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Espectrum_Transition.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Espectrum_Value.rst

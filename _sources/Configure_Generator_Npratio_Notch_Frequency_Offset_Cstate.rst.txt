@@ -1,0 +1,20 @@
+Cstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:NOTCh<Notch>:FREQuency:OFFSet:CSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:NOTCh<Notch>:FREQuency:OFFSet:CSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Notch.Frequency.Offset.Cstate.CstateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+FilterPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FilterPy.FilterPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.demod.filterPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Demod_FilterPy_Catalog.rst
+	Applications_K91_Wlan_Sense_Demod_FilterPy_EfLength.rst
+	Applications_K91_Wlan_Sense_Demod_FilterPy_Modulation.rst

@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:MAXimum:NEXT
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:MAXimum:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Calculate.Marker.Maximum.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

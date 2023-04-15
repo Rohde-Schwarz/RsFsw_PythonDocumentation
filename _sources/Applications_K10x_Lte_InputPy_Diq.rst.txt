@@ -1,0 +1,30 @@
+Diq
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Diq.DiqCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.inputPy.diq.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_InputPy_Diq_Cdevice.rst
+	Applications_K10x_Lte_InputPy_Diq_Range.rst
+	Applications_K10x_Lte_InputPy_Diq_SymbolRate.rst

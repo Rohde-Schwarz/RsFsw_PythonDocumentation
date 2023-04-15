@@ -1,0 +1,20 @@
+Downlink
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:LOAD:CC<CarrierComponent>:TMOD:DL
+
+.. code-block:: python
+
+	MMEMory:LOAD:CC<CarrierComponent>:TMOD:DL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.MassMemory.Load.Cc.Tmod.Downlink.DownlinkCls
+	:members:
+	:undoc-members:
+	:noindex:

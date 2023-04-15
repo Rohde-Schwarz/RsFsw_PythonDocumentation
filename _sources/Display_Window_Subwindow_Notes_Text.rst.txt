@@ -1,0 +1,20 @@
+Text
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SUBWindow<SubWindow>:NOTes:TEXT
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SUBWindow<SubWindow>:NOTes:TEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Notes.Text.TextCls
+	:members:
+	:undoc-members:
+	:noindex:

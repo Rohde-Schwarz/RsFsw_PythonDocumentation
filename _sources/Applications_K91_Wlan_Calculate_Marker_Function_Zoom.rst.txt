@@ -1,0 +1,20 @@
+Zoom
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:ZOOM
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:ZOOM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.Function.Zoom.ZoomCls
+	:members:
+	:undoc-members:
+	:noindex:

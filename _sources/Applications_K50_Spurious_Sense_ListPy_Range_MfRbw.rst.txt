@@ -1,0 +1,20 @@
+MfRbw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:MFRBw
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:MFRBw
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.MfRbw.MfRbwCls
+	:members:
+	:undoc-members:
+	:noindex:

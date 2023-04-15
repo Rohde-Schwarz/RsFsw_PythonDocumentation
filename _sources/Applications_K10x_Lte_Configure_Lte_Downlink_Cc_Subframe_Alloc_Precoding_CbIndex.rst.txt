@@ -1,0 +1,20 @@
+CbIndex
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc<Allocation>:PRECoding:CBINdex
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc<Allocation>:PRECoding:CBINdex
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Precoding.CbIndex.CbIndexCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:TYPE
+
+.. code-block:: python
+
+	INPut<InputIx>:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.InputPy.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:TRACe<Trace>:MODE
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:TRACe<Trace>:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.Trace.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

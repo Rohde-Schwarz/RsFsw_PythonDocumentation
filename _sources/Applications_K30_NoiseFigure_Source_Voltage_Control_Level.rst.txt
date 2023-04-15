@@ -1,0 +1,30 @@
+Level
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.Control.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.voltage.control.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_Voltage_Control_Level_Amplitude.rst
+	Applications_K30_NoiseFigure_Source_Voltage_Control_Level_Limit.rst
+	Applications_K30_NoiseFigure_Source_Voltage_Control_Level_State.rst

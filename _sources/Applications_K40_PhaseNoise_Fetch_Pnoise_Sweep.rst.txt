@@ -1,0 +1,34 @@
+Sweep
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Sweep.SweepCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.fetch.pnoise.sweep.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_Avg.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_Fdrift.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_Ldrift.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_Mdrift.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_Start.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_Stop.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep_SymbolRate.rst

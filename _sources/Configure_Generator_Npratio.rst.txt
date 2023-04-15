@@ -1,0 +1,38 @@
+Npratio
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.NpratioCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.npratio.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Npratio_Awgn.rst
+	Configure_Generator_Npratio_Bb.rst
+	Configure_Generator_Npratio_Connection.rst
+	Configure_Generator_Npratio_Control.rst
+	Configure_Generator_Npratio_External.rst
+	Configure_Generator_Npratio_Frequency.rst
+	Configure_Generator_Npratio_Notch.rst
+	Configure_Generator_Npratio_Power.rst
+	Configure_Generator_Npratio_RfOutput.rst
+	Configure_Generator_Npratio_Settings.rst
+	Configure_Generator_Npratio_State.rst

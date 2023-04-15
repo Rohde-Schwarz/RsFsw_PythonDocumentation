@@ -1,0 +1,20 @@
+Check
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:TRACe<Trace>:CHECk
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:TRACe<Trace>:CHECk
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Trace.Check.CheckCls
+	:members:
+	:undoc-members:
+	:noindex:

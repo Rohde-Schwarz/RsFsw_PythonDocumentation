@@ -1,0 +1,31 @@
+Scapture
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Scapture.ScaptureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.sweep.scapture.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Sweep_Scapture_Events.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Scapture_Length.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Scapture_Offset.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Scapture_State.rst

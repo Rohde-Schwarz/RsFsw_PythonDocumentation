@@ -1,0 +1,32 @@
+PeakSearch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Espectrum.PeakSearch.PeakSearchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.espectrum.peakSearch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Espectrum_PeakSearch_Auto.rst
+	Calculate_Espectrum_PeakSearch_Details.rst
+	Calculate_Espectrum_PeakSearch_Immediate.rst
+	Calculate_Espectrum_PeakSearch_Margin.rst
+	Calculate_Espectrum_PeakSearch_Pshow.rst

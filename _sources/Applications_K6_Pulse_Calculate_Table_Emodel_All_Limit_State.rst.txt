@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TABLe:EMODel:ALL:LIMit:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:TABLe:EMODel:ALL:LIMit:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Emodel.All.Limit.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

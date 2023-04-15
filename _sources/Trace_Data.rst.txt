@@ -1,0 +1,38 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FORMAT REAL,32;TRACe<Window>:DATA
+
+.. code-block:: python
+
+	FORMAT REAL,32;TRACe<Window>:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.trace.data.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Trace_Data_Memory.rst
+	Trace_Data_X.rst

@@ -1,0 +1,20 @@
+Present
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DSP:RESult:RRANge:CURRent:PATTern:PRESent
+
+.. code-block:: python
+
+	CALCulate<Window>:DSP:RESult:RRANge:CURRent:PATTern:PRESent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Rrange.Current.Pattern.Present.PresentCls
+	:members:
+	:undoc-members:
+	:noindex:

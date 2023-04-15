@@ -1,0 +1,20 @@
+Phase
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:CHIRp:PHASe
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:CHIRp:PHASe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Chirp.Phase.PhaseCls
+	:members:
+	:undoc-members:
+	:noindex:

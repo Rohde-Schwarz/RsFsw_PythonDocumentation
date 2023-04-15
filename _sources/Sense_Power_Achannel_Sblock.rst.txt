@@ -1,0 +1,42 @@
+Sblock<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.sense.power.achannel.sblock.repcap_subBlock_get()
+	driver.sense.power.achannel.sblock.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Sblock.SblockCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.sblock.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_Sblock_Bandwidth.rst
+	Sense_Power_Achannel_Sblock_Center.rst
+	Sense_Power_Achannel_Sblock_Frequency.rst
+	Sense_Power_Achannel_Sblock_Name.rst
+	Sense_Power_Achannel_Sblock_RfbWidth.rst
+	Sense_Power_Achannel_Sblock_Technology.rst
+	Sense_Power_Achannel_Sblock_TxChannel.rst

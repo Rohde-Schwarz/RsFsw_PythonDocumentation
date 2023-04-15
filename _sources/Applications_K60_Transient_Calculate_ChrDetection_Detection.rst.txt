@@ -1,0 +1,20 @@
+Detection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:DETection
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:DETection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Detection.DetectionCls
+	:members:
+	:undoc-members:
+	:noindex:

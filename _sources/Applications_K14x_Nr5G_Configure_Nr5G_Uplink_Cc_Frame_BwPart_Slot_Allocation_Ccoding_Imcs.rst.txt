@@ -1,0 +1,20 @@
+Imcs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:ALLocation<Allocation>:CCODing:IMCS
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:ALLocation<Allocation>:CCODing:IMCS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Slot.Allocation.Ccoding.Imcs.ImcsCls
+	:members:
+	:undoc-members:
+	:noindex:

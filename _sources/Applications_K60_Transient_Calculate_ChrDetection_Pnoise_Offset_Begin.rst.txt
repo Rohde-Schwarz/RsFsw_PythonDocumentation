@@ -1,0 +1,20 @@
+Begin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:PNOise:OFFSet:BEGin
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:PNOise:OFFSet:BEGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Pnoise.Offset.Begin.BeginCls
+	:members:
+	:undoc-members:
+	:noindex:

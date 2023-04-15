@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:TDOMain:Y:SCALe:NORMalise:STATe
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:TDOMain:Y:SCALe:NORMalise:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Tdomain.Y.Scale.Normalise.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

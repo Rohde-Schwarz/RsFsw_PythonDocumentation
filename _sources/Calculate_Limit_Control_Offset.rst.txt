@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CONTrol:OFFSet
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CONTrol:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Control.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

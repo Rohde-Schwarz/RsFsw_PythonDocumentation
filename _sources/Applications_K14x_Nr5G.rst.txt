@@ -1,0 +1,45 @@
+K14x_Nr5G
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.K14x_Nr5GCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14x_Nr5G.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate.rst
+	Applications_K14x_Nr5G_Calibration.rst
+	Applications_K14x_Nr5G_Configure.rst
+	Applications_K14x_Nr5G_Display.rst
+	Applications_K14x_Nr5G_Fetch.rst
+	Applications_K14x_Nr5G_FormatPy.rst
+	Applications_K14x_Nr5G_Initiate.rst
+	Applications_K14x_Nr5G_InputPy.rst
+	Applications_K14x_Nr5G_Layout.rst
+	Applications_K14x_Nr5G_MassMemory.rst
+	Applications_K14x_Nr5G_Output.rst
+	Applications_K14x_Nr5G_Read.rst
+	Applications_K14x_Nr5G_Sense.rst
+	Applications_K14x_Nr5G_System.rst
+	Applications_K14x_Nr5G_Trace.rst
+	Applications_K14x_Nr5G_Trigger.rst
+	Applications_K14x_Nr5G_TriggerInvoke.rst
+	Applications_K14x_Nr5G_Unit.rst

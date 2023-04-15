@@ -1,0 +1,20 @@
+Ptype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:IQ:IMPedance:PTYPe
+
+.. code-block:: python
+
+	INPut<InputIx>:IQ:IMPedance:PTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.InputPy.Iq.Impedance.Ptype.PtypeCls
+	:members:
+	:undoc-members:
+	:noindex:

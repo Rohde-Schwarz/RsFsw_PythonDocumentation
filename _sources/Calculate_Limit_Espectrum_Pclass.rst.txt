@@ -1,0 +1,40 @@
+Pclass<PowerClass>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr30
+	rc = driver.calculate.limit.espectrum.pclass.repcap_powerClass_get()
+	driver.calculate.limit.espectrum.pclass.repcap_powerClass_set(repcap.PowerClass.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Espectrum.Pclass.PclassCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.espectrum.pclass.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_Espectrum_Pclass_Count.rst
+	Calculate_Limit_Espectrum_Pclass_Exclusive.rst
+	Calculate_Limit_Espectrum_Pclass_Limit.rst
+	Calculate_Limit_Espectrum_Pclass_Maximum.rst
+	Calculate_Limit_Espectrum_Pclass_Minimum.rst

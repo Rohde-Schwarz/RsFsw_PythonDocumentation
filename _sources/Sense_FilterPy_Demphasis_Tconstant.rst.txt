@@ -1,0 +1,20 @@
+Tconstant
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FILTer<FilterPy>:DEMPhasis:TCONstant
+
+.. code-block:: python
+
+	SENSe:FILTer<FilterPy>:DEMPhasis:TCONstant
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Demphasis.Tconstant.TconstantCls
+	:members:
+	:undoc-members:
+	:noindex:

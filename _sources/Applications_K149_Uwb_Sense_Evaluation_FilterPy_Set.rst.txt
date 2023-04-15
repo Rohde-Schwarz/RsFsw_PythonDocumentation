@@ -1,0 +1,20 @@
+Set
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:EVALuation:FILTer<FilterPy>:SET
+
+.. code-block:: python
+
+	SENSe:EVALuation:FILTer<FilterPy>:SET
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Evaluation.FilterPy.Set.SetCls
+	:members:
+	:undoc-members:
+	:noindex:

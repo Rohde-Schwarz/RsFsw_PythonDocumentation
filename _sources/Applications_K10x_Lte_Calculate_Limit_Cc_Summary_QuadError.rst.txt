@@ -1,0 +1,29 @@
+QuadError
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.Cc.Summary.QuadError.QuadErrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.limit.cc.summary.quadError.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_Limit_Cc_Summary_QuadError_Average.rst
+	Applications_K10x_Lte_Calculate_Limit_Cc_Summary_QuadError_Maximum.rst

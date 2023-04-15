@@ -1,0 +1,56 @@
+Fetch<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k18AmplifierEt.fetch.repcap_window_get()
+	driver.applications.k18AmplifierEt.fetch.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.FetchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Amam.rst
+	Applications_K18_AmplifierEt_Fetch_AmPm.rst
+	Applications_K18_AmplifierEt_Fetch_Apae.rst
+	Applications_K18_AmplifierEt_Fetch_BbPower.rst
+	Applications_K18_AmplifierEt_Fetch_Ddpd.rst
+	Applications_K18_AmplifierEt_Fetch_Dpd.rst
+	Applications_K18_AmplifierEt_Fetch_Icc.rst
+	Applications_K18_AmplifierEt_Fetch_Ivoltage.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy.rst
+	Applications_K18_AmplifierEt_Fetch_Mdpd.rst
+	Applications_K18_AmplifierEt_Fetch_Pc.rst
+	Applications_K18_AmplifierEt_Fetch_Pcpa.rst
+	Applications_K18_AmplifierEt_Fetch_Power.rst
+	Applications_K18_AmplifierEt_Fetch_Pservoing.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable.rst
+	Applications_K18_AmplifierEt_Fetch_Qvoltage.rst
+	Applications_K18_AmplifierEt_Fetch_Stable.rst
+	Applications_K18_AmplifierEt_Fetch_Sync.rst
+	Applications_K18_AmplifierEt_Fetch_Ttf.rst
+	Applications_K18_AmplifierEt_Fetch_Tts.rst
+	Applications_K18_AmplifierEt_Fetch_Vcc.rst

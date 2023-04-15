@@ -1,0 +1,29 @@
+Pulse
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Output.Trigger.Pulse.PulseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.output.trigger.pulse.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Output_Trigger_Pulse_Immediate.rst
+	Applications_K18_AmplifierEt_Output_Trigger_Pulse_Length.rst

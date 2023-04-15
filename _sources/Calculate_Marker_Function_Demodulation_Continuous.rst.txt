@@ -1,0 +1,20 @@
+Continuous
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:DEModulation:CONTinuous
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:DEModulation:CONTinuous
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Demodulation.Continuous.ContinuousCls
+	:members:
+	:undoc-members:
+	:noindex:

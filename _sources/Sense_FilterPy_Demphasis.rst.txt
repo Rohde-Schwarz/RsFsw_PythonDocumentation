@@ -1,0 +1,29 @@
+Demphasis
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Demphasis.DemphasisCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.filterPy.demphasis.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_FilterPy_Demphasis_State.rst
+	Sense_FilterPy_Demphasis_Tconstant.rst

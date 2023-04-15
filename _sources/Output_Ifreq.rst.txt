@@ -1,0 +1,31 @@
+Ifreq
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ifreq.IfreqCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.output.ifreq.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Output_Ifreq_IfFrequency.rst
+	Output_Ifreq_Sband.rst
+	Output_Ifreq_Source.rst
+	Output_Ifreq_State.rst

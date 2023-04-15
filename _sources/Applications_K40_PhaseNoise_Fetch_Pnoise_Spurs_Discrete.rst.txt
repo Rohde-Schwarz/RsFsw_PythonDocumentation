@@ -1,0 +1,20 @@
+Discrete
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:PNOise<Trace>:SPURs:DISCrete
+
+.. code-block:: python
+
+	FETCh:PNOise<Trace>:SPURs:DISCrete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Spurs.Discrete.DiscreteCls
+	:members:
+	:undoc-members:
+	:noindex:

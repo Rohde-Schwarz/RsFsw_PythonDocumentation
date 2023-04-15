@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:NR5G:CC<CarrierComponent>:CARRier:SELect
+
+.. code-block:: python
+
+	SENSe:NR5G:CC<CarrierComponent>:CARRier:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Cc.Carrier.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

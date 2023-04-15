@@ -1,0 +1,20 @@
+Agc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe<Store>:WAV:AGC
+
+.. code-block:: python
+
+	MMEMory:STORe<Store>:WAV:AGC
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.Wav.Agc.AgcCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,34 @@
+Frequency
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.hopDetection.table.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_All.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_AvgFm.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_FmError.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_Frequency.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_MaxFm.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_RelFrequency.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency_RmsFm.rst

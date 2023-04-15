@@ -1,0 +1,20 @@
+Transition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ESPectrum:TRANsition
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ESPectrum:TRANsition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Transition.TransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

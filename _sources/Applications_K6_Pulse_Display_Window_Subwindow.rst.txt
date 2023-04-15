@@ -1,0 +1,36 @@
+Subwindow<SubWindow>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k6Pulse.display.window.subwindow.repcap_subWindow_get()
+	driver.applications.k6Pulse.display.window.subwindow.repcap_subWindow_set(repcap.SubWindow.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Display.Window.Subwindow.SubwindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.display.window.subwindow.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Display_Window_Subwindow_Trace.rst

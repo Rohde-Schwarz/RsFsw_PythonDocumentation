@@ -1,0 +1,44 @@
+Couple
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.CoupleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.instrument.couple.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Instrument_Couple_AbImpedance.rst
+	Instrument_Couple_AcDc.rst
+	Instrument_Couple_Atten.rst
+	Instrument_Couple_Aunit.rst
+	Instrument_Couple_Bandwidth.rst
+	Instrument_Couple_Center.rst
+	Instrument_Couple_Demod.rst
+	Instrument_Couple_Gain.rst
+	Instrument_Couple_Generator.rst
+	Instrument_Couple_Impedance.rst
+	Instrument_Couple_Limit.rst
+	Instrument_Couple_Llines.rst
+	Instrument_Couple_Marker.rst
+	Instrument_Couple_Presel.rst
+	Instrument_Couple_RefLevel.rst
+	Instrument_Couple_Span.rst
+	Instrument_Couple_Vbw.rst

@@ -1,0 +1,29 @@
+Wband
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Trace.Iq.Wband.WbandCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.trace.iq.wband.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Trace_Iq_Wband_Mbwidth.rst
+	Applications_K149_Uwb_Trace_Iq_Wband_State.rst

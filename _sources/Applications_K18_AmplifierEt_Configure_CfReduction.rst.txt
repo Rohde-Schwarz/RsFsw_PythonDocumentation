@@ -1,0 +1,40 @@
+CfReduction
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.CfReduction.CfReductionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.cfReduction.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_CfReduction_Apply.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_CcFactor.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_CfDelta.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_Cspacing.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_FilterPy.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_Iterations.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_MfOrder.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_Pfrequency.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_Read.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_RsOrignal.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_Sbandwidth.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_Sfrequency.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction_State.rst

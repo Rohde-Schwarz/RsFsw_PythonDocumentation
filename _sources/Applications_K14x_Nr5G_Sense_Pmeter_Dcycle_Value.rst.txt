@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PMETer<PowerMeter>:DCYCle:VALue
+
+.. code-block:: python
+
+	SENSe:PMETer<PowerMeter>:DCYCle:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Pmeter.Dcycle.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

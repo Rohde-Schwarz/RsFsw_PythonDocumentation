@@ -1,0 +1,32 @@
+AcPower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.AcPowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.acPower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_AcPower_Achannel.rst
+	Calculate_Limit_AcPower_Alternate.rst
+	Calculate_Limit_AcPower_Gap.rst
+	Calculate_Limit_AcPower_Pmode.rst
+	Calculate_Limit_AcPower_State.rst

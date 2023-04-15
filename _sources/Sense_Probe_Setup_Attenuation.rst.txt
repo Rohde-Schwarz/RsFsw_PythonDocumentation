@@ -1,0 +1,20 @@
+Attenuation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:PROBe<Probe>:SETup:ATTenuation
+
+.. code-block:: python
+
+	SENSe:PROBe<Probe>:SETup:ATTenuation
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Probe.Setup.Attenuation.AttenuationCls
+	:members:
+	:undoc-members:
+	:noindex:

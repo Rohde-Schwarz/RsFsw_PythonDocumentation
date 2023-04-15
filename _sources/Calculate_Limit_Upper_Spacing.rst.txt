@@ -1,0 +1,20 @@
+Spacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:UPPer:SPACing
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:UPPer:SPACing
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Upper.Spacing.SpacingCls
+	:members:
+	:undoc-members:
+	:noindex:

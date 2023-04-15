@@ -1,0 +1,20 @@
+Marker
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INSTrument:COUPle:MARKer
+
+.. code-block:: python
+
+	INSTrument:COUPle:MARKer
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Marker.MarkerCls
+	:members:
+	:undoc-members:
+	:noindex:

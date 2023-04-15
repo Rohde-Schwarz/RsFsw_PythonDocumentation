@@ -1,0 +1,36 @@
+Pmeter<PowerMeter>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k10Xlte.calibration.pmeter.repcap_powerMeter_get()
+	driver.applications.k10Xlte.calibration.pmeter.repcap_powerMeter_set(repcap.PowerMeter.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calibration.Pmeter.PmeterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calibration.pmeter.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calibration_Pmeter_Zero.rst

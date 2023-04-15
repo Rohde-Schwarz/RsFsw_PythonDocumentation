@@ -1,0 +1,38 @@
+Notch<Notch>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.sense.npratio.notch.repcap_notch_get()
+	driver.sense.npratio.notch.repcap_notch_set(repcap.Notch.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Notch.NotchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.npratio.notch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Npratio_Notch_Bandwidth.rst
+	Sense_Npratio_Notch_Count.rst
+	Sense_Npratio_Notch_Frequency.rst

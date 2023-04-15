@@ -1,0 +1,41 @@
+K17_Mcgd
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.K17_McgdCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17_Mcgd.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Calculate.rst
+	Applications_K17_Mcgd_Calibration.rst
+	Applications_K17_Mcgd_Configure.rst
+	Applications_K17_Mcgd_Display.rst
+	Applications_K17_Mcgd_FormatPy.rst
+	Applications_K17_Mcgd_Initiate.rst
+	Applications_K17_Mcgd_InputPy.rst
+	Applications_K17_Mcgd_Layout.rst
+	Applications_K17_Mcgd_MassMemory.rst
+	Applications_K17_Mcgd_Output.rst
+	Applications_K17_Mcgd_Sense.rst
+	Applications_K17_Mcgd_Trace.rst
+	Applications_K17_Mcgd_Trigger.rst
+	Applications_K17_Mcgd_Unit.rst

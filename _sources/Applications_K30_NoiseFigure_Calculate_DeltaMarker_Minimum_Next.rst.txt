@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:MINimum:NEXT
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:MINimum:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.DeltaMarker.Minimum.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

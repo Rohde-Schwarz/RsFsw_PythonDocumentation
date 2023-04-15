@@ -1,0 +1,43 @@
+Power
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Power_Adroop.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Ampl.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Amplitude.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Avg.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Base.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Max.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Min.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_On.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Overshoot.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pmin.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Point.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pon.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_PpRatio.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Ripple.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Top.rst

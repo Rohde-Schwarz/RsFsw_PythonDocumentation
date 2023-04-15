@@ -1,0 +1,20 @@
+Stability
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TRENd:STABility
+
+.. code-block:: python
+
+	CALCulate<Window>:TRENd:STABility
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Stability.StabilityCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,28 @@
+External
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Roscillator.External.ExternalCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.source.external.roscillator.external.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Source_External_Roscillator_External_Frequency.rst

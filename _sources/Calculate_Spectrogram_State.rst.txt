@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:SPECtrogram:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:SPECtrogram:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

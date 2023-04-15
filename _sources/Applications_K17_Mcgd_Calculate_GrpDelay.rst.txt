@@ -1,0 +1,29 @@
+GrpDelay
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calculate.GrpDelay.GrpDelayCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.calculate.grpDelay.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Calculate_GrpDelay_Mode.rst
+	Applications_K17_Mcgd_Calculate_GrpDelay_Reference.rst

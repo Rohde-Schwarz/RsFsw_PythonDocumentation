@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TRACe<Trace>:ADJust:VALue
+
+.. code-block:: python
+
+	CALCulate<Window>:TRACe<Trace>:ADJust:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Trace.Adjust.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

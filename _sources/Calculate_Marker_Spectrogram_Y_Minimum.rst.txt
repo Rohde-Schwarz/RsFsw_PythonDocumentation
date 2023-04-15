@@ -1,0 +1,31 @@
+Minimum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Spectrogram.Y.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.spectrogram.y.minimum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Spectrogram_Y_Minimum_Above.rst
+	Calculate_Marker_Spectrogram_Y_Minimum_Below.rst
+	Calculate_Marker_Spectrogram_Y_Minimum_Next.rst
+	Calculate_Marker_Spectrogram_Y_Minimum_Peak.rst

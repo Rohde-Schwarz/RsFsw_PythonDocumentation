@@ -1,0 +1,36 @@
+Segment<Segment>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr4
+	rc = driver.applications.k91Wlan.configure.wlan.ruConfig.segment.repcap_segment_get()
+	driver.applications.k91Wlan.configure.wlan.ruConfig.segment.repcap_segment_set(repcap.Segment.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.SegmentCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.wlan.ruConfig.segment.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel.rst

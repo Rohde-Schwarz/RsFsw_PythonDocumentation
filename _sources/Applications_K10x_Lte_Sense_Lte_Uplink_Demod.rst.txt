@@ -1,0 +1,40 @@
+Demod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.lte.uplink.demod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Acon.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_AttSlots.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Auto.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_CbScrambling.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_CdcOffset.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Cestimation.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Dummy.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_EePeriod.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_LoFrequency.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_LoLocation.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_McFilter.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Mode.rst
+	Applications_K10x_Lte_Sense_Lte_Uplink_Demod_SiSync.rst

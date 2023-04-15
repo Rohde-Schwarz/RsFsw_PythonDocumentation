@@ -1,0 +1,28 @@
+Fixed
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.Subwindow.Trace.Y.Scale.Auto.Fixed.FixedCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.display.window.subwindow.trace.y.scale.auto.fixed.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_Y_Scale_Auto_Fixed_Range.rst

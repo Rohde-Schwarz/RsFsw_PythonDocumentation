@@ -1,0 +1,20 @@
+Switching
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:TIMing:SWITching
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:TIMing:SWITching
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Timing.Switching.SwitchingCls
+	:members:
+	:undoc-members:
+	:noindex:

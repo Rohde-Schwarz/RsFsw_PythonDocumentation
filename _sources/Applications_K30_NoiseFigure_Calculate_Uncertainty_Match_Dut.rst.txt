@@ -1,0 +1,29 @@
+Dut
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Match.Dut.DutCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.calculate.uncertainty.match.dut.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_InputPy.rst
+	Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_Out.rst

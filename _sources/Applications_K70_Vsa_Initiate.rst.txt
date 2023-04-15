@@ -1,0 +1,32 @@
+Initiate
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Initiate.InitiateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.initiate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Initiate_ConMeas.rst
+	Applications_K70_Vsa_Initiate_Continuous.rst
+	Applications_K70_Vsa_Initiate_Immediate.rst
+	Applications_K70_Vsa_Initiate_RefMeas.rst
+	Applications_K70_Vsa_Initiate_Refresh.rst

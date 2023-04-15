@@ -1,0 +1,20 @@
+MinPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:POWer:MINPower
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:POWer:MINPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Power.MinPower.MinPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

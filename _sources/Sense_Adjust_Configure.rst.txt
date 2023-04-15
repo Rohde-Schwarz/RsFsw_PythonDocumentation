@@ -1,0 +1,31 @@
+Configure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Adjust.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.adjust.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Adjust_Configure_Hysteresis.rst
+	Sense_Adjust_Configure_Level.rst
+	Sense_Adjust_Configure_Smode.rst
+	Sense_Adjust_Configure_Trigger.rst

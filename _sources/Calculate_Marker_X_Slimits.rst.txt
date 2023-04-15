@@ -1,0 +1,31 @@
+Slimits
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.X.Slimits.SlimitsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.x.slimits.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_X_Slimits_Left.rst
+	Calculate_Marker_X_Slimits_Right.rst
+	Calculate_Marker_X_Slimits_State.rst
+	Calculate_Marker_X_Slimits_Zoom.rst

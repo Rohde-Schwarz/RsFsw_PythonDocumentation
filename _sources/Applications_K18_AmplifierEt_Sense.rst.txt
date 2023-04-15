@@ -1,0 +1,40 @@
+Sense
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.SenseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.sense.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Sense_Adjust.rst
+	Applications_K18_AmplifierEt_Sense_Detector.rst
+	Applications_K18_AmplifierEt_Sense_Frequency.rst
+	Applications_K18_AmplifierEt_Sense_Iq.rst
+	Applications_K18_AmplifierEt_Sense_Mixer.rst
+	Applications_K18_AmplifierEt_Sense_Pmeter.rst
+	Applications_K18_AmplifierEt_Sense_Power.rst
+	Applications_K18_AmplifierEt_Sense_Probe.rst
+	Applications_K18_AmplifierEt_Sense_Pservoing.rst
+	Applications_K18_AmplifierEt_Sense_Refsig.rst
+	Applications_K18_AmplifierEt_Sense_SwapIq.rst
+	Applications_K18_AmplifierEt_Sense_Sweep.rst
+	Applications_K18_AmplifierEt_Sense_Window.rst

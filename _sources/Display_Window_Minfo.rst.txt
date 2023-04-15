@@ -1,0 +1,28 @@
+Minfo
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Minfo.MinfoCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.minfo.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Minfo_State.rst

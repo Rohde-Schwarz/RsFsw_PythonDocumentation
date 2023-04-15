@@ -1,0 +1,34 @@
+InputPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_InputPy_Aiq.rst
+	Diagnostic_Service_InputPy_Emi.rst
+	Diagnostic_Service_InputPy_Mc.rst
+	Diagnostic_Service_InputPy_Pulsed.rst
+	Diagnostic_Service_InputPy_Rf.rst
+	Diagnostic_Service_InputPy_Select.rst
+	Diagnostic_Service_InputPy_SynthTwo.rst

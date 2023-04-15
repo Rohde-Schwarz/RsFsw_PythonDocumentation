@@ -1,0 +1,55 @@
+Sense
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.SenseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod.rst
+	Sense_Adjust.rst
+	Sense_Average.rst
+	Sense_Bandwidth.rst
+	Sense_Correction.rst
+	Sense_Ddemod.rst
+	Sense_Demod.rst
+	Sense_Espectrum.rst
+	Sense_FilterPy.rst
+	Sense_Frequency.rst
+	Sense_Iq.rst
+	Sense_ListPy.rst
+	Sense_Mixer.rst
+	Sense_Mpower.rst
+	Sense_Msra.rst
+	Sense_Npratio.rst
+	Sense_Pmeter.rst
+	Sense_Power.rst
+	Sense_Probe.rst
+	Sense_Rlength.rst
+	Sense_Roscillator.rst
+	Sense_Rtms.rst
+	Sense_Sampling.rst
+	Sense_SwapIq.rst
+	Sense_Sweep.rst
+	Sense_SymbolRate.rst
+	Sense_Trace.rst
+	Sense_Window.rst

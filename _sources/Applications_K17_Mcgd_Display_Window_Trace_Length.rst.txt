@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:TRACe<Trace>:LENGth
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:TRACe<Trace>:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Display.Window.Trace.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

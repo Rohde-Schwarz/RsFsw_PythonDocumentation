@@ -1,0 +1,31 @@
+Output
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Output.OutputCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.correction.loss.output.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Mode.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Spot.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Table.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Temperature.rst

@@ -1,0 +1,20 @@
+Mpower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:DDEMod:STATistic:MPOWer
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:DDEMod:STATistic:MPOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Mpower.MpowerCls
+	:members:
+	:undoc-members:
+	:noindex:

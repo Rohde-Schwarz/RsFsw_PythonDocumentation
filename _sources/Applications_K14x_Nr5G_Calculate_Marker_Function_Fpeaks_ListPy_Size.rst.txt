@@ -1,0 +1,20 @@
+Size
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:FPEaks:LIST:SIZE
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:FPEaks:LIST:SIZE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Function.Fpeaks.ListPy.Size.SizeCls
+	:members:
+	:undoc-members:
+	:noindex:

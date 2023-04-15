@@ -1,0 +1,20 @@
+Sthreshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PPSPectrum:STHReshold
+
+.. code-block:: python
+
+	CALCulate<Window>:PPSPectrum:STHReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.PpSpectrum.Sthreshold.SthresholdCls
+	:members:
+	:undoc-members:
+	:noindex:

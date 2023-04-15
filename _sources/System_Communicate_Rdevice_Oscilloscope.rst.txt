@@ -1,0 +1,36 @@
+Oscilloscope
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rdevice.Oscilloscope.OscilloscopeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.rdevice.oscilloscope.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Rdevice_Oscilloscope_Alignment.rst
+	System_Communicate_Rdevice_Oscilloscope_Idn.rst
+	System_Communicate_Rdevice_Oscilloscope_LedState.rst
+	System_Communicate_Rdevice_Oscilloscope_PsMode.rst
+	System_Communicate_Rdevice_Oscilloscope_State.rst
+	System_Communicate_Rdevice_Oscilloscope_SymbolRate.rst
+	System_Communicate_Rdevice_Oscilloscope_Tcpip.rst
+	System_Communicate_Rdevice_Oscilloscope_Vdevice.rst
+	System_Communicate_Rdevice_Oscilloscope_Vfirmware.rst

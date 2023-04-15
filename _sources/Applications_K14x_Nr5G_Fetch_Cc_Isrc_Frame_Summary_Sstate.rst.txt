@@ -1,0 +1,20 @@
+Sstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:SSTate
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:SSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.Sstate.SstateCls
+	:members:
+	:undoc-members:
+	:noindex:

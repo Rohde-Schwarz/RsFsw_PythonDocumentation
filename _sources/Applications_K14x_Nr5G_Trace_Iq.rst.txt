@@ -1,0 +1,30 @@
+Iq
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trace.Iq.IqCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.trace.iq.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Trace_Iq_File.rst
+	Applications_K14x_Nr5G_Trace_Iq_SymbolRate.rst
+	Applications_K14x_Nr5G_Trace_Iq_Wband.rst

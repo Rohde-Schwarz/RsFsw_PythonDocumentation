@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:AFPHase:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:FUNCtion:AFPHase:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.AfPhase.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

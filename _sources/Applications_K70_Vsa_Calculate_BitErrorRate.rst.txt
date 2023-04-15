@@ -1,0 +1,20 @@
+BitErrorRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:BERate
+
+.. code-block:: python
+
+	CALCulate<Window>:BERate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.BitErrorRate.BitErrorRateCls
+	:members:
+	:undoc-members:
+	:noindex:

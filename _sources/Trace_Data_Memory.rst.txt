@@ -1,0 +1,20 @@
+Memory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FORMAT REAL,32;TRACe<Window>:DATA:MEMory
+
+.. code-block:: python
+
+	FORMAT REAL,32;TRACe<Window>:DATA:MEMory
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Data.Memory.MemoryCls
+	:members:
+	:undoc-members:
+	:noindex:

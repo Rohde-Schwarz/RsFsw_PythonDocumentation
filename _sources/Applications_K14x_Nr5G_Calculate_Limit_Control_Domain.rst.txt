@@ -1,0 +1,20 @@
+Domain
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CONTrol:DOMain
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CONTrol:DOMain
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Control.Domain.DomainCls
+	:members:
+	:undoc-members:
+	:noindex:

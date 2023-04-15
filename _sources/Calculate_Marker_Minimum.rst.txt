@@ -1,0 +1,32 @@
+Minimum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.minimum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Minimum_Auto.rst
+	Calculate_Marker_Minimum_Left.rst
+	Calculate_Marker_Minimum_Next.rst
+	Calculate_Marker_Minimum_Peak.rst
+	Calculate_Marker_Minimum_Right.rst

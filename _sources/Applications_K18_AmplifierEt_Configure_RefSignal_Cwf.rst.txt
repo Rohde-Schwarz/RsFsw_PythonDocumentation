@@ -1,0 +1,32 @@
+Cwf
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Cwf.CwfCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.refSignal.cwf.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cwf_DpiPower.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cwf_EtGenerator.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cwf_Fpath.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cwf_LedState.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cwf_Write.rst

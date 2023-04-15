@@ -1,0 +1,30 @@
+Pnoise
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Pnoise.PnoiseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.pnoise.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Pnoise_Aoff.rst
+	Calculate_Marker_Function_Pnoise_Result.rst
+	Calculate_Marker_Function_Pnoise_State.rst

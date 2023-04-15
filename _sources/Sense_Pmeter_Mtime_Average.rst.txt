@@ -1,0 +1,29 @@
+Average
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Mtime.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.pmeter.mtime.average.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Pmeter_Mtime_Average_Count.rst
+	Sense_Pmeter_Mtime_Average_State.rst

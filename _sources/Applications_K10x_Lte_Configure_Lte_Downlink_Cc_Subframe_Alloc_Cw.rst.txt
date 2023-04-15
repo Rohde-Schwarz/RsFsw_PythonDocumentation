@@ -1,0 +1,36 @@
+Cw<Codeword>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.alloc.cw.repcap_codeword_get()
+	driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.alloc.cw.repcap_codeword_set(repcap.Codeword.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Cw.CwCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.alloc.cw.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Cw_Modulation.rst

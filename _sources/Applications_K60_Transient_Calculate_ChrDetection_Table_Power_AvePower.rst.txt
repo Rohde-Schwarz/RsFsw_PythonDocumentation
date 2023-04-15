@@ -1,0 +1,20 @@
+AvePower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:TABLe:POWer:AVEPower
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:TABLe:POWer:AVEPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Power.AvePower.AvePowerCls
+	:members:
+	:undoc-members:
+	:noindex:

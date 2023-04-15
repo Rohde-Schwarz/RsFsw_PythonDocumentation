@@ -1,0 +1,34 @@
+Unit
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Unit.UnitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.unit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Unit_Bstream.rst
+	Applications_K14x_Nr5G_Unit_CaReference.rst
+	Applications_K14x_Nr5G_Unit_Caxes.rst
+	Applications_K14x_Nr5G_Unit_Evm.rst
+	Applications_K14x_Nr5G_Unit_Opower.rst
+	Applications_K14x_Nr5G_Unit_Pmeter.rst
+	Applications_K14x_Nr5G_Unit_Saxes.rst

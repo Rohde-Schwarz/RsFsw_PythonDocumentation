@@ -1,0 +1,20 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:TRENd:HOP:PMSettling:Y
+
+.. code-block:: python
+
+	CALCulate<Window>:TRENd:HOP:PMSettling:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Hop.PmSettling.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:

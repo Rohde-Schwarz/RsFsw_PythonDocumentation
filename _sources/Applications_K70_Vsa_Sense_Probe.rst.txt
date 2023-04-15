@@ -1,0 +1,37 @@
+Probe<Probe>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k70Vsa.sense.probe.repcap_probe_get()
+	driver.applications.k70Vsa.sense.probe.repcap_probe_set(repcap.Probe.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Probe.ProbeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.probe.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Probe_Id.rst
+	Applications_K70_Vsa_Sense_Probe_Setup.rst

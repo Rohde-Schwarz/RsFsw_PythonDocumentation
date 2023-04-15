@@ -1,0 +1,41 @@
+HopDetection
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.HopDetectionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.hopDetection.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_HopDetection_Compensation.rst
+	Applications_K60_Transient_Calculate_HopDetection_Dwell.rst
+	Applications_K60_Transient_Calculate_HopDetection_Fdeviation.rst
+	Applications_K60_Transient_Calculate_HopDetection_FmTolerance.rst
+	Applications_K60_Transient_Calculate_HopDetection_Frequency.rst
+	Applications_K60_Transient_Calculate_HopDetection_Pcoherent.rst
+	Applications_K60_Transient_Calculate_HopDetection_Pdeviation.rst
+	Applications_K60_Transient_Calculate_HopDetection_PmTolerance.rst
+	Applications_K60_Transient_Calculate_HopDetection_Pnoise.rst
+	Applications_K60_Transient_Calculate_HopDetection_Power.rst
+	Applications_K60_Transient_Calculate_HopDetection_Selected.rst
+	Applications_K60_Transient_Calculate_HopDetection_States.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table.rst
+	Applications_K60_Transient_Calculate_HopDetection_Total.rst

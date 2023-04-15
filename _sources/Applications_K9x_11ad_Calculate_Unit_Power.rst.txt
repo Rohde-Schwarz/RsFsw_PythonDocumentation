@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNIT:POWer
+
+.. code-block:: python
+
+	CALCulate<Window>:UNIT:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Calculate.Unit.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

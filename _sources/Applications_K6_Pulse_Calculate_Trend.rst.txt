@@ -1,0 +1,36 @@
+Trend
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.TrendCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.trend.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_Trend_Dstyle.rst
+	Applications_K6_Pulse_Calculate_Trend_Emodel.rst
+	Applications_K6_Pulse_Calculate_Trend_Frequency.rst
+	Applications_K6_Pulse_Calculate_Trend_Llines.rst
+	Applications_K6_Pulse_Calculate_Trend_Phase.rst
+	Applications_K6_Pulse_Calculate_Trend_Power.rst
+	Applications_K6_Pulse_Calculate_Trend_Stability.rst
+	Applications_K6_Pulse_Calculate_Trend_Timing.rst
+	Applications_K6_Pulse_Calculate_Trend_Tsidelobe.rst

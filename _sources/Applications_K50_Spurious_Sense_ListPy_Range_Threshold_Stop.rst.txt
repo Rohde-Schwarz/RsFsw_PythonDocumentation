@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:LIST:RANGe<RangePy>:THReshold:STOP
+
+.. code-block:: python
+
+	SENSe:LIST:RANGe<RangePy>:THReshold:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.Threshold.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

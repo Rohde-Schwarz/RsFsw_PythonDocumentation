@@ -1,0 +1,49 @@
+SsBlock<SsBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr0 .. Nr64
+	rc = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.ssBlock.repcap_ssBlock_get()
+	driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.ssBlock.repcap_ssBlock_set(repcap.SsBlock.Nr0)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsBlock.SsBlockCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.ssBlock.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_AsOffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_BsPeriod.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Detection.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_HfOffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Lpy.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Offset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pattern.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pbch.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pdmrs.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pss.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Rto.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Sspacing.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Sss.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_State.rst

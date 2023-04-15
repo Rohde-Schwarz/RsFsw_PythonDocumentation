@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ESPectrum:VALue
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ESPectrum:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

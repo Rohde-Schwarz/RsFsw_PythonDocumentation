@@ -1,0 +1,53 @@
+InputPy<InputIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.inputPy.repcap_inputIx_get()
+	driver.inputPy.repcap_inputIx_set(repcap.InputIx.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	InputPy_Attenuation.rst
+	InputPy_Connector.rst
+	InputPy_Coupling.rst
+	InputPy_Diq.rst
+	InputPy_Dpath.rst
+	InputPy_Eatt.rst
+	InputPy_Egain.rst
+	InputPy_File.rst
+	InputPy_FilterPy.rst
+	InputPy_Gain.rst
+	InputPy_Impedance.rst
+	InputPy_Iq.rst
+	InputPy_Lisn.rst
+	InputPy_Mixer.rst
+	InputPy_Sanalyzer.rst
+	InputPy_Select.rst
+	InputPy_Terminator.rst
+	InputPy_Uport.rst

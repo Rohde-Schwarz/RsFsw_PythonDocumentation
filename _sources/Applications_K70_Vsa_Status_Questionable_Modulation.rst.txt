@@ -1,0 +1,46 @@
+Modulation<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k70Vsa.status.questionable.modulation.repcap_window_get()
+	driver.applications.k70Vsa.status.questionable.modulation.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.ModulationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.status.questionable.modulation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Status_Questionable_Modulation_Cfrequency.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Condition.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Enable.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Event.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Evm.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Fsk.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_IqRho.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Magnitude.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Ntransition.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Phase.rst
+	Applications_K70_Vsa_Status_Questionable_Modulation_Ptransition.rst

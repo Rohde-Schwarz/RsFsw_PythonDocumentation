@@ -1,0 +1,30 @@
+Mc
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Mc.McCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.inputPy.mc.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_InputPy_Mc_Cfrequency.rst
+	Diagnostic_Service_InputPy_Mc_Distance.rst
+	Diagnostic_Service_InputPy_Mc_Range.rst

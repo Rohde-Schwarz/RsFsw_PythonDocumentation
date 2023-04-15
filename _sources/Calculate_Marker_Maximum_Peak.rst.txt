@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:MAXimum:PEAK
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:MAXimum:PEAK
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Maximum.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:

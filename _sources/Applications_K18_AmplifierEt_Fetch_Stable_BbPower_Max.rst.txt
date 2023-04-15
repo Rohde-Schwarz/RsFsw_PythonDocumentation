@@ -1,0 +1,32 @@
+Max
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.BbPower.Max.MaxCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.stable.bbPower.max.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Max_Average.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Max_Maximum.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Max_Minimum.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Max_Selected.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Max_StDeviation.rst

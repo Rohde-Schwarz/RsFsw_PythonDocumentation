@@ -1,0 +1,20 @@
+Tcpip
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:IQ:OSC:TCPip
+
+.. code-block:: python
+
+	INPut<InputIx>:IQ:OSC:TCPip
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.Tcpip.TcpipCls
+	:members:
+	:undoc-members:
+	:noindex:

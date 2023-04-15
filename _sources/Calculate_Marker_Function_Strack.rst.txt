@@ -1,0 +1,31 @@
+Strack
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Strack.StrackCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.strack.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Strack_Bandwidth.rst
+	Calculate_Marker_Function_Strack_State.rst
+	Calculate_Marker_Function_Strack_Threshold.rst
+	Calculate_Marker_Function_Strack_Trace.rst

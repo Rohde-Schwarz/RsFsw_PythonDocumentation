@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: INPut<InputIx>:EATT:STATe
+
+.. code-block:: python
+
+	INPut<InputIx>:EATT:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.InputPy.Eatt.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

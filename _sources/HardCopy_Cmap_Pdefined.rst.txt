@@ -1,0 +1,20 @@
+Pdefined
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: HCOPy:CMAP<Item>:PDEFined
+
+.. code-block:: python
+
+	HCOPy:CMAP<Item>:PDEFined
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Cmap.Pdefined.PdefinedCls
+	:members:
+	:undoc-members:
+	:noindex:

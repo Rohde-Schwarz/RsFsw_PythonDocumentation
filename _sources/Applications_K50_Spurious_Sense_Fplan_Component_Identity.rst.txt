@@ -1,0 +1,20 @@
+Identity
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FPLan:COMPonent<Component>:IDENtity
+
+.. code-block:: python
+
+	SENSe:FPLan:COMPonent<Component>:IDENtity
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Component.Identity.IdentityCls
+	:members:
+	:undoc-members:
+	:noindex:

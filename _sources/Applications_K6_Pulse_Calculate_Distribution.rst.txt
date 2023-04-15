@@ -1,0 +1,35 @@
+Distribution
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.DistributionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.distribution.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_Distribution_Emodel.rst
+	Applications_K6_Pulse_Calculate_Distribution_Frequency.rst
+	Applications_K6_Pulse_Calculate_Distribution_Llines.rst
+	Applications_K6_Pulse_Calculate_Distribution_Nbins.rst
+	Applications_K6_Pulse_Calculate_Distribution_Phase.rst
+	Applications_K6_Pulse_Calculate_Distribution_Power.rst
+	Applications_K6_Pulse_Calculate_Distribution_Timing.rst
+	Applications_K6_Pulse_Calculate_Distribution_Tsidelobe.rst

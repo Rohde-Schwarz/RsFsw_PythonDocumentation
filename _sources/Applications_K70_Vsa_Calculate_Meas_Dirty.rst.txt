@@ -1,0 +1,20 @@
+Dirty
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MEAS:DIRTy
+
+.. code-block:: python
+
+	CALCulate<Window>:MEAS:DIRTy
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Meas.Dirty.DirtyCls
+	:members:
+	:undoc-members:
+	:noindex:

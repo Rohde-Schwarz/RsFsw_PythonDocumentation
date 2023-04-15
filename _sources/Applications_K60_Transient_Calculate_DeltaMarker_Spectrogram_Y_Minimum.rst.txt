@@ -1,0 +1,31 @@
+Minimum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.DeltaMarker.Spectrogram.Y.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.deltaMarker.spectrogram.y.minimum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Minimum_Above.rst
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Minimum_Below.rst
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Minimum_Next.rst
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Minimum_Peak.rst

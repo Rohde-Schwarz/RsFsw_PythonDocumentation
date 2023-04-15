@@ -1,0 +1,20 @@
+Style
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SPECtrogram:COLor:STYLe
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SPECtrogram:COLor:STYLe
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Spectrogram.Color.Style.StyleCls
+	:members:
+	:undoc-members:
+	:noindex:

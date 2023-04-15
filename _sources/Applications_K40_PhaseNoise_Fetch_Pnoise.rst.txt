@@ -1,0 +1,43 @@
+Pnoise<Trace>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Tr1 .. Tr16
+	rc = driver.applications.k40PhaseNoise.fetch.pnoise.repcap_trace_get()
+	driver.applications.k40PhaseNoise.fetch.pnoise.repcap_trace_set(repcap.Trace.Tr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.PnoiseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.fetch.pnoise.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Ipn.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Measured.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Rfm.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Rms.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Rpm.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Spurs.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_Sweep.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_User.rst

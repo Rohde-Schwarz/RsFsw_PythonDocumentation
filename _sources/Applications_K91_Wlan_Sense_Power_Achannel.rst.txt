@@ -1,0 +1,35 @@
+Achannel
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Achannel.AchannelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.power.achannel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Power_Achannel_AcPairs.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_Bandwidth.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_Cbwidth.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_Mode.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_Preset.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_Reference.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_Spacing.rst
+	Applications_K91_Wlan_Sense_Power_Achannel_TxChannel.rst

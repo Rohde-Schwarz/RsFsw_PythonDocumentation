@@ -1,0 +1,20 @@
+Scin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:SCIN
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:SCIN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Scin.ScinCls
+	:members:
+	:undoc-members:
+	:noindex:

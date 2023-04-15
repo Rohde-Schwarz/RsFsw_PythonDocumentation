@@ -1,0 +1,34 @@
+Burst
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.Burst.BurstCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.limit.burst.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Limit_Burst_All.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_Evm.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_FreqError.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_IqOffset.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_SymbolError.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_Tfall.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst_Trise.rst

@@ -1,0 +1,20 @@
+Localized
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:EPDCch:LOCalized
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:EPDCch:LOCalized
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Epdcch.Localized.LocalizedCls
+	:members:
+	:undoc-members:
+	:noindex:

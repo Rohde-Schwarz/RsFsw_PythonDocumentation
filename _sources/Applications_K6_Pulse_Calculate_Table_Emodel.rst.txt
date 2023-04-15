@@ -1,0 +1,38 @@
+Emodel
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Emodel.EmodelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.table.emodel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_Table_Emodel_All.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_FallBasePoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_FallHighPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_FallLowPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_FallMidPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_FallTopPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_RiseBasePoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_RiseHighPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_RiseLowPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_RiseMidPoint.rst
+	Applications_K6_Pulse_Calculate_Table_Emodel_RiseTopPoint.rst

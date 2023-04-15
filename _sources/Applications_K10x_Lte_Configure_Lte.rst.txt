@@ -1,0 +1,41 @@
+Lte
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.LteCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_AntMatrix.rst
+	Applications_K10x_Lte_Configure_Lte_Caggregation.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink.rst
+	Applications_K10x_Lte_Configure_Lte_Duplexing.rst
+	Applications_K10x_Lte_Configure_Lte_Eutra.rst
+	Applications_K10x_Lte_Configure_Lte_Ldirection.rst
+	Applications_K10x_Lte_Configure_Lte_Measurement.rst
+	Applications_K10x_Lte_Configure_Lte_Mimo.rst
+	Applications_K10x_Lte_Configure_Lte_Ndevices.rst
+	Applications_K10x_Lte_Configure_Lte_NoCc.rst
+	Applications_K10x_Lte_Configure_Lte_OoPower.rst
+	Applications_K10x_Lte_Configure_Lte_Oran.rst
+	Applications_K10x_Lte_Configure_Lte_TypePy.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink.rst

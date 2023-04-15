@@ -1,0 +1,20 @@
+AlCount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:ALCount
+
+.. code-block:: python
+
+	CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:ALCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.AlCount.AlCountCls
+	:members:
+	:undoc-members:
+	:noindex:

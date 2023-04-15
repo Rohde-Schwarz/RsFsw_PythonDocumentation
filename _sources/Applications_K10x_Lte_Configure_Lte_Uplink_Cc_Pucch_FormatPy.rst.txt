@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:PUCCh:FORMat
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:PUCCh:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pucch.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

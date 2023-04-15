@@ -1,0 +1,20 @@
+Hot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:UNCertainty:ENR:UNCertainty:HOT
+
+.. code-block:: python
+
+	CALCulate<Window>:UNCertainty:ENR:UNCertainty:HOT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Enr.Uncertainty.Hot.HotCls
+	:members:
+	:undoc-members:
+	:noindex:

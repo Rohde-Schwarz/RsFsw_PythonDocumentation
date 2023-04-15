@@ -1,0 +1,20 @@
+Duration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:PUCCh<Pucch>:COPY:DURation
+
+.. code-block:: python
+
+	CONFigure:NR5G:UL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:SLOT<Slot>:PUCCh<Pucch>:COPY:DURation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Slot.Pucch.Copy.Duration.DurationCls
+	:members:
+	:undoc-members:
+	:noindex:

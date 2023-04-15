@@ -1,0 +1,42 @@
+Calculate<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k40PhaseNoise.calculate.repcap_window_get()
+	driver.applications.k40PhaseNoise.calculate.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.CalculateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.calculate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Calculate_DeltaMarker.rst
+	Applications_K40_PhaseNoise_Calculate_Evaluation.rst
+	Applications_K40_PhaseNoise_Calculate_Limit.rst
+	Applications_K40_PhaseNoise_Calculate_Marker.rst
+	Applications_K40_PhaseNoise_Calculate_Math.rst
+	Applications_K40_PhaseNoise_Calculate_PnLimit.rst
+	Applications_K40_PhaseNoise_Calculate_Snoise.rst

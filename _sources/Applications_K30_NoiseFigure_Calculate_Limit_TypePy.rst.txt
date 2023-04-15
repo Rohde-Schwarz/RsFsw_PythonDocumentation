@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:TYPE
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Limit.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

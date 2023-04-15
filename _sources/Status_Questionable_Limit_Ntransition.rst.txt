@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:LIMit<Window>:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:LIMit<Window>:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Limit.Ntransition.NtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

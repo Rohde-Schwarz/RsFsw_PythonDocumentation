@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:SPECtrogram:Y:MAXimum:NEXT
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:SPECtrogram:Y:MAXimum:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.DeltaMarker.Spectrogram.Y.Maximum.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+Integration
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Channel.Integration.IntegrationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.npratio.channel.integration.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Npratio_Channel_Integration_Auto.rst
+	Sense_Npratio_Channel_Integration_Bandwidth.rst
+	Sense_Npratio_Channel_Integration_Frequency.rst

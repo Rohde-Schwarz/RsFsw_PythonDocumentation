@@ -1,0 +1,30 @@
+ListPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.listPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_ListPy_Power.rst
+	Sense_ListPy_Range.rst
+	Sense_ListPy_Xadjust.rst

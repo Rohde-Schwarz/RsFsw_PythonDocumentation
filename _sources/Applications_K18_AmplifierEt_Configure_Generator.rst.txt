@@ -1,0 +1,39 @@
+Generator
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.GeneratorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.generator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Generator_Control.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Dut.rst
+	Applications_K18_AmplifierEt_Configure_Generator_External.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Frequency.rst
+	Applications_K18_AmplifierEt_Configure_Generator_IpConnection.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Level.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Power.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Relay.rst
+	Applications_K18_AmplifierEt_Configure_Generator_RfOutput.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Segment.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Settings.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Target.rst

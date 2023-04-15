@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:COMMent
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.Comment.CommentCls
+	:members:
+	:undoc-members:
+	:noindex:

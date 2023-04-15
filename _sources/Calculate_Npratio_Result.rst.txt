@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:NPRatio:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:NPRatio:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Npratio.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

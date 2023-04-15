@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: SENSe:FPLan:COMPonent<Component>:PORT<Port>:FREQuency
+
+.. code-block:: python
+
+	SENSe:FPLan:COMPonent<Component>:PORT<Port>:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Component.Port.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

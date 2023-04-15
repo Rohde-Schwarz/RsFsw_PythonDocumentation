@@ -1,0 +1,31 @@
+Bpower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Bpower.BpowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.function.bpower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Function_Bpower_Mode.rst
+	Calculate_DeltaMarker_Function_Bpower_Result.rst
+	Calculate_DeltaMarker_Function_Bpower_Span.rst
+	Calculate_DeltaMarker_Function_Bpower_State.rst

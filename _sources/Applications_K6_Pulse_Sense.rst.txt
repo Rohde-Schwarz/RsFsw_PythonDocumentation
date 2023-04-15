@@ -1,0 +1,44 @@
+Sense
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.SenseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Adjust.rst
+	Applications_K6_Pulse_Sense_Bandwidth.rst
+	Applications_K6_Pulse_Sense_Correction.rst
+	Applications_K6_Pulse_Sense_Demod.rst
+	Applications_K6_Pulse_Sense_Detect.rst
+	Applications_K6_Pulse_Sense_Frequency.rst
+	Applications_K6_Pulse_Sense_Iq.rst
+	Applications_K6_Pulse_Sense_Mixer.rst
+	Applications_K6_Pulse_Sense_Msra.rst
+	Applications_K6_Pulse_Sense_Probe.rst
+	Applications_K6_Pulse_Sense_Pulse.rst
+	Applications_K6_Pulse_Sense_Rlength.rst
+	Applications_K6_Pulse_Sense_Rtms.rst
+	Applications_K6_Pulse_Sense_Statistic.rst
+	Applications_K6_Pulse_Sense_Sweep.rst
+	Applications_K6_Pulse_Sense_SymbolRate.rst
+	Applications_K6_Pulse_Sense_Window.rst

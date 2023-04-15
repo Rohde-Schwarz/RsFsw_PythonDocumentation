@@ -1,0 +1,20 @@
+RelFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:HOPDetection:TABLe:FREQuency:RELFrequency
+
+.. code-block:: python
+
+	CALCulate<Window>:HOPDetection:TABLe:FREQuency:RELFrequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Frequency.RelFrequency.RelFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

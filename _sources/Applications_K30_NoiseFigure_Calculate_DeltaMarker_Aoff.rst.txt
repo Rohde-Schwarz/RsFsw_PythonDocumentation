@@ -1,0 +1,20 @@
+Aoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DELTamarker<DeltaMarker>:AOFF
+
+.. code-block:: python
+
+	CALCulate<Window>:DELTamarker<DeltaMarker>:AOFF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.DeltaMarker.Aoff.AoffCls
+	:members:
+	:undoc-members:
+	:noindex:

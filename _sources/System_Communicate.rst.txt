@@ -1,0 +1,33 @@
+Communicate
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.CommunicateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Gpib.rst
+	System_Communicate_Internal.rst
+	System_Communicate_Rdevice.rst
+	System_Communicate_Rest.rst
+	System_Communicate_Snmp.rst
+	System_Communicate_Tcpip.rst

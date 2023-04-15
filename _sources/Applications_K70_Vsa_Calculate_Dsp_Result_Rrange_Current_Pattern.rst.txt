@@ -1,0 +1,31 @@
+Pattern
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Rrange.Current.Pattern.PatternCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.calculate.dsp.result.rrange.current.pattern.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Calculate_Dsp_Result_Rrange_Current_Pattern_Confidence.rst
+	Applications_K70_Vsa_Calculate_Dsp_Result_Rrange_Current_Pattern_Correct.rst
+	Applications_K70_Vsa_Calculate_Dsp_Result_Rrange_Current_Pattern_Present.rst
+	Applications_K70_Vsa_Calculate_Dsp_Result_Rrange_Current_Pattern_Start.rst

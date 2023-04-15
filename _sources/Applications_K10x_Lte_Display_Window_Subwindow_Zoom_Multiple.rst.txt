@@ -1,0 +1,37 @@
+Multiple<ZoomWindow>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k10Xlte.display.window.subwindow.zoom.multiple.repcap_zoomWindow_get()
+	driver.applications.k10Xlte.display.window.subwindow.zoom.multiple.repcap_zoomWindow_set(repcap.ZoomWindow.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Display.Window.Subwindow.Zoom.Multiple.MultipleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.display.window.subwindow.zoom.multiple.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Display_Window_Subwindow_Zoom_Multiple_Area.rst
+	Applications_K10x_Lte_Display_Window_Subwindow_Zoom_Multiple_State.rst

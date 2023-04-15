@@ -1,0 +1,31 @@
+Fresponse
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.FresponseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_Baseband.rst
+	Sense_Correction_Fresponse_InputPy.rst
+	Sense_Correction_Fresponse_Lsources.rst
+	Sense_Correction_Fresponse_User.rst

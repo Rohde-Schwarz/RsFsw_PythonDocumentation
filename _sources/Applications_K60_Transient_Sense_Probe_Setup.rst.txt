@@ -1,0 +1,37 @@
+Setup
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Probe.Setup.SetupCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.probe.setup.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Probe_Setup_AttRatio.rst
+	Applications_K60_Transient_Sense_Probe_Setup_CmOffset.rst
+	Applications_K60_Transient_Sense_Probe_Setup_DmOffset.rst
+	Applications_K60_Transient_Sense_Probe_Setup_Mode.rst
+	Applications_K60_Transient_Sense_Probe_Setup_Name.rst
+	Applications_K60_Transient_Sense_Probe_Setup_NmOffset.rst
+	Applications_K60_Transient_Sense_Probe_Setup_Pmode.rst
+	Applications_K60_Transient_Sense_Probe_Setup_PmOffset.rst
+	Applications_K60_Transient_Sense_Probe_Setup_State.rst
+	Applications_K60_Transient_Sense_Probe_Setup_TypePy.rst

@@ -1,0 +1,42 @@
+Applications
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.ApplicationsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_IqAnalyzer.rst
+	Applications_K10x_Lte.rst
+	Applications_K149_Uwb.rst
+	Applications_K14x_Nr5G.rst
+	Applications_K17_Mcgd.rst
+	Applications_K18_AmplifierEt.rst
+	Applications_K30_NoiseFigure.rst
+	Applications_K40_PhaseNoise.rst
+	Applications_K50_Spurious.rst
+	Applications_K6_Pulse.rst
+	Applications_K60_Transient.rst
+	Applications_K7_AnalogDemod.rst
+	Applications_K70_Vsa.rst
+	Applications_K91_Wlan.rst
+	Applications_K9x_11ad.rst

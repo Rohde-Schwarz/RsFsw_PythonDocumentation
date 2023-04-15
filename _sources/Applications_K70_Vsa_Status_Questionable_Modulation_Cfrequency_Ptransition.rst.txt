@@ -1,0 +1,20 @@
+Ptransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:MODulation<Window>:CFRequency:PTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<Window>:CFRequency:PTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Cfrequency.Ptransition.PtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:PMETer<PowerMeter>:RELative:STATe
+
+.. code-block:: python
+
+	CALCulate<Window>:PMETer<PowerMeter>:RELative:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Pmeter.Relative.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

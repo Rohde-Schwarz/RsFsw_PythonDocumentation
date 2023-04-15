@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:SUMMary:EVM:DSQP:MAXimum:RESult
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CC<CarrierComponent>:SUMMary:EVM:DSQP:MAXimum:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.Cc.Summary.Evm.Dsqp.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

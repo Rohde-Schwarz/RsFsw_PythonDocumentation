@@ -1,0 +1,20 @@
+Poffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:CSI<CsiRs>:SLOT:POFFset
+
+.. code-block:: python
+
+	CONFigure:NR5G:DL:CC<CarrierComponent>:FRAMe<Frame>:BWPart<BwPart>:CSI<CsiRs>:SLOT:POFFset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Csi.Slot.Poffset.PoffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

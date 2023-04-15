@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:CONTrol:DATA
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:CONTrol:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Limit.Control.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,41 @@
+Store<Store>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Pos1 .. Pos32
+	rc = driver.applications.k18AmplifierEt.massMemory.store.repcap_store_get()
+	driver.applications.k18AmplifierEt.massMemory.store.repcap_store_set(repcap.Store.Pos1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.MassMemory.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.massMemory.store.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_MassMemory_Store_Ddpd.rst
+	Applications_K18_AmplifierEt_MassMemory_Store_Dpd.rst
+	Applications_K18_AmplifierEt_MassMemory_Store_Equalizer.rst
+	Applications_K18_AmplifierEt_MassMemory_Store_Iq.rst
+	Applications_K18_AmplifierEt_MassMemory_Store_Mdpd.rst
+	Applications_K18_AmplifierEt_MassMemory_Store_Trace.rst

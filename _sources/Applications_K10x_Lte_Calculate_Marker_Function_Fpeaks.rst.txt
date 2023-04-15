@@ -1,0 +1,36 @@
+Fpeaks
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Fpeaks.FpeaksCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.marker.function.fpeaks.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_Annotation.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_Count.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_Immediate.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_ListPy.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_Search.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_Sort.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_State.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_X.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Fpeaks_Y.rst

@@ -1,0 +1,20 @@
+FmSettling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:DISTribution:CHIRp:FMSettling
+
+.. code-block:: python
+
+	CALCulate<Window>:DISTribution:CHIRp:FMSettling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Chirp.FmSettling.FmSettlingCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,38 @@
+Alternate<Channel>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ch1 .. Ch64
+	rc = driver.calculate.limit.acPower.alternate.repcap_channel_get()
+	driver.calculate.limit.acPower.alternate.repcap_channel_set(repcap.Channel.Ch1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.Alternate.AlternateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.acPower.alternate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_AcPower_Alternate_Absolute.rst
+	Calculate_Limit_AcPower_Alternate_Relative.rst
+	Calculate_Limit_AcPower_Alternate_Result.rst

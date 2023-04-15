@@ -1,0 +1,20 @@
+Dpuach
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:UL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc:PUACh:DPUach
+
+.. code-block:: python
+
+	CONFigure:LTE:UL:CC<CarrierComponent>:SUBFrame<Subframe>:ALLoc:PUACh:DPUach
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Puach.Dpuach.DpuachCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,36 @@
+Chirp
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.ChirpCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.chirp.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Chirp_FmSettling.rst
+	Applications_K60_Transient_Sense_Chirp_Frequency.rst
+	Applications_K60_Transient_Sense_Chirp_Id.rst
+	Applications_K60_Transient_Sense_Chirp_Number.rst
+	Applications_K60_Transient_Sense_Chirp_Phase.rst
+	Applications_K60_Transient_Sense_Chirp_PmSettling.rst
+	Applications_K60_Transient_Sense_Chirp_Power.rst
+	Applications_K60_Transient_Sense_Chirp_State.rst
+	Applications_K60_Transient_Sense_Chirp_Timing.rst

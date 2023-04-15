@@ -1,0 +1,20 @@
+Shape
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:WINDow<Window>:SPECtrogram:COLor:SHAPe
+
+.. code-block:: python
+
+	DISPlay:WINDow<Window>:SPECtrogram:COLor:SHAPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Spectrogram.Color.Shape.ShapeCls
+	:members:
+	:undoc-members:
+	:noindex:

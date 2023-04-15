@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: STATus:QUEStionable:MODulation<Window>:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<Window>:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Ntransition.NtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

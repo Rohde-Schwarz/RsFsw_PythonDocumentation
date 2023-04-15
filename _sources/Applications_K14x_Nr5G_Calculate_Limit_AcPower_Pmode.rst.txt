@@ -1,0 +1,20 @@
+Pmode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ACPower:PMODe
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ACPower:PMODe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.AcPower.Pmode.PmodeCls
+	:members:
+	:undoc-members:
+	:noindex:

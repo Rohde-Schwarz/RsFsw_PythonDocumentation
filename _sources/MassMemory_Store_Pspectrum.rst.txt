@@ -1,0 +1,20 @@
+Pspectrum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: MMEMory:STORe<Store>:PSPectrum
+
+.. code-block:: python
+
+	MMEMory:STORe<Store>:PSPectrum
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.Pspectrum.PspectrumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Center
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:MARKer<Marker>:FUNCtion:CENTer
+
+.. code-block:: python
+
+	CALCulate<Window>:MARKer<Marker>:FUNCtion:CENTer
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Center.CenterCls
+	:members:
+	:undoc-members:
+	:noindex:

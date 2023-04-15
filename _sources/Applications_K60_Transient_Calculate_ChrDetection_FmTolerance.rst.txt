@@ -1,0 +1,20 @@
+FmTolerance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:FMTolerance
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:FMTolerance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.FmTolerance.FmToleranceCls
+	:members:
+	:undoc-members:
+	:noindex:

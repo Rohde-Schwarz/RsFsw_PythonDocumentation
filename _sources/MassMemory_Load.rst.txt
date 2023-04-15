@@ -1,0 +1,42 @@
+Load<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.massMemory.load.repcap_window_get()
+	driver.massMemory.load.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Load.LoadCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.load.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Load_Auto.rst
+	MassMemory_Load_Iq.rst
+	MassMemory_Load_Limit.rst
+	MassMemory_Load_State.rst
+	MassMemory_Load_Tfactor.rst
+	MassMemory_Load_Trace.rst
+	MassMemory_Load_TypePy.rst

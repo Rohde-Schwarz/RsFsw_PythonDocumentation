@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ESPectrum:MODE
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ESPectrum:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.Espectrum.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

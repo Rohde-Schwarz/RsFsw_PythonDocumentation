@@ -1,0 +1,20 @@
+Exclusive
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ESPectrum:PCLass<PowerClass>:EXCLusive
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ESPectrum:PCLass<PowerClass>:EXCLusive
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Pclass.Exclusive.ExclusiveCls
+	:members:
+	:undoc-members:
+	:noindex:

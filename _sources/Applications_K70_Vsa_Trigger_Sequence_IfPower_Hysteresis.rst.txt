@@ -1,0 +1,20 @@
+Hysteresis
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: TRIGger<TriggerPort>:SEQuence:IFPower:HYSTeresis
+
+.. code-block:: python
+
+	TRIGger<TriggerPort>:SEQuence:IFPower:HYSTeresis
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.IfPower.Hysteresis.HysteresisCls
+	:members:
+	:undoc-members:
+	:noindex:

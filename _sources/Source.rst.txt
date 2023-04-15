@@ -1,0 +1,32 @@
+Source
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.source.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Source_External.rst
+	Source_Generator.rst
+	Source_Power.rst
+	Source_Temperature.rst
+	Source_Voltage.rst

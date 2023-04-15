@@ -1,0 +1,20 @@
+Restore
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:LIMit<LimitIx>:ESPectrum<SubBlock>:RESTore
+
+.. code-block:: python
+
+	CALCulate<Window>:LIMit<LimitIx>:ESPectrum<SubBlock>:RESTore
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Espectrum.Restore.RestoreCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Hsl
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: DISPlay:CMAP<Item>:HSL
+
+.. code-block:: python
+
+	DISPlay:CMAP<Item>:HSL
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Cmap.Hsl.HslCls
+	:members:
+	:undoc-members:
+	:noindex:

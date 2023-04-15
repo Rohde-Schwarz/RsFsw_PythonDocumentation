@@ -1,0 +1,29 @@
+Tstamp
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.Tstamp.TstampCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.spectrogram.tstamp.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Spectrogram_Tstamp_Data.rst
+	Calculate_Spectrogram_Tstamp_State.rst

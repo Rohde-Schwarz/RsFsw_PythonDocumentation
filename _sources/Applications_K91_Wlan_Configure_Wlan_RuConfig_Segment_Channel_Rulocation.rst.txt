@@ -1,0 +1,42 @@
+Rulocation<RuAllocationIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr9
+	rc = driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.repcap_ruAllocationIx_get()
+	driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.repcap_ruAllocationIx_set(repcap.RuAllocationIx.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.RulocationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_Count.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_MruIndex.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_Ru26Index.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_RuIndex.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_RuSize.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_RutSix.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User.rst

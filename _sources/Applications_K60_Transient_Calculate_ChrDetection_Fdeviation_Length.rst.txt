@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CALCulate<Window>:CHRDetection:FDEViation:LENGth
+
+.. code-block:: python
+
+	CALCulate<Window>:CHRDetection:FDEViation:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Fdeviation.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

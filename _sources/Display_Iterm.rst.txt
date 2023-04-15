@@ -1,0 +1,28 @@
+Iterm
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Iterm.ItermCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.iterm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Iterm_State.rst

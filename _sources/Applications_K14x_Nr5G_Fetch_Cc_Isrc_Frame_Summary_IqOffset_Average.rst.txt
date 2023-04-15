@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:IQOFfset:AVERage
+
+.. code-block:: python
+
+	FETCh:CC<CarrierComponent>:ISRC:FRAMe<Frame>:SUMMary:IQOFfset:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.IqOffset.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

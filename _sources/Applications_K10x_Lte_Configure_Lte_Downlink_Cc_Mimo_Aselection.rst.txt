@@ -1,0 +1,20 @@
+Aselection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands
+
+.. index::
+	single: CONFigure:LTE:DL:CC<CarrierComponent>:MIMO:ASELection
+
+.. code-block:: python
+
+	CONFigure:LTE:DL:CC<CarrierComponent>:MIMO:ASELection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mimo.Aselection.AselectionCls
+	:members:
+	:undoc-members:
+	:noindex:

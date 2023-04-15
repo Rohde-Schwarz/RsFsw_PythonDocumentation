@@ -1,0 +1,31 @@
+Scapture
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Sweep.Scapture.ScaptureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.sweep.scapture.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Sweep_Scapture_Events.rst
+	Applications_K6_Pulse_Sense_Sweep_Scapture_Length.rst
+	Applications_K6_Pulse_Sense_Sweep_Scapture_Offset.rst
+	Applications_K6_Pulse_Sense_Sweep_Scapture_State.rst

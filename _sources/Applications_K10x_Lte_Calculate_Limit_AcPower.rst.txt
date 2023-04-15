@@ -1,0 +1,31 @@
+AcPower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.AcPower.AcPowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.limit.acPower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_Limit_AcPower_Achannel.rst
+	Applications_K10x_Lte_Calculate_Limit_AcPower_Alternate.rst
+	Applications_K10x_Lte_Calculate_Limit_AcPower_Pmode.rst
+	Applications_K10x_Lte_Calculate_Limit_AcPower_State.rst
