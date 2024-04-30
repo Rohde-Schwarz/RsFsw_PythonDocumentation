@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:DEViation:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:DEViation:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Deviation.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

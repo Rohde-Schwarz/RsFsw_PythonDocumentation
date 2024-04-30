@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:DIQ:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:DIQ:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Diq.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

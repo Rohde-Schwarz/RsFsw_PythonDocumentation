@@ -1,0 +1,20 @@
+Sync
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:SYNC
+
+.. code-block:: python
+
+	INITiate:SYNC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Initiate.Sync.SyncCls
+	:members:
+	:undoc-members:
+	:noindex:

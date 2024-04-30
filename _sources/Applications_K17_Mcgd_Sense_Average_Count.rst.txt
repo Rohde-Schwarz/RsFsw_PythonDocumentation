@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:AVERage:COUNt
+
+.. code-block:: python
+
+	[SENSe]:AVERage:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Average.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Set
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SET
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SET
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Set.SetCls
+	:members:
+	:undoc-members:
+	:noindex:

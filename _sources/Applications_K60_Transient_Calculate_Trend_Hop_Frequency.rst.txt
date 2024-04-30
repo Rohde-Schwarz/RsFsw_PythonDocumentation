@@ -1,0 +1,38 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:HOP:FREQuency
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:HOP:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Hop.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.trend.hop.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Trend_Hop_Frequency_X.rst
+	Applications_K60_Transient_Calculate_Trend_Hop_Frequency_Y.rst

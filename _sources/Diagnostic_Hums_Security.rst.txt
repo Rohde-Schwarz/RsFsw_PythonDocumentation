@@ -1,0 +1,20 @@
+Security
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:SECurity
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:SECurity
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Security.SecurityCls
+	:members:
+	:undoc-members:
+	:noindex:

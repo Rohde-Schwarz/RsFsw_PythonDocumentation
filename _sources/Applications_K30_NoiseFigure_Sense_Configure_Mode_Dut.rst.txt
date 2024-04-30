@@ -1,0 +1,20 @@
+Dut
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:MODE:DUT
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:MODE:DUT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.Mode.Dut.DutCls
+	:members:
+	:undoc-members:
+	:noindex:

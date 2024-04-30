@@ -1,0 +1,32 @@
+Frequency
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.sense.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Sense_Frequency_Center.rst
+	Applications_K40_PhaseNoise_Sense_Frequency_Start.rst
+	Applications_K40_PhaseNoise_Sense_Frequency_Stop.rst
+	Applications_K40_PhaseNoise_Sense_Frequency_Track.rst
+	Applications_K40_PhaseNoise_Sense_Frequency_Verify.rst

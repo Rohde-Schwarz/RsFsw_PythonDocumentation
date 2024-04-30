@@ -1,0 +1,31 @@
+Fetch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.FetchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.fetch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Fetch_All.rst
+	Applications_K14x_Nr5G_Fetch_Cc.rst
+	Applications_K14x_Nr5G_Fetch_Pmeter.rst
+	Applications_K14x_Nr5G_Fetch_TaError.rst

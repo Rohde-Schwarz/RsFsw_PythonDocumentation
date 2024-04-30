@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:CENTer[:CC<cc>]:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:CENTer[:CC<cc>]:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Frequency.Center.Cc.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

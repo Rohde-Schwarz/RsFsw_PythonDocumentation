@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AF:COUPling
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AF:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:

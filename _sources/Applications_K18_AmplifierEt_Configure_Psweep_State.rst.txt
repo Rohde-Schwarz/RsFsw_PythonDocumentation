@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep[:STATe]
+
+.. code-block:: python
+
+	CONFigure:PSWeep[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

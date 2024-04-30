@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:POWer[:LEVel][:IMMediate]:OFFSet
+
+.. code-block:: python
+
+	SOURce:POWer[:LEVel][:IMMediate]:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.Power.Level.Immediate.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

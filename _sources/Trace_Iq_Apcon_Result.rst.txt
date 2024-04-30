@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:APCon:RESult
+
+.. code-block:: python
+
+	TRACe:IQ:APCon:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Apcon.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

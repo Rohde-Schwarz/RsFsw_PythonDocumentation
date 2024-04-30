@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:ITEM:WINDow:TRACe:STATe
+
+.. code-block:: python
+
+	HCOPy:ITEM:WINDow:TRACe:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Item.Window.Trace.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

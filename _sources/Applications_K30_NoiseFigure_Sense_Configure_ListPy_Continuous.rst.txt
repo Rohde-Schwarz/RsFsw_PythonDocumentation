@@ -1,0 +1,20 @@
+Continuous
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:LIST:CONTinuous
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:LIST:CONTinuous
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.ListPy.Continuous.ContinuousCls
+	:members:
+	:undoc-members:
+	:noindex:

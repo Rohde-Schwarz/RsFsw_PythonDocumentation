@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:OOFFset:CURRent:VALue
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:OOFFset:CURRent:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Ooffset.Current.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

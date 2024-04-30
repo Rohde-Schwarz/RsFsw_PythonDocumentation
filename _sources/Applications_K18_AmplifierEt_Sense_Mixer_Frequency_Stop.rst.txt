@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:FREQuency:STOP
+
+.. code-block:: python
+
+	[SENSe]:MIXer:FREQuency:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Mixer.Frequency.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

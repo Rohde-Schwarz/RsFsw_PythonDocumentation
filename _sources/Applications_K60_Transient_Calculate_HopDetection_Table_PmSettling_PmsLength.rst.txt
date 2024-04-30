@@ -1,0 +1,20 @@
+PmsLength
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PMSettling:PMSLength
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PMSettling:PMSLength
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.PmSettling.PmsLength.PmsLengthCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Holdoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:HOLDoff
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:HOLDoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Holdoff.HoldoffCls
+	:members:
+	:undoc-members:
+	:noindex:

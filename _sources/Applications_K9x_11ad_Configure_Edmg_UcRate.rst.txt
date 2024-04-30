@@ -1,0 +1,20 @@
+UcRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:EDMG:UCRate
+
+.. code-block:: python
+
+	CONFigure:EDMG:UCRate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Configure.Edmg.UcRate.UcRateCls
+	:members:
+	:undoc-members:
+	:noindex:

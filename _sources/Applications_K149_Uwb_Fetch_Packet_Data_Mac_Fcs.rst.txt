@@ -1,0 +1,37 @@
+Fcs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:PACKet:DATA:MAC:FCS
+
+.. code-block:: python
+
+	FETCh<n>:PACKet:DATA:MAC:FCS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Mac.Fcs.FcsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.packet.data.mac.fcs.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Packet_Data_Mac_Fcs_Apackets.rst

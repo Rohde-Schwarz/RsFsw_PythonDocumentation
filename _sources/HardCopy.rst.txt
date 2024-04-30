@@ -1,0 +1,51 @@
+HardCopy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:ABORt
+
+.. code-block:: python
+
+	HCOPy:ABORt
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.HardCopyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Cmap.rst
+	HardCopy_Comment.rst
+	HardCopy_Content.rst
+	HardCopy_Copies.rst
+	HardCopy_Destination.rst
+	HardCopy_Device.rst
+	HardCopy_Immediate.rst
+	HardCopy_Item.rst
+	HardCopy_Logo.rst
+	HardCopy_Mode.rst
+	HardCopy_Page.rst
+	HardCopy_Print.rst
+	HardCopy_TdDtamp.rst
+	HardCopy_Theme.rst
+	HardCopy_Treport.rst

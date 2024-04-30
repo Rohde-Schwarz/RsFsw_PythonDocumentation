@@ -1,0 +1,20 @@
+Coefficient
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:EQUalizer:FILTer:COEFficient
+
+.. code-block:: python
+
+	MMEMory:LOAD:EQUalizer:FILTer:COEFficient
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.MassMemory.Load.Equalizer.FilterPy.Coefficient.CoefficientCls
+	:members:
+	:undoc-members:
+	:noindex:

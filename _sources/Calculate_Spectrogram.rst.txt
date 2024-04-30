@@ -1,0 +1,35 @@
+Spectrogram
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.SpectrogramCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.spectrogram.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Spectrogram_Clear.rst
+	Calculate_Spectrogram_Color.rst
+	Calculate_Spectrogram_Continuous.rst
+	Calculate_Spectrogram_Frame.rst
+	Calculate_Spectrogram_Hdepth.rst
+	Calculate_Spectrogram_State.rst
+	Calculate_Spectrogram_ThreeDim.rst
+	Calculate_Spectrogram_Tstamp.rst

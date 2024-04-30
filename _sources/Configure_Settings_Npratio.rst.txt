@@ -1,0 +1,37 @@
+Npratio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings:NPRatio
+
+.. code-block:: python
+
+	CONFigure:SETTings:NPRatio
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Settings.Npratio.NpratioCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.settings.npratio.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Settings_Npratio_Notch.rst

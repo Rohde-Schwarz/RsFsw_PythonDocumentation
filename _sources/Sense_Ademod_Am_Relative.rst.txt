@@ -1,0 +1,29 @@
+Relative
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Am.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.ademod.am.relative.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod_Am_Relative_AfSpectrum.rst
+	Sense_Ademod_Am_Relative_Tdomain.rst

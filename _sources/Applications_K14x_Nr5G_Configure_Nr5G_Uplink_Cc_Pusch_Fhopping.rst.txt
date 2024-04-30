@@ -1,0 +1,20 @@
+Fhopping
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:PUSCh:FHOPping
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:PUSCh:FHOPping
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Pusch.Fhopping.FhoppingCls
+	:members:
+	:undoc-members:
+	:noindex:

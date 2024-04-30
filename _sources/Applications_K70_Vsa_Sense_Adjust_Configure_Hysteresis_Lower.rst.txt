@@ -1,0 +1,20 @@
+Lower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:CONFigure[:HYSTeresis]:LOWer
+
+.. code-block:: python
+
+	[SENSe]:ADJust:CONFigure[:HYSTeresis]:LOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Adjust.Configure.Hysteresis.Lower.LowerCls
+	:members:
+	:undoc-members:
+	:noindex:

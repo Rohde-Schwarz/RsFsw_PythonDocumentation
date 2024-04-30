@@ -1,0 +1,20 @@
+Mspur
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SSEarch:MSPur
+
+.. code-block:: python
+
+	[SENSe]:SSEarch:MSPur
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.Mspur.MspurCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:ROFFset[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:ROFFset[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Pmeter.Roffset.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

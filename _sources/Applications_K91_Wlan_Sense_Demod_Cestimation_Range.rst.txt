@@ -1,0 +1,20 @@
+Range
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:CESTimation:RANGe
+
+.. code-block:: python
+
+	[SENSe]:DEMod:CESTimation:RANGe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Cestimation.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:

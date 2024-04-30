@@ -1,0 +1,20 @@
+Continuous
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:FREQuency:CONTinuous
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:FREQuency:CONTinuous
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.Frequency.Continuous.ContinuousCls
+	:members:
+	:undoc-members:
+	:noindex:

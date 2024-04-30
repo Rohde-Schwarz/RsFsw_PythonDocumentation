@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:MERRor:PCURrent[:RESult]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:MERRor:PCURrent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Merror.Pcurrent.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

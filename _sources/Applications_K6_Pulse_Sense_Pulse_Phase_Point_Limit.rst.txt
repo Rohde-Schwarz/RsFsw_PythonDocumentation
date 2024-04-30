@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:POINt:LIMit
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:POINt:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Point.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

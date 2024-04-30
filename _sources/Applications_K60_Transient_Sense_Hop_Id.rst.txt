@@ -1,0 +1,20 @@
+Id
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:ID
+
+.. code-block:: python
+
+	[SENSe]:HOP:ID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Id.IdCls
+	:members:
+	:undoc-members:
+	:noindex:

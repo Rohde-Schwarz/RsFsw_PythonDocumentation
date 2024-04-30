@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:IFGain:MODE
+
+.. code-block:: python
+
+	SYSTem:IFGain:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.System.IfGain.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

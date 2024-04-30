@@ -1,0 +1,29 @@
+Trigger
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trigger.TriggerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.trigger.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Trigger_Sequence.rst
+	Applications_K14x_Nr5G_Trigger_TsHelper.rst

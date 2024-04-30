@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:STANdard:PRESet[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:STANdard:PRESet[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Standard.Preset.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

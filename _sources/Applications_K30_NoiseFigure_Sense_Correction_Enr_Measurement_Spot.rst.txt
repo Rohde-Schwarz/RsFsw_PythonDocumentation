@@ -1,0 +1,38 @@
+Spot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR[:MEASurement]:SPOT
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR[:MEASurement]:SPOT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Measurement.Spot.SpotCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.correction.enr.measurement.spot.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Spot_Cold.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Spot_Hot.rst

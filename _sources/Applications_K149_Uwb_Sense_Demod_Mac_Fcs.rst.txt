@@ -1,0 +1,20 @@
+Fcs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:MAC:FCS
+
+.. code-block:: python
+
+	[SENSe]:DEMod:MAC:FCS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.Mac.Fcs.FcsCls
+	:members:
+	:undoc-members:
+	:noindex:

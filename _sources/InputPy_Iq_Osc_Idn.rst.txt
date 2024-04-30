@@ -1,0 +1,20 @@
+Idn
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:OSC:IDN
+
+.. code-block:: python
+
+	INPut:IQ:OSC:IDN
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.Idn.IdnCls
+	:members:
+	:undoc-members:
+	:noindex:

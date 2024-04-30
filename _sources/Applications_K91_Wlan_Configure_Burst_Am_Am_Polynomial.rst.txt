@@ -1,0 +1,20 @@
+Polynomial
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:AM:AM:POLYnomial
+
+.. code-block:: python
+
+	CONFigure:BURSt:AM:AM:POLYnomial
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Am.Am.Polynomial.PolynomialCls
+	:members:
+	:undoc-members:
+	:noindex:

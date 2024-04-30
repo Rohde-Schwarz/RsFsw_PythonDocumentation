@@ -1,0 +1,20 @@
+AcPairs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:ACPairs
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:ACPairs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Achannel.AcPairs.AcPairsCls
+	:members:
+	:undoc-members:
+	:noindex:

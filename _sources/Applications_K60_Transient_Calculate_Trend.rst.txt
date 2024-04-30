@@ -1,0 +1,32 @@
+Trend
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.TrendCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.trend.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Trend_Chirp.rst
+	Applications_K60_Transient_Calculate_Trend_Hop.rst
+	Applications_K60_Transient_Calculate_Trend_Swap.rst
+	Applications_K60_Transient_Calculate_Trend_X.rst
+	Applications_K60_Transient_Calculate_Trend_Y.rst

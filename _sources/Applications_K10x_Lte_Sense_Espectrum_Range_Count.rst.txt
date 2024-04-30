@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<ri>:COUNt
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<ri>:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Espectrum.Range.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

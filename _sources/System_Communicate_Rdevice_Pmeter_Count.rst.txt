@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:PMETer<p>:COUNt
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:PMETer<p>:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rdevice.Pmeter.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

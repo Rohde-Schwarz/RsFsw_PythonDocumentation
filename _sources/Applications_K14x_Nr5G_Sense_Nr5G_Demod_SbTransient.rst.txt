@@ -1,0 +1,20 @@
+SbTransient
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:SBTRansient
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:SBTRansient
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.SbTransient.SbTransientCls
+	:members:
+	:undoc-members:
+	:noindex:

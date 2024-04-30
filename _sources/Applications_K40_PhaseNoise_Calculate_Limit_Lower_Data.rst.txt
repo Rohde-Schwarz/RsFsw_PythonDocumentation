@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:LOWer[:DATA]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:LOWer[:DATA]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Limit.Lower.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

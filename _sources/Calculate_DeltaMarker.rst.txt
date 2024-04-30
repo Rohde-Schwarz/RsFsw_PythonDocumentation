@@ -1,0 +1,49 @@
+DeltaMarker<DeltaMarker>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.calculate.deltaMarker.repcap_deltaMarker_get()
+	driver.calculate.deltaMarker.repcap_deltaMarker_set(repcap.DeltaMarker.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.DeltaMarkerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Aoff.rst
+	Calculate_DeltaMarker_Function.rst
+	Calculate_DeltaMarker_LinkTo.rst
+	Calculate_DeltaMarker_Maximum.rst
+	Calculate_DeltaMarker_Minimum.rst
+	Calculate_DeltaMarker_Mode.rst
+	Calculate_DeltaMarker_Mref.rst
+	Calculate_DeltaMarker_Mreference.rst
+	Calculate_DeltaMarker_Spectrogram.rst
+	Calculate_DeltaMarker_State.rst
+	Calculate_DeltaMarker_Trace.rst
+	Calculate_DeltaMarker_X.rst
+	Calculate_DeltaMarker_Y.rst
+	Calculate_DeltaMarker_Z.rst

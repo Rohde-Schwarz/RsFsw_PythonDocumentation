@@ -1,0 +1,20 @@
+PmTolerance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:PMTolerance
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:PMTolerance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.PmTolerance.PmToleranceCls
+	:members:
+	:undoc-members:
+	:noindex:

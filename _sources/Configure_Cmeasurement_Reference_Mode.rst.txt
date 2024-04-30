@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CMEasurement:REFerence[:MODE]
+
+.. code-block:: python
+
+	CONFigure:CMEasurement:REFerence[:MODE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Cmeasurement.Reference.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

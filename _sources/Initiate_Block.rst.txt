@@ -1,0 +1,38 @@
+Block
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:BLOCk:ABORt
+
+.. code-block:: python
+
+	INITiate:BLOCk:ABORt
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Block.BlockCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.initiate.block.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Initiate_Block_ConMeas.rst
+	Initiate_Block_Immediate.rst

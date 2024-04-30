@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:QUADoffset:MINimum
+
+.. code-block:: python
+
+	FETCh:BURSt:QUADoffset:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.QuadOffset.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

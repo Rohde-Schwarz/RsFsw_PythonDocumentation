@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PMSettling:ALL[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PMSettling:ALL[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.PmSettling.All.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

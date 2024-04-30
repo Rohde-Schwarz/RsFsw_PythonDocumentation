@@ -1,0 +1,38 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:COUNt
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.marker.count.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Marker_Count_Frequency.rst
+	Applications_K14x_Nr5G_Calculate_Marker_Count_Resolution.rst

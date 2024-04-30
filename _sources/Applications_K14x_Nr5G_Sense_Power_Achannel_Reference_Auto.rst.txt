@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:REFerence:AUTO
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:REFerence:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Reference.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

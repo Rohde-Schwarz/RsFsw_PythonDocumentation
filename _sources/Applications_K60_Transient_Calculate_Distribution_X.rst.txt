@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:X
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

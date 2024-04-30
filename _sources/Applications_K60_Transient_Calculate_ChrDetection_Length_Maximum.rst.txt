@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:LENGth:MAXimum
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:LENGth:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Length.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

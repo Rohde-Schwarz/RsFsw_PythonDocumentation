@@ -1,0 +1,20 @@
+CycPrefix
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:CYCPrefix
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:CYCPrefix
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.CycPrefix.CycPrefixCls
+	:members:
+	:undoc-members:
+	:noindex:

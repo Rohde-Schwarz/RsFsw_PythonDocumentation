@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DIQ:RANGe[:UPPer]
+
+.. code-block:: python
+
+	INPut:DIQ:RANGe[:UPPer]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.Diq.Range.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:

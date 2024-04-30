@@ -1,0 +1,20 @@
+Restore
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:PRESet:RESTore
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:PRESet:RESTore
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Preset.Restore.RestoreCls
+	:members:
+	:undoc-members:
+	:noindex:

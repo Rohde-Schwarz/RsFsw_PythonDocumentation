@@ -1,0 +1,43 @@
+Ptable
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.PtableCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.ptable.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Ptable_Acp.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Amam.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_AmPm.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_BbPower.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Cfactor.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Evm.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Gain.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Icc.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_P1Db.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_P2Db.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_P3Db.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Pae.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Pout.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Result.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Rms.rst
+	Applications_K18_AmplifierEt_Fetch_Ptable_Vcc.rst

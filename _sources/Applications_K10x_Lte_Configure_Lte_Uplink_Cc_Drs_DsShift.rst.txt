@@ -1,0 +1,20 @@
+DsShift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:DRS:DSSHift
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:DRS:DSSHift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Drs.DsShift.DsShiftCls
+	:members:
+	:undoc-members:
+	:noindex:

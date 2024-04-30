@@ -1,0 +1,20 @@
+Segment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:TRANsfer:SEGMent
+
+.. code-block:: python
+
+	[SENSe]:TRANsfer:SEGMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Transfer.Segment.SegmentCls
+	:members:
+	:undoc-members:
+	:noindex:

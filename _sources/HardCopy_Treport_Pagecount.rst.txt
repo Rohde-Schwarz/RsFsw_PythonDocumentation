@@ -1,0 +1,28 @@
+Pagecount
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Pagecount.PagecountCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.pagecount.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Pagecount_State.rst

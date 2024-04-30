@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:EVM:PMEan[:RESult]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:EVM:PMEan[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Evm.Pmean.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

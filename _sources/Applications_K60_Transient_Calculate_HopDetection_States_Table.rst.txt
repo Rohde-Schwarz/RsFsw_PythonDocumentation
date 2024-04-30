@@ -1,0 +1,45 @@
+Table
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:STATes:TABLe:LOAD
+	single: CALCulate<n>:HOPDetection:STATes:TABLe:SAVE
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:STATes:TABLe:LOAD
+	CALCulate<n>:HOPDetection:STATes:TABLe:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Table.TableCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.hopDetection.states.table.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Add.rst
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Nstates.rst
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Offset.rst
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Replace.rst
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Start.rst
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Step.rst
+	Applications_K60_Transient_Calculate_HopDetection_States_Table_Tolerance.rst

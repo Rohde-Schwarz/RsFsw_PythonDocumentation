@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:STS:FORMat
+
+.. code-block:: python
+
+	[SENSe]:DEMod:STS:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.Sts.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

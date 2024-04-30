@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:QVOLtage:MAX:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:QVOLtage:MAX:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Qvoltage.Max.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

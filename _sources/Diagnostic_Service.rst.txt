@@ -1,0 +1,40 @@
+Service
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.ServiceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_BiosInfo.rst
+	Diagnostic_Service_Calibration.rst
+	Diagnostic_Service_Date.rst
+	Diagnostic_Service_HwInfo.rst
+	Diagnostic_Service_InputPy.rst
+	Diagnostic_Service_Nsource.rst
+	Diagnostic_Service_Prototype.rst
+	Diagnostic_Service_Sfunction.rst
+	Diagnostic_Service_Sinfo.rst
+	Diagnostic_Service_SpCheck.rst
+	Diagnostic_Service_State.rst
+	Diagnostic_Service_Stest.rst
+	Diagnostic_Service_VersionInfo.rst

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:RAWPhase[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:RAWPhase[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.RawPhase.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

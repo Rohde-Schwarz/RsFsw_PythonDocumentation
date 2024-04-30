@@ -1,0 +1,20 @@
+Wideband
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PSA:WIDeband
+
+.. code-block:: python
+
+	SYSTem:PSA:WIDeband
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Psa.Wideband.WidebandCls
+	:members:
+	:undoc-members:
+	:noindex:

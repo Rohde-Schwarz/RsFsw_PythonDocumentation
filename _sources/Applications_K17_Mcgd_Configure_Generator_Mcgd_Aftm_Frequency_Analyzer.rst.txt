@@ -1,0 +1,20 @@
+Analyzer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:AFTM:FREQuency:ANALyzer
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:AFTM:FREQuency:ANALyzer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Frequency.Analyzer.AnalyzerCls
+	:members:
+	:undoc-members:
+	:noindex:

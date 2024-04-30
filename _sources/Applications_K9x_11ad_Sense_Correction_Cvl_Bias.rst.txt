@@ -1,0 +1,20 @@
+Bias
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:BIAS
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:BIAS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Correction.Cvl.Bias.BiasCls
+	:members:
+	:undoc-members:
+	:noindex:

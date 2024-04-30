@@ -1,0 +1,30 @@
+Y
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Scale.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.statistics.scale.y.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Statistics_Scale_Y_Lower.rst
+	Calculate_Statistics_Scale_Y_Unit.rst
+	Calculate_Statistics_Scale_Y_Upper.rst

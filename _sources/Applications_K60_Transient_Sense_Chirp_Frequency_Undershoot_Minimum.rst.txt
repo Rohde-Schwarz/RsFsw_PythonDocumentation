@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FREQuency:UNDershoot:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FREQuency:UNDershoot:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Undershoot.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

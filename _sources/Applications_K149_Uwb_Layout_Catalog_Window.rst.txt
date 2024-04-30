@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: LAYout:CATalog[:WINDow]
+
+.. code-block:: python
+
+	LAYout:CATalog[:WINDow]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Layout.Catalog.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:

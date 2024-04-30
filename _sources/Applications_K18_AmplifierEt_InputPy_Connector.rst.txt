@@ -1,0 +1,20 @@
+Connector
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:CONNector
+
+.. code-block:: python
+
+	INPut:CONNector
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.InputPy.Connector.ConnectorCls
+	:members:
+	:undoc-members:
+	:noindex:

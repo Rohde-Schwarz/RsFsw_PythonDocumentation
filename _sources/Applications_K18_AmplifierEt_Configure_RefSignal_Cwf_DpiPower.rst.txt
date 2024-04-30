@@ -1,0 +1,20 @@
+DpiPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:CWF:DPIPower
+
+.. code-block:: python
+
+	CONFigure:REFSignal:CWF:DPIPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Cwf.DpiPower.DpiPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

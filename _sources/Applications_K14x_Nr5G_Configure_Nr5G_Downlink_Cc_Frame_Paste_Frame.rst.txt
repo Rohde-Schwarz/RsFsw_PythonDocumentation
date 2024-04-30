@@ -1,0 +1,20 @@
+Frame
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:PASTe[:FRAMe]
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:PASTe[:FRAMe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.Paste.Frame.FrameCls
+	:members:
+	:undoc-members:
+	:noindex:

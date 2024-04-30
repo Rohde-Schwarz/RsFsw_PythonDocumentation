@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FREQuency:BWIDth:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FREQuency:BWIDth:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Bandwidth.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Transducer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<ri>:TRANsducer
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<ri>:TRANsducer
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.Transducer.TransducerCls
+	:members:
+	:undoc-members:
+	:noindex:

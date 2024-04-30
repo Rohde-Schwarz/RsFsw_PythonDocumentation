@@ -1,0 +1,20 @@
+Full
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AF:SPAN:FULL
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AF:SPAN:FULL
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.Span.Full.FullCls
+	:members:
+	:undoc-members:
+	:noindex:

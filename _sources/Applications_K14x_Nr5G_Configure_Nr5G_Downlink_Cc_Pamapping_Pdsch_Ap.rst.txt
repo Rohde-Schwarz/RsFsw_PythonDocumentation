@@ -1,0 +1,36 @@
+Ap<AntennaPort1k>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1000 .. Nr1011
+	rc = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.pamapping.pdsch.ap.repcap_antennaPort1k_get()
+	driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.pamapping.pdsch.ap.repcap_antennaPort1k_set(repcap.AntennaPort1k.Nr1000)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:PAMapping<cf>:PDSCh:AP<AntennaPort1k>
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:PAMapping<cf>:PDSCh:AP<AntennaPort1k>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Pamapping.Pdsch.Ap.ApCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.pamapping.pdsch.ap.clone()

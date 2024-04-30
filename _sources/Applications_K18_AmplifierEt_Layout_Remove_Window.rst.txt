@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: LAYout:REMove[:WINDow]
+
+.. code-block:: python
+
+	LAYout:REMove[:WINDow]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Layout.Remove.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:

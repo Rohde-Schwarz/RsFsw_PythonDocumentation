@@ -1,0 +1,37 @@
+Results
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:SFUNction:RESults:DELete
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SFUNction:RESults:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Sfunction.Results.ResultsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.sfunction.results.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_Sfunction_Results_Save.rst

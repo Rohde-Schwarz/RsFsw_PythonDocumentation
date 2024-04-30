@@ -1,0 +1,20 @@
+PhrRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:PHRRate
+
+.. code-block:: python
+
+	[SENSe]:DEMod:PHRRate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.PhrRate.PhrRateCls
+	:members:
+	:undoc-members:
+	:noindex:

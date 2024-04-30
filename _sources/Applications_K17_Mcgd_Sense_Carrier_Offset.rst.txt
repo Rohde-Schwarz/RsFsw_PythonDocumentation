@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CARRier:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:CARRier:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Carrier.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

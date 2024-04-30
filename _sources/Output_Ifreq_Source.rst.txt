@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:IF[:SOURce]
+
+.. code-block:: python
+
+	OUTPut:IF[:SOURce]
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ifreq.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

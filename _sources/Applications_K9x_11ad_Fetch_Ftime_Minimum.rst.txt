@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:FTIMe:MINimum
+
+.. code-block:: python
+
+	FETCh:FTIMe:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Ftime.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

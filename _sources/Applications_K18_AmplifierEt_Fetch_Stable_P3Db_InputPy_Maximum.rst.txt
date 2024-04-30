@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:P3DB:IN:MAXimum
+
+.. code-block:: python
+
+	FETCh:STABle:P3DB:IN:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.P3Db.InputPy.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Spectrogram
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect[:ITEM]:SPECtrogram
+
+.. code-block:: python
+
+	MMEMory:SELect[:ITEM]:SPECtrogram
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.Spectrogram.SpectrogramCls
+	:members:
+	:undoc-members:
+	:noindex:

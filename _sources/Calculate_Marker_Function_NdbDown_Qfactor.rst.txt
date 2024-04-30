@@ -1,0 +1,20 @@
+Qfactor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:QFACtor
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:QFACtor
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.NdbDown.Qfactor.QfactorCls
+	:members:
+	:undoc-members:
+	:noindex:

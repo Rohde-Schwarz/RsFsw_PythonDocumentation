@@ -1,0 +1,20 @@
+FhDecade
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:FHDecade
+
+.. code-block:: python
+
+	[SENSe]:SWEep:FHDecade
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Sweep.FhDecade.FhDecadeCls
+	:members:
+	:undoc-members:
+	:noindex:

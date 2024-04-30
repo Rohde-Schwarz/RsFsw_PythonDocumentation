@@ -1,0 +1,20 @@
+RutSix
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:RUTSix
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:RUTSix
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.RutSix.RutSixCls
+	:members:
+	:undoc-members:
+	:noindex:

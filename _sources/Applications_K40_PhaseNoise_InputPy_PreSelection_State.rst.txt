@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:PRESelection[:STATe]
+
+.. code-block:: python
+
+	INPut:PRESelection[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.InputPy.PreSelection.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

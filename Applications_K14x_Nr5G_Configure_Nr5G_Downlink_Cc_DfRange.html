@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DfRange &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Euids" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Euids.html" />
+    <link rel="prev" title="Auto" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Demod_Auto.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Calibration.html">Calibration</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="Applications_K14x_Nr5G_Configure.html">Configure</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Generator.html">Generator</a></li>
+<li class="toctree-l5 current"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G.html">Nr5G</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Aclr.html">Aclr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Bstation.html">Bstation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Caclr.html">Caclr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Center.html">Center</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Craster.html">Craster</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_CsCapture.html">CsCapture</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Cspacing.html">Cspacing</a></li>
+<li class="toctree-l6 current"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink.html">Downlink</a><ul class="current">
+<li class="toctree-l7 current"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc.html">Cc&lt;CarrierComponent&gt;</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Mimo.html">Mimo</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Evm.html">Evm</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_FcOffset.html">FcOffset</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Felc.html">Felc</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_GmcFreq.html">GmcFreq</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Ldirection.html">Ldirection</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_McaClr.html">McaClr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Measurement.html">Measurement</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Msem.html">Msem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_MsHelper.html">MsHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NcSpacing.html">NcSpacing</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NoCc.html">NoCc</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NrqMaster.html">NrqMaster</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NrqPrimary.html">NrqPrimary</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Nsources.html">Nsources</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Oband.html">Oband</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Omode.html">Omode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_OoPower.html">OoPower</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Oran.html">Oran</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Orel.html">Orel</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Sem.html">Sem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Simulation.html">Simulation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Uplink.html">Uplink</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Settings.html">Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Fetch.html">Fetch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Read.html">Read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G.html">K14x_Nr5G</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G_Configure.html">Configure</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G_Configure_Nr5G.html">Nr5G</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink.html">Downlink</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc.html">Cc&lt;CarrierComponent&gt;</a> &raquo;</li>
+      <li>DfRange</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_DfRange.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="dfrange">
+<h1>DfRange<a class="headerlink" href="#dfrange" title="Permalink to this headline"></a></h1>
+<p class="rubric">SCPI Command :</p>
+<div class="highlight-python notranslate" id="index-0"><div class="highlight"><pre><span></span><span class="n">CONFigure</span><span class="p">[:</span><span class="n">NR5G</span><span class="p">]:</span><span class="n">DL</span><span class="p">[:</span><span class="n">CC</span><span class="o">&lt;</span><span class="n">cc</span><span class="o">&gt;</span><span class="p">]:</span><span class="n">DFRange</span>
+</pre></div>
+</div>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">DfRangeCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K14x_Nr5G/Configure/Nr5G/Downlink/Cc/DfRange.html#DfRangeCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>DfRange commands group definition. 1 total commands, 0 Subgroups, 1 group commands</p>
+<dl class="py method">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">carrierComponent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">CarrierComponent.Default</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">RsFsw.enums.DeploymentFrange</span></span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K14x_Nr5G/Configure/Nr5G/Downlink/Cc/DfRange.html#DfRangeCls.get"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CONFigure[:NR5G]:DL[:CC&lt;cc&gt;]:DFRange</span>
+<span class="n">value</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">DeploymentFrange</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k14Xnr5G</span><span class="o">.</span><span class="n">configure</span><span class="o">.</span><span class="n">nr5G</span><span class="o">.</span><span class="n">downlink</span><span class="o">.</span><span class="n">cc</span><span class="o">.</span><span class="n">dfRange</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">carrierComponent</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Selects the deployment frequency range of the signal.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">param carrierComponent</dt>
+<dd class="field-odd"><p>optional repeated capability selector. Default value: Nr1 (settable in the interface ‘Cc’)</p>
+</dd>
+<dt class="field-even">return</dt>
+<dd class="field-even"><p>deployment: LOW Deployment in FR1 &lt;= 3 GHz. MIDDle Deployment in FR1 3 GHz. HIGH Deployment in FR2-1. EHIGh Deployment in FR2-2.</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">deployment</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">RsFsw.enums.DeploymentFrange</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">carrierComponent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">CarrierComponent.Default</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K14x_Nr5G/Configure/Nr5G/Downlink/Cc/DfRange.html#DfRangeCls.set"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CONFigure[:NR5G]:DL[:CC&lt;cc&gt;]:DFRange</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k14Xnr5G</span><span class="o">.</span><span class="n">configure</span><span class="o">.</span><span class="n">nr5G</span><span class="o">.</span><span class="n">downlink</span><span class="o">.</span><span class="n">cc</span><span class="o">.</span><span class="n">dfRange</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">deployment</span> <span class="o">=</span> <span class="n">enums</span><span class="o">.</span><span class="n">DeploymentFrange</span><span class="o">.</span><span class="n">EHIGh</span><span class="p">,</span> <span class="n">carrierComponent</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Selects the deployment frequency range of the signal.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">param deployment</dt>
+<dd class="field-odd"><p>LOW Deployment in FR1 &lt;= 3 GHz. MIDDle Deployment in FR1 3 GHz. HIGH Deployment in FR2-1. EHIGh Deployment in FR2-2.</p>
+</dd>
+<dt class="field-even">param carrierComponent</dt>
+<dd class="field-even"><p>optional repeated capability selector. Default value: Nr1 (settable in the interface ‘Cc’)</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Demod_Auto.html" class="btn btn-neutral float-left" title="Auto" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Euids.html" class="btn btn-neutral float-right" title="Euids" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Vdevice
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:VDEVice
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:VDEVice
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.System.Communicate.Rdevice.Oscilloscope.Vdevice.VdeviceCls
+	:members:
+	:undoc-members:
+	:noindex:

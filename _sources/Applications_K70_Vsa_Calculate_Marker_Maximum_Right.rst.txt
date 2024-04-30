@@ -1,0 +1,20 @@
+Right
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:MAXimum:RIGHt
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:MAXimum:RIGHt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Maximum.Right.RightCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:MAXimum:NEXT
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:MAXimum:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.DeltaMarker.Maximum.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

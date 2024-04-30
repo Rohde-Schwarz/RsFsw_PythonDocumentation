@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:NORMalize[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:NORMalize[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Normalize.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

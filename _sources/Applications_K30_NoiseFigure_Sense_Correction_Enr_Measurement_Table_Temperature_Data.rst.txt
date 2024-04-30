@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR[:MEASurement]:TABLe:TEMPerature[:DATA]
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR[:MEASurement]:TABLe:TEMPerature[:DATA]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Measurement.Table.Temperature.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

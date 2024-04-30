@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: LAYout:REPLace[:WINDow]
+
+.. code-block:: python
+
+	LAYout:REPLace[:WINDow]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K7_AnalogDemod.Layout.Replace.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+Ichannel
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Pae.Ichannel.IchannelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.pae.ichannel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Pae_Ichannel_Multiplier.rst
+	Applications_K18_AmplifierEt_Configure_Pae_Ichannel_Offset.rst
+	Applications_K18_AmplifierEt_Configure_Pae_Ichannel_Resistor.rst

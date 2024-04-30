@@ -1,0 +1,20 @@
+Points
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep[:WINDow<n>]:POINts
+
+.. code-block:: python
+
+	[SENSe]:SWEep[:WINDow<n>]:POINts
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Window.Points.PointsCls
+	:members:
+	:undoc-members:
+	:noindex:

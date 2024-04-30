@@ -1,0 +1,41 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k91Wlan.display.window.repcap_window_get()
+	driver.applications.k91Wlan.display.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.display.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Display_Window_Flags.rst
+	Applications_K91_Wlan_Display_Window_Size.rst
+	Applications_K91_Wlan_Display_Window_Subwindow.rst
+	Applications_K91_Wlan_Display_Window_Tab.rst
+	Applications_K91_Wlan_Display_Window_Table.rst
+	Applications_K91_Wlan_Display_Window_Trace.rst

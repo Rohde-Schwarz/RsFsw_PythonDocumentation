@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SPECtrum[:MAGNitude][:TYPE]
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SPECtrum[:MAGNitude][:TYPE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Spectrum.Magnitude.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SUBSpan:STATe
+
+.. code-block:: python
+
+	[SENSe]:SUBSpan:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Subspan.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

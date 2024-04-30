@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CREFerence:VALue
+
+.. code-block:: python
+
+	[SENSe]:CREFerence:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

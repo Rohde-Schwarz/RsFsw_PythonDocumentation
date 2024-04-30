@@ -1,0 +1,30 @@
+Harmonics
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Harmonics.HarmonicsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.creference.harmonics.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Creference_Harmonics_Identify.rst
+	Applications_K50_Spurious_Sense_Creference_Harmonics_Mnumber.rst
+	Applications_K50_Spurious_Sense_Creference_Harmonics_Tolerance.rst

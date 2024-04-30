@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALibration:RESult
+
+.. code-block:: python
+
+	CALibration:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calibration.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

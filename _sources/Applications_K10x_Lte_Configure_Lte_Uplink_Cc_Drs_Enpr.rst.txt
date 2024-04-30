@@ -1,0 +1,20 @@
+Enpr
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:DRS:ENPR
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:DRS:ENPR
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Drs.Enpr.EnprCls
+	:members:
+	:undoc-members:
+	:noindex:

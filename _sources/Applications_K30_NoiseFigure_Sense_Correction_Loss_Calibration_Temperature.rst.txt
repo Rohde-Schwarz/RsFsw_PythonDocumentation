@@ -1,0 +1,20 @@
+Temperature
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:LOSS:CALibration:TEMPerature
+
+.. code-block:: python
+
+	[SENSe]:CORRection:LOSS:CALibration:TEMPerature
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Calibration.Temperature.TemperatureCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Item
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TABLe:ITEM
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TABLe:ITEM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Display.Window.Table.Item.ItemCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:SOURce<si>
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:SOURce<si>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Trigger.Sequence.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

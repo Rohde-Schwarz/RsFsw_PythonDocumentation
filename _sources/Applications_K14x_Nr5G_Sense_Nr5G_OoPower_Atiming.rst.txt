@@ -1,0 +1,20 @@
+Atiming
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:OOPower:ATIMing
+
+.. code-block:: python
+
+	[SENSe]:NR5G:OOPower:ATIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.OoPower.Atiming.AtimingCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:DISPlay:MESSage:STATe
+
+.. code-block:: python
+
+	SYSTem:DISPlay:MESSage:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Display.Message.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

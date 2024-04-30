@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:AMPM:CWIDth:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:AMPM:CWIDth:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.AmPm.Cwidth.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

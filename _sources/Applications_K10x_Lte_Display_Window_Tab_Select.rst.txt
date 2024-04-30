@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TAB<tab>:SELect
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TAB<tab>:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Display.Window.Tab.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

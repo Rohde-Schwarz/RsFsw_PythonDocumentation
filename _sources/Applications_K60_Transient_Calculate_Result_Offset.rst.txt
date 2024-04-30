@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RESult:OFFSet
+
+.. code-block:: python
+
+	CALCulate<n>:RESult:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Result.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

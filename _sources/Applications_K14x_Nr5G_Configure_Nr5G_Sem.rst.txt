@@ -1,0 +1,20 @@
+Sem
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:SEM
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:SEM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Sem.SemCls
+	:members:
+	:undoc-members:
+	:noindex:

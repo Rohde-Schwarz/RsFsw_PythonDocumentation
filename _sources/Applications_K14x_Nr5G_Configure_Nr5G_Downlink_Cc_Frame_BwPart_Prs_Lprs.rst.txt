@@ -1,0 +1,20 @@
+Lprs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:PRS:LPRS
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:PRS:LPRS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Prs.Lprs.LprsCls
+	:members:
+	:undoc-members:
+	:noindex:

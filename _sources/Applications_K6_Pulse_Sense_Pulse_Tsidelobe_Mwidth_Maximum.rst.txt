@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:MWIDth:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:MWIDth:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Mwidth.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

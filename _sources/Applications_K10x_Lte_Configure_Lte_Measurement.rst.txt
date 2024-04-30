@@ -1,0 +1,20 @@
+Measurement
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:MEASurement
+
+.. code-block:: python
+
+	CONFigure[:LTE]:MEASurement
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Measurement.MeasurementCls
+	:members:
+	:undoc-members:
+	:noindex:

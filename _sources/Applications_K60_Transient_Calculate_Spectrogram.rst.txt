@@ -1,0 +1,42 @@
+Spectrogram
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: CALCulate<n>:SPECtrogram:CLEar
+	single: CALCulate<n>:SPECtrogram:CLEar:ALL
+
+.. code-block:: python
+
+	CALCulate<n>:SPECtrogram:CLEar
+	CALCulate<n>:SPECtrogram:CLEar:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Spectrogram.SpectrogramCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.spectrogram.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Spectrogram_Frame.rst
+	Applications_K60_Transient_Calculate_Spectrogram_Hdepth.rst
+	Applications_K60_Transient_Calculate_Spectrogram_Tresolution.rst
+	Applications_K60_Transient_Calculate_Spectrogram_Tstamp.rst

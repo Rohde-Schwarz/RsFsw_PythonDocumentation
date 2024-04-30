@@ -1,0 +1,37 @@
+Bst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:PACKet:STS:BST
+
+.. code-block:: python
+
+	FETCh<n>:PACKet:STS:BST
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Sts.Bst.BstCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.packet.sts.bst.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Packet_Sts_Bst_Apackets.rst

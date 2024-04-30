@@ -1,0 +1,20 @@
+Bcategory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:MSR:BCATegory
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:MSR:BCATegory
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Msr.Bcategory.BcategoryCls
+	:members:
+	:undoc-members:
+	:noindex:

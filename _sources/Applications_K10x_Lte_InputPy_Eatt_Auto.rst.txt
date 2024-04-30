@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:EATT<ant>:AUTO
+
+.. code-block:: python
+
+	INPut:EATT<ant>:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Eatt.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

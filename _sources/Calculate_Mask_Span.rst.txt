@@ -1,0 +1,20 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:SPAN
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:

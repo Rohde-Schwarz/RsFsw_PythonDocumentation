@@ -1,0 +1,20 @@
+Ginterval
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:GINTerval
+
+.. code-block:: python
+
+	FETCh:BURSt:GINTerval
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Ginterval.GintervalCls
+	:members:
+	:undoc-members:
+	:noindex:

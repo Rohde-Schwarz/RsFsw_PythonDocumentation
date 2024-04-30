@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:MODE
+
+.. code-block:: python
+
+	[SENSe]:DEMod:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Top
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:PAGE:MARGin:TOP
+
+.. code-block:: python
+
+	HCOPy:PAGE:MARGin:TOP
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Margin.Top.TopCls
+	:members:
+	:undoc-members:
+	:noindex:

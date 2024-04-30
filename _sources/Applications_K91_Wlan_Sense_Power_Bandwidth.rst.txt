@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:BWIDth
+
+.. code-block:: python
+
+	[SENSe]:POWer:BWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Bandwidth.BandwidthCls
+	:members:
+	:undoc-members:
+	:noindex:

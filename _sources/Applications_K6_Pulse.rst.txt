@@ -1,0 +1,43 @@
+K6_Pulse
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.K6_PulseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6_Pulse.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Auto.rst
+	Applications_K6_Pulse_Calculate.rst
+	Applications_K6_Pulse_Calibration.rst
+	Applications_K6_Pulse_Display.rst
+	Applications_K6_Pulse_FormatPy.rst
+	Applications_K6_Pulse_Initiate.rst
+	Applications_K6_Pulse_InputPy.rst
+	Applications_K6_Pulse_Layout.rst
+	Applications_K6_Pulse_MassMemory.rst
+	Applications_K6_Pulse_Output.rst
+	Applications_K6_Pulse_Riq.rst
+	Applications_K6_Pulse_Sense.rst
+	Applications_K6_Pulse_System.rst
+	Applications_K6_Pulse_Trace.rst
+	Applications_K6_Pulse_Trigger.rst
+	Applications_K6_Pulse_Unit.rst

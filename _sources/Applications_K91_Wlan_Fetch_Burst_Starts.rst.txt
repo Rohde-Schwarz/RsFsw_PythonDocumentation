@@ -1,0 +1,20 @@
+Starts
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:STARts
+
+.. code-block:: python
+
+	FETCh:BURSt:STARts
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Starts.StartsCls
+	:members:
+	:undoc-members:
+	:noindex:

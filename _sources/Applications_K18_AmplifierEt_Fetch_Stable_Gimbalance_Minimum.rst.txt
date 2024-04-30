@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:GIMBalance:MINimum
+
+.. code-block:: python
+
+	FETCh:STABle:GIMBalance:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Gimbalance.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Rf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:TARGet:PATH:RF
+
+.. code-block:: python
+
+	CONFigure:GENerator:TARGet:PATH:RF
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Target.Path.Rf.RfCls
+	:members:
+	:undoc-members:
+	:noindex:

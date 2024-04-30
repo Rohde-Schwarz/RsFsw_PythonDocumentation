@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:FREQuency:STARt
+
+.. code-block:: python
+
+	[SENSe]:MIXer:FREQuency:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Mixer.Frequency.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

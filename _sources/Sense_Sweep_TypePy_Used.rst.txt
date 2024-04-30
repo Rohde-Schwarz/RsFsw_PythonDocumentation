@@ -1,0 +1,20 @@
+Used
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:TYPE:USED
+
+.. code-block:: python
+
+	[SENSe]:SWEep:TYPE:USED
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.TypePy.Used.UsedCls
+	:members:
+	:undoc-members:
+	:noindex:

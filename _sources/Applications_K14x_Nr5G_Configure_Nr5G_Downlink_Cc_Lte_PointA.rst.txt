@@ -1,0 +1,20 @@
+PointA
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:LTE:POINta
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:LTE:POINta
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Lte.PointA.PointACls
+	:members:
+	:undoc-members:
+	:noindex:

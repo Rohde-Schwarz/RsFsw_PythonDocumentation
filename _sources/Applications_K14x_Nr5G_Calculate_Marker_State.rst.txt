@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

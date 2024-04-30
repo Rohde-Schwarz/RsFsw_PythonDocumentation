@@ -1,0 +1,20 @@
+Dssf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:DSSF
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:DSSF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Dssf.DssfCls
+	:members:
+	:undoc-members:
+	:noindex:

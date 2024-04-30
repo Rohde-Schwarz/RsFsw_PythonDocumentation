@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR[:MEASurement]:TABLe:SELect
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR[:MEASurement]:TABLe:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Measurement.Table.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,36 @@
+Antenna<Antenna>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k91Wlan.configure.wlan.antMatrix.antenna.repcap_antenna_get()
+	driver.applications.k91Wlan.configure.wlan.antMatrix.antenna.repcap_antenna_set(repcap.Antenna.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:ANTMatrix:ANTenna<ant>
+
+.. code-block:: python
+
+	CONFigure:WLAN:ANTMatrix:ANTenna<ant>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.AntMatrix.Antenna.AntennaCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.wlan.antMatrix.antenna.clone()

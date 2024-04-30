@@ -1,0 +1,41 @@
+Harmonics
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:PRESet
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Harmonics.HarmonicsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.harmonics.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Harmonics_Bandwidth.rst
+	Calculate_Marker_Function_Harmonics_Distortion.rst
+	Calculate_Marker_Function_Harmonics_ListPy.rst
+	Calculate_Marker_Function_Harmonics_Nharmonics.rst
+	Calculate_Marker_Function_Harmonics_State.rst

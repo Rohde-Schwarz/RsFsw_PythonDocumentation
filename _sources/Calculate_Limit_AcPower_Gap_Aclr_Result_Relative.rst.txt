@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ACPower:GAP<gap>:ACLR:RESult:RELative
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ACPower:GAP<gap>:ACLR:RESult:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:

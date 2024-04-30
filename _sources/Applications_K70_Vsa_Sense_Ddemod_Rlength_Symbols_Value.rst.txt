@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:RLENgth:SYMBols[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:RLENgth:SYMBols[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Rlength.Symbols.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

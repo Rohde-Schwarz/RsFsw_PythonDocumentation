@@ -1,0 +1,20 @@
+FhMode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PUSCh:FHMode
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PUSCh:FHMode
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pusch.FhMode.FhModeCls
+	:members:
+	:undoc-members:
+	:noindex:

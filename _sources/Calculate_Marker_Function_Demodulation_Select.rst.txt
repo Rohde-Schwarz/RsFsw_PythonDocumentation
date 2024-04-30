@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DEModulation:SELect
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DEModulation:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Demodulation.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

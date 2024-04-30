@@ -1,0 +1,28 @@
+SynthTwo
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.SynthTwo.SynthTwoCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.inputPy.synthTwo.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_InputPy_SynthTwo_Frequency.rst

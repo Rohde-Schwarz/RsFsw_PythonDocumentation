@@ -1,0 +1,20 @@
+Text
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:DISPlay:MESSage[:TEXT]
+
+.. code-block:: python
+
+	SYSTem:DISPlay:MESSage[:TEXT]
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Display.Message.Text.TextCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,51 @@
+Hums
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: DIAGnostic:HUMS:DELete:ALL
+	single: DIAGnostic:HUMS:SAVE
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:DELete:ALL
+	DIAGnostic:HUMS:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.HumsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.hums.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Hums_All.rst
+	Diagnostic_Hums_Bios.rst
+	Diagnostic_Hums_Device.rst
+	Diagnostic_Hums_Equipment.rst
+	Diagnostic_Hums_FormatPy.rst
+	Diagnostic_Hums_Security.rst
+	Diagnostic_Hums_Service.rst
+	Diagnostic_Hums_State.rst
+	Diagnostic_Hums_Storage.rst
+	Diagnostic_Hums_Sw.rst
+	Diagnostic_Hums_System.rst
+	Diagnostic_Hums_Tags.rst
+	Diagnostic_Hums_Utilization.rst

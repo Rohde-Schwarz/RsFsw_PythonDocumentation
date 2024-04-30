@@ -1,0 +1,20 @@
+Soffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:SOFFset
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:SOFFset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Pmeter.Soffset.SoffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

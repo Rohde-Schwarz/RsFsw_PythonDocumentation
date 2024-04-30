@@ -1,0 +1,20 @@
+ConState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:OSC:CONState
+
+.. code-block:: python
+
+	INPut:IQ:OSC:CONState
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.ConState.ConStateCls
+	:members:
+	:undoc-members:
+	:noindex:

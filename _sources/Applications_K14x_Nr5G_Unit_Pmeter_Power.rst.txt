@@ -1,0 +1,37 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:PMETer<p>:POWer
+
+.. code-block:: python
+
+	UNIT:PMETer<p>:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Unit.Pmeter.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.unit.pmeter.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Unit_Pmeter_Power_Ratio.rst

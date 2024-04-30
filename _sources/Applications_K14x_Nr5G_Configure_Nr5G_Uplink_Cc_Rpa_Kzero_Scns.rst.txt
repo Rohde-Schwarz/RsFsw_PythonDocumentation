@@ -1,0 +1,20 @@
+Scns
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:RPA:KZERo:SCNS
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:RPA:KZERo:SCNS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Rpa.Kzero.Scns.ScnsCls
+	:members:
+	:undoc-members:
+	:noindex:

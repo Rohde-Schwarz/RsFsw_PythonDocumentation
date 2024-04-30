@@ -1,0 +1,20 @@
+Append
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:APPend
+
+.. code-block:: python
+
+	HCOPy:TREPort:APPend
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Append.AppendCls
+	:members:
+	:undoc-members:
+	:noindex:

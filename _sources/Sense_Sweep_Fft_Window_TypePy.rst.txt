@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:FFT:WINDow:TYPE
+
+.. code-block:: python
+
+	[SENSe]:SWEep:FFT:WINDow:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Fft.Window.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

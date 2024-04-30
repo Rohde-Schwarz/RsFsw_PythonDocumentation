@@ -1,0 +1,20 @@
+Number
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:NUMBer
+
+.. code-block:: python
+
+	[SENSe]:PULSe:NUMBer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Number.NumberCls
+	:members:
+	:undoc-members:
+	:noindex:

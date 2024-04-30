@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:POWer:LEVel:OFFSet:LEDState
+
+.. code-block:: python
+
+	CONFigure:GENerator:POWer:LEVel:OFFSet:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Power.Level.Offset.LedState.LedStateCls
+	:members:
+	:undoc-members:
+	:noindex:

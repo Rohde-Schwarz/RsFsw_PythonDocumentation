@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR:SNS:AUTO[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR:SNS:AUTO[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Sns.Auto.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

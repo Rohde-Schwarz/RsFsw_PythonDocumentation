@@ -1,0 +1,20 @@
+LoComp
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CESTimation:LOComp
+
+.. code-block:: python
+
+	[SENSe]:CESTimation:LOComp
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Cestimation.LoComp.LoCompCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:PAGE:WINDow:STATe
+
+.. code-block:: python
+
+	HCOPy:PAGE:WINDow:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Window.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

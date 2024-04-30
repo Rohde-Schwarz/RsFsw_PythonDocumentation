@@ -1,0 +1,20 @@
+PageSize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:PAGesize
+
+.. code-block:: python
+
+	HCOPy:TREPort:PAGesize
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.PageSize.PageSizeCls
+	:members:
+	:undoc-members:
+	:noindex:

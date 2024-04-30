@@ -1,0 +1,20 @@
+Crdata
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:CRData
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:CRData
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.Crdata.CrdataCls
+	:members:
+	:undoc-members:
+	:noindex:

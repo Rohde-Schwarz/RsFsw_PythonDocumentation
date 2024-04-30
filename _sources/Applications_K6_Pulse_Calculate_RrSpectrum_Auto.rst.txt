@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RRSPectrum:AUTO
+
+.. code-block:: python
+
+	CALCulate<n>:RRSPectrum:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.RrSpectrum.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

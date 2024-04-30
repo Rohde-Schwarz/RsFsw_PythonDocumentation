@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:LOWer:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:LOWer:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Lower.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

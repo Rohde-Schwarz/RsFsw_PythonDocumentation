@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:CONTrol[:DATA]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:CONTrol[:DATA]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Control.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

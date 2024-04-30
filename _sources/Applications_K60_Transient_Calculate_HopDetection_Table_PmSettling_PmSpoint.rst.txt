@@ -1,0 +1,20 @@
+PmSpoint
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PMSettling:PMSPoint
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PMSettling:PMSPoint
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.PmSettling.PmSpoint.PmSpointCls
+	:members:
+	:undoc-members:
+	:noindex:

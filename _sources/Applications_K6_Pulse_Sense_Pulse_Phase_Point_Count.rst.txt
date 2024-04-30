@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:POINt:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:POINt:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Point.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Order
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MODeling:AMPM:ORDer
+
+.. code-block:: python
+
+	CONFigure:MODeling:AMPM:ORDer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Modeling.AmPm.Order.OrderCls
+	:members:
+	:undoc-members:
+	:noindex:

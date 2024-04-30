@@ -1,0 +1,20 @@
+McOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:CENTer[:CC<cc>]:MCOFfset
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:CENTer[:CC<cc>]:MCOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Frequency.Center.Cc.McOffset.McOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

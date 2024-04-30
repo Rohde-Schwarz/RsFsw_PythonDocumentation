@@ -1,0 +1,20 @@
+Numerator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:AFTM:FREQuency[:FACTor]:NUMerator
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:AFTM:FREQuency[:FACTor]:NUMerator
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Frequency.Factor.Numerator.NumeratorCls
+	:members:
+	:undoc-members:
+	:noindex:

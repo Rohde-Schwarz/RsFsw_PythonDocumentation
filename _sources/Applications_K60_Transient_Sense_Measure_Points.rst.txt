@@ -1,0 +1,20 @@
+Points
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MEASure:POINts
+
+.. code-block:: python
+
+	[SENSe]:MEASure:POINts
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Measure.Points.PointsCls
+	:members:
+	:undoc-members:
+	:noindex:

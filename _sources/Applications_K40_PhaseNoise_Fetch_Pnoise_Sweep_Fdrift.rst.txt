@@ -1,0 +1,20 @@
+Fdrift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PNOise<t>:SWEep:FDRift
+
+.. code-block:: python
+
+	FETCh:PNOise<t>:SWEep:FDRift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Sweep.Fdrift.FdriftCls
+	:members:
+	:undoc-members:
+	:noindex:

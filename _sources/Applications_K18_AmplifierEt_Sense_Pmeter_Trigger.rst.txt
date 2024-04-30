@@ -1,0 +1,33 @@
+Trigger
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pmeter.Trigger.TriggerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.sense.pmeter.trigger.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Sense_Pmeter_Trigger_Dtime.rst
+	Applications_K18_AmplifierEt_Sense_Pmeter_Trigger_Holdoff.rst
+	Applications_K18_AmplifierEt_Sense_Pmeter_Trigger_Hysteresis.rst
+	Applications_K18_AmplifierEt_Sense_Pmeter_Trigger_Level.rst
+	Applications_K18_AmplifierEt_Sense_Pmeter_Trigger_Slope.rst
+	Applications_K18_AmplifierEt_Sense_Pmeter_Trigger_State.rst

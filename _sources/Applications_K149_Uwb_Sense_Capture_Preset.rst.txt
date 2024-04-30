@@ -1,0 +1,20 @@
+Preset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CAPTure:PRESet
+
+.. code-block:: python
+
+	[SENSe]:CAPTure:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Capture.Preset.PresetCls
+	:members:
+	:undoc-members:
+	:noindex:

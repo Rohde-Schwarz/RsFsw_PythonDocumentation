@@ -1,0 +1,20 @@
+Sinfo
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:SINFo
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SINFo
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Sinfo.SinfoCls
+	:members:
+	:undoc-members:
+	:noindex:

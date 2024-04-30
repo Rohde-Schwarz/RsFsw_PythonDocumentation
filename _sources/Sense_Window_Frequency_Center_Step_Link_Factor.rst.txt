@@ -1,0 +1,20 @@
+Factor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:WINDow<n>]:FREQuency:CENTer:STEP:LINK:FACTor
+
+.. code-block:: python
+
+	[SENSe][:WINDow<n>]:FREQuency:CENTer:STEP:LINK:FACTor
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Window.Frequency.Center.Step.Link.Factor.FactorCls
+	:members:
+	:undoc-members:
+	:noindex:

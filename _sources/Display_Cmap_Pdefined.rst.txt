@@ -1,0 +1,20 @@
+Pdefined
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:CMAP<it>:PDEFined
+
+.. code-block:: python
+
+	DISPlay:CMAP<it>:PDEFined
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Cmap.Pdefined.PdefinedCls
+	:members:
+	:undoc-members:
+	:noindex:

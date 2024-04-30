@@ -1,0 +1,40 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal<gen>:FREQuency
+
+.. code-block:: python
+
+	SOURce:EXTernal<gen>:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.source.external.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Source_External_Frequency_Coupling.rst
+	Source_External_Frequency_Factor.rst
+	Source_External_Frequency_Offset.rst
+	Source_External_Frequency_Sweep.rst

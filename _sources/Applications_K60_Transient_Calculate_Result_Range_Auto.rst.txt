@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RESult:RANGe:AUTO
+
+.. code-block:: python
+
+	CALCulate<n>:RESult:RANGe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Result.Range.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

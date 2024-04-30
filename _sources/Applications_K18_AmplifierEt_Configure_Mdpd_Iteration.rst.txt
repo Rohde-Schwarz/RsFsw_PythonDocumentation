@@ -1,0 +1,20 @@
+Iteration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MDPD:ITERation
+
+.. code-block:: python
+
+	CONFigure:MDPD:ITERation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.Iteration.IterationCls
+	:members:
+	:undoc-members:
+	:noindex:

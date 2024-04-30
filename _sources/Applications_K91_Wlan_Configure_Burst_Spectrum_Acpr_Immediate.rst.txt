@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:SPECtrum:ACPR[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:SPECtrum:ACPR[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Spectrum.Acpr.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

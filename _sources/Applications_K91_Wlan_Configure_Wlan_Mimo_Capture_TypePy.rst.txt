@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:MIMO:CAPTure:TYPE
+
+.. code-block:: python
+
+	CONFigure:WLAN:MIMO:CAPTure:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Mimo.Capture.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

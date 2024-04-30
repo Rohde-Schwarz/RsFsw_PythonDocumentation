@@ -1,0 +1,30 @@
+Fiq
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Fiq.FiqCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.riq.fiq.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Riq_Fiq_Path.rst
+	Applications_K6_Pulse_Riq_Fiq_Range.rst
+	Applications_K6_Pulse_Riq_Fiq_Window.rst

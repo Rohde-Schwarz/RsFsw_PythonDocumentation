@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:EVM:DSSF:MAXimum
+
+.. code-block:: python
+
+	FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:EVM:DSSF:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.Evm.Dssf.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

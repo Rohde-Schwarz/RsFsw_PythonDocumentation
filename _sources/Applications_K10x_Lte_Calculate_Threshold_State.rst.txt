@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:THReshold:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:THReshold:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Threshold.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

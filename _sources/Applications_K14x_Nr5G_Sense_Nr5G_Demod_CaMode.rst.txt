@@ -1,0 +1,20 @@
+CaMode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:CAMode
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:CAMode
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.CaMode.CaModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,39 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:EVM:PSDU:LEVel
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:EVM:PSDU:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Evm.Psdu.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.evm.psdu.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Evm_Psdu_Level_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Evm_Psdu_Level_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Evm_Psdu_Level_Minimum.rst

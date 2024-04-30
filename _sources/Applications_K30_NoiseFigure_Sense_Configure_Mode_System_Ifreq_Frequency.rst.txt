@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:MODE:SYSTem:IF:FREQuency
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:MODE:SYSTem:IF:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.Mode.System.Ifreq.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

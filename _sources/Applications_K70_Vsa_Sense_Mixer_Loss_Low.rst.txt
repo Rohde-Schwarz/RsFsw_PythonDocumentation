@@ -1,0 +1,20 @@
+Low
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:LOSS[:LOW]
+
+.. code-block:: python
+
+	[SENSe]:MIXer:LOSS[:LOW]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Mixer.Loss.Low.LowCls
+	:members:
+	:undoc-members:
+	:noindex:

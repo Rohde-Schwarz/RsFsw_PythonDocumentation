@@ -1,0 +1,20 @@
+Rl
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:MATCh:PREamp:RL
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:MATCh:PREamp:RL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Match.Preamp.Rl.RlCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,38 @@
+Pmeter<PowerMeter>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.system.communicate.rdevice.pmeter.repcap_powerMeter_get()
+	driver.system.communicate.rdevice.pmeter.repcap_powerMeter_set(repcap.PowerMeter.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rdevice.Pmeter.PmeterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.rdevice.pmeter.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Rdevice_Pmeter_Configure.rst
+	System_Communicate_Rdevice_Pmeter_Count.rst
+	System_Communicate_Rdevice_Pmeter_Define.rst

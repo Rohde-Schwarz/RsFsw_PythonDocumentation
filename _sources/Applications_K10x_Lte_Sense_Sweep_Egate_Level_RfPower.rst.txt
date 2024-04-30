@@ -1,0 +1,20 @@
+RfPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:LEVel<ant>:RFPower
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:LEVel<ant>:RFPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Sweep.Egate.Level.RfPower.RfPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

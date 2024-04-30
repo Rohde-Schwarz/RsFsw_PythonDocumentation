@@ -1,0 +1,20 @@
+Decimation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:DECimation
+
+.. code-block:: python
+
+	[SENSe]:IQ:DECimation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Iq.Decimation.DecimationCls
+	:members:
+	:undoc-members:
+	:noindex:

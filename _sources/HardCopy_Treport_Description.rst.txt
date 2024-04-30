@@ -1,0 +1,20 @@
+Description
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:DESCription
+
+.. code-block:: python
+
+	HCOPy:TREPort:DESCription
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Description.DescriptionCls
+	:members:
+	:undoc-members:
+	:noindex:

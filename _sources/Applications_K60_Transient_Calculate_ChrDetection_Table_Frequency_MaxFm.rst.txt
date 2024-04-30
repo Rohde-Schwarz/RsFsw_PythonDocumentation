@@ -1,0 +1,20 @@
+MaxFm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FREQuency:MAXFm
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FREQuency:MAXFm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.MaxFm.MaxFmCls
+	:members:
+	:undoc-members:
+	:noindex:

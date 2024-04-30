@@ -1,0 +1,20 @@
+Sequence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MPOWer[:SEQuence]
+
+.. code-block:: python
+
+	[SENSe]:MPOWer[:SEQuence]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mpower.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:

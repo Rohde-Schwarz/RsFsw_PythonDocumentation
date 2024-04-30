@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:PON:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:PON:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Pon.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,46 @@
+FilterPy<FilterPy>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k149Uwb.sense.evaluation.filterPy.repcap_filterPy_get()
+	driver.applications.k149Uwb.sense.evaluation.filterPy.repcap_filterPy_set(repcap.FilterPy.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:EVALuation:FILTer<n>:DELete
+
+.. code-block:: python
+
+	[SENSe]:EVALuation:FILTer<n>:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Evaluation.FilterPy.FilterPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.evaluation.filterPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Evaluation_FilterPy_Name.rst
+	Applications_K149_Uwb_Sense_Evaluation_FilterPy_Set.rst

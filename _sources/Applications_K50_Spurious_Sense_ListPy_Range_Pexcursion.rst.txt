@@ -1,0 +1,20 @@
+Pexcursion
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:PEXCursion
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:PEXCursion
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.Pexcursion.PexcursionCls
+	:members:
+	:undoc-members:
+	:noindex:

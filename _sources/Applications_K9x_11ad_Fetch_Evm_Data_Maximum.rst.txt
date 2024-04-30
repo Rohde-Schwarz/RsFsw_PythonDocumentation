@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:EVM:DATA:MAXimum
+
+.. code-block:: python
+
+	FETCh:EVM:DATA:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Evm.Data.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

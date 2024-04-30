@@ -1,0 +1,39 @@
+InputPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_InputPy_Attenuation.rst
+	Applications_K60_Transient_InputPy_Connector.rst
+	Applications_K60_Transient_InputPy_Coupling.rst
+	Applications_K60_Transient_InputPy_Dpath.rst
+	Applications_K60_Transient_InputPy_Eatt.rst
+	Applications_K60_Transient_InputPy_Egain.rst
+	Applications_K60_Transient_InputPy_File.rst
+	Applications_K60_Transient_InputPy_FilterPy.rst
+	Applications_K60_Transient_InputPy_Gain.rst
+	Applications_K60_Transient_InputPy_Impedance.rst
+	Applications_K60_Transient_InputPy_Select.rst
+	Applications_K60_Transient_InputPy_TypePy.rst

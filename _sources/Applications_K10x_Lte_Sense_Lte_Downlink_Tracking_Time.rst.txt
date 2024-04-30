@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:TRACking:TIME
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:TRACking:TIME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Tracking.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

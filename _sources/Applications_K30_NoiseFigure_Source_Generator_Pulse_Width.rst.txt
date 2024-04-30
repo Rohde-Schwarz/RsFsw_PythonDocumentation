@@ -1,0 +1,20 @@
+Width
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:GENerator:PULSe:WIDTh
+
+.. code-block:: python
+
+	SOURce:GENerator:PULSe:WIDTh
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Generator.Pulse.Width.WidthCls
+	:members:
+	:undoc-members:
+	:noindex:

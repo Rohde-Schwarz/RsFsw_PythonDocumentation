@@ -1,0 +1,28 @@
+Magnitude
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Spectrum.Magnitude.MagnitudeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.sense.ademod.spectrum.magnitude.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Sense_Ademod_Spectrum_Magnitude_TypePy.rst

@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:SPECtrum:MASK:SELect
+
+.. code-block:: python
+
+	CONFigure:BURSt:SPECtrum:MASK:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Spectrum.Mask.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

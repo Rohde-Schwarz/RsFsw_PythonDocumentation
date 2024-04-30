@@ -1,0 +1,20 @@
+Dtime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:DTIMe
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:DTIMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Trigger.Sequence.Dtime.DtimeCls
+	:members:
+	:undoc-members:
+	:noindex:

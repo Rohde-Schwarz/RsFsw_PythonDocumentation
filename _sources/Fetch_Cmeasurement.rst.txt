@@ -1,0 +1,30 @@
+Cmeasurement
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Fetch.Cmeasurement.CmeasurementCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.fetch.cmeasurement.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Fetch_Cmeasurement_P1Db.rst
+	Fetch_Cmeasurement_P3Db.rst
+	Fetch_Cmeasurement_Pndb.rst

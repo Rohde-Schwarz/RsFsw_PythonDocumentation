@@ -1,0 +1,20 @@
+Number
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:NUMBer
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:NUMBer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Number.NumberCls
+	:members:
+	:undoc-members:
+	:noindex:

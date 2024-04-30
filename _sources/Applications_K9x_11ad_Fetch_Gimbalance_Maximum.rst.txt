@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:GIMBalance:MAXimum
+
+.. code-block:: python
+
+	FETCh:GIMBalance:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Gimbalance.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

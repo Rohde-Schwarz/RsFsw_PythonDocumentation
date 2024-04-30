@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:FERRor:RPEak[:RESult]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:FERRor:RPEak[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.FreqError.Rpeak.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

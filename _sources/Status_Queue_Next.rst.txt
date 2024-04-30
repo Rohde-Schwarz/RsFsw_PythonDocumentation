@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEue[:NEXT]
+
+.. code-block:: python
+
+	STATus:QUEue[:NEXT]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Queue.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

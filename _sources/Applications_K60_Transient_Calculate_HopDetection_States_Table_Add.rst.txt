@@ -1,0 +1,20 @@
+Add
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:STATes:TABLe:ADD
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:STATes:TABLe:ADD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Table.Add.AddCls
+	:members:
+	:undoc-members:
+	:noindex:

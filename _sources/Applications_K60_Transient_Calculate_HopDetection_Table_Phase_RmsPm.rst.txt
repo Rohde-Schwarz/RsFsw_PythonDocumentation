@@ -1,0 +1,20 @@
+RmsPm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PHASe:RMSPm
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PHASe:RMSPm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Phase.RmsPm.RmsPmCls
+	:members:
+	:undoc-members:
+	:noindex:

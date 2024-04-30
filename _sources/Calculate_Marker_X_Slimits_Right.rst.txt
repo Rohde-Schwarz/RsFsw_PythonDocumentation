@@ -1,0 +1,20 @@
+Right
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:X:SLIMits:RIGHt
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:X:SLIMits:RIGHt
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.X.Slimits.Right.RightCls
+	:members:
+	:undoc-members:
+	:noindex:

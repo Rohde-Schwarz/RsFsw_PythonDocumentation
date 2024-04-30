@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../" id="documentation_options" src="../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../Calculate.html">RsFsw.Implementations.Calculate</a> &raquo;</li>
+          <li><a href="../../../../Limit.html">RsFsw.Implementations.Calculate.Limit</a> &raquo;</li>
+          <li><a href="../../../AcPower.html">RsFsw.Implementations.Calculate.Limit.AcPower</a> &raquo;</li>
+          <li><a href="../../Gap.html">RsFsw.Implementations.Calculate.Limit.AcPower.Gap</a> &raquo;</li>
+          <li><a href="../Aclr.html">RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr</a> &raquo;</li>
+      <li>RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">........Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">........Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">........Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">........Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">........</span> <span class="kn">import</span> <span class="n">enums</span>
+<span class="kn">from</span> <span class="nn">........</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="ResultCls"><a class="viewcode-back" href="../../../../../../../../Calculate_Limit_AcPower_Gap_Aclr_Result.html#RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result.ResultCls">[docs]</a><span class="k">class</span> <span class="nc">ResultCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Result commands group definition. 3 total commands, 2 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;result&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">absolute</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;absolute commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_absolute&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Absolute</span> <span class="kn">import</span> <span class="n">AbsoluteCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_absolute</span> <span class="o">=</span> <span class="n">AbsoluteCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_absolute</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">relative</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;relative commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_relative&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Relative</span> <span class="kn">import</span> <span class="n">RelativeCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_relative</span> <span class="o">=</span> <span class="n">RelativeCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_relative</span>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="ResultCls.GetStruct"><a class="viewcode-back" href="../../../../../../../../Calculate_Limit_AcPower_Gap_Aclr_Result.html#RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result.ResultCls.GetStruct">[docs]</a>	<span class="k">class</span> <span class="nc">GetStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Response structure. Fields: \n</span>
+<span class="sd">			- Upper_Limit: enums.CheckResult: No parameter help available</span>
+<span class="sd">			- Lower_Limit: enums.CheckResult: No parameter help available&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_enum</span><span class="p">(</span><span class="s1">&#39;Upper_Limit&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">CheckResult</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_enum</span><span class="p">(</span><span class="s1">&#39;Lower_Limit&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">CheckResult</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Upper_Limit</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">CheckResult</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Lower_Limit</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">CheckResult</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="ResultCls.get"><a class="viewcode-back" href="../../../../../../../../Calculate_Limit_AcPower_Gap_Aclr_Result.html#RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result.ResultCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">window</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">limitIx</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">LimitIx</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">gapChannel</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">GapChannel</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GetStruct</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CALCulate&lt;n&gt;:LIMit&lt;li&gt;:ACPower:GAP&lt;gap&gt;:ACLR:RESult \n</span>
+<span class="sd">		Snippet: value: GetStruct = driver.calculate.limit.acPower.gap.aclr.result.get(window = repcap.Window.Default, limitIx = repcap.LimitIx.Default, gapChannel = repcap.GapChannel.Default) \n</span>
+<span class="sd">		The command returns the ACLR power limit check results for the selected gap channel in an MSR ACLR measurement. To get a</span>
+<span class="sd">		valid result, you have to perform a complete measurement with synchronization to the end of the measurement before</span>
+<span class="sd">		reading out the result. This is only possible for single sweep mode. See also method RsFsw.Applications.K10x_Lte.Initiate.</span>
+<span class="sd">		Continuous.set. For details on MSR signals see &#39;Measurement on multi-standard radio (MSR) signals&#39;. The results of the</span>
+<span class="sd">		power limit checks are also indicated in the method RsFsw.Status.Questionable.AcpLimit.Event.get_ status registry (see</span>
+<span class="sd">		&#39;STATus:QUEStionable:ACPLimit register&#39;) . \n</span>
+<span class="sd">			:param window: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Calculate&#39;)</span>
+<span class="sd">			:param limitIx: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Limit&#39;)</span>
+<span class="sd">			:param gapChannel: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Gap&#39;)</span>
+<span class="sd">			:return: structure: for return value, see the help for GetStruct structure arguments.&quot;&quot;&quot;</span>
+		<span class="n">window_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">window</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="p">)</span>
+		<span class="n">limitIx_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">limitIx</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">LimitIx</span><span class="p">)</span>
+		<span class="n">gapChannel_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">gapChannel</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">GapChannel</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CALCulate</span><span class="si">{</span><span class="n">window_cmd_val</span><span class="si">}</span><span class="s1">:LIMit</span><span class="si">{</span><span class="n">limitIx_cmd_val</span><span class="si">}</span><span class="s1">:ACPower:GAP</span><span class="si">{</span><span class="n">gapChannel_cmd_val</span><span class="si">}</span><span class="s1">:ACLR:RESult?&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">GetStruct</span><span class="p">())</span></div>
+
+	<span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;ResultCls&#39;</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Clones the group by creating new object from it and its whole existing subgroups</span>
+<span class="sd">		Also copies all the existing default Repeated Capabilities setting,</span>
+<span class="sd">		which you can change independently without affecting the original group&quot;&quot;&quot;</span>
+		<span class="n">new_group</span> <span class="o">=</span> <span class="n">ResultCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">synchronize_repcaps</span><span class="p">(</span><span class="n">new_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">new_group</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

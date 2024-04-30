@@ -1,0 +1,44 @@
+Trace<Trace>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Tr1 .. Tr16
+	rc = driver.display.window.subwindow.trace.repcap_trace_get()
+	driver.display.window.subwindow.trace.repcap_trace_set(repcap.Trace.Tr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.subwindow.trace.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Subwindow_Trace_Maxhold.rst
+	Display_Window_Subwindow_Trace_Mode.rst
+	Display_Window_Subwindow_Trace_Persistence.rst
+	Display_Window_Subwindow_Trace_Select.rst
+	Display_Window_Subwindow_Trace_Smoothing.rst
+	Display_Window_Subwindow_Trace_State.rst
+	Display_Window_Subwindow_Trace_Symbol.rst
+	Display_Window_Subwindow_Trace_X.rst
+	Display_Window_Subwindow_Trace_Y.rst

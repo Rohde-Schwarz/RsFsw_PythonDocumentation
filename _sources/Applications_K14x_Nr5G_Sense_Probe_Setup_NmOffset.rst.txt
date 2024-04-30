@@ -1,0 +1,20 @@
+NmOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<p>:SETup:NMOFfset
+
+.. code-block:: python
+
+	[SENSe]:PROBe<p>:SETup:NMOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Probe.Setup.NmOffset.NmOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,28 @@
+Stest
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Stest.StestCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.stest.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_Stest_Result.rst

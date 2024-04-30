@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:FREQuency[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:FREQuency[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Frequency.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+Phase
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.PhaseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.hop.phase.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Hop_Phase_AvgPm.rst
+	Applications_K60_Transient_Sense_Hop_Phase_MaxPm.rst
+	Applications_K60_Transient_Sense_Hop_Phase_RmsPm.rst

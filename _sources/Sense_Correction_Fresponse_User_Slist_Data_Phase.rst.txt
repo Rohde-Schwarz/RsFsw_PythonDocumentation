@@ -1,0 +1,36 @@
+Phase<SPortPair>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix4
+	rc = driver.sense.correction.fresponse.user.slist.data.phase.repcap_sPortPair_get()
+	driver.sense.correction.fresponse.user.slist.data.phase.repcap_sPortPair_set(repcap.SPortPair.Ix1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:SLISt<sli>:DATA:PHASe<spi>
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:SLISt<sli>:DATA:PHASe<spi>
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Slist.Data.Phase.PhaseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.user.slist.data.phase.clone()

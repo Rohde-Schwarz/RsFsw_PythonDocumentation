@@ -1,0 +1,20 @@
+CdcOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:CDCoffset
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:CDCoffset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.CdcOffset.CdcOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

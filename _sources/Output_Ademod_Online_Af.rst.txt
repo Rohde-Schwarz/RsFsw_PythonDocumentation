@@ -1,0 +1,28 @@
+Af
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ademod.Online.Af.AfCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.output.ademod.online.af.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Output_Ademod_Online_Af_Cfrequency.rst

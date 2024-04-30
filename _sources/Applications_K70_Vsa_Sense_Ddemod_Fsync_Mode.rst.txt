@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FSYNc[:MODE]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FSYNc[:MODE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Fsync.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

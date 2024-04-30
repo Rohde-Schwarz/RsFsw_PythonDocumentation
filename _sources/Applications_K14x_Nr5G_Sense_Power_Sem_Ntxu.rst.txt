@@ -1,0 +1,20 @@
+Ntxu
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:NTXU
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:NTXU
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Sem.Ntxu.NtxuCls
+	:members:
+	:undoc-members:
+	:noindex:

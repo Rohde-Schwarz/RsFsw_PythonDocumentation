@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:DELete:IMMediate
+
+.. code-block:: python
+
+	MMEMory:DELete:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Delete.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

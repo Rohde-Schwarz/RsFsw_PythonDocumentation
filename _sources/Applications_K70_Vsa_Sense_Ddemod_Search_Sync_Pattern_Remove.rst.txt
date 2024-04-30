@@ -1,0 +1,20 @@
+Remove
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:PATTern:REMove
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:PATTern:REMove
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Pattern.Remove.RemoveCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:MIN:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:MIN:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Min.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

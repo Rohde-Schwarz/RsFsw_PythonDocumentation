@@ -1,0 +1,53 @@
+Slist<TouchStone>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix32
+	rc = driver.sense.correction.fresponse.inputPy.user.slist.repcap_touchStone_get()
+	driver.sense.correction.fresponse.inputPy.user.slist.repcap_touchStone_set(repcap.TouchStone.Ix1)
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:INPut<ip>:USER:SLISt<sli>:CLEar
+	single: [SENSe]:CORRection:FRESponse:INPut<ip>:USER:SLISt<sli>:MOVE
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:INPut<ip>:USER:SLISt<sli>:CLEar
+	[SENSe]:CORRection:FRESponse:INPut<ip>:USER:SLISt<sli>:MOVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.InputPy.User.Slist.SlistCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.inputPy.user.slist.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_InputPy_User_Slist_Catalog.rst
+	Sense_Correction_Fresponse_InputPy_User_Slist_Insert.rst
+	Sense_Correction_Fresponse_InputPy_User_Slist_Ports.rst
+	Sense_Correction_Fresponse_InputPy_User_Slist_Remove.rst
+	Sense_Correction_Fresponse_InputPy_User_Slist_Select.rst
+	Sense_Correction_Fresponse_InputPy_User_Slist_Size.rst
+	Sense_Correction_Fresponse_InputPy_User_Slist_State.rst

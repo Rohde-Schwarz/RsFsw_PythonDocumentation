@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PHASe:MAXPm:MINimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:PHASe:MAXPm:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.MaxPm.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

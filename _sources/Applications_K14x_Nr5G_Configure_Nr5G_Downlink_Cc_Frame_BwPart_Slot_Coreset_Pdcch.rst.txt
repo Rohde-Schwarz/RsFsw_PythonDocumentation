@@ -1,0 +1,34 @@
+Pdcch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.Coreset.Pdcch.PdcchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.coreset.pdcch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_Alevel.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_CceIndex.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_DciFormat.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_DciSettings.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_Plength.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_Rnti.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch_Usage.rst

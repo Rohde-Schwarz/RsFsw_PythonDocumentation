@@ -1,0 +1,38 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DIQ:RANGe[:UPPer]
+
+.. code-block:: python
+
+	INPut:DIQ:RANGe[:UPPer]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.InputPy.Diq.Range.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.inputPy.diq.range.upper.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_InputPy_Diq_Range_Upper_Auto.rst
+	Applications_K6_Pulse_InputPy_Diq_Range_Upper_Unit.rst

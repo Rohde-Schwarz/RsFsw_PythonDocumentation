@@ -1,0 +1,28 @@
+Trace
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.select.channel.item.trace.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Select_Channel_Item_Trace_Active.rst

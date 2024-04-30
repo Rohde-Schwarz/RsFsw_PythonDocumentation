@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CTABle:STATe
+
+.. code-block:: python
+
+	CONFigure:CTABle:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.CorrectionTable.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

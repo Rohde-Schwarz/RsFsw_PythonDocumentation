@@ -1,0 +1,20 @@
+Gexpansion
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD:GEXPansion
+
+.. code-block:: python
+
+	CONFigure:DDPD:GEXPansion
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Gexpansion.GexpansionCls
+	:members:
+	:undoc-members:
+	:noindex:

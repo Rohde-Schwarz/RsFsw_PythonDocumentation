@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:GENerator:CHANnel:COUPling
+
+.. code-block:: python
+
+	SOURce:GENerator:CHANnel:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Generator.Channel.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:

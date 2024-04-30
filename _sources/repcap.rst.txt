@@ -1,0 +1,1020 @@
+RepCaps
+=========
+
+
+
+Allocation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Allocation.Nr0
+	# Range:
+	Nr0 .. Nr110
+	# All values (111x):
+	Nr0 | Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7
+	Nr8 | Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15
+	Nr16 | Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23
+	Nr24 | Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31
+	Nr32 | Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39
+	Nr40 | Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47
+	Nr48 | Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55
+	Nr56 | Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63
+	Nr64 | Nr65 | Nr66 | Nr67 | Nr68 | Nr69 | Nr70 | Nr71
+	Nr72 | Nr73 | Nr74 | Nr75 | Nr76 | Nr77 | Nr78 | Nr79
+	Nr80 | Nr81 | Nr82 | Nr83 | Nr84 | Nr85 | Nr86 | Nr87
+	Nr88 | Nr89 | Nr90 | Nr91 | Nr92 | Nr93 | Nr94 | Nr95
+	Nr96 | Nr97 | Nr98 | Nr99 | Nr100 | Nr101 | Nr102 | Nr103
+	Nr104 | Nr105 | Nr106 | Nr107 | Nr108 | Nr109 | Nr110
+
+Antenna
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Antenna.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+AntennaPort
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.AntennaPort.Nr1
+	# Range:
+	Nr1 .. Nr12
+	# All values (12x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12
+
+AntennaPort1k
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.AntennaPort1k.Nr1000
+	# Range:
+	Nr1000 .. Nr1011
+	# All values (12x):
+	Nr1000 | Nr1001 | Nr1002 | Nr1003 | Nr1004 | Nr1005 | Nr1006 | Nr1007
+	Nr1008 | Nr1009 | Nr1010 | Nr1011
+
+AntennaPort3k
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.AntennaPort3k.Nr3000
+	# Range:
+	Nr3000 .. Nr3031
+	# All values (32x):
+	Nr3000 | Nr3001 | Nr3002 | Nr3003 | Nr3004 | Nr3005 | Nr3006 | Nr3007
+	Nr3008 | Nr3009 | Nr3010 | Nr3011 | Nr3012 | Nr3013 | Nr3014 | Nr3015
+	Nr3016 | Nr3017 | Nr3018 | Nr3019 | Nr3020 | Nr3021 | Nr3022 | Nr3023
+	Nr3024 | Nr3025 | Nr3026 | Nr3027 | Nr3028 | Nr3029 | Nr3030 | Nr3031
+
+AntennaPortConfig
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.AntennaPortConfig.Nr1
+	# Values (2x):
+	Nr1 | Nr2
+
+BwPart
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.BwPart.Nr1
+	# Range:
+	Nr1 .. Nr12
+	# All values (12x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12
+
+CarrierComponent
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.CarrierComponent.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+Channel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Channel.Ch1
+	# Range:
+	Ch1 .. Ch64
+	# All values (64x):
+	Ch1 | Ch2 | Ch3 | Ch4 | Ch5 | Ch6 | Ch7 | Ch8
+	Ch9 | Ch10 | Ch11 | Ch12 | Ch13 | Ch14 | Ch15 | Ch16
+	Ch17 | Ch18 | Ch19 | Ch20 | Ch21 | Ch22 | Ch23 | Ch24
+	Ch25 | Ch26 | Ch27 | Ch28 | Ch29 | Ch30 | Ch31 | Ch32
+	Ch33 | Ch34 | Ch35 | Ch36 | Ch37 | Ch38 | Ch39 | Ch40
+	Ch41 | Ch42 | Ch43 | Ch44 | Ch45 | Ch46 | Ch47 | Ch48
+	Ch49 | Ch50 | Ch51 | Ch52 | Ch53 | Ch54 | Ch55 | Ch56
+	Ch57 | Ch58 | Ch59 | Ch60 | Ch61 | Ch62 | Ch63 | Ch64
+
+Cluster
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Cluster.Nr1
+	# Values (2x):
+	Nr1 | Nr2
+
+Codeword
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Codeword.Nr1
+	# Range:
+	Nr1 .. Nr8
+	# All values (8x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+
+Coefficients
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Coefficients.Order1
+	# Range:
+	Order1 .. Order16
+	# All values (16x):
+	Order1 | Order2 | Order3 | Order4 | Order5 | Order6 | Order7 | Order8
+	Order9 | Order10 | Order11 | Order12 | Order13 | Order14 | Order15 | Order16
+
+Colors
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Colors.Ix1
+	# Values (4x):
+	Ix1 | Ix2 | Ix3 | Ix4
+
+Component
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Component.Ix1
+	# Range:
+	Ix1 .. Ix32
+	# All values (32x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix7 | Ix8
+	Ix9 | Ix10 | Ix11 | Ix12 | Ix13 | Ix14 | Ix15 | Ix16
+	Ix17 | Ix18 | Ix19 | Ix20 | Ix21 | Ix22 | Ix23 | Ix24
+	Ix25 | Ix26 | Ix27 | Ix28 | Ix29 | Ix30 | Ix31 | Ix32
+
+Coreset
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Coreset.Nr1
+	# Range:
+	Nr1 .. Nr64
+	# All values (64x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+	Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39 | Nr40
+	Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47 | Nr48
+	Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55 | Nr56
+	Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63 | Nr64
+
+CornerFrequency
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.CornerFrequency.Nr1
+	# Range:
+	Nr1 .. Nr5
+	# All values (5x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5
+
+CsiRs
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.CsiRs.Nr1
+	# Range:
+	Nr1 .. Nr64
+	# All values (64x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+	Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39 | Nr40
+	Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47 | Nr48
+	Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55 | Nr56
+	Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63 | Nr64
+
+DeltaMarker
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.DeltaMarker.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+DisplayLine
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.DisplayLine.Nr1
+	# Values (2x):
+	Nr1 | Nr2
+
+ExternalGen
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.ExternalGen.Nr1
+	# Range:
+	Nr1 .. Nr8
+	# All values (8x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+
+ExternalPort
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.ExternalPort.Nr1
+	# Values (3x):
+	Nr1 | Nr2 | Nr3
+
+ExternalRosc
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.ExternalRosc.Nr1
+	# Values (2x):
+	Nr1 | Nr2
+
+FileList
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.FileList.Nr1
+	# Range:
+	Nr1 .. Nr64
+	# All values (64x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+	Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39 | Nr40
+	Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47 | Nr48
+	Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55 | Nr56
+	Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63 | Nr64
+
+FilterPy
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.FilterPy.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+Frame
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Frame.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+FreqLine
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.FreqLine.Nr1
+	# Values (4x):
+	Nr1 | Nr2 | Nr3 | Nr4
+
+FreqOffset
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.FreqOffset.Nr1
+	# Range:
+	Nr1 .. Nr8
+	# All values (8x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+
+GapChannel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.GapChannel.Nr1
+	# Values (2x):
+	Nr1 | Nr2
+
+GateRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.GateRange.Nr1
+	# Range:
+	Nr1 .. Nr64
+	# All values (64x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+	Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39 | Nr40
+	Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47 | Nr48
+	Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55 | Nr56
+	Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63 | Nr64
+
+Generator
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Generator.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+HalfDecadeRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.HalfDecadeRange.Rng_1Hz_3Hz
+	# Range:
+	Rng_1Hz_3Hz .. Rng_100GHz_300GHz
+	# All values (23x):
+	Rng_1Hz_3Hz | Rng_3Hz_10Hz | Rng_10Hz_30Hz | Rng_30Hz_100Hz | Rng_100Hz_300Hz | Rng_300Hz_1kHz | Rng_1kHz_3kHz | Rng_3KHz_10kHz
+	Rng_10kHz_30kHz | Rng_30kHz_100kHz | Rng_100kHz_300kHz | Rng_300kHz_1MHz | Rng_1MHz_3MHz | Rng_3MHz_10MHz | Rng_10MHz_30MHz | Rng_30MHz_100MHz
+	Rng_100MHz_300MHz | Rng_300MHz_1GHz | Rng_1GHz_3GHz | Rng_3GHz_10GHz | Rng_10GHz_30GHz | Rng_30GHz_100GHz | Rng_100GHz_300GHz
+
+InputIx
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.InputIx.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+Instrument
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Instrument.Nr1
+	# Values (4x):
+	Nr1 | Nr2 | Nr3 | Nr4
+
+Item
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Item.Ix1
+	# Range:
+	Ix1 .. Ix64
+	# All values (64x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix7 | Ix8
+	Ix9 | Ix10 | Ix11 | Ix12 | Ix13 | Ix14 | Ix15 | Ix16
+	Ix17 | Ix18 | Ix19 | Ix20 | Ix21 | Ix22 | Ix23 | Ix24
+	Ix25 | Ix26 | Ix27 | Ix28 | Ix29 | Ix30 | Ix31 | Ix32
+	Ix33 | Ix34 | Ix35 | Ix36 | Ix37 | Ix38 | Ix39 | Ix40
+	Ix41 | Ix42 | Ix43 | Ix44 | Ix45 | Ix46 | Ix47 | Ix48
+	Ix49 | Ix50 | Ix51 | Ix52 | Ix53 | Ix54 | Ix55 | Ix56
+	Ix57 | Ix58 | Ix59 | Ix60 | Ix61 | Ix62 | Ix63 | Ix64
+
+LimitIx
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.LimitIx.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+LimitSegment
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.LimitSegment.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+Line
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Line.Ix1
+	# Range:
+	Ix1 .. Ix8
+	# All values (8x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix7 | Ix8
+
+Marker
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Marker.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+MarkerDestination
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.MarkerDestination.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+MimoAntenna
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.MimoAntenna.Nr1
+	# Values (4x):
+	Nr1 | Nr2 | Nr3 | Nr4
+
+Notch
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Notch.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+OutputConnector
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.OutputConnector.Nr1
+	# Values (4x):
+	Nr1 | Nr2 | Nr3 | Nr4
+
+Port
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Port.Nr1
+	# Values (2x):
+	Nr1 | Nr2
+
+PowerClass
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.PowerClass.Nr1
+	# Range:
+	Nr1 .. Nr30
+	# All values (30x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30
+
+PowerLine
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.PowerLine.Ix1
+	# Range:
+	Ix1 .. Ix8
+	# All values (7x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix8
+
+PowerMeter
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.PowerMeter.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+Probe
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Probe.Nr1
+	# Range:
+	Nr1 .. Nr8
+	# All values (8x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+
+Pucch
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Pucch.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+RangePy
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.RangePy.Ix1
+	# Range:
+	Ix1 .. Ix64
+	# All values (64x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix7 | Ix8
+	Ix9 | Ix10 | Ix11 | Ix12 | Ix13 | Ix14 | Ix15 | Ix16
+	Ix17 | Ix18 | Ix19 | Ix20 | Ix21 | Ix22 | Ix23 | Ix24
+	Ix25 | Ix26 | Ix27 | Ix28 | Ix29 | Ix30 | Ix31 | Ix32
+	Ix33 | Ix34 | Ix35 | Ix36 | Ix37 | Ix38 | Ix39 | Ix40
+	Ix41 | Ix42 | Ix43 | Ix44 | Ix45 | Ix46 | Ix47 | Ix48
+	Ix49 | Ix50 | Ix51 | Ix52 | Ix53 | Ix54 | Ix55 | Ix56
+	Ix57 | Ix58 | Ix59 | Ix60 | Ix61 | Ix62 | Ix63 | Ix64
+
+RefMeasurement
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.RefMeasurement.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+RuAllocationIx
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.RuAllocationIx.Nr1
+	# Range:
+	Nr1 .. Nr9
+	# All values (9x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9
+
+Segment
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Segment.Nr1
+	# Values (4x):
+	Nr1 | Nr2 | Nr3 | Nr4
+
+Slot
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Slot.Nr0
+	# Range:
+	Nr0 .. Nr80
+	# All values (81x):
+	Nr0 | Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7
+	Nr8 | Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15
+	Nr16 | Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23
+	Nr24 | Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31
+	Nr32 | Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39
+	Nr40 | Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47
+	Nr48 | Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55
+	Nr56 | Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63
+	Nr64 | Nr65 | Nr66 | Nr67 | Nr68 | Nr69 | Nr70 | Nr71
+	Nr72 | Nr73 | Nr74 | Nr75 | Nr76 | Nr77 | Nr78 | Nr79
+	Nr80
+
+Source
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Source.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+SPortPair
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.SPortPair.Ix1
+	# Values (4x):
+	Ix1 | Ix2 | Ix3 | Ix4
+
+SsBlock
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.SsBlock.Nr0
+	# Range:
+	Nr0 .. Nr64
+	# All values (65x):
+	Nr0 | Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7
+	Nr8 | Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15
+	Nr16 | Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23
+	Nr24 | Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31
+	Nr32 | Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39
+	Nr40 | Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47
+	Nr48 | Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55
+	Nr56 | Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63
+	Nr64
+
+Status
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Status.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+Step
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Step.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+Store
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Store.Pos1
+	# Range:
+	Pos1 .. Pos32
+	# All values (32x):
+	Pos1 | Pos2 | Pos3 | Pos4 | Pos5 | Pos6 | Pos7 | Pos8
+	Pos9 | Pos10 | Pos11 | Pos12 | Pos13 | Pos14 | Pos15 | Pos16
+	Pos17 | Pos18 | Pos19 | Pos20 | Pos21 | Pos22 | Pos23 | Pos24
+	Pos25 | Pos26 | Pos27 | Pos28 | Pos29 | Pos30 | Pos31 | Pos32
+
+SubBlock
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.SubBlock.Nr1
+	# Range:
+	Nr1 .. Nr8
+	# All values (8x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+
+Subframe
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Subframe.Nr0
+	# Range:
+	Nr0 .. Nr41
+	# All values (42x):
+	Nr0 | Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7
+	Nr8 | Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15
+	Nr16 | Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23
+	Nr24 | Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31
+	Nr32 | Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39
+	Nr40 | Nr41
+
+SubWindow
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.SubWindow.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+Tab
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Tab.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+TargetLimitLine
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.TargetLimitLine.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+
+TimeLine
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.TimeLine.Nr1
+	# Values (4x):
+	Nr1 | Nr2 | Nr3 | Nr4
+
+TouchStone
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.TouchStone.Ix1
+	# Range:
+	Ix1 .. Ix32
+	# All values (32x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix7 | Ix8
+	Ix9 | Ix10 | Ix11 | Ix12 | Ix13 | Ix14 | Ix15 | Ix16
+	Ix17 | Ix18 | Ix19 | Ix20 | Ix21 | Ix22 | Ix23 | Ix24
+	Ix25 | Ix26 | Ix27 | Ix28 | Ix29 | Ix30 | Ix31 | Ix32
+
+Trace
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Trace.Tr1
+	# Range:
+	Tr1 .. Tr16
+	# All values (16x):
+	Tr1 | Tr2 | Tr3 | Tr4 | Tr5 | Tr6 | Tr7 | Tr8
+	Tr9 | Tr10 | Tr11 | Tr12 | Tr13 | Tr14 | Tr15 | Tr16
+
+TriggerPort
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.TriggerPort.Nr1
+	# Range:
+	Nr1 .. Nr8
+	# All values (8x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+
+UpperAltChannel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.UpperAltChannel.Nr1
+	# Range:
+	Nr1 .. Nr63
+	# All values (63x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+	Nr33 | Nr34 | Nr35 | Nr36 | Nr37 | Nr38 | Nr39 | Nr40
+	Nr41 | Nr42 | Nr43 | Nr44 | Nr45 | Nr46 | Nr47 | Nr48
+	Nr49 | Nr50 | Nr51 | Nr52 | Nr53 | Nr54 | Nr55 | Nr56
+	Nr57 | Nr58 | Nr59 | Nr60 | Nr61 | Nr62 | Nr63
+
+UserIx
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.UserIx.Ix1
+	# Range:
+	Ix1 .. Ix8
+	# All values (8x):
+	Ix1 | Ix2 | Ix3 | Ix4 | Ix5 | Ix6 | Ix7 | Ix8
+
+UserRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.UserRange.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+Window
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.Window.Nr1
+	# Range:
+	Nr1 .. Nr16
+	# All values (16x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+
+ZoomWindow
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = repcap.ZoomWindow.Nr1
+	# Range:
+	Nr1 .. Nr32
+	# All values (32x):
+	Nr1 | Nr2 | Nr3 | Nr4 | Nr5 | Nr6 | Nr7 | Nr8
+	Nr9 | Nr10 | Nr11 | Nr12 | Nr13 | Nr14 | Nr15 | Nr16
+	Nr17 | Nr18 | Nr19 | Nr20 | Nr21 | Nr22 | Nr23 | Nr24
+	Nr25 | Nr26 | Nr27 | Nr28 | Nr29 | Nr30 | Nr31 | Nr32
+

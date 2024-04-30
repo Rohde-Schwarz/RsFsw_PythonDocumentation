@@ -1,0 +1,20 @@
+Uncertainty
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:UNCertainty
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:UNCertainty
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Display.Window.Trace.Uncertainty.UncertaintyCls
+	:members:
+	:undoc-members:
+	:noindex:

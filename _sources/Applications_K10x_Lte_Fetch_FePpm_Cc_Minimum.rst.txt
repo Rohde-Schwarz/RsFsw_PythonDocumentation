@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:FEPPm[:CC<cc>]:MINimum
+
+.. code-block:: python
+
+	FETCh:FEPPm[:CC<cc>]:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.FePpm.Cc.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

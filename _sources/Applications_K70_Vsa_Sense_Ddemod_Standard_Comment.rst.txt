@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:STANdard:COMMent
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:STANdard:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Standard.Comment.CommentCls
+	:members:
+	:undoc-members:
+	:noindex:

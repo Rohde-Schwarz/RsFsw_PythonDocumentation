@@ -1,0 +1,32 @@
+Distribution
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.DistributionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.distribution.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Distribution_Chirp.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop.rst
+	Applications_K60_Transient_Calculate_Distribution_Nbins.rst
+	Applications_K60_Transient_Calculate_Distribution_X.rst
+	Applications_K60_Transient_Calculate_Distribution_Y.rst

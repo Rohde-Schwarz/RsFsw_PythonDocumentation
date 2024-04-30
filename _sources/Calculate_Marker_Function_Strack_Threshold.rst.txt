@@ -1,0 +1,20 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:STRack:THReshold
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:STRack:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Strack.Threshold.ThresholdCls
+	:members:
+	:undoc-members:
+	:noindex:

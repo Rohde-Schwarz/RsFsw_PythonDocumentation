@@ -1,0 +1,20 @@
+Duration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:DURation
+
+.. code-block:: python
+
+	[SENSe]:SWEep:DURation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Sweep.Duration.DurationCls
+	:members:
+	:undoc-members:
+	:noindex:

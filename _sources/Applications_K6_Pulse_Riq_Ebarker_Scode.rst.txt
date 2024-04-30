@@ -1,0 +1,20 @@
+Scode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:EBARker:SCODe
+
+.. code-block:: python
+
+	RIQ:EBARker:SCODe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Ebarker.Scode.ScodeCls
+	:members:
+	:undoc-members:
+	:noindex:

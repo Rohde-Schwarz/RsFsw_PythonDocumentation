@@ -1,0 +1,20 @@
+Ssize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:X:SSIZe
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:X:SSIZe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.X.Ssize.SsizeCls
+	:members:
+	:undoc-members:
+	:noindex:

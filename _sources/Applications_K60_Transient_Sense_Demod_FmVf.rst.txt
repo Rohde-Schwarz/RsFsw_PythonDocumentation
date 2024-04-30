@@ -1,0 +1,37 @@
+FmVf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FMVF
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FMVF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Demod.FmVf.FmVfCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.demod.fmVf.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Demod_FmVf_TypePy.rst

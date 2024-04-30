@@ -1,0 +1,38 @@
+Nr5G
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings:NR5G
+
+.. code-block:: python
+
+	CONFigure:SETTings:NR5G
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Settings.Nr5G.Nr5GCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.settings.nr5G.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Settings_Nr5G_Pinterval.rst
+	Applications_K14x_Nr5G_Configure_Settings_Nr5G_Sync.rst

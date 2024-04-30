@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:THEMe:SELect
+
+.. code-block:: python
+
+	HCOPy:THEMe:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Theme.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

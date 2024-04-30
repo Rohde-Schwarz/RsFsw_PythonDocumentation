@@ -1,0 +1,20 @@
+Version
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:SNMP:VERSion
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:SNMP:VERSion
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Snmp.Version.VersionCls
+	:members:
+	:undoc-members:
+	:noindex:

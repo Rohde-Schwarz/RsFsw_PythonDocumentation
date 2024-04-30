@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:SPECtrogram:Y:MAXimum[:PEAK]
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:SPECtrogram:Y:MAXimum[:PEAK]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Spectrogram.Y.Maximum.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:

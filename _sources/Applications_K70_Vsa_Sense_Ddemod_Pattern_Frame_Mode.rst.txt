@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:PATTern:FRAMe:MODE
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PATTern:FRAMe:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

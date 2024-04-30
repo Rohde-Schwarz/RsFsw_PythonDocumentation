@@ -1,0 +1,20 @@
+MfRbw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DIRected:MFRBw
+
+.. code-block:: python
+
+	[SENSe]:DIRected:MFRBw
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.MfRbw.MfRbwCls
+	:members:
+	:undoc-members:
+	:noindex:

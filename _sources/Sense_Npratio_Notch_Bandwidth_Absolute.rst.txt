@@ -1,0 +1,20 @@
+Absolute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NPRatio:NOTCh<notch>:BWIDth[:ABSolute]
+
+.. code-block:: python
+
+	[SENSe]:NPRatio:NOTCh<notch>:BWIDth[:ABSolute]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Notch.Bandwidth.Absolute.AbsoluteCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,28 @@
+Roscillator
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.External.Roscillator.RoscillatorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.external.roscillator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_External_Roscillator_Source.rst

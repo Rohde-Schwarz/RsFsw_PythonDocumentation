@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:CCDF[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:CCDF[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Statistics.CumulativeDistribFnc.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

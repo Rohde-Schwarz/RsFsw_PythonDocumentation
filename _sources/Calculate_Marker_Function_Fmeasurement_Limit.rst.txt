@@ -1,0 +1,39 @@
+Limit<LimitIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.calculate.marker.function.fmeasurement.limit.repcap_limitIx_get()
+	driver.calculate.marker.function.fmeasurement.limit.repcap_limitIx_set(repcap.LimitIx.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Fmeasurement.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.fmeasurement.limit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Fmeasurement_Limit_Condition.rst
+	Calculate_Marker_Function_Fmeasurement_Limit_Delta.rst
+	Calculate_Marker_Function_Fmeasurement_Limit_Lcondition.rst
+	Calculate_Marker_Function_Fmeasurement_Limit_Ldelta.rst

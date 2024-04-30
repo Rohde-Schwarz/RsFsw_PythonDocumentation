@@ -1,0 +1,20 @@
+Trace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:TRACe
+
+.. code-block:: python
+
+	[SENSe]:POWer:TRACe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:

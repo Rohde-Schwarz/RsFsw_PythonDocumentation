@@ -1,0 +1,20 @@
+Eaaccs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:EAACcs
+
+.. code-block:: python
+
+	FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:EAACcs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.Eaaccs.EaaccsCls
+	:members:
+	:undoc-members:
+	:noindex:

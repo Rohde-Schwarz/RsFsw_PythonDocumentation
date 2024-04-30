@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:QVOLtage:MIN:SELected[:RESult]
+
+.. code-block:: python
+
+	FETCh:STABle:QVOLtage:MIN:SELected[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Qvoltage.Min.Selected.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

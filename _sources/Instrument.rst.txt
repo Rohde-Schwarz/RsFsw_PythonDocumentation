@@ -1,0 +1,46 @@
+Instrument
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: INSTrument:ABORt
+	single: INSTrument:DELete
+
+.. code-block:: python
+
+	INSTrument:ABORt
+	INSTrument:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.InstrumentCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.instrument.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Instrument_Couple.rst
+	Instrument_Create.rst
+	Instrument_ListPy.rst
+	Instrument_Mode.rst
+	Instrument_Nselect.rst
+	Instrument_Rename.rst
+	Instrument_Select.rst
+	Instrument_SelectName.rst

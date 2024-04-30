@@ -1,0 +1,20 @@
+Dummy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: AUTO:POWer:DUMMy
+
+.. code-block:: python
+
+	AUTO:POWer:DUMMy
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Auto.Power.Dummy.DummyCls
+	:members:
+	:undoc-members:
+	:noindex:

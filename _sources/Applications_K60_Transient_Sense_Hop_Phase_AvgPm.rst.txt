@@ -1,0 +1,40 @@
+AvgPm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PHASe:AVGPm
+
+.. code-block:: python
+
+	[SENSe]:HOP:PHASe:AVGPm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.AvgPm.AvgPmCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.hop.phase.avgPm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Hop_Phase_AvgPm_Average.rst
+	Applications_K60_Transient_Sense_Hop_Phase_AvgPm_Maximum.rst
+	Applications_K60_Transient_Sense_Hop_Phase_AvgPm_Minimum.rst
+	Applications_K60_Transient_Sense_Hop_Phase_AvgPm_StandardDev.rst

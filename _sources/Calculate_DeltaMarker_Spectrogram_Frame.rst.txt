@@ -1,0 +1,20 @@
+Frame
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:SPECtrogram:FRAMe
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:SPECtrogram:FRAMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Spectrogram.Frame.FrameCls
+	:members:
+	:undoc-members:
+	:noindex:

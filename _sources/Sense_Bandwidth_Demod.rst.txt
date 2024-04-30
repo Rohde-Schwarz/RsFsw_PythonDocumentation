@@ -1,0 +1,37 @@
+Demod
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth:DEMod
+
+.. code-block:: python
+
+	[SENSe]:BWIDth:DEMod
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Bandwidth.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.bandwidth.demod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Bandwidth_Demod_TypePy.rst

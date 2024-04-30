@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:POINts[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:POINts[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Points.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

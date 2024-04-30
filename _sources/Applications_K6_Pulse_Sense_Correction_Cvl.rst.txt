@@ -1,0 +1,46 @@
+Cvl
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:CLEar
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:CLEar
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Correction.Cvl.CvlCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.correction.cvl.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Correction_Cvl_Band.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Bias.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Catalog.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Comment.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Data.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Harmonic.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Mixer.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Ports.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Select.rst
+	Applications_K6_Pulse_Sense_Correction_Cvl_Snumber.rst

@@ -1,0 +1,30 @@
+FormatPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.formatPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	FormatPy_Data.rst
+	FormatPy_Dexport.rst
+	FormatPy_Dimport.rst

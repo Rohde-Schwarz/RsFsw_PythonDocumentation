@@ -1,0 +1,20 @@
+UsePort
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:VOLTage:USEPort
+
+.. code-block:: python
+
+	SOURce:VOLTage:USEPort
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.UsePort.UsePortCls
+	:members:
+	:undoc-members:
+	:noindex:

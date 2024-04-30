@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:GIMBalance:AVERage
+
+.. code-block:: python
+
+	FETCh:BURSt:GIMBalance:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Gimbalance.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

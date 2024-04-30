@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PHASe:AVGPm:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:PHASe:AVGPm:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.AvgPm.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

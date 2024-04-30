@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:IQAVg[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:SWEep:IQAVg[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Sweep.IqAvg.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

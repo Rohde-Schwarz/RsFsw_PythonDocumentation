@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:TIMing:LENGth:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:TIMing:LENGth:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Timing.Length.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

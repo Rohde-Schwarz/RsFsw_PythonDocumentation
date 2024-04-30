@@ -1,0 +1,28 @@
+Configure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.system.communicate.rdevice.pmeter.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_System_Communicate_Rdevice_Pmeter_Configure_Auto.rst

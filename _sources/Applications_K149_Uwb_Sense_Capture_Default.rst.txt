@@ -1,0 +1,20 @@
+Default
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CAPTure:DEFault
+
+.. code-block:: python
+
+	[SENSe]:CAPTure:DEFault
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Capture.Default.DefaultCls
+	:members:
+	:undoc-members:
+	:noindex:

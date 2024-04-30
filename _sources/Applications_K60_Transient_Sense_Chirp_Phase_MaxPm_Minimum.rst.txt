@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PHASe:MAXPm:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PHASe:MAXPm:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Phase.MaxPm.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

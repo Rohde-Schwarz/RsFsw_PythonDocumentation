@@ -1,0 +1,37 @@
+Eattenuation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:EATTenuation
+
+.. code-block:: python
+
+	INPut:EATTenuation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.InputPy.Eattenuation.EattenuationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.inputPy.eattenuation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_InputPy_Eattenuation_Auto.rst

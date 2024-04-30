@@ -1,0 +1,29 @@
+Reference
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Fsk.Deviation.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.calculate.fsk.deviation.reference.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Calculate_Fsk_Deviation_Reference_Relative.rst
+	Applications_K70_Vsa_Calculate_Fsk_Deviation_Reference_Value.rst

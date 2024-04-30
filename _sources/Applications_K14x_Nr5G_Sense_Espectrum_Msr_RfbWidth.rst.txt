@@ -1,0 +1,20 @@
+RfbWidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:MSR:RFBWidth
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:MSR:RFBWidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Msr.RfbWidth.RfbWidthCls
+	:members:
+	:undoc-members:
+	:noindex:

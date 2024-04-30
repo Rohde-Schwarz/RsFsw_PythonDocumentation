@@ -1,0 +1,29 @@
+Spurs
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Spurs.SpursCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.sense.spurs.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Sense_Spurs_Suppress.rst
+	Applications_K40_PhaseNoise_Sense_Spurs_Threshold.rst

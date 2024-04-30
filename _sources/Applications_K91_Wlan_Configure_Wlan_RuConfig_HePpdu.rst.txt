@@ -1,0 +1,20 @@
+HePpdu
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:HEPPdu
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:HEPPdu
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.HePpdu.HePpduCls
+	:members:
+	:undoc-members:
+	:noindex:

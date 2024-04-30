@@ -1,0 +1,20 @@
+Gain
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep:EXPected:GAIN
+
+.. code-block:: python
+
+	CONFigure:PSWeep:EXPected:GAIN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.Expected.Gain.GainCls
+	:members:
+	:undoc-members:
+	:noindex:

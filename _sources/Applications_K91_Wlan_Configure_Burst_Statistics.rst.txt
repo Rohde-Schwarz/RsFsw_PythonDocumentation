@@ -1,0 +1,30 @@
+Statistics
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Statistics.StatisticsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.burst.statistics.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Burst_Statistics_Bstream.rst
+	Applications_K91_Wlan_Configure_Burst_Statistics_CumulativeDistribFnc.rst
+	Applications_K91_Wlan_Configure_Burst_Statistics_Sfield.rst

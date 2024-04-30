@@ -1,0 +1,20 @@
+Cestimation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:CESTimation
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:CESTimation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.Cestimation.CestimationCls
+	:members:
+	:undoc-members:
+	:noindex:

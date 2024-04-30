@@ -1,0 +1,42 @@
+AppStarter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:DELete
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.AppStarterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.plugin.appStarter.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Plugin_AppStarter_Directory.rst
+	System_Plugin_AppStarter_Execute.rst
+	System_Plugin_AppStarter_Icon.rst
+	System_Plugin_AppStarter_Name.rst
+	System_Plugin_AppStarter_Params.rst
+	System_Plugin_AppStarter_Select.rst

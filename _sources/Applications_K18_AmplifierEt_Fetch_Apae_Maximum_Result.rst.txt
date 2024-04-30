@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:APAE:MAXimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:APAE:MAXimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Apae.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

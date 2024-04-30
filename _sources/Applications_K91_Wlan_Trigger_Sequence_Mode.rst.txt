@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:MODE
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Trigger.Sequence.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

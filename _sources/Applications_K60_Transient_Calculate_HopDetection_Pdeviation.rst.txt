@@ -1,0 +1,30 @@
+Pdeviation
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Pdeviation.PdeviationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.hopDetection.pdeviation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_HopDetection_Pdeviation_Length.rst
+	Applications_K60_Transient_Calculate_HopDetection_Pdeviation_Offset.rst
+	Applications_K60_Transient_Calculate_HopDetection_Pdeviation_Reference.rst

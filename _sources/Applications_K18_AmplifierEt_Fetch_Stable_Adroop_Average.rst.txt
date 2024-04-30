@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:ADRoop:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:ADRoop:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Adroop.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

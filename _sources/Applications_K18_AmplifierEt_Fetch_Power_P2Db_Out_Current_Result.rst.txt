@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:P2DB:OUT:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:P2DB:OUT:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.P2Db.Out.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

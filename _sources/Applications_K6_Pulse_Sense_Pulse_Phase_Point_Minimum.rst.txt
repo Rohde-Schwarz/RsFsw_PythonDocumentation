@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:POINt:MINimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:POINt:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Point.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

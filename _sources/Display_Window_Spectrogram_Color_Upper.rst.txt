@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:SPECtrogram:COLor:UPPer
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:SPECtrogram:COLor:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Spectrogram.Color.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:

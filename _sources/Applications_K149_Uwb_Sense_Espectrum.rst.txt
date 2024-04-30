@@ -1,0 +1,46 @@
+Espectrum<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k149Uwb.sense.espectrum.repcap_subBlock_get()
+	driver.applications.k149Uwb.sense.espectrum.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.EspectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.espectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Espectrum_Bwid.rst
+	Applications_K149_Uwb_Sense_Espectrum_Capture.rst
+	Applications_K149_Uwb_Sense_Espectrum_FilterPy.rst
+	Applications_K149_Uwb_Sense_Espectrum_Hspeed.rst
+	Applications_K149_Uwb_Sense_Espectrum_Msr.rst
+	Applications_K149_Uwb_Sense_Espectrum_Preset.rst
+	Applications_K149_Uwb_Sense_Espectrum_Range.rst
+	Applications_K149_Uwb_Sense_Espectrum_Rrange.rst
+	Applications_K149_Uwb_Sense_Espectrum_Rtype.rst
+	Applications_K149_Uwb_Sense_Espectrum_SbCenter.rst
+	Applications_K149_Uwb_Sense_Espectrum_Sbcount.rst

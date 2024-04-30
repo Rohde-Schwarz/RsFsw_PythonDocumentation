@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PTABle:P2DB:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:PTABle:P2DB:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.P2Db.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

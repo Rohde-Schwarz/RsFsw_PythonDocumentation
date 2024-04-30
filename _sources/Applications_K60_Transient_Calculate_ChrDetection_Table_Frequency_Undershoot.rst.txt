@@ -1,0 +1,20 @@
+Undershoot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FREQuency:UNDershoot
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FREQuency:UNDershoot
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.Undershoot.UndershootCls
+	:members:
+	:undoc-members:
+	:noindex:

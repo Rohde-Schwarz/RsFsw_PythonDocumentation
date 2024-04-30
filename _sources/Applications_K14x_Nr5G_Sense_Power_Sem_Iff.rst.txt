@@ -1,0 +1,20 @@
+Iff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:IFF
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:IFF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Sem.Iff.IffCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:FORMat
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Prach.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

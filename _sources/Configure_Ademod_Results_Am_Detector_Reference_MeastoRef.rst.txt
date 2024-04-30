@@ -1,0 +1,36 @@
+MeastoRef<RefMeasurement>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.configure.ademod.results.am.detector.reference.meastoRef.repcap_refMeasurement_get()
+	driver.configure.ademod.results.am.detector.reference.meastoRef.repcap_refMeasurement_set(repcap.RefMeasurement.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:ADEMod:RESults:AM:DETector<det>:REFerence:MEAStoref<t>
+
+.. code-block:: python
+
+	CONFigure:ADEMod:RESults:AM:DETector<det>:REFerence:MEAStoref<t>
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Ademod.Results.Am.Detector.Reference.MeastoRef.MeastoRefCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.ademod.results.am.detector.reference.meastoRef.clone()

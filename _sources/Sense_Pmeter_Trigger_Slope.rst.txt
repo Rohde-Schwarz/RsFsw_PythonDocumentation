@@ -1,0 +1,20 @@
+Slope
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:TRIGger:SLOPe
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:TRIGger:SLOPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Trigger.Slope.SlopeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:RELFrequency:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:RELFrequency:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.RelFrequency.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

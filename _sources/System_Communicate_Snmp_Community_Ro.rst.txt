@@ -1,0 +1,20 @@
+Ro
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:SNMP:COMMunity:RO
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:SNMP:COMMunity:RO
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Snmp.Community.Ro.RoCls
+	:members:
+	:undoc-members:
+	:noindex:

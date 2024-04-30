@@ -1,0 +1,20 @@
+AvgNonlinear
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FREQuency:AVGNonlinear
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FREQuency:AVGNonlinear
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.AvgNonlinear.AvgNonlinearCls
+	:members:
+	:undoc-members:
+	:noindex:

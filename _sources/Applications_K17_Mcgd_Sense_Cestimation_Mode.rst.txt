@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CESTimation:MODE
+
+.. code-block:: python
+
+	[SENSe]:CESTimation:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Cestimation.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

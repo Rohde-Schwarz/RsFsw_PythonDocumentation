@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FSYNc:LEVel
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FSYNc:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Fsync.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

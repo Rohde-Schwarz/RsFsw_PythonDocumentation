@@ -1,0 +1,39 @@
+Trigger<TriggerPort>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k9X11Ad.output.trigger.repcap_triggerPort_get()
+	driver.applications.k9X11Ad.output.trigger.repcap_triggerPort_set(repcap.TriggerPort.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Output.Trigger.TriggerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.output.trigger.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Output_Trigger_Direction.rst
+	Applications_K9x_11ad_Output_Trigger_Level.rst
+	Applications_K9x_11ad_Output_Trigger_Otype.rst
+	Applications_K9x_11ad_Output_Trigger_Pulse.rst

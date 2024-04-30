@@ -1,0 +1,30 @@
+Lower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Lower.LowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.mask.lower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Mask_Lower_Data.rst
+	Calculate_Mask_Lower_Shift.rst
+	Calculate_Mask_Lower_State.rst

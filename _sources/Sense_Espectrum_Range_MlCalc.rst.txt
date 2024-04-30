@@ -1,0 +1,20 @@
+MlCalc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<ri>:MLCalc
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<ri>:MLCalc
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.MlCalc.MlCalcCls
+	:members:
+	:undoc-members:
+	:noindex:

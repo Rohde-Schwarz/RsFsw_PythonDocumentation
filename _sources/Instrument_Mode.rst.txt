@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INSTrument:MODE
+
+.. code-block:: python
+
+	INSTrument:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,37 @@
+Custom
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:MODulation:SELect:CUSTom
+
+.. code-block:: python
+
+	[SENSe]:NR5G:MODulation:SELect:CUSTom
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Modulation.Select.Custom.CustomCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.nr5G.modulation.select.custom.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Nr5G_Modulation_Select_Custom_Number.rst

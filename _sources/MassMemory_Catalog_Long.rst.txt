@@ -1,0 +1,20 @@
+Long
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:CATalog:LONG
+
+.. code-block:: python
+
+	MMEMory:CATalog:LONG
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Catalog.Long.LongCls
+	:members:
+	:undoc-members:
+	:noindex:

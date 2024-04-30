@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:ITERm[:STATe]
+
+.. code-block:: python
+
+	DISPlay:ITERm[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Iterm.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

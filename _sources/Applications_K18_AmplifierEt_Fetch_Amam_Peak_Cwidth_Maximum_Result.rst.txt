@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:AMAM:PEAK:CWIDth:MAXimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:AMAM:PEAK:CWIDth:MAXimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Amam.Peak.Cwidth.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

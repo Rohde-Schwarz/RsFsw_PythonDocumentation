@@ -1,0 +1,20 @@
+Contact
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:SNMP:CONTact
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:SNMP:CONTact
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Snmp.Contact.ContactCls
+	:members:
+	:undoc-members:
+	:noindex:

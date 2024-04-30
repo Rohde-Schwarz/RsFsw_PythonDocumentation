@@ -1,0 +1,20 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INSTrument:COUPle:SPAN
+
+.. code-block:: python
+
+	INSTrument:COUPle:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:

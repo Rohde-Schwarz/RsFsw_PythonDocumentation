@@ -1,0 +1,28 @@
+Sequence
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Power.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.power.sequence.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_Power_Sequence_Result.rst

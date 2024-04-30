@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:XCORrelation[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:IQ:XCORrelation[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Iq.Xcorrelation.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

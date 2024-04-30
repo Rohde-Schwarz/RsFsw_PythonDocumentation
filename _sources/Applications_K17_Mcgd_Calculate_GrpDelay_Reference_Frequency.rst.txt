@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:GRPDelay:REFerence:FREQuency
+
+.. code-block:: python
+
+	CALCulate<n>:GRPDelay:REFerence:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calculate.GrpDelay.Reference.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

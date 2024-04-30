@@ -1,0 +1,20 @@
+Duplexing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DUPLexing
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DUPLexing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Duplexing.DuplexingCls
+	:members:
+	:undoc-members:
+	:noindex:

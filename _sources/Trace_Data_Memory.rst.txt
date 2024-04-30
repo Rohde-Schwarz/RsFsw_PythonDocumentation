@@ -1,0 +1,20 @@
+Memory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>[:DATA]:MEMory
+
+.. code-block:: python
+
+	TRACe<n>[:DATA]:MEMory
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Data.Memory.MemoryCls
+	:members:
+	:undoc-members:
+	:noindex:

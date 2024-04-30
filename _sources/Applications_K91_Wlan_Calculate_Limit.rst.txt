@@ -1,0 +1,44 @@
+Limit<LimitIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k91Wlan.calculate.limit.repcap_limitIx_get()
+	driver.applications.k91Wlan.calculate.limit.repcap_limitIx_set(repcap.LimitIx.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.limit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Limit_AcPower.rst
+	Applications_K91_Wlan_Calculate_Limit_Burst.rst
+	Applications_K91_Wlan_Calculate_Limit_Control.rst
+	Applications_K91_Wlan_Calculate_Limit_Espectrum.rst
+	Applications_K91_Wlan_Calculate_Limit_Fail.rst
+	Applications_K91_Wlan_Calculate_Limit_Lower.rst
+	Applications_K91_Wlan_Calculate_Limit_Spectrum.rst
+	Applications_K91_Wlan_Calculate_Limit_Tolerance.rst
+	Applications_K91_Wlan_Calculate_Limit_Upper.rst

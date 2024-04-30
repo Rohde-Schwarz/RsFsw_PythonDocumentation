@@ -1,0 +1,20 @@
+PassThrough
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:PASSthrough
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:PASSthrough
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.PassThrough.PassThroughCls
+	:members:
+	:undoc-members:
+	:noindex:

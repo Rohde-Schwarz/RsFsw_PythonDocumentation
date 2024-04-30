@@ -1,0 +1,20 @@
+Save
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:EQUalizer:SAVE
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:EQUalizer:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Equalizer.Save.SaveCls
+	:members:
+	:undoc-members:
+	:noindex:

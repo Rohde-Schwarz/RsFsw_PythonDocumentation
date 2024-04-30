@@ -1,0 +1,36 @@
+Prach
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Prach.PrachCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.uplink.cc.prach.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Apm.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Conf.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Foffset.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_FrIndex.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_HfIndicator.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Ncsc.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Rseq.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Rset.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Prach_Sindex.rst

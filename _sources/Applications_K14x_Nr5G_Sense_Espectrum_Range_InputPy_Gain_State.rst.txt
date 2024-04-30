@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:INPut:GAIN:STATe
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:INPut:GAIN:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.InputPy.Gain.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

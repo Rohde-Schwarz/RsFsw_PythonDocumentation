@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:FBPTime:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:FBPTime:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallBasePoint.Time.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

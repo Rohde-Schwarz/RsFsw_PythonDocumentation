@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut<up>:IQHS[:STATe]
+
+.. code-block:: python
+
+	OUTPut<up>:IQHS[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Output.Iqhs.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

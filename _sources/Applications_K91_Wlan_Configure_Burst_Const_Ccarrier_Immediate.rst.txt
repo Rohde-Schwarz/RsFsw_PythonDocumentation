@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:CONSt:CCARrier[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:CONSt:CCARrier[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Const.Ccarrier.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

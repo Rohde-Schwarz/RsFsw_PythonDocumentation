@@ -1,0 +1,20 @@
+Rlen
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:RLEN
+
+.. code-block:: python
+
+	TRACe:IQ:RLEN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Trace.Iq.Rlen.RlenCls
+	:members:
+	:undoc-members:
+	:noindex:

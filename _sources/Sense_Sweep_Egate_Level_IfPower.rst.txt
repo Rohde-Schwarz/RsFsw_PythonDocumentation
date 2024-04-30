@@ -1,0 +1,20 @@
+IfPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:LEVel:IFPower
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:LEVel:IFPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Level.IfPower.IfPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

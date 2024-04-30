@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FORMat:BANalyze:SYMBols:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FORMat:BANalyze:SYMBols:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.Banalyze.Symbols.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

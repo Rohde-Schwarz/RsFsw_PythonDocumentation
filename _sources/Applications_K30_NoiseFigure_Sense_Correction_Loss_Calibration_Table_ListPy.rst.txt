@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:LOSS:CALibration:TABLe:LIST
+
+.. code-block:: python
+
+	[SENSe]:CORRection:LOSS:CALibration:TABLe:LIST
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Calibration.Table.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:

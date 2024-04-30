@@ -1,0 +1,20 @@
+Hysteresis
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:IFPower:HYSTeresis
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:IFPower:HYSTeresis
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Trigger.Sequence.IfPower.Hysteresis.HysteresisCls
+	:members:
+	:undoc-members:
+	:noindex:

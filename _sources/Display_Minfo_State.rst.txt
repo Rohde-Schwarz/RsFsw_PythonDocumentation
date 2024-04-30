@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:MINFo[:STATe]
+
+.. code-block:: python
+
+	DISPlay:MINFo[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Minfo.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

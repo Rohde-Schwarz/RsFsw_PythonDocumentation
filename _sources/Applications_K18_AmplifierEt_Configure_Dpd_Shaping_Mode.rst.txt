@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DPD:SHAPing:MODE
+
+.. code-block:: python
+
+	CONFigure:DPD:SHAPing:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Dpd.Shaping.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

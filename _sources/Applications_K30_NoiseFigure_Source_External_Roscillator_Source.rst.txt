@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal:ROSCillator[:SOURce]
+
+.. code-block:: python
+
+	SOURce:EXTernal:ROSCillator[:SOURce]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.External.Roscillator.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

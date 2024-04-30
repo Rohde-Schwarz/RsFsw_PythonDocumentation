@@ -1,0 +1,20 @@
+Define
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MATH[:EXPRession][:DEFine]
+
+.. code-block:: python
+
+	CALCulate<n>:MATH[:EXPRession][:DEFine]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Math.Expression.Define.DefineCls
+	:members:
+	:undoc-members:
+	:noindex:

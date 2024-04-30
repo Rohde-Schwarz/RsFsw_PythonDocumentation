@@ -1,0 +1,20 @@
+RefLevel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DIRected:RLEVel
+
+.. code-block:: python
+
+	[SENSe]:DIRected:RLEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.RefLevel.RefLevelCls
+	:members:
+	:undoc-members:
+	:noindex:

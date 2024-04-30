@@ -1,0 +1,20 @@
+Falignment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:ALIGnment:FALignment
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:ALIGnment:FALignment
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.System.Communicate.Rdevice.Oscilloscope.Alignment.Falignment.FalignmentCls
+	:members:
+	:undoc-members:
+	:noindex:

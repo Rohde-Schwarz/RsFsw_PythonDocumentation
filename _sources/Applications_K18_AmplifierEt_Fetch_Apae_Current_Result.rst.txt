@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:APAE:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:APAE:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Apae.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

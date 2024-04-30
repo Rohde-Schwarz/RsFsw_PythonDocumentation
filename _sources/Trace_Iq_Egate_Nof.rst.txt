@@ -1,0 +1,20 @@
+Nof
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:EGATe:NOF
+
+.. code-block:: python
+
+	TRACe:IQ:EGATe:NOF
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Egate.Nof.NofCls
+	:members:
+	:undoc-members:
+	:noindex:

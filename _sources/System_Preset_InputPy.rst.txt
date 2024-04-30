@@ -1,0 +1,20 @@
+InputPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PRESet:INPut
+
+.. code-block:: python
+
+	SYSTem:PRESet:INPut
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Preset.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:

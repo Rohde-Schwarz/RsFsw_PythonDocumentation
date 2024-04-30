@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:AR:TIME:STARt
+
+.. code-block:: python
+
+	CALCulate<n>:AR:TIME:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Ar.Time.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

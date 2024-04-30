@@ -1,0 +1,20 @@
+Nframes
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:OOPower:NFRames
+
+.. code-block:: python
+
+	CONFigure[:LTE]:OOPower:NFRames
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.OoPower.Nframes.NframesCls
+	:members:
+	:undoc-members:
+	:noindex:

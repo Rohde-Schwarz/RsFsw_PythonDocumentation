@@ -1,0 +1,20 @@
+Bordering
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:BORDering
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:BORDering
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Bordering.BorderingCls
+	:members:
+	:undoc-members:
+	:noindex:

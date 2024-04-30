@@ -1,0 +1,20 @@
+Cdevice
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DIQ:CDEVice
+
+.. code-block:: python
+
+	INPut:DIQ:CDEVice
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Diq.Cdevice.CdeviceCls
+	:members:
+	:undoc-members:
+	:noindex:

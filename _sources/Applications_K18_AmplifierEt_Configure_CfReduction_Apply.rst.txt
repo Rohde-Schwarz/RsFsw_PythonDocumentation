@@ -1,0 +1,37 @@
+Apply
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CFReduction:APPLy
+
+.. code-block:: python
+
+	CONFigure:CFReduction:APPLy
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.CfReduction.Apply.ApplyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.cfReduction.apply.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_CfReduction_Apply_LedState.rst

@@ -1,0 +1,20 @@
+Pdivision
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:X[:SCALe]:PDIVision
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:X[:SCALe]:PDIVision
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.Trace.X.Scale.Pdivision.PdivisionCls
+	:members:
+	:undoc-members:
+	:noindex:

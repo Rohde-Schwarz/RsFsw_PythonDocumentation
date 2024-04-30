@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SUBSpan:OVERlap:CARRier:COUNt
+
+.. code-block:: python
+
+	[SENSe]:SUBSpan:OVERlap:CARRier:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Subspan.Overlap.Carrier.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

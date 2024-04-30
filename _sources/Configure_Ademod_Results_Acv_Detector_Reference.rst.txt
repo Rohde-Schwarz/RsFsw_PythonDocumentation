@@ -1,0 +1,37 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:ADEMod:RESults:ACV:DETector<det>:REFerence
+
+.. code-block:: python
+
+	CONFigure:ADEMod:RESults:ACV:DETector<det>:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Ademod.Results.Acv.Detector.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.ademod.results.acv.detector.reference.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Ademod_Results_Acv_Detector_Reference_MeastoRef.rst

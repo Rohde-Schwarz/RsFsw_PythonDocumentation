@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:GAIN:MAXimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:GAIN:MAXimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.Gain.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,42 @@
+PpFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:PPFRequency
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:PPFRequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.PpFrequency.PpFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.frequency.ppFrequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency_StandardDev.rst

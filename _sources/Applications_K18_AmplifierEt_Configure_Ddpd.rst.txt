@@ -1,0 +1,50 @@
+Ddpd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: CONFigure:DDPD:CONTinue
+	single: CONFigure:DDPD:ABORt
+	single: CONFigure:DDPD:STARt
+
+.. code-block:: python
+
+	CONFigure:DDPD:CONTinue
+	CONFigure:DDPD:ABORt
+	CONFigure:DDPD:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.DdpdCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.ddpd.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Ddpd_Apply.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Count.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Finish.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Fname.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Fsave.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Gexpansion.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Rms.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_State.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Tradeoff.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd_Window.rst

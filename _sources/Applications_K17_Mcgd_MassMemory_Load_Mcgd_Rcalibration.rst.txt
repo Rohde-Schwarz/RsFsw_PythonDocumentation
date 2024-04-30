@@ -1,0 +1,20 @@
+Rcalibration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:MCGD:RCALibration
+
+.. code-block:: python
+
+	MMEMory:LOAD:MCGD:RCALibration
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.MassMemory.Load.Mcgd.Rcalibration.RcalibrationCls
+	:members:
+	:undoc-members:
+	:noindex:

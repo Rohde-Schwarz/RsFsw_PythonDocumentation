@@ -1,0 +1,29 @@
+AfPhase
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.AfPhase.AfPhaseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.function.afPhase.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Function_AfPhase_Result.rst
+	Calculate_DeltaMarker_Function_AfPhase_State.rst

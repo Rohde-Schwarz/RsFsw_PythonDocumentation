@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:P2DB:OUT:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:P2DB:OUT:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.P2Db.Out.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

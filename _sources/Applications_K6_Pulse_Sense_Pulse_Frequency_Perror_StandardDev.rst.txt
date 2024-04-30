@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:PERRor:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:PERRor:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Perror.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+End
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:PNOise:OFFSet:END
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:PNOise:OFFSet:END
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Pnoise.Offset.End.EndCls
+	:members:
+	:undoc-members:
+	:noindex:

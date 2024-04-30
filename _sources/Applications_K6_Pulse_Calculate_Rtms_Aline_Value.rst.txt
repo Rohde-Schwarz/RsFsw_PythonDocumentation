@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RTMS:ALINe[:VALue]
+
+.. code-block:: python
+
+	CALCulate<n>:RTMS:ALINe[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Rtms.Aline.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

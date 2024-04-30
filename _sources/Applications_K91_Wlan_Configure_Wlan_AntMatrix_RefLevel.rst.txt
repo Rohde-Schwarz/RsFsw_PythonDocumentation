@@ -1,0 +1,36 @@
+RefLevel<Antenna>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k91Wlan.configure.wlan.antMatrix.refLevel.repcap_antenna_get()
+	driver.applications.k91Wlan.configure.wlan.antMatrix.refLevel.repcap_antenna_set(repcap.Antenna.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.AntMatrix.RefLevel.RefLevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.wlan.antMatrix.refLevel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Wlan_AntMatrix_RefLevel_Offset.rst

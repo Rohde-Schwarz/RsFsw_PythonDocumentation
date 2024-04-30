@@ -1,0 +1,44 @@
+Egate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Sweep.Egate.EgateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.sweep.egate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Auto.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Continuous.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Holdoff.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Length.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Level.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Polarity.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_Source.rst
+	Applications_K30_NoiseFigure_Sense_Sweep_Egate_TypePy.rst

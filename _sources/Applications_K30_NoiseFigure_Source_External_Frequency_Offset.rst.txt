@@ -1,0 +1,36 @@
+Offset<FreqOffset>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k30NoiseFigure.source.external.frequency.offset.repcap_freqOffset_get()
+	driver.applications.k30NoiseFigure.source.external.frequency.offset.repcap_freqOffset_set(repcap.FreqOffset.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal:FREQuency:OFFSet<of>
+
+.. code-block:: python
+
+	SOURce:EXTernal:FREQuency:OFFSet<of>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.External.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.external.frequency.offset.clone()

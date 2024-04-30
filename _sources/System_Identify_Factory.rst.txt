@@ -1,0 +1,20 @@
+Factory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:IDENtify:FACTory
+
+.. code-block:: python
+
+	SYSTem:IDENtify:FACTory
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Identify.Factory.FactoryCls
+	:members:
+	:undoc-members:
+	:noindex:

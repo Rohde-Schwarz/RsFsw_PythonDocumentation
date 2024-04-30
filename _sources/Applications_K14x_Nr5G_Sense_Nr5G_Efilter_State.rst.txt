@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:EFILter:STATe
+
+.. code-block:: python
+
+	[SENSe]:NR5G:EFILter:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Efilter.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

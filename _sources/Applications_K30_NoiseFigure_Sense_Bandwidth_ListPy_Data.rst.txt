@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth:LIST:DATA
+
+.. code-block:: python
+
+	[SENSe]:BWIDth:LIST:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Bandwidth.ListPy.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

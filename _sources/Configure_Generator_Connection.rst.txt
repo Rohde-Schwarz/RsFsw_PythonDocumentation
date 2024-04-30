@@ -1,0 +1,29 @@
+Connection
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Connection.ConnectionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.connection.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Connection_Cstate.rst
+	Configure_Generator_Connection_State.rst

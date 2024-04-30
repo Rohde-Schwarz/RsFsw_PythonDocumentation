@@ -1,0 +1,40 @@
+Tags
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: DIAGnostic:HUMS:TAGS:DELete
+	single: DIAGnostic:HUMS:TAGS:DELete:ALL
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:TAGS:DELete
+	DIAGnostic:HUMS:TAGS:DELete:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Tags.TagsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.hums.tags.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Hums_Tags_All.rst
+	Diagnostic_Hums_Tags_Value.rst

@@ -1,0 +1,20 @@
+Snumber
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:SNUMber
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:SNUMber
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Cvl.Snumber.SnumberCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Idn
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:IDN
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:IDN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.System.Communicate.Rdevice.Oscilloscope.Idn.IdnCls
+	:members:
+	:undoc-members:
+	:noindex:

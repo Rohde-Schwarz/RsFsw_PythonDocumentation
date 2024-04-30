@@ -1,0 +1,20 @@
+Fpath
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:SINFo:FPATh
+
+.. code-block:: python
+
+	CONFigure:REFSignal:SINFo:FPATh
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Sinfo.Fpath.FpathCls
+	:members:
+	:undoc-members:
+	:noindex:

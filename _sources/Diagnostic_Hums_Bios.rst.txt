@@ -1,0 +1,20 @@
+Bios
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:BIOS
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:BIOS
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Bios.BiosCls
+	:members:
+	:undoc-members:
+	:noindex:

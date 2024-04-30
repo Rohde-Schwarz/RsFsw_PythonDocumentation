@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NPRatio:CHANnel:INTegration:FREQuency:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:NPRatio:CHANnel:INTegration:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Channel.Integration.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

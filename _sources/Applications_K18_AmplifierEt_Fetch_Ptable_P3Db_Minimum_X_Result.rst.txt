@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PTABle:P3DB:MINimum:X[:RESult]
+
+.. code-block:: python
+
+	FETCh:PTABle:P3DB:MINimum:X[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.P3Db.Minimum.X.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

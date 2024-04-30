@@ -1,0 +1,20 @@
+Category
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:CATegory
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:CATegory
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Sem.Category.CategoryCls
+	:members:
+	:undoc-members:
+	:noindex:

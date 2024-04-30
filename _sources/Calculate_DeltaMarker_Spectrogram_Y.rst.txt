@@ -1,0 +1,29 @@
+Y
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Spectrogram.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.spectrogram.y.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Spectrogram_Y_Maximum.rst
+	Calculate_DeltaMarker_Spectrogram_Y_Minimum.rst

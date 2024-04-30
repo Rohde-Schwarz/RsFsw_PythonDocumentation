@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:FFT:WINDow:LENGth
+
+.. code-block:: python
+
+	[SENSe]:IQ:FFT:WINDow:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Sense.Iq.Fft.Window.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

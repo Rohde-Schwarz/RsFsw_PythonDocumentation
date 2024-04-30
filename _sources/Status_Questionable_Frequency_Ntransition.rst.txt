@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:FREQuency:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:FREQuency:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Frequency.Ntransition.NtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+HardCopy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect[:ITEM]:HCOPy
+
+.. code-block:: python
+
+	MMEMory:SELect[:ITEM]:HCOPy
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.HardCopy.HardCopyCls
+	:members:
+	:undoc-members:
+	:noindex:

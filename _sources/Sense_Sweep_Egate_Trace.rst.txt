@@ -1,0 +1,40 @@
+Trace<Trace>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Tr1 .. Tr16
+	rc = driver.sense.sweep.egate.trace.repcap_trace_get()
+	driver.sense.sweep.egate.trace.repcap_trace_set(repcap.Trace.Tr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.sweep.egate.trace.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Sweep_Egate_Trace_Comment.rst
+	Sense_Sweep_Egate_Trace_Period.rst
+	Sense_Sweep_Egate_Trace_Start.rst
+	Sense_Sweep_Egate_Trace_State.rst
+	Sense_Sweep_Egate_Trace_Stop.rst

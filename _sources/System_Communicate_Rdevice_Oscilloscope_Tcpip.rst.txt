@@ -1,0 +1,20 @@
+Tcpip
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:TCPip
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:TCPip
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rdevice.Oscilloscope.Tcpip.TcpipCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+DeleteDirectory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:RDIRectory
+
+.. code-block:: python
+
+	MMEMory:RDIRectory
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.DeleteDirectory.DeleteDirectoryCls
+	:members:
+	:undoc-members:
+	:noindex:

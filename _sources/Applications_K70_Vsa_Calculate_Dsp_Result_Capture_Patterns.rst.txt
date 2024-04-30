@@ -1,0 +1,20 @@
+Patterns
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DSP:RESult:CAPTure:PATTerns
+
+.. code-block:: python
+
+	CALCulate<n>:DSP:RESult:CAPTure:PATTerns
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Capture.Patterns.PatternsCls
+	:members:
+	:undoc-members:
+	:noindex:

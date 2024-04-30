@@ -1,0 +1,20 @@
+Scount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:FRAMe:SCOunt
+
+.. code-block:: python
+
+	[SENSe][:LTE]:FRAMe:SCOunt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Frame.Scount.ScountCls
+	:members:
+	:undoc-members:
+	:noindex:

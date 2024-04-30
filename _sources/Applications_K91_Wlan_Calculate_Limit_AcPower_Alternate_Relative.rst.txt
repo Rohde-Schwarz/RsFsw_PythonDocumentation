@@ -1,0 +1,37 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ACPower:ALTernate<ch>[:RELative]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ACPower:ALTernate<ch>[:RELative]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.AcPower.Alternate.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.limit.acPower.alternate.relative.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Limit_AcPower_Alternate_Relative_State.rst

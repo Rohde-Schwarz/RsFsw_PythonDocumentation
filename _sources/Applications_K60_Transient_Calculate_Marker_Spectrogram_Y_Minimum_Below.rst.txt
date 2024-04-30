@@ -1,0 +1,20 @@
+Below
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:SPECtrogram:Y:MINimum:BELow
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:SPECtrogram:Y:MINimum:BELow
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Marker.Spectrogram.Y.Minimum.Below.BelowCls
+	:members:
+	:undoc-members:
+	:noindex:

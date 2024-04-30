@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:X:SLIMits[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:X:SLIMits[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Marker.X.Slimits.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

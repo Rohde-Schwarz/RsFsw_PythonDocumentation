@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:NCORrection:CALibration:STATe
+
+.. code-block:: python
+
+	[SENSe]:POWer:NCORrection:CALibration:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Ncorrection.Calibration.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Content
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:CONTent
+
+.. code-block:: python
+
+	HCOPy:CONTent
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Content.ContentCls
+	:members:
+	:undoc-members:
+	:noindex:

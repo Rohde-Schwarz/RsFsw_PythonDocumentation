@@ -1,0 +1,20 @@
+Traces
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FORMat:DEXPort:TRACes
+
+.. code-block:: python
+
+	FORMat:DEXPort:TRACes
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.FormatPy.Dexport.Traces.TracesCls
+	:members:
+	:undoc-members:
+	:noindex:

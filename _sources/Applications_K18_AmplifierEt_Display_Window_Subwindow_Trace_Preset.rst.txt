@@ -1,0 +1,20 @@
+Preset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:PRESet
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Subwindow.Trace.Preset.PresetCls
+	:members:
+	:undoc-members:
+	:noindex:

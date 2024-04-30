@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>]:SUMMary:EVM:SPST[:AVERage]
+
+.. code-block:: python
+
+	FETCh[:CC<cc>]:SUMMary:EVM:SPST[:AVERage]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Evm.Spst.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

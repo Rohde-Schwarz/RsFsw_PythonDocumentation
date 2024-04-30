@@ -1,0 +1,36 @@
+InputPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_InputPy_Attenuation.rst
+	Applications_K9x_11ad_InputPy_Connector.rst
+	Applications_K9x_11ad_InputPy_Coupling.rst
+	Applications_K9x_11ad_InputPy_Eatt.rst
+	Applications_K9x_11ad_InputPy_Egain.rst
+	Applications_K9x_11ad_InputPy_FilterPy.rst
+	Applications_K9x_11ad_InputPy_Gain.rst
+	Applications_K9x_11ad_InputPy_Select.rst
+	Applications_K9x_11ad_InputPy_TypePy.rst

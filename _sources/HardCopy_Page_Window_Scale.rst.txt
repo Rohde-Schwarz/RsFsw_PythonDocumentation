@@ -1,0 +1,20 @@
+Scale
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:PAGE:WINDow:SCALe
+
+.. code-block:: python
+
+	HCOPy:PAGE:WINDow:SCALe
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Window.Scale.ScaleCls
+	:members:
+	:undoc-members:
+	:noindex:

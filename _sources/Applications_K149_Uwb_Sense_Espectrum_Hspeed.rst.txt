@@ -1,0 +1,20 @@
+Hspeed
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:HSPeed
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:HSPeed
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Hspeed.HspeedCls
+	:members:
+	:undoc-members:
+	:noindex:

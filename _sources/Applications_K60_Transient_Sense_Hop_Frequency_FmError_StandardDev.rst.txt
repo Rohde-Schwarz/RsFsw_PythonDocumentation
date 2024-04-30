@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:FMERror:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:FMERror:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.FmError.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

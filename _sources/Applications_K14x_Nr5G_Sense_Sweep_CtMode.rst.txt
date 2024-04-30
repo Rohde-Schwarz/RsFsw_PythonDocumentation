@@ -1,0 +1,20 @@
+CtMode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:CTMode
+
+.. code-block:: python
+
+	[SENSe]:SWEep:CTMode
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.CtMode.CtModeCls
+	:members:
+	:undoc-members:
+	:noindex:

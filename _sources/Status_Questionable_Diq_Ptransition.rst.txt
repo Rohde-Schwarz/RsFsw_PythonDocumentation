@@ -1,0 +1,20 @@
+Ptransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:DIQ:PTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:DIQ:PTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Diq.Ptransition.PtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

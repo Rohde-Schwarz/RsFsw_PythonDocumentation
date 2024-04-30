@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FILTer[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FILTer[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.FilterPy.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,28 @@
+Count
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.page.count.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Page_Count_State.rst

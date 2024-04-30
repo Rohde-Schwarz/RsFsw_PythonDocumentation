@@ -1,0 +1,20 @@
+Scfe
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:RPA:KZERo:SCFE
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:RPA:KZERo:SCFE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Rpa.Kzero.Scfe.ScfeCls
+	:members:
+	:undoc-members:
+	:noindex:

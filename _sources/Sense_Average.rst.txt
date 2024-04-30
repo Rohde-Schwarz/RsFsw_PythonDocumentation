@@ -1,0 +1,30 @@
+Average
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.average.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Average_Count.rst
+	Sense_Average_State.rst
+	Sense_Average_TypePy.rst

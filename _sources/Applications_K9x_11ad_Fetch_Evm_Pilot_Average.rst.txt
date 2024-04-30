@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:EVM:PILot:AVERage
+
+.. code-block:: python
+
+	FETCh:EVM:PILot:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Evm.Pilot.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

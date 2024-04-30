@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:KDATa:PRBS[:TYPE]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:KDATa:PRBS[:TYPE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Prbs.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

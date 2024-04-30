@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G[:CC<cc>]:BWPart:SELect
+
+.. code-block:: python
+
+	[SENSe]:NR5G[:CC<cc>]:BWPart:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Cc.BwPart.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

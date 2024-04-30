@@ -1,0 +1,20 @@
+Xy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:SWAP:XY
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:SWAP:XY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Swap.Xy.XyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K30_NoiseFigure &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Calculate&lt;Window&gt;" href="Applications_K30_NoiseFigure_Calculate.html" />
+    <link rel="prev" title="Angle" href="Applications_K18_AmplifierEt_Unit_Angle.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">K30_NoiseFigure</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source.html">Source</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger.html">Trigger&lt;TriggerPort&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+      <li>K30_NoiseFigure</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K30_NoiseFigure.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="k30-noisefigure">
+<h1>K30_NoiseFigure<a class="headerlink" href="#k30-noisefigure" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">K30_NoiseFigureCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K30_NoiseFigure.html#K30_NoiseFigureCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>K30_NoiseFigure commands group definition. 292 total commands, 13 Subgroups, 0 group commands</p>
+</dd></dl>
+
+<p class="rubric">Cloning the Group</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a clone of the original group, that exists independently</span>
+<span class="n">group2</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k30_NoiseFigure</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="rubric">Subgroups</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate.html">Calculate&lt;Window&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker.html">DeltaMarker&lt;DeltaMarker&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Aoff.html">Aoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Maximum.html">Maximum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Maximum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Maximum_Peak.html">Peak</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Minimum.html">Minimum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Minimum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Minimum_Peak.html">Peak</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Mreference.html">Mreference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Trace.html">Trace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_X.html">X</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_DeltaMarker_Y.html">Y</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit.html">Limit&lt;LimitIx&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Active.html">Active</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Clear.html">Clear</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Clear_Immediate.html">Immediate</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Comment.html">Comment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Control.html">Control</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Control_Data.html">Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Control_Shift.html">Shift</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Copy.html">Copy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Fail.html">Fail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Lower.html">Lower</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Lower_Data.html">Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Lower_Shift.html">Shift</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Lower_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Name.html">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Trace.html">Trace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_TypePy.html">TypePy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Upper.html">Upper</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Upper_Data.html">Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Upper_Shift.html">Shift</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Limit_Upper_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker.html">Marker&lt;Marker&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Aoff.html">Aoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Maximum.html">Maximum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Maximum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Maximum_Peak.html">Peak</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Minimum.html">Minimum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Minimum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Minimum_Peak.html">Peak</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Trace.html">Trace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_X.html">X</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Marker_Y.html">Y</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty.html">Uncertainty</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Common.html">Common</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Data.html">Data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Data_Frequency.html">Frequency</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Data_Gain.html">Gain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Data_Noise.html">Noise</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Data_Results.html">Results</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr.html">Enr</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Calibration.html">Calibration</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Calibration_Uncertainty.html">Uncertainty</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Calibration_Uncertainty_Cold.html">Cold</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Calibration_Uncertainty_Hot.html">Hot</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Uncertainty.html">Uncertainty</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Uncertainty_Cold.html">Cold</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Enr_Uncertainty_Hot.html">Hot</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match.html">Match</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut.html">Dut</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_InputPy.html">InputPy</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_InputPy_Rl.html">Rl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_InputPy_Vswr.html">Vswr</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_Out.html">Out</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_Out_Rl.html">Rl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Dut_Out_Vswr.html">Vswr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Preamp.html">Preamp</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Preamp_Rl.html">Rl</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Preamp_Vswr.html">Vswr</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source.html">Source</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Calibration.html">Calibration</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Calibration_Rl.html">Rl</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Calibration_Sns.html">Sns</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Calibration_Vswr.html">Vswr</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Rl.html">Rl</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Sns.html">Sns</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Match_Source_Vswr.html">Vswr</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Preamp.html">Preamp</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Preamp_Gain.html">Gain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Preamp_Noise.html">Noise</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Preamp_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Result.html">Result</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Sanalyzer.html">Sanalyzer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Sanalyzer_Gain.html">Gain</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Sanalyzer_Gain_Uncertainty.html">Uncertainty</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Sanalyzer_Noise.html">Noise</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Calculate_Uncertainty_Sanalyzer_Noise_Uncertainty.html">Uncertainty</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Display.html">Display</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window.html">Window&lt;Window&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Minfo.html">Minfo</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Minfo_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Mtable.html">Mtable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Size.html">Size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Table.html">Table</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Table_Item.html">Item</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace.html">Trace&lt;Trace&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Preset.html">Preset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Smoothing.html">Smoothing</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Smoothing_Aperture.html">Aperture</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Smoothing_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Symbols.html">Symbols</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Uncertainty.html">Uncertainty</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_X.html">X</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_X_Scale.html">Scale</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Y.html">Y</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale.html">Scale</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_Auto.html">Auto</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_Bottom.html">Bottom</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_RefLevel.html">RefLevel</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_Top.html">Top</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy.html">FormatPy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy_Dexport.html">Dexport</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy_Dexport_Cseparator.html">Cseparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy_Dexport_Dseparator.html">Dseparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy_Dexport_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy_Dexport_Header.html">Header</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_FormatPy_Dexport_Traces.html">Traces</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Initiate.html">Initiate</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Initiate_Continuous.html">Continuous</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Initiate_Immediate.html">Immediate</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy.html">InputPy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Attenuation.html">Attenuation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Coupling.html">Coupling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Dpath.html">Dpath</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Egain.html">Egain</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Egain_Bypass.html">Bypass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Egain_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_FilterPy.html">FilterPy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_FilterPy_Hpass.html">Hpass</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_FilterPy_Hpass_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_FilterPy_Yig.html">Yig</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_FilterPy_Yig_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Gain.html">Gain</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Gain_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Gain_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_Impedance.html">Impedance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_InputPy_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout.html">Layout</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Add.html">Add</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Add_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Catalog.html">Catalog</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Catalog_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Identify.html">Identify</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Identify_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Move.html">Move</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Move_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Remove.html">Remove</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Remove_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Replace.html">Replace</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Replace_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Layout_Splitter.html">Splitter</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_MassMemory.html">MassMemory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_MassMemory_Store.html">Store&lt;Store&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_MassMemory_Store_Trace.html">Trace</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Output.html">Output&lt;OutputConnector&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger.html">Trigger&lt;TriggerPort&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger_Direction.html">Direction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger_Otype.html">Otype</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger_Pulse.html">Pulse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger_Pulse_Immediate.html">Immediate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Output_Trigger_Pulse_Length.html">Length</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense.html">Sense</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Bandwidth.html">Bandwidth</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Bandwidth_ListPy.html">ListPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Bandwidth_ListPy_Data.html">Data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure.html">Configure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Control.html">Control</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Correction.html">Correction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Frequency.html">Frequency</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Frequency_Continuous.html">Continuous</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Frequency_Single.html">Single</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_ListPy.html">ListPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_ListPy_Continuous.html">Continuous</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_ListPy_Single.html">Single</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Measurement.html">Measurement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode.html">Mode</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode_Dut.html">Dut</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode_System.html">System</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode_System_Ifreq.html">Ifreq</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode_System_Ifreq_Frequency.html">Frequency</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode_System_Lo.html">Lo</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Mode_System_Lo_Frequency.html">Frequency</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Configure_Single.html">Single</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction.html">Correction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr.html">Enr</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration.html">Calibration</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Mode.html">Mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Sns.html">Sns</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Sns_SrNumber.html">SrNumber</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Spot.html">Spot</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Spot_Cold.html">Cold</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Spot_Hot.html">Hot</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Table.html">Table</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_Table_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Calibration_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Common.html">Common</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement.html">Measurement</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Mode.html">Mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Sns.html">Sns</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Sns_SrNumber.html">SrNumber</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Spot.html">Spot</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Spot_Cold.html">Cold</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Spot_Hot.html">Hot</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Table.html">Table</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Table_Data.html">Data</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Table_ListPy.html">ListPy</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Table_Select.html">Select</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_Table_Temperature.html">Temperature</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Measurement_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Sns.html">Sns</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Sns_Auto.html">Auto</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Sns_Auto_SrNumber.html">SrNumber</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Enr_Sns_Auto_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Irejection.html">Irejection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss.html">Loss</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration.html">Calibration</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Mode.html">Mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Spot.html">Spot</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Table.html">Table</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Table_Data.html">Data</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Table_ListPy.html">ListPy</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Table_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Calibration_Temperature.html">Temperature</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy.html">InputPy</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Mode.html">Mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Spot.html">Spot</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table.html">Table</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table_Data.html">Data</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table_ListPy.html">ListPy</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Temperature.html">Temperature</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output.html">Output</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Mode.html">Mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Spot.html">Spot</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Table.html">Table</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Table_Data.html">Data</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Table_ListPy.html">ListPy</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Table_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Loss_Output_Temperature.html">Temperature</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Save.html">Save</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Temperature.html">Temperature</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Correction_Temperature_Control.html">Control</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency.html">Frequency</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Center.html">Center</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Points.html">Points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Single.html">Single</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Single_Coupled.html">Coupled</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Span.html">Span</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Start.html">Start</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Step.html">Step</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Stop.html">Stop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Table.html">Table</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Frequency_Table_Data.html">Data</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer.html">Mixer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Bias.html">Bias</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Bias_High.html">High</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Bias_Low.html">Low</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Frequency.html">Frequency</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Frequency_Handover.html">Handover</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Frequency_Start.html">Start</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Frequency_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic.html">Harmonic</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic_Band.html">Band</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic_High.html">High</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic_High_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic_High_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic_Low.html">Low</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Harmonic_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_LoPower.html">LoPower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Loss.html">Loss</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Loss_High.html">High</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Loss_Low.html">Low</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Loss_Table.html">Table</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Loss_Table_High.html">High</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Loss_Table_Low.html">Low</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Ports.html">Ports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_RfOverrange.html">RfOverrange</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_RfOverrange_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Signal.html">Signal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Mixer_Threshold.html">Threshold</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe.html">Probe&lt;Probe&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Id.html">Id</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Id_PartNumber.html">PartNumber</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Id_SrNumber.html">SrNumber</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup.html">Setup</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_AttRatio.html">AttRatio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_CmOffset.html">CmOffset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_DmOffset.html">DmOffset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_Name.html">Name</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_NmOffset.html">NmOffset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_Pmode.html">Pmode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_PmOffset.html">PmOffset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Probe_Setup_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep.html">Sweep</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Count.html">Count</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate.html">Egate</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Continuous.html">Continuous</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Continuous_Pcount.html">Pcount</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Continuous_Plength.html">Plength</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Continuous_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Holdoff.html">Holdoff</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Length.html">Length</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Level.html">Level</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Level_External.html">External&lt;ExternalPort&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Level_IfPower.html">IfPower</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Level_RfPower.html">RfPower</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Polarity.html">Polarity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_Source.html">Source</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Egate_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Time.html">Time</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Sense_Sweep_Time_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Source.html">Source</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current.html">Current</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Auxiliary.html">Auxiliary</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Auxiliary_Limit.html">Limit</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Auxiliary_Limit_High.html">High</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Control.html">Control&lt;Source&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Control_Limit.html">Limit</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Control_Limit_High.html">High</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Power.html">Power&lt;Source&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Power_Limit.html">Limit</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Power_Limit_High.html">High</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Sequence.html">Sequence</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Current_Sequence_Result.html">Result</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External.html">External</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Frequency.html">Frequency</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Frequency_Factor.html">Factor</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Frequency_Factor_Denominator.html">Denominator</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Frequency_Factor_Numerator.html">Numerator</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Frequency_Offset.html">Offset&lt;FreqOffset&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Power.html">Power</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Power_Level.html">Level</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Roscillator.html">Roscillator</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_External_Roscillator_Source.html">Source</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator.html">Generator</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Channel.html">Channel</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Channel_Coupling.html">Coupling</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_DutBypass.html">DutBypass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Frequency.html">Frequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Modulation.html">Modulation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Pulse.html">Pulse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Pulse_Period.html">Period</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Pulse_Trigger.html">Trigger</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Pulse_Trigger_Output.html">Output</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_Pulse_Width.html">Width</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Generator_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Nsource.html">Nsource</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Nsource_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Power.html">Power</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Power_Sequence.html">Sequence</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Power_Sequence_Result.html">Result</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage.html">Voltage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary.html">Auxiliary</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary_Level.html">Level</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary_Level_Amplitude.html">Amplitude</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary_Level_Limit.html">Limit</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary_Level_Limit_High.html">High</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary_Level_Limit_Low.html">Low</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Auxiliary_Level_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Channel.html">Channel</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Channel_Coupling.html">Coupling</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control.html">Control&lt;Source&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control_Level.html">Level</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control_Level_Amplitude.html">Amplitude</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control_Level_Limit.html">Limit</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control_Level_Limit_High.html">High</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control_Level_Limit_Low.html">Low</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Control_Level_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power.html">Power&lt;Source&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level.html">Level</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level_Amplitude.html">Amplitude</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level_Limit.html">Limit</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level_Limit_High.html">High</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level_Limit_Low.html">Low</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level_Mode.html">Mode</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Level_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Limit.html">Limit</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Power_Limit_High.html">High</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Sequence.html">Sequence</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_Sequence_Result.html">Result</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Source_Voltage_UsePort.html">UsePort</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_System.html">System</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate.html">Communicate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Gpib.html">Gpib</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Gpib_Rdevice.html">Rdevice</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Gpib_Rdevice_Generator.html">Generator</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Gpib_Rdevice_Generator_Address.html">Address</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Rdevice.html">Rdevice</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Rdevice_Generator.html">Generator</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Rdevice_Generator_Interface.html">Interface</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Rdevice_Generator_Link.html">Link</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Rdevice_Generator_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Tcpip.html">Tcpip</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Tcpip_Rdevice.html">Rdevice</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Tcpip_Rdevice_Generator.html">Generator</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Communicate_Tcpip_Rdevice_Generator_Address.html">Address</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure.html">Configure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Dut.html">Dut</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Dut_Gain.html">Gain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Dut_Stime.html">Stime</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator.html">Generator</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Control.html">Control</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Control_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Initialise.html">Initialise</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Initialise_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Initialise_Immediate.html">Immediate</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Switch.html">Switch</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Configure_Generator_Switch_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Preset.html">Preset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Preset_Channel.html">Channel</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_System_Preset_Channel_Exec.html">Exec</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Trace.html">Trace&lt;Window&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Trace_Data.html">Data</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger.html">Trigger&lt;TriggerPort&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence.html">Sequence</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Dtime.html">Dtime</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Holdoff.html">Holdoff</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Holdoff_Time.html">Time</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_IfPower.html">IfPower</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_IfPower_Holdoff.html">Holdoff</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Level.html">Level</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Level_External.html">External&lt;ExternalPort&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Slope.html">Slope</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure_Trigger_Sequence_Source.html">Source</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K18_AmplifierEt_Unit_Angle.html" class="btn btn-neutral float-left" title="Angle" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K30_NoiseFigure_Calculate.html" class="btn btn-neutral float-right" title="Calculate&lt;Window&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

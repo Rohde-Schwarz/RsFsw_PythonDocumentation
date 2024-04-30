@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:PHASe:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:PHASe:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Phase.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

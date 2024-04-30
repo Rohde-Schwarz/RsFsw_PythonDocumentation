@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:RLEVel:VERify[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:POWer:RLEVel:VERify[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Power.RefLevel.Verify.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+BbPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger<tp>[:SEQuence]:LEVel:BBPower
+
+.. code-block:: python
+
+	TRIGger<tp>[:SEQuence]:LEVel:BBPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.Level.BbPower.BbPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

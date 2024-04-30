@@ -1,0 +1,20 @@
+Parameter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PSERvoing:TARGet:PARameter
+
+.. code-block:: python
+
+	[SENSe]:PSERvoing:TARGet:PARameter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pservoing.Target.Parameter.ParameterCls
+	:members:
+	:undoc-members:
+	:noindex:

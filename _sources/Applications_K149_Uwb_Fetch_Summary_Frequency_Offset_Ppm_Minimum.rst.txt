@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:FREQuency:OFFSet:PPM:MINimum
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:FREQuency:OFFSet:PPM:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Frequency.Offset.Ppm.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

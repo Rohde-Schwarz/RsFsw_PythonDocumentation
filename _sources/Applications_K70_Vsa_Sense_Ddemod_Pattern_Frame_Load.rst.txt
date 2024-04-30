@@ -1,0 +1,20 @@
+Load
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:PATTern:FRAMe:LOAD
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PATTern:FRAMe:LOAD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Load.LoadCls
+	:members:
+	:undoc-members:
+	:noindex:

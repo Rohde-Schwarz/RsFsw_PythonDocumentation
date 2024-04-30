@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:PULSe:STATe
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:PULSe:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Pulse.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:EQUalizer[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:EQUalizer[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Equalizer.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

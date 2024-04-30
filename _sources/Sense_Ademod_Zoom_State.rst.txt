@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:ZOOM[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:ZOOM[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Zoom.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

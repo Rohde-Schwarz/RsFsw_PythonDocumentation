@@ -1,0 +1,42 @@
+Rise
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:RISE
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:RISE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Rise.RiseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.timing.rise.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise_StandardDev.rst

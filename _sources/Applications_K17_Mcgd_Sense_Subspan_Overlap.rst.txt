@@ -1,0 +1,37 @@
+Overlap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SUBSpan:OVERlap
+
+.. code-block:: python
+
+	[SENSe]:SUBSpan:OVERlap
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Subspan.Overlap.OverlapCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.sense.subspan.overlap.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Sense_Subspan_Overlap_Carrier.rst

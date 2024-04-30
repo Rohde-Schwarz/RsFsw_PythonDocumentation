@@ -1,0 +1,20 @@
+Vswr
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:MATCh:DUT:IN[:VSWR]
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:MATCh:DUT:IN[:VSWR]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Match.Dut.InputPy.Vswr.VswrCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger<tp>[:SEQuence]:HOLDoff[:TIME]
+
+.. code-block:: python
+
+	TRIGger<tp>[:SEQuence]:HOLDoff[:TIME]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Trigger.Sequence.Holdoff.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

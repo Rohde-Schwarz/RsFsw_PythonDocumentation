@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:SYMBolerror:AVERage
+
+.. code-block:: python
+
+	FETCh:BURSt:SYMBolerror:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.SymbolError.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

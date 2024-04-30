@@ -1,0 +1,20 @@
+Harmonic
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:HARMonic
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:HARMonic
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Correction.Cvl.Harmonic.HarmonicCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+McpFail
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:MCPFail
+
+.. code-block:: python
+
+	FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:MCPFail
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.McpFail.McpFailCls
+	:members:
+	:undoc-members:
+	:noindex:

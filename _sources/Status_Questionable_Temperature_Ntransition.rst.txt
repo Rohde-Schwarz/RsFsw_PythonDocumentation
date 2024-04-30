@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:TEMPerature:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:TEMPerature:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Temperature.Ntransition.NtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

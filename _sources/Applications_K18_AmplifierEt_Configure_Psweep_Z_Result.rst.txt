@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep:Z<n>:RESult
+
+.. code-block:: python
+
+	CONFigure:PSWeep:Z<n>:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.Z.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

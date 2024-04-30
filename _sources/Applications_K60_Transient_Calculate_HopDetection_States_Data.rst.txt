@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:STATes[:DATA]
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:STATes[:DATA]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

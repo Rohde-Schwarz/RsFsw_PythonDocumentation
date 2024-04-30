@@ -1,0 +1,20 @@
+Sctt
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:RPA:KZERo:SCTT
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:RPA:KZERo:SCTT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Rpa.Kzero.Sctt.ScttCls
+	:members:
+	:undoc-members:
+	:noindex:

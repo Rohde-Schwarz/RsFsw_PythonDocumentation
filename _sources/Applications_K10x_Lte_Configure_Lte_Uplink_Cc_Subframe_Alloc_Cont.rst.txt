@@ -1,0 +1,20 @@
+Cont
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc:CONT
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc:CONT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Cont.ContCls
+	:members:
+	:undoc-members:
+	:noindex:

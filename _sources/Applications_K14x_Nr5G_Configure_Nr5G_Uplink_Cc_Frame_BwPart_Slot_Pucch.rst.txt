@@ -1,0 +1,52 @@
+Pucch<Pucch>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.pucch.repcap_pucch_get()
+	driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.pucch.repcap_pucch_set(repcap.Pucch.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:PUCCh<cr>:COPY
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:PUCCh<cr>:COPY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Slot.Pucch.PucchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.pucch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_Copy.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_Dmrs.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_FormatPy.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_Power.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_RbCount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_RbOffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_Scount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch_Soffset.rst

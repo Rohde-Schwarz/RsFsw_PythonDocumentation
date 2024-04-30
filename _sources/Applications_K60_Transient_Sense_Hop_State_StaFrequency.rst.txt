@@ -1,0 +1,40 @@
+StaFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:STATe:STAFrequency
+
+.. code-block:: python
+
+	[SENSe]:HOP:STATe:STAFrequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.State.StaFrequency.StaFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.hop.state.staFrequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Hop_State_StaFrequency_Average.rst
+	Applications_K60_Transient_Sense_Hop_State_StaFrequency_Maximum.rst
+	Applications_K60_Transient_Sense_Hop_State_StaFrequency_Minimum.rst
+	Applications_K60_Transient_Sense_Hop_State_StaFrequency_StandardDev.rst

@@ -1,0 +1,43 @@
+Output<OutputConnector>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr4
+	rc = driver.output.repcap_outputConnector_get()
+	driver.output.repcap_outputConnector_set(repcap.OutputConnector.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.OutputCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.output.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Output_Ademod.rst
+	Output_Diq.rst
+	Output_Ifreq.rst
+	Output_Iqhs.rst
+	Output_State.rst
+	Output_Trigger.rst
+	Output_Uport.rst
+	Output_Video.rst

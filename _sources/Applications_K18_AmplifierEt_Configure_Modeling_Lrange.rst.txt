@@ -1,0 +1,20 @@
+Lrange
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MODeling:LRANge
+
+.. code-block:: python
+
+	CONFigure:MODeling:LRANge
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Modeling.Lrange.LrangeCls
+	:members:
+	:undoc-members:
+	:noindex:

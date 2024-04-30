@@ -1,0 +1,20 @@
+Perror
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:PERRor
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:PERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Perror.PerrorCls
+	:members:
+	:undoc-members:
+	:noindex:

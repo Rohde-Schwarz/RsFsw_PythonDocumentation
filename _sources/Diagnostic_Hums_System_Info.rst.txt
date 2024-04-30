@@ -1,0 +1,20 @@
+Info
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:SYSTem:INFO
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:SYSTem:INFO
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.System.Info.InfoCls
+	:members:
+	:undoc-members:
+	:noindex:

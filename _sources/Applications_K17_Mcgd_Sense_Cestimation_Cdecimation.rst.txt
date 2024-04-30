@@ -1,0 +1,20 @@
+Cdecimation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CESTimation:CDECimation
+
+.. code-block:: python
+
+	[SENSe]:CESTimation:CDECimation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Cestimation.Cdecimation.CdecimationCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Cdco
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod[:DUMMy]:CDCO
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod[:DUMMy]:CDCO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.Dummy.Cdco.CdcoCls
+	:members:
+	:undoc-members:
+	:noindex:

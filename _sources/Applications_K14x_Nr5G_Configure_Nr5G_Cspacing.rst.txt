@@ -1,0 +1,20 @@
+Cspacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:CSPacing
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:CSPacing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Cspacing.CspacingCls
+	:members:
+	:undoc-members:
+	:noindex:

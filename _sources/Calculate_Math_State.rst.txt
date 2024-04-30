@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MATH:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:MATH:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Math.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

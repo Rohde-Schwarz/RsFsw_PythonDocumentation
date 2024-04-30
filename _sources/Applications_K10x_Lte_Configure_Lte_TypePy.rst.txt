@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:TYPE
+
+.. code-block:: python
+
+	CONFigure[:LTE]:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

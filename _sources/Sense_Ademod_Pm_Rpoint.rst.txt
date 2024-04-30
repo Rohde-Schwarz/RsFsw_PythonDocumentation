@@ -1,0 +1,28 @@
+Rpoint
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Pm.Rpoint.RpointCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.ademod.pm.rpoint.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod_Pm_Rpoint_X.rst

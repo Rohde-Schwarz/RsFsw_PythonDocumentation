@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:HOP:FREQuency:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:HOP:FREQuency:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Hop.Frequency.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

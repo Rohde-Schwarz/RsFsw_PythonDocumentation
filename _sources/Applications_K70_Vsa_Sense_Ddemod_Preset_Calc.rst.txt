@@ -1,0 +1,20 @@
+Calc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:PRESet:CALC
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PRESet:CALC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Preset.Calc.CalcCls
+	:members:
+	:undoc-members:
+	:noindex:

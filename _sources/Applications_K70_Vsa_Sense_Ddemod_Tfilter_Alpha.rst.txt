@@ -1,0 +1,20 @@
+Alpha
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:TFILter:ALPHa
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:TFILter:ALPHa
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Tfilter.Alpha.AlphaCls
+	:members:
+	:undoc-members:
+	:noindex:

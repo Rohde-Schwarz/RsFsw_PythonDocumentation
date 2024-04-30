@@ -1,0 +1,20 @@
+Isnumber
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:ISNumber
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:ISNumber
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Display.Window.Subwindow.Isnumber.IsnumberCls
+	:members:
+	:undoc-members:
+	:noindex:

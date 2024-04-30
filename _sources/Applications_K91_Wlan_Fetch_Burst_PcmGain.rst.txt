@@ -1,0 +1,20 @@
+PcmGain
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:PCMGain
+
+.. code-block:: python
+
+	FETCh:BURSt:PCMGain
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.PcmGain.PcmGainCls
+	:members:
+	:undoc-members:
+	:noindex:

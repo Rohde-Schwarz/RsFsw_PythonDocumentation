@@ -1,0 +1,20 @@
+Common
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR:COMMon
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR:COMMon
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Common.CommonCls
+	:members:
+	:undoc-members:
+	:noindex:

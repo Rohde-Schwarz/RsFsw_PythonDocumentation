@@ -1,0 +1,36 @@
+External<ExternalPort>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr3
+	rc = driver.applications.k30NoiseFigure.sense.sweep.egate.level.external.repcap_externalPort_get()
+	driver.applications.k30NoiseFigure.sense.sweep.egate.level.external.repcap_externalPort_set(repcap.ExternalPort.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:LEVel[:EXTernal<1|2|3>]
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:LEVel[:EXTernal<1|2|3>]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Sweep.Egate.Level.External.ExternalCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.sweep.egate.level.external.clone()

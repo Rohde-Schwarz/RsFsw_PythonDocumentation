@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:GAIN:SELected[:RESult]
+
+.. code-block:: python
+
+	FETCh:STABle:GAIN:SELected[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Gain.Selected.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,42 @@
+Top
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:TOP
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:TOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Top.TopCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.power.top.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Power_Top_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Top_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Top_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Top_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Top_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Top_StandardDev.rst

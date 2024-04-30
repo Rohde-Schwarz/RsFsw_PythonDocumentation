@@ -1,0 +1,22 @@
+History
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: DIAGnostic:HUMS:DEVice:HISTory
+	single: DIAGnostic:HUMS:DEVice:HISTory:DELete:ALL
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:DEVice:HISTory
+	DIAGnostic:HUMS:DEVice:HISTory:DELete:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Device.History.HistoryCls
+	:members:
+	:undoc-members:
+	:noindex:

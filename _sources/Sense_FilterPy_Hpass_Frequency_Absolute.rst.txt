@@ -1,0 +1,20 @@
+Absolute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FILTer<n>:HPASs:FREQuency[:ABSolute]
+
+.. code-block:: python
+
+	[SENSe]:FILTer<n>:HPASs:FREQuency[:ABSolute]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Hpass.Frequency.Absolute.AbsoluteCls
+	:members:
+	:undoc-members:
+	:noindex:

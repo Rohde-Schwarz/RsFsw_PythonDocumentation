@@ -1,0 +1,20 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:SPAN
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Frequency.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:

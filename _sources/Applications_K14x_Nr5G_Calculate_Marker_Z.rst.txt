@@ -1,0 +1,37 @@
+Z
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:Z
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:Z
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Z.ZCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.marker.z.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Marker_Z_All.rst

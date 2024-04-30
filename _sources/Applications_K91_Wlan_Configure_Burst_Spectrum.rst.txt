@@ -1,0 +1,32 @@
+Spectrum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Spectrum.SpectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.burst.spectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Burst_Spectrum_Acpr.rst
+	Applications_K91_Wlan_Configure_Burst_Spectrum_Fft.rst
+	Applications_K91_Wlan_Configure_Burst_Spectrum_Flatness.rst
+	Applications_K91_Wlan_Configure_Burst_Spectrum_Mask.rst
+	Applications_K91_Wlan_Configure_Burst_Spectrum_Obwidth.rst

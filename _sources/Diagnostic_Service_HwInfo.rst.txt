@@ -1,0 +1,20 @@
+HwInfo
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:HWINfo
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:HWINfo
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.HwInfo.HwInfoCls
+	:members:
+	:undoc-members:
+	:noindex:

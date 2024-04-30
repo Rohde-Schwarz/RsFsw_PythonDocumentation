@@ -1,0 +1,54 @@
+Slot<Slot>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr0 .. Nr80
+	rc = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.repcap_slot_get()
+	driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.repcap_slot_set(repcap.Slot.Nr0)
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:COPY
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:PRESet
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:COPY
+	CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Slot.SlotCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_AlCount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Allocation.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Atype.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_FormatPy.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_OrSignals.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Paste.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Pucch.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_UccCount.rst

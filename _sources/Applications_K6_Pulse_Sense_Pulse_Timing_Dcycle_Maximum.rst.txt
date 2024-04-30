@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:DCYCle:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:DCYCle:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Dcycle.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

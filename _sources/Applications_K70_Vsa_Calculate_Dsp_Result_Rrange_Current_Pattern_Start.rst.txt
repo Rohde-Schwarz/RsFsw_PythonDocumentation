@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DSP:RESult:RRANge:CURRent:PATTern:STARt
+
+.. code-block:: python
+
+	CALCulate<n>:DSP:RESult:RRANge:CURRent:PATTern:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Rrange.Current.Pattern.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

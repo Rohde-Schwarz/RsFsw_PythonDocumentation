@@ -1,0 +1,20 @@
+Function
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:WINDow<n>]:DETector<t>[:FUNCtion]
+
+.. code-block:: python
+
+	[SENSe][:WINDow<n>]:DETector<t>[:FUNCtion]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Detector.Function.FunctionCls
+	:members:
+	:undoc-members:
+	:noindex:

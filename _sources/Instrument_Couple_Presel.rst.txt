@@ -1,0 +1,20 @@
+Presel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INSTrument:COUPle:PRESel
+
+.. code-block:: python
+
+	INSTrument:COUPle:PRESel
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Presel.PreselCls
+	:members:
+	:undoc-members:
+	:noindex:

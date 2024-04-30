@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:FTIMe:MAXimum
+
+.. code-block:: python
+
+	FETCh:FTIMe:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Ftime.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

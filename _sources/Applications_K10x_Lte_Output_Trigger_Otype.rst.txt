@@ -1,0 +1,20 @@
+Otype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut<up>:TRIGger<tp>:OTYPe
+
+.. code-block:: python
+
+	OUTPut<up>:TRIGger<tp>:OTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Output.Trigger.Otype.OtypeCls
+	:members:
+	:undoc-members:
+	:noindex:

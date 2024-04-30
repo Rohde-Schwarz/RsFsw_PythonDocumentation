@@ -1,0 +1,20 @@
+Lower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:FILTer[:STATe]:GAP<gap>:MANual:LOWer
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:FILTer[:STATe]:GAP<gap>:MANual:LOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.FilterPy.State.Gap.Manual.Lower.LowerCls
+	:members:
+	:undoc-members:
+	:noindex:

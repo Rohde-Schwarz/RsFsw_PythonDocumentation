@@ -1,0 +1,29 @@
+FilterPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.FilterPy.FilterPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.filterPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_FilterPy_Alpha.rst
+	Sense_Power_Achannel_FilterPy_State.rst

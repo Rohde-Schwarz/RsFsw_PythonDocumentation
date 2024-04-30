@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PHASe:RMSPm:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:PHASe:RMSPm:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.RmsPm.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

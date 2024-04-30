@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DPD:AMAM:LEDState
+
+.. code-block:: python
+
+	CONFigure:DPD:AMAM:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Dpd.Amam.LedState.LedStateCls
+	:members:
+	:undoc-members:
+	:noindex:

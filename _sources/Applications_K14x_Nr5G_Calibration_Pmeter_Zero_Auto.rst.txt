@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALibration:PMETer<p>:ZERO:AUTO
+
+.. code-block:: python
+
+	CALibration:PMETer<p>:ZERO:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calibration.Pmeter.Zero.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,37 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:SPAN
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Frequency.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.frequency.span.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Frequency_Span_Full.rst

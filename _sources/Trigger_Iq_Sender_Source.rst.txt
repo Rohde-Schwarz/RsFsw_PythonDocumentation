@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger:IQ:SENDer:SOURce
+
+.. code-block:: python
+
+	TRIGger:IQ:SENDer:SOURce
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Iq.Sender.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MSRA:CAPTure:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:MSRA:CAPTure:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Msra.Capture.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

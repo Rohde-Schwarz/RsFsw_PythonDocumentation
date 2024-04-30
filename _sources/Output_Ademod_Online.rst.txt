@@ -1,0 +1,31 @@
+Online
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ademod.Online.OnlineCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.output.ademod.online.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Output_Ademod_Online_Af.rst
+	Output_Ademod_Online_Phones.rst
+	Output_Ademod_Online_Source.rst
+	Output_Ademod_Online_State.rst

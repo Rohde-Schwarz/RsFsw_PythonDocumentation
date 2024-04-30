@@ -1,0 +1,20 @@
+Ncorrection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:OOPower:NCORrection
+
+.. code-block:: python
+
+	[SENSe][:LTE]:OOPower:NCORrection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.OoPower.Ncorrection.NcorrectionCls
+	:members:
+	:undoc-members:
+	:noindex:

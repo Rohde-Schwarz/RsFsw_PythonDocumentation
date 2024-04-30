@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:GAIN[:VALue]
+
+.. code-block:: python
+
+	INPut:GAIN[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.InputPy.Gain.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

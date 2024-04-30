@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:FREQuency:OFFSet
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Continuous
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:CONTinuous
+
+.. code-block:: python
+
+	INITiate:CONTinuous
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Initiate.Continuous.ContinuousCls
+	:members:
+	:undoc-members:
+	:noindex:

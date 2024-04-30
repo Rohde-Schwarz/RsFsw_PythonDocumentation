@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:FULLscale:AUTO
+
+.. code-block:: python
+
+	INPut:IQ:FULLscale:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Fullscale.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

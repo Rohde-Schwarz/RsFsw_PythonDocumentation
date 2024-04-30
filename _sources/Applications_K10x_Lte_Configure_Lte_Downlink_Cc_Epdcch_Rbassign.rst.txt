@@ -1,0 +1,20 @@
+Rbassign
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:EPDCch:RBASsign
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:EPDCch:RBASsign
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Epdcch.Rbassign.RbassignCls
+	:members:
+	:undoc-members:
+	:noindex:

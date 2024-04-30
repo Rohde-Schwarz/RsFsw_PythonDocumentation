@@ -1,0 +1,20 @@
+Apackets
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:PACKet:DATA:DATA:LENGth:APACkets
+
+.. code-block:: python
+
+	FETCh<n>:PACKet:DATA:DATA:LENGth:APACkets
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Data.Length.Apackets.ApacketsCls
+	:members:
+	:undoc-members:
+	:noindex:

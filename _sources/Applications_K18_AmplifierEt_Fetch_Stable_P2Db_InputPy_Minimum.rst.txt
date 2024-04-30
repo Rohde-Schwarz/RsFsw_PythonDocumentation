@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:P2DB:IN:MINimum
+
+.. code-block:: python
+
+	FETCh:STABle:P2DB:IN:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.P2Db.InputPy.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

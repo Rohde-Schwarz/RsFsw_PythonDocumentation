@@ -1,0 +1,20 @@
+Fstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:FSTate
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:FSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Fstate.FstateCls
+	:members:
+	:undoc-members:
+	:noindex:

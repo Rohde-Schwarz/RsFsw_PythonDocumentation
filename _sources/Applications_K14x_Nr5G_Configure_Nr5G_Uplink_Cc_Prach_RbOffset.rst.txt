@@ -1,0 +1,20 @@
+RbOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:RBOFfset
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:RBOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Prach.RbOffset.RbOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

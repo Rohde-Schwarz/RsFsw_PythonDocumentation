@@ -1,0 +1,20 @@
+Duration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TDOMain:X[:SCALe]:DURation
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TDOMain:X[:SCALe]:DURation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Tdomain.X.Scale.Duration.DurationCls
+	:members:
+	:undoc-members:
+	:noindex:

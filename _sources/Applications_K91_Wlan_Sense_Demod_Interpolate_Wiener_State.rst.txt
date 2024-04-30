@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:INTerpolate:WIENer:STATe
+
+.. code-block:: python
+
+	[SENSe]:DEMod:INTerpolate:WIENer:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Interpolate.Wiener.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

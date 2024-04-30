@@ -1,0 +1,34 @@
+Demod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.demod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Demod_Cestimation.rst
+	Applications_K91_Wlan_Sense_Demod_Data.rst
+	Applications_K91_Wlan_Sense_Demod_Fft.rst
+	Applications_K91_Wlan_Sense_Demod_FilterPy.rst
+	Applications_K91_Wlan_Sense_Demod_FormatPy.rst
+	Applications_K91_Wlan_Sense_Demod_Interpolate.rst
+	Applications_K91_Wlan_Sense_Demod_TxArea.rst

@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:TIME:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:TIME:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Time.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

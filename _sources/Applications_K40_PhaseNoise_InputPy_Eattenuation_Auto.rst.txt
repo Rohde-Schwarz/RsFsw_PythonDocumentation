@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:EATTenuation:AUTO
+
+.. code-block:: python
+
+	INPut:EATTenuation:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.InputPy.Eattenuation.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

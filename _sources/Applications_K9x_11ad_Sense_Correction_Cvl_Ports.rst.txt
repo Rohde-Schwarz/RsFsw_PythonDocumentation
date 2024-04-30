@@ -1,0 +1,20 @@
+Ports
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:PORTs
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:PORTs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Correction.Cvl.Ports.PortsCls
+	:members:
+	:undoc-members:
+	:noindex:

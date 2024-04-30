@@ -1,0 +1,20 @@
+HfOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:HFOFfset
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:HFOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsBlock.HfOffset.HfOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

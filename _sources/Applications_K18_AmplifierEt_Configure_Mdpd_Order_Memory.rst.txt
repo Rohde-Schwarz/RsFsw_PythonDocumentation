@@ -1,0 +1,20 @@
+Memory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MDPD:ORDer:MEMory
+
+.. code-block:: python
+
+	CONFigure:MDPD:ORDer:MEMory
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.Order.Memory.MemoryCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Slot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:FRAMe:SLOT
+
+.. code-block:: python
+
+	[SENSe]:NR5G:FRAMe:SLOT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Frame.Slot.SlotCls
+	:members:
+	:undoc-members:
+	:noindex:

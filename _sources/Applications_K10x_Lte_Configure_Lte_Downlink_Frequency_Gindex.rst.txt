@@ -1,0 +1,20 @@
+Gindex
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL:FREQuency:GINDex
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL:FREQuency:GINDex
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Frequency.Gindex.GindexCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:TOI:RESult:MAXimum
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:TOI:RESult:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Toi.Result.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

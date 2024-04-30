@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:AVGFm:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:AVGFm:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.AvgFm.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

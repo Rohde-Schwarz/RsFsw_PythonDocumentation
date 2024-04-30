@@ -1,0 +1,31 @@
+Demodulation
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Demodulation.DemodulationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.demodulation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Demodulation_Continuous.rst
+	Calculate_Marker_Function_Demodulation_Holdoff.rst
+	Calculate_Marker_Function_Demodulation_Select.rst
+	Calculate_Marker_Function_Demodulation_State.rst

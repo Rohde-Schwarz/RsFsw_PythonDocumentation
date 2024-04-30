@@ -1,0 +1,20 @@
+Scd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:FORMat:SCD
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:FORMat:SCD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.FormatPy.Scd.ScdCls
+	:members:
+	:undoc-members:
+	:noindex:

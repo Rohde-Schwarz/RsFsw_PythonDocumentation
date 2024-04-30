@@ -1,0 +1,20 @@
+BwpCount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPCount
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwpCount.BwpCountCls
+	:members:
+	:undoc-members:
+	:noindex:

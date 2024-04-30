@@ -1,0 +1,20 @@
+Icon
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:ICON
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:ICON
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Icon.IconCls
+	:members:
+	:undoc-members:
+	:noindex:

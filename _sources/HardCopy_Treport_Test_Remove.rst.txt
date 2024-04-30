@@ -1,0 +1,38 @@
+Remove
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:TEST:REMove
+
+.. code-block:: python
+
+	HCOPy:TREPort:TEST:REMove
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Test.Remove.RemoveCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.test.remove.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Test_Remove_All.rst
+	HardCopy_Treport_Test_Remove_Selected.rst

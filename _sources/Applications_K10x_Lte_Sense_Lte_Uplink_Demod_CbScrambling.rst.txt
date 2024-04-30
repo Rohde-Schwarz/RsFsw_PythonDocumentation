@@ -1,0 +1,20 @@
+CbScrambling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:CBSCrambling
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:CBSCrambling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.CbScrambling.CbScramblingCls
+	:members:
+	:undoc-members:
+	:noindex:

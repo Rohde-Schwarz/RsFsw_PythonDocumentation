@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:X
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Calculate.Marker.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

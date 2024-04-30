@@ -1,0 +1,48 @@
+Configure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_AmPm.rst
+	Applications_K18_AmplifierEt_Configure_CfReduction.rst
+	Applications_K18_AmplifierEt_Configure_Ddpd.rst
+	Applications_K18_AmplifierEt_Configure_Dpd.rst
+	Applications_K18_AmplifierEt_Configure_Dut.rst
+	Applications_K18_AmplifierEt_Configure_Equalizer.rst
+	Applications_K18_AmplifierEt_Configure_Fdomain.rst
+	Applications_K18_AmplifierEt_Configure_FrSpan.rst
+	Applications_K18_AmplifierEt_Configure_Generator.rst
+	Applications_K18_AmplifierEt_Configure_Gmp.rst
+	Applications_K18_AmplifierEt_Configure_Hammerstein.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd.rst
+	Applications_K18_AmplifierEt_Configure_Modeling.rst
+	Applications_K18_AmplifierEt_Configure_Pae.rst
+	Applications_K18_AmplifierEt_Configure_Power.rst
+	Applications_K18_AmplifierEt_Configure_Psweep.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal.rst
+	Applications_K18_AmplifierEt_Configure_Result.rst
+	Applications_K18_AmplifierEt_Configure_Settings.rst
+	Applications_K18_AmplifierEt_Configure_Signal.rst
+	Applications_K18_AmplifierEt_Configure_Sync.rst

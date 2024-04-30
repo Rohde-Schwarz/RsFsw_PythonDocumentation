@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:STESt:RESult
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:STESt:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Stest.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

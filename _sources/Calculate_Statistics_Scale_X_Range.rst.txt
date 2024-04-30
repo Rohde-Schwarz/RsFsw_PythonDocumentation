@@ -1,0 +1,20 @@
+Range
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:SCALe:X:RANGe
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:SCALe:X:RANGe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Scale.X.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:

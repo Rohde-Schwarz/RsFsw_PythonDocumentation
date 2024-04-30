@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PTABle:AMAM:CWIDth:MINimum:Y[:RESult]
+
+.. code-block:: python
+
+	FETCh:PTABle:AMAM:CWIDth:MINimum:Y[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.Amam.Cwidth.Minimum.Y.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

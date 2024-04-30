@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:CURRent:SEQuence:RESult
+
+.. code-block:: python
+
+	SOURce:CURRent:SEQuence:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Current.Sequence.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

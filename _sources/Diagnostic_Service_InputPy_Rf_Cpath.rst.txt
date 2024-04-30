@@ -1,0 +1,20 @@
+Cpath
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:RF:CPATh
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:RF:CPATh
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Rf.Cpath.CpathCls
+	:members:
+	:undoc-members:
+	:noindex:

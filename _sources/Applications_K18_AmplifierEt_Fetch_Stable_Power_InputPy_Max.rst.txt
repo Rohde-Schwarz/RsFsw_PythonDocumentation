@@ -1,0 +1,32 @@
+Max
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Power.InputPy.Max.MaxCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.stable.power.inputPy.max.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Stable_Power_InputPy_Max_Average.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Power_InputPy_Max_Maximum.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Power_InputPy_Max_Minimum.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Power_InputPy_Max_Selected.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Power_InputPy_Max_StDeviation.rst

@@ -1,0 +1,40 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k70Vsa.display.window.repcap_window_get()
+	driver.applications.k70Vsa.display.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.display.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Display_Window_Item.rst
+	Applications_K70_Vsa_Display_Window_Prate.rst
+	Applications_K70_Vsa_Display_Window_Size.rst
+	Applications_K70_Vsa_Display_Window_State.rst
+	Applications_K70_Vsa_Display_Window_Trace.rst

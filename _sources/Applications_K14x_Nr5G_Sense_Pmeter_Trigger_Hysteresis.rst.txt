@@ -1,0 +1,20 @@
+Hysteresis
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:TRIGger:HYSTeresis
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:TRIGger:HYSTeresis
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Pmeter.Trigger.Hysteresis.HysteresisCls
+	:members:
+	:undoc-members:
+	:noindex:

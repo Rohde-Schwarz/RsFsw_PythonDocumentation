@@ -1,0 +1,20 @@
+RfPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger<tp>[:SEQuence]:LEVel:RFPower
+
+.. code-block:: python
+
+	TRIGger<tp>[:SEQuence]:LEVel:RFPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.Level.RfPower.RfPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

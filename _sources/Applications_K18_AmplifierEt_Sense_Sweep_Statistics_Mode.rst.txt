@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:STATistics:MODE
+
+.. code-block:: python
+
+	[SENSe]:SWEep:STATistics:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Sweep.Statistics.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

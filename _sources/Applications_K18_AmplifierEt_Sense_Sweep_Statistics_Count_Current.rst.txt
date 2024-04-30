@@ -1,0 +1,20 @@
+Current
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:STATistics:COUNt:CURRent
+
+.. code-block:: python
+
+	[SENSe]:SWEep:STATistics:COUNt:CURRent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Sweep.Statistics.Count.Current.CurrentCls
+	:members:
+	:undoc-members:
+	:noindex:

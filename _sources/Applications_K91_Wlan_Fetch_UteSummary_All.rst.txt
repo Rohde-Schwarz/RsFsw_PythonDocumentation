@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:UTESummary:ALL
+
+.. code-block:: python
+
+	FETCh:UTESummary:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.UteSummary.All.AllCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:CFERror:MAXimum
+
+.. code-block:: python
+
+	FETCh:CFERror:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.CfError.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Trace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:TRACe
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:TRACe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Calculate.Marker.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:

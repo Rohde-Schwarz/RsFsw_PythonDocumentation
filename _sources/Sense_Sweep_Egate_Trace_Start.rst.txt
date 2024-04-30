@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:TRACe<t>:STARt<gr>
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:TRACe<t>:STARt<gr>
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Trace.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

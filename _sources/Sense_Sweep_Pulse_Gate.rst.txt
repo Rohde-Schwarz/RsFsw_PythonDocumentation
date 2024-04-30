@@ -1,0 +1,20 @@
+Gate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:PULSe:GATE
+
+.. code-block:: python
+
+	[SENSe]:SWEep:PULSe:GATE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Pulse.Gate.GateCls
+	:members:
+	:undoc-members:
+	:noindex:

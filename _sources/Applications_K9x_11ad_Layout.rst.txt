@@ -1,0 +1,34 @@
+Layout
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Layout.LayoutCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.layout.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Layout_Add.rst
+	Applications_K9x_11ad_Layout_Catalog.rst
+	Applications_K9x_11ad_Layout_Identify.rst
+	Applications_K9x_11ad_Layout_Move.rst
+	Applications_K9x_11ad_Layout_Remove.rst
+	Applications_K9x_11ad_Layout_Replace.rst
+	Applications_K9x_11ad_Layout_Splitter.rst

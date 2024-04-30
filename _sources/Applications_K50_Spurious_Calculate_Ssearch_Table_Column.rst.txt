@@ -1,0 +1,20 @@
+Column
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate:SSEarch:TABLe:COLumn
+
+.. code-block:: python
+
+	CALCulate:SSEarch:TABLe:COLumn
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Calculate.Ssearch.Table.Column.ColumnCls
+	:members:
+	:undoc-members:
+	:noindex:

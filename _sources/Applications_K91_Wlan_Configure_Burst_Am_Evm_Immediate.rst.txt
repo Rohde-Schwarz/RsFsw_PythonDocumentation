@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:AM:EVM[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:AM:EVM[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Am.Evm.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

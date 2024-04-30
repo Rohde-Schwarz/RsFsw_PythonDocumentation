@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:RF:CAPMode:IQ:SRATe
+
+.. code-block:: python
+
+	INPut:RF:CAPMode:IQ:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.InputPy.Rf.CapMode.Iq.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

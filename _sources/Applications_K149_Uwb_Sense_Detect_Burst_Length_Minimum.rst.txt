@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:BURSt:LENGth:MINimum
+
+.. code-block:: python
+
+	[SENSe]:DETect:BURSt:LENGth:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.Burst.Length.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

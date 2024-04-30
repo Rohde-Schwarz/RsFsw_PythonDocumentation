@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PHASe:AVGPm:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:HOP:PHASe:AVGPm:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.AvgPm.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

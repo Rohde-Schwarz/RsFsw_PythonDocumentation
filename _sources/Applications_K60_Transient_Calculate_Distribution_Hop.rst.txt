@@ -1,0 +1,34 @@
+Hop
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Hop.HopCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.distribution.hop.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Distribution_Hop_FmSettling.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop_Frequency.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop_Phase.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop_PmSettling.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop_Power.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop_State.rst
+	Applications_K60_Transient_Calculate_Distribution_Hop_Timing.rst

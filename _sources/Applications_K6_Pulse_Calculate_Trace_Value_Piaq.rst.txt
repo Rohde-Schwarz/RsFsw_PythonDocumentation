@@ -1,0 +1,20 @@
+Piaq
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRACe<t>[:VALue]:PIAQ
+
+.. code-block:: python
+
+	CALCulate<n>:TRACe<t>[:VALue]:PIAQ
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trace.Value.Piaq.PiaqCls
+	:members:
+	:undoc-members:
+	:noindex:

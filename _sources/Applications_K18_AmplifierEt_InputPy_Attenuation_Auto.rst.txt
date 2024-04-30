@@ -1,0 +1,37 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:ATTenuation:AUTO
+
+.. code-block:: python
+
+	INPut:ATTenuation:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.InputPy.Attenuation.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.inputPy.attenuation.auto.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_InputPy_Attenuation_Auto_Mode.rst

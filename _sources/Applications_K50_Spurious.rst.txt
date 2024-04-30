@@ -1,0 +1,44 @@
+K50_Spurious
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.K50_SpuriousCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50_Spurious.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Calculate.rst
+	Applications_K50_Spurious_Calibration.rst
+	Applications_K50_Spurious_Display.rst
+	Applications_K50_Spurious_Fetch.rst
+	Applications_K50_Spurious_FormatPy.rst
+	Applications_K50_Spurious_Initiate.rst
+	Applications_K50_Spurious_InputPy.rst
+	Applications_K50_Spurious_Layout.rst
+	Applications_K50_Spurious_MassMemory.rst
+	Applications_K50_Spurious_Output.rst
+	Applications_K50_Spurious_Read.rst
+	Applications_K50_Spurious_Sense.rst
+	Applications_K50_Spurious_System.rst
+	Applications_K50_Spurious_Trace.rst
+	Applications_K50_Spurious_Trigger.rst
+	Applications_K50_Spurious_TriggerInvoke.rst
+	Applications_K50_Spurious_Unit.rst

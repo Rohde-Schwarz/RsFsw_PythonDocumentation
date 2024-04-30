@@ -1,0 +1,20 @@
+Measurement
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:MEASurement
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:MEASurement
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.Measurement.MeasurementCls
+	:members:
+	:undoc-members:
+	:noindex:

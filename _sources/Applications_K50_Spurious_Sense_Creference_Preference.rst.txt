@@ -1,0 +1,20 @@
+Preference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CREFerence:PREFerence
+
+.. code-block:: python
+
+	[SENSe]:CREFerence:PREFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Preference.PreferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

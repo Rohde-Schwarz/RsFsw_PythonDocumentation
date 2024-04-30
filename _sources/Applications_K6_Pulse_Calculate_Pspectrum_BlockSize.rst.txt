@@ -1,0 +1,20 @@
+BlockSize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSPectrum:BLOCksize
+
+.. code-block:: python
+
+	CALCulate<n>:PSPectrum:BLOCksize
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.BlockSize.BlockSizeCls
+	:members:
+	:undoc-members:
+	:noindex:

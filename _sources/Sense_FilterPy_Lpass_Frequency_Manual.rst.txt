@@ -1,0 +1,20 @@
+Manual
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FILTer<n>:LPASs:FREQuency:MANual
+
+.. code-block:: python
+
+	[SENSe]:FILTer<n>:LPASs:FREQuency:MANual
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Lpass.Frequency.Manual.ManualCls
+	:members:
+	:undoc-members:
+	:noindex:

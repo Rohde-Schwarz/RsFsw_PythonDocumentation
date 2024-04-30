@@ -1,0 +1,20 @@
+Scount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:FRAMe:SCOunt
+
+.. code-block:: python
+
+	[SENSe]:NR5G:FRAMe:SCOunt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Frame.Scount.ScountCls
+	:members:
+	:undoc-members:
+	:noindex:

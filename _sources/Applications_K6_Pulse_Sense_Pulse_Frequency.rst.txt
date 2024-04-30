@@ -1,0 +1,33 @@
+Frequency
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Crate.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Perror.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Point.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_PpFrequency.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Rerror.rst

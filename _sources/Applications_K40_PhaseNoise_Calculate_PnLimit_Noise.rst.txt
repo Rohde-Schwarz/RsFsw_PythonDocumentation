@@ -1,0 +1,20 @@
+Noise
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PNLimit:NOISe
+
+.. code-block:: python
+
+	CALCulate<n>:PNLimit:NOISe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.PnLimit.Noise.NoiseCls
+	:members:
+	:undoc-members:
+	:noindex:

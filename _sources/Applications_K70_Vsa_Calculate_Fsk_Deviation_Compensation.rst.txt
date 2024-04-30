@@ -1,0 +1,20 @@
+Compensation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:FSK:DEViation:COMPensation
+
+.. code-block:: python
+
+	CALCulate<n>:FSK:DEViation:COMPensation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Fsk.Deviation.Compensation.CompensationCls
+	:members:
+	:undoc-members:
+	:noindex:

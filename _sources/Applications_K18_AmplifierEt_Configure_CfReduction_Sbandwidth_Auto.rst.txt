@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CFReduction:SBANdwidth:AUTO
+
+.. code-block:: python
+
+	CONFigure:CFReduction:SBANdwidth:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.CfReduction.Sbandwidth.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

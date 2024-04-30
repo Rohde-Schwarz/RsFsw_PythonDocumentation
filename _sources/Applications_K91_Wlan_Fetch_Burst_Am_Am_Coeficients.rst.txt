@@ -1,0 +1,20 @@
+Coeficients
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:AM:AM:COEFicients
+
+.. code-block:: python
+
+	FETCh:BURSt:AM:AM:COEFicients
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Am.Am.Coeficients.CoeficientsCls
+	:members:
+	:undoc-members:
+	:noindex:

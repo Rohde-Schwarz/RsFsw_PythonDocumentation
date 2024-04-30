@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:SRATe:AUTO
+
+.. code-block:: python
+
+	TRACe:IQ:SRATe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Trace.Iq.SymbolRate.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

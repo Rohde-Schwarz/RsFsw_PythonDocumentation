@@ -1,0 +1,37 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:SQUelch:LEVel
+
+.. code-block:: python
+
+	[SENSe]:DEMod:SQUelch:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Demod.Squelch.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.demod.squelch.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Demod_Squelch_Level_Absolute.rst

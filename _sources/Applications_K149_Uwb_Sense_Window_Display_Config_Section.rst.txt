@@ -1,0 +1,20 @@
+Section
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SENSe[:WINDow<n>]:DISPlay:CONFig:SECTion
+
+.. code-block:: python
+
+	SENSe[:WINDow<n>]:DISPlay:CONFig:SECTion
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.Config.Section.SectionCls
+	:members:
+	:undoc-members:
+	:noindex:

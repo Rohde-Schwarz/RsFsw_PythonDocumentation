@@ -1,0 +1,20 @@
+Sequence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DPD:SEQuence
+
+.. code-block:: python
+
+	CONFigure:DPD:SEQuence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Dpd.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:

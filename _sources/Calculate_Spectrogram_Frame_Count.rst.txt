@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:SPECtrogram:FRAMe:COUNt
+
+.. code-block:: python
+
+	CALCulate<n>:SPECtrogram:FRAMe:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.Frame.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

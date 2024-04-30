@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TypePy &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Select" href="Applications_K91_Wlan_Configure_Wlan_Gtime_Select.html" />
+    <link rel="prev" title="Auto" href="Applications_K91_Wlan_Configure_Wlan_Gtime_Auto.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Calibration.html">Calibration</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="Applications_K91_Wlan_Configure.html">Configure</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="Applications_K91_Wlan_Configure_Burst.html">Burst</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K91_Wlan_Configure_Power.html">Power</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K91_Wlan_Configure_Standard.html">Standard</a></li>
+<li class="toctree-l5 current"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan.html">Wlan</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_AntMatrix.html">AntMatrix</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_DutConfig.html">DutConfig</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Extension.html">Extension</a></li>
+<li class="toctree-l6 current"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Gtime.html">Gtime</a><ul class="current">
+<li class="toctree-l7 current"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Gtime_Auto.html">Auto</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Gtime_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Mimo.html">Mimo</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Payload.html">Payload</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_PvError.html">PvError</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Rsync.html">Rsync</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_RuConfig.html">RuConfig</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Smapping.html">Smapping</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Sspacing.html">Sspacing</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K91_Wlan_Configure_Wlan_Stbc.html">Stbc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Fetch.html">Fetch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Output.html">Output</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K91_Wlan_Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+          <li><a href="Applications_K91_Wlan.html">K91_Wlan</a> &raquo;</li>
+          <li><a href="Applications_K91_Wlan_Configure.html">Configure</a> &raquo;</li>
+          <li><a href="Applications_K91_Wlan_Configure_Wlan.html">Wlan</a> &raquo;</li>
+          <li><a href="Applications_K91_Wlan_Configure_Wlan_Gtime.html">Gtime</a> &raquo;</li>
+          <li><a href="Applications_K91_Wlan_Configure_Wlan_Gtime_Auto.html">Auto</a> &raquo;</li>
+      <li>TypePy</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K91_Wlan_Configure_Wlan_Gtime_Auto_TypePy.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="typepy">
+<h1>TypePy<a class="headerlink" href="#typepy" title="Permalink to this headline"></a></h1>
+<p class="rubric">SCPI Command :</p>
+<div class="highlight-python notranslate" id="index-0"><div class="highlight"><pre><span></span><span class="n">CONFigure</span><span class="p">:</span><span class="n">WLAN</span><span class="p">:</span><span class="n">GTIMe</span><span class="p">:</span><span class="n">AUTO</span><span class="p">:</span><span class="n">TYPE</span>
+</pre></div>
+</div>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">TypePyCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K91_Wlan/Configure/Wlan/Gtime/Auto/TypePy.html#TypePyCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>TypePy commands group definition. 1 total commands, 0 Subgroups, 1 group commands</p>
+<dl class="py method">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">RsFsw.enums.GuardInterval</span></span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K91_Wlan/Configure/Wlan/Gtime/Auto/TypePy.html#TypePyCls.get"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CONFigure:WLAN:GTIMe:AUTO:TYPE</span>
+<span class="n">value</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">GuardInterval</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k91Wlan</span><span class="o">.</span><span class="n">configure</span><span class="o">.</span><span class="n">wlan</span><span class="o">.</span><span class="n">gtime</span><span class="o">.</span><span class="n">auto</span><span class="o">.</span><span class="n">typePy</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>This remote control command specifies which PPDUs are analyzed depending on their guard length if automatic detection is
+used (CONF:WLAN:GTIM:AUTO ON, see method RsFsw.Applications.K91_Wlan.Configure.Wlan.Gtime.Auto.set) . Note that this
+command is maintained for compatibility reasons only. Use method RsFsw.Applications.K91_Wlan.Configure.Wlan.Gtime.Select.
+set for new remote control programs. Is available for IEEE 802.11ac, ax, n, be standards only. Note: On previous Rohde &amp;
+Schwarz signal and spectrum analyzers, this command configured both the guard interval type and the channel bandwidth. On
+the FSW, this command only configures the guard type. The channel bandwidth of the PPDU to be measured must be configured
+separately using the [SENSe:]BANDwidth:CHANnel:AUTO:TYPE command.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">return</dt>
+<dd class="field-odd"><p>guard_interval: FBURst The Guard interval length of the first PPDU is detected and subsequent PPDUs are analyzed only if they have the same length (corresponds to ‘Auto, same type as first PPDU’) ALL All PPDUs are analyzed regardless of their guard length (corresponds to ‘Auto, individually for each PPDU’) . MS Only PPDUs with short guard interval length are analyzed. (corresponds to ‘Meas only Short’ in manual operation; MN8 | MN16 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) ML Only PPDUs with long guard interval length are analyzed. (corresponds to ‘Meas only Long’ in manual operation; ML16 | ML32 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) DS All PPDUs are demodulated assuming short guard interval length. (corresponds to ‘Demod all as short’ in manual operation; DN8 | DN16 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) DL All PPDUs are demodulated assuming long guard interval length. (corresponds to ‘Demod all as long’ in manual operation; DL16 | DL32 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) L1G1 Only HE/EHT PPDUs with one guard interval (GI) and one long training field (LTF) with the specified length are analyzed. Not available for HE trigger-based PPDUs. (For IEEE 802.11ax, be only; corresponds to ‘Meas only 4.0us (1x HE-LTF + 1x GI1 = 3.2 + 0.8 us) ‘ in manual operation.) L1G2 Only HE/EHT PPDUs with one long training field (LTF) and two guard intervals (GI) with the specified length are analyzed. For HE trigger-based PPDUs only. (For IEEE 802.11ax, be only; corresponds to ‘Meas only 4.8us (1x HE-LTF + 2x GI1 = 3.2 + 1.6us) ‘ in manual operation.) L2G1 Only HE/EHT PPDUs with two long training field (LTF) and one guard interval (GI) with the specified length are analyzed. (For IEEE 802.11ax, be only; corresponds to ‘Meas only 7.2us (2x HE-LTF + 1x GI1 = 6.4 + 0.8us) ‘ in manual operation.) L2G2 Only HE/EHT PPDUs with two long training fields (LTF) and two guard intervals (GI) with the specified length are analyzed. (For IEEE 802.11ax,be only; corresponds to ‘Meas only 8.0us (2x HE-LTF + 2x GI1 = 6.4 + 1.6us) ‘ in manual operation.) L4G1 Only HE/EHT PPDUs with four long training fields (LTF) and one guard interval (GI) with the specified length are analyzed. (For IEEE 802.11ax,be only; corresponds to ‘Meas only 13.6us (4x HE-LTF + 1x GI1 = 12.8 + 0.8us) ‘ in manual operation.) L4G4 Only HE/EHT PPDUs with four guard intervals (GI) and four long training fields (LTF) with the specified length are analyzed. (For IEEE 802.11ax,be only; corresponds to ‘Meas only 16.0us (4x HE-LTF + 4x GI1 = 12.8 + 3.2us) ‘ in manual operation.)</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">guard_interval</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">RsFsw.enums.GuardInterval</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K91_Wlan/Configure/Wlan/Gtime/Auto/TypePy.html#TypePyCls.set"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CONFigure:WLAN:GTIMe:AUTO:TYPE</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k91Wlan</span><span class="o">.</span><span class="n">configure</span><span class="o">.</span><span class="n">wlan</span><span class="o">.</span><span class="n">gtime</span><span class="o">.</span><span class="n">auto</span><span class="o">.</span><span class="n">typePy</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">guard_interval</span> <span class="o">=</span> <span class="n">enums</span><span class="o">.</span><span class="n">GuardInterval</span><span class="o">.</span><span class="n">ALL</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>This remote control command specifies which PPDUs are analyzed depending on their guard length if automatic detection is
+used (CONF:WLAN:GTIM:AUTO ON, see method RsFsw.Applications.K91_Wlan.Configure.Wlan.Gtime.Auto.set) . Note that this
+command is maintained for compatibility reasons only. Use method RsFsw.Applications.K91_Wlan.Configure.Wlan.Gtime.Select.
+set for new remote control programs. Is available for IEEE 802.11ac, ax, n, be standards only. Note: On previous Rohde &amp;
+Schwarz signal and spectrum analyzers, this command configured both the guard interval type and the channel bandwidth. On
+the FSW, this command only configures the guard type. The channel bandwidth of the PPDU to be measured must be configured
+separately using the [SENSe:]BANDwidth:CHANnel:AUTO:TYPE command.</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">param guard_interval</dt>
+<dd class="field-odd"><p>FBURst The Guard interval length of the first PPDU is detected and subsequent PPDUs are analyzed only if they have the same length (corresponds to ‘Auto, same type as first PPDU’) ALL All PPDUs are analyzed regardless of their guard length (corresponds to ‘Auto, individually for each PPDU’) . MS Only PPDUs with short guard interval length are analyzed. (corresponds to ‘Meas only Short’ in manual operation; MN8 | MN16 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) ML Only PPDUs with long guard interval length are analyzed. (corresponds to ‘Meas only Long’ in manual operation; ML16 | ML32 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) DS All PPDUs are demodulated assuming short guard interval length. (corresponds to ‘Demod all as short’ in manual operation; DN8 | DN16 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) DL All PPDUs are demodulated assuming long guard interval length. (corresponds to ‘Demod all as long’ in manual operation; DL16 | DL32 parameters in previous Rohde &amp; Schwarz signal and spectrum analyzers) L1G1 Only HE/EHT PPDUs with one guard interval (GI) and one long training field (LTF) with the specified length are analyzed. Not available for HE trigger-based PPDUs. (For IEEE 802.11ax, be only; corresponds to ‘Meas only 4.0us (1x HE-LTF + 1x GI1 = 3.2 + 0.8 us) ‘ in manual operation.) L1G2 Only HE/EHT PPDUs with one long training field (LTF) and two guard intervals (GI) with the specified length are analyzed. For HE trigger-based PPDUs only. (For IEEE 802.11ax, be only; corresponds to ‘Meas only 4.8us (1x HE-LTF + 2x GI1 = 3.2 + 1.6us) ‘ in manual operation.) L2G1 Only HE/EHT PPDUs with two long training field (LTF) and one guard interval (GI) with the specified length are analyzed. (For IEEE 802.11ax, be only; corresponds to ‘Meas only 7.2us (2x HE-LTF + 1x GI1 = 6.4 + 0.8us) ‘ in manual operation.) L2G2 Only HE/EHT PPDUs with two long training fields (LTF) and two guard intervals (GI) with the specified length are analyzed. (For IEEE 802.11ax,be only; corresponds to ‘Meas only 8.0us (2x HE-LTF + 2x GI1 = 6.4 + 1.6us) ‘ in manual operation.) L4G1 Only HE/EHT PPDUs with four long training fields (LTF) and one guard interval (GI) with the specified length are analyzed. (For IEEE 802.11ax,be only; corresponds to ‘Meas only 13.6us (4x HE-LTF + 1x GI1 = 12.8 + 0.8us) ‘ in manual operation.) L4G4 Only HE/EHT PPDUs with four guard intervals (GI) and four long training fields (LTF) with the specified length are analyzed. (For IEEE 802.11ax,be only; corresponds to ‘Meas only 16.0us (4x HE-LTF + 4x GI1 = 12.8 + 3.2us) ‘ in manual operation.)</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K91_Wlan_Configure_Wlan_Gtime_Auto.html" class="btn btn-neutral float-left" title="Auto" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K91_Wlan_Configure_Wlan_Gtime_Select.html" class="btn btn-neutral float-right" title="Select" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

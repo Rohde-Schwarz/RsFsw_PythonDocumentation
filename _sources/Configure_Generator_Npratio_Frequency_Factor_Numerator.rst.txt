@@ -1,0 +1,20 @@
+Numerator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:FREQuency[:FACTor]:NUMerator
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:FREQuency[:FACTor]:NUMerator
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Frequency.Factor.Numerator.NumeratorCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:CRESt:MINimum
+
+.. code-block:: python
+
+	FETCh[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:CRESt:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.Crest.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Range
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:MC:RANGe
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:MC:RANGe
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Mc.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:

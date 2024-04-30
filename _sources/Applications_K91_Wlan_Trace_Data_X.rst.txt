@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>[:DATA]:X
+
+.. code-block:: python
+
+	TRACe<n>[:DATA]:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Trace.Data.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

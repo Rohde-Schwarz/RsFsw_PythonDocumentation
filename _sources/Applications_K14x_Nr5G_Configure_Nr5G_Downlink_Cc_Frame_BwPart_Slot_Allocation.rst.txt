@@ -1,0 +1,59 @@
+Allocation<Allocation>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr0 .. Nr110
+	rc = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.allocation.repcap_allocation_get()
+	driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.allocation.repcap_allocation_set(repcap.Allocation.Nr0)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:ALLocation<al>:COPY
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:ALLocation<al>:COPY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.Allocation.AllocationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.allocation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Ccoding.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_ClMapping.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Copy.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Cw.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Dmrs.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Power.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Ptrs.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_RbCount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_RbOffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Rpoint.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Scount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Scrambling.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Soffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_UeId.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_VtpInter.rst

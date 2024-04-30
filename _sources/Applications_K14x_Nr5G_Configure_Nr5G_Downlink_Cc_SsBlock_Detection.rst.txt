@@ -1,0 +1,20 @@
+Detection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:DETection
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:DETection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsBlock.Detection.DetectionCls
+	:members:
+	:undoc-members:
+	:noindex:

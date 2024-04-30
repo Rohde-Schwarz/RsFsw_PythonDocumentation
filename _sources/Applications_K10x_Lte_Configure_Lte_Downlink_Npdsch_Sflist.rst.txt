@@ -1,0 +1,20 @@
+Sflist
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL:NPDSch:SFList
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL:NPDSch:SFList
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Npdsch.Sflist.SflistCls
+	:members:
+	:undoc-members:
+	:noindex:

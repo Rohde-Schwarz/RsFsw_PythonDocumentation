@@ -1,0 +1,20 @@
+Id
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:ID
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:ID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Id.IdCls
+	:members:
+	:undoc-members:
+	:noindex:

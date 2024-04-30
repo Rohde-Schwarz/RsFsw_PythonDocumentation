@@ -1,0 +1,20 @@
+Sdpb
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:SDPB
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:SDPB
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Sdpb.SdpbCls
+	:members:
+	:undoc-members:
+	:noindex:

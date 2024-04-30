@@ -1,0 +1,39 @@
+Nmse
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:XCORr:NMSE
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:XCORr:NMSE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Xcorr.Nmse.NmseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.xcorr.nmse.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Xcorr_Nmse_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Xcorr_Nmse_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Xcorr_Nmse_Minimum.rst

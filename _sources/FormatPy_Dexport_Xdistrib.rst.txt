@@ -1,0 +1,20 @@
+Xdistrib
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FORMat:DEXPort:XDIStrib
+
+.. code-block:: python
+
+	FORMat:DEXPort:XDIStrib
+
+
+
+.. autoclass:: RsFsw.Implementations.FormatPy.Dexport.Xdistrib.XdistribCls
+	:members:
+	:undoc-members:
+	:noindex:

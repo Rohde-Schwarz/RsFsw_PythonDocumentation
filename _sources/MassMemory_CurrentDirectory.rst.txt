@@ -1,0 +1,20 @@
+CurrentDirectory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:CDIRectory
+
+.. code-block:: python
+
+	MMEMory:CDIRectory
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.CurrentDirectory.CurrentDirectoryCls
+	:members:
+	:undoc-members:
+	:noindex:

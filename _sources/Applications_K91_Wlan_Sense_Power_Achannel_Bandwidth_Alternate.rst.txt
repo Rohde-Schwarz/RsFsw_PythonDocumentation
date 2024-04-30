@@ -1,0 +1,36 @@
+Alternate<Channel>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ch1 .. Ch64
+	rc = driver.applications.k91Wlan.sense.power.achannel.bandwidth.alternate.repcap_channel_get()
+	driver.applications.k91Wlan.sense.power.achannel.bandwidth.alternate.repcap_channel_set(repcap.Channel.Ch1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:BWIDth:ALTernate<ch>
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:BWIDth:ALTernate<ch>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Achannel.Bandwidth.Alternate.AlternateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.power.achannel.bandwidth.alternate.clone()

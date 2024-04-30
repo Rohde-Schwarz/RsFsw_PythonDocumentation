@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:X[:SCALe]:MAXimum
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:X[:SCALe]:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.Subwindow.Trace.X.Scale.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

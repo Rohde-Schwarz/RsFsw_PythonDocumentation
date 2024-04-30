@@ -1,0 +1,20 @@
+Boundary
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>:IQ:SCAPture:BOUNdary
+
+.. code-block:: python
+
+	TRACe<n>:IQ:SCAPture:BOUNdary
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Trace.Iq.Scapture.Boundary.BoundaryCls
+	:members:
+	:undoc-members:
+	:noindex:

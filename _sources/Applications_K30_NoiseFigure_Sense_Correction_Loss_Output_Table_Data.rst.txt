@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:LOSS:OUTPut:TABLe[:DATA]
+
+.. code-block:: python
+
+	[SENSe]:CORRection:LOSS:OUTPut:TABLe[:DATA]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Output.Table.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

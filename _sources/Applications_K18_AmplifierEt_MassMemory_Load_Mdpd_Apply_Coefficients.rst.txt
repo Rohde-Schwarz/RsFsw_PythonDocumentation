@@ -1,0 +1,20 @@
+Coefficients
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:MDPD:APPLy:COEFficients
+
+.. code-block:: python
+
+	MMEMory:LOAD:MDPD:APPLy:COEFficients
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.MassMemory.Load.Mdpd.Apply.Coefficients.CoefficientsCls
+	:members:
+	:undoc-members:
+	:noindex:

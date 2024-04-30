@@ -1,0 +1,37 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AF:SPAN
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AF:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.ademod.af.span.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod_Af_Span_Full.rst

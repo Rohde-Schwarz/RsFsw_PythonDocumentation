@@ -1,0 +1,20 @@
+PwrRipple
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:POWer:PWRRipple
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:POWer:PWRRipple
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Power.PwrRipple.PwrRippleCls
+	:members:
+	:undoc-members:
+	:noindex:

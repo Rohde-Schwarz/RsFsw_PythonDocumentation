@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../" id="documentation_options" src="../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../../K10x_Lte.html">RsFsw.Implementations.Applications.K10x_Lte</a> &raquo;</li>
+          <li><a href="../../../Configure.html">RsFsw.Implementations.Applications.K10x_Lte.Configure</a> &raquo;</li>
+          <li><a href="../../Lte.html">RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte</a> &raquo;</li>
+          <li><a href="../Downlink.html">RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">........Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">........Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">........Internal.RepeatedCapability</span> <span class="kn">import</span> <span class="n">RepeatedCapability</span>
+<span class="kn">from</span> <span class="nn">........</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="CcCls"><a class="viewcode-back" href="../../../../../../../../Applications_K10x_Lte_Configure_Lte_Downlink_Cc.html#RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.CcCls">[docs]</a><span class="k">class</span> <span class="nc">CcCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Cc commands group definition. 90 total commands, 26 Subgroups, 0 group commands</span>
+<span class="sd">	Repeated Capability: CarrierComponent, default value after init: CarrierComponent.Nr1&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;cc&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">rep_cap</span> <span class="o">=</span> <span class="n">RepeatedCapability</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">group_name</span><span class="p">,</span> <span class="s1">&#39;repcap_carrierComponent_get&#39;</span><span class="p">,</span> <span class="s1">&#39;repcap_carrierComponent_set&#39;</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_carrierComponent_set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">carrierComponent</span><span class="p">:</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Repeated Capability default value numeric suffix.</span>
+<span class="sd">		This value is used, if you do not explicitely set it in the child set/get methods, or if you leave it to CarrierComponent.Default</span>
+<span class="sd">		Default value after init: CarrierComponent.Nr1&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">set_repcap_enum_value</span><span class="p">(</span><span class="n">carrierComponent</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_carrierComponent_get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Returns the current default repeated capability for the child set/get methods&quot;&quot;&quot;</span>
+		<span class="c1"># noinspection PyTypeChecker</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_enum_value</span><span class="p">()</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">bf</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;bf commands group. 1 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_bf&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Bf</span> <span class="kn">import</span> <span class="n">BfCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_bf</span> <span class="o">=</span> <span class="n">BfCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_bf</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">bw</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;bw commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_bw&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Bw</span> <span class="kn">import</span> <span class="n">BwCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_bw</span> <span class="o">=</span> <span class="n">BwCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_bw</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">csirs</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;csirs commands group. 6 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_csirs&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Csirs</span> <span class="kn">import</span> <span class="n">CsirsCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_csirs</span> <span class="o">=</span> <span class="n">CsirsCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_csirs</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">csubframes</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;csubframes commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_csubframes&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Csubframes</span> <span class="kn">import</span> <span class="n">CsubframesCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_csubframes</span> <span class="o">=</span> <span class="n">CsubframesCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_csubframes</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">cycPrefix</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;cycPrefix commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_cycPrefix&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.CycPrefix</span> <span class="kn">import</span> <span class="n">CycPrefixCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_cycPrefix</span> <span class="o">=</span> <span class="n">CycPrefixCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cycPrefix</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">eiNbIot</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;eiNbIot commands group. 1 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_eiNbIot&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.EiNbIot</span> <span class="kn">import</span> <span class="n">EiNbIotCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_eiNbIot</span> <span class="o">=</span> <span class="n">EiNbIotCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_eiNbIot</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">epdcch</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;epdcch commands group. 5 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_epdcch&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Epdcch</span> <span class="kn">import</span> <span class="n">EpdcchCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_epdcch</span> <span class="o">=</span> <span class="n">EpdcchCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_epdcch</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">mbsfn</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;mbsfn commands group. 4 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_mbsfn&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Mbsfn</span> <span class="kn">import</span> <span class="n">MbsfnCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_mbsfn</span> <span class="o">=</span> <span class="n">MbsfnCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_mbsfn</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">mimo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;mimo commands group. 3 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_mimo&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Mimo</span> <span class="kn">import</span> <span class="n">MimoCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_mimo</span> <span class="o">=</span> <span class="n">MimoCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_mimo</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">noRb</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;noRb commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_noRb&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.NoRb</span> <span class="kn">import</span> <span class="n">NoRbCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_noRb</span> <span class="o">=</span> <span class="n">NoRbCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_noRb</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">nrbOffset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;nrbOffset commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_nrbOffset&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.NrbOffset</span> <span class="kn">import</span> <span class="n">NrbOffsetCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_nrbOffset</span> <span class="o">=</span> <span class="n">NrbOffsetCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_nrbOffset</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">pbch</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;pbch commands group. 2 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_pbch&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Pbch</span> <span class="kn">import</span> <span class="n">PbchCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_pbch</span> <span class="o">=</span> <span class="n">PbchCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pbch</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">pcfich</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;pcfich commands group. 2 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_pcfich&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Pcfich</span> <span class="kn">import</span> <span class="n">PcfichCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_pcfich</span> <span class="o">=</span> <span class="n">PcfichCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pcfich</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">pdcch</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;pdcch commands group. 4 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_pdcch&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Pdcch</span> <span class="kn">import</span> <span class="n">PdcchCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_pdcch</span> <span class="o">=</span> <span class="n">PdcchCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pdcch</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">pdsch</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;pdsch commands group. 1 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_pdsch&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Pdsch</span> <span class="kn">import</span> <span class="n">PdschCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_pdsch</span> <span class="o">=</span> <span class="n">PdschCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_pdsch</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">phich</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;phich commands group. 5 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_phich&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Phich</span> <span class="kn">import</span> <span class="n">PhichCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_phich</span> <span class="o">=</span> <span class="n">PhichCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_phich</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">plc</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;plc commands group. 3 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_plc&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Plc</span> <span class="kn">import</span> <span class="n">PlcCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_plc</span> <span class="o">=</span> <span class="n">PlcCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_plc</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">plci</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;plci commands group. 3 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_plci&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Plci</span> <span class="kn">import</span> <span class="n">PlciCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_plci</span> <span class="o">=</span> <span class="n">PlciCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_plci</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">prss</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;prss commands group. 5 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_prss&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Prss</span> <span class="kn">import</span> <span class="n">PrssCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_prss</span> <span class="o">=</span> <span class="n">PrssCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_prss</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">psOffset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;psOffset commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_psOffset&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.PsOffset</span> <span class="kn">import</span> <span class="n">PsOffsetCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_psOffset</span> <span class="o">=</span> <span class="n">PsOffsetCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_psOffset</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">refsig</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;refsig commands group. 1 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_refsig&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Refsig</span> <span class="kn">import</span> <span class="n">RefsigCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_refsig</span> <span class="o">=</span> <span class="n">RefsigCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_refsig</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">sfno</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;sfno commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_sfno&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Sfno</span> <span class="kn">import</span> <span class="n">SfnoCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_sfno</span> <span class="o">=</span> <span class="n">SfnoCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sfno</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">subframe</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;subframe commands group. 2 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_subframe&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Subframe</span> <span class="kn">import</span> <span class="n">SubframeCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_subframe</span> <span class="o">=</span> <span class="n">SubframeCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_subframe</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">sync</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;sync commands group. 4 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_sync&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Sync</span> <span class="kn">import</span> <span class="n">SyncCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_sync</span> <span class="o">=</span> <span class="n">SyncCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sync</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">tdd</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;tdd commands group. 2 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_tdd&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Tdd</span> <span class="kn">import</span> <span class="n">TddCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_tdd</span> <span class="o">=</span> <span class="n">TddCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tdd</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">compressed</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;compressed commands group. 3 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_compressed&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Compressed</span> <span class="kn">import</span> <span class="n">CompressedCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_compressed</span> <span class="o">=</span> <span class="n">CompressedCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_compressed</span>
+
+	<span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;CcCls&#39;</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Clones the group by creating new object from it and its whole existing subgroups</span>
+<span class="sd">		Also copies all the existing default Repeated Capabilities setting,</span>
+<span class="sd">		which you can change independently without affecting the original group&quot;&quot;&quot;</span>
+		<span class="n">new_group</span> <span class="o">=</span> <span class="n">CcCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">synchronize_repcaps</span><span class="p">(</span><span class="n">new_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">new_group</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

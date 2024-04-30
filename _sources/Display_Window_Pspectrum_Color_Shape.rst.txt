@@ -1,0 +1,20 @@
+Shape
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:PSPectrum:COLor:SHAPe
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:PSPectrum:COLor:SHAPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Pspectrum.Color.Shape.ShapeCls
+	:members:
+	:undoc-members:
+	:noindex:

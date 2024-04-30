@@ -1,0 +1,54 @@
+MassMemory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: MMEMory:CLEar:ALL
+	single: MMEMory:COPY
+	single: MMEMory:MOVE
+
+.. code-block:: python
+
+	MMEMory:CLEar:ALL
+	MMEMory:COPY
+	MMEMory:MOVE
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.MassMemoryCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Catalog.rst
+	MassMemory_Clear.rst
+	MassMemory_Comment.rst
+	MassMemory_CurrentDirectory.rst
+	MassMemory_Delete.rst
+	MassMemory_DeleteDirectory.rst
+	MassMemory_Load.rst
+	MassMemory_MakeDirectory.rst
+	MassMemory_Msis.rst
+	MassMemory_Name.rst
+	MassMemory_Network.rst
+	MassMemory_Raw.rst
+	MassMemory_Select.rst
+	MassMemory_Store.rst

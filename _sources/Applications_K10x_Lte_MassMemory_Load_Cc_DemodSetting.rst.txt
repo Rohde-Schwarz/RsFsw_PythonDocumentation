@@ -1,0 +1,20 @@
+DemodSetting
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD[:CC<cc>]:DEModsetting
+
+.. code-block:: python
+
+	MMEMory:LOAD[:CC<cc>]:DEModsetting
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.MassMemory.Load.Cc.DemodSetting.DemodSettingCls
+	:members:
+	:undoc-members:
+	:noindex:

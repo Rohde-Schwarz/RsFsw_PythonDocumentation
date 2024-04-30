@@ -1,0 +1,20 @@
+Spectrum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:RF[:SPECtrum]
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:RF[:SPECtrum]
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Rf.Spectrum.SpectrumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut[:SELect]
+
+.. code-block:: python
+
+	INPut[:SELect]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

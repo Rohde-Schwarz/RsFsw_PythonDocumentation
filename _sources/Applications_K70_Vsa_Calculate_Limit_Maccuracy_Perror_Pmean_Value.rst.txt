@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:PERRor:PMEan:VALue
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:PERRor:PMEan:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Perror.Pmean.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

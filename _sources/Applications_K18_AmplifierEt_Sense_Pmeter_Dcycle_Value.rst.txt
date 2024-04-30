@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer:DCYCle:VALue
+
+.. code-block:: python
+
+	[SENSe]:PMETer:DCYCle:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pmeter.Dcycle.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

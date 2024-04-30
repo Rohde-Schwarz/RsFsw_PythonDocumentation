@@ -1,0 +1,29 @@
+Msymbol
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Slot.Allocation.Dmrs.Msymbol.MsymbolCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.slot.allocation.dmrs.msymbol.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Allocation_Dmrs_Msymbol_Aposition.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Slot_Allocation_Dmrs_Msymbol_Length.rst

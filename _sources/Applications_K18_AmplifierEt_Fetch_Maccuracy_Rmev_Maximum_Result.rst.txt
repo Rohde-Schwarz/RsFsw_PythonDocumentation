@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy:RMEV:MAXimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:MACCuracy:RMEV:MAXimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.Rmev.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

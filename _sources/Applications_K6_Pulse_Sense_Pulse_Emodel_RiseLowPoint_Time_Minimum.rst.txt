@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RLPTime:MINimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RLPTime:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseLowPoint.Time.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

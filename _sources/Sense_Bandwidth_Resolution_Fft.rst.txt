@@ -1,0 +1,20 @@
+Fft
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth[:RESolution]:FFT
+
+.. code-block:: python
+
+	[SENSe]:BWIDth[:RESolution]:FFT
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Bandwidth.Resolution.Fft.FftCls
+	:members:
+	:undoc-members:
+	:noindex:

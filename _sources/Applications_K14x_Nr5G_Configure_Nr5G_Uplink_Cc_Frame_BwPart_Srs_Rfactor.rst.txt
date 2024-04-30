@@ -1,0 +1,20 @@
+Rfactor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SRS:RFACtor
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SRS:RFACtor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Srs.Rfactor.RfactorCls
+	:members:
+	:undoc-members:
+	:noindex:

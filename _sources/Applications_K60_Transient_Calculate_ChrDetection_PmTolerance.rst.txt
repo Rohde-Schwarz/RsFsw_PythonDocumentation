@@ -1,0 +1,20 @@
+PmTolerance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:PMTolerance
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:PMTolerance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.PmTolerance.PmToleranceCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Gap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:EGATe:GAP
+
+.. code-block:: python
+
+	TRACe:IQ:EGATe:GAP
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Egate.Gap.GapCls
+	:members:
+	:undoc-members:
+	:noindex:

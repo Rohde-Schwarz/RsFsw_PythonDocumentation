@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:GIMBalance:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:GIMBalance:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Gimbalance.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

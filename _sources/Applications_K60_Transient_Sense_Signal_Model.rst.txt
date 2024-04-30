@@ -1,0 +1,20 @@
+Model
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SIGNal:MODel
+
+.. code-block:: python
+
+	[SENSe]:SIGNal:MODel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Signal.Model.ModelCls
+	:members:
+	:undoc-members:
+	:noindex:

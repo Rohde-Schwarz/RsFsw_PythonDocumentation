@@ -1,0 +1,36 @@
+Power<Source>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k30NoiseFigure.source.current.power.repcap_source_get()
+	driver.applications.k30NoiseFigure.source.current.power.repcap_source_set(repcap.Source.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Current.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.current.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_Current_Power_Limit.rst

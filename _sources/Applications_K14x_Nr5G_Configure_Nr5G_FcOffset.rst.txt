@@ -1,0 +1,20 @@
+FcOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:FCOFfset
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:FCOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.FcOffset.FcOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

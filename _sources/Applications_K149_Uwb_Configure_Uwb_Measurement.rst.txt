@@ -1,0 +1,20 @@
+Measurement
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:UWB]:MEASurement
+
+.. code-block:: python
+
+	CONFigure[:UWB]:MEASurement
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Configure.Uwb.Measurement.MeasurementCls
+	:members:
+	:undoc-members:
+	:noindex:

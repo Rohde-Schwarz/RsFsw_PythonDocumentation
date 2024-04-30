@@ -1,0 +1,20 @@
+Standard
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:PRESet[:STANdard]
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:PRESet[:STANdard]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Preset.Standard.StandardCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:CARRier:COUNt:STATe
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:CARRier:COUNt:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Carrier.Count.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

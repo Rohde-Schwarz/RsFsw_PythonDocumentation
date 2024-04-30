@@ -1,0 +1,20 @@
+Date
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:DATE
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:DATE
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Date.DateCls
+	:members:
+	:undoc-members:
+	:noindex:

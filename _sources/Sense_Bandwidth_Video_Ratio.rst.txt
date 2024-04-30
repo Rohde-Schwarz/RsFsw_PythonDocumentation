@@ -1,0 +1,20 @@
+Ratio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth:VIDeo:RATio
+
+.. code-block:: python
+
+	[SENSe]:BWIDth:VIDeo:RATio
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Bandwidth.Video.Ratio.RatioCls
+	:members:
+	:undoc-members:
+	:noindex:

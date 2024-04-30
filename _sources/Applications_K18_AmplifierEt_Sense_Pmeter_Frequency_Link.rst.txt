@@ -1,0 +1,20 @@
+Link
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer:FREQuency:LINK
+
+.. code-block:: python
+
+	[SENSe]:PMETer:FREQuency:LINK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pmeter.Frequency.Link.LinkCls
+	:members:
+	:undoc-members:
+	:noindex:

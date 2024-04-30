@@ -1,0 +1,20 @@
+Lengths
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:LENGths
+
+.. code-block:: python
+
+	FETCh:BURSt:LENGths
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Lengths.LengthsCls
+	:members:
+	:undoc-members:
+	:noindex:

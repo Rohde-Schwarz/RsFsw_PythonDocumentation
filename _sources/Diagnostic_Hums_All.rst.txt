@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS[:ALL]
+
+.. code-block:: python
+
+	DIAGnostic:HUMS[:ALL]
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.All.AllCls
+	:members:
+	:undoc-members:
+	:noindex:

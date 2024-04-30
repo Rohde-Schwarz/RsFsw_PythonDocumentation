@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:PTABle:ITEM:ALL
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:PTABle:ITEM:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Ptable.Item.All.AllCls
+	:members:
+	:undoc-members:
+	:noindex:

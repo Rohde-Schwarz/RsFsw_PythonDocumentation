@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:ANTMatrix:SOURce:AMPLitude:SOURce
+
+.. code-block:: python
+
+	CONFigure:WLAN:ANTMatrix:SOURce:AMPLitude:SOURce
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.AntMatrix.Source.Amplitude.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

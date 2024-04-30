@@ -1,0 +1,37 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ACPower:GAP<gap>[:AUTO][:CACLr][:RELative]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ACPower:GAP<gap>[:AUTO][:CACLr][:RELative]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Auto.Caclr.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.acPower.gap.auto.caclr.relative.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_AcPower_Gap_Auto_Caclr_Relative_State.rst

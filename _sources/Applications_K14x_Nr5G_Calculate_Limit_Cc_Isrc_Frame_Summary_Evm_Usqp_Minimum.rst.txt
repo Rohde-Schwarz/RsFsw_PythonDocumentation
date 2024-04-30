@@ -1,0 +1,28 @@
+Minimum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Cc.Isrc.Frame.Summary.Evm.Usqp.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.limit.cc.isrc.frame.summary.evm.usqp.minimum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Limit_Cc_Isrc_Frame_Summary_Evm_Usqp_Minimum_Result.rst

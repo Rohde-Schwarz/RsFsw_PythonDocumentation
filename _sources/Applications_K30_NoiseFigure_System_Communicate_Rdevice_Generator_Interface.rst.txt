@@ -1,0 +1,20 @@
+Interface
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:GENerator:INTerface
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:GENerator:INTerface
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Communicate.Rdevice.Generator.Interface.InterfaceCls
+	:members:
+	:undoc-members:
+	:noindex:

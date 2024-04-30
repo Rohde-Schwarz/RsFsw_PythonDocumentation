@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:PWIDth:LIMit
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:PWIDth:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Pwidth.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

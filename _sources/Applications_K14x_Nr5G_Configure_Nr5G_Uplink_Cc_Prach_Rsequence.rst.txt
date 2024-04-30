@@ -1,0 +1,20 @@
+Rsequence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:RSEQuence
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:RSEQuence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Prach.Rsequence.RsequenceCls
+	:members:
+	:undoc-members:
+	:noindex:

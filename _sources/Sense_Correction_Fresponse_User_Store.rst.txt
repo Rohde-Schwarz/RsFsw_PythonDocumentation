@@ -1,0 +1,20 @@
+Store
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:STORe
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:STORe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:TIMing:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:TIMing:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Timing.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

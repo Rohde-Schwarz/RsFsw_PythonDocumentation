@@ -1,0 +1,37 @@
+Generator
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.GeneratorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Connection.rst
+	Configure_Generator_External.rst
+	Configure_Generator_Frequency.rst
+	Configure_Generator_IpConnection.rst
+	Configure_Generator_Npratio.rst
+	Configure_Generator_Power.rst
+	Configure_Generator_Recording.rst
+	Configure_Generator_Relay.rst
+	Configure_Generator_RfOutput.rst
+	Configure_Generator_Target.rst

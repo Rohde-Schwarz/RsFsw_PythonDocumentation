@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:SYMBolerror:MINimum
+
+.. code-block:: python
+
+	FETCh:BURSt:SYMBolerror:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.SymbolError.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

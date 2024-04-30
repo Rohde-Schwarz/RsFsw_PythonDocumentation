@@ -1,0 +1,20 @@
+Pcount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:CONTinuous:PCOunt
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:CONTinuous:PCOunt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Egate.Continuous.Pcount.PcountCls
+	:members:
+	:undoc-members:
+	:noindex:

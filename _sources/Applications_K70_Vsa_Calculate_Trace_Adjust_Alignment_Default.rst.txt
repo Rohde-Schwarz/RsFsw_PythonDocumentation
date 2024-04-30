@@ -1,0 +1,20 @@
+Default
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRACe<t>:ADJust:ALIGnment[:DEFault]
+
+.. code-block:: python
+
+	CALCulate<n>:TRACe<t>:ADJust:ALIGnment[:DEFault]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Trace.Adjust.Alignment.Default.DefaultCls
+	:members:
+	:undoc-members:
+	:noindex:

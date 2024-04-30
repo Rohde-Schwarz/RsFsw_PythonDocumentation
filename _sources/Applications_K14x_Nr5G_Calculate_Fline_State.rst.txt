@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:FLINe<li>:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:FLINe<li>:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Fline.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

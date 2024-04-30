@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy:POFFset[:RESult]
+
+.. code-block:: python
+
+	FETCh:MACCuracy:POFFset[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.Poffset.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

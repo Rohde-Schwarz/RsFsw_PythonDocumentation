@@ -1,0 +1,39 @@
+Wlan
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.WlanCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.wlan.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Wlan_AntMatrix.rst
+	Applications_K91_Wlan_Configure_Wlan_DutConfig.rst
+	Applications_K91_Wlan_Configure_Wlan_Extension.rst
+	Applications_K91_Wlan_Configure_Wlan_Gtime.rst
+	Applications_K91_Wlan_Configure_Wlan_Mimo.rst
+	Applications_K91_Wlan_Configure_Wlan_Payload.rst
+	Applications_K91_Wlan_Configure_Wlan_PvError.rst
+	Applications_K91_Wlan_Configure_Wlan_Rsync.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig.rst
+	Applications_K91_Wlan_Configure_Wlan_Smapping.rst
+	Applications_K91_Wlan_Configure_Wlan_Sspacing.rst
+	Applications_K91_Wlan_Configure_Wlan_Stbc.rst

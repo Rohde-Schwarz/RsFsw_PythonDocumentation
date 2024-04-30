@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:BWIDth:MODE
+
+.. code-block:: python
+
+	[SENSe]:IQ:BWIDth:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Iq.Bandwidth.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

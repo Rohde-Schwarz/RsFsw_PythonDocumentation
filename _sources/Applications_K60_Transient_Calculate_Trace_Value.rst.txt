@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRACe<t>[:VALue]
+
+.. code-block:: python
+
+	CALCulate<n>:TRACe<t>[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trace.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

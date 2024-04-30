@@ -1,0 +1,20 @@
+Stat
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PCFich:STAT
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PCFich:STAT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Pcfich.Stat.StatCls
+	:members:
+	:undoc-members:
+	:noindex:

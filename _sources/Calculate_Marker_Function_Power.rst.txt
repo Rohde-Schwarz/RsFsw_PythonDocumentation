@@ -1,0 +1,51 @@
+Power<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.calculate.marker.function.power.repcap_subBlock_get()
+	driver.calculate.marker.function.power.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:POWer<sb>:PRESet
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:POWer<sb>:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Power_Auto.rst
+	Calculate_Marker_Function_Power_Mode.rst
+	Calculate_Marker_Function_Power_Restore.rst
+	Calculate_Marker_Function_Power_Result.rst
+	Calculate_Marker_Function_Power_Select.rst
+	Calculate_Marker_Function_Power_Standard.rst
+	Calculate_Marker_Function_Power_State.rst

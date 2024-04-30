@@ -1,0 +1,37 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ESPectrum:PCLass<pc>:LIMit
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ESPectrum:PCLass<pc>:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Pclass.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.calculate.limit.espectrum.pclass.limit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Calculate_Limit_Espectrum_Pclass_Limit_State.rst

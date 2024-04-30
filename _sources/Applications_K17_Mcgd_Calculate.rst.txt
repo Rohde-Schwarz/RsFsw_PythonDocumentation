@@ -1,0 +1,37 @@
+Calculate<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k17Mcgd.calculate.repcap_window_get()
+	driver.applications.k17Mcgd.calculate.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calculate.CalculateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.calculate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Calculate_Feed.rst
+	Applications_K17_Mcgd_Calculate_GrpDelay.rst

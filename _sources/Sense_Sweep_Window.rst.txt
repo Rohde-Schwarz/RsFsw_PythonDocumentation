@@ -1,0 +1,36 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.sense.sweep.window.repcap_window_get()
+	driver.sense.sweep.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.sweep.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Sweep_Window_Points.rst

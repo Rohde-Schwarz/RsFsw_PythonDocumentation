@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:THEMe:SELect
+
+.. code-block:: python
+
+	DISPlay:THEMe:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Theme.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

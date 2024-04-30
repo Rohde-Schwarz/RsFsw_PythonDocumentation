@@ -1,0 +1,20 @@
+MaxPm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PHASe:MAXPm
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PHASe:MAXPm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Phase.MaxPm.MaxPmCls
+	:members:
+	:undoc-members:
+	:noindex:

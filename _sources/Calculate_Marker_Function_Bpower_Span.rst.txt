@@ -1,0 +1,20 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:BPOWer:SPAN
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:BPOWer:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Bpower.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:

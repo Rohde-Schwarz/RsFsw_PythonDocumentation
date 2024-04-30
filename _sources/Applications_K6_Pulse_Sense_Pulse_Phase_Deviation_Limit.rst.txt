@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:DEViation:LIMit
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:DEViation:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Deviation.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

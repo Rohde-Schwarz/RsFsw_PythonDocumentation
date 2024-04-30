@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FREQuency:BWIDth:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FREQuency:BWIDth:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Bandwidth.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

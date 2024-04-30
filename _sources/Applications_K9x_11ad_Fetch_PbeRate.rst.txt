@@ -1,0 +1,30 @@
+PbeRate
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.PbeRate.PbeRateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.fetch.pbeRate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Fetch_PbeRate_Average.rst
+	Applications_K9x_11ad_Fetch_PbeRate_Maximum.rst
+	Applications_K9x_11ad_Fetch_PbeRate_Minimum.rst

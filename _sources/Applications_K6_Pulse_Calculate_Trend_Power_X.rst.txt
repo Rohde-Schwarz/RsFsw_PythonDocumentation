@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:POWer:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:POWer:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Power.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

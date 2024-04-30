@@ -1,0 +1,20 @@
+Holdoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:TRIGger:HOLDoff
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:TRIGger:HOLDoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Trigger.Holdoff.HoldoffCls
+	:members:
+	:undoc-members:
+	:noindex:

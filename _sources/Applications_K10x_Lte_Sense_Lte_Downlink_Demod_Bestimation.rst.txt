@@ -1,0 +1,20 @@
+Bestimation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:DEMod:BESTimation
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:DEMod:BESTimation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.Bestimation.BestimationCls
+	:members:
+	:undoc-members:
+	:noindex:

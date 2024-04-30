@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:RLENgth[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:RLENgth[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Rlength.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

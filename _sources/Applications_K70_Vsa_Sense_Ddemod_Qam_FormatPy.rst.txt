@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:QAM:FORMat
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:QAM:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Qam.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

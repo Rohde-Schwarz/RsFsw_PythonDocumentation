@@ -1,0 +1,20 @@
+Name
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:EVALuation:FILTer<n>:NAME
+
+.. code-block:: python
+
+	[SENSe]:EVALuation:FILTer<n>:NAME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Evaluation.FilterPy.Name.NameCls
+	:members:
+	:undoc-members:
+	:noindex:

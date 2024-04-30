@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:VOLTage:POWer<i>:LEVel[:STATe]
+
+.. code-block:: python
+
+	SOURce:VOLTage:POWer<i>:LEVel[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.Power.Level.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

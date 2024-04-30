@@ -1,0 +1,40 @@
+Sense
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.SenseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Adjust.rst
+	Applications_K70_Vsa_Sense_Correction.rst
+	Applications_K70_Vsa_Sense_Ddemod.rst
+	Applications_K70_Vsa_Sense_Demod.rst
+	Applications_K70_Vsa_Sense_Frequency.rst
+	Applications_K70_Vsa_Sense_Iq.rst
+	Applications_K70_Vsa_Sense_Mixer.rst
+	Applications_K70_Vsa_Sense_Msra.rst
+	Applications_K70_Vsa_Sense_Probe.rst
+	Applications_K70_Vsa_Sense_Rtms.rst
+	Applications_K70_Vsa_Sense_SwapIq.rst
+	Applications_K70_Vsa_Sense_Sweep.rst
+	Applications_K70_Vsa_Sense_Tcapture.rst

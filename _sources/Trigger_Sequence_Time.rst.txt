@@ -1,0 +1,29 @@
+Time
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.trigger.sequence.time.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Trigger_Sequence_Time_Rinterval.rst
+	Trigger_Sequence_Time_Rrate.rst

@@ -1,0 +1,20 @@
+Aoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:BPOWer:AOFF
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:BPOWer:AOFF
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Bpower.Aoff.AoffCls
+	:members:
+	:undoc-members:
+	:noindex:

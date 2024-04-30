@@ -1,0 +1,20 @@
+Tid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:TID
+
+.. code-block:: python
+
+	[SENSe]:POWer:TID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Tid.TidCls
+	:members:
+	:undoc-members:
+	:noindex:

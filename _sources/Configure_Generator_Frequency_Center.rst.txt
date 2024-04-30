@@ -1,0 +1,20 @@
+Center
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:FREQuency:CENTer
+
+.. code-block:: python
+
+	CONFigure:GENerator:FREQuency:CENTer
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Frequency.Center.CenterCls
+	:members:
+	:undoc-members:
+	:noindex:

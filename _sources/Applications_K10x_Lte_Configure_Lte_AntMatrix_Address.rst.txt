@@ -1,0 +1,36 @@
+Address<Instrument>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr4
+	rc = driver.applications.k10Xlte.configure.lte.antMatrix.address.repcap_instrument_get()
+	driver.applications.k10Xlte.configure.lte.antMatrix.address.repcap_instrument_set(repcap.Instrument.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:ANTMatrix:ADDRess<in>
+
+.. code-block:: python
+
+	CONFigure[:LTE]:ANTMatrix:ADDRess<in>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.AntMatrix.Address.AddressCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.antMatrix.address.clone()

@@ -1,0 +1,20 @@
+SuConfig
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SRS:SUConfig
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SRS:SUConfig
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Srs.SuConfig.SuConfigCls
+	:members:
+	:undoc-members:
+	:noindex:

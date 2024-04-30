@@ -1,0 +1,20 @@
+Load
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:EQUalizer:LOAD
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:EQUalizer:LOAD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Equalizer.Load.LoadCls
+	:members:
+	:undoc-members:
+	:noindex:

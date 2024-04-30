@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:PCORrelation:LIMit
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:PCORrelation:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Pcorrelation.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

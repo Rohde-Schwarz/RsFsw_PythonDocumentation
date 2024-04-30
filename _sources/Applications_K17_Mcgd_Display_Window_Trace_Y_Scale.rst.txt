@@ -1,0 +1,43 @@
+Scale
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Display.Window.Trace.Y.Scale.ScaleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.display.window.trace.y.scale.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_Maximum.rst
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_Minimum.rst
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_Mode.rst
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_Pdivision.rst
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_RefLevel.rst
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_RefPosition.rst
+	Applications_K17_Mcgd_Display_Window_Trace_Y_Scale_Rvalue.rst

@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:POINt:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:POINt:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Point.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

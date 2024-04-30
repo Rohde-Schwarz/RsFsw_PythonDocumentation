@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:SCAPture:LENGth[:TIME]
+
+.. code-block:: python
+
+	[SENSe]:SWEep:SCAPture:LENGth[:TIME]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Scapture.Length.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

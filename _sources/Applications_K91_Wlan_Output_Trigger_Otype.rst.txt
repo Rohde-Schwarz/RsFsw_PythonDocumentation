@@ -1,0 +1,20 @@
+Otype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:TRIGger<tp>:OTYPe
+
+.. code-block:: python
+
+	OUTPut:TRIGger<tp>:OTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Output.Trigger.Otype.OtypeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Bsize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:OCAPture:BSIZe
+
+.. code-block:: python
+
+	[SENSe]:SWEep:OCAPture:BSIZe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Ocapture.Bsize.BsizeCls
+	:members:
+	:undoc-members:
+	:noindex:

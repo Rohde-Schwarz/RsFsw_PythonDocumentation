@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:PERRor:LIMit
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:PERRor:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Perror.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

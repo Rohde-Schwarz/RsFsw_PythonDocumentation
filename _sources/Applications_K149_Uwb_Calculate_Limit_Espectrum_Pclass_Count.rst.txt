@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ESPectrum:PCLass<pc>:COUNt
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ESPectrum:PCLass<pc>:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Pclass.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

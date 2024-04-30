@@ -1,0 +1,42 @@
+ImPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:IMPower
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:IMPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.ImPower.ImPowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.tsidelobe.imPower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_ImPower_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_ImPower_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_ImPower_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_ImPower_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_ImPower_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_ImPower_StandardDev.rst

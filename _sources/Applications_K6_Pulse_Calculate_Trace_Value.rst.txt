@@ -1,0 +1,38 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRACe<t>[:VALue]
+
+.. code-block:: python
+
+	CALCulate<n>:TRACe<t>[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trace.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.trace.value.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_Trace_Value_Channel.rst
+	Applications_K6_Pulse_Calculate_Trace_Value_Piaq.rst

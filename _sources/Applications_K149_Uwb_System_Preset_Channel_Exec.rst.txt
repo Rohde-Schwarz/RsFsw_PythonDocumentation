@@ -1,0 +1,20 @@
+Exec
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PRESet:CHANnel[:EXEC]
+
+.. code-block:: python
+
+	SYSTem:PRESet:CHANnel[:EXEC]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.System.Preset.Channel.Exec.ExecCls
+	:members:
+	:undoc-members:
+	:noindex:

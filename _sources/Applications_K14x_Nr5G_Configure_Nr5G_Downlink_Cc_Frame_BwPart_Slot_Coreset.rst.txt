@@ -1,0 +1,55 @@
+Coreset<Coreset>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr64
+	rc = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.coreset.repcap_coreset_get()
+	driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.coreset.repcap_coreset_set(repcap.Coreset.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:COReset<cr>:COPY
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:FRAMe<fr>:BWPart<bwp>:SLOT<sl>:COReset<cr>:COPY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.Coreset.CoresetCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.coreset.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Copy.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Dmrs.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Interleaving.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdsch.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pgranularity.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Power.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_RbCount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_RbOffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Scount.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Soffset.rst

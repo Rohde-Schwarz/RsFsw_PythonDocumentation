@@ -1,0 +1,31 @@
+Maximum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.DeltaMarker.Spectrogram.Y.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.deltaMarker.spectrogram.y.maximum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Maximum_Above.rst
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Maximum_Below.rst
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Maximum_Next.rst
+	Applications_K60_Transient_Calculate_DeltaMarker_Spectrogram_Y_Maximum_Peak.rst

@@ -1,0 +1,20 @@
+EmHold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:EMHold
+
+.. code-block:: python
+
+	[SENSe]:NR5G:EMHold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.EmHold.EmHoldCls
+	:members:
+	:undoc-members:
+	:noindex:

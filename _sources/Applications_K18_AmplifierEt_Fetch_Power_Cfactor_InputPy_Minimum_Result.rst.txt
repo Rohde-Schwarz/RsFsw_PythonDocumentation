@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:CFACtor:IN:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:CFACtor:IN:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.Cfactor.InputPy.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

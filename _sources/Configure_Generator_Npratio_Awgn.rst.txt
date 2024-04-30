@@ -1,0 +1,28 @@
+Awgn
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Awgn.AwgnCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.npratio.awgn.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Npratio_Awgn_Create.rst

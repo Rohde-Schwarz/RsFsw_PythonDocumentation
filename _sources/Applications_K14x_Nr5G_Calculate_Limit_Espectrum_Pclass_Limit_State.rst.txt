@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ESPectrum<sb>:PCLass:LIMit[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ESPectrum<sb>:PCLass:LIMit[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Espectrum.Pclass.Limit.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

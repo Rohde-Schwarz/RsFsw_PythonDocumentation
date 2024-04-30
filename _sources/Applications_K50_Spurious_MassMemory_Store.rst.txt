@@ -1,0 +1,38 @@
+Store<Store>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Pos1 .. Pos32
+	rc = driver.applications.k50Spurious.massMemory.store.repcap_store_get()
+	driver.applications.k50Spurious.massMemory.store.repcap_store_set(repcap.Store.Pos1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.MassMemory.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.massMemory.store.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_MassMemory_Store_Spur.rst
+	Applications_K50_Spurious_MassMemory_Store_Table.rst
+	Applications_K50_Spurious_MassMemory_Store_Trace.rst

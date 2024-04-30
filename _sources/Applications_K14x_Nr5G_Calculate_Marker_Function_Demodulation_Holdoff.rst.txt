@@ -1,0 +1,20 @@
+Holdoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DEModulation:HOLDoff
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DEModulation:HOLDoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Function.Demodulation.Holdoff.HoldoffCls
+	:members:
+	:undoc-members:
+	:noindex:

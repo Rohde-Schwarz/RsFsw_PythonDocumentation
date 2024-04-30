@@ -1,0 +1,20 @@
+Remove
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:INPut<ip>:USER:FLISt<fli>:REMove
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:INPut<ip>:USER:FLISt<fli>:REMove
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.InputPy.User.Flist.Remove.RemoveCls
+	:members:
+	:undoc-members:
+	:noindex:

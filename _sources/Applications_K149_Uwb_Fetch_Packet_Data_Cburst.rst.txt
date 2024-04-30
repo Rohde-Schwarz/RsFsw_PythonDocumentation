@@ -1,0 +1,37 @@
+Cburst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:PACKet:DATA:CBURst
+
+.. code-block:: python
+
+	FETCh<n>:PACKet:DATA:CBURst
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Cburst.CburstCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.packet.data.cburst.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Packet_Data_Cburst_Apackets.rst

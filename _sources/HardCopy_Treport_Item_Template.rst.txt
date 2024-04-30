@@ -1,0 +1,41 @@
+Template
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: HCOPy:TREPort:ITEM:TEMPlate:DELete
+	single: HCOPy:TREPort:ITEM:TEMPlate:LOAD
+	single: HCOPy:TREPort:ITEM:TEMPlate:SAVE
+
+.. code-block:: python
+
+	HCOPy:TREPort:ITEM:TEMPlate:DELete
+	HCOPy:TREPort:ITEM:TEMPlate:LOAD
+	HCOPy:TREPort:ITEM:TEMPlate:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.Template.TemplateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.item.template.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Item_Template_Catalog.rst

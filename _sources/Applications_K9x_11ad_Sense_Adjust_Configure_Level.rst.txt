@@ -1,0 +1,28 @@
+Level
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Adjust.Configure.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.sense.adjust.configure.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Sense_Adjust_Configure_Level_Duration.rst

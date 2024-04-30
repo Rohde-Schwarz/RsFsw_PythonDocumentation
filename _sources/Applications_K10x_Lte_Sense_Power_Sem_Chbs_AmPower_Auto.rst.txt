@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:CHBS:AMPower:AUTO
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:CHBS:AMPower:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Sem.Chbs.AmPower.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

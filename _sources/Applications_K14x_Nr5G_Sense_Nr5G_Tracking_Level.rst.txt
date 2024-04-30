@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:TRACking:LEVel
+
+.. code-block:: python
+
+	[SENSe]:NR5G:TRACking:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Tracking.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

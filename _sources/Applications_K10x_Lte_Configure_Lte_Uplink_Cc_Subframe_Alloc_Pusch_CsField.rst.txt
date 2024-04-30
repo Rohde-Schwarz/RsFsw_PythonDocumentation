@@ -1,0 +1,20 @@
+CsField
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc:PUSCh:CSField
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc:PUSCh:CSField
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Pusch.CsField.CsFieldCls
+	:members:
+	:undoc-members:
+	:noindex:

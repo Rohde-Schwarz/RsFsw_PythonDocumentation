@@ -1,0 +1,42 @@
+Pwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:PWIDth
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:PWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Pwidth.PwidthCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.timing.pwidth.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth_StandardDev.rst

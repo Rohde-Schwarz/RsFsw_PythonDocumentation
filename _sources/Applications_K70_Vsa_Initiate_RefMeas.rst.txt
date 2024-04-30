@@ -1,0 +1,20 @@
+RefMeas
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:REFMeas
+
+.. code-block:: python
+
+	INITiate:REFMeas
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Initiate.RefMeas.RefMeasCls
+	:members:
+	:undoc-members:
+	:noindex:

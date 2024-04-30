@@ -1,0 +1,38 @@
+Limit<LimitIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.sense.espectrum.range.limit.repcap_limitIx_get()
+	driver.sense.espectrum.range.limit.repcap_limitIx_set(repcap.LimitIx.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.espectrum.range.limit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Espectrum_Range_Limit_Absolute.rst
+	Sense_Espectrum_Range_Limit_Relative.rst
+	Sense_Espectrum_Range_Limit_State.rst

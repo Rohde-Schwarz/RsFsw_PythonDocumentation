@@ -1,0 +1,20 @@
+RfbWidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:SBLock<sb>:RFBWidth
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:SBLock<sb>:RFBWidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Sblock.RfbWidth.RfbWidthCls
+	:members:
+	:undoc-members:
+	:noindex:

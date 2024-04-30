@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:AFTM:FREQuency:OFFSet
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:AFTM:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

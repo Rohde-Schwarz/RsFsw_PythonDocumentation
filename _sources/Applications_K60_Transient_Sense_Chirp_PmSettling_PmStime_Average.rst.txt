@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PMSettling:PMSTime:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PMSettling:PMSTime:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.PmSettling.PmStime.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

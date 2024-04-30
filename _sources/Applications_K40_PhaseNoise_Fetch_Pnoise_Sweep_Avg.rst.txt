@@ -1,0 +1,20 @@
+Avg
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PNOise<t>:SWEep:AVG
+
+.. code-block:: python
+
+	FETCh:PNOise<t>:SWEep:AVG
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Sweep.Avg.AvgCls
+	:members:
+	:undoc-members:
+	:noindex:

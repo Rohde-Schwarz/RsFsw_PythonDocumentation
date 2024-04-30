@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:CRATe:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:CRATe:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Crate.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

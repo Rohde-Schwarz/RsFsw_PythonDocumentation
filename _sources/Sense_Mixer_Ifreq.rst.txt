@@ -1,0 +1,20 @@
+Ifreq
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:IF
+
+.. code-block:: python
+
+	[SENSe]:MIXer:IF
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mixer.Ifreq.IfreqCls
+	:members:
+	:undoc-members:
+	:noindex:

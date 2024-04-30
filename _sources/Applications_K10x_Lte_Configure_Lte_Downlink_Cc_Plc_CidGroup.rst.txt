@@ -1,0 +1,20 @@
+CidGroup
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PLC:CIDGroup
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PLC:CIDGroup
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Plc.CidGroup.CidGroupCls
+	:members:
+	:undoc-members:
+	:noindex:

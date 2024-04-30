@@ -1,0 +1,20 @@
+Samples
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:MBURst:STARt:SAMPles
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:MBURst:STARt:SAMPles
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Mburst.Start.Samples.SamplesCls
+	:members:
+	:undoc-members:
+	:noindex:

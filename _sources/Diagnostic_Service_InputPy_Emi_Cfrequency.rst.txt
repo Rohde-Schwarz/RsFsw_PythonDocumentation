@@ -1,0 +1,20 @@
+Cfrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:EMI:CFRequency
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:EMI:CFRequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Emi.Cfrequency.CfrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

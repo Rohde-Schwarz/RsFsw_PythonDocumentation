@@ -1,0 +1,20 @@
+PreSelection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALibration:PRESelection
+
+.. code-block:: python
+
+	CALibration:PRESelection
+
+
+
+.. autoclass:: RsFsw.Implementations.Calibration.PreSelection.PreSelectionCls
+	:members:
+	:undoc-members:
+	:noindex:

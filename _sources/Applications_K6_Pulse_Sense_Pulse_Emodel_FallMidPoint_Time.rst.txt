@@ -1,0 +1,42 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:FMPTime
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:FMPTime
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallMidPoint.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.emodel.fallMidPoint.time.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Emodel_FallMidPoint_Time_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Emodel_FallMidPoint_Time_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Emodel_FallMidPoint_Time_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Emodel_FallMidPoint_Time_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Emodel_FallMidPoint_Time_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Emodel_FallMidPoint_Time_StandardDev.rst

@@ -1,0 +1,42 @@
+Correction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:RECall
+
+.. code-block:: python
+
+	[SENSe]:CORRection:RECall
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.CorrectionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.correction.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Sense_Correction_Enr.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Irejection.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Loss.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Save.rst
+	Applications_K30_NoiseFigure_Sense_Correction_State.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Temperature.rst

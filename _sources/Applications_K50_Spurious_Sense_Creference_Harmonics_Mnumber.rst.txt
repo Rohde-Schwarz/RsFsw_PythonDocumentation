@@ -1,0 +1,20 @@
+Mnumber
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CREFerence:HARMonics:MNUMber
+
+.. code-block:: python
+
+	[SENSe]:CREFerence:HARMonics:MNUMber
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Harmonics.Mnumber.MnumberCls
+	:members:
+	:undoc-members:
+	:noindex:

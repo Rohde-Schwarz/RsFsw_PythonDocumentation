@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:REFSig:TIME
+
+.. code-block:: python
+
+	[SENSe]:REFSig:TIME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Refsig.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

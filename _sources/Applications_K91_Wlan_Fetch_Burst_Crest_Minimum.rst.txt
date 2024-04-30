@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:CRESt:MINimum
+
+.. code-block:: python
+
+	FETCh:BURSt:CRESt:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Crest.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

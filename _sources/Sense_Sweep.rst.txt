@@ -1,0 +1,42 @@
+Sweep
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.SweepCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.sweep.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Sweep_Count.rst
+	Sense_Sweep_Dtime.rst
+	Sense_Sweep_Duration.rst
+	Sense_Sweep_Egate.rst
+	Sense_Sweep_Fft.rst
+	Sense_Sweep_FftSubspan.rst
+	Sense_Sweep_Mode.rst
+	Sense_Sweep_Ocapture.rst
+	Sense_Sweep_Optimize.rst
+	Sense_Sweep_Points.rst
+	Sense_Sweep_Pulse.rst
+	Sense_Sweep_Scapture.rst
+	Sense_Sweep_Time.rst
+	Sense_Sweep_TypePy.rst
+	Sense_Sweep_Window.rst

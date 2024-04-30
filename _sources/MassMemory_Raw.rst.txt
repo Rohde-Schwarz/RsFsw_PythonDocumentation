@@ -1,0 +1,20 @@
+Raw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:RAW
+
+.. code-block:: python
+
+	MMEMory:RAW
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Raw.RawCls
+	:members:
+	:undoc-members:
+	:noindex:

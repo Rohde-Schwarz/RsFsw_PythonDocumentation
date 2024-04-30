@@ -1,0 +1,39 @@
+Sense
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.SenseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Bandwidth.rst
+	Applications_K149_Uwb_Sense_Capture.rst
+	Applications_K149_Uwb_Sense_Demod.rst
+	Applications_K149_Uwb_Sense_Detect.rst
+	Applications_K149_Uwb_Sense_Espectrum.rst
+	Applications_K149_Uwb_Sense_Evaluation.rst
+	Applications_K149_Uwb_Sense_Frequency.rst
+	Applications_K149_Uwb_Sense_Iq.rst
+	Applications_K149_Uwb_Sense_Rlength.rst
+	Applications_K149_Uwb_Sense_Sweep.rst
+	Applications_K149_Uwb_Sense_SymbolRate.rst
+	Applications_K149_Uwb_Sense_Window.rst

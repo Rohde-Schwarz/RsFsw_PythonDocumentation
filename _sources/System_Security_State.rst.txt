@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:SECurity[:STATe]
+
+.. code-block:: python
+
+	SYSTem:SECurity[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Security.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

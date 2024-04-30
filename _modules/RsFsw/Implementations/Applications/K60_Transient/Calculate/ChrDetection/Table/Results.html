@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../" id="documentation_options" src="../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../../K60_Transient.html">RsFsw.Implementations.Applications.K60_Transient</a> &raquo;</li>
+          <li><a href="../../../Calculate.html">RsFsw.Implementations.Applications.K60_Transient.Calculate</a> &raquo;</li>
+          <li><a href="../../ChrDetection.html">RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection</a> &raquo;</li>
+          <li><a href="../Table.html">RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">.......Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">.......Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">.......Internal.Types</span> <span class="kn">import</span> <span class="n">DataType</span>
+<span class="kn">from</span> <span class="nn">.......Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">.......Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">.......Internal.ArgSingleList</span> <span class="kn">import</span> <span class="n">ArgSingleList</span>
+<span class="kn">from</span> <span class="nn">.......Internal.ArgSingle</span> <span class="kn">import</span> <span class="n">ArgSingle</span>
+<span class="kn">from</span> <span class="nn">.......</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="ResultsCls"><a class="viewcode-back" href="../../../../../../../../Applications_K60_Transient_Calculate_ChrDetection_Table_Results.html#RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results.ResultsCls">[docs]</a><span class="k">class</span> <span class="nc">ResultsCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Results commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;results&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="ResultsCls.GetStruct"><a class="viewcode-back" href="../../../../../../../../Applications_K60_Transient_Calculate_ChrDetection_Table_Results.html#RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results.ResultsCls.GetStruct">[docs]</a>	<span class="k">class</span> <span class="nc">GetStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Response structure. Fields: \n</span>
+<span class="sd">			- Idn: str: char_data Timestamp which corresponds to the absolute time the beginning of the chirp was detected</span>
+<span class="sd">			- Chirp_No: float: Consecutive number of detected chirp, starts at 1 for each new measurement</span>
+<span class="sd">			- State_Index: float: Consecutive number of corresponding nominal chirp state as defined in the &#39;Chirp States&#39; table (see [CMDLINKRESOLVED Applications.K60_Transient.Calculate.ChrDetection.States.Data#set CMDLINKRESOLVED])</span>
+<span class="sd">			- Begin: str: char_data Time offset from the analysis region start at which the signal first enters the tolerance area of a nominal chirp Unit: ms</span>
+<span class="sd">			- Length: str: char_data The duration of a chirp from begin to end, that is, the time the signal remains in the tolerance area of a nominal chirp. Unit: ms</span>
+<span class="sd">			- Crate: str: char_data Derivative of the FM vs time trace within the frequency measurement range Unit: kHz/us</span>
+<span class="sd">			- Crate_Dev: float: Deviation of the detected chirp rate from the nominal chirp state (in kHz/us) . For details see &#39;Chirp State Deviation&#39;. Unit: kHz/us</span>
+<span class="sd">			- Freq_Avg: float: Average frequency measured within the frequency measurement range of the chirp Unit: kHz</span>
+<span class="sd">			- Fm_Dev_Max: float: Maximum deviation of the chirp frequency from the nominal chirp frequency as defined in the &#39;Chirp States&#39; table. The deviation is calculated within the frequency measurement range of the chirp. For details see &#39;Frequency Deviation (Peak) &#39;. Unit: kHz</span>
+<span class="sd">			- Fm_Dev_Rms: float: RMS deviation of the chirp frequency from the nominal (linear) chirp frequency as defined in the &#39;Chirp States&#39; table. The deviation is calculated within the frequency measurement range of the chirp. For details see &#39;Frequency Deviation (RMS) &#39;. Unit: kHz</span>
+<span class="sd">			- Fm_Dev_Avg: float: Average deviation of the chirp frequency from the nominal (linear) chirp frequency as defined in the &#39;Chirp States&#39; table. The deviation is calculated within the frequency measurement range of the chirp. For details see &#39;Frequency Deviation (Average) &#39;. Unit: kHz</span>
+<span class="sd">			- Pm_Dev_Max: float: Maximum deviation of the chirp phase from the nominal chirp phase as defined in the &#39;Chirp States&#39; table. The deviation is calculated within the frequency measurement range of the chirp. For details see &#39;Phase Deviation (Peak) &#39;. Unit: kHz</span>
+<span class="sd">			- Pm_Dev_Rms: float: RMS deviation of the chirp phase from the nominal (linear) chirp phase as defined in the &#39;Chirp States&#39; table. The deviation is calculated within the frequency measurement range of the chirp. For details see &#39;Phase Deviation (RMS) &#39;. Unit: kHz</span>
+<span class="sd">			- Pm_Dev_Avg: float: Average deviation of the chirp phase from the nominal (linear) chirp phase as defined in the &#39;Chirp States&#39; table. The deviation is calculated within the frequency measurement range of the chirp. For details see &#39;Phase Deviation (Average) &#39;. Unit: kHz</span>
+<span class="sd">			- Pow_Min: float: Minimum power level measured during a chirp. Which part of the chirp precisely is used for calculation depends on the power parameters in the &#39;Power&#39; measurement range configuration. Unit: dBm</span>
+<span class="sd">			- Pow_Max: float: Maximum power level measured during a chirp. Which part of the chirp precisely is used for calculation depends on the power parameters in the &#39;Power&#39; measurement range configuration. Unit: dBm</span>
+<span class="sd">			- Pow_Avg: float: Average power level measured during a chirp. Which part of the chirp precisely is used for calculation depends on the power parameters in the &#39;Power&#39; measurement range configuration. Unit: dBm</span>
+<span class="sd">			- Pow_Rip: float: Power level measured during the chirp ripple time. Which part of the chirp precisely is used for calculation depends on the power parameters in the &#39;Power&#39; measurement range configuration. Unit: dBm&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_raw_str</span><span class="p">(</span><span class="s1">&#39;Idn&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Chirp_No&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;State_Index&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_raw_str</span><span class="p">(</span><span class="s1">&#39;Begin&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_raw_str</span><span class="p">(</span><span class="s1">&#39;Length&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_raw_str</span><span class="p">(</span><span class="s1">&#39;Crate&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Crate_Dev&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Freq_Avg&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Fm_Dev_Max&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Fm_Dev_Rms&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Fm_Dev_Avg&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pm_Dev_Max&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pm_Dev_Rms&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pm_Dev_Avg&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pow_Min&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pow_Max&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pow_Avg&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Pow_Rip&#39;</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Idn</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Chirp_No</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">State_Index</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Begin</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Length</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Crate</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Crate_Dev</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Freq_Avg</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Fm_Dev_Max</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Fm_Dev_Rms</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Fm_Dev_Avg</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pm_Dev_Max</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pm_Dev_Rms</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pm_Dev_Avg</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pow_Min</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pow_Max</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pow_Avg</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Pow_Rip</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="ResultsCls.get"><a class="viewcode-back" href="../../../../../../../../Applications_K60_Transient_Calculate_ChrDetection_Table_Results.html#RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Results.ResultsCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">start</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">end</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">window</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GetStruct</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CALCulate&lt;n&gt;:CHRDetection:TABLe:RESults \n</span>
+<span class="sd">		Snippet: value: GetStruct = driver.applications.k60Transient.calculate.chrDetection.table.results.get(start = 1, end = 1, window = repcap.Window.Default) \n</span>
+<span class="sd">		Queries the chirp results table. The result is a comma-separated list of value sets, one set for each chirp. If no query</span>
+<span class="sd">		parameters are specified, the results for all detected chirps are returned. Which values are returned depends on the</span>
+<span class="sd">		enabled parameters for the results tables (see method RsFsw.Applications.K60_Transient.Calculate.ChrDetection.Table.</span>
+<span class="sd">		Column.set) . \n</span>
+<span class="sd">			:param start: integer The chirp number of the first chirp to be returned. Chirp numbers start at 1.</span>
+<span class="sd">			:param end: integer The chirp number of the last chirp to be returned.</span>
+<span class="sd">			:param window: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Calculate&#39;)</span>
+<span class="sd">			:return: structure: for return value, see the help for GetStruct structure arguments.&quot;&quot;&quot;</span>
+		<span class="n">param</span> <span class="o">=</span> <span class="n">ArgSingleList</span><span class="p">()</span><span class="o">.</span><span class="n">compose_cmd_string</span><span class="p">(</span><span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;start&#39;</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">is_optional</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span> <span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;end&#39;</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">Integer</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">is_optional</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
+		<span class="n">window_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">window</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CALCulate</span><span class="si">{</span><span class="n">window_cmd_val</span><span class="si">}</span><span class="s1">:CHRDetection:TABLe:RESults? </span><span class="si">{</span><span class="n">param</span><span class="si">}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">GetStruct</span><span class="p">())</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

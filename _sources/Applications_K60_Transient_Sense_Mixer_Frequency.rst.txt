@@ -1,0 +1,30 @@
+Frequency
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Mixer.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.mixer.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Mixer_Frequency_Handover.rst
+	Applications_K60_Transient_Sense_Mixer_Frequency_Start.rst
+	Applications_K60_Transient_Sense_Mixer_Frequency_Stop.rst

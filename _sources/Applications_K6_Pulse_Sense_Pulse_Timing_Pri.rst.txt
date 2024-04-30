@@ -1,0 +1,42 @@
+Pri
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:PRI
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:PRI
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Pri.PriCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.timing.pri.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri_StandardDev.rst

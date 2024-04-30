@@ -1,0 +1,43 @@
+Fetch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.FetchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.fetch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Fetch_Burst.rst
+	Applications_K9x_11ad_Fetch_Cfactor.rst
+	Applications_K9x_11ad_Fetch_CfError.rst
+	Applications_K9x_11ad_Fetch_Evm.rst
+	Applications_K9x_11ad_Fetch_Ftime.rst
+	Applications_K9x_11ad_Fetch_Gimbalance.rst
+	Applications_K9x_11ad_Fetch_HbeRate.rst
+	Applications_K9x_11ad_Fetch_IqOffset.rst
+	Applications_K9x_11ad_Fetch_PbeRate.rst
+	Applications_K9x_11ad_Fetch_Pmeter.rst
+	Applications_K9x_11ad_Fetch_QuadError.rst
+	Applications_K9x_11ad_Fetch_Rtime.rst
+	Applications_K9x_11ad_Fetch_Snr.rst
+	Applications_K9x_11ad_Fetch_SymbolError.rst
+	Applications_K9x_11ad_Fetch_TdPower.rst
+	Applications_K9x_11ad_Fetch_Tskew.rst

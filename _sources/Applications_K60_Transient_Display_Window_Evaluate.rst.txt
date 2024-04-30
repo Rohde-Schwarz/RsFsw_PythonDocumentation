@@ -1,0 +1,20 @@
+Evaluate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:EVALuate
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:EVALuate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Display.Window.Evaluate.EvaluateCls
+	:members:
+	:undoc-members:
+	:noindex:

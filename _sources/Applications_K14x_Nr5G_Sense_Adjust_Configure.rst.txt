@@ -1,0 +1,30 @@
+Configure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Adjust.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.adjust.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Adjust_Configure_Hysteresis.rst
+	Applications_K14x_Nr5G_Sense_Adjust_Configure_Level.rst
+	Applications_K14x_Nr5G_Sense_Adjust_Configure_Trigger.rst

@@ -1,0 +1,20 @@
+Weighting
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect:CHANnel[:ITEM]:WEIGhting
+
+.. code-block:: python
+
+	MMEMory:SELect:CHANnel[:ITEM]:WEIGhting
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.Weighting.WeightingCls
+	:members:
+	:undoc-members:
+	:noindex:

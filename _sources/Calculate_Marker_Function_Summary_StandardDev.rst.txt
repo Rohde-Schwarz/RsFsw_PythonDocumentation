@@ -1,0 +1,31 @@
+StandardDev
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Summary.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.summary.standardDev.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Summary_StandardDev_Average.rst
+	Calculate_Marker_Function_Summary_StandardDev_Phold.rst
+	Calculate_Marker_Function_Summary_StandardDev_Result.rst
+	Calculate_Marker_Function_Summary_StandardDev_State.rst

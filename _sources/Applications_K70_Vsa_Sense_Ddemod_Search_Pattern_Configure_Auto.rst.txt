@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:PATTern:CONFigure:AUTO
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:PATTern:CONFigure:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Pattern.Configure.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

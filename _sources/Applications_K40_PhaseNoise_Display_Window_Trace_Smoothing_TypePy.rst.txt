@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:SMOothing:TYPE
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:SMOothing:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Display.Window.Trace.Smoothing.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

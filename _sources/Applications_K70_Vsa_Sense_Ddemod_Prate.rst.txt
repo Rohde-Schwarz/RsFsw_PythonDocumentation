@@ -1,0 +1,20 @@
+Prate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:PRATe
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Prate.PrateCls
+	:members:
+	:undoc-members:
+	:noindex:

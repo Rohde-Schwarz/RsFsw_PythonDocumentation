@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:PSMode[:STATe]
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:PSMode[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.System.Communicate.Rdevice.Oscilloscope.PsMode.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

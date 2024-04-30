@@ -1,0 +1,20 @@
+Point
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETector<t>:TRACe[:POINt]
+
+.. code-block:: python
+
+	[SENSe]:DETector<t>:TRACe[:POINt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Detector.Trace.Point.PointCls
+	:members:
+	:undoc-members:
+	:noindex:

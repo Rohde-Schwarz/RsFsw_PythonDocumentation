@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:MODE
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:SPECtrogram:THReedim[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:SPECtrogram:THReedim[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.ThreeDim.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

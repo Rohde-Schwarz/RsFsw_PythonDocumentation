@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:FSK:DEViation:REFerence:RELative
+
+.. code-block:: python
+
+	CALCulate<n>:FSK:DEViation:REFerence:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Fsk.Deviation.Reference.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:INPut:ATTenuation:AUTO
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:INPut:ATTenuation:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.InputPy.Attenuation.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

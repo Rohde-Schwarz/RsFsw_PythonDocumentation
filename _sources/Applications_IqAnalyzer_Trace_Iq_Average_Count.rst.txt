@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:AVERage:COUNt
+
+.. code-block:: python
+
+	TRACe:IQ:AVERage:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Trace.Iq.Average.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

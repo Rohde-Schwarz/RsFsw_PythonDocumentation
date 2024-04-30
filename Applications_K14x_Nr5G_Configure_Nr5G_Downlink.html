@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Downlink &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Cc&lt;CarrierComponent&gt;" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc.html" />
+    <link rel="prev" title="Cspacing" href="Applications_K14x_Nr5G_Configure_Nr5G_Cspacing.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Calibration.html">Calibration</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="Applications_K14x_Nr5G_Configure.html">Configure</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Generator.html">Generator</a></li>
+<li class="toctree-l5 current"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G.html">Nr5G</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Aclr.html">Aclr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Bstation.html">Bstation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Caclr.html">Caclr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Center.html">Center</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Craster.html">Craster</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_CsCapture.html">CsCapture</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Cspacing.html">Cspacing</a></li>
+<li class="toctree-l6 current"><a class="current reference internal" href="#">Downlink</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc.html">Cc&lt;CarrierComponent&gt;</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Mimo.html">Mimo</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Evm.html">Evm</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_FcOffset.html">FcOffset</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Felc.html">Felc</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_GmcFreq.html">GmcFreq</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Ldirection.html">Ldirection</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_McaClr.html">McaClr</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Measurement.html">Measurement</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Msem.html">Msem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_MsHelper.html">MsHelper</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NcSpacing.html">NcSpacing</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NoCc.html">NoCc</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NrqMaster.html">NrqMaster</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_NrqPrimary.html">NrqPrimary</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Nsources.html">Nsources</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Oband.html">Oband</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Omode.html">Omode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_OoPower.html">OoPower</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Oran.html">Oran</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Orel.html">Orel</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Sem.html">Sem</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Simulation.html">Simulation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Uplink.html">Uplink</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Settings.html">Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Fetch.html">Fetch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Read.html">Read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G.html">K14x_Nr5G</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G_Configure.html">Configure</a> &raquo;</li>
+          <li><a href="Applications_K14x_Nr5G_Configure_Nr5G.html">Nr5G</a> &raquo;</li>
+      <li>Downlink</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K14x_Nr5G_Configure_Nr5G_Downlink.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="downlink">
+<h1>Downlink<a class="headerlink" href="#downlink" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">DownlinkCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K14x_Nr5G/Configure/Nr5G/Downlink.html#DownlinkCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>Downlink commands group definition. 181 total commands, 2 Subgroups, 0 group commands</p>
+</dd></dl>
+
+<p class="rubric">Cloning the Group</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a clone of the original group, that exists independently</span>
+<span class="n">group2</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k14Xnr5G</span><span class="o">.</span><span class="n">configure</span><span class="o">.</span><span class="n">nr5G</span><span class="o">.</span><span class="n">downlink</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="rubric">Subgroups</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc.html">Cc&lt;CarrierComponent&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Bf.html">Bf</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Bf_Ap.html">Ap</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Bf_Ap_Uers.html">Uers</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Bw.html">Bw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Demod.html">Demod</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Demod_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_DfRange.html">DfRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Euids.html">Euids</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Fnnf.html">Fnnf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame.html">Frame&lt;Frame&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart.html">BwPart&lt;BwPart&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Add.html">Add</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi.html">Csi&lt;CsiRs&gt;</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Bitmap.html">Bitmap</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Ctype.html">Ctype</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Density.html">Density</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Lone.html">Lone</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Lzero.html">Lzero</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_NoRbs.html">NoRbs</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Port.html">Port</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Power.html">Power</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Resources.html">Resources</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Row.html">Row</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Sid.html">Sid</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Slot.html">Slot</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Slot_Aperiodic.html">Aperiodic</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Slot_Mode.html">Mode</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Slot_Periodicity.html">Periodicity</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Slot_Poffset.html">Poffset</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Srb.html">Srb</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Zpower.html">Zpower</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Cslot.html">Cslot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Detection.html">Detection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Duplicate.html">Duplicate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prb.html">Prb</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs.html">Prs</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_KpComb.html">KpComb</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_KpOffset.html">KpOffset</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_Lprs.html">Lprs</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_LpStart.html">LpStart</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_NoRbs.html">NoRbs</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_NpId.html">NpId</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_Power.html">Power</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_Slot.html">Slot</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_Slot_Aperiodic.html">Aperiodic</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_Srb.html">Srb</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Prs_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_RbCount.html">RbCount</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_RbOffset.html">RbOffset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Remove.html">Remove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Scount.html">Scount</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot.html">Slot&lt;Slot&gt;</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_AlCount.html">AlCount</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation.html">Allocation&lt;Allocation&gt;</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Ccoding.html">Ccoding</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_ClMapping.html">ClMapping</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Copy.html">Copy</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Cw.html">Cw&lt;Codeword&gt;</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Dmrs.html">Dmrs</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Power.html">Power</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Ptrs.html">Ptrs</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_RbCount.html">RbCount</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_RbOffset.html">RbOffset</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Rpoint.html">Rpoint</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Scount.html">Scount</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Scrambling.html">Scrambling</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_Soffset.html">Soffset</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_UeId.html">UeId</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Allocation_VtpInter.html">VtpInter</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Atype.html">Atype</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset.html">Coreset&lt;Coreset&gt;</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Copy.html">Copy</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Dmrs.html">Dmrs</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Interleaving.html">Interleaving</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdcch.html">Pdcch</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pdsch.html">Pdsch</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Pgranularity.html">Pgranularity</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Power.html">Power</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_RbCount.html">RbCount</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_RbOffset.html">RbOffset</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Scount.html">Scount</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Coreset_Soffset.html">Soffset</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_CrsCount.html">CrsCount</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Cuid.html">Cuid</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_OrSignals.html">OrSignals</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Paste.html">Paste</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Paste_All.html">All</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Paste_Slot.html">Slot</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot_Paste_To.html">To</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Sspacing.html">Sspacing</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwpCount.html">BwpCount</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_Paste.html">Paste</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_Paste_All.html">All</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_Paste_Frame.html">Frame</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_FtConfig.html">FtConfig</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Idc.html">Idc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte.html">Lte</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Cbw.html">Cbw</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Mbsfn.html">Mbsfn</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Mbsfn_Subframe.html">Subframe&lt;Subframe&gt;</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Mbsfn_Subframe_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Nap.html">Nap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_PointA.html">PointA</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Vshift.html">Vshift</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Pamapping.html">Pamapping&lt;AntennaPortConfig&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Pamapping_Csirs.html">Csirs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Pamapping_Csirs_Ap.html">Ap&lt;AntennaPort3k&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Pamapping_Pdsch.html">Pdsch</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Pamapping_Pdsch_Ap.html">Ap&lt;AntennaPort1k&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Pamapping_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Plc.html">Plc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Plc_Cid.html">Cid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Plc_Eirp.html">Eirp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Plc_Trp.html">Trp</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rfuc.html">Rfuc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rfuc_Fzero.html">Fzero</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rfuc_Fzero_Frequency.html">Frequency</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rfuc_Fzero_Mode.html">Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rfuc_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa.html">Rpa</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Afrequency.html">Afrequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero.html">Kzero</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero_Scfe.html">Scfe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero_Scft.html">Scft</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero_Scns.html">Scns</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero_Scot.html">Scot</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero_Scst.html">Scst</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Kzero_Sctt.html">Sctt</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_Rtcf.html">Rtcf</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Rpa_TbOffset.html">TbOffset</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock.html">SsBlock&lt;SsBlock&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_AsOffset.html">AsOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_BsPeriod.html">BsPeriod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Detection.html">Detection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_HfOffset.html">HfOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Lpy.html">Lpy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Offset.html">Offset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pattern.html">Pattern</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pbch.html">Pbch</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pbch_Power.html">Power</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pdmrs.html">Pdmrs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pdmrs_Power.html">Power</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pss.html">Pss</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Pss_Power.html">Power</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Rto.html">Rto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Sspacing.html">Sspacing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Sss.html">Sss</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_Sss_Power.html">Power</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsBlock_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsCa.html">SsCa</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_SsCount.html">SsCount</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Mimo.html">Mimo</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Mimo_Crosstalk.html">Crosstalk</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K14x_Nr5G_Configure_Nr5G_Cspacing.html" class="btn btn-neutral float-left" title="Cspacing" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc.html" class="btn btn-neutral float-right" title="Cc&lt;CarrierComponent&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

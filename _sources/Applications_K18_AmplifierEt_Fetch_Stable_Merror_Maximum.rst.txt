@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:MERRor:MAXimum
+
+.. code-block:: python
+
+	FETCh:STABle:MERRor:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Merror.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ddemod.Search.Sync.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

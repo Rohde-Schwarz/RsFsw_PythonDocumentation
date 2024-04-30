@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:EQUalizer:MODE
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:EQUalizer:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Equalizer.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

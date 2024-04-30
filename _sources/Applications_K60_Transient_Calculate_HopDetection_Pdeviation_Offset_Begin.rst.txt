@@ -1,0 +1,20 @@
+Begin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:PDEViation:OFFSet:BEGin
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:PDEViation:OFFSet:BEGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Pdeviation.Offset.Begin.BeginCls
+	:members:
+	:undoc-members:
+	:noindex:

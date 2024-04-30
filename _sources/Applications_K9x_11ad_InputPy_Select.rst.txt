@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:SELect
+
+.. code-block:: python
+
+	INPut:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.InputPy.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

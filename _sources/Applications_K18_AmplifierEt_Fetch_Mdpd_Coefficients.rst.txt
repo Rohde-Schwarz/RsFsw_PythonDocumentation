@@ -1,0 +1,20 @@
+Coefficients
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MDPD:COEFficients
+
+.. code-block:: python
+
+	FETCh:MDPD:COEFficients
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Mdpd.Coefficients.CoefficientsCls
+	:members:
+	:undoc-members:
+	:noindex:

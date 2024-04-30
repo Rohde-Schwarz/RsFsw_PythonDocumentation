@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SYNC:ESTimation:STARt
+
+.. code-block:: python
+
+	CONFigure:SYNC:ESTimation:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Sync.Estimation.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

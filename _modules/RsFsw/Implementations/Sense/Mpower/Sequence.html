@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Sense.Mpower.Sequence &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../Sense.html">RsFsw.Implementations.Sense</a> &raquo;</li>
+          <li><a href="../Mpower.html">RsFsw.Implementations.Sense.Mpower</a> &raquo;</li>
+      <li>RsFsw.Implementations.Sense.Mpower.Sequence</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Sense.Mpower.Sequence</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
+
+<span class="kn">from</span> <span class="nn">....Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">....Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">....Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">....Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">....</span> <span class="kn">import</span> <span class="n">enums</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="SequenceCls"><a class="viewcode-back" href="../../../../../Sense_Mpower_Sequence.html#RsFsw.Implementations.Sense.Mpower.Sequence.SequenceCls">[docs]</a><span class="k">class</span> <span class="nc">SequenceCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Sequence commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;sequence&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="SequenceCls.SetStruct"><a class="viewcode-back" href="../../../../../Sense_Mpower_Sequence.html#RsFsw.Implementations.Sense.Mpower.Sequence.SequenceCls.SetStruct">[docs]</a>	<span class="k">class</span> <span class="nc">SetStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Structure for setting input parameters. Fields: \n</span>
+<span class="sd">			- Frequency: float: Defines the pulse frequency. Range: 0 to Fmax, Unit: Hz</span>
+<span class="sd">			- Rbw: float: Defines the resolution bandwidth. Unit: HZ</span>
+<span class="sd">			- Meas_Time: float: Defines the measurement time. Range: 1 us to 30 s, Unit: S</span>
+<span class="sd">			- Trigger_Source: enums.TriggerSourceMpower: EXTernal | EXT2 | EXT3 | VIDeo | IFPower Selects a trigger source. For more information see &#39;Configuring triggered and gated measurements&#39;.</span>
+<span class="sd">			- Trigger_Level: float: Defines a trigger level. The trigger level is available for the video trigger or IF power trigger. For a video trigger, the level is a percentage (0 to 100) of the diagram height. For an IF power trigger, the level is a dBm value. See the specifications document for available trigger levels and trigger bandwidths. For an external trigger, the FSW uses a fixed TTL level.</span>
+<span class="sd">			- Trigger_Offset: float: Defines the trigger delay. Range: 0 s to 30 s, Unit: s</span>
+<span class="sd">			- Detector: enums.MpowerDetector: Selects the detector and therefore the way the measurement is evaluated. MEAN Calculates the RMS pulse power. PEAK Calculates the peak pulse power.</span>
+<span class="sd">			- Of_Pulses: float: Defines the number of pulses included in the measurement. Range: 1 to 32001&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Frequency&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Rbw&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Meas_Time&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_enum</span><span class="p">(</span><span class="s1">&#39;Trigger_Source&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">TriggerSourceMpower</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Trigger_Level&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Trigger_Offset&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_enum</span><span class="p">(</span><span class="s1">&#39;Detector&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">MpowerDetector</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Of_Pulses&#39;</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Frequency</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Rbw</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Meas_Time</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Source</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">TriggerSourceMpower</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Level</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Offset</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Detector</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">MpowerDetector</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Of_Pulses</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="SequenceCls.set"><a class="viewcode-back" href="../../../../../Sense_Mpower_Sequence.html#RsFsw.Implementations.Sense.Mpower.Sequence.SequenceCls.set">[docs]</a>	<span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">structure</span><span class="p">:</span> <span class="n">SetStruct</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:MPOWer[:SEQuence] \n</span>
+<span class="sd">		Snippet with structure: \n</span>
+<span class="sd">		structure = driver.sense.mpower.sequence.SetStruct() \n</span>
+<span class="sd">		structure.Frequency: float = 1.0 \n</span>
+<span class="sd">		structure.Rbw: float = 1.0 \n</span>
+<span class="sd">		structure.Meas_Time: float = 1.0 \n</span>
+<span class="sd">		structure.Trigger_Source: enums.TriggerSourceMpower = enums.TriggerSourceMpower.EXT2 \n</span>
+<span class="sd">		structure.Trigger_Level: float = 1.0 \n</span>
+<span class="sd">		structure.Trigger_Offset: float = 1.0 \n</span>
+<span class="sd">		structure.Detector: enums.MpowerDetector = enums.MpowerDetector.MEAN \n</span>
+<span class="sd">		structure.Of_Pulses: float = 1.0 \n</span>
+<span class="sd">		driver.sense.mpower.sequence.set(structure) \n</span>
+<span class="sd">		Configures and initiates the pulse power measurement. The FSW caches all measurement parameters that you can set with</span>
+<span class="sd">		this command. If you use the command repeatedly, the FSW only changes those settings that you have actually changed</span>
+<span class="sd">		before initiating the measurement. Thus, measurement times are kept as low as possible. If you synchronize the</span>
+<span class="sd">		measurement with *OPC, the FSW produces a service request when all frequencies have been measured and the number of</span>
+<span class="sd">		individual measurements has been performed. Note that using the command as a query initiates the measurement and returns</span>
+<span class="sd">		the results if all frequencies have been measured. For more information on querying the results see</span>
+<span class="sd">		[SENSe:]LIST:POWer:RESult?. \n</span>
+<span class="sd">			:param structure: for set value, see the help for SetStruct structure arguments.</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_struct_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:MPOWer:SEQuence&#39;</span><span class="p">,</span> <span class="n">structure</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="SequenceCls.get"><a class="viewcode-back" href="../../../../../Sense_Mpower_Sequence.html#RsFsw.Implementations.Sense.Mpower.Sequence.SequenceCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:MPOWer[:SEQuence] \n</span>
+<span class="sd">		Snippet: value: List[float] = driver.sense.mpower.sequence.get() \n</span>
+<span class="sd">		Configures and initiates the pulse power measurement. The FSW caches all measurement parameters that you can set with</span>
+<span class="sd">		this command. If you use the command repeatedly, the FSW only changes those settings that you have actually changed</span>
+<span class="sd">		before initiating the measurement. Thus, measurement times are kept as low as possible. If you synchronize the</span>
+<span class="sd">		measurement with *OPC, the FSW produces a service request when all frequencies have been measured and the number of</span>
+<span class="sd">		individual measurements has been performed. Note that using the command as a query initiates the measurement and returns</span>
+<span class="sd">		the results if all frequencies have been measured. For more information on querying the results see</span>
+<span class="sd">		[SENSe:]LIST:POWer:RESult?. \n</span>
+<span class="sd">			:return: power_levels: No help available&quot;&quot;&quot;</span>
+		<span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_bin_or_ascii_float_list_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:MPOWer:SEQuence?&#39;</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">response</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Modulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FILTer:MODulation
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FILTer:MODulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FilterPy.Modulation.ModulationCls
+	:members:
+	:undoc-members:
+	:noindex:

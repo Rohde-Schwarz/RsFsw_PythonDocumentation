@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:STATistics:SFIeld[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:STATistics:SFIeld[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Statistics.Sfield.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

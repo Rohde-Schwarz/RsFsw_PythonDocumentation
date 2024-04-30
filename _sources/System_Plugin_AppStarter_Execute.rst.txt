@@ -1,0 +1,20 @@
+Execute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:EXECute
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:EXECute
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Execute.ExecuteCls
+	:members:
+	:undoc-members:
+	:noindex:

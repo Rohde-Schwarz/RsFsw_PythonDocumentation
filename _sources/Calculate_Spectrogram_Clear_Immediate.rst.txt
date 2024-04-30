@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:SPECtrogram:CLEar[:IMMediate]
+
+.. code-block:: python
+
+	CALCulate<n>:SPECtrogram:CLEar[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.Clear.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,29 @@
+Level
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Power.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.npratio.power.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Npratio_Power_Level_Cstate.rst
+	Configure_Generator_Npratio_Power_Level_Offset.rst

@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DDEM:BURSt:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:DDEM:BURSt:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Ddem.Burst.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

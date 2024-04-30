@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:FUNCtion:BPOWer:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:FUNCtion:BPOWer:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Bpower.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Link
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:GENerator:LINK
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:GENerator:LINK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Communicate.Rdevice.Generator.Link.LinkCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mcgd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings:MCGD
+
+.. code-block:: python
+
+	CONFigure:SETTings:MCGD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Settings.Mcgd.McgdCls
+	:members:
+	:undoc-members:
+	:noindex:

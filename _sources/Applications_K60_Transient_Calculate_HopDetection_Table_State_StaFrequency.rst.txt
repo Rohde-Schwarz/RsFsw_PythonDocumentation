@@ -1,0 +1,20 @@
+StaFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:STATe:STAFrequency
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:STATe:STAFrequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.State.StaFrequency.StaFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:STATe[:INDex]:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:STATe[:INDex]:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.State.Index.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

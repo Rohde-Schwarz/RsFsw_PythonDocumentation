@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:TRIGger<tp>:PULSe:IMMediate
+
+.. code-block:: python
+
+	OUTPut:TRIGger<tp>:PULSe:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Output.Trigger.Pulse.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

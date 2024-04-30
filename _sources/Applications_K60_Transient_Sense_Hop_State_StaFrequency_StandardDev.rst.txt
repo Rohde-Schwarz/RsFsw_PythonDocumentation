@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:STATe:STAFrequency:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:HOP:STATe:STAFrequency:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.State.StaFrequency.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

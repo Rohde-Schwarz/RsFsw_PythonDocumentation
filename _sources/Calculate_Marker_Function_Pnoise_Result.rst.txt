@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:PNOise:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:PNOise:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Pnoise.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

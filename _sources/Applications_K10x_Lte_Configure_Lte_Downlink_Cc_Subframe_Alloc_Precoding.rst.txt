@@ -1,0 +1,34 @@
+Precoding
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Precoding.PrecodingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.alloc.precoding.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_Ap.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_CbIndex.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_Cdd.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_ClMapping.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_NoLayers.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_Scheme.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc_Precoding_Scid.rst

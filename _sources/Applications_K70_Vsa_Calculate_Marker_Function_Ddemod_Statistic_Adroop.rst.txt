@@ -1,0 +1,20 @@
+Adroop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:ADRoop
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:ADRoop
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Adroop.AdroopCls
+	:members:
+	:undoc-members:
+	:noindex:

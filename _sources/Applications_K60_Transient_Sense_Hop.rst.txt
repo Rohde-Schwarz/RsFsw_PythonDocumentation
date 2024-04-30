@@ -1,0 +1,36 @@
+Hop
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.HopCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.hop.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Hop_FmSettling.rst
+	Applications_K60_Transient_Sense_Hop_Frequency.rst
+	Applications_K60_Transient_Sense_Hop_Id.rst
+	Applications_K60_Transient_Sense_Hop_Number.rst
+	Applications_K60_Transient_Sense_Hop_Phase.rst
+	Applications_K60_Transient_Sense_Hop_PmSettling.rst
+	Applications_K60_Transient_Sense_Hop_Power.rst
+	Applications_K60_Transient_Sense_Hop_State.rst
+	Applications_K60_Transient_Sense_Hop_Timing.rst

@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PBERate:AVERage
+
+.. code-block:: python
+
+	FETCh:PBERate:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.PbeRate.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

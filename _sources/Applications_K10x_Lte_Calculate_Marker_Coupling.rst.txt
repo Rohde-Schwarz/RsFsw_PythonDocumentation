@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:COUPling
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:

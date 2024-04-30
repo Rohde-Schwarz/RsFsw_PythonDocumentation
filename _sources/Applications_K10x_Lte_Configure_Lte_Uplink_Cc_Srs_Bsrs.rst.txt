@@ -1,0 +1,20 @@
+Bsrs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SRS:BSRS
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SRS:BSRS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Srs.Bsrs.BsrsCls
+	:members:
+	:undoc-members:
+	:noindex:

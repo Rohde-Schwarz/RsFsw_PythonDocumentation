@@ -1,0 +1,20 @@
+TriggerInvoke
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: *TRG
+
+.. code-block:: python
+
+	*TRG
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.TriggerInvoke.TriggerInvokeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Ccolor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:CCOLor
+
+.. code-block:: python
+
+	[SENSe]:NR5G:CCOLor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Ccolor.CcolorCls
+	:members:
+	:undoc-members:
+	:noindex:

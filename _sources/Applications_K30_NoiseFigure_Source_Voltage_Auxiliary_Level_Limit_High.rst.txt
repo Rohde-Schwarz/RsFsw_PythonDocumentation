@@ -1,0 +1,20 @@
+High
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:VOLTage:AUX:LEVel:LIMit:HIGH
+
+.. code-block:: python
+
+	SOURce:VOLTage:AUX:LEVel:LIMit:HIGH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.Auxiliary.Level.Limit.High.HighCls
+	:members:
+	:undoc-members:
+	:noindex:

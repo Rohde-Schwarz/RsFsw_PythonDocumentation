@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:OPERation:ENABle
+
+.. code-block:: python
+
+	STATus:OPERation:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Operation.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

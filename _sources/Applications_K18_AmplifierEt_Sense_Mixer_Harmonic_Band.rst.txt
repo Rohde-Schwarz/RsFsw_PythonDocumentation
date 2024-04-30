@@ -1,0 +1,22 @@
+Band
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:MIXer:HARMonic:BAND
+	single: [SENSe]:MIXer:HARMonic:BAND:PRESet
+
+.. code-block:: python
+
+	[SENSe]:MIXer:HARMonic:BAND
+	[SENSe]:MIXer:HARMonic:BAND:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Mixer.Harmonic.Band.BandCls
+	:members:
+	:undoc-members:
+	:noindex:

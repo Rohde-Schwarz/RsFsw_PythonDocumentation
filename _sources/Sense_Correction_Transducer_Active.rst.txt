@@ -1,0 +1,20 @@
+Active
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:TRANsducer:ACTive
+
+.. code-block:: python
+
+	[SENSe]:CORRection:TRANsducer:ACTive
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Transducer.Active.ActiveCls
+	:members:
+	:undoc-members:
+	:noindex:

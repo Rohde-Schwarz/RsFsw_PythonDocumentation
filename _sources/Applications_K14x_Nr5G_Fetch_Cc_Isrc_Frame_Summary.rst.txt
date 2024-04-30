@@ -1,0 +1,60 @@
+Summary
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Isrc.Frame.Summary.SummaryCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.fetch.cc.isrc.frame.summary.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_AapFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_All.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_ApFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_ArpFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Bler.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_CapFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Cfrequency.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_CpFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Crest.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_CrpFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Eaaccs.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Evm.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Foffset.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_FreqError.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Gimbalance.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_IqOffset.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_MapFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_McpFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_MrpFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_MspFail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Ostp.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Ovld.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Paccs.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Power.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_QuadError.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Rsrp.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Rstp.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Serror.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_SpDail.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Sstate.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Tput.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_TsDelta.rst
+	Applications_K14x_Nr5G_Fetch_Cc_Isrc_Frame_Summary_Tstamp.rst

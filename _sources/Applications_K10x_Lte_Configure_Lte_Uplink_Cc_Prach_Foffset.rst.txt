@@ -1,0 +1,20 @@
+Foffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PRACh:FOFFset
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PRACh:FOFFset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Prach.Foffset.FoffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

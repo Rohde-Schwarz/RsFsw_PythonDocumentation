@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:AR:FREQuency:PERCent:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:AR:FREQuency:PERCent:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Ar.Frequency.Percent.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

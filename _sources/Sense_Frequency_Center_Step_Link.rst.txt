@@ -1,0 +1,37 @@
+Link
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:CENTer:STEP:LINK
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:CENTer:STEP:LINK
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Frequency.Center.Step.Link.LinkCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.frequency.center.step.link.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Frequency_Center_Step_Link_Factor.rst

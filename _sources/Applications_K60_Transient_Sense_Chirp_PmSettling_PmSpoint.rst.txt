@@ -1,0 +1,40 @@
+PmSpoint
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PMSettling:PMSPoint
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PMSettling:PMSPoint
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.PmSettling.PmSpoint.PmSpointCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.chirp.pmSettling.pmSpoint.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmSpoint_Average.rst
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmSpoint_Maximum.rst
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmSpoint_Minimum.rst
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmSpoint_StandardDev.rst

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>]:SUMMary:RSSI:MAXimum
+
+.. code-block:: python
+
+	FETCh[:CC<cc>]:SUMMary:RSSI:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Rssi.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

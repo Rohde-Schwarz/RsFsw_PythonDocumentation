@@ -1,0 +1,20 @@
+High
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:BIAS:HIGH
+
+.. code-block:: python
+
+	[SENSe]:MIXer:BIAS:HIGH
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mixer.Bias.High.HighCls
+	:members:
+	:undoc-members:
+	:noindex:

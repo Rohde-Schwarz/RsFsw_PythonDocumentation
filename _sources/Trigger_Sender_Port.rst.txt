@@ -1,0 +1,20 @@
+Port
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger:SENDer:PORT
+
+.. code-block:: python
+
+	TRIGger:SENDer:PORT
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sender.Port.PortCls
+	:members:
+	:undoc-members:
+	:noindex:

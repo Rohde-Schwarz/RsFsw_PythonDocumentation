@@ -1,0 +1,20 @@
+SameLoad
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:FILE:SAMeload
+
+.. code-block:: python
+
+	SYSTem:FILE:SAMeload
+
+
+
+.. autoclass:: RsFsw.Implementations.System.File.SameLoad.SameLoadCls
+	:members:
+	:undoc-members:
+	:noindex:

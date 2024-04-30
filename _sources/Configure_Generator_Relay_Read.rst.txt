@@ -1,0 +1,20 @@
+Read
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:RELay:READ
+
+.. code-block:: python
+
+	CONFigure:GENerator:RELay:READ
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Relay.Read.ReadCls
+	:members:
+	:undoc-members:
+	:noindex:

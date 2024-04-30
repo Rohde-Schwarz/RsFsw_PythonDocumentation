@@ -1,0 +1,20 @@
+Trace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:STORe<n>:TRACe
+
+.. code-block:: python
+
+	MMEMory:STORe<n>:TRACe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.MassMemory.Store.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,45 @@
+Trace<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k30NoiseFigure.trace.repcap_window_get()
+	driver.applications.k30NoiseFigure.trace.repcap_window_set(repcap.Window.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>:COPY
+
+.. code-block:: python
+
+	TRACe<n>:COPY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.trace.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Trace_Data.rst

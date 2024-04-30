@@ -1,0 +1,20 @@
+Standard
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:EVM:STANdard
+
+.. code-block:: python
+
+	CONFigure:BURSt:EVM:STANdard
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Evm.Standard.StandardCls
+	:members:
+	:undoc-members:
+	:noindex:

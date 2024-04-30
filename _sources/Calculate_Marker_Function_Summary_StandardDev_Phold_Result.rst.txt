@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:SUMMary:SDEViation:PHOLd:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:SUMMary:SDEViation:PHOLd:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Summary.StandardDev.Phold.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

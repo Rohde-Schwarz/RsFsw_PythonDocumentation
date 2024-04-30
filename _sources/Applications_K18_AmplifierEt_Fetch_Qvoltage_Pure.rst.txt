@@ -1,0 +1,30 @@
+Pure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Qvoltage.Pure.PureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.qvoltage.pure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Qvoltage_Pure_Current.rst
+	Applications_K18_AmplifierEt_Fetch_Qvoltage_Pure_Maximum.rst
+	Applications_K18_AmplifierEt_Fetch_Qvoltage_Pure_Minimum.rst

@@ -1,0 +1,20 @@
+TpRecoding
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:TPRecoding
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:TPRecoding
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.TpRecoding.TpRecodingCls
+	:members:
+	:undoc-members:
+	:noindex:

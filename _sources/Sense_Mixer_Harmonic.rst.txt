@@ -1,0 +1,31 @@
+Harmonic
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mixer.Harmonic.HarmonicCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.mixer.harmonic.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Mixer_Harmonic_Band.rst
+	Sense_Mixer_Harmonic_High.rst
+	Sense_Mixer_Harmonic_Low.rst
+	Sense_Mixer_Harmonic_TypePy.rst

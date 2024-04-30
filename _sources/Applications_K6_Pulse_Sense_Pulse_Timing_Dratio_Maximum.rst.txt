@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:DRATio:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:DRATio:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Dratio.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

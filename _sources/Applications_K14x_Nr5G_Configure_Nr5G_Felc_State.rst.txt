@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:FELC:STATe
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:FELC:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Felc.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

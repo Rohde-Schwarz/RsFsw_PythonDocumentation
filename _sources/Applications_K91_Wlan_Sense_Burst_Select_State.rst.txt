@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BURSt:SELect:STATe
+
+.. code-block:: python
+
+	[SENSe]:BURSt:SELect:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Burst.Select.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

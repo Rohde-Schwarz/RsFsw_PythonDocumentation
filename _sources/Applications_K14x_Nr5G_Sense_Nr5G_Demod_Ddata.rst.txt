@@ -1,0 +1,20 @@
+Ddata
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:DDATa
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:DDATa
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.Ddata.DdataCls
+	:members:
+	:undoc-members:
+	:noindex:

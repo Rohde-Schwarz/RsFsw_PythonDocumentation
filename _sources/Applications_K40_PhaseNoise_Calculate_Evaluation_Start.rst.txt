@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:EVALuation:STARt
+
+.. code-block:: python
+
+	CALCulate<n>:EVALuation:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Evaluation.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

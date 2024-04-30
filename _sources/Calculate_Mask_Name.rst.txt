@@ -1,0 +1,20 @@
+Name
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:NAME
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:NAME
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Name.NameCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Settings
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:SETTings
+
+.. code-block:: python
+
+	MMEMory:LOAD:SETTings
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.MassMemory.Load.Settings.SettingsCls
+	:members:
+	:undoc-members:
+	:noindex:

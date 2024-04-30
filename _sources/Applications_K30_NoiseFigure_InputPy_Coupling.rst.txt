@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:COUPling
+
+.. code-block:: python
+
+	INPut:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.InputPy.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:

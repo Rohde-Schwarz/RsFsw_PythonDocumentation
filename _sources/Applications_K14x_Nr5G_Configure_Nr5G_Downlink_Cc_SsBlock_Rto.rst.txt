@@ -1,0 +1,20 @@
+Rto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:RTO
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:RTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsBlock.Rto.RtoCls
+	:members:
+	:undoc-members:
+	:noindex:

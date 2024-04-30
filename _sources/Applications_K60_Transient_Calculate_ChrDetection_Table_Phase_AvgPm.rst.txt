@@ -1,0 +1,20 @@
+AvgPm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:PHASe:AVGPm
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:PHASe:AVGPm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Phase.AvgPm.AvgPmCls
+	:members:
+	:undoc-members:
+	:noindex:

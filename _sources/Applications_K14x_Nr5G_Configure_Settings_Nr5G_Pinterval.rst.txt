@@ -1,0 +1,20 @@
+Pinterval
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings:NR5G:PINTerval
+
+.. code-block:: python
+
+	CONFigure:SETTings:NR5G:PINTerval
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Settings.Nr5G.Pinterval.PintervalCls
+	:members:
+	:undoc-members:
+	:noindex:

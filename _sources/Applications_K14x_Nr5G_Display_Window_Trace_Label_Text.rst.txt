@@ -1,0 +1,20 @@
+Text
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:LABel:TEXT
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:LABel:TEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Display.Window.Trace.Label.Text.TextCls
+	:members:
+	:undoc-members:
+	:noindex:

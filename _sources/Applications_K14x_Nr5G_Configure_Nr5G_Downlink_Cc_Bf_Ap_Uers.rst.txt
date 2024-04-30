@@ -1,0 +1,20 @@
+Uers
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:BF:AP[:UERS]
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:BF:AP[:UERS]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Bf.Ap.Uers.UersCls
+	:members:
+	:undoc-members:
+	:noindex:

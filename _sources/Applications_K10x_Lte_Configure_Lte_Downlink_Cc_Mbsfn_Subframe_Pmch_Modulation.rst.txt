@@ -1,0 +1,20 @@
+Modulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:MBSFn:SUBFrame<sf>:PMCH:MODulation
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:MBSFn:SUBFrame<sf>:PMCH:MODulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mbsfn.Subframe.Pmch.Modulation.ModulationCls
+	:members:
+	:undoc-members:
+	:noindex:

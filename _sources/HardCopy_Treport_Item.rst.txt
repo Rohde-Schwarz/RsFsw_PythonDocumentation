@@ -1,0 +1,33 @@
+Item
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.ItemCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.item.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Item_Default.rst
+	HardCopy_Treport_Item_Header.rst
+	HardCopy_Treport_Item_ListPy.rst
+	HardCopy_Treport_Item_Logo.rst
+	HardCopy_Treport_Item_Select.rst
+	HardCopy_Treport_Item_Template.rst

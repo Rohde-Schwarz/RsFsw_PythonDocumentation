@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="State" href="Applications_K60_Transient_Calculate_HopDetection_Table_State.html" />
+    <link rel="prev" title="PwrRipple" href="Applications_K60_Transient_Calculate_HopDetection_Table_Power_PwrRipple.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="Applications_K60_Transient_Calculate.html">Calculate&lt;Window&gt;</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Ar.html">Ar</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_ChrDetection.html">ChrDetection</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_DeltaMarker.html">DeltaMarker&lt;DeltaMarker&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Distribution.html">Distribution</a></li>
+<li class="toctree-l5 current"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection.html">HopDetection</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Compensation.html">Compensation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Dwell.html">Dwell</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Fdeviation.html">Fdeviation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_FmTolerance.html">FmTolerance</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Frequency.html">Frequency</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Pcoherent.html">Pcoherent</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Pdeviation.html">Pdeviation</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_PmTolerance.html">PmTolerance</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Pnoise.html">Pnoise</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Power.html">Power</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Selected.html">Selected</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_States.html">States</a></li>
+<li class="toctree-l6 current"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table.html">Table</a><ul class="current">
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_Column.html">Column</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_FmSettling.html">FmSettling</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_Frequency.html">Frequency</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_Phase.html">Phase</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_PmSettling.html">PmSettling</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_Power.html">Power</a></li>
+<li class="toctree-l7 current"><a class="current reference internal" href="#">Results</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_State.html">State</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_Timing.html">Timing</a></li>
+<li class="toctree-l7"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Table_Total.html">Total</a></li>
+</ul>
+</li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K60_Transient_Calculate_HopDetection_Total.html">Total</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Marker.html">Marker&lt;Marker&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Msra.html">Msra</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Result.html">Result</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Rtms.html">Rtms</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Spectrogram.html">Spectrogram</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Trace.html">Trace&lt;Trace&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Trend.html">Trend</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K60_Transient_Calculate_Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K60_Transient_TriggerInvoke.html">TriggerInvoke</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+          <li><a href="Applications_K60_Transient.html">K60_Transient</a> &raquo;</li>
+          <li><a href="Applications_K60_Transient_Calculate.html">Calculate&lt;Window&gt;</a> &raquo;</li>
+          <li><a href="Applications_K60_Transient_Calculate_HopDetection.html">HopDetection</a> &raquo;</li>
+          <li><a href="Applications_K60_Transient_Calculate_HopDetection_Table.html">Table</a> &raquo;</li>
+      <li>Results</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K60_Transient_Calculate_HopDetection_Table_Results.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="results">
+<h1>Results<a class="headerlink" href="#results" title="Permalink to this headline"></a></h1>
+<p class="rubric">SCPI Command :</p>
+<div class="highlight-python notranslate" id="index-0"><div class="highlight"><pre><span></span><span class="n">CALCulate</span><span class="o">&lt;</span><span class="n">n</span><span class="o">&gt;</span><span class="p">:</span><span class="n">HOPDetection</span><span class="p">:</span><span class="n">TABLe</span><span class="p">:</span><span class="n">RESults</span>
+</pre></div>
+</div>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ResultsCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/HopDetection/Table/Results.html#ResultsCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>Results commands group definition. 1 total commands, 0 Subgroups, 1 group commands</p>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">GetStruct</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/HopDetection/Table/Results.html#ResultsCls.GetStruct"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>Response structure. Fields:</p>
+<ul class="simple">
+<li><p>Idn: str: char_data timestamp which corresponds to the absolute time the beginning of the hop was detected</p></li>
+<li><p>Hop_No: float: consecutive number of detected hop, starts at 1 for each new measurement</p></li>
+<li><p>State_Index: float: consecutive number of corresponding nominal hop state as defined in the ‘hop States’ table (see [CMDLINKRESOLVED Applications.K60_Transient.Calculate.HopDetection.States.Data#set CMDLINKRESOLVED])</p></li>
+<li><p>Begin: str: char_data relative time (in ms) from the capture start at which the signal first enters the tolerance area of a nominal hop (within the analysis region) Unit: ms</p></li>
+<li><p>Dwell_Time: str: char_data The duration of a hop from begin to end, that is, the time the signal remains in the tolerance area of a nominal hop frequency. Unit: ms</p></li>
+<li><p>Switch_Time: str: char_data The time the signal requires to ‘hop’ from one level to the next. It is defined as the time between a hop end and the following hop begin. Unit: ms</p></li>
+<li><p>Freq_Nom: float: Nominal frequency of the hop state Unit: kHz</p></li>
+<li><p>Freq_Avg: float: Average frequency measured within the frequency measurement range of the hop Unit: kHz</p></li>
+<li><p>Freq_Dev: float: Deviation of the hop frequency from the nominal hop state frequency For details see ‘Hop State Deviation’. Unit: kHz</p></li>
+<li><p>Freq_Rel: float: Relative difference in frequency between two hops. For details see ‘Relative Frequency (Hop-to-Hop) ‘. Unit: kHz</p></li>
+<li><p>Fm_Dev_Max: float: Maximum deviation of the hop frequency from the nominal hop frequency as defined in the ‘Hop States’ table. The deviation is calculated within the frequency measurement range of the hop. For details see ‘Frequency Deviation (Peak) ‘. Unit: kHz</p></li>
+<li><p>Fm_Dev_Rms: float: RMS deviation of the hop frequency from the nominal (linear) hop frequency as defined in the ‘Hop States’ table. The deviation is calculated within the frequency measurement range of the hop. For details see ‘Frequency Deviation (RMS) ‘. Unit: kHz</p></li>
+<li><p>Fm_Dev_Avg: float: Average deviation of the hop frequency from the nominal (linear) hop frequency as defined in the ‘Hop States’ table. The deviation is calculated within the frequency measurement range of the hop. For details see ‘Frequency Deviation (Average) ‘. Unit: kHz</p></li>
+<li><p>Pm_Dev_Max: float: Maximum deviation of the hop phase from the nominal hop phase as defined in the ‘Hop States’ table. The deviation is calculated within the frequency measurement range of the hop. For details see ‘Phase Deviation (Peak) ‘. Unit: kHz</p></li>
+<li><p>Pm_Dev_Rms: float: RMS deviation of the hop phase from the nominal (linear) hop phase as defined in the ‘Hop States’ table. The deviation is calculated within the frequency measurement range of the hop. For details see ‘Phase Deviation (RMS) ‘. Unit: kHz</p></li>
+<li><p>Pm_Dev_Avg: float: Average deviation of the hop phase from the nominal (linear) hop phase as defined in the ‘Hop States’ table. The deviation is calculated within the frequency measurement range of the hop. For details see ‘Phase Deviation (Average) ‘. Unit: kHz</p></li>
+<li><p>Pow_Min: float: Minimum power level measured during a hop. Which part of the hop precisely is used for calculation depends on the power parameters in the ‘Power’ measurement range configuration. Unit: dBm</p></li>
+<li><p>Pow_Max: float: Maximum power level measured during a hop. Which part of the hop precisely is used for calculation depends on the power parameters in the ‘Power’ measurement range configuration. Unit: dBm</p></li>
+<li><p>Pow_Avg: float: Average power level measured during a hop. Which part of the hop precisely is used for calculation depends on the power parameters in the ‘Power’ measurement range configuration. Unit: dBm</p></li>
+<li><p>Pow_Rip: float: Power level measured during the hop ripple time. Which part of the hop precisely is used for calculation depends on the power parameters in the ‘Power’ measurement range configuration. Unit: dBm</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">window</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">Window.Default</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">GetStruct</span></span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K60_Transient/Calculate/HopDetection/Table/Results.html#ResultsCls.get"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># SCPI: CALCulate&lt;n&gt;:HOPDetection:TABLe:RESults</span>
+<span class="n">value</span><span class="p">:</span> <span class="n">GetStruct</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k60Transient</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">hopDetection</span><span class="o">.</span><span class="n">table</span><span class="o">.</span><span class="n">results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">start</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">window</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Queries the hop results table. The result is a comma-separated list of value sets, one set for each hop. If no query
+parameters are specified, the results for all detected hops are returned. Which values are returned depends on the
+enabled parameters for the results tables (see method RsFsw.Applications.K60_Transient.Calculate.HopDetection.Table.
+Column.set) .</p>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">param start</dt>
+<dd class="field-odd"><p>integer The hop number of the first hop to be returned. Hop numbers start at 1.</p>
+</dd>
+<dt class="field-even">param end</dt>
+<dd class="field-even"><p>integer The hop number of the last hop to be returned.</p>
+</dd>
+<dt class="field-odd">param window</dt>
+<dd class="field-odd"><p>optional repeated capability selector. Default value: Nr1 (settable in the interface ‘Calculate’)</p>
+</dd>
+<dt class="field-even">return</dt>
+<dd class="field-even"><p>structure: for return value, see the help for GetStruct structure arguments.</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K60_Transient_Calculate_HopDetection_Table_Power_PwrRipple.html" class="btn btn-neutral float-left" title="PwrRipple" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K60_Transient_Calculate_HopDetection_Table_State.html" class="btn btn-neutral float-right" title="State" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Sequence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MODeling:SEQuence
+
+.. code-block:: python
+
+	CONFigure:MODeling:SEQuence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Modeling.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:

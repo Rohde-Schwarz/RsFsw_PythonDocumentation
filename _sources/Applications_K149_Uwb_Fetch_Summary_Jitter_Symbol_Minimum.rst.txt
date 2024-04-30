@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:JITTer:SYMBol:MINimum
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:JITTer:SYMBol:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Jitter.Symbol.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

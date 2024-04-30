@@ -1,0 +1,51 @@
+Flist<FileList>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr64
+	rc = driver.sense.correction.fresponse.baseband.user.flist.repcap_fileList_get()
+	driver.sense.correction.fresponse.baseband.user.flist.repcap_fileList_set(repcap.FileList.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:BASeband:USER:FLISt<fli>:CLEar
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:BASeband:USER:FLISt<fli>:CLEar
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Flist.FlistCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.baseband.user.flist.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_Baseband_User_Flist_Catalog.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist_Insert.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist_Magnitude.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist_Phase.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist_Remove.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist_Select.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist_Size.rst

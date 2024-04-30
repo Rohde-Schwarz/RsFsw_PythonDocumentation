@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Sense.ListPy.Power.Sequence &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../" id="documentation_options" src="../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../Sense.html">RsFsw.Implementations.Sense</a> &raquo;</li>
+          <li><a href="../../ListPy.html">RsFsw.Implementations.Sense.ListPy</a> &raquo;</li>
+          <li><a href="../Power.html">RsFsw.Implementations.Sense.ListPy.Power</a> &raquo;</li>
+      <li>RsFsw.Implementations.Sense.ListPy.Power.Sequence</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Sense.ListPy.Power.Sequence</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
+
+<span class="kn">from</span> <span class="nn">.....Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">.....Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">.....Internal.Types</span> <span class="kn">import</span> <span class="n">DataType</span>
+<span class="kn">from</span> <span class="nn">.....Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">.....Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">.....</span> <span class="kn">import</span> <span class="n">enums</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="SequenceCls"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Sequence.html#RsFsw.Implementations.Sense.ListPy.Power.Sequence.SequenceCls">[docs]</a><span class="k">class</span> <span class="nc">SequenceCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Sequence commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;sequence&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="SequenceCls.SequenceStruct"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Sequence.html#RsFsw.Implementations.Sense.ListPy.Power.Sequence.SequenceCls.SequenceStruct">[docs]</a>	<span class="k">class</span> <span class="nc">SequenceStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Structure for setting input parameters. Fields: \n</span>
+<span class="sd">			- Frequency: List[float]: Defines the frequency. Each frequency corresponds to one list entry. Range: 0 to Fmax, Unit: Hz</span>
+<span class="sd">			- Ref_Level: List[float]: Defines the reference level for a list entry. Range: -130 to 30, Unit: dBm</span>
+<span class="sd">			- Rfattenuation: List[float]: Defines the RF attenuation for a list entry. Range: 0 to 70, Unit: dB</span>
+<span class="sd">			- Filter_Type: List[float or bool]: Selects the filter type for a list entry. For more information see [SENSe:]BANDwidth[:RESolution]:TYPE.</span>
+<span class="sd">			- Rbw: List[enums.FilterTypeK91]: Defines the resolution bandwidth for a list entry.</span>
+<span class="sd">			- Vbw: List[float]: Defines the measurement time for a list entry.</span>
+<span class="sd">			- Meas_Time: List[float]: Defines the measurement time for a list entry. Range: 1 us to 16000 s, Unit: s</span>
+<span class="sd">			- Trigger_Level: List[float]: Reserved for future use; currently: must be 0.</span>
+<span class="sd">			- Power_Level: List[float]: Unit: PCT&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Frequency&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Ref_Level&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Rfattenuation&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Filter_Type&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Rbw&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">EnumList</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">FilterTypeK91</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Vbw&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Meas_Time&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Trigger_Level&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Power_Level&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Frequency</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Ref_Level</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Rfattenuation</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Filter_Type</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span> <span class="ow">or</span> <span class="nb">bool</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Rbw</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">enums</span><span class="o">.</span><span class="n">FilterTypeK91</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Vbw</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Meas_Time</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Level</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Power_Level</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="SequenceCls.set"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Sequence.html#RsFsw.Implementations.Sense.ListPy.Power.Sequence.SequenceCls.set">[docs]</a>	<span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">structure</span><span class="p">:</span> <span class="n">SequenceStruct</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:LIST:POWer[:SEQuence] \n</span>
+<span class="sd">		Snippet with structure: \n</span>
+<span class="sd">		structure = driver.sense.listPy.power.sequence.SequenceStruct() \n</span>
+<span class="sd">		structure.Frequency: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Ref_Level: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Rfattenuation: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Filter_Type: List[float or bool] = [1.1, True, 2.2, False, 3.3] \n</span>
+<span class="sd">		structure.Rbw: List[enums.FilterTypeK91] = [FilterTypeK91.CFILter, FilterTypeK91.RRC] \n</span>
+<span class="sd">		structure.Vbw: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Meas_Time: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Trigger_Level: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Power_Level: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		driver.sense.listPy.power.sequence.set(structure) \n</span>
+<span class="sd">		Configures and initiates the List Evaluation measurement. The list can contain up to 200 entries (frequencies) . You can</span>
+<span class="sd">		define a different instrument setup for each frequency that is in the list. If you synchronize the measurement with *OPC,</span>
+<span class="sd">		the FSW produces a service request when all frequencies have been measured and the number of individual measurements has</span>
+<span class="sd">		been performed. Note that using the command as a query initiates the measurement and returns the results if all</span>
+<span class="sd">		frequencies have been measured. For more information on querying the results see [SENSe:]LIST:POWer:RESult?. \n</span>
+<span class="sd">			:param structure: for set value, see the help for SequenceStruct structure arguments.</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_struct_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:LIST:POWer:SEQuence&#39;</span><span class="p">,</span> <span class="n">structure</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="SequenceCls.get"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Sequence.html#RsFsw.Implementations.Sense.ListPy.Power.Sequence.SequenceCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">SequenceStruct</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:LIST:POWer[:SEQuence] \n</span>
+<span class="sd">		Snippet: value: SequenceStruct = driver.sense.listPy.power.sequence.get() \n</span>
+<span class="sd">		Configures and initiates the List Evaluation measurement. The list can contain up to 200 entries (frequencies) . You can</span>
+<span class="sd">		define a different instrument setup for each frequency that is in the list. If you synchronize the measurement with *OPC,</span>
+<span class="sd">		the FSW produces a service request when all frequencies have been measured and the number of individual measurements has</span>
+<span class="sd">		been performed. Note that using the command as a query initiates the measurement and returns the results if all</span>
+<span class="sd">		frequencies have been measured. For more information on querying the results see [SENSe:]LIST:POWer:RESult?. \n</span>
+<span class="sd">			:return: structure: for return value, see the help for SequenceStruct structure arguments.&quot;&quot;&quot;</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_struct_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:LIST:POWer:SEQuence?&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">SequenceStruct</span><span class="p">())</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

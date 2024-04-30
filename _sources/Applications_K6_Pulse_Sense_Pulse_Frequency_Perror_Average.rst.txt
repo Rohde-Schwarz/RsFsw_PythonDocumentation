@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:PERRor:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:PERRor:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Perror.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

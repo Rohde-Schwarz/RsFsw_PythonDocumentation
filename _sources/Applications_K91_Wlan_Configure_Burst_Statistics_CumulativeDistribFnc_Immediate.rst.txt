@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:STATistics:CCDF[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:STATistics:CCDF[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Statistics.CumulativeDistribFnc.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

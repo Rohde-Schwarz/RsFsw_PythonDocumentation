@@ -1,0 +1,20 @@
+Tolerance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SSEarch:FPLan:TOLerance
+
+.. code-block:: python
+
+	[SENSe]:SSEarch:FPLan:TOLerance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.Fplan.Tolerance.ToleranceCls
+	:members:
+	:undoc-members:
+	:noindex:

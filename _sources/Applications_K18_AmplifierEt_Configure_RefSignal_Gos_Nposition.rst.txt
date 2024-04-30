@@ -1,0 +1,20 @@
+Nposition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:GOS:NPOSition
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:NPOSition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Nposition.NpositionCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,32 @@
+Y
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.psweep.y.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Psweep_Y_Setting.rst
+	Applications_K18_AmplifierEt_Configure_Psweep_Y_Start.rst
+	Applications_K18_AmplifierEt_Configure_Psweep_Y_State.rst
+	Applications_K18_AmplifierEt_Configure_Psweep_Y_Step.rst
+	Applications_K18_AmplifierEt_Configure_Psweep_Y_Stop.rst

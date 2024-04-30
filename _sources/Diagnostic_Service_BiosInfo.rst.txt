@@ -1,0 +1,20 @@
+BiosInfo
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:BIOSinfo
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:BIOSinfo
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.BiosInfo.BiosInfoCls
+	:members:
+	:undoc-members:
+	:noindex:

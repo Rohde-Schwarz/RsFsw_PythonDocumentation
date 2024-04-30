@@ -1,0 +1,37 @@
+Duration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:CONFigure:DURation
+
+.. code-block:: python
+
+	[SENSe]:ADJust:CONFigure:DURation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Adjust.Configure.Duration.DurationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.adjust.configure.duration.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Adjust_Configure_Duration_Mode.rst

@@ -1,0 +1,20 @@
+Resolution
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:BANDwidth:RESolution
+
+.. code-block:: python
+
+	[SENSe]:IQ:BANDwidth:RESolution
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Sense.Iq.Bandwidth.Resolution.ResolutionCls
+	:members:
+	:undoc-members:
+	:noindex:

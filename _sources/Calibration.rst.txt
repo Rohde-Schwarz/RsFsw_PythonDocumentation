@@ -1,0 +1,35 @@
+Calibration
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calibration.CalibrationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calibration.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calibration_Aiq.rst
+	Calibration_All.rst
+	Calibration_Due.rst
+	Calibration_Info.rst
+	Calibration_Padjust.rst
+	Calibration_Pmeter.rst
+	Calibration_PreSelection.rst
+	Calibration_Result.rst

@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy:IQOFfset:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:MACCuracy:IQOFfset:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.IqOffset.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

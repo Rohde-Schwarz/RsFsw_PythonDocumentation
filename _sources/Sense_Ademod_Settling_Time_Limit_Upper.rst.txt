@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SETTling:TIME:LIMit:UPPer
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SETTling:TIME:LIMit:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Settling.Time.Limit.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:BURSt:LENGth[:MINimum]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:BURSt:LENGth[:MINimum]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Burst.Length.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

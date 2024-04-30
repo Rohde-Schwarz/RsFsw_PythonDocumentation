@@ -1,0 +1,20 @@
+RefLevel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:RLEVel
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:RLEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range.RefLevel.RefLevelCls
+	:members:
+	:undoc-members:
+	:noindex:

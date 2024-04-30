@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:ANNotation:LABel[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:ANNotation:LABel[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Function.Fpeaks.Annotation.Label.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

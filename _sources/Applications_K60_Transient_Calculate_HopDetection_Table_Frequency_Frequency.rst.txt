@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:FREQuency:FREQuency
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:FREQuency:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Frequency.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

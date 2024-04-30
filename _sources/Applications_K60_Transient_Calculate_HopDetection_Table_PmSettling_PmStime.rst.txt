@@ -1,0 +1,20 @@
+PmStime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PMSettling:PMSTime
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PMSettling:PMSTime
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.PmSettling.PmStime.PmStimeCls
+	:members:
+	:undoc-members:
+	:noindex:

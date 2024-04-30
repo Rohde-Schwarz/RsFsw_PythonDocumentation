@@ -1,0 +1,37 @@
+Antenna<Antenna>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k10Xlte.configure.lte.downlink.cc.sync.csWeight.antenna.repcap_antenna_get()
+	driver.applications.k10Xlte.configure.lte.downlink.cc.sync.csWeight.antenna.repcap_antenna_set(repcap.Antenna.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sync.CsWeight.Antenna.AntennaCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.sync.csWeight.antenna.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Sync_CsWeight_Antenna_FhFrame.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Sync_CsWeight_Antenna_ShFrame.rst

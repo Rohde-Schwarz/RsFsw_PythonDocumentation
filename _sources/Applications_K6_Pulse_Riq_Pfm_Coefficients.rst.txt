@@ -1,0 +1,36 @@
+Coefficients<Coefficients>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Order1 .. Order16
+	rc = driver.applications.k6Pulse.riq.pfm.coefficients.repcap_coefficients_get()
+	driver.applications.k6Pulse.riq.pfm.coefficients.repcap_coefficients_set(repcap.Coefficients.Order1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:PFM:COEFficients<n>
+
+.. code-block:: python
+
+	RIQ:PFM:COEFficients<n>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Pfm.Coefficients.CoefficientsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.riq.pfm.coefficients.clone()

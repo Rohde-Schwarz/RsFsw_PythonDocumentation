@@ -1,0 +1,30 @@
+FreqError
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.FreqError.FreqErrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.maccuracy.freqError.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_FreqError_Current.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_FreqError_Maximum.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_FreqError_Minimum.rst

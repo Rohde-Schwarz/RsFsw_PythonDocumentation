@@ -1,0 +1,20 @@
+Handover
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:FREQuency:HANDover
+
+.. code-block:: python
+
+	[SENSe]:MIXer:FREQuency:HANDover
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Mixer.Frequency.Handover.HandoverCls
+	:members:
+	:undoc-members:
+	:noindex:

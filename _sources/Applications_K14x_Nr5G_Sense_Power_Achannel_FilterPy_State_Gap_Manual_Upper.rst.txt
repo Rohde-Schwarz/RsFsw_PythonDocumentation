@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:FILTer[:STATe]:GAP<gap>:MANual:UPPer
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:FILTer[:STATe]:GAP<gap>:MANual:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.FilterPy.State.Gap.Manual.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:

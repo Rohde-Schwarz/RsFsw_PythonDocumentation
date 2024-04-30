@@ -1,0 +1,20 @@
+Mdescription
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:LXI:MDEScription
+
+.. code-block:: python
+
+	SYSTem:LXI:MDEScription
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Lxi.Mdescription.MdescriptionCls
+	:members:
+	:undoc-members:
+	:noindex:

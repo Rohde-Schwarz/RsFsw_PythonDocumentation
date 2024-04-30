@@ -1,0 +1,20 @@
+NoLayers
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALLoc<al>:PRECoding:NOLayers
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALLoc<al>:PRECoding:NOLayers
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Precoding.NoLayers.NoLayersCls
+	:members:
+	:undoc-members:
+	:noindex:

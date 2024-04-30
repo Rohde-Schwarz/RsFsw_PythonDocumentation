@@ -1,0 +1,20 @@
+Destination
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:DESTination
+
+.. code-block:: python
+
+	HCOPy:DESTination
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Destination.DestinationCls
+	:members:
+	:undoc-members:
+	:noindex:

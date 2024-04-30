@@ -1,0 +1,37 @@
+Dtime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:DTIMe
+
+.. code-block:: python
+
+	[SENSe]:SWEep:DTIMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Dtime.DtimeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.sweep.dtime.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Sweep_Dtime_Auto.rst

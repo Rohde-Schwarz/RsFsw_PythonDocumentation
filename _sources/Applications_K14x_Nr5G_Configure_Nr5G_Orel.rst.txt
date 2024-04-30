@@ -1,0 +1,20 @@
+Orel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:OREL
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:OREL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Orel.OrelCls
+	:members:
+	:undoc-members:
+	:noindex:

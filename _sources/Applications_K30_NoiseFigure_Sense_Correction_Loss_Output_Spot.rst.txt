@@ -1,0 +1,20 @@
+Spot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:LOSS:OUTPut:SPOT
+
+.. code-block:: python
+
+	[SENSe]:CORRection:LOSS:OUTPut:SPOT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Output.Spot.SpotCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,43 @@
+Initiate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate[:IMMediate]
+
+.. code-block:: python
+
+	INITiate[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.InitiateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.initiate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Initiate_Block.rst
+	Initiate_ConMeas.rst
+	Initiate_Continuous.rst
+	Initiate_Espectrum.rst
+	Initiate_Refresh.rst
+	Initiate_Sequencer.rst
+	Initiate_Spurious.rst

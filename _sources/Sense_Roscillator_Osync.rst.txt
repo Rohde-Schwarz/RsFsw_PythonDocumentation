@@ -1,0 +1,20 @@
+Osync
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:OSYNc
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:OSYNc
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.Osync.OsyncCls
+	:members:
+	:undoc-members:
+	:noindex:

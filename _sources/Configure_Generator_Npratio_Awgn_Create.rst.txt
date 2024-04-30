@@ -1,0 +1,20 @@
+Create
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:AWGN:CREate
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:AWGN:CREate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Awgn.Create.CreateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,34 @@
+Mdpd
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.MdpdCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.mdpd.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Mdpd_Apply.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd_Coefficient.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd_Iteration.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd_Order.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd_Rms.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd_State.rst
+	Applications_K18_AmplifierEt_Configure_Mdpd_Waveform.rst

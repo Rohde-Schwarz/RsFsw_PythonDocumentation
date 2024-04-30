@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PMETer<p>:RELative[:MAGNitude]:AUTO
+
+.. code-block:: python
+
+	CALCulate<n>:PMETer<p>:RELative[:MAGNitude]:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Pmeter.Relative.Magnitude.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

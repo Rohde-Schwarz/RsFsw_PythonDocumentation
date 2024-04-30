@@ -1,0 +1,29 @@
+Configure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Adjust.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.sense.adjust.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Sense_Adjust_Configure_Hysteresis.rst
+	Applications_K17_Mcgd_Sense_Adjust_Configure_Level.rst

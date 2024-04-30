@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:SRECorder:FORMat
+
+.. code-block:: python
+
+	SYSTem:SRECorder:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Srecorder.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

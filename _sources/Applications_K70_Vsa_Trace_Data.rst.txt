@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>[:DATA]
+
+.. code-block:: python
+
+	TRACe<n>[:DATA]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trace.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

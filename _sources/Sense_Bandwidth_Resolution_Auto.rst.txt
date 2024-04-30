@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth[:RESolution]:AUTO
+
+.. code-block:: python
+
+	[SENSe]:BWIDth[:RESolution]:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Bandwidth.Resolution.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Bw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PRSS:BW
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PRSS:BW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Prss.Bw.BwCls
+	:members:
+	:undoc-members:
+	:noindex:

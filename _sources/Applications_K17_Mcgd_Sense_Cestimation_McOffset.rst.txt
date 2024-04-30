@@ -1,0 +1,20 @@
+McOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CESTimation:MCOFfset
+
+.. code-block:: python
+
+	[SENSe]:CESTimation:MCOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Cestimation.McOffset.McOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

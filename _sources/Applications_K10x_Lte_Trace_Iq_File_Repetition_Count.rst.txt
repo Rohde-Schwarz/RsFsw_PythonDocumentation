@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:FILE:REPetition:COUNt
+
+.. code-block:: python
+
+	TRACe:IQ:FILE:REPetition:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Trace.Iq.File.Repetition.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

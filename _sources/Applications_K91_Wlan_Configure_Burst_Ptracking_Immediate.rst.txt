@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:PTRacking[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:PTRacking[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Ptracking.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:POWer:LEVel:STATe
+
+.. code-block:: python
+
+	CONFigure:GENerator:POWer:LEVel:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Generator.Power.Level.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

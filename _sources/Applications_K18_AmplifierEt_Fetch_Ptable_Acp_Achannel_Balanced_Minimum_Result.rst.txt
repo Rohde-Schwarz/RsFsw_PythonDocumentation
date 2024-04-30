@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PTABle:ACP:ACHannel<ch>:BALanced:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:PTABle:ACP:ACHannel<ch>:BALanced:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.Acp.Achannel.Balanced.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

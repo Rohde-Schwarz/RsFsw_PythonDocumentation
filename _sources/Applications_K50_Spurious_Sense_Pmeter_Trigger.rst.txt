@@ -1,0 +1,29 @@
+Trigger
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Pmeter.Trigger.TriggerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.pmeter.trigger.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Pmeter_Trigger_Level.rst
+	Applications_K50_Spurious_Sense_Pmeter_Trigger_State.rst

@@ -1,0 +1,37 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal<ext>:ROSCillator:EXTernal:FREQuency
+
+.. code-block:: python
+
+	SOURce:EXTernal<ext>:ROSCillator:EXTernal:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Roscillator.External.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.source.external.roscillator.external.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Source_External_Roscillator_External_Frequency_Mode.rst

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:STATe:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:STATe:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.State.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

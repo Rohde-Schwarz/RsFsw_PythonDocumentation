@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PAE:QCHannel:OFFSet
+
+.. code-block:: python
+
+	CONFigure:PAE:QCHannel:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Pae.Qchannel.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

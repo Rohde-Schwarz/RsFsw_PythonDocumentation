@@ -1,0 +1,20 @@
+Pindex
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL:PINDex
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL:PINDex
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Pindex.PindexCls
+	:members:
+	:undoc-members:
+	:noindex:

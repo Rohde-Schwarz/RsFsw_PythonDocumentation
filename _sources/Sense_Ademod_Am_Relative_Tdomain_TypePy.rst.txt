@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AM:RELative[:TDOMain][:TYPE]
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AM:RELative[:TDOMain][:TYPE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Am.Relative.Tdomain.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

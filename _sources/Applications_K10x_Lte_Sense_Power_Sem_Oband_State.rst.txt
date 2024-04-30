@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:OBANd:STATe
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:OBANd:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Sem.Oband.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

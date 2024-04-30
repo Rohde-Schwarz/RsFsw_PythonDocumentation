@@ -1,0 +1,29 @@
+Average
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Pmeter.Mtime.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.pmeter.mtime.average.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Pmeter_Mtime_Average_Count.rst
+	Applications_K10x_Lte_Sense_Pmeter_Mtime_Average_State.rst

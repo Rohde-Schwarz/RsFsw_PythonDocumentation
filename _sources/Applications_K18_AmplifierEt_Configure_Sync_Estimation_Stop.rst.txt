@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SYNC:ESTimation:STOP
+
+.. code-block:: python
+
+	CONFigure:SYNC:ESTimation:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Sync.Estimation.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

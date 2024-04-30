@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:COUNt
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

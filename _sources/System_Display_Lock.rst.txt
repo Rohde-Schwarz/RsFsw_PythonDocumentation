@@ -1,0 +1,20 @@
+Lock
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:DISPlay:LOCK
+
+.. code-block:: python
+
+	SYSTem:DISPlay:LOCK
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Display.Lock.LockCls
+	:members:
+	:undoc-members:
+	:noindex:

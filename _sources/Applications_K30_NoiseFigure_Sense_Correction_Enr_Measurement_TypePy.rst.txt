@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR[:MEASurement]:TYPE
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR[:MEASurement]:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Measurement.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

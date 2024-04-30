@@ -1,0 +1,20 @@
+SearchSignal
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:MDEPth:SEARchsignal
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:MDEPth:SEARchsignal
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Mdepth.SearchSignal.SearchSignalCls
+	:members:
+	:undoc-members:
+	:noindex:

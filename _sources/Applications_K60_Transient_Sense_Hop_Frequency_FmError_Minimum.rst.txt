@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:FMERror:MINimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:FMERror:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.FmError.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

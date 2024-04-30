@@ -1,0 +1,20 @@
+Cfdrift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:NORMalize:CFDRift
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:NORMalize:CFDRift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Normalize.Cfdrift.CfdriftCls
+	:members:
+	:undoc-members:
+	:noindex:

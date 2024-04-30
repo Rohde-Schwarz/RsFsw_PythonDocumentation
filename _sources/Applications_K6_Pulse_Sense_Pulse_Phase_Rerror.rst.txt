@@ -1,0 +1,42 @@
+Rerror
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:RERRor
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:RERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Rerror.RerrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.phase.rerror.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Phase_Rerror_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Phase_Rerror_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Phase_Rerror_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Phase_Rerror_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Phase_Rerror_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Phase_Rerror_StandardDev.rst

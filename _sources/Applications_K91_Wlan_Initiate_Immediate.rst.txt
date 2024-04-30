@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate[:IMMediate]
+
+.. code-block:: python
+
+	INITiate[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Initiate.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

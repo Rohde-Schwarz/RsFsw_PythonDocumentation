@@ -1,0 +1,20 @@
+Tperiod
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:TPERiod
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:TPERiod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.Tperiod.TperiodCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:POWer:IQOFfset:MAXimum
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:POWer:IQOFfset:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Power.IqOffset.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TDSTamp:STATe
+
+.. code-block:: python
+
+	HCOPy:TDSTamp:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.TdDtamp.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

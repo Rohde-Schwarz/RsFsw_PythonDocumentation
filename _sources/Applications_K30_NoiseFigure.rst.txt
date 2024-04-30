@@ -1,0 +1,40 @@
+K30_NoiseFigure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.K30_NoiseFigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30_NoiseFigure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Calculate.rst
+	Applications_K30_NoiseFigure_Display.rst
+	Applications_K30_NoiseFigure_FormatPy.rst
+	Applications_K30_NoiseFigure_Initiate.rst
+	Applications_K30_NoiseFigure_InputPy.rst
+	Applications_K30_NoiseFigure_Layout.rst
+	Applications_K30_NoiseFigure_MassMemory.rst
+	Applications_K30_NoiseFigure_Output.rst
+	Applications_K30_NoiseFigure_Sense.rst
+	Applications_K30_NoiseFigure_Source.rst
+	Applications_K30_NoiseFigure_System.rst
+	Applications_K30_NoiseFigure_Trace.rst
+	Applications_K30_NoiseFigure_Trigger.rst

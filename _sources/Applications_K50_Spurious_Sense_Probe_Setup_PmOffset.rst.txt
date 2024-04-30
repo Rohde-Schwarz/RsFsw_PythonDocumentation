@@ -1,0 +1,20 @@
+PmOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<pb>:SETup:PMOFfset
+
+.. code-block:: python
+
+	[SENSe]:PROBe<pb>:SETup:PMOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Probe.Setup.PmOffset.PmOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

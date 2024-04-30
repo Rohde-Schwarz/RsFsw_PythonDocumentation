@@ -1,0 +1,46 @@
+DeltaMarker<DeltaMarker>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k18AmplifierEt.calculate.deltaMarker.repcap_deltaMarker_get()
+	driver.applications.k18AmplifierEt.calculate.deltaMarker.repcap_deltaMarker_set(repcap.DeltaMarker.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.DeltaMarker.DeltaMarkerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.calculate.deltaMarker.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Aoff.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Function.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_LinkTo.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Maximum.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Minimum.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Mode.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Mreference.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_State.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Trace.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_X.rst
+	Applications_K18_AmplifierEt_Calculate_DeltaMarker_Y.rst

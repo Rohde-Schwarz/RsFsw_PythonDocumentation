@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal<gen>:FREQuency:OFFSet
+
+.. code-block:: python
+
+	SOURce:EXTernal<gen>:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

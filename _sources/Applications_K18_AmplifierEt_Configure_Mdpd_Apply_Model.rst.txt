@@ -1,0 +1,20 @@
+Model
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MDPD:APPLy:MODel
+
+.. code-block:: python
+
+	CONFigure:MDPD:APPLy:MODel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.Apply.Model.ModelCls
+	:members:
+	:undoc-members:
+	:noindex:

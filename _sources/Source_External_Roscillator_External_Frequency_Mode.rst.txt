@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal<ext>:ROSCillator:EXTernal:FREQuency:MODE
+
+.. code-block:: python
+
+	SOURce:EXTernal<ext>:ROSCillator:EXTernal:FREQuency:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.Roscillator.External.Frequency.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

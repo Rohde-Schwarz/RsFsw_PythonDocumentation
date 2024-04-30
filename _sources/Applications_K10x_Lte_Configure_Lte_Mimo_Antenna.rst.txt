@@ -1,0 +1,36 @@
+Antenna<Antenna>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k10Xlte.configure.lte.mimo.antenna.repcap_antenna_get()
+	driver.applications.k10Xlte.configure.lte.mimo.antenna.repcap_antenna_set(repcap.Antenna.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:MIMO:ANTenna<ant>
+
+.. code-block:: python
+
+	CONFigure[:LTE]:MIMO:ANTenna<ant>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Mimo.Antenna.AntennaCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.mimo.antenna.clone()

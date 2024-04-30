@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:RFUC:FZERo:MODE
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:RFUC:FZERo:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Rfuc.Fzero.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

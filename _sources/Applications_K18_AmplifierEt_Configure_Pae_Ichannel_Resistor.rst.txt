@@ -1,0 +1,20 @@
+Resistor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PAE:ICHannel:RESistor
+
+.. code-block:: python
+
+	CONFigure:PAE:ICHannel:RESistor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Pae.Ichannel.Resistor.ResistorCls
+	:members:
+	:undoc-members:
+	:noindex:

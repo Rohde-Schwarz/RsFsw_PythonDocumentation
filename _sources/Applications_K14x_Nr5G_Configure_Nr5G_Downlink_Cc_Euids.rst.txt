@@ -1,0 +1,20 @@
+Euids
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:EUIDs
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:EUIDs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Euids.EuidsCls
+	:members:
+	:undoc-members:
+	:noindex:

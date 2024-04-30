@@ -1,0 +1,37 @@
+Xcorrelation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:EVM:XCORrelation
+
+.. code-block:: python
+
+	FETCh:BURSt:EVM:XCORrelation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Evm.Xcorrelation.XcorrelationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.fetch.burst.evm.xcorrelation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Fetch_Burst_Evm_Xcorrelation_Margin.rst

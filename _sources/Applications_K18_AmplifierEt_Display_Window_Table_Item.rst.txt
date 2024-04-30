@@ -1,0 +1,39 @@
+Item
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TABLe:ITEM
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TABLe:ITEM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Table.Item.ItemCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.display.window.table.item.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Display_Window_Table_Item_Maccuracy.rst
+	Applications_K18_AmplifierEt_Display_Window_Table_Item_Power.rst
+	Applications_K18_AmplifierEt_Display_Window_Table_Item_Vcurrent.rst

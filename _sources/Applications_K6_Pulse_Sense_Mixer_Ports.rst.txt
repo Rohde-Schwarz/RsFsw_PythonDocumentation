@@ -1,0 +1,20 @@
+Ports
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:PORTs
+
+.. code-block:: python
+
+	[SENSe]:MIXer:PORTs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Mixer.Ports.PortsCls
+	:members:
+	:undoc-members:
+	:noindex:

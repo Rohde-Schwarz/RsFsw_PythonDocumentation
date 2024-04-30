@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:RMEV:AVG:MINimum
+
+.. code-block:: python
+
+	FETCh:STABle:RMEV:AVG:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Rmev.Avg.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:EXTernal:ROSCillator:LEDState
+
+.. code-block:: python
+
+	CONFigure:GENerator:EXTernal:ROSCillator:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.External.Roscillator.LedState.LedStateCls
+	:members:
+	:undoc-members:
+	:noindex:

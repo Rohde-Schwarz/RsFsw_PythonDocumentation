@@ -1,0 +1,57 @@
+Calculate<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.calculate.repcap_window_get()
+	driver.calculate.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.CalculateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker.rst
+	Calculate_Dline.rst
+	Calculate_Espectrum.rst
+	Calculate_Feed.rst
+	Calculate_Fline.rst
+	Calculate_FormatPy.rst
+	Calculate_Iq.rst
+	Calculate_Limit.rst
+	Calculate_Marker.rst
+	Calculate_Mask.rst
+	Calculate_Math.rst
+	Calculate_Msra.rst
+	Calculate_Npratio.rst
+	Calculate_PeakSearch.rst
+	Calculate_Pline.rst
+	Calculate_Pmeter.rst
+	Calculate_Rtms.rst
+	Calculate_Spectrogram.rst
+	Calculate_Statistics.rst
+	Calculate_Threshold.rst
+	Calculate_Tline.rst
+	Calculate_Unit.rst

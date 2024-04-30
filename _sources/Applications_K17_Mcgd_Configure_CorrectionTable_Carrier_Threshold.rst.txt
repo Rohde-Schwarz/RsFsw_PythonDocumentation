@@ -1,0 +1,20 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CTABle:CARRier:THReshold
+
+.. code-block:: python
+
+	CONFigure:CTABle:CARRier:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.CorrectionTable.Carrier.Threshold.ThresholdCls
+	:members:
+	:undoc-members:
+	:noindex:

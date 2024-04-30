@@ -1,0 +1,20 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:CHIRp:POWer:Y
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:CHIRp:POWer:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Chirp.Power.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:

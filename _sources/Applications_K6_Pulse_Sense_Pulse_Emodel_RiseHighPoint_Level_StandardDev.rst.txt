@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RHPLevel:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RHPLevel:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseHighPoint.Level.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

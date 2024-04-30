@@ -1,0 +1,31 @@
+Preset
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Preset.PresetCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.preset.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Preset_Channel.rst
+	System_Preset_Compatible.rst
+	System_Preset_Exec.rst
+	System_Preset_InputPy.rst

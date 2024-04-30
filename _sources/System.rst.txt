@@ -1,0 +1,58 @@
+System
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.SystemCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Clogging.rst
+	System_Communicate.rst
+	System_Compatible.rst
+	System_DeviceFootprint.rst
+	System_Display.rst
+	System_Error.rst
+	System_File.rst
+	System_Firmware.rst
+	System_FormatPy.rst
+	System_Help.rst
+	System_Identify.rst
+	System_IfGain.rst
+	System_Language.rst
+	System_Lxi.rst
+	System_Option.rst
+	System_Osystem.rst
+	System_Plugin.rst
+	System_Preamp.rst
+	System_Preset.rst
+	System_Psa.rst
+	System_Reboot.rst
+	System_Revision.rst
+	System_Rsweep.rst
+	System_Security.rst
+	System_Sequencer.rst
+	System_Set.rst
+	System_ShImmediate.rst
+	System_Shutdown.rst
+	System_Speaker.rst
+	System_Srecorder.rst
+	System_Test.rst

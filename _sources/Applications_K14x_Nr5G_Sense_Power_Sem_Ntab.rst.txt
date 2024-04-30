@@ -1,0 +1,20 @@
+Ntab
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:NTAB
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:NTAB
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Sem.Ntab.NtabCls
+	:members:
+	:undoc-members:
+	:noindex:

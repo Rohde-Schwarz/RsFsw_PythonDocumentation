@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep:X:STARt
+
+.. code-block:: python
+
+	CONFigure:PSWeep:X:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.X.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

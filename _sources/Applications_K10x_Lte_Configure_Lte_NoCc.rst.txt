@@ -1,0 +1,20 @@
+NoCc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:NOCC
+
+.. code-block:: python
+
+	CONFigure[:LTE]:NOCC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.NoCc.NoCcCls
+	:members:
+	:undoc-members:
+	:noindex:

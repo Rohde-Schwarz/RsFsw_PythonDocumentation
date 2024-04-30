@@ -1,0 +1,31 @@
+Frequency
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.npratio.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Npratio_Frequency_Center.rst
+	Configure_Generator_Npratio_Frequency_Coupling.rst
+	Configure_Generator_Npratio_Frequency_Factor.rst
+	Configure_Generator_Npratio_Frequency_Offset.rst

@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:COMMent
+
+.. code-block:: python
+
+	HCOPy:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Comment.CommentCls
+	:members:
+	:undoc-members:
+	:noindex:

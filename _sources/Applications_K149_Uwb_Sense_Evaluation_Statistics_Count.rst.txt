@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:EVALuation:STATistics:COUNt
+
+.. code-block:: python
+
+	[SENSe]:EVALuation:STATistics:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Evaluation.Statistics.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DLRel[:VALue]
+
+.. code-block:: python
+
+	CALCulate<n>:DLRel[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.DlRel.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

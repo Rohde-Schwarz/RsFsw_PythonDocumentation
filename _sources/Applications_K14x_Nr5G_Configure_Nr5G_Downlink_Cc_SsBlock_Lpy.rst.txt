@@ -1,0 +1,20 @@
+Lpy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:L
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:L
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsBlock.Lpy.LpyCls
+	:members:
+	:undoc-members:
+	:noindex:

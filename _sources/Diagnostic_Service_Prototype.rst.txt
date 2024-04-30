@@ -1,0 +1,37 @@
+Prototype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:PROTotype
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:PROTotype
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Prototype.PrototypeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.prototype.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_Prototype_Unit.rst

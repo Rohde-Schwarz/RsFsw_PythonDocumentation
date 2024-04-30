@@ -1,0 +1,20 @@
+Settings
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DIRected:SETTings
+
+.. code-block:: python
+
+	[SENSe]:DIRected:SETTings
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.Settings.SettingsCls
+	:members:
+	:undoc-members:
+	:noindex:

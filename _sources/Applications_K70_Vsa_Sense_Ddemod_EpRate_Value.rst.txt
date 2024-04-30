@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:EPRate[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:EPRate[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.EpRate.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

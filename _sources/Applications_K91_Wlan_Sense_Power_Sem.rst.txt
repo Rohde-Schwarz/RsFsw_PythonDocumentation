@@ -1,0 +1,37 @@
+Sem
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Sem.SemCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.power.sem.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Power_Sem_ClassPy.rst

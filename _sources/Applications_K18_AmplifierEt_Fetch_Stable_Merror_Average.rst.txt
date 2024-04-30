@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:MERRor:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:MERRor:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Merror.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

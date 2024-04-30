@@ -1,0 +1,20 @@
+Pattern
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:PATTern
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:SSBLock:PATTern
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsBlock.Pattern.PatternCls
+	:members:
+	:undoc-members:
+	:noindex:

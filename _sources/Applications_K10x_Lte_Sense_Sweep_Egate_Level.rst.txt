@@ -1,0 +1,38 @@
+Level<Instrument>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr4
+	rc = driver.applications.k10Xlte.sense.sweep.egate.level.repcap_instrument_get()
+	driver.applications.k10Xlte.sense.sweep.egate.level.repcap_instrument_set(repcap.Instrument.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Sweep.Egate.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.sweep.egate.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Sweep_Egate_Level_External.rst
+	Applications_K10x_Lte_Sense_Sweep_Egate_Level_IfPower.rst
+	Applications_K10x_Lte_Sense_Sweep_Egate_Level_RfPower.rst

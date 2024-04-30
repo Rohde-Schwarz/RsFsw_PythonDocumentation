@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:APAE:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:APAE:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Apae.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

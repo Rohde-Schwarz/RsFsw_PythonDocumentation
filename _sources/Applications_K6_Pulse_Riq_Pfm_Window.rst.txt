@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:PFM:WINDow
+
+.. code-block:: python
+
+	RIQ:PFM:WINDow
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Pfm.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:

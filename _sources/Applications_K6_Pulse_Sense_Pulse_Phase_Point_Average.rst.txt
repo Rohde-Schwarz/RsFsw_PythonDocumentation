@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:POINt:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:POINt:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.Point.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

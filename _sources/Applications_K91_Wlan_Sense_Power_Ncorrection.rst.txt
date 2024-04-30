@@ -1,0 +1,20 @@
+Ncorrection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:NCORrection
+
+.. code-block:: python
+
+	[SENSe]:POWer:NCORrection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Ncorrection.NcorrectionCls
+	:members:
+	:undoc-members:
+	:noindex:

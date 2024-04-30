@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:STATe[:INDex]:AVERage
+
+.. code-block:: python
+
+	[SENSe]:HOP:STATe[:INDex]:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.State.Index.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+MaxFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PPSPectrum:MAXFrequency
+
+.. code-block:: python
+
+	CALCulate<n>:PPSPectrum:MAXFrequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.PpSpectrum.MaxFrequency.MaxFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

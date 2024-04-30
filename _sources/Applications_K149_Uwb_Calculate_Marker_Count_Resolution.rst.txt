@@ -1,0 +1,20 @@
+Resolution
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:COUNt:RESolution
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:COUNt:RESolution
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Marker.Count.Resolution.ResolutionCls
+	:members:
+	:undoc-members:
+	:noindex:

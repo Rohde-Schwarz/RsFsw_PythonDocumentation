@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:FIQ:RANGe:OFFSet
+
+.. code-block:: python
+
+	RIQ:FIQ:RANGe:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Fiq.Range.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

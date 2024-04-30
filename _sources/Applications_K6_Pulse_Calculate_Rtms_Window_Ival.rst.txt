@@ -1,0 +1,20 @@
+Ival
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RTMS:WINDow:IVAL
+
+.. code-block:: python
+
+	CALCulate<n>:RTMS:WINDow:IVAL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Rtms.Window.Ival.IvalCls
+	:members:
+	:undoc-members:
+	:noindex:

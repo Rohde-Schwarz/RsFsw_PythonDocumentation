@@ -1,0 +1,20 @@
+Location
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:SNMP:LOCation
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:SNMP:LOCation
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Snmp.Location.LocationCls
+	:members:
+	:undoc-members:
+	:noindex:

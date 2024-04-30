@@ -1,0 +1,41 @@
+ChrDetection
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.ChrDetectionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.chrDetection.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_ChrDetection_Compensation.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Detection.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Fdeviation.rst
+	Applications_K60_Transient_Calculate_ChrDetection_FmTolerance.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Frequency.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Length.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Pdeviation.rst
+	Applications_K60_Transient_Calculate_ChrDetection_PmTolerance.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Pnoise.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Power.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Selected.rst
+	Applications_K60_Transient_Calculate_ChrDetection_States.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Table.rst
+	Applications_K60_Transient_Calculate_ChrDetection_Total.rst

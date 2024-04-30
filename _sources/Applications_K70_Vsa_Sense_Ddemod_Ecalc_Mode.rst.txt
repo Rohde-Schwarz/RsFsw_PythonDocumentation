@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:ECALc[:MODE]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:ECALc[:MODE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Ecalc.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

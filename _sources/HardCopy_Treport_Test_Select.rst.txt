@@ -1,0 +1,39 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:TEST:SELect
+
+.. code-block:: python
+
+	HCOPy:TREPort:TEST:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Test.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.test.select.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Test_Select_All.rst
+	HardCopy_Treport_Test_Select_Invert.rst
+	HardCopy_Treport_Test_Select_NonePy.rst

@@ -1,0 +1,37 @@
+Timing
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.TimingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.timing.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Timing_Dcycle.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Dratio.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Fall.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Off.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Prf.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pri.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Pwidth.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Rise.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Settling.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp.rst

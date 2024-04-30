@@ -1,0 +1,20 @@
+Directory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:DIRectory
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:DIRectory
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Directory.DirectoryCls
+	:members:
+	:undoc-members:
+	:noindex:

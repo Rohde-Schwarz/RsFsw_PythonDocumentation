@@ -1,0 +1,37 @@
+Impedance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:IMPedance
+
+.. code-block:: python
+
+	INPut:IQ:IMPedance
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Impedance.ImpedanceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.inputPy.iq.impedance.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	InputPy_Iq_Impedance_Ptype.rst

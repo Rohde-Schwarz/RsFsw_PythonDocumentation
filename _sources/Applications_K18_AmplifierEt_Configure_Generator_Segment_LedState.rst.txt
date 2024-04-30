@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:SEGMent:LEDState
+
+.. code-block:: python
+
+	CONFigure:GENerator:SEGMent:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Segment.LedState.LedStateCls
+	:members:
+	:undoc-members:
+	:noindex:

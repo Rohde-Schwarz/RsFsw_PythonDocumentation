@@ -1,0 +1,20 @@
+VersionInfo
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:VERSinfo
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:VERSinfo
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.VersionInfo.VersionInfoCls
+	:members:
+	:undoc-members:
+	:noindex:

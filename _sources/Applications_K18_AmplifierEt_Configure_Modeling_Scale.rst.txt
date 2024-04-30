@@ -1,0 +1,20 @@
+Scale
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MODeling:SCALe
+
+.. code-block:: python
+
+	CONFigure:MODeling:SCALe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Modeling.Scale.ScaleCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NPRatio:NOTCh<notch>:BWIDth:RELative
+
+.. code-block:: python
+
+	[SENSe]:NPRatio:NOTCh<notch>:BWIDth:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Notch.Bandwidth.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:

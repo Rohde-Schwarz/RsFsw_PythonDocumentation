@@ -1,0 +1,20 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:Y
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.DeltaMarker.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:

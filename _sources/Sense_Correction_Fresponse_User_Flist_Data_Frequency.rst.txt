@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:FLISt<fli>:DATA:FREQuency
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:FLISt<fli>:DATA:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Flist.Data.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

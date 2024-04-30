@@ -1,0 +1,20 @@
+Freference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CREFerence:FREFerence
+
+.. code-block:: python
+
+	[SENSe]:CREFerence:FREFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Freference.FreferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

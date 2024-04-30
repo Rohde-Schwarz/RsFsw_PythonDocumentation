@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:PPRatio:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:PPRatio:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.PpRatio.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

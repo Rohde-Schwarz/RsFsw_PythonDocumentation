@@ -1,0 +1,20 @@
+SwapIq
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWAPiq
+
+.. code-block:: python
+
+	[SENSe]:SWAPiq
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.SwapIq.SwapIqCls
+	:members:
+	:undoc-members:
+	:noindex:

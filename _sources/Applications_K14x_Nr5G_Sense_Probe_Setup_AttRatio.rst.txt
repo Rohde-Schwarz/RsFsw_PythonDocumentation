@@ -1,0 +1,20 @@
+AttRatio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<p>:SETup:ATTRatio
+
+.. code-block:: python
+
+	[SENSe]:PROBe<p>:SETup:ATTRatio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Probe.Setup.AttRatio.AttRatioCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,31 @@
+Spectrogram
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Spectrogram.SpectrogramCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.spectrogram.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Spectrogram_Frame.rst
+	Calculate_DeltaMarker_Spectrogram_Sarea.rst
+	Calculate_DeltaMarker_Spectrogram_Xy.rst
+	Calculate_DeltaMarker_Spectrogram_Y.rst

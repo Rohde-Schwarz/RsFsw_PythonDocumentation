@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SQUelch[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SQUelch[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Squelch.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

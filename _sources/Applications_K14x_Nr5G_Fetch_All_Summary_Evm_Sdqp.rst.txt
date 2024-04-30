@@ -1,0 +1,20 @@
+Sdqp
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:SDQP
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:SDQP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Sdqp.SdqpCls
+	:members:
+	:undoc-members:
+	:noindex:

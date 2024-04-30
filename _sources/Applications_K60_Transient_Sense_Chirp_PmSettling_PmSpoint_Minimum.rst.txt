@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PMSettling:PMSPoint:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PMSettling:PMSPoint:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.PmSettling.PmSpoint.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

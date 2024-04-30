@@ -1,0 +1,20 @@
+DmOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<pb>:SETup:DMOFfset
+
+.. code-block:: python
+
+	[SENSe]:PROBe<pb>:SETup:DMOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Probe.Setup.DmOffset.DmOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

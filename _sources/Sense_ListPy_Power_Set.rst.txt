@@ -1,0 +1,20 @@
+Set
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:POWer:SET
+
+.. code-block:: python
+
+	[SENSe]:LIST:POWer:SET
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Power.Set.SetCls
+	:members:
+	:undoc-members:
+	:noindex:

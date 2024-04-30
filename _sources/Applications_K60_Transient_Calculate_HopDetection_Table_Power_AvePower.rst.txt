@@ -1,0 +1,20 @@
+AvePower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:POWer:AVEPower
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:POWer:AVEPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Power.AvePower.AvePowerCls
+	:members:
+	:undoc-members:
+	:noindex:

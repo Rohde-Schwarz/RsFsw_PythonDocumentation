@@ -1,0 +1,20 @@
+Cdd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALLoc<al>:PRECoding:CDD
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALLoc<al>:PRECoding:CDD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Precoding.Cdd.CddCls
+	:members:
+	:undoc-members:
+	:noindex:

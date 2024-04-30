@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:TIME
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:TIME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

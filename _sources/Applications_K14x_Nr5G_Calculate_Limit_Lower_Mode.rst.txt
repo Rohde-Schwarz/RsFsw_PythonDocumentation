@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:LOWer:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:LOWer:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Lower.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,53 @@
+Evm
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.EvmCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.fetch.all.summary.evm.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_All.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Ds1K.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Ds4K.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Dsqp.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Dssf.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Dsst.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Dsts.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Pchannel.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Peak.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Psignal.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sd1K.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sd4K.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sdpb.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sdqp.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sdsf.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sdst.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Sdts.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Uccd.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Ucch.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Us1K.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Us4K.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Uspb.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Usqp.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Ussf.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Usst.rst
+	Applications_K14x_Nr5G_Fetch_All_Summary_Evm_Usts.rst

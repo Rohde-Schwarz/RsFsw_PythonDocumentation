@@ -1,0 +1,20 @@
+Hsl
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:CMAP<it>:HSL
+
+.. code-block:: python
+
+	HCOPy:CMAP<it>:HSL
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Cmap.Hsl.HslCls
+	:members:
+	:undoc-members:
+	:noindex:

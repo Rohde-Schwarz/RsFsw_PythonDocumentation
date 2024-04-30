@@ -1,0 +1,28 @@
+Refresh
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Sequencer.Refresh.RefreshCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.initiate.sequencer.refresh.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Initiate_Sequencer_Refresh_All.rst

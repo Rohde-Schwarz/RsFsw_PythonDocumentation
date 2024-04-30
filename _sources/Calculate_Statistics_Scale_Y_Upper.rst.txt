@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:SCALe:Y:UPPer
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:SCALe:Y:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Scale.Y.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:

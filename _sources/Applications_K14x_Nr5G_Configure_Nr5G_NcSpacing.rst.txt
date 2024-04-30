@@ -1,0 +1,20 @@
+NcSpacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:NCSPacing
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:NCSPacing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.NcSpacing.NcSpacingCls
+	:members:
+	:undoc-members:
+	:noindex:

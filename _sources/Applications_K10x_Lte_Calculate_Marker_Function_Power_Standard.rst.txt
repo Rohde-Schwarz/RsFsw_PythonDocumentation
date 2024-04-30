@@ -1,0 +1,30 @@
+Standard
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.Standard.StandardCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.marker.function.power.standard.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Standard_Catalog.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Standard_Delete.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Standard_Save.rst

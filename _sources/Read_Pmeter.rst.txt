@@ -1,0 +1,36 @@
+Pmeter<PowerMeter>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.read.pmeter.repcap_powerMeter_get()
+	driver.read.pmeter.repcap_powerMeter_set(repcap.PowerMeter.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: READ:PMETer<p>
+
+.. code-block:: python
+
+	READ:PMETer<p>
+
+
+
+.. autoclass:: RsFsw.Implementations.Read.Pmeter.PmeterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.read.pmeter.clone()

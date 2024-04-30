@@ -1,0 +1,20 @@
+EcmGain
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:ECMGain
+
+.. code-block:: python
+
+	FETCh:BURSt:ECMGain
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.EcmGain.EcmGainCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:TDTRigger:LEVel
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:TDTRigger:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.TdTrigger.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

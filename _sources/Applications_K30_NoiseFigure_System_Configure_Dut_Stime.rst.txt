@@ -1,0 +1,20 @@
+Stime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:CONFigure:DUT:STIMe
+
+.. code-block:: python
+
+	SYSTem:CONFigure:DUT:STIMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Configure.Dut.Stime.StimeCls
+	:members:
+	:undoc-members:
+	:noindex:

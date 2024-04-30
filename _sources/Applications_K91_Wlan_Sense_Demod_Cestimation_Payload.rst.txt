@@ -1,0 +1,20 @@
+Payload
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:CESTimation:PAYLoad
+
+.. code-block:: python
+
+	[SENSe]:DEMod:CESTimation:PAYLoad
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Cestimation.Payload.PayloadCls
+	:members:
+	:undoc-members:
+	:noindex:

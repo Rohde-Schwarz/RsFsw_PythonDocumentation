@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FACTory[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FACTory[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Factory.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

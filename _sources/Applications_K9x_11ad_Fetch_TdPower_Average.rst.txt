@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:TDPower:AVERage
+
+.. code-block:: python
+
+	FETCh:TDPower:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.TdPower.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

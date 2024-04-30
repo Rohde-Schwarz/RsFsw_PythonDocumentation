@@ -1,0 +1,20 @@
+Len
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:NCANcel:SYNC[:LEN]
+
+.. code-block:: python
+
+	[SENSe]:ADJust:NCANcel:SYNC[:LEN]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Adjust.Ncancel.Sync.Len.LenCls
+	:members:
+	:undoc-members:
+	:noindex:

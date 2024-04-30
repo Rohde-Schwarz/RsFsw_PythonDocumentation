@@ -1,0 +1,20 @@
+Oband
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:OBANd
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:OBANd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Oband.ObandCls
+	:members:
+	:undoc-members:
+	:noindex:

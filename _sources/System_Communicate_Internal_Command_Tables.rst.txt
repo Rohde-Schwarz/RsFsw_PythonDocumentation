@@ -1,0 +1,20 @@
+Tables
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:INTernal[:COMMand]:TABLes
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:INTernal[:COMMand]:TABLes
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Internal.Command.Tables.TablesCls
+	:members:
+	:undoc-members:
+	:noindex:

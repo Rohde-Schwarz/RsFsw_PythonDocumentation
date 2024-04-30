@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:SIMulation:SIGNal:TYPE
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:SIMulation:SIGNal:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Simulation.Signal.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

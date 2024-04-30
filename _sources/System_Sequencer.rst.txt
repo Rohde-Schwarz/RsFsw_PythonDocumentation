@@ -1,0 +1,20 @@
+Sequencer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:SEQuencer
+
+.. code-block:: python
+
+	SYSTem:SEQuencer
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Sequencer.SequencerCls
+	:members:
+	:undoc-members:
+	:noindex:

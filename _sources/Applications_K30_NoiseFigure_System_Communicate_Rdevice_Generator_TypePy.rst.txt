@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:GENerator:TYPE
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:GENerator:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Communicate.Rdevice.Generator.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

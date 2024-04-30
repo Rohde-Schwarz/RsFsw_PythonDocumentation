@@ -1,0 +1,20 @@
+Function
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETector<t>:DEFault[:FUNCtion]
+
+.. code-block:: python
+
+	[SENSe]:DETector<t>:DEFault[:FUNCtion]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Detector.Default.Function.FunctionCls
+	:members:
+	:undoc-members:
+	:noindex:

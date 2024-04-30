@@ -1,0 +1,20 @@
+Pri
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:PULSe:PRI
+
+.. code-block:: python
+
+	[SENSe]:SWEep:PULSe:PRI
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Pulse.Pri.PriCls
+	:members:
+	:undoc-members:
+	:noindex:

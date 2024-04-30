@@ -1,0 +1,20 @@
+Dstyle
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:DSTYle
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:DSTYle
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Dstyle.DstyleCls
+	:members:
+	:undoc-members:
+	:noindex:

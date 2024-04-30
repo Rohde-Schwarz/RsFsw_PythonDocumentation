@@ -1,0 +1,20 @@
+NmOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<pb>:SETup:NMOFfset
+
+.. code-block:: python
+
+	[SENSe]:PROBe<pb>:SETup:NMOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Probe.Setup.NmOffset.NmOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:CLEar[:IMMediate]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:CLEar[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Limit.Clear.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

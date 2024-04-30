@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:TYPE
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

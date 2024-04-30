@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:TIME:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:TIME:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Time.Ntransition.NtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

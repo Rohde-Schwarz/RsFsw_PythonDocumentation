@@ -1,0 +1,20 @@
+Polarity
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:POLarity
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:POLarity
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Sweep.Egate.Polarity.PolarityCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Restore
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:PRESet:RESTore
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:PRESet:RESTore
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Preset.Restore.RestoreCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Number
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:NUMBer
+
+.. code-block:: python
+
+	[SENSe]:HOP:NUMBer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Number.NumberCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+SrNumber
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR:SNS:AUTO:SRNumber
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR:SNS:AUTO:SRNumber
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Sns.Auto.SrNumber.SrNumberCls
+	:members:
+	:undoc-members:
+	:noindex:

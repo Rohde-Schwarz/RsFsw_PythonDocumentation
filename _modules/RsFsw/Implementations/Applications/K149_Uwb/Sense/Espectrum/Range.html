@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../" id="documentation_options" src="../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../K149_Uwb.html">RsFsw.Implementations.Applications.K149_Uwb</a> &raquo;</li>
+          <li><a href="../../Sense.html">RsFsw.Implementations.Applications.K149_Uwb.Sense</a> &raquo;</li>
+          <li><a href="../Espectrum.html">RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">.......Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">.......Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">.......Internal.RepeatedCapability</span> <span class="kn">import</span> <span class="n">RepeatedCapability</span>
+<span class="kn">from</span> <span class="nn">.......</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="RangeCls"><a class="viewcode-back" href="../../../../../../../Applications_K149_Uwb_Sense_Espectrum_Range.html#RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range.RangeCls">[docs]</a><span class="k">class</span> <span class="nc">RangeCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Range commands group definition. 31 total commands, 12 Subgroups, 1 group commands</span>
+<span class="sd">	Repeated Capability: RangePy, default value after init: RangePy.Ix1&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;range&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">rep_cap</span> <span class="o">=</span> <span class="n">RepeatedCapability</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">group_name</span><span class="p">,</span> <span class="s1">&#39;repcap_rangePy_get&#39;</span><span class="p">,</span> <span class="s1">&#39;repcap_rangePy_set&#39;</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="o">.</span><span class="n">Ix1</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_rangePy_set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rangePy</span><span class="p">:</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Repeated Capability default value numeric suffix.</span>
+<span class="sd">		This value is used, if you do not explicitely set it in the child set/get methods, or if you leave it to RangePy.Default</span>
+<span class="sd">		Default value after init: RangePy.Ix1&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">set_repcap_enum_value</span><span class="p">(</span><span class="n">rangePy</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_rangePy_get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Returns the current default repeated capability for the child set/get methods&quot;&quot;&quot;</span>
+		<span class="c1"># noinspection PyTypeChecker</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_enum_value</span><span class="p">()</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">bandwidth</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;bandwidth commands group. 2 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_bandwidth&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Bandwidth</span> <span class="kn">import</span> <span class="n">BandwidthCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_bandwidth</span> <span class="o">=</span> <span class="n">BandwidthCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_bandwidth</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;count commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_count&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Count</span> <span class="kn">import</span> <span class="n">CountCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_count</span> <span class="o">=</span> <span class="n">CountCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_count</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">filterPy</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;filterPy commands group. 1 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_filterPy&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.FilterPy</span> <span class="kn">import</span> <span class="n">FilterPyCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_filterPy</span> <span class="o">=</span> <span class="n">FilterPyCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_filterPy</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">frequency</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;frequency commands group. 2 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_frequency&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Frequency</span> <span class="kn">import</span> <span class="n">FrequencyCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_frequency</span> <span class="o">=</span> <span class="n">FrequencyCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_frequency</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">inputPy</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;inputPy commands group. 2 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_inputPy&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.InputPy</span> <span class="kn">import</span> <span class="n">InputPyCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_inputPy</span> <span class="o">=</span> <span class="n">InputPyCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_inputPy</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">insert</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;insert commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_insert&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Insert</span> <span class="kn">import</span> <span class="n">InsertCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_insert</span> <span class="o">=</span> <span class="n">InsertCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_insert</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">limit</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;limit commands group. 3 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_limit&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Limit</span> <span class="kn">import</span> <span class="n">LimitCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_limit</span> <span class="o">=</span> <span class="n">LimitCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_limit</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">mlCalc</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;mlCalc commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_mlCalc&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.MlCalc</span> <span class="kn">import</span> <span class="n">MlCalcCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_mlCalc</span> <span class="o">=</span> <span class="n">MlCalcCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_mlCalc</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">refLevel</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;refLevel commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_refLevel&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.RefLevel</span> <span class="kn">import</span> <span class="n">RefLevelCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_refLevel</span> <span class="o">=</span> <span class="n">RefLevelCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_refLevel</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">sweep</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;sweep commands group. 1 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_sweep&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Sweep</span> <span class="kn">import</span> <span class="n">SweepCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_sweep</span> <span class="o">=</span> <span class="n">SweepCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_sweep</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">transducer</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;transducer commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_transducer&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Transducer</span> <span class="kn">import</span> <span class="n">TransducerCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_transducer</span> <span class="o">=</span> <span class="n">TransducerCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_transducer</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">points</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;points commands group. 1 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_points&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Points</span> <span class="kn">import</span> <span class="n">PointsCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_points</span> <span class="o">=</span> <span class="n">PointsCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_points</span>
+
+<div class="viewcode-block" id="RangeCls.delete"><a class="viewcode-back" href="../../../../../../../Applications_K149_Uwb_Sense_Espectrum_Range.html#RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range.RangeCls.delete">[docs]</a>	<span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">subBlock</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">SubBlock</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">rangePy</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:ESPectrum&lt;sb&gt;:RANGe&lt;range&gt;:DELete \n</span>
+<span class="sd">		Snippet: driver.applications.k149Uwb.sense.espectrum.range.delete(subBlock = repcap.SubBlock.Default, rangePy = repcap.RangePy.Default) \n</span>
+<span class="sd">		Removes a range from the sweep list. Note that</span>
+<span class="sd">			INTRO_CMD_HELP: Note: \n</span>
+<span class="sd">			- you cannot delete the reference range</span>
+<span class="sd">			- a minimum of three ranges is mandatory. \n</span>
+<span class="sd">			:param subBlock: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Espectrum&#39;)</span>
+<span class="sd">			:param rangePy: optional repeated capability selector. Default value: Ix1 (settable in the interface &#39;Range&#39;)</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="n">subBlock_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">subBlock</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubBlock</span><span class="p">)</span>
+		<span class="n">rangePy_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">rangePy</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:ESPectrum</span><span class="si">{</span><span class="n">subBlock_cmd_val</span><span class="si">}</span><span class="s1">:RANGe</span><span class="si">{</span><span class="n">rangePy_cmd_val</span><span class="si">}</span><span class="s1">:DELete&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="RangeCls.delete_with_opc"><a class="viewcode-back" href="../../../../../../../Applications_K149_Uwb_Sense_Espectrum_Range.html#RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range.RangeCls.delete_with_opc">[docs]</a>	<span class="k">def</span> <span class="nf">delete_with_opc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">subBlock</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">SubBlock</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">rangePy</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="n">subBlock_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">subBlock</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubBlock</span><span class="p">)</span>
+		<span class="n">rangePy_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">rangePy</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="p">)</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:ESPectrum&lt;sb&gt;:RANGe&lt;range&gt;:DELete \n</span>
+<span class="sd">		Snippet: driver.applications.k149Uwb.sense.espectrum.range.delete_with_opc(subBlock = repcap.SubBlock.Default, rangePy = repcap.RangePy.Default) \n</span>
+<span class="sd">		Removes a range from the sweep list. Note that</span>
+<span class="sd">			INTRO_CMD_HELP: Note: \n</span>
+<span class="sd">			- you cannot delete the reference range</span>
+<span class="sd">			- a minimum of three ranges is mandatory. \n</span>
+<span class="sd">		Same as delete, but waits for the operation to complete before continuing further. Use the RsFsw.utilities.opc_timeout_set() to set the timeout value. \n</span>
+<span class="sd">			:param subBlock: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Espectrum&#39;)</span>
+<span class="sd">			:param rangePy: optional repeated capability selector. Default value: Ix1 (settable in the interface &#39;Range&#39;)</span>
+<span class="sd">			:param opc_timeout_ms: Maximum time to wait in milliseconds, valid only for this call.&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:ESPectrum</span><span class="si">{</span><span class="n">subBlock_cmd_val</span><span class="si">}</span><span class="s1">:RANGe</span><span class="si">{</span><span class="n">rangePy_cmd_val</span><span class="si">}</span><span class="s1">:DELete&#39;</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">)</span></div>
+
+	<span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;RangeCls&#39;</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Clones the group by creating new object from it and its whole existing subgroups</span>
+<span class="sd">		Also copies all the existing default Repeated Capabilities setting,</span>
+<span class="sd">		which you can change independently without affecting the original group&quot;&quot;&quot;</span>
+		<span class="n">new_group</span> <span class="o">=</span> <span class="n">RangeCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">synchronize_repcaps</span><span class="p">(</span><span class="n">new_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">new_group</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

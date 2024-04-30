@@ -1,0 +1,58 @@
+Limit<LimitIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.calculate.limit.repcap_limitIx_get()
+	driver.calculate.limit.repcap_limitIx_set(repcap.LimitIx.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:DELete
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_AcPower.rst
+	Calculate_Limit_Active.rst
+	Calculate_Limit_Clear.rst
+	Calculate_Limit_Comment.rst
+	Calculate_Limit_Control.rst
+	Calculate_Limit_Copy.rst
+	Calculate_Limit_Espectrum.rst
+	Calculate_Limit_Fail.rst
+	Calculate_Limit_Lower.rst
+	Calculate_Limit_Name.rst
+	Calculate_Limit_State.rst
+	Calculate_Limit_Trace.rst
+	Calculate_Limit_Unit.rst
+	Calculate_Limit_Upper.rst

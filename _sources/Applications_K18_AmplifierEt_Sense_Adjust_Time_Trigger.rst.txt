@@ -1,0 +1,20 @@
+Trigger
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:TIME:TRIGger
+
+.. code-block:: python
+
+	[SENSe]:ADJust:TIME:TRIGger
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Adjust.Time.Trigger.TriggerCls
+	:members:
+	:undoc-members:
+	:noindex:

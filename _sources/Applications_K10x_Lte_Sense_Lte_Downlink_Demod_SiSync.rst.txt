@@ -1,0 +1,20 @@
+SiSync
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:DEMod:SISYnc
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:DEMod:SISYnc
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.SiSync.SiSyncCls
+	:members:
+	:undoc-members:
+	:noindex:

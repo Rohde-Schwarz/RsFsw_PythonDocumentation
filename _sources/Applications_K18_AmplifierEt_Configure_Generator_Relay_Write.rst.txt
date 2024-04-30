@@ -1,0 +1,20 @@
+Write
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:RELay:WRITe
+
+.. code-block:: python
+
+	CONFigure:GENerator:RELay:WRITe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Relay.Write.WriteCls
+	:members:
+	:undoc-members:
+	:noindex:

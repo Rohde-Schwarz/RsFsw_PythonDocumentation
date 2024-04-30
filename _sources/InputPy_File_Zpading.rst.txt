@@ -1,0 +1,20 @@
+Zpading
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:FILE:ZPADing
+
+.. code-block:: python
+
+	INPut:FILE:ZPADing
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.File.Zpading.ZpadingCls
+	:members:
+	:undoc-members:
+	:noindex:

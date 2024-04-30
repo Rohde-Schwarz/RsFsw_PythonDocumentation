@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:ZOOM:MULTiple<zn>[:STATe]
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:ZOOM:MULTiple<zn>[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Display.Window.Subwindow.Zoom.Multiple.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

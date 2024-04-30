@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:SRATe
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rdevice.Oscilloscope.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

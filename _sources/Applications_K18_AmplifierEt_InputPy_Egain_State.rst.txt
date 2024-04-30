@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:EGAin[:STATe]
+
+.. code-block:: python
+
+	INPut:EGAin[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.InputPy.Egain.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

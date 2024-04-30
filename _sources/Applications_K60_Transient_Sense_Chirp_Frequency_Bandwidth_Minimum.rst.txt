@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FREQuency:BWIDth:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FREQuency:BWIDth:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Bandwidth.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

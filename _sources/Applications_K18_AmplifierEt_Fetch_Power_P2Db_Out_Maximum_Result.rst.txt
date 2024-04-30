@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:P2DB:OUT:MAXimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:P2DB:OUT:MAXimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.P2Db.Out.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

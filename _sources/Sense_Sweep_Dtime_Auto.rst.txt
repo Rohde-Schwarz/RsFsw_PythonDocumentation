@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:DTIMe:AUTO
+
+.. code-block:: python
+
+	[SENSe]:SWEep:DTIMe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Dtime.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

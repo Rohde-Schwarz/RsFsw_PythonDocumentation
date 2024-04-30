@@ -1,0 +1,20 @@
+Sband
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut<up>:IF:SBANd
+
+.. code-block:: python
+
+	OUTPut<up>:IF:SBANd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Output.Ifreq.Sband.SbandCls
+	:members:
+	:undoc-members:
+	:noindex:

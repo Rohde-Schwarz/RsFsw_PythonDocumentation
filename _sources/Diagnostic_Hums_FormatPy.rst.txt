@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:FORMat
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

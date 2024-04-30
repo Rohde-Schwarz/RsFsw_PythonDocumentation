@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PMSettling:PMSTime:AVERage
+
+.. code-block:: python
+
+	[SENSe]:HOP:PMSettling:PMSTime:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.PmSettling.PmStime.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

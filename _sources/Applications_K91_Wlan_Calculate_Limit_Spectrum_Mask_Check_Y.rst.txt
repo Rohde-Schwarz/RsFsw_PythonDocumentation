@@ -1,0 +1,20 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:SPECtrum:MASK:CHECk:Y
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:SPECtrum:MASK:CHECk:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.Spectrum.Mask.Check.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:

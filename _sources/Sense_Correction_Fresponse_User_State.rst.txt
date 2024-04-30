@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:STATe
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

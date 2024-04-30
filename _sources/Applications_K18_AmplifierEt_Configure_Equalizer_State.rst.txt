@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:EQUalizer[:STATe]
+
+.. code-block:: python
+
+	CONFigure:EQUalizer[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Equalizer.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

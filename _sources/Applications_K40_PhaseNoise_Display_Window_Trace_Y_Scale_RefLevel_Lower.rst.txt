@@ -1,0 +1,20 @@
+Lower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]:RLEVel:LOWer
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]:RLEVel:LOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Display.Window.Trace.Y.Scale.RefLevel.Lower.LowerCls
+	:members:
+	:undoc-members:
+	:noindex:

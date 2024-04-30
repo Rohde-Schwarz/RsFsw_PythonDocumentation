@@ -1,0 +1,42 @@
+Deviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:DEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:DEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Deviation.DeviationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.frequency.deviation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency_Deviation_StandardDev.rst

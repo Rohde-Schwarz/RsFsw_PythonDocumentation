@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:INTegrity:UNCalibrated:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:INTegrity:UNCalibrated:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Integrity.Uncalibrated.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

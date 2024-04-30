@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy:QERRor:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:MACCuracy:QERRor:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.Qerror.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

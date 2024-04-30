@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:MWIDth:LIMit
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:MWIDth:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Mwidth.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

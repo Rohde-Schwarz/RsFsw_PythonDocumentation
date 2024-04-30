@@ -1,0 +1,20 @@
+Video
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:BANDwidth:VIDeo
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:BANDwidth:VIDeo
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Bandwidth.Video.VideoCls
+	:members:
+	:undoc-members:
+	:noindex:

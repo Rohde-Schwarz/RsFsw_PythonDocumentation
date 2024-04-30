@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:DRATio:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:DRATio:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Dratio.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

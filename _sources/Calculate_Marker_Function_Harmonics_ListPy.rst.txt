@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:LIST
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:LIST
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Harmonics.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:

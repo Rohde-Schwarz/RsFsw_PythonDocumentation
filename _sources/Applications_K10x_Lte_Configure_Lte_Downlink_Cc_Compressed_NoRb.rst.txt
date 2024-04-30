@@ -1,0 +1,20 @@
+NoRb
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:COMPressed:NORB
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:COMPressed:NORB
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Compressed.NoRb.NoRbCls
+	:members:
+	:undoc-members:
+	:noindex:

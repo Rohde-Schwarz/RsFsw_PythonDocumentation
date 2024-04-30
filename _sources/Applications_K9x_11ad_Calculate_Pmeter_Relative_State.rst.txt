@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PMETer<p>:RELative:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:PMETer<p>:RELative:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Calculate.Pmeter.Relative.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

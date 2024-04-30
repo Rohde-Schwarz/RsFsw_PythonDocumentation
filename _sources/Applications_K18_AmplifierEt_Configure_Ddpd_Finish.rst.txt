@@ -1,0 +1,20 @@
+Finish
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD:FINish
+
+.. code-block:: python
+
+	CONFigure:DDPD:FINish
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Finish.FinishCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,31 @@
+Evaluation
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Evaluation.EvaluationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.calculate.evaluation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Calculate_Evaluation_Start.rst
+	Applications_K40_PhaseNoise_Calculate_Evaluation_State.rst
+	Applications_K40_PhaseNoise_Calculate_Evaluation_Stop.rst
+	Applications_K40_PhaseNoise_Calculate_Evaluation_User.rst

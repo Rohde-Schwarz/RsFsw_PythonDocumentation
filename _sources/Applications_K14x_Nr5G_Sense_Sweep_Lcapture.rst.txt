@@ -1,0 +1,20 @@
+Lcapture
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:LCAPture
+
+.. code-block:: python
+
+	[SENSe]:SWEep:LCAPture
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Lcapture.LcaptureCls
+	:members:
+	:undoc-members:
+	:noindex:

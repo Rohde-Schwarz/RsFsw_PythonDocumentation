@@ -1,0 +1,20 @@
+Eauto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:SOURce:EAUTo
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:SOURce:EAUTo
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.Source.Eauto.EautoCls
+	:members:
+	:undoc-members:
+	:noindex:

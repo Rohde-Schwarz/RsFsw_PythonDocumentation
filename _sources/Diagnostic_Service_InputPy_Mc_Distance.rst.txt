@@ -1,0 +1,20 @@
+Distance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:MC[:DISTance]
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:MC[:DISTance]
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Mc.Distance.DistanceCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:POWer
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

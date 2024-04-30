@@ -1,0 +1,20 @@
+Band
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:BAND
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:BAND
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Correction.Cvl.Band.BandCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Piom
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:PIOM
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:PIOM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Sem.Piom.PiomCls
+	:members:
+	:undoc-members:
+	:noindex:

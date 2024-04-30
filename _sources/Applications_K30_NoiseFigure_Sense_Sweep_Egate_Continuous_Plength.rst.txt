@@ -1,0 +1,20 @@
+Plength
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:CONTinuous:PLENgth
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:CONTinuous:PLENgth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Sweep.Egate.Continuous.Plength.PlengthCls
+	:members:
+	:undoc-members:
+	:noindex:

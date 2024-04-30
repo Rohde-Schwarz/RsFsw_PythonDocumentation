@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sense &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Adjust" href="Applications_K10x_Lte_Sense_Adjust.html" />
+    <link rel="prev" title="Pmeter&lt;PowerMeter&gt;" href="Applications_K10x_Lte_Read_Pmeter.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Calibration.html">Calibration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Configure.html">Configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Fetch.html">Fetch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Read.html">Read</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Sense</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust.html">Adjust</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Average.html">Average</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth.html">Bandwidth</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Demod.html">Demod</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Detector.html">Detector&lt;Trace&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum.html">Espectrum&lt;SubBlock&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency.html">Frequency</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_InputPy.html">InputPy</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Iq.html">Iq</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte.html">Lte</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Msra.html">Msra</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power.html">Power</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe.html">Probe&lt;Probe&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_SwapIq.html">SwapIq</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep.html">Sweep</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sync.html">Sync</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Status.html">Status</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+          <li><a href="Applications_K10x_Lte.html">K10x_Lte</a> &raquo;</li>
+      <li>Sense</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K10x_Lte_Sense.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="sense">
+<h1>Sense<a class="headerlink" href="#sense" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">SenseCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K10x_Lte/Sense.html#SenseCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>Sense commands group definition. 215 total commands, 17 Subgroups, 0 group commands</p>
+</dd></dl>
+
+<p class="rubric">Cloning the Group</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a clone of the original group, that exists independently</span>
+<span class="n">group2</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k10Xlte</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="rubric">Subgroups</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust.html">Adjust</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_All.html">All</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure.html">Configure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Duration.html">Duration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Duration_Mode.html">Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Hysteresis.html">Hysteresis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Hysteresis_Lower.html">Lower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Hysteresis_Upper.html">Upper</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Level.html">Level</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Level_Duration.html">Duration</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Level_Duration_Mode.html">Mode</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Lte.html">Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Configure_Trigger.html">Trigger</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Frequency.html">Frequency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Adjust_Level.html">Level&lt;Instrument&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Average.html">Average</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Average_Count.html">Count</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth.html">Bandwidth</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Resolution.html">Resolution</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Resolution_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Resolution_FilterPy.html">FilterPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Resolution_Ratio.html">Ratio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Resolution_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Video.html">Video</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Video_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Video_Ratio.html">Ratio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Bandwidth_Video_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Demod.html">Demod</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Demod_Squelch.html">Squelch</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Demod_Squelch_Level.html">Level</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Detector.html">Detector&lt;Trace&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Detector_Function.html">Function</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Detector_Function_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum.html">Espectrum&lt;SubBlock&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Bwid.html">Bwid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_FilterPy.html">FilterPy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_FilterPy_Rrc.html">Rrc</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_FilterPy_Rrc_Alpha.html">Alpha</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_FilterPy_Rrc_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Hspeed.html">Hspeed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr.html">Msr</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Apply.html">Apply</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Band.html">Band</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Bcategory.html">Bcategory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_ClassPy.html">ClassPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Gsm.html">Gsm</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Gsm_Carrier.html">Carrier</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Gsm_Cpresent.html">Cpresent</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Lte.html">Lte</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Lte_Cpresent.html">Cpresent</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_Mpower.html">Mpower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Msr_RfbWidth.html">RfbWidth</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Preset.html">Preset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Preset_Restore.html">Restore</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Preset_Standard.html">Standard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Preset_Store.html">Store</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range.html">Range&lt;RangePy&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Bandwidth.html">Bandwidth</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Bandwidth_Resolution.html">Resolution</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Bandwidth_Video.html">Video</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Count.html">Count</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_FilterPy.html">FilterPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_FilterPy_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Frequency.html">Frequency</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Frequency_Start.html">Start</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Frequency_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_InputPy.html">InputPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_InputPy_Attenuation.html">Attenuation</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_InputPy_Attenuation_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_InputPy_Gain.html">Gain</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_InputPy_Gain_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_InputPy_Gain_Value.html">Value</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Insert.html">Insert</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit.html">Limit&lt;LimitIx&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_Absolute.html">Absolute</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_Absolute_Start.html">Start</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_Absolute_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_Relative.html">Relative</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_Relative_Start.html">Start</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_Relative_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Limit_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_MlCalc.html">MlCalc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Points.html">Points</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Points_Minimum.html">Minimum</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Points_Minimum_Value.html">Value</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Points_Minimum_Value_Dummy.html">Dummy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_RefLevel.html">RefLevel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Sweep.html">Sweep</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Sweep_Time.html">Time</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Sweep_Time_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Range_Transducer.html">Transducer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Rrange.html">Rrange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Rtype.html">Rtype</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_SbCenter.html">SbCenter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Sbcount.html">Sbcount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Scenter.html">Scenter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Scount.html">Scount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Espectrum_Ssetup.html">Ssetup</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency.html">Frequency</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center.html">Center</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center_Cc.html">Cc&lt;CarrierComponent&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center_Cc_Offset.html">Offset</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center_Step.html">Step</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center_Step_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center_Step_Link.html">Link</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Center_Step_Link_Factor.html">Factor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Offset.html">Offset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Span.html">Span</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Span_Full.html">Full</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Start.html">Start</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Frequency_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_InputPy.html">InputPy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Iq.html">Iq</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Iq_Wband.html">Wband</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte.html">Lte</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc.html">Cc&lt;CarrierComponent&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Allocation.html">Allocation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Allocation_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Antenna.html">Antenna</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Antenna_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Carrier.html">Carrier</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Carrier_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Cword.html">Cword</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Cword_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Location.html">Location</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Location_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Modulation.html">Modulation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Modulation_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Preamble.html">Preamble</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Preamble_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Sflatness.html">Sflatness</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Sflatness_Econditions.html">Econditions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Sflatness_Oband.html">Oband</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Slot.html">Slot</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Slot_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Subframe.html">Subframe</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Subframe_Select.html">Select</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Symbol.html">Symbol</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Cc_Symbol_Select.html">Select</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink.html">Downlink</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod.html">Demod</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_Bestimation.html">Bestimation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_CbScrambling.html">CbScrambling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_Cestimation.html">Cestimation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_DaChannels.html">DaChannels</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_EvmCalc.html">EvmCalc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_McFilter.html">McFilter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_PrData.html">PrData</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Demod_SiSync.html">SiSync</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_FormatPy.html">FormatPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_FormatPy_Pscd.html">Pscd</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Tracking.html">Tracking</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Tracking_Phase.html">Phase</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Downlink_Tracking_Time.html">Time</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Frame.html">Frame</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Frame_Count.html">Count</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Frame_Count_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Frame_Count_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Frame_Scount.html">Scount</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Frame_Ssubframe.html">Ssubframe</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_OoPower.html">OoPower</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_OoPower_Atiming.html">Atiming</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_OoPower_Ncorrection.html">Ncorrection</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink.html">Uplink</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod.html">Demod</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Acon.html">Acon</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_AttSlots.html">AttSlots</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_CbScrambling.html">CbScrambling</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_CdcOffset.html">CdcOffset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Cestimation.html">Cestimation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Dummy.html">Dummy</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Dummy_Cdco.html">Cdco</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_EePeriod.html">EePeriod</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_LoFrequency.html">LoFrequency</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_LoLocation.html">LoLocation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_McFilter.html">McFilter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Demod_SiSync.html">SiSync</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_FormatPy.html">FormatPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_FormatPy_Scd.html">Scd</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Tracking.html">Tracking</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Tracking_Phase.html">Phase</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Lte_Uplink_Tracking_Time.html">Time</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Msra.html">Msra</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Msra_Capture.html">Capture</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Msra_Capture_Offset.html">Offset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Dcycle.html">Dcycle</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Dcycle_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Dcycle_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Frequency.html">Frequency</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Frequency_Link.html">Link</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Mtime.html">Mtime</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Mtime_Average.html">Average</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Mtime_Average_Count.html">Count</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Mtime_Average_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Roffset.html">Roffset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Roffset_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Soffset.html">Soffset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_State.html">State</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger.html">Trigger</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger_Dtime.html">Dtime</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger_Holdoff.html">Holdoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger_Hysteresis.html">Hysteresis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger_Slope.html">Slope</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Trigger_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Update.html">Update</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Pmeter_Update_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power.html">Power</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel.html">Achannel</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_AaChannel.html">AaChannel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_AcPairs.html">AcPairs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_AgChannels.html">AgChannels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Evm.html">Evm</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Evm_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Gap.html">Gap&lt;GapChannel&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Gap_Msize.html">Msize</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Mode.html">Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Preset.html">Preset</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Preset_RefLevel.html">RefLevel</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Reference.html">Reference</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Reference_TxChannel.html">TxChannel</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Reference_TxChannel_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Reference_TxChannel_Manual.html">Manual</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sbcount.html">Sbcount</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock.html">Sblock&lt;SubBlock&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Bandwidth.html">Bandwidth</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Bandwidth_Channel.html">Channel&lt;Channel&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Center.html">Center</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Center_Channel.html">Channel&lt;Channel&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Frequency.html">Frequency</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Frequency_Center.html">Center</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Name.html">Name</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Name_Channel.html">Channel&lt;Channel&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_RfbWidth.html">RfbWidth</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Technology.html">Technology</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_Technology_Channel.html">Channel&lt;Channel&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_TxChannel.html">TxChannel</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Sblock_TxChannel_Count.html">Count</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_Ssetup.html">Ssetup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_TxChannel.html">TxChannel</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_TxChannel_Count.html">Count</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Achannel_UaaChannel.html">UaaChannel</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Bandwidth.html">Bandwidth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Ncorrection.html">Ncorrection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Ncorrection_Calibration.html">Calibration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Ncorrection_Calibration_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem.html">Sem</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Category.html">Category</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Chbs.html">Chbs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Chbs_AmPower.html">AmPower</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Chbs_AmPower_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Oband.html">Oband</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Oband_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Piom.html">Piom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Piov.html">Piov</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Uplink.html">Uplink</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Sem_Uplink_Requirement.html">Requirement</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Power_Trace.html">Trace</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe.html">Probe&lt;Probe&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Id.html">Id</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Id_PartNumber.html">PartNumber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Id_SrNumber.html">SrNumber</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup.html">Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_AttRatio.html">AttRatio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_CmOffset.html">CmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_DmOffset.html">DmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_Mode.html">Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_Name.html">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_NmOffset.html">NmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_Pmode.html">Pmode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_PmOffset.html">PmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Probe_Setup_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_SwapIq.html">SwapIq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep.html">Sweep</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Count.html">Count</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Count_Current.html">Current</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Duration.html">Duration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate.html">Egate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Continuous.html">Continuous</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Continuous_Pcount.html">Pcount</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Continuous_Plength.html">Plength</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Continuous_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Holdoff.html">Holdoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Length.html">Length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Level.html">Level&lt;Instrument&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Level_External.html">External&lt;ExternalPort&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Level_IfPower.html">IfPower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Level_RfPower.html">RfPower</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Polarity.html">Polarity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_Source.html">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Egate_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Optimize.html">Optimize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Time.html">Time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_Time_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sweep_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sync.html">Sync</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sync_Cc.html">Cc&lt;CarrierComponent&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte_Sense_Sync_Cc_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K10x_Lte_Read_Pmeter.html" class="btn btn-neutral float-left" title="Pmeter&lt;PowerMeter&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K10x_Lte_Sense_Adjust.html" class="btn btn-neutral float-right" title="Adjust" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

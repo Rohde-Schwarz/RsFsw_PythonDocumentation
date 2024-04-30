@@ -1,0 +1,40 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:FREQuency
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.hop.frequency.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Hop_Frequency_Frequency_Average.rst
+	Applications_K60_Transient_Sense_Hop_Frequency_Frequency_Maximum.rst
+	Applications_K60_Transient_Sense_Hop_Frequency_Frequency_Minimum.rst
+	Applications_K60_Transient_Sense_Hop_Frequency_Frequency_StandardDev.rst

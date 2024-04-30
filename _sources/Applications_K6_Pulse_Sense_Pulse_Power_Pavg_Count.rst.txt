@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:PAVG:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:PAVG:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Pavg.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

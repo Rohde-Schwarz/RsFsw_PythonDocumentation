@@ -1,0 +1,20 @@
+Cbw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:LTE:CBW
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:LTE:CBW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Lte.Cbw.CbwCls
+	:members:
+	:undoc-members:
+	:noindex:

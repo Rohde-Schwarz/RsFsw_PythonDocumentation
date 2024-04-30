@@ -1,0 +1,20 @@
+Denominator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal:FREQuency[:FACTor]:DENominator
+
+.. code-block:: python
+
+	SOURce:EXTernal:FREQuency[:FACTor]:DENominator
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.External.Frequency.Factor.Denominator.DenominatorCls
+	:members:
+	:undoc-members:
+	:noindex:

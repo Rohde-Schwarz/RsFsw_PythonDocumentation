@@ -1,0 +1,20 @@
+Cstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:EXTernal:ROSCillator:CSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:EXTernal:ROSCillator:CSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.External.Roscillator.Cstate.CstateCls
+	:members:
+	:undoc-members:
+	:noindex:

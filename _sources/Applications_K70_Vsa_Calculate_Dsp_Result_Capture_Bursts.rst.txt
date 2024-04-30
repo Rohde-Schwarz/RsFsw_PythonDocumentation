@@ -1,0 +1,20 @@
+Bursts
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DSP:RESult:CAPTure:BURSts
+
+.. code-block:: python
+
+	CALCulate<n>:DSP:RESult:CAPTure:BURSts
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Capture.Bursts.BurstsCls
+	:members:
+	:undoc-members:
+	:noindex:

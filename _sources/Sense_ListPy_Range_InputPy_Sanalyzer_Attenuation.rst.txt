@@ -1,0 +1,37 @@
+Attenuation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:INPut:SANalyzer:ATTenuation
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:INPut:SANalyzer:ATTenuation
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.InputPy.Sanalyzer.Attenuation.AttenuationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.listPy.range.inputPy.sanalyzer.attenuation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_ListPy_Range_InputPy_Sanalyzer_Attenuation_Auto.rst

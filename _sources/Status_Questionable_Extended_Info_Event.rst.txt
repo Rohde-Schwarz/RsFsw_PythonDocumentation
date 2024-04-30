@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:EXTended:INFO[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:EXTended:INFO[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Extended.Info.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

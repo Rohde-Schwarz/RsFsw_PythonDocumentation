@@ -1,0 +1,37 @@
+Dspread
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:INTerpolate:WIENer:DSPRead
+
+.. code-block:: python
+
+	[SENSe]:DEMod:INTerpolate:WIENer:DSPRead
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Interpolate.Wiener.Dspread.DspreadCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.demod.interpolate.wiener.dspread.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Demod_Interpolate_Wiener_Dspread_State.rst

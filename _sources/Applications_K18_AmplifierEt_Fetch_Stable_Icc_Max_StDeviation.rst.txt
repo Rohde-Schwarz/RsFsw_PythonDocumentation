@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:ICC:MAX:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:ICC:MAX:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Icc.Max.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

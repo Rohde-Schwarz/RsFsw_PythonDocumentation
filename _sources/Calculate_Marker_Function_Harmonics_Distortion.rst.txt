@@ -1,0 +1,20 @@
+Distortion
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:DISTortion
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:HARMonics:DISTortion
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Harmonics.Distortion.DistortionCls
+	:members:
+	:undoc-members:
+	:noindex:

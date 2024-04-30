@@ -1,0 +1,38 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:LIMit:RELative:STOP
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:LIMit:RELative:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Limit.Relative.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.espectrum.range.limit.relative.stop.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Espectrum_Range_Limit_Relative_Stop_Abs.rst
+	Applications_K14x_Nr5G_Sense_Espectrum_Range_Limit_Relative_Stop_Function.rst

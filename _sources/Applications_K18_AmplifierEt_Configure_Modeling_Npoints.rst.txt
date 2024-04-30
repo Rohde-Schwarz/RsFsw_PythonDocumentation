@@ -1,0 +1,20 @@
+Npoints
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MODeling:NPOints
+
+.. code-block:: python
+
+	CONFigure:MODeling:NPOints
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Modeling.Npoints.NpointsCls
+	:members:
+	:undoc-members:
+	:noindex:

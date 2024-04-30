@@ -1,0 +1,37 @@
+Item
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.ItemCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.select.channel.item.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Select_Channel_Item_All.rst
+	MassMemory_Select_Channel_Item_Default.rst
+	MassMemory_Select_Channel_Item_HwSettings.rst
+	MassMemory_Select_Channel_Item_Lines.rst
+	MassMemory_Select_Channel_Item_NonePy.rst
+	MassMemory_Select_Channel_Item_ScData.rst
+	MassMemory_Select_Channel_Item_Spectrogram.rst
+	MassMemory_Select_Channel_Item_Trace.rst
+	MassMemory_Select_Channel_Item_Transducer.rst
+	MassMemory_Select_Channel_Item_Weighting.rst

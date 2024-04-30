@@ -1,0 +1,20 @@
+Right
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:MAXimum:RIGHt
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:MAXimum:RIGHt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.DeltaMarker.Maximum.Right.RightCls
+	:members:
+	:undoc-members:
+	:noindex:

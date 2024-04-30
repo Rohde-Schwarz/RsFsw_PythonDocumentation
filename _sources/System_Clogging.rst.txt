@@ -1,0 +1,20 @@
+Clogging
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:CLOGging
+
+.. code-block:: python
+
+	SYSTem:CLOGging
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Clogging.CloggingCls
+	:members:
+	:undoc-members:
+	:noindex:

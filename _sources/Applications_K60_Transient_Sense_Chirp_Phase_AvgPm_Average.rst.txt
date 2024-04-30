@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PHASe:AVGPm:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PHASe:AVGPm:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Phase.AvgPm.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

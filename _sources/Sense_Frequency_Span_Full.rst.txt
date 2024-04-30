@@ -1,0 +1,20 @@
+Full
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:SPAN:FULL
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:SPAN:FULL
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Frequency.Span.Full.FullCls
+	:members:
+	:undoc-members:
+	:noindex:

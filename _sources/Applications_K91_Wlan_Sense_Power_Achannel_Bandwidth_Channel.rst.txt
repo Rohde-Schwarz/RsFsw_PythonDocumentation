@@ -1,0 +1,20 @@
+Channel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:BWIDth[:CHANnel]
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:BWIDth[:CHANnel]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Power.Achannel.Bandwidth.Channel.ChannelCls
+	:members:
+	:undoc-members:
+	:noindex:

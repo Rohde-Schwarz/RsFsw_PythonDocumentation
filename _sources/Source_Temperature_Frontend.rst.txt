@@ -1,0 +1,20 @@
+Frontend
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:TEMPerature:FRONtend
+
+.. code-block:: python
+
+	SOURce:TEMPerature:FRONtend
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.Temperature.Frontend.FrontendCls
+	:members:
+	:undoc-members:
+	:noindex:

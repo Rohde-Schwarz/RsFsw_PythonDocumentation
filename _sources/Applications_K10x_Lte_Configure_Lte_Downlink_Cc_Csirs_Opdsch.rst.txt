@@ -1,0 +1,20 @@
+Opdsch
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:OPDSch
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:OPDSch
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Csirs.Opdsch.OpdschCls
+	:members:
+	:undoc-members:
+	:noindex:

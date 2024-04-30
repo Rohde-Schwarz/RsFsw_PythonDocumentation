@@ -1,0 +1,20 @@
+WbFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:PULSed:WBFRequency
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:PULSed:WBFRequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Pulsed.WbFrequency.WbFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

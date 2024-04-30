@@ -1,0 +1,20 @@
+Stepsize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:TIME:RRATe:STEPsize
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:TIME:RRATe:STEPsize
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Time.Rrate.Stepsize.StepsizeCls
+	:members:
+	:undoc-members:
+	:noindex:

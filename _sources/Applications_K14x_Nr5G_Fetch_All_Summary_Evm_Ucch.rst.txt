@@ -1,0 +1,20 @@
+Ucch
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:UCCH
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:UCCH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Ucch.UcchCls
+	:members:
+	:undoc-members:
+	:noindex:

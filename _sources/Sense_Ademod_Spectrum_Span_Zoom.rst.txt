@@ -1,0 +1,20 @@
+Zoom
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SPECtrum:SPAN:ZOOM
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SPECtrum:SPAN:ZOOM
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Spectrum.Span.Zoom.ZoomCls
+	:members:
+	:undoc-members:
+	:noindex:

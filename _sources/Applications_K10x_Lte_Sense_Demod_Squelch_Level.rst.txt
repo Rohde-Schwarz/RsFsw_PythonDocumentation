@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:SQUelch:LEVel
+
+.. code-block:: python
+
+	[SENSe]:DEMod:SQUelch:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Demod.Squelch.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

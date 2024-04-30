@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:DEViation:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:DEViation:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Deviation.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Csi
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:BF:AP:CSI
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:BF:AP:CSI
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Bf.Ap.Csi.CsiCls
+	:members:
+	:undoc-members:
+	:noindex:

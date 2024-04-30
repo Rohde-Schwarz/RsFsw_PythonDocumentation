@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examples &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="RsFsw API Structure" href="RsFsw.html" />
+    <link rel="prev" title="RepCaps" href="repcap.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Examples</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/examples.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="examples">
+<h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline"></a></h1>
+<p>For more examples, visit our <a class="reference external" href="https://github.com/Rohde-Schwarz/Examples/tree/main/SpectrumAnalyzers/Python/RsFsw_ScpiPackage">Rohde &amp; Schwarz Github repository</a>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Getting started - how to work with RsFsw Python SCPI package.</span>
+<span class="sd">This example performs basic RF settings and measurements on an FSW instrument.</span>
+<span class="sd">It shows the RsFsw calls and their corresponding SCPI commands.</span>
+<span class="sd">Notice that the python RsFsw interfaces track the SCPI commands syntax.&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">RsFsw</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1"># A good practice is to check for the installed version</span>
+<span class="n">RsFsw</span><span class="o">.</span><span class="n">assert_minimum_version</span><span class="p">(</span><span class="s1">&#39;5.0.0&#39;</span><span class="p">)</span>
+
+<span class="c1"># Open the session</span>
+<span class="n">fsw</span> <span class="o">=</span> <span class="n">RsFsw</span><span class="p">(</span><span class="s1">&#39;TCPIP::localhost::HISLIP&#39;</span><span class="p">,</span> <span class="n">reset</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Greetings, stranger...</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Hello, I am: </span><span class="si">{</span><span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">idn_string</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># Print commands to the console with the logger</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">mode</span> <span class="o">=</span> <span class="n">LoggingMode</span><span class="o">.</span><span class="n">On</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">log_to_console</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="c1"># Driver&#39;s instrument status checking ( SYST:ERR? ) after each command (default value is true):</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">instrument_status_checking</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="c1">#   SYSTem:DISPlay:UPDate ON</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">system</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">update</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1">#   INITiate:CONTinuous OFF</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">initiate</span><span class="o">.</span><span class="n">continuous</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Always work in single-sweep mode.&#39;</span><span class="p">)</span>
+
+<span class="c1">#   SENSe.FREQuency:STARt 100000000</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">frequency</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mf">100E6</span><span class="p">)</span>
+
+<span class="c1">#   SENSe.FREQuency:STOP 200000000</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">frequency</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mf">200E6</span><span class="p">)</span>
+
+<span class="c1">#   DISPlay:WINDow:TRACe:Y:SCALe:RLEVel -20.0</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">scale</span><span class="o">.</span><span class="n">refLevel</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="o">-</span><span class="mf">20.0</span><span class="p">)</span>
+
+<span class="c1">#   DISPlay1:WINDow:SUBWindow:TRACe1:MODE:MAXHold</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceModeC</span><span class="o">.</span><span class="n">MAXHold</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubWindow</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr1</span><span class="p">)</span>
+
+<span class="c1">#   DISPlay1: WINDow:SUBWindow:TRACe2:MODE MINHold</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceModeC</span><span class="o">.</span><span class="n">MINHold</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubWindow</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr2</span><span class="p">)</span>
+
+<span class="c1">#   SENSe:SWEep:POINts 10001</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">sweep</span><span class="o">.</span><span class="n">points</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mi">10001</span><span class="p">)</span>
+
+<span class="c1">#    INITiate:IMMediate (with timeout 3000 ms)</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">initiate</span><span class="o">.</span><span class="n">immediate_with_opc</span><span class="p">(</span><span class="mi">3000</span><span class="p">)</span>
+
+<span class="c1">#            TRACe1:DATA?</span>
+<span class="n">trace1</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceNumber</span><span class="o">.</span><span class="n">TRACe1</span><span class="p">)</span>
+
+<span class="c1">#            TRACe2:DATA?</span>
+<span class="n">trace2</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceNumber</span><span class="o">.</span><span class="n">TRACe2</span><span class="p">)</span>
+
+<span class="c1">#   CALCulate1:MARKer1:TRACe 1</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+
+<span class="c1">#   CALCulate1:MARKer1:MAXimum:PEAK</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">maximum</span><span class="o">.</span><span class="n">peak</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+<span class="c1">#         CALCulate1:MARKer1:X?</span>
+<span class="n">m1x</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+
+<span class="c1">#         CALCulate1:MARKer1:Y?</span>
+<span class="n">m1y</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 1 points: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">trace1</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 1 Marker 1: </span><span class="si">{</span><span class="n">m1x</span><span class="si">}</span><span class="s1"> Hz, </span><span class="si">{</span><span class="n">m1y</span><span class="si">}</span><span class="s1"> dBm&#39;</span><span class="p">)</span>
+
+<span class="c1">#   CALCulate1:MARKer2:TRACe 2</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+
+<span class="c1">#   CALCulate1:MARKer2:MINimum:PEAK</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">minimum</span><span class="o">.</span><span class="n">peak</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+
+<span class="c1">#         CALCulate2:MARKer2:X?</span>
+<span class="n">m2x</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+
+<span class="c1">#         CALCulate2:MARKer2:Y?</span>
+<span class="n">m2y</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 1 points: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">trace2</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 1 Marker 1: </span><span class="si">{</span><span class="n">m2x</span><span class="si">}</span><span class="s1"> Hz, </span><span class="si">{</span><span class="n">m2y</span><span class="si">}</span><span class="s1"> dBm&#39;</span><span class="p">)</span>
+
+<span class="c1"># Close the session</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;This RsFsw Python SCPI package example shows creating new FSW applications and arranging windows&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">RsFsw</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1"># A good practice is to check for the installed version</span>
+<span class="n">RsFsw</span><span class="o">.</span><span class="n">assert_minimum_version</span><span class="p">(</span><span class="s1">&#39;5.0.0&#39;</span><span class="p">)</span>
+
+<span class="c1"># Open the session</span>
+<span class="n">fsw</span> <span class="o">=</span> <span class="n">RsFsw</span><span class="p">(</span><span class="s1">&#39;TCPIP::192.168.1.102::HISLIP&#39;</span><span class="p">,</span> <span class="n">reset</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Greetings, stranger...</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Hello, I am: </span><span class="si">{</span><span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">idn_string</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># Print commands to the console with the logger</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">mode</span> <span class="o">=</span> <span class="n">LoggingMode</span><span class="o">.</span><span class="n">On</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">log_to_console</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="c1"># Do not log status checking messages if the status was OK</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">logger</span><span class="o">.</span><span class="n">log_status_check_ok</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="c1"># Update display in remote</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">system</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">update</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Create new instrument VSA</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">instrument</span><span class="o">.</span><span class="n">create</span><span class="o">.</span><span class="n">new</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">channel_type</span><span class="o">=</span><span class="n">enums</span><span class="o">.</span><span class="n">ChannelType</span><span class="o">.</span><span class="n">K70_VectorSignalAnalyzer</span><span class="p">,</span> <span class="n">channel_name</span><span class="o">=</span><span class="s1">&#39;MyVsa&#39;</span><span class="p">)</span>
+<span class="c1"># Create new instrument Pulse</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">instrument</span><span class="o">.</span><span class="n">create</span><span class="o">.</span><span class="n">new</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">channel_type</span><span class="o">=</span><span class="n">enums</span><span class="o">.</span><span class="n">ChannelType</span><span class="o">.</span><span class="n">K6_PulseAnalysis</span><span class="p">,</span> <span class="n">channel_name</span><span class="o">=</span><span class="s1">&#39;MyPulse&#39;</span><span class="p">)</span>
+
+<span class="c1"># Select the specan instrument by instrument name</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">instrument</span><span class="o">.</span><span class="n">select</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">ChannelType</span><span class="o">.</span><span class="n">SpectrumAnalyzer</span><span class="p">)</span>
+
+<span class="c1"># Select the MyVsa by name</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">instrument</span><span class="o">.</span><span class="n">selectName</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s1">&#39;MyVsa&#39;</span><span class="p">)</span>
+
+<span class="n">channels</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">instrument</span><span class="o">.</span><span class="n">listPy</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;All active channels (type, name): </span><span class="si">{</span><span class="n">channels</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># Get catalog of all the active windows in the VSA</span>
+<span class="n">windows</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">catalog</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;All active windows in the VSA (number, name): </span><span class="si">{</span><span class="n">windows</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># Add new window with EVM results to the right of the ResultSummary window</span>
+<span class="n">new_name</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k70_Vsa</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">add</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">WindowDirection</span><span class="o">.</span><span class="n">RIGHt</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">WindowTypeK70</span><span class="o">.</span><span class="n">ErrorVectorMagnitude</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Newly created window name: &#39;</span><span class="si">{</span><span class="n">new_name</span><span class="si">}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+<span class="c1"># Now move the window 1 to the right from the newly created window:</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k70_Vsa</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">move</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="n">new_name</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">WindowDirReplace</span><span class="o">.</span><span class="n">RIGHt</span><span class="p">)</span>
+
+<span class="c1"># Close the session</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;RsFsw Python package example. Performs the following:</span>
+<span class="sd">- Creates new FSW application.</span>
+<span class="sd">- Takes a screenshot and transfers the file to the control PC.</span>
+<span class="sd">- Saves the instrument status to a file &#39;RsFswState.dfl&#39;.</span>
+<span class="sd">- Copies the &#39;RsFswState.dfl&#39; file under a different name to the Control PC: &#39;RsFswState_PC.dfl&#39;</span>
+<span class="sd">- Copies the file &#39;RsFswState_PC.dfl&#39; back to the instrument under a new name &#39;RsFswState_back.dfl&#39;.</span>
+<span class="sd">    This simulates acquiring and distribution of a setup file from the Control PC</span>
+<span class="sd">- Resets the instrument</span>
+<span class="sd">- Recalls the status from the &#39;RsFswState_back.dfl&#39;</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">RsFsw</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1"># A good practice is to check for the installed version</span>
+<span class="n">RsFsw</span><span class="o">.</span><span class="n">assert_minimum_version</span><span class="p">(</span><span class="s1">&#39;5.0.0&#39;</span><span class="p">)</span>
+
+<span class="c1"># Open the session</span>
+<span class="n">fsw</span> <span class="o">=</span> <span class="n">RsFsw</span><span class="p">(</span><span class="s1">&#39;TCPIP::192.168.1.102::HISLIP&#39;</span><span class="p">,</span> <span class="n">reset</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Greetings, stranger...</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Hello, I am: </span><span class="si">{</span><span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">idn_string</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="c1"># Update display in remote</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">system</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">update</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Create new instrument PhaseNoise</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">instrument</span><span class="o">.</span><span class="n">create</span><span class="o">.</span><span class="n">new</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">channel_type</span><span class="o">=</span><span class="n">enums</span><span class="o">.</span><span class="n">ChannelType</span><span class="o">.</span><span class="n">K40_PhaseNoise</span><span class="p">,</span> <span class="n">channel_name</span><span class="o">=</span><span class="s1">&#39;NoiseOnly&#39;</span><span class="p">)</span>
+
+<span class="c1"># Add new window with SpotNoiseTable results at the bottom</span>
+<span class="n">new_name</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k40_PhaseNoise</span><span class="o">.</span><span class="n">layout</span><span class="o">.</span><span class="n">add</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">WindowDirection</span><span class="o">.</span><span class="n">BELow</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">WindowTypeK40</span><span class="o">.</span><span class="n">SpotNoiseTable</span><span class="p">)</span>
+
+<span class="c1"># Let&#39;s make a screenshot</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">hardCopy</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">HardcopyMode</span><span class="o">.</span><span class="n">SCReen</span><span class="p">)</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">hardCopy</span><span class="o">.</span><span class="n">device</span><span class="o">.</span><span class="n">color</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Set the color map. Colors.Ix4 means: Screen colors without changes</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">hardCopy</span><span class="o">.</span><span class="n">cmap</span><span class="o">.</span><span class="n">default</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">colors</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Colors</span><span class="o">.</span><span class="n">Ix4</span><span class="p">)</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">massMemory</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;c:\Temp\Device_Screenshot2.png&#39;</span><span class="p">)</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">hardCopy</span><span class="o">.</span><span class="n">immediate</span><span class="o">.</span><span class="n">set_with_opc</span><span class="p">()</span>
+<span class="c1"># Copy the screenshot to the PC</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">read_file_from_instrument_to_pc</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;c:\Temp\Device_Screenshot2.png&#39;</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;c:\Temp\PC_Screenshot2.png&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;Screenshot saved here: c:\Temp\PC_Screenshot2.png&#39;</span><span class="p">)</span>
+
+<span class="c1"># Save the current instrument status to a recall file</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">massMemory</span><span class="o">.</span><span class="n">store</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;RsFswState.dfl&#39;</span><span class="p">)</span>
+<span class="c1"># Copy the setup file to the PC under a different name</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">read_file_from_instrument_to_pc</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;RsFswState.dfl&#39;</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;c:\Temp\RsFswState_PC.dfl&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;Setup file saved here: c:\Temp\RsFswState_PC.dfl&#39;</span><span class="p">)</span>
+<span class="c1"># Copy the setup file back to the instrument as &#39;RsFswState_back.dfl&#39;</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">send_file_from_pc_to_instrument</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;c:\Temp\RsFswState_PC.dfl&#39;</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;RsFswState_back.dfl&#39;</span><span class="p">)</span>
+
+<span class="c1"># Make a reset and restore the saved state.</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+
+<span class="c1"># Restore the instrument status with the file copied back from the PC</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">massMemory</span><span class="o">.</span><span class="n">load</span><span class="o">.</span><span class="n">state</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;RsFswState_back.dfl&#39;</span><span class="p">)</span>
+
+<span class="c1"># Close the session</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Python SCPI package RsFsw example.</span>
+<span class="c1"># The example shows the default repcap setting done in group objects and / or cloning it.</span>
+<span class="c1"># Each group can be cloned with clone() method, and then its repcaps can be set independently to other default values.</span>
+<span class="c1"># These values are then taken as a default for all the methods belonging to that group.</span>
+<span class="c1"># That means, as long as you do not want to use another repcap value, you can use the method overloads without the repcaps.</span>
+<span class="c1"># Example (see more in the actual code):</span>
+<span class="c1"># var tr3 = fsw.display.window.subwindow.trace.clone()</span>
+<span class="c1"># tr3.repcap_trace_set(repcap.Trace.Tr2)</span>
+<span class="c1"># Now the following two calls send the same SCPI command: DISPlay1:WINDow:SUBWindow1:TRACe3:MODE MAXHold</span>
+<span class="c1"># fsw.display.window.subwindow.trace.mode.set(enums.TraceModeCenum.MAXHold, repcap.WindowRepCap.Nr1, repcap.SubWindowRepCap.Nr1, repcap.TraceRepCap.Tr3)</span>
+<span class="c1"># tr3.mode.set(enums.TraceModeCenum.MAXHold)</span>
+
+<span class="c1"># Preconditions:</span>
+<span class="c1"># - Install the RsFsw driver package over Packet Manager from NuGet.org</span>
+<span class="c1"># - Adjust the IP address the match your instrument</span>
+
+<span class="kn">from</span> <span class="nn">RsFsw</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="c1"># A good practice is to check for the installed version</span>
+<span class="n">RsFsw</span><span class="o">.</span><span class="n">assert_minimum_version</span><span class="p">(</span><span class="s1">&#39;5.0.0&#39;</span><span class="p">)</span>
+
+<span class="c1"># Open the session</span>
+<span class="n">fsw</span> <span class="o">=</span> <span class="n">RsFsw</span><span class="p">(</span><span class="s1">&#39;TCPIP::192.168.1.102::HISLIP&#39;</span><span class="p">,</span> <span class="n">reset</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Greetings, stranger...</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Hello, I am: </span><span class="si">{</span><span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">idn_string</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+<span class="n">fsw</span> <span class="o">=</span> <span class="n">RsFsw</span><span class="p">(</span><span class="s2">&quot;TCPIP::localhost::HISLIP&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span>
+<span class="c1"># fsw = RsFsw(&quot;TCPIP::localhost::HISLIP&quot;, True, True, options=&#39;SelectVisa=RsVisa&#39;)  # Forcing R&amp;S VISA</span>
+<span class="c1"># fsw = RsFsw(&quot;TCPIP::localhost::5025::SOCKET&quot;, True, True, options=&#39;SelectVisa=SocketIo&#39;)  # No VISA installation needed</span>
+
+<span class="c1"># Driver&#39;s instrument status checking ( SYST:ERR? ) after each command (default value is true):</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">utilities</span><span class="o">.</span><span class="n">instrument_status_checking</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="c1">#   SYSTem:DISPlay:UPDate ON</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">system</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">update</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1">#   INITiate:CONTinuous OFF</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">initiate</span><span class="o">.</span><span class="n">continuous</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Always work in single-sweep mode.&#39;</span><span class="p">)</span>
+
+<span class="c1">#   SENSe.FREQuency:STARt 100000000</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">frequency</span><span class="o">.</span><span class="n">start</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mf">100E6</span><span class="p">)</span>
+
+<span class="c1">#   SENSe.FREQuency:STOP 200000000</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">frequency</span><span class="o">.</span><span class="n">stop</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mf">200E6</span><span class="p">)</span>
+
+<span class="c1">#   DISPlay:WINDow:TRACe:Y:SCALe:RLEVel -20.0</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">scale</span><span class="o">.</span><span class="n">refLevel</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="o">-</span><span class="mf">20.0</span><span class="p">)</span>
+
+<span class="c1">#   DISPlay:WINDow:SUBWindow:TRACe:Y:SCALe 60.0</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">scale</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mf">60.0</span><span class="p">)</span>
+
+<span class="c1"># Prepare tr1 and tr2 to work with the trace 1 and trace 2 interfaces:</span>
+<span class="n">tr1</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+<span class="n">tr1</span><span class="o">.</span><span class="n">repcap_trace_set</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr1</span><span class="p">)</span>
+<span class="n">tr2</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+<span class="n">tr2</span><span class="o">.</span><span class="n">repcap_trace_set</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr2</span><span class="p">)</span>
+
+<span class="c1"># Standard usage with all the repcaps defined in the method call:</span>
+<span class="c1">#   DISPlay1:WINDow:SUBWindow:TRACe1:MODE MAXHold</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceModeC</span><span class="o">.</span><span class="n">MAXHold</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubWindow</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr1</span><span class="p">)</span>
+<span class="c1"># Now the following call sends the same command:</span>
+<span class="n">tr1</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceModeC</span><span class="o">.</span><span class="n">MAXHold</span><span class="p">)</span>
+
+<span class="c1">#   DISPlay1:WINDow:SUBWindow:TRACe2:MODE MINHold</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">window</span><span class="o">.</span><span class="n">subwindow</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceModeC</span><span class="o">.</span><span class="n">MINHold</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubWindow</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr2</span><span class="p">)</span>
+<span class="c1"># Now the following call sends the same command:</span>
+<span class="n">tr2</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceModeC</span><span class="o">.</span><span class="n">MINHold</span><span class="p">)</span>
+
+<span class="c1">#   SENSe:SWEep:POINts 10001</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">sweep</span><span class="o">.</span><span class="n">points</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mi">10001</span><span class="p">)</span>
+
+<span class="c1">#   INITiate:IMMediate (set timeout 3000 ms)</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">initiate</span><span class="o">.</span><span class="n">immediate_with_opc</span><span class="p">(</span><span class="mi">3000</span><span class="p">)</span>
+
+<span class="c1">#            TRACe1:DATA?</span>
+<span class="n">trace1</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceNumber</span><span class="o">.</span><span class="n">TRACe1</span><span class="p">)</span>
+
+<span class="c1">#            TRACe2:DATA?</span>
+<span class="n">trace2</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">enums</span><span class="o">.</span><span class="n">TraceNumber</span><span class="o">.</span><span class="n">TRACe2</span><span class="p">)</span>
+
+<span class="c1">#   CALCulate1:MARKer1:TRACe 1</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+<span class="n">mark1</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+<span class="n">mark1</span><span class="o">.</span><span class="n">RepCapMarker</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span>
+
+<span class="c1">#   CALCulate1:MARKer1:MAXimum:PEAK</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">maximum</span><span class="o">.</span><span class="n">peak</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+<span class="c1"># Same command with the mark1 interface:</span>
+<span class="n">mark1</span><span class="o">.</span><span class="n">maximum</span><span class="o">.</span><span class="n">peak</span><span class="o">.</span><span class="n">set</span><span class="p">()</span>
+
+<span class="c1">#         CALCulate1:MARKer1:X?</span>
+<span class="n">m1x</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+<span class="c1"># Same command with the mark1 interface:</span>
+<span class="n">m1x</span> <span class="o">=</span> <span class="n">mark1</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+
+<span class="c1">#         CALCulate1:MARKer1:Y?</span>
+<span class="n">m1y</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span><span class="p">)</span>
+<span class="c1"># Same command with the mark1 interface:</span>
+<span class="n">m1y</span> <span class="o">=</span> <span class="n">mark1</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 1 points: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">trace1</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 1 Marker 1: </span><span class="si">{</span><span class="n">m1x</span><span class="si">}</span><span class="s1"> Hz, </span><span class="si">{</span><span class="n">m1y</span><span class="si">}</span><span class="s1"> dBm&#39;</span><span class="p">)</span>
+
+<span class="c1">#   CALCulate1:MARKer2:TRACe 2</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">trace</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+<span class="n">mark2</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+<span class="n">mark2</span><span class="o">.</span><span class="n">RepCapMarker</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span>
+
+<span class="c1">#   CALCulate1:MARKer2:MINimum:PEAK</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">minimum</span><span class="o">.</span><span class="n">peak</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+<span class="c1"># Same effect with the mark2 interface:</span>
+<span class="n">mark2</span><span class="o">.</span><span class="n">minimum</span><span class="o">.</span><span class="n">peak</span><span class="o">.</span><span class="n">set</span><span class="p">()</span>
+
+<span class="c1">#         CALCulate2:MARKer2:X?</span>
+<span class="n">m2x</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+<span class="c1"># Same effect with the mark1 interface:</span>
+<span class="n">m2x</span> <span class="o">=</span> <span class="n">mark2</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+
+<span class="c1">#         CALCulate2:MARKer2:Y?</span>
+<span class="n">m2y</span> <span class="o">=</span> <span class="n">fsw</span><span class="o">.</span><span class="n">calculate</span><span class="o">.</span><span class="n">marker</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr2</span><span class="p">)</span>
+<span class="c1"># Same command with the mark1 interface:</span>
+<span class="n">m2y</span> <span class="o">=</span> <span class="n">mark2</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 2 points: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">trace2</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Trace 2 Marker 2: </span><span class="si">{</span><span class="n">m2x</span><span class="si">}</span><span class="s1"> Hz, </span><span class="si">{</span><span class="n">m2y</span><span class="si">}</span><span class="s1"> dBm&#39;</span><span class="p">)</span>
+
+<span class="c1"># Close the session</span>
+<span class="n">fsw</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="repcap.html" class="btn btn-neutral float-left" title="RepCaps" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="RsFsw.html" class="btn btn-neutral float-right" title="RsFsw API Structure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../../../" id="documentation_options" src="../../../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../../../../K70_Vsa.html">RsFsw.Implementations.Applications.K70_Vsa</a> &raquo;</li>
+          <li><a href="../../../../../Sense.html">RsFsw.Implementations.Applications.K70_Vsa.Sense</a> &raquo;</li>
+          <li><a href="../../../../Ddemod.html">RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod</a> &raquo;</li>
+          <li><a href="../../../Pattern.html">RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern</a> &raquo;</li>
+          <li><a href="../../Frame.html">RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame</a> &raquo;</li>
+          <li><a href="../Edit.html">RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
+
+<span class="kn">from</span> <span class="nn">.........Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">.........Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">.........Internal.Types</span> <span class="kn">import</span> <span class="n">DataType</span>
+<span class="kn">from</span> <span class="nn">.........Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">.........Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">.........</span> <span class="kn">import</span> <span class="n">enums</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="StructureCls"><a class="viewcode-back" href="../../../../../../../../../../Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Structure.html#RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure.StructureCls">[docs]</a><span class="k">class</span> <span class="nc">StructureCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Structure commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;structure&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="StructureCls.StructureStruct"><a class="viewcode-back" href="../../../../../../../../../../Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Structure.html#RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure.StructureCls.StructureStruct">[docs]</a>	<span class="k">class</span> <span class="nc">StructureStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Structure for setting input parameters. Fields: \n</span>
+<span class="sd">			- Name: List[str]: string Name of the subframe. Duplicate names are allowed.</span>
+<span class="sd">			- Nof_Symbols: List[float]: integer The number of symbols the subframe consists of. For pattern subframes, the number of symbols must correspond to the number of symbols defined using[SENSe:]DDEMod:SEARch:SYNC:DATA.</span>
+<span class="sd">			- Modulation: List[enums.FrameModulationB]: DATA | PATTern Determines which modulation type is used to demodulate the subframe. The modulation for the &#39;previous frame&#39; and &#39;next frame&#39; are defined by separate commands (see [SENSe:]DDEMod:PATTern:FRAMe:EDIT:PREVious:MODulation and [SENSe:]DDEMod:PATTern:FRAMe:EDIT:NEXT:MODulation) . DATA The modulation type defined for data symbols is used (see [SENSe:]DDEMod:MAPPing[:VALue]) . PATTern The modulation type defined for patterns is used (see [SENSe:]DDEMod:PATTern:MAPPing[:VALue]) .</span>
+<span class="sd">			- Type_Py: List[enums.FrameModulationB]: DATA | PATTern Determines whether the demodulated data in the subframe is known or unknown by the R&amp;S FSW VSA application. PATTern The data is assumed to correspond with the pattern definition (see [SENSe:]DDEMod:SEARch:SYNC:DATA) . Not available for modulation type: &#39;DATA&#39;. Only one subframe is allowed to be of type &#39;PATTern&#39;. DATA The data is unknown. Used for data symbols or header information.</span>
+<span class="sd">			- Boosting: List[float]: numeric value For subframes with gain values different to the data symbols, define a different boosting factor to be applied to the reference power. Range: 0.1 to 60</span>
+<span class="sd">			- Description: List[str]: string Description for an individual subframe. Use an empty string (&#39;&#39;) to leave out the description.&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">StringList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Nof_Symbols&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Modulation&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">EnumList</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">FrameModulationB</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Type_Py&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">EnumList</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">FrameModulationB</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Boosting&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">FloatList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="p">(</span><span class="s1">&#39;Description&#39;</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">StringList</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">False</span><span class="p">,</span> <span class="kc">True</span><span class="p">,</span> <span class="mi">1</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Name</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Nof_Symbols</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Modulation</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">enums</span><span class="o">.</span><span class="n">FrameModulationB</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Type_Py</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">enums</span><span class="o">.</span><span class="n">FrameModulationB</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Boosting</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Description</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="StructureCls.set"><a class="viewcode-back" href="../../../../../../../../../../Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Structure.html#RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure.StructureCls.set">[docs]</a>	<span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">structure</span><span class="p">:</span> <span class="n">StructureStruct</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:DDEMod:PATTern:FRAMe:EDIT:STRucture \n</span>
+<span class="sd">		Snippet with structure: \n</span>
+<span class="sd">		structure = driver.applications.k70Vsa.sense.ddemod.pattern.frame.edit.structure.StructureStruct() \n</span>
+<span class="sd">		structure.Name: List[str] = [&#39;abc1&#39;, &#39;abc2&#39;, &#39;abc3&#39;] \n</span>
+<span class="sd">		structure.Nof_Symbols: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Modulation: List[enums.FrameModulationB] = [FrameModulationB.DATA, FrameModulationB.PATTern] \n</span>
+<span class="sd">		structure.Type_Py: List[enums.FrameModulationB] = [FrameModulationB.DATA, FrameModulationB.PATTern] \n</span>
+<span class="sd">		structure.Boosting: List[float] = [1.1, 2.2, 3.3] \n</span>
+<span class="sd">		structure.Description: List[str] = [&#39;abc1&#39;, &#39;abc2&#39;, &#39;abc3&#39;] \n</span>
+<span class="sd">		driver.applications.k70Vsa.sense.ddemod.pattern.frame.edit.structure.set(structure) \n</span>
+<span class="sd">		Defines the frame structure for a previously loaded file. For each subframe, all parameters must be defined.</span>
+<span class="sd">		Is only available if the additional Multi-Modulation Analysis option (FSW-K70M) is installed. Note that the file must be</span>
+<span class="sd">		loaded for editing before the structure can be defined using this command (see [SENSe:]DDEMod:PATTern:FRAMe:EDIT) .</span>
+<span class="sd">		Loading the file for use in the current measurement is not sufficient (see [SENSe:]DDEMod:PATTern:FRAMe:LOAD) . Therefore,</span>
+<span class="sd">		you can edit a frame structure while simultaneously performing a measurement with another frame structure configuration.</span>
+<span class="sd">		The configuration is only stored by a subsequent [SENSe:]DDEMod:PATTern:FRAMe:EDIT:SAVE command. The modulation for the</span>
+<span class="sd">		&#39;previous frame&#39; and &#39;next frame&#39; are defined by separate commands (see [SENS:]DDEM:PATT:FRAM:PREV:...</span>
+<span class="sd">		and [SENS:]DDEM:PATT:FRAM:NEXT:...) . \n</span>
+<span class="sd">			:param structure: for set value, see the help for StructureStruct structure arguments.</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:DDEMod:PATTern:FRAMe:EDIT:STRucture&#39;</span><span class="p">,</span> <span class="n">structure</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="StructureCls.get"><a class="viewcode-back" href="../../../../../../../../../../Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Structure.html#RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Structure.StructureCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">StructureStruct</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:DDEMod:PATTern:FRAMe:EDIT:STRucture \n</span>
+<span class="sd">		Snippet: value: StructureStruct = driver.applications.k70Vsa.sense.ddemod.pattern.frame.edit.structure.get() \n</span>
+<span class="sd">		Defines the frame structure for a previously loaded file. For each subframe, all parameters must be defined.</span>
+<span class="sd">		Is only available if the additional Multi-Modulation Analysis option (FSW-K70M) is installed. Note that the file must be</span>
+<span class="sd">		loaded for editing before the structure can be defined using this command (see [SENSe:]DDEMod:PATTern:FRAMe:EDIT) .</span>
+<span class="sd">		Loading the file for use in the current measurement is not sufficient (see [SENSe:]DDEMod:PATTern:FRAMe:LOAD) . Therefore,</span>
+<span class="sd">		you can edit a frame structure while simultaneously performing a measurement with another frame structure configuration.</span>
+<span class="sd">		The configuration is only stored by a subsequent [SENSe:]DDEMod:PATTern:FRAMe:EDIT:SAVE command. The modulation for the</span>
+<span class="sd">		&#39;previous frame&#39; and &#39;next frame&#39; are defined by separate commands (see [SENS:]DDEM:PATT:FRAM:PREV:...</span>
+<span class="sd">		and [SENS:]DDEM:PATT:FRAM:NEXT:...) . \n</span>
+<span class="sd">			:return: structure: for return value, see the help for StructureStruct structure arguments.&quot;&quot;&quot;</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:DDEMod:PATTern:FRAMe:EDIT:STRucture?&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">StructureStruct</span><span class="p">())</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

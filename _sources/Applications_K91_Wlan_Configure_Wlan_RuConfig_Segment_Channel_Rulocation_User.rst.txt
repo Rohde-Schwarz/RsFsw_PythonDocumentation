@@ -1,0 +1,51 @@
+User<UserIx>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix8
+	rc = driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.user.repcap_userIx_get()
+	driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.user.repcap_userIx_set(repcap.UserIx.Ix1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:USER<mu>:DELete
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:USER<mu>:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User.UserCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.user.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_Coding.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_Count.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_Dcm.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_Insert.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_McsIndex.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_Nsts.rst
+	Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User_Tbeamforming.rst

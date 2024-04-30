@@ -1,0 +1,20 @@
+Identify
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CREFerence:HARMonics:IDENtify
+
+.. code-block:: python
+
+	[SENSe]:CREFerence:HARMonics:IDENtify
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Harmonics.Identify.IdentifyCls
+	:members:
+	:undoc-members:
+	:noindex:

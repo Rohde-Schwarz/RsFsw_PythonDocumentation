@@ -1,0 +1,37 @@
+Fplan
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SSEarch:FPLan
+
+.. code-block:: python
+
+	[SENSe]:SSEarch:FPLan
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.Fplan.FplanCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.ssearch.fplan.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Ssearch_Fplan_Tolerance.rst

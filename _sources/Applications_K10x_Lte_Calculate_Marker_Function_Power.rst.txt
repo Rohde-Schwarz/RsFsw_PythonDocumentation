@@ -1,0 +1,39 @@
+Power<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k10Xlte.calculate.marker.function.power.repcap_subBlock_get()
+	driver.applications.k10Xlte.calculate.marker.function.power.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.marker.function.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Mode.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Preset.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Result.rst
+	Applications_K10x_Lte_Calculate_Marker_Function_Power_Standard.rst

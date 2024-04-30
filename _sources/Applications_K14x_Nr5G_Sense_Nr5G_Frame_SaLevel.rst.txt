@@ -1,0 +1,20 @@
+SaLevel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:FRAMe:SALevel
+
+.. code-block:: python
+
+	[SENSe]:NR5G:FRAMe:SALevel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Frame.SaLevel.SaLevelCls
+	:members:
+	:undoc-members:
+	:noindex:

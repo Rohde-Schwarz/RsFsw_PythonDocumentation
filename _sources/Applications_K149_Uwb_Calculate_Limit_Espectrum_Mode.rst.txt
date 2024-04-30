@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<m>:ESPectrum:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<m>:ESPectrum:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

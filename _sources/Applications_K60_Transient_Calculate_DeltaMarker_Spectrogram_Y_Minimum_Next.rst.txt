@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:SPECtrogram:Y:MINimum:NEXT
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:SPECtrogram:Y:MINimum:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.DeltaMarker.Spectrogram.Y.Minimum.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

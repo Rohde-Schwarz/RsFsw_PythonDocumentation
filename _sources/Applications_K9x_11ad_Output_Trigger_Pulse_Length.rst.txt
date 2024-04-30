@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:TRIGger<2|3>:PULSe:LENGth
+
+.. code-block:: python
+
+	OUTPut:TRIGger<2|3>:PULSe:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Output.Trigger.Pulse.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

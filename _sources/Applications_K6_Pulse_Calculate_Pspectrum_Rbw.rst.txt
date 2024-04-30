@@ -1,0 +1,20 @@
+Rbw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSPectrum:RBW
+
+.. code-block:: python
+
+	CALCulate<n>:PSPectrum:RBW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Rbw.RbwCls
+	:members:
+	:undoc-members:
+	:noindex:

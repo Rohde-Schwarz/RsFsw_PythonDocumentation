@@ -1,0 +1,20 @@
+Cstep
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:CSTep
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:CSTep
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Cstep.CstepCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Dsqp
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:DSQP
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:DSQP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Dsqp.DsqpCls
+	:members:
+	:undoc-members:
+	:noindex:

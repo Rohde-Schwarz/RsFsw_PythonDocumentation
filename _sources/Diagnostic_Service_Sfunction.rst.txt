@@ -1,0 +1,38 @@
+Sfunction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:SFUNction
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SFUNction
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Sfunction.SfunctionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.sfunction.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_Sfunction_LastResult.rst
+	Diagnostic_Service_Sfunction_Results.rst

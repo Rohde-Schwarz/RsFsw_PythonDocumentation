@@ -1,0 +1,37 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:FUNCtion:FIXed:RPOint:Y
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:FUNCtion:FIXed:RPOint:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.DeltaMarker.Function.Fixed.Rpoint.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.deltaMarker.function.fixed.rpoint.y.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_DeltaMarker_Function_Fixed_Rpoint_Y_Offset.rst

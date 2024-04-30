@@ -1,0 +1,20 @@
+Pilot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:SCDetailed:EVM:PILot
+
+.. code-block:: python
+
+	FETCh:SCDetailed:EVM:PILot
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.ScDetailed.Evm.Pilot.PilotCls
+	:members:
+	:undoc-members:
+	:noindex:

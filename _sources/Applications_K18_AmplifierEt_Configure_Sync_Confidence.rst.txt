@@ -1,0 +1,20 @@
+Confidence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SYNC:CONFidence
+
+.. code-block:: python
+
+	CONFigure:SYNC:CONFidence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Sync.Confidence.ConfidenceCls
+	:members:
+	:undoc-members:
+	:noindex:

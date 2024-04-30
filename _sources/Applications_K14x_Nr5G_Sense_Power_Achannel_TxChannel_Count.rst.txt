@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:TXCHannel:COUNt
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:TXCHannel:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.TxChannel.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

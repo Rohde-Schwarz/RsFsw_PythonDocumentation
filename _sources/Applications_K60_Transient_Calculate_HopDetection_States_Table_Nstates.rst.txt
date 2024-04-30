@@ -1,0 +1,20 @@
+Nstates
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:STATes:TABLe:NSTates
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:STATes:TABLe:NSTates
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Table.Nstates.NstatesCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Cell
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:BF:AP:CELL
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:BF:AP:CELL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Bf.Ap.Cell.CellCls
+	:members:
+	:undoc-members:
+	:noindex:

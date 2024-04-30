@@ -1,0 +1,20 @@
+RuSize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:RUSize
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:RUSize
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.RuSize.RuSizeCls
+	:members:
+	:undoc-members:
+	:noindex:

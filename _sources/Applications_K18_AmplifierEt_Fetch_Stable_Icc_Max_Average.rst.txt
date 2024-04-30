@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:ICC:MAX:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:ICC:MAX:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Icc.Max.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

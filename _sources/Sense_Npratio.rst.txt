@@ -1,0 +1,31 @@
+Npratio
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.NpratioCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.npratio.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Npratio_Channel.rst
+	Sense_Npratio_Mode.rst
+	Sense_Npratio_Notch.rst
+	Sense_Npratio_State.rst

@@ -1,0 +1,29 @@
+IfPower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Trigger.Sequence.IfPower.IfPowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.trigger.sequence.ifPower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Trigger_Sequence_IfPower_Holdoff.rst
+	Applications_K149_Uwb_Trigger_Sequence_IfPower_Hysteresis.rst

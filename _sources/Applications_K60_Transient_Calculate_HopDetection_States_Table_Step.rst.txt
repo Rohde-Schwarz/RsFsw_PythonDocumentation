@@ -1,0 +1,20 @@
+Step
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:STATes:TABLe:STEP
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:STATes:TABLe:STEP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Table.Step.StepCls
+	:members:
+	:undoc-members:
+	:noindex:

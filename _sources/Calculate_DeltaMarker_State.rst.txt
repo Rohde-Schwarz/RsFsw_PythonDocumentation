@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

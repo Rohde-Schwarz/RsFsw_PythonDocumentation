@@ -1,0 +1,20 @@
+LastSpan
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SUBSpan:LASTspan
+
+.. code-block:: python
+
+	[SENSe]:SUBSpan:LASTspan
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Subspan.LastSpan.LastSpanCls
+	:members:
+	:undoc-members:
+	:noindex:

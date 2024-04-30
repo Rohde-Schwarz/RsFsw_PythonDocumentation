@@ -1,0 +1,28 @@
+Pspectrum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Pspectrum.PspectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.pspectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Pspectrum_Color.rst

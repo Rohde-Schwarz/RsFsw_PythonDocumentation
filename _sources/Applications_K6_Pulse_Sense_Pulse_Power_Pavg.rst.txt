@@ -1,0 +1,42 @@
+Pavg
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:PAVG
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:PAVG
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Pavg.PavgCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.power.pavg.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Power_Pavg_StandardDev.rst

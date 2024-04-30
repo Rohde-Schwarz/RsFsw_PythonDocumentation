@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PBERate:MAXimum
+
+.. code-block:: python
+
+	FETCh:PBERate:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.PbeRate.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

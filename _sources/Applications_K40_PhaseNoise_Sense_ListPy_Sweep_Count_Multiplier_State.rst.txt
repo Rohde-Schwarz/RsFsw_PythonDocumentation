@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:SWEep:COUNt:MULTiplier:STATe
+
+.. code-block:: python
+
+	[SENSe]:LIST:SWEep:COUNt:MULTiplier:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.ListPy.Sweep.Count.Multiplier.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

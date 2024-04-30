@@ -1,0 +1,20 @@
+Ctpis
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:CTPis
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:CTPis
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Ctpis.CtpisCls
+	:members:
+	:undoc-members:
+	:noindex:

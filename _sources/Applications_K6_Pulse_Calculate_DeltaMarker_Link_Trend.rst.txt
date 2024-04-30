@@ -1,0 +1,20 @@
+Trend
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:LINK:TRENd
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:LINK:TRENd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.DeltaMarker.Link.Trend.TrendCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Hot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR[:MEASurement]:SPOT:HOT
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR[:MEASurement]:SPOT:HOT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Measurement.Spot.Hot.HotCls
+	:members:
+	:undoc-members:
+	:noindex:

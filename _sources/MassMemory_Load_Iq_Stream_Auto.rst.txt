@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:IQ:STReam:AUTO
+
+.. code-block:: python
+
+	MMEMory:LOAD:IQ:STReam:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Load.Iq.Stream.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

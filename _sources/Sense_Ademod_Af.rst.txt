@@ -1,0 +1,32 @@
+Af
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.AfCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.ademod.af.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod_Af_Center.rst
+	Sense_Ademod_Af_Coupling.rst
+	Sense_Ademod_Af_Span.rst
+	Sense_Ademod_Af_Start.rst
+	Sense_Ademod_Af_Stop.rst

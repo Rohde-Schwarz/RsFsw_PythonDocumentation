@@ -1,0 +1,29 @@
+Diagnostic
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Diagnostic.DiagnosticCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.diagnostic.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Diagnostic_Dsp.rst
+	Applications_K149_Uwb_Diagnostic_Simulation.rst

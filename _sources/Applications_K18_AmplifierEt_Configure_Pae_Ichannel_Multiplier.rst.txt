@@ -1,0 +1,20 @@
+Multiplier
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PAE:ICHannel:MULTiplier
+
+.. code-block:: python
+
+	CONFigure:PAE:ICHannel:MULTiplier
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Pae.Ichannel.Multiplier.MultiplierCls
+	:members:
+	:undoc-members:
+	:noindex:

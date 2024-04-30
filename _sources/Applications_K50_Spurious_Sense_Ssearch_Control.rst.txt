@@ -1,0 +1,20 @@
+Control
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SSEarch:CONTrol
+
+.. code-block:: python
+
+	[SENSe]:SSEarch:CONTrol
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.Control.ControlCls
+	:members:
+	:undoc-members:
+	:noindex:

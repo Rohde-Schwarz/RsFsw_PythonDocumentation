@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:CHIRp:POWer
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:CHIRp:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Chirp.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

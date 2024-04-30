@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:FSK:DEViation:REFerence[:VALue]
+
+.. code-block:: python
+
+	CALCulate<n>:FSK:DEViation:REFerence[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Fsk.Deviation.Reference.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

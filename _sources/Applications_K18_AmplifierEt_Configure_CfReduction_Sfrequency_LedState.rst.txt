@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CFReduction:SFRequency:LEDState
+
+.. code-block:: python
+
+	CONFigure:CFReduction:SFRequency:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.CfReduction.Sfrequency.LedState.LedStateCls
+	:members:
+	:undoc-members:
+	:noindex:

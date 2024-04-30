@@ -1,0 +1,39 @@
+IqOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:POWer:IQOFfset
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:POWer:IQOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Power.IqOffset.IqOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.power.iqOffset.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Power_IqOffset_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_IqOffset_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_IqOffset_Minimum.rst

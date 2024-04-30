@@ -1,0 +1,20 @@
+Nsts
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:USER<mu>:NSTS
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:SEGMent<seg>:CHANnel<ch>:RULocation<cf>:USER<mu>:NSTS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User.Nsts.NstsCls
+	:members:
+	:undoc-members:
+	:noindex:

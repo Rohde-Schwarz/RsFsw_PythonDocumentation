@@ -1,0 +1,36 @@
+Generator<Generator>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.system.communicate.gpib.rdevice.generator.repcap_generator_get()
+	driver.system.communicate.gpib.rdevice.generator.repcap_generator_set(repcap.Generator.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Gpib.Rdevice.Generator.GeneratorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.gpib.rdevice.generator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Gpib_Rdevice_Generator_Address.rst

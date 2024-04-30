@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:POWer:PWRRipple:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:POWer:PWRRipple:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Power.PwrRipple.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

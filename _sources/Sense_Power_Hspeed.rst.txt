@@ -1,0 +1,20 @@
+Hspeed
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:HSPeed
+
+.. code-block:: python
+
+	[SENSe]:POWer:HSPeed
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Hspeed.HspeedCls
+	:members:
+	:undoc-members:
+	:noindex:

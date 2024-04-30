@@ -1,0 +1,55 @@
+Range<RangePy>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix64
+	rc = driver.sense.espectrum.range.repcap_rangePy_get()
+	driver.sense.espectrum.range.repcap_rangePy_set(repcap.RangePy.Ix1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<ri>:DELete
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<ri>:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.espectrum.range.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Espectrum_Range_Bandwidth.rst
+	Sense_Espectrum_Range_Count.rst
+	Sense_Espectrum_Range_FilterPy.rst
+	Sense_Espectrum_Range_Frequency.rst
+	Sense_Espectrum_Range_InputPy.rst
+	Sense_Espectrum_Range_Insert.rst
+	Sense_Espectrum_Range_Limit.rst
+	Sense_Espectrum_Range_MlCalc.rst
+	Sense_Espectrum_Range_RefLevel.rst
+	Sense_Espectrum_Range_Sweep.rst
+	Sense_Espectrum_Range_Transducer.rst

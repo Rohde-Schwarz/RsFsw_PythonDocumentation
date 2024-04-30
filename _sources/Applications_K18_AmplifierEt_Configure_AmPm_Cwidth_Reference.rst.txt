@@ -1,0 +1,37 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:AMPM:CWIDth:REFerence
+
+.. code-block:: python
+
+	CONFigure:AMPM:CWIDth:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.AmPm.Cwidth.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.amPm.cwidth.reference.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_AmPm_Cwidth_Reference_Auto.rst

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:POWer:STATe
+
+.. code-block:: python
+
+	[SENSe]:LIST:POWer:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Power.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:PM:RPOint[:X]:MODE
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:PM:RPOint[:X]:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Pm.Rpoint.X.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

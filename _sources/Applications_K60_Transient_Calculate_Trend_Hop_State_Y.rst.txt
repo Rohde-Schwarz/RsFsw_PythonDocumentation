@@ -1,0 +1,20 @@
+Y
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:HOP:STATe:Y
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:HOP:STATe:Y
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Hop.State.Y.YCls
+	:members:
+	:undoc-members:
+	:noindex:

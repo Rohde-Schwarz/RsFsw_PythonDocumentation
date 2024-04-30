@@ -1,0 +1,20 @@
+Single
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:FREQuency:SINGle
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:FREQuency:SINGle
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.Frequency.Single.SingleCls
+	:members:
+	:undoc-members:
+	:noindex:

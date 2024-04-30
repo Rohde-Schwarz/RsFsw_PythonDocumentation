@@ -1,0 +1,20 @@
+Scheme
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALLoc<al>:PRECoding[:SCHeme]
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALLoc<al>:PRECoding[:SCHeme]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.Alloc.Precoding.Scheme.SchemeCls
+	:members:
+	:undoc-members:
+	:noindex:

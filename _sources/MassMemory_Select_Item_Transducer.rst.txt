@@ -1,0 +1,29 @@
+Transducer
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.Transducer.TransducerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.select.item.transducer.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Select_Item_Transducer_Active.rst
+	MassMemory_Select_Item_Transducer_All.rst

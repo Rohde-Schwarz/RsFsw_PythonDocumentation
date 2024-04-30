@@ -1,0 +1,20 @@
+Xterm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GMP:LEAD:ORDer:XTERm
+
+.. code-block:: python
+
+	CONFigure:GMP:LEAD:ORDer:XTERm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Gmp.Lead.Order.Xterm.XtermCls
+	:members:
+	:undoc-members:
+	:noindex:

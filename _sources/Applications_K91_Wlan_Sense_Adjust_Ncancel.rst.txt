@@ -1,0 +1,29 @@
+Ncancel
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Adjust.Ncancel.NcancelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.adjust.ncancel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Adjust_Ncancel_Average.rst
+	Applications_K91_Wlan_Sense_Adjust_Ncancel_Sync.rst

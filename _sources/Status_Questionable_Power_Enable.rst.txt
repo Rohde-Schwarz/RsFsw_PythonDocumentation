@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:POWer:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:POWer:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Power.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

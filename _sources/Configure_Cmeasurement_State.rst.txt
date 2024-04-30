@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CMEasurement[:STATe]
+
+.. code-block:: python
+
+	CONFigure:CMEasurement[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Cmeasurement.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

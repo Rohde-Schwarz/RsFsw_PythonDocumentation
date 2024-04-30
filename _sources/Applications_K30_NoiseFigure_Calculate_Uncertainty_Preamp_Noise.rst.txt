@@ -1,0 +1,20 @@
+Noise
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:PREamp:NOISe
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:PREamp:NOISe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Preamp.Noise.NoiseCls
+	:members:
+	:undoc-members:
+	:noindex:

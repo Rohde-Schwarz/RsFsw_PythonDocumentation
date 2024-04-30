@@ -1,0 +1,20 @@
+Aabw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:AABW
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:AABW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Power.Achannel.Aabw.AabwCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:FRAMe:COUNt:STATe
+
+.. code-block:: python
+
+	[SENSe]:NR5G:FRAMe:COUNt:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Frame.Count.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

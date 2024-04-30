@@ -1,0 +1,20 @@
+Ptransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:LMARgin<1|2|3|4>:PTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:LMARgin<1|2|3|4>:PTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Lmargin.Ptransition.PtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

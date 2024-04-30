@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:PHASe:PPPHase:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:PHASe:PPPHase:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Phase.PpPhase.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

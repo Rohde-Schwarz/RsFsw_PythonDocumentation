@@ -1,0 +1,20 @@
+Memory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:HAMMerstein:ORDer:MEMory
+
+.. code-block:: python
+
+	CONFigure:HAMMerstein:ORDer:MEMory
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Hammerstein.Order.Memory.MemoryCls
+	:members:
+	:undoc-members:
+	:noindex:

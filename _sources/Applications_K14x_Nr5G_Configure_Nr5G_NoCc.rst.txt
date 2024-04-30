@@ -1,0 +1,20 @@
+NoCc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:NOCC
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:NOCC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.NoCc.NoCcCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,39 @@
+Table
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:LOSS:INPut:TABLe:DELete
+
+.. code-block:: python
+
+	[SENSe]:CORRection:LOSS:INPut:TABLe:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.InputPy.Table.TableCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.correction.loss.inputPy.table.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table_Data.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table_ListPy.rst
+	Applications_K30_NoiseFigure_Sense_Correction_Loss_InputPy_Table_Select.rst

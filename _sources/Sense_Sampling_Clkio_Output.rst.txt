@@ -1,0 +1,20 @@
+Output
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SAMPling:CLKio:OUTPut
+
+.. code-block:: python
+
+	[SENSe]:SAMPling:CLKio:OUTPut
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sampling.Clkio.Output.OutputCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:FEVents:COUNt
+
+.. code-block:: python
+
+	[SENSe]:NR5G:FEVents:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Fevents.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

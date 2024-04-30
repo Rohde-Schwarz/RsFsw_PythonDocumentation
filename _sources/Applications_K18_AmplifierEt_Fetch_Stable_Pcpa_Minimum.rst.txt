@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:PCPA:MINimum
+
+.. code-block:: python
+
+	FETCh:STABle:PCPA:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Pcpa.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

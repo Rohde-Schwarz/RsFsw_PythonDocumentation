@@ -1,0 +1,20 @@
+Ppdu
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:SCDetailed:POWer:PPDU
+
+.. code-block:: python
+
+	FETCh:SCDetailed:POWer:PPDU
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.ScDetailed.Power.Ppdu.PpduCls
+	:members:
+	:undoc-members:
+	:noindex:

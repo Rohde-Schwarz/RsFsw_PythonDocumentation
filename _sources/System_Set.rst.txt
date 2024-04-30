@@ -1,0 +1,20 @@
+Set
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:SET
+
+.. code-block:: python
+
+	SYSTem:SET
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Set.SetCls
+	:members:
+	:undoc-members:
+	:noindex:

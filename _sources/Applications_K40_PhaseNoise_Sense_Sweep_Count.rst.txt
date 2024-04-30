@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:COUNt
+
+.. code-block:: python
+
+	[SENSe]:SWEep:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Sweep.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

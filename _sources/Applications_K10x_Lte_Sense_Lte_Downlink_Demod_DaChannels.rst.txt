@@ -1,0 +1,20 @@
+DaChannels
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:DEMod:DACHannels
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:DEMod:DACHannels
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.DaChannels.DaChannelsCls
+	:members:
+	:undoc-members:
+	:noindex:

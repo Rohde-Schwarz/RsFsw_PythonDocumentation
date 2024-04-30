@@ -1,0 +1,20 @@
+IfFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:IF:IFFRequency
+
+.. code-block:: python
+
+	OUTPut:IF:IFFRequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Output.Ifreq.IfFrequency.IfFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

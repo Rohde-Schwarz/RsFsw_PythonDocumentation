@@ -1,0 +1,20 @@
+Apm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PRACh:APM
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PRACh:APM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Prach.Apm.ApmCls
+	:members:
+	:undoc-members:
+	:noindex:

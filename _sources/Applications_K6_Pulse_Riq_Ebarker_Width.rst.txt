@@ -1,0 +1,20 @@
+Width
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:EBARker:WIDTh
+
+.. code-block:: python
+
+	RIQ:EBARker:WIDTh
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Ebarker.Width.WidthCls
+	:members:
+	:undoc-members:
+	:noindex:

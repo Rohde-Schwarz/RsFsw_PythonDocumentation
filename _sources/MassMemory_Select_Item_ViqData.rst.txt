@@ -1,0 +1,20 @@
+ViqData
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect[:ITEM]:VIQData
+
+.. code-block:: python
+
+	MMEMory:SELect[:ITEM]:VIQData
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.ViqData.ViqDataCls
+	:members:
+	:undoc-members:
+	:noindex:

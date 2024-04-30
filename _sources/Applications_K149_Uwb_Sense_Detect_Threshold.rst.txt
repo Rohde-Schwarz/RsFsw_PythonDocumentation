@@ -1,0 +1,20 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:THReshold
+
+.. code-block:: python
+
+	[SENSe]:DETect:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.Threshold.ThresholdCls
+	:members:
+	:undoc-members:
+	:noindex:

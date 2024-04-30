@@ -1,0 +1,38 @@
+Cmap<Item>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix64
+	rc = driver.display.cmap.repcap_item_get()
+	driver.display.cmap.repcap_item_set(repcap.Item.Ix1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Cmap.CmapCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.cmap.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Cmap_Default.rst
+	Display_Cmap_Hsl.rst
+	Display_Cmap_Pdefined.rst

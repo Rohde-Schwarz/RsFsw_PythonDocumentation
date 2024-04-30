@@ -1,0 +1,38 @@
+Line<Line>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix8
+	rc = driver.hardCopy.treport.item.header.line.repcap_line_get()
+	driver.hardCopy.treport.item.header.line.repcap_line_set(repcap.Line.Ix1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.Header.Line.LineCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.treport.item.header.line.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Treport_Item_Header_Line_Control.rst
+	HardCopy_Treport_Item_Header_Line_Text.rst
+	HardCopy_Treport_Item_Header_Line_Title.rst

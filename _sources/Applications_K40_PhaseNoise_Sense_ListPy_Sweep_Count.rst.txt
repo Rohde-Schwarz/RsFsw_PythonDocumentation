@@ -1,0 +1,37 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:SWEep:COUNt
+
+.. code-block:: python
+
+	[SENSe]:LIST:SWEep:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.ListPy.Sweep.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.sense.listPy.sweep.count.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Sense_ListPy_Sweep_Count_Multiplier.rst

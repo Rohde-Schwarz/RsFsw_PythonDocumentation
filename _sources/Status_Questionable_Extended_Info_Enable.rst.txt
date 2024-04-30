@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:EXTended:INFO:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:EXTended:INFO:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Extended.Info.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

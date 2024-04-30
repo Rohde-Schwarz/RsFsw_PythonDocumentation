@@ -1,0 +1,50 @@
+Csi<CsiRs>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr64
+	rc = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.csi.repcap_csiRs_get()
+	driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.csi.repcap_csiRs_set(repcap.CsiRs.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Csi.CsiCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.csi.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Bitmap.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Ctype.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Density.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Lone.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Lzero.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_NoRbs.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Port.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Power.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Resources.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Row.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Sid.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Slot.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Srb.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_State.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Csi_Zpower.rst

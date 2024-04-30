@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FREQuency:FREQuency:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FREQuency:FREQuency:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Frequency.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

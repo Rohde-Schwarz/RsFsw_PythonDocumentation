@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:POWer:AVEPower:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:POWer:AVEPower:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Power.AvePower.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

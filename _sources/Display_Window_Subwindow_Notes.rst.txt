@@ -1,0 +1,38 @@
+Notes
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:NOTes:CLEar
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:NOTes:CLEar
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Notes.NotesCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.subwindow.notes.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Subwindow_Notes_Append.rst
+	Display_Window_Subwindow_Notes_Text.rst

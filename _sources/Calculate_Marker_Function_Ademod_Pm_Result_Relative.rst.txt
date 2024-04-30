@@ -1,0 +1,20 @@
+Relative
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:ADEMod:PM[:RESult<t>]:RELative
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:ADEMod:PM[:RESult<t>]:RELative
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Ademod.Pm.Result.Relative.RelativeCls
+	:members:
+	:undoc-members:
+	:noindex:

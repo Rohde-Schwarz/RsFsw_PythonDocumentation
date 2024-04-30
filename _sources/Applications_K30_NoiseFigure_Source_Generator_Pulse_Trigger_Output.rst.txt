@@ -1,0 +1,20 @@
+Output
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:GENerator:PULSe:TRIGger:OUTPut
+
+.. code-block:: python
+
+	SOURce:GENerator:PULSe:TRIGger:OUTPut
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Generator.Pulse.Trigger.Output.OutputCls
+	:members:
+	:undoc-members:
+	:noindex:

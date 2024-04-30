@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:GIMBalance:AVERage
+
+.. code-block:: python
+
+	FETCh:GIMBalance:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Gimbalance.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:SCAPture:OFFSet[:TIME]
+
+.. code-block:: python
+
+	[SENSe]:SWEep:SCAPture:OFFSet[:TIME]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Scapture.Offset.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

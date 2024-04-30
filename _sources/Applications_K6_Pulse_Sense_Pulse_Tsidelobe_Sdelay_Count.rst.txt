@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:SDELay:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:SDELay:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Sdelay.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

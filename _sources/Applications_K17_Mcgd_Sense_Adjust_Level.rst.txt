@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:LEVel
+
+.. code-block:: python
+
+	[SENSe]:ADJust:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Adjust.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

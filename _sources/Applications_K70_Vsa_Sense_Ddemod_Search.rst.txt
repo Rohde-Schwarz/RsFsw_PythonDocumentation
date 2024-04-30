@@ -1,0 +1,33 @@
+Search
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.SearchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.ddemod.search.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Ddemod_Search_Burst.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Mburst.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Pattern.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Pulse.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Time.rst

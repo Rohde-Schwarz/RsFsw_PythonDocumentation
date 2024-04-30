@@ -1,0 +1,20 @@
+Apeak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:MAXimum:APEak
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:MAXimum:APEak
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.DeltaMarker.Maximum.Apeak.ApeakCls
+	:members:
+	:undoc-members:
+	:noindex:

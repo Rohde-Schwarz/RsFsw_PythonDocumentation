@@ -1,0 +1,20 @@
+AvgPm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:PHASe:AVGPm
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:PHASe:AVGPm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Phase.AvgPm.AvgPmCls
+	:members:
+	:undoc-members:
+	:noindex:

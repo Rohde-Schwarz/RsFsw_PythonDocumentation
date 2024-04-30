@@ -1,0 +1,37 @@
+Subframe<Subframe>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr0 .. Nr41
+	rc = driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.repcap_subframe_get()
+	driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.repcap_subframe_set(repcap.Subframe.Nr0)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.SubframeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.subframe.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_AlCount.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Subframe_Alloc.rst

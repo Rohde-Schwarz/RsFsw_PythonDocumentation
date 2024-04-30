@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:ITEM:SELect
+
+.. code-block:: python
+
+	HCOPy:TREPort:ITEM:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

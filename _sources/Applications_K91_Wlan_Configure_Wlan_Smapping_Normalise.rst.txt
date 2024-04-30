@@ -1,0 +1,20 @@
+Normalise
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:SMAPping:NORMalise
+
+.. code-block:: python
+
+	CONFigure:WLAN:SMAPping:NORMalise
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Smapping.Normalise.NormaliseCls
+	:members:
+	:undoc-members:
+	:noindex:

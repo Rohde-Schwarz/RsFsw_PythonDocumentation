@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:PDEViation:REFerence
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:PDEViation:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Pdeviation.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

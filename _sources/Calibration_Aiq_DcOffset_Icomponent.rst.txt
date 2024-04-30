@@ -1,0 +1,20 @@
+Icomponent
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALibration:AIQ:DCOFfset:I
+
+.. code-block:: python
+
+	CALibration:AIQ:DCOFfset:I
+
+
+
+.. autoclass:: RsFsw.Implementations.Calibration.Aiq.DcOffset.Icomponent.IcomponentCls
+	:members:
+	:undoc-members:
+	:noindex:

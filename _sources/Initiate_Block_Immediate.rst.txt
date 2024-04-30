@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:BLOCk:IMMediate
+
+.. code-block:: python
+
+	INITiate:BLOCk:IMMediate
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Block.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

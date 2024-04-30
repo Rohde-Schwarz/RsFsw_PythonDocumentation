@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy:SRERror:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:MACCuracy:SRERror:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.SrError.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

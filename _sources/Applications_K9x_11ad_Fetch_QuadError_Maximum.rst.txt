@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:QUADerror:MAXimum
+
+.. code-block:: python
+
+	FETCh:QUADerror:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.QuadError.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

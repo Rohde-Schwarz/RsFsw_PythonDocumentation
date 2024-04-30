@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RMPLevel:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RMPLevel:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseMidPoint.Level.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

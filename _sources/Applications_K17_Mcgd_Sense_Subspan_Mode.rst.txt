@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SUBSpan:MODE
+
+.. code-block:: python
+
+	[SENSe]:SUBSpan:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Subspan.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Status
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:PPDU:STATus
+
+.. code-block:: python
+
+	FETCh:BURSt:PPDU:STATus
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Ppdu.Status.StatusCls
+	:members:
+	:undoc-members:
+	:noindex:

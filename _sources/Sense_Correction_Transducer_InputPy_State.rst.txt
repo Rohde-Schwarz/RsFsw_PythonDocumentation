@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:TRANsducer:INPut<ip>[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:CORRection:TRANsducer:INPut<ip>[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Transducer.InputPy.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

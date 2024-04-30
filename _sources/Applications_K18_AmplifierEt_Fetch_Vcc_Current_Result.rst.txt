@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:VCC:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:VCC:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Vcc.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:EVM:DS4K[:AVERage]:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>[:CC<cc>][:ISRC][:FRAMe<fr>]:SUMMary:EVM:DS4K[:AVERage]:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Cc.Isrc.Frame.Summary.Evm.Ds4K.Average.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

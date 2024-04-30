@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:PNOise:FREQuency:STARt
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:PNOise:FREQuency:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Pnoise.Frequency.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

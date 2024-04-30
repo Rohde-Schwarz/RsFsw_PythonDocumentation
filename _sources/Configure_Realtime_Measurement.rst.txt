@@ -1,0 +1,20 @@
+Measurement
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REALtime:MEASurement
+
+.. code-block:: python
+
+	CONFigure:REALtime:MEASurement
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Realtime.Measurement.MeasurementCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TLRel:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:TLRel:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.TlRel.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

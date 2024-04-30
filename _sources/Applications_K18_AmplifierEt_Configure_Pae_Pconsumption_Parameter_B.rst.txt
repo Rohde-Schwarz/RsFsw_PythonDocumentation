@@ -1,0 +1,20 @@
+B
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PAE:PCONsumption[:PARameter]:B
+
+.. code-block:: python
+
+	CONFigure:PAE:PCONsumption[:PARameter]:B
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Pae.Pconsumption.Parameter.B.BCls
+	:members:
+	:undoc-members:
+	:noindex:

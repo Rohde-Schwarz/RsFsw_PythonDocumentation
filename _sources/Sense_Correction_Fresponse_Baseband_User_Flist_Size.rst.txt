@@ -1,0 +1,20 @@
+Size
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:BASeband:USER:FLISt<fli>:SIZE
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:BASeband:USER:FLISt<fli>:SIZE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Flist.Size.SizeCls
+	:members:
+	:undoc-members:
+	:noindex:

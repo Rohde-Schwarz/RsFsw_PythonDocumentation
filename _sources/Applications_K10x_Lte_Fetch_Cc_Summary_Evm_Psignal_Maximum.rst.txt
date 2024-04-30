@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>]:SUMMary:EVM:PSIGnal:MAXimum
+
+.. code-block:: python
+
+	FETCh[:CC<cc>]:SUMMary:EVM:PSIGnal:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Evm.Psignal.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

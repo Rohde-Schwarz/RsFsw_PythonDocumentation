@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:REST:ENABle
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:REST:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rest.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

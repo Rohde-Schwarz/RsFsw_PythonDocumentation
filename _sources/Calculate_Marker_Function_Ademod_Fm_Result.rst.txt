@@ -1,0 +1,45 @@
+Result<Trace>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Tr1 .. Tr16
+	rc = driver.calculate.marker.function.ademod.fm.result.repcap_trace_get()
+	driver.calculate.marker.function.ademod.fm.result.repcap_trace_set(repcap.Trace.Tr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:ADEMod:FM[:RESult<t>]
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:ADEMod:FM[:RESult<t>]
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Ademod.Fm.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.ademod.fm.result.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Ademod_Fm_Result_Relative.rst

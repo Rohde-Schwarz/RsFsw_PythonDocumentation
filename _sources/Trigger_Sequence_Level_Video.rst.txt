@@ -1,0 +1,20 @@
+Video
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:LEVel:VIDeo
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:LEVel:VIDeo
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Level.Video.VideoCls
+	:members:
+	:undoc-members:
+	:noindex:

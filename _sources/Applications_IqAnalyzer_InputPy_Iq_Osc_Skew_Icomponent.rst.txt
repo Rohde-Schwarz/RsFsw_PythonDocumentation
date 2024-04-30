@@ -1,0 +1,37 @@
+Icomponent
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut<ip>:IQ:OSC:SKEW:I
+
+.. code-block:: python
+
+	INPut<ip>:IQ:OSC:SKEW:I
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.InputPy.Iq.Osc.Skew.Icomponent.IcomponentCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.iqAnalyzer.inputPy.iq.osc.skew.icomponent.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_IqAnalyzer_InputPy_Iq_Osc_Skew_Icomponent_Inverted.rst

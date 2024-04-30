@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:PNOise:REFerence
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:PNOise:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Pnoise.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

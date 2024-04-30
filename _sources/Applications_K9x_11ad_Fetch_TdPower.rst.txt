@@ -1,0 +1,30 @@
+TdPower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.TdPower.TdPowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.fetch.tdPower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Fetch_TdPower_Average.rst
+	Applications_K9x_11ad_Fetch_TdPower_Maximum.rst
+	Applications_K9x_11ad_Fetch_TdPower_Minimum.rst

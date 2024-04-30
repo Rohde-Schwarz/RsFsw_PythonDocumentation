@@ -1,0 +1,20 @@
+IqOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:NORMalize:IQOFfset
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:NORMalize:IQOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Normalize.IqOffset.IqOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

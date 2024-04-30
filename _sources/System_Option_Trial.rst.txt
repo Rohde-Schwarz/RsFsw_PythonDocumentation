@@ -1,0 +1,29 @@
+Trial
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Option.Trial.TrialCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.option.trial.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Option_Trial_ListPy.rst
+	System_Option_Trial_State.rst

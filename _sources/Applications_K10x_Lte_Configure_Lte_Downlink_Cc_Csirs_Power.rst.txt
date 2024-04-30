@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:POWer
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Csirs.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:TSKew:AVERage
+
+.. code-block:: python
+
+	FETCh:TSKew:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Tskew.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

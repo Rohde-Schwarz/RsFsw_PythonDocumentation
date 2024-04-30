@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:LIMit:ABSolute:STARt
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:LIMit:ABSolute:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Limit.Absolute.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

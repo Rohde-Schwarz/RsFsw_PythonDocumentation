@@ -1,0 +1,32 @@
+Epdcch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Epdcch.EpdcchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.epdcch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Epdcch_Localized.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Epdcch_Nprb.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Epdcch_Power.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Epdcch_Rbassign.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Epdcch_Sid.rst

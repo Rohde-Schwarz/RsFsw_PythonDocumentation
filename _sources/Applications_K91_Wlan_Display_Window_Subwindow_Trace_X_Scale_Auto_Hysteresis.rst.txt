@@ -1,0 +1,29 @@
+Hysteresis
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.Subwindow.Trace.X.Scale.Auto.Hysteresis.HysteresisCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.display.window.subwindow.trace.x.scale.auto.hysteresis.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_X_Scale_Auto_Hysteresis_Lower.rst
+	Applications_K91_Wlan_Display_Window_Subwindow_Trace_X_Scale_Auto_Hysteresis_Upper.rst

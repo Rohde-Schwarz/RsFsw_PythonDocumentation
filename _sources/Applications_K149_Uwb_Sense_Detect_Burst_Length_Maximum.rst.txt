@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:BURSt:LENGth:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:DETect:BURSt:LENGth:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.Burst.Length.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SRATe
+
+.. code-block:: python
+
+	[SENSe]:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

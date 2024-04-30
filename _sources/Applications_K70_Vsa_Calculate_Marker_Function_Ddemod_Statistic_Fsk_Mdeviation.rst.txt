@@ -1,0 +1,20 @@
+Mdeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:FSK:MDEViation
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:FSK:MDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Fsk.Mdeviation.MdeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

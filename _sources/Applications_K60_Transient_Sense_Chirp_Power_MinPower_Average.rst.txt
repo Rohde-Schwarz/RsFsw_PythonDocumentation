@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:POWer:MINPower:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:POWer:MINPower:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Power.MinPower.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Channel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRACe<t>[:VALue]:CHANnel
+
+.. code-block:: python
+
+	CALCulate<n>:TRACe<t>[:VALue]:CHANnel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trace.Value.Channel.ChannelCls
+	:members:
+	:undoc-members:
+	:noindex:

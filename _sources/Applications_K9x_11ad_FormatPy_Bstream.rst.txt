@@ -1,0 +1,20 @@
+Bstream
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FORMat:BSTReam
+
+.. code-block:: python
+
+	FORMat:BSTReam
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.FormatPy.Bstream.BstreamCls
+	:members:
+	:undoc-members:
+	:noindex:

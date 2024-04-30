@@ -1,0 +1,20 @@
+NrqPrimary
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:NRQPrimary
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:NRQPrimary
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.NrqPrimary.NrqPrimaryCls
+	:members:
+	:undoc-members:
+	:noindex:

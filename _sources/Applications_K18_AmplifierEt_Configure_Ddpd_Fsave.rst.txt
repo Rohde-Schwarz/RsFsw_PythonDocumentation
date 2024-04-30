@@ -1,0 +1,20 @@
+Fsave
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD:FSAVe
+
+.. code-block:: python
+
+	CONFigure:DDPD:FSAVe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Fsave.FsaveCls
+	:members:
+	:undoc-members:
+	:noindex:

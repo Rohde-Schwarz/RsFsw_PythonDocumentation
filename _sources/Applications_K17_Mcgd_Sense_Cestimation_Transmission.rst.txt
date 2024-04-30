@@ -1,0 +1,20 @@
+Transmission
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CESTimation:TRANsmission
+
+.. code-block:: python
+
+	[SENSe]:CESTimation:TRANsmission
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Cestimation.Transmission.TransmissionCls
+	:members:
+	:undoc-members:
+	:noindex:

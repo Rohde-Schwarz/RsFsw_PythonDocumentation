@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FILTer<n>:DEMPhasis[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:FILTer<n>:DEMPhasis[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.FilterPy.Demphasis.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

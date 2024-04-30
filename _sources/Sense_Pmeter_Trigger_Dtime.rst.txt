@@ -1,0 +1,20 @@
+Dtime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:TRIGger:DTIMe
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:TRIGger:DTIMe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Trigger.Dtime.DtimeCls
+	:members:
+	:undoc-members:
+	:noindex:

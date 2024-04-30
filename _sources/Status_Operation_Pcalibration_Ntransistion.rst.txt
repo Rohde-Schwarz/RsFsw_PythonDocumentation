@@ -1,0 +1,20 @@
+Ntransistion
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:OPERation:PCALibration:NTRansistion
+
+.. code-block:: python
+
+	STATus:OPERation:PCALibration:NTRansistion
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Operation.Pcalibration.Ntransistion.NtransistionCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RESult:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:RESult:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Result.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

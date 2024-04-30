@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FMSettling:FMSPoint:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FMSettling:FMSPoint:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.FmSettling.FmSpoint.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

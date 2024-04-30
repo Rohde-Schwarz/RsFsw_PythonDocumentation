@@ -1,0 +1,39 @@
+User<UserRange>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k40PhaseNoise.fetch.pnoise.user.repcap_userRange_get()
+	driver.applications.k40PhaseNoise.fetch.pnoise.user.repcap_userRange_set(repcap.UserRange.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.User.UserCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.fetch.pnoise.user.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Fetch_Pnoise_User_Ipn.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_User_Rfm.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_User_Rms.rst
+	Applications_K40_PhaseNoise_Fetch_Pnoise_User_Rpm.rst

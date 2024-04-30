@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SIGNal:ERRor:COMPensation:ADRoop[:STATe]
+
+.. code-block:: python
+
+	CONFigure:SIGNal:ERRor:COMPensation:ADRoop[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Signal.Error.Compensation.Adroop.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

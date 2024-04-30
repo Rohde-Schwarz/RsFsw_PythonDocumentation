@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

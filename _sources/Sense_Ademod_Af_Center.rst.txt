@@ -1,0 +1,20 @@
+Center
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AF:CENTer
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AF:CENTer
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.Center.CenterCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Points
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:POINts
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:POINts
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Frequency.Points.PointsCls
+	:members:
+	:undoc-members:
+	:noindex:

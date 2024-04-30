@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:DATA
+
+.. code-block:: python
+
+	[SENSe]:DEMod:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

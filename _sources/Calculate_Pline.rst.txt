@@ -1,0 +1,45 @@
+Pline<PowerLine>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix8
+	rc = driver.calculate.pline.repcap_powerLine_get()
+	driver.calculate.pline.repcap_powerLine_set(repcap.PowerLine.Ix1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PLINe<dl>
+
+.. code-block:: python
+
+	CALCulate<n>:PLINe<dl>
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Pline.PlineCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.pline.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Pline_State.rst

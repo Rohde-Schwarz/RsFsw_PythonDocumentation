@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:ZOOM:STARt
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:ZOOM:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Zoom.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

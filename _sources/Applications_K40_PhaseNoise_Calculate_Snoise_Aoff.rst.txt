@@ -1,0 +1,20 @@
+Aoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:SNOise<m>:AOFF
+
+.. code-block:: python
+
+	CALCulate<n>:SNOise<m>:AOFF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Snoise.Aoff.AoffCls
+	:members:
+	:undoc-members:
+	:noindex:

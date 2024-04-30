@@ -1,0 +1,20 @@
+Mtable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:MTABle
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:MTABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Display.Window.Mtable.MtableCls
+	:members:
+	:undoc-members:
+	:noindex:

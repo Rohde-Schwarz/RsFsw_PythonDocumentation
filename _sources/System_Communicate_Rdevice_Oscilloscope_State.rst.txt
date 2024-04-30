@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:OSCilloscope:STATe
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:OSCilloscope:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Rdevice.Oscilloscope.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

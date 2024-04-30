@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PHASe:OVERshoot:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PHASe:OVERshoot:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Phase.Overshoot.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

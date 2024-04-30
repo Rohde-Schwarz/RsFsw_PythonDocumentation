@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:ALL
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.All.AllCls
+	:members:
+	:undoc-members:
+	:noindex:

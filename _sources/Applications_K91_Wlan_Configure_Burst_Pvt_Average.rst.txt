@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:PVT:AVERage
+
+.. code-block:: python
+
+	CONFigure:BURSt:PVT:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Pvt.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

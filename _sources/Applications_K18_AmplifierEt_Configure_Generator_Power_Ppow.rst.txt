@@ -1,0 +1,20 @@
+Ppow
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:POWer:PPOW
+
+.. code-block:: python
+
+	CONFigure:GENerator:POWer:PPOW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Power.Ppow.PpowCls
+	:members:
+	:undoc-members:
+	:noindex:

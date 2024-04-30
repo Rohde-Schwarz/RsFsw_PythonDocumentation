@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:FREQuency:STOP
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:FREQuency:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Frequency.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

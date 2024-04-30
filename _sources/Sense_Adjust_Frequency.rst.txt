@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:FREQuency
+
+.. code-block:: python
+
+	[SENSe]:ADJust:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Adjust.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

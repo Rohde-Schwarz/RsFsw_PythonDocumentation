@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:OOFFset:CURRent[:RESult]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:OOFFset:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Ooffset.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

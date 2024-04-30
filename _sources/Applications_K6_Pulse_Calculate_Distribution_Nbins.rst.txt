@@ -1,0 +1,20 @@
+Nbins
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:NBINs
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:NBINs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.Nbins.NbinsCls
+	:members:
+	:undoc-members:
+	:noindex:

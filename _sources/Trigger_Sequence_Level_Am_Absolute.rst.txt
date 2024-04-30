@@ -1,0 +1,20 @@
+Absolute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:LEVel:AM[:ABSolute]
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:LEVel:AM[:ABSolute]
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Level.Am.Absolute.AbsoluteCls
+	:members:
+	:undoc-members:
+	:noindex:

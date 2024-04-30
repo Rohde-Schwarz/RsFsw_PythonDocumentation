@@ -1,0 +1,20 @@
+Absolute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ACPower:GAP<gap>:ACLR:RESult:ABSolute
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ACPower:GAP<gap>:ACLR:RESult:ABSolute
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.Gap.Aclr.Result.Absolute.AbsoluteCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Tolerance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:RLEVel:VERify:TOLerance
+
+.. code-block:: python
+
+	[SENSe]:POWer:RLEVel:VERify:TOLerance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Power.RefLevel.Verify.Tolerance.ToleranceCls
+	:members:
+	:undoc-members:
+	:noindex:

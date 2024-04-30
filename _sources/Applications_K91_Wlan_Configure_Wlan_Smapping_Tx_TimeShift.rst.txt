@@ -1,0 +1,20 @@
+TimeShift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:SMAPping:TX<ch>:TIMeshift
+
+.. code-block:: python
+
+	CONFigure:WLAN:SMAPping:TX<ch>:TIMeshift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Smapping.Tx.TimeShift.TimeShiftCls
+	:members:
+	:undoc-members:
+	:noindex:

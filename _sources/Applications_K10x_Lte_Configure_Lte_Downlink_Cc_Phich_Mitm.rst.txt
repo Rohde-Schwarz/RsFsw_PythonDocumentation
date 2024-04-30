@@ -1,0 +1,20 @@
+Mitm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PHICh:MITM
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PHICh:MITM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Phich.Mitm.MitmCls
+	:members:
+	:undoc-members:
+	:noindex:

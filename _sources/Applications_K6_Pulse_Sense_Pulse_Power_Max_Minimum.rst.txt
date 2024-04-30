@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:MAX:MINimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:MAX:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Max.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+BdSource
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL:BDSource
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL:BDSource
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.BdSource.BdSourceCls
+	:members:
+	:undoc-members:
+	:noindex:

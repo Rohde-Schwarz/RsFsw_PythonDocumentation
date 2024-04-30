@@ -1,0 +1,20 @@
+Cseparator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FORMat:DEXPort:CSEParator
+
+.. code-block:: python
+
+	FORMat:DEXPort:CSEParator
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.FormatPy.Dexport.Cseparator.CseparatorCls
+	:members:
+	:undoc-members:
+	:noindex:

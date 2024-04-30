@@ -1,0 +1,20 @@
+Xadjust
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:XADJust
+
+.. code-block:: python
+
+	[SENSe]:LIST:XADJust
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Xadjust.XadjustCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RLPTime:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RLPTime:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseLowPoint.Time.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

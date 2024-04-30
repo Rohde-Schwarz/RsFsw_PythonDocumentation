@@ -1,0 +1,37 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DIQ:SRATe
+
+.. code-block:: python
+
+	INPut:DIQ:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.InputPy.Diq.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.inputPy.diq.symbolRate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_InputPy_Diq_SymbolRate_Auto.rst

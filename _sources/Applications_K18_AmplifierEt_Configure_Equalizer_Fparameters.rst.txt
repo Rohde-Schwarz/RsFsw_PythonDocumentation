@@ -1,0 +1,20 @@
+Fparameters
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:EQUalizer:FPARameters
+
+.. code-block:: python
+
+	CONFigure:EQUalizer:FPARameters
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Equalizer.Fparameters.FparametersCls
+	:members:
+	:undoc-members:
+	:noindex:

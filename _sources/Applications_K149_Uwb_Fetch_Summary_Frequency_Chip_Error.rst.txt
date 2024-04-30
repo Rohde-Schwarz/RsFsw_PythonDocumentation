@@ -1,0 +1,39 @@
+Error
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:FREQuency:CHIP:ERRor
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:FREQuency:CHIP:ERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Frequency.Chip.Error.ErrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.frequency.chip.error.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Frequency_Chip_Error_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Frequency_Chip_Error_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Frequency_Chip_Error_Minimum.rst

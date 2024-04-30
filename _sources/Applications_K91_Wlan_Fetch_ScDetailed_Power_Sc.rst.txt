@@ -1,0 +1,20 @@
+Sc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:SCDetailed:POWer[:SC]
+
+.. code-block:: python
+
+	FETCh:SCDetailed:POWer[:SC]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.ScDetailed.Power.Sc.ScCls
+	:members:
+	:undoc-members:
+	:noindex:

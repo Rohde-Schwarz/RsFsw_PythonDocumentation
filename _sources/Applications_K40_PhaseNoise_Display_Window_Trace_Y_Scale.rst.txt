@@ -1,0 +1,39 @@
+Scale
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Display.Window.Trace.Y.Scale.ScaleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.display.window.trace.y.scale.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Display_Window_Trace_Y_Scale_Auto.rst
+	Applications_K40_PhaseNoise_Display_Window_Trace_Y_Scale_Manual.rst
+	Applications_K40_PhaseNoise_Display_Window_Trace_Y_Scale_RefLevel.rst

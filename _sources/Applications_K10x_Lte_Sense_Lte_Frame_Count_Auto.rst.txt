@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:FRAMe:COUNt:AUTO
+
+.. code-block:: python
+
+	[SENSe][:LTE]:FRAMe:COUNt:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Frame.Count.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

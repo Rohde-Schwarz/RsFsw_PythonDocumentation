@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:HOP:POWer
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:HOP:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Hop.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

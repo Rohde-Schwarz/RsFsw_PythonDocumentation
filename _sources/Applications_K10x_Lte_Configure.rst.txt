@@ -1,0 +1,38 @@
+Configure
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PRESet
+
+.. code-block:: python
+
+	CONFigure:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte.rst
+	Applications_K10x_Lte_Configure_Power.rst

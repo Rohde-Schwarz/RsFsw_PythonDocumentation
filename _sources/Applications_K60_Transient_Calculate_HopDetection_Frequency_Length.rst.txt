@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:FREQuency:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:FREQuency:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Frequency.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

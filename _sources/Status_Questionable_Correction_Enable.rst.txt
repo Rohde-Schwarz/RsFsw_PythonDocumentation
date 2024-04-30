@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:CORRection:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:CORRection:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Correction.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Language
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:DEVice:LANGuage
+
+.. code-block:: python
+
+	HCOPy:DEVice:LANGuage
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Device.Language.LanguageCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+DutLimit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:LEVel:DUTLimit
+
+.. code-block:: python
+
+	CONFigure:GENerator:LEVel:DUTLimit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Level.DutLimit.DutLimitCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Default
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect:CHANnel[:ITEM]:DEFault
+
+.. code-block:: python
+
+	MMEMory:SELect:CHANnel[:ITEM]:DEFault
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.Default.DefaultCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Ftrigger
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger:TSHelper:FTRigger
+
+.. code-block:: python
+
+	TRIGger:TSHelper:FTRigger
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trigger.TsHelper.Ftrigger.FtriggerCls
+	:members:
+	:undoc-members:
+	:noindex:

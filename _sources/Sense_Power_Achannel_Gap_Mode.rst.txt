@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:GAP<gap>:MODE
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:GAP<gap>:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Gap.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Orientation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:PAGE:ORIentation
+
+.. code-block:: python
+
+	HCOPy:PAGE:ORIentation
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Orientation.OrientationCls
+	:members:
+	:undoc-members:
+	:noindex:

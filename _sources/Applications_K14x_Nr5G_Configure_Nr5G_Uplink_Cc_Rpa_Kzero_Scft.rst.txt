@@ -1,0 +1,20 @@
+Scft
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:RPA:KZERo:SCFT
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:RPA:KZERo:SCFT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Rpa.Kzero.Scft.ScftCls
+	:members:
+	:undoc-members:
+	:noindex:

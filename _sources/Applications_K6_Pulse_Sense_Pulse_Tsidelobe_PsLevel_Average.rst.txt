@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:PSLevel:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:PSLevel:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.PsLevel.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:PPDU:EVM:ALL:AVERage
+
+.. code-block:: python
+
+	FETCh:BURSt:PPDU:EVM:ALL:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Ppdu.Evm.All.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

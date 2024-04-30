@@ -1,0 +1,20 @@
+Details
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:POWer:RESult:DETails
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:POWer:RESult:DETails
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Function.Power.Result.Details.DetailsCls
+	:members:
+	:undoc-members:
+	:noindex:

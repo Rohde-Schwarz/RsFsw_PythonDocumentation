@@ -1,0 +1,20 @@
+Phase
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:NORMalize:PHASe
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:NORMalize:PHASe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Display.Window.Subwindow.Trace.Normalize.Phase.PhaseCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:CFACtor:IN:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:CFACtor:IN:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Cfactor.InputPy.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

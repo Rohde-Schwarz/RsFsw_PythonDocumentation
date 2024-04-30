@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer:MTIMe:AVERage:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PMETer:MTIMe:AVERage:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pmeter.Mtime.Average.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

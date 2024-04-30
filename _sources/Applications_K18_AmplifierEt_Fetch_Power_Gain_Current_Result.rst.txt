@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:GAIN:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:GAIN:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.Gain.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

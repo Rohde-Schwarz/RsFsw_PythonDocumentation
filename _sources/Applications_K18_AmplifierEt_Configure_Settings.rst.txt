@@ -1,0 +1,20 @@
+Settings
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings
+
+.. code-block:: python
+
+	CONFigure:SETTings
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Settings.SettingsCls
+	:members:
+	:undoc-members:
+	:noindex:

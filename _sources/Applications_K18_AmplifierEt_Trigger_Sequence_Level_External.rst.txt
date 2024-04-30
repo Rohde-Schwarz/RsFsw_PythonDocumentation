@@ -1,0 +1,36 @@
+External<ExternalPort>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr3
+	rc = driver.applications.k18AmplifierEt.trigger.sequence.level.external.repcap_externalPort_get()
+	driver.applications.k18AmplifierEt.trigger.sequence.level.external.repcap_externalPort_set(repcap.ExternalPort.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:LEVel[:EXTernal<tp>]
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:LEVel[:EXTernal<tp>]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Trigger.Sequence.Level.External.ExternalCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.trigger.sequence.level.external.clone()

@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: LAYout:SELect
+
+.. code-block:: python
+
+	LAYout:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Layout.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

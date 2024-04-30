@@ -1,0 +1,39 @@
+Srs
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Srs.SrsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.srs.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Fhopping.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Fpos.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Fshift.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Nports.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Nsymbols.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Power.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Rfactor.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Sequence.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Slot.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Spos.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_State.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Tcomb.rst

@@ -1,0 +1,20 @@
+Phase
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:TRACking:PHASe
+
+.. code-block:: python
+
+	[SENSe]:NR5G:TRACking:PHASe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Tracking.Phase.PhaseCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Omode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:OMODe
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:OMODe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Omode.OmodeCls
+	:members:
+	:undoc-members:
+	:noindex:

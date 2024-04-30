@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PTABle:BBPower:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:PTABle:BBPower:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.BbPower.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

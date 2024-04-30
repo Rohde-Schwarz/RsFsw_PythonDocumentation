@@ -1,0 +1,20 @@
+Limit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:KDATa:SER:LIMit
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:KDATa:SER:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Ser.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:

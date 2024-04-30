@@ -1,0 +1,20 @@
+Mbwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:WBANd:MBWidth
+
+.. code-block:: python
+
+	TRACe:IQ:WBANd:MBWidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trace.Iq.Wband.Mbwidth.MbwidthCls
+	:members:
+	:undoc-members:
+	:noindex:

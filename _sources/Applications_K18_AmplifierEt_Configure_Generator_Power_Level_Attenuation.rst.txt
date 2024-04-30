@@ -1,0 +1,37 @@
+Attenuation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:POWer:LEVel:ATTenuation
+
+.. code-block:: python
+
+	CONFigure:GENerator:POWer:LEVel:ATTenuation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Power.Level.Attenuation.AttenuationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.generator.power.level.attenuation.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Generator_Power_Level_Attenuation_LedState.rst

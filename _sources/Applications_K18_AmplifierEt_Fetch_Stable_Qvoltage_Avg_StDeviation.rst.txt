@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:QVOLtage:AVG:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:QVOLtage:AVG:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Qvoltage.Avg.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

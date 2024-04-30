@@ -1,0 +1,20 @@
+Traces
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FORMat:DIMPort:TRACes
+
+.. code-block:: python
+
+	FORMat:DIMPort:TRACes
+
+
+
+.. autoclass:: RsFsw.Implementations.FormatPy.Dimport.Traces.TracesCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,37 @@
+High
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:HARMonic:HIGH
+
+.. code-block:: python
+
+	[SENSe]:MIXer:HARMonic:HIGH
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mixer.Harmonic.High.HighCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.mixer.harmonic.high.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Mixer_Harmonic_High_State.rst

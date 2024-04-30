@@ -1,0 +1,20 @@
+Maxhold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:POWer:RESult:MAXHold
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:POWer:RESult:MAXHold
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.Function.Power.Result.Maxhold.MaxholdCls
+	:members:
+	:undoc-members:
+	:noindex:

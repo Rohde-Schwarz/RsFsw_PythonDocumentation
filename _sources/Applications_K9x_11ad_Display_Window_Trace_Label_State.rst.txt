@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:LABel[:STATe]
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:LABel[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Display.Window.Trace.Label.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

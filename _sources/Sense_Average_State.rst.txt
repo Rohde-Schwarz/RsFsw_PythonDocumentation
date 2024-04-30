@@ -1,0 +1,36 @@
+State<Status>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.sense.average.state.repcap_status_get()
+	driver.sense.average.state.repcap_status_set(repcap.Status.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:AVERage:STATe<t>
+
+.. code-block:: python
+
+	[SENSe]:AVERage:STATe<t>
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Average.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.average.state.clone()

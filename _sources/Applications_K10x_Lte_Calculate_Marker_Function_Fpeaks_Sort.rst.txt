@@ -1,0 +1,20 @@
+Sort
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:SORT
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:SORT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Fpeaks.Sort.SortCls
+	:members:
+	:undoc-members:
+	:noindex:

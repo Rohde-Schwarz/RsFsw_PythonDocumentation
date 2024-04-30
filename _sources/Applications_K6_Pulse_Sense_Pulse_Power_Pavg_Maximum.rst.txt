@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:POWer:PAVG:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:POWer:PAVG:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Power.Pavg.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

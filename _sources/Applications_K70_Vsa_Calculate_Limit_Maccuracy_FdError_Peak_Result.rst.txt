@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:FDERror:PEAK[:RESult]
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:FDERror:PEAK[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.FdError.Peak.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

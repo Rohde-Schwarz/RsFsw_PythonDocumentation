@@ -1,0 +1,20 @@
+Store
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:PRESet:STORe
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:PRESet:STORe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Preset.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:

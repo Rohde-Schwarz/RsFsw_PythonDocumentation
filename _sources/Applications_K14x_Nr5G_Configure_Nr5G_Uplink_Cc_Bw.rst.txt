@@ -1,0 +1,20 @@
+Bw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:BW
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:BW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Bw.BwCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Slots
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:EVM:SLOTs
+
+.. code-block:: python
+
+	[SENSe]:ADJust:EVM:SLOTs
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Adjust.Evm.Slots.SlotsCls
+	:members:
+	:undoc-members:
+	:noindex:

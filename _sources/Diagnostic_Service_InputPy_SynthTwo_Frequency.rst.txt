@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:SYNThtwo[:FREQuency]
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:SYNThtwo[:FREQuency]
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.SynthTwo.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

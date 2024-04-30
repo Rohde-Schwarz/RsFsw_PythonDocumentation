@@ -1,0 +1,20 @@
+Vswr
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:MATCh:PREamp[:VSWR]
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:MATCh:PREamp[:VSWR]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Match.Preamp.Vswr.VswrCls
+	:members:
+	:undoc-members:
+	:noindex:

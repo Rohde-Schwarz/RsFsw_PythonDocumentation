@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>]:SUMMary:RSTP[:AVERage]
+
+.. code-block:: python
+
+	FETCh[:CC<cc>]:SUMMary:RSTP[:AVERage]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Rstp.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

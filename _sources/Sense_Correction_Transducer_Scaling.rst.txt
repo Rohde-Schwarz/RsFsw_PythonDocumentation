@@ -1,0 +1,20 @@
+Scaling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:TRANsducer:SCALing
+
+.. code-block:: python
+
+	[SENSe]:CORRection:TRANsducer:SCALing
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Transducer.Scaling.ScalingCls
+	:members:
+	:undoc-members:
+	:noindex:

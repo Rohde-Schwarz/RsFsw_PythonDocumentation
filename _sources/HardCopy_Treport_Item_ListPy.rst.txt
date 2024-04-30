@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:ITEM:LIST
+
+.. code-block:: python
+
+	HCOPy:TREPort:ITEM:LIST
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:

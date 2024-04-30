@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:IQHS:SRATe
+
+.. code-block:: python
+
+	OUTPut:IQHS:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Iqhs.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

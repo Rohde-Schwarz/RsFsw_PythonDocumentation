@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:GRPDelay:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:GRPDelay:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calculate.GrpDelay.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:FMPTime:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:FMPTime:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallMidPoint.Time.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

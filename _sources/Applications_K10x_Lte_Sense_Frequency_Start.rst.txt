@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:STARt
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Frequency.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

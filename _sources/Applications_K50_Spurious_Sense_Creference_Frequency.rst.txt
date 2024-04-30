@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CREFerence:FREQuency
+
+.. code-block:: python
+
+	[SENSe]:CREFerence:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Creference.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,28 @@
+Maximum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Fixed.Rpoint.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.function.fixed.rpoint.maximum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Function_Fixed_Rpoint_Maximum_Peak.rst

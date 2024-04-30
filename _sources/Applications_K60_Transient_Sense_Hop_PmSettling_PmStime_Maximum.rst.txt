@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PMSettling:PMSTime:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:PMSettling:PMSTime:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.PmSettling.PmStime.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

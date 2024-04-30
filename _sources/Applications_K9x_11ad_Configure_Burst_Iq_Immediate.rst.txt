@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:IQ[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:IQ[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Configure.Burst.Iq.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

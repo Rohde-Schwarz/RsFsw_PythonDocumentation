@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:MCPower:AVERage
+
+.. code-block:: python
+
+	FETCh:BURSt:MCPower:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.McPower.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

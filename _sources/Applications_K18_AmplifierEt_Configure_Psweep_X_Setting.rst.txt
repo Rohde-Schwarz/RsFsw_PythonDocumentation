@@ -1,0 +1,20 @@
+Setting
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep:X:SETTing
+
+.. code-block:: python
+
+	CONFigure:PSWeep:X:SETTing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.X.Setting.SettingCls
+	:members:
+	:undoc-members:
+	:noindex:

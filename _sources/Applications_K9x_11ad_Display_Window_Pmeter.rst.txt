@@ -1,0 +1,36 @@
+Pmeter<PowerMeter>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k9X11Ad.display.window.pmeter.repcap_powerMeter_get()
+	driver.applications.k9X11Ad.display.window.pmeter.repcap_powerMeter_set(repcap.PowerMeter.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Display.Window.Pmeter.PmeterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k9X11Ad.display.window.pmeter.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K9x_11ad_Display_Window_Pmeter_State.rst

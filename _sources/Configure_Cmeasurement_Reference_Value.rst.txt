@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CMEasurement:REFerence:VALue
+
+.. code-block:: python
+
+	CONFigure:CMEasurement:REFerence:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Cmeasurement.Reference.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

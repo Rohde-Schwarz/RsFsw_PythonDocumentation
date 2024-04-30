@@ -1,0 +1,20 @@
+Rf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:SETTings:UPDate:RF
+
+.. code-block:: python
+
+	CONFigure:GENerator:SETTings:UPDate:RF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Generator.Settings.Update.Rf.RfCls
+	:members:
+	:undoc-members:
+	:noindex:

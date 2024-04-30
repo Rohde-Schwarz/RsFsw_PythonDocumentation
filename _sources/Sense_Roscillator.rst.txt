@@ -1,0 +1,36 @@
+Roscillator
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.RoscillatorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.roscillator.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Roscillator_Coupling.rst
+	Sense_Roscillator_LbWidth.rst
+	Sense_Roscillator_O100.rst
+	Sense_Roscillator_O640.rst
+	Sense_Roscillator_Osync.rst
+	Sense_Roscillator_Output.rst
+	Sense_Roscillator_PassThrough.rst
+	Sense_Roscillator_Source.rst
+	Sense_Roscillator_Trange.rst

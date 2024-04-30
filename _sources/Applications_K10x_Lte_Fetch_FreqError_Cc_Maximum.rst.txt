@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:FERRor[:CC<cc>]:MAXimum
+
+.. code-block:: python
+
+	FETCh:FERRor[:CC<cc>]:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.FreqError.Cc.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

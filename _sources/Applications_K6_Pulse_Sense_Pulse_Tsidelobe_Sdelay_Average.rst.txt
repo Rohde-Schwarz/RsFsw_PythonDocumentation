@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:SDELay:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:SDELay:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Sdelay.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

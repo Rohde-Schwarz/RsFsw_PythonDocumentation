@@ -1,0 +1,36 @@
+Drs
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Drs.DrsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.uplink.cc.drs.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_Aocc.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_DsShift.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_Enpr.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_GrpHopping.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_Ndmrs.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_Plid.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_Pucch.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_Pusch.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Drs_SeqHopping.rst

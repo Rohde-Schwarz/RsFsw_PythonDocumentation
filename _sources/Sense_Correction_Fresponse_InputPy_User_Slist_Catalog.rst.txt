@@ -1,0 +1,20 @@
+Catalog
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:INPut<ip>:USER:SLISt<sli>:CATalog
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:INPut<ip>:USER:SLISt<sli>:CATalog
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.InputPy.User.Slist.Catalog.CatalogCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:FERRor:RMEan:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:FERRor:RMEan:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.FreqError.Rmean.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

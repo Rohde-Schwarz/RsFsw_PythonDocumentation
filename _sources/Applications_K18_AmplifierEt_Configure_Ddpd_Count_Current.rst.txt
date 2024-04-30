@@ -1,0 +1,20 @@
+Current
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD:COUNt:CURRent
+
+.. code-block:: python
+
+	CONFigure:DDPD:COUNt:CURRent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Count.Current.CurrentCls
+	:members:
+	:undoc-members:
+	:noindex:

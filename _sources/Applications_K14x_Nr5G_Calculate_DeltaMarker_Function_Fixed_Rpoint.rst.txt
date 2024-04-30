@@ -1,0 +1,30 @@
+Rpoint
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.DeltaMarker.Function.Fixed.Rpoint.RpointCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.deltaMarker.function.fixed.rpoint.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_DeltaMarker_Function_Fixed_Rpoint_Maximum.rst
+	Applications_K14x_Nr5G_Calculate_DeltaMarker_Function_Fixed_Rpoint_X.rst
+	Applications_K14x_Nr5G_Calculate_DeltaMarker_Function_Fixed_Rpoint_Y.rst

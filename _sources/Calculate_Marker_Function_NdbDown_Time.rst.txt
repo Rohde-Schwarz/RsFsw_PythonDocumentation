@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:TIME
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:TIME
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.NdbDown.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

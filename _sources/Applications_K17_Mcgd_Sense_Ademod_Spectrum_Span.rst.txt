@@ -1,0 +1,38 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SPECtrum:SPAN
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SPECtrum:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Spectrum.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.sense.ademod.spectrum.span.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Sense_Ademod_Spectrum_Span_Maximum.rst
+	Applications_K17_Mcgd_Sense_Ademod_Spectrum_Span_Zoom.rst

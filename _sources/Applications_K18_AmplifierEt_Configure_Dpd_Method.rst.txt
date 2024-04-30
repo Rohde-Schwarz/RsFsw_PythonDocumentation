@@ -1,0 +1,20 @@
+Method
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DPD:METHod
+
+.. code-block:: python
+
+	CONFigure:DPD:METHod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Dpd.Method.MethodCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,33 @@
+Sweep
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Sweep.SweepCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.sweep.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Sweep_Count.rst
+	Applications_K10x_Lte_Sense_Sweep_Duration.rst
+	Applications_K10x_Lte_Sense_Sweep_Egate.rst
+	Applications_K10x_Lte_Sense_Sweep_Optimize.rst
+	Applications_K10x_Lte_Sense_Sweep_Time.rst
+	Applications_K10x_Lte_Sense_Sweep_TypePy.rst

@@ -1,0 +1,20 @@
+Spurious
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:SPURious
+
+.. code-block:: python
+
+	INITiate:SPURious
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Initiate.Spurious.SpuriousCls
+	:members:
+	:undoc-members:
+	:noindex:

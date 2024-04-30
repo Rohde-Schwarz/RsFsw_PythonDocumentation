@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut<ip>:IQ:OSC:FULLscale[:LEVel]
+
+.. code-block:: python
+
+	INPut<ip>:IQ:OSC:FULLscale[:LEVel]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.InputPy.Iq.Osc.Fullscale.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Info
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:LXI:INFO
+
+.. code-block:: python
+
+	SYSTem:LXI:INFO
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Lxi.Info.InfoCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Ds4K
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:DS4K
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:DS4K
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Ds4K.Ds4KCls
+	:members:
+	:undoc-members:
+	:noindex:

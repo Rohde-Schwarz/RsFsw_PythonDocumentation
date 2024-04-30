@@ -1,0 +1,20 @@
+Scot
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:RPA:KZERo:SCOT
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:RPA:KZERo:SCOT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Rpa.Kzero.Scot.ScotCls
+	:members:
+	:undoc-members:
+	:noindex:

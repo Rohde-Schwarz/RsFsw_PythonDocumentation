@@ -1,0 +1,30 @@
+Slot
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Frame.BwPart.Srs.Slot.SlotCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.frame.bwPart.srs.slot.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Slot_Mode.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Slot_Periodicity.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame_BwPart_Srs_Slot_Poffset.rst

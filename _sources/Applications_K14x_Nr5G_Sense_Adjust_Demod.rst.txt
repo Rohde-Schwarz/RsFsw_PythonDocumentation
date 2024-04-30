@@ -1,0 +1,20 @@
+Demod
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:DEMod
+
+.. code-block:: python
+
+	[SENSe]:ADJust:DEMod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Adjust.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:

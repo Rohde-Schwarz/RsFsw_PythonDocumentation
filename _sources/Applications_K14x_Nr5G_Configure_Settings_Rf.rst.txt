@@ -1,0 +1,20 @@
+Rf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings:RF
+
+.. code-block:: python
+
+	CONFigure:SETTings:RF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Settings.Rf.RfCls
+	:members:
+	:undoc-members:
+	:noindex:

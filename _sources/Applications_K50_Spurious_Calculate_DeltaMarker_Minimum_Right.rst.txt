@@ -1,0 +1,20 @@
+Right
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:MINimum:RIGHt
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:MINimum:RIGHt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Calculate.DeltaMarker.Minimum.Right.RightCls
+	:members:
+	:undoc-members:
+	:noindex:

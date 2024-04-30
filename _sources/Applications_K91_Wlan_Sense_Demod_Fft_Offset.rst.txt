@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FFT:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FFT:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.Fft.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

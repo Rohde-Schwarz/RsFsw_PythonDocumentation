@@ -1,0 +1,31 @@
+Page
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.PageCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.page.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Page_Count.rst
+	HardCopy_Page_Margin.rst
+	HardCopy_Page_Orientation.rst
+	HardCopy_Page_Window.rst

@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:RESult
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Subwindow.Trace.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

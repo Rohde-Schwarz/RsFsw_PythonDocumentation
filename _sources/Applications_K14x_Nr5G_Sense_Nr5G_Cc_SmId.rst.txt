@@ -1,0 +1,20 @@
+SmId
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G[:CC<cc>]:SMID
+
+.. code-block:: python
+
+	[SENSe]:NR5G[:CC<cc>]:SMID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Cc.SmId.SmIdCls
+	:members:
+	:undoc-members:
+	:noindex:

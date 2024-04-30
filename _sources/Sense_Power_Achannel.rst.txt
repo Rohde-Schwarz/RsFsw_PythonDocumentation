@@ -1,0 +1,51 @@
+Achannel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:PRESet
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.AchannelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_AcPairs.rst
+	Sense_Power_Achannel_AgChannels.rst
+	Sense_Power_Achannel_Bandwidth.rst
+	Sense_Power_Achannel_FilterPy.rst
+	Sense_Power_Achannel_Gap.rst
+	Sense_Power_Achannel_Gchannel.rst
+	Sense_Power_Achannel_Mode.rst
+	Sense_Power_Achannel_Name.rst
+	Sense_Power_Achannel_PresetRefLevel.rst
+	Sense_Power_Achannel_Reference.rst
+	Sense_Power_Achannel_Sbcount.rst
+	Sense_Power_Achannel_Sblock.rst
+	Sense_Power_Achannel_Spacing.rst
+	Sense_Power_Achannel_Ssetup.rst
+	Sense_Power_Achannel_TxChannel.rst

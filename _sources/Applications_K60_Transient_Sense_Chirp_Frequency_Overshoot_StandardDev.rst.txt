@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FREQuency:OVERshoot:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FREQuency:OVERshoot:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Frequency.Overshoot.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

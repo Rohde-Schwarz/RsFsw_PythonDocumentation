@@ -1,0 +1,36 @@
+Gap<GapChannel>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr2
+	rc = driver.applications.k14Xnr5G.sense.power.achannel.name.gap.repcap_gapChannel_get()
+	driver.applications.k14Xnr5G.sense.power.achannel.name.gap.repcap_gapChannel_set(repcap.GapChannel.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:NAME:GAP<gap>
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:NAME:GAP<gap>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Name.Gap.GapCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.power.achannel.name.gap.clone()

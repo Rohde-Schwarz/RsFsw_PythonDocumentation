@@ -1,0 +1,20 @@
+Sarea
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:SPECtrogram:SARea
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:SPECtrogram:SARea
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Spectrogram.Sarea.SareaCls
+	:members:
+	:undoc-members:
+	:noindex:

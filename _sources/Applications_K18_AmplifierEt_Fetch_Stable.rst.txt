@@ -1,0 +1,54 @@
+Stable
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.StableCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.stable.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Stable_Adroop.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Amam.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_AmPm.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Apae.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Cfactor.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_FreqError.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Gain.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Gimbalance.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Icc.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_IqImbalance.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_IqOffset.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Ivoltage.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Merror.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_P1Db.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_P2Db.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_P3Db.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Pc.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Pcpa.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Perror.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Power.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Qerror.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Qvoltage.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Revm.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Rmev.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_SrError.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Vcc.rst

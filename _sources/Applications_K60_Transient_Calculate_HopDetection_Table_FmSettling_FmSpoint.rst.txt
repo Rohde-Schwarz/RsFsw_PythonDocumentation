@@ -1,0 +1,20 @@
+FmSpoint
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:FMSettling:FMSPoint
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:FMSettling:FMSPoint
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.FmSettling.FmSpoint.FmSpointCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NPRatio:CHANnel:BWIDth
+
+.. code-block:: python
+
+	[SENSe]:NPRatio:CHANnel:BWIDth
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.Channel.Bandwidth.BandwidthCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,31 @@
+Power
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.listPy.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_ListPy_Power_Result.rst
+	Sense_ListPy_Power_Sequence.rst
+	Sense_ListPy_Power_Set.rst
+	Sense_ListPy_Power_State.rst

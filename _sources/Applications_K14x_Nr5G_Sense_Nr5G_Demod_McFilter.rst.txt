@@ -1,0 +1,20 @@
+McFilter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:MCFilter
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:MCFilter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.McFilter.McFilterCls
+	:members:
+	:undoc-members:
+	:noindex:

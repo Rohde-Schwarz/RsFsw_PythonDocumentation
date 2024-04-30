@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TABLe:POWer:ON:LIMit:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:TABLe:POWer:ON:LIMit:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Power.On.Limit.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

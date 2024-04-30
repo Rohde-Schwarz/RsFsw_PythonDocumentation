@@ -1,0 +1,28 @@
+P3Db
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Fetch.Cmeasurement.P3Db.P3DbCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.fetch.cmeasurement.p3Db.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Fetch_Cmeasurement_P3Db_Result.rst

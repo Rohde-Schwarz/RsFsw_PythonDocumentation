@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AF:STOP
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AF:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

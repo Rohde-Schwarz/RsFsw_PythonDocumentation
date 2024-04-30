@@ -1,0 +1,47 @@
+Transducer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:TRANsducer:DELete
+
+.. code-block:: python
+
+	[SENSe]:CORRection:TRANsducer:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Transducer.TransducerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.transducer.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Transducer_Active.rst
+	Sense_Correction_Transducer_Adjust.rst
+	Sense_Correction_Transducer_Catalog.rst
+	Sense_Correction_Transducer_Comment.rst
+	Sense_Correction_Transducer_Data.rst
+	Sense_Correction_Transducer_Generate.rst
+	Sense_Correction_Transducer_InputPy.rst
+	Sense_Correction_Transducer_Scaling.rst
+	Sense_Correction_Transducer_Select.rst
+	Sense_Correction_Transducer_State.rst
+	Sense_Correction_Transducer_Unit.rst

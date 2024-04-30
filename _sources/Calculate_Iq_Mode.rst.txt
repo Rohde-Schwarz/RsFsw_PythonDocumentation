@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:IQ:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:IQ:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Iq.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

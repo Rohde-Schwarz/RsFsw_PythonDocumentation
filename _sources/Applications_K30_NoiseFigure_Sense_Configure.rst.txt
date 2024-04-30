@@ -1,0 +1,34 @@
+Configure
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.ConfigureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.sense.configure.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Sense_Configure_Control.rst
+	Applications_K30_NoiseFigure_Sense_Configure_Correction.rst
+	Applications_K30_NoiseFigure_Sense_Configure_Frequency.rst
+	Applications_K30_NoiseFigure_Sense_Configure_ListPy.rst
+	Applications_K30_NoiseFigure_Sense_Configure_Measurement.rst
+	Applications_K30_NoiseFigure_Sense_Configure_Mode.rst
+	Applications_K30_NoiseFigure_Sense_Configure_Single.rst

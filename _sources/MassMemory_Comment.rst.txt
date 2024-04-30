@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:COMMent
+
+.. code-block:: python
+
+	MMEMory:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Comment.CommentCls
+	:members:
+	:undoc-members:
+	:noindex:

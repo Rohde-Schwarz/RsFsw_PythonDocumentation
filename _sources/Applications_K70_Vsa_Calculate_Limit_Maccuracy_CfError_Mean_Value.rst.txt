@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:CFERror:MEAN:VALue
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:CFERror:MEAN:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.CfError.Mean.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RTPTime:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RTPTime:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseTopPoint.Time.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

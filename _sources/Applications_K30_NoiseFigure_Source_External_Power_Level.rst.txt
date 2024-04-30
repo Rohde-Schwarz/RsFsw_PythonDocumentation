@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal:POWer[:LEVel]
+
+.. code-block:: python
+
+	SOURce:EXTernal:POWer[:LEVel]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.External.Power.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

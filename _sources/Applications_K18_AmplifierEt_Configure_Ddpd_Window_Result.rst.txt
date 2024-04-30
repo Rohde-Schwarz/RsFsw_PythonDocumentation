@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD:WINDow<n>:RESult
+
+.. code-block:: python
+
+	CONFigure:DDPD:WINDow<n>:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Window.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

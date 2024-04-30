@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]:AUTO
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Display.Window.Trace.Y.Scale.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

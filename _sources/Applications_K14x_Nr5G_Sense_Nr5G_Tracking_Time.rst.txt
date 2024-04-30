@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:TRACking:TIME
+
+.. code-block:: python
+
+	[SENSe]:NR5G:TRACking:TIME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Tracking.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

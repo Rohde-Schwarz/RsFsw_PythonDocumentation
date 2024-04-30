@@ -1,0 +1,20 @@
+Rterminator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:GPIB[:SELF]:RTERminator
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:GPIB[:SELF]:RTERminator
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Gpib.Self.Rterminator.RterminatorCls
+	:members:
+	:undoc-members:
+	:noindex:

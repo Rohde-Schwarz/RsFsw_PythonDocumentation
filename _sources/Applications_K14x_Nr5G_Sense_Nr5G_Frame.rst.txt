@@ -1,0 +1,34 @@
+Frame
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Frame.FrameCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.nr5G.frame.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_Count.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_Optimization.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_SaLevel.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_Scapture.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_Scount.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_Slot.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Frame_SrSlot.rst

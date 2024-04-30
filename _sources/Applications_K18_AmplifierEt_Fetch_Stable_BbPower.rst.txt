@@ -1,0 +1,30 @@
+BbPower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.BbPower.BbPowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.stable.bbPower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Avg.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Max.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_BbPower_Min.rst

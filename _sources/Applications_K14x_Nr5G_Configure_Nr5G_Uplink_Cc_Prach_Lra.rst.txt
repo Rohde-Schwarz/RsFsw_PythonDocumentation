@@ -1,0 +1,20 @@
+Lra
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:LRA
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:PRACh:LRA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Prach.Lra.LraCls
+	:members:
+	:undoc-members:
+	:noindex:

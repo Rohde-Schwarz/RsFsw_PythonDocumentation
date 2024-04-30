@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:STORe:STATe:NEXT
+
+.. code-block:: python
+
+	MMEMory:STORe:STATe:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.State.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

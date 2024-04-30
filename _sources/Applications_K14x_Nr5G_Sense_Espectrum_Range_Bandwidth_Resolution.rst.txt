@@ -1,0 +1,20 @@
+Resolution
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:BANDwidth:RESolution
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:BANDwidth:RESolution
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Range.Bandwidth.Resolution.ResolutionCls
+	:members:
+	:undoc-members:
+	:noindex:

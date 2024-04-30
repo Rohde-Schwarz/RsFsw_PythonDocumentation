@@ -1,0 +1,28 @@
+Auto
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.System.Communicate.Rdevice.Pmeter.Configure.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.system.communicate.rdevice.pmeter.configure.auto.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_System_Communicate_Rdevice_Pmeter_Configure_Auto_State.rst

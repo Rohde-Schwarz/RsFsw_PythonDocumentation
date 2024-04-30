@@ -1,0 +1,31 @@
+Sequence
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Trigger.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.trigger.sequence.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Trigger_Sequence_Holdoff.rst
+	Applications_K18_AmplifierEt_Trigger_Sequence_Level.rst
+	Applications_K18_AmplifierEt_Trigger_Sequence_Slope.rst
+	Applications_K18_AmplifierEt_Trigger_Sequence_Source.rst

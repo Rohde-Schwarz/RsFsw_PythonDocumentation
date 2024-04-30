@@ -1,0 +1,20 @@
+Cid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>]:PLC:CID
+
+.. code-block:: python
+
+	FETCh[:CC<cc>]:PLC:CID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.Cc.Plc.Cid.CidCls
+	:members:
+	:undoc-members:
+	:noindex:

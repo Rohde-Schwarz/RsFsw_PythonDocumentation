@@ -1,0 +1,20 @@
+Spacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CARRier:SPACing
+
+.. code-block:: python
+
+	[SENSe]:CARRier:SPACing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Carrier.Spacing.SpacingCls
+	:members:
+	:undoc-members:
+	:noindex:

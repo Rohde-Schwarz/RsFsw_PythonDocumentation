@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:AVGFm:MINimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:AVGFm:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.AvgFm.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

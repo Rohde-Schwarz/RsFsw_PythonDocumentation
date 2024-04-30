@@ -1,0 +1,37 @@
+Activity
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:UTILization:ACTivity
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:UTILization:ACTivity
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Utilization.Activity.ActivityCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.hums.utilization.activity.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Hums_Utilization_Activity_Tracking.rst

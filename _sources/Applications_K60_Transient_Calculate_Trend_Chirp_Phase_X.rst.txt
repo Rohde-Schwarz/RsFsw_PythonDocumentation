@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:CHIRp:PHASe:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:CHIRp:PHASe:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Chirp.Phase.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

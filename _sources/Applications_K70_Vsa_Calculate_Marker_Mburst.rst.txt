@@ -1,0 +1,20 @@
+Mburst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:MBURst:STARt
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:MBURst:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Mburst.MburstCls
+	:members:
+	:undoc-members:
+	:noindex:

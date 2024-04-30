@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:TAERror[:CC<cc>]:AP:MINimum
+
+.. code-block:: python
+
+	FETCh:TAERror[:CC<cc>]:AP:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.TaError.Cc.Ap.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

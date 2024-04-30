@@ -1,0 +1,20 @@
+Feed
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:FEED
+
+.. code-block:: python
+
+	CALCulate<n>:FEED
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calculate.Feed.FeedCls
+	:members:
+	:undoc-members:
+	:noindex:

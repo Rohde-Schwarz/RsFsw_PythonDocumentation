@@ -1,0 +1,30 @@
+Power
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.fetch.cc.summary.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Fetch_Cc_Summary_Power_Average.rst
+	Applications_K10x_Lte_Fetch_Cc_Summary_Power_Maximum.rst
+	Applications_K10x_Lte_Fetch_Cc_Summary_Power_Minimum.rst

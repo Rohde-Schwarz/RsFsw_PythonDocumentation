@@ -1,0 +1,20 @@
+Qerror
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:QERRor
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:QERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Qerror.QerrorCls
+	:members:
+	:undoc-members:
+	:noindex:

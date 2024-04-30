@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:ICC:MIN:MAXimum
+
+.. code-block:: python
+
+	FETCh:STABle:ICC:MIN:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Icc.Min.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

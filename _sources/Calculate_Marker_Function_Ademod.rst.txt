@@ -1,0 +1,37 @@
+Ademod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Ademod.AdemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.function.ademod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Function_Ademod_Acv.rst
+	Calculate_Marker_Function_Ademod_Afrequency.rst
+	Calculate_Marker_Function_Ademod_Am.rst
+	Calculate_Marker_Function_Ademod_Carrier.rst
+	Calculate_Marker_Function_Ademod_Distortion.rst
+	Calculate_Marker_Function_Ademod_Fm.rst
+	Calculate_Marker_Function_Ademod_FreqError.rst
+	Calculate_Marker_Function_Ademod_Pm.rst
+	Calculate_Marker_Function_Ademod_Sinad.rst
+	Calculate_Marker_Function_Ademod_Thd.rst

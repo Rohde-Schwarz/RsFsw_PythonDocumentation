@@ -1,0 +1,42 @@
+Correction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:RECall
+
+.. code-block:: python
+
+	[SENSe]:CORRection:RECall
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.CorrectionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Collect.rst
+	Sense_Correction_Cvl.rst
+	Sense_Correction_Fresponse.rst
+	Sense_Correction_Method.rst
+	Sense_Correction_State.rst
+	Sense_Correction_Transducer.rst

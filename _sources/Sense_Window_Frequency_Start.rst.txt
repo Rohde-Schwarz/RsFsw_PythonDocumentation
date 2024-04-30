@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:WINDow<n>]:FREQuency:STARt
+
+.. code-block:: python
+
+	[SENSe][:WINDow<n>]:FREQuency:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Window.Frequency.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

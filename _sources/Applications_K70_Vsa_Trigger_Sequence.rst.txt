@@ -1,0 +1,37 @@
+Sequence
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.trigger.sequence.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Trigger_Sequence_BbPower.rst
+	Applications_K70_Vsa_Trigger_Sequence_Dtime.rst
+	Applications_K70_Vsa_Trigger_Sequence_Holdoff.rst
+	Applications_K70_Vsa_Trigger_Sequence_IfPower.rst
+	Applications_K70_Vsa_Trigger_Sequence_Level.rst
+	Applications_K70_Vsa_Trigger_Sequence_Oscilloscope.rst
+	Applications_K70_Vsa_Trigger_Sequence_RfPower.rst
+	Applications_K70_Vsa_Trigger_Sequence_Slope.rst
+	Applications_K70_Vsa_Trigger_Sequence_Source.rst
+	Applications_K70_Vsa_Trigger_Sequence_Time.rst

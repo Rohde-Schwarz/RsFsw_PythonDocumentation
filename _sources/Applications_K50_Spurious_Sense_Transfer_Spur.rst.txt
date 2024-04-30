@@ -1,0 +1,20 @@
+Spur
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:TRANsfer:SPUR
+
+.. code-block:: python
+
+	[SENSe]:TRANsfer:SPUR
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Transfer.Spur.SpurCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:PULSe:LOCation:SFD:MINimum
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:PULSe:LOCation:SFD:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Pulse.Location.Sfd.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

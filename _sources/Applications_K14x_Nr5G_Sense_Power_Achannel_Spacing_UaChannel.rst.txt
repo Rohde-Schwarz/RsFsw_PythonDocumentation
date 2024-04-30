@@ -1,0 +1,20 @@
+UaChannel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:SPACing:UACHannel
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:SPACing:UACHannel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Spacing.UaChannel.UaChannelCls
+	:members:
+	:undoc-members:
+	:noindex:

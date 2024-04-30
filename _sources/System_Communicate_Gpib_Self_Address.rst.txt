@@ -1,0 +1,20 @@
+Address
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:GPIB[:SELF]:ADDRess
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:GPIB[:SELF]:ADDRess
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Gpib.Self.Address.AddressCls
+	:members:
+	:undoc-members:
+	:noindex:

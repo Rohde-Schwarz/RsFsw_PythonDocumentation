@@ -1,0 +1,20 @@
+Tradeoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD:TRADeoff
+
+.. code-block:: python
+
+	CONFigure:DDPD:TRADeoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.Tradeoff.TradeoffCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,39 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:POWer:STS:PEAK
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:POWer:STS:PEAK
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Power.Sts.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.power.sts.peak.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Power_Sts_Peak_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_Sts_Peak_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_Sts_Peak_Minimum.rst

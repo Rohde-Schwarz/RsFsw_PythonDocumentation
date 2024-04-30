@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:XCORr:NMSE:MAXimum
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:XCORr:NMSE:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Xcorr.Nmse.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

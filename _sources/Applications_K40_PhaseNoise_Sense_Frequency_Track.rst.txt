@@ -1,0 +1,20 @@
+Track
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:TRACk
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:TRACk
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Frequency.Track.TrackCls
+	:members:
+	:undoc-members:
+	:noindex:

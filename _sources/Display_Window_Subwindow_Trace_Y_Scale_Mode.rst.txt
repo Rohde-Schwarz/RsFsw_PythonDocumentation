@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:Y[:SCALe]:MODE
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:Y[:SCALe]:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Trace.Y.Scale.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Gain
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:CONFigure:DUT:GAIN
+
+.. code-block:: python
+
+	SYSTem:CONFigure:DUT:GAIN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Configure.Dut.Gain.GainCls
+	:members:
+	:undoc-members:
+	:noindex:

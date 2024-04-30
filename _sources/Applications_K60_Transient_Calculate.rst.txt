@@ -1,0 +1,48 @@
+Calculate<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k60Transient.calculate.repcap_window_get()
+	driver.applications.k60Transient.calculate.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.CalculateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Ar.rst
+	Applications_K60_Transient_Calculate_ChrDetection.rst
+	Applications_K60_Transient_Calculate_DeltaMarker.rst
+	Applications_K60_Transient_Calculate_Distribution.rst
+	Applications_K60_Transient_Calculate_HopDetection.rst
+	Applications_K60_Transient_Calculate_Marker.rst
+	Applications_K60_Transient_Calculate_Msra.rst
+	Applications_K60_Transient_Calculate_Result.rst
+	Applications_K60_Transient_Calculate_Rtms.rst
+	Applications_K60_Transient_Calculate_Spectrogram.rst
+	Applications_K60_Transient_Calculate_Trace.rst
+	Applications_K60_Transient_Calculate_Trend.rst
+	Applications_K60_Transient_Calculate_Unit.rst

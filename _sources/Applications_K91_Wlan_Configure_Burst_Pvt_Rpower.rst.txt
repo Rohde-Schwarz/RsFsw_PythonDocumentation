@@ -1,0 +1,20 @@
+Rpower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:PVT:RPOWer
+
+.. code-block:: python
+
+	CONFigure:BURSt:PVT:RPOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Pvt.Rpower.RpowerCls
+	:members:
+	:undoc-members:
+	:noindex:

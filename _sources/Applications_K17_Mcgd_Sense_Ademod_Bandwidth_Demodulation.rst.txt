@@ -1,0 +1,20 @@
+Demodulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:BWIDth:DEModulation
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:BWIDth:DEModulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Bandwidth.Demodulation.DemodulationCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,45 @@
+Directed
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:DIRected:SAVE
+	single: [SENSe]:DIRected:LOAD
+
+.. code-block:: python
+
+	[SENSe]:DIRected:SAVE
+	[SENSe]:DIRected:LOAD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.DirectedCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.directed.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Directed_InputPy.rst
+	Applications_K50_Spurious_Sense_Directed_Loffset.rst
+	Applications_K50_Spurious_Sense_Directed_MfRbw.rst
+	Applications_K50_Spurious_Sense_Directed_Nfft.rst
+	Applications_K50_Spurious_Sense_Directed_Pexcursion.rst
+	Applications_K50_Spurious_Sense_Directed_RefLevel.rst
+	Applications_K50_Spurious_Sense_Directed_Settings.rst

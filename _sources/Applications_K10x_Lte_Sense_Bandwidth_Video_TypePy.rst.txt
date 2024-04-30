@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth:VIDeo:TYPE
+
+.. code-block:: python
+
+	[SENSe]:BWIDth:VIDeo:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Bandwidth.Video.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+PeakSearch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Espectrum.PeakSearch.PeakSearchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.espectrum.peakSearch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Espectrum_PeakSearch_Auto.rst
+	Applications_K91_Wlan_Calculate_Espectrum_PeakSearch_Margin.rst
+	Applications_K91_Wlan_Calculate_Espectrum_PeakSearch_Pshow.rst

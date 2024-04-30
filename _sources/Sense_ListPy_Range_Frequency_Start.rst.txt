@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>[:FREQuency]:STARt
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>[:FREQuency]:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Frequency.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

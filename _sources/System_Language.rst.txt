@@ -1,0 +1,20 @@
+Language
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:LANGuage
+
+.. code-block:: python
+
+	SYSTem:LANGuage
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Language.LanguageCls
+	:members:
+	:undoc-members:
+	:noindex:

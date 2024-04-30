@@ -1,0 +1,20 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:AR:FREQuency:BANDwidth
+
+.. code-block:: python
+
+	CALCulate<n>:AR:FREQuency:BANDwidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Ar.Frequency.Bandwidth.BandwidthCls
+	:members:
+	:undoc-members:
+	:noindex:

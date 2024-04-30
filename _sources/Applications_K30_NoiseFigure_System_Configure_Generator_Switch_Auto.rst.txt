@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:CONFigure:GENerator:SWITch:AUTO
+
+.. code-block:: python
+
+	SYSTem:CONFigure:GENerator:SWITch:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Configure.Generator.Switch.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

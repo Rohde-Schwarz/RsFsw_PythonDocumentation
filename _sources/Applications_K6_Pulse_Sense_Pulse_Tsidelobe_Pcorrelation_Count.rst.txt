@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:PCORrelation:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:PCORrelation:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Pcorrelation.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

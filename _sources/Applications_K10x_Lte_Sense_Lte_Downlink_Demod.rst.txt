@@ -1,0 +1,36 @@
+Demod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.lte.downlink.demod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_Auto.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_Bestimation.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_CbScrambling.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_Cestimation.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_DaChannels.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_EvmCalc.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_McFilter.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_PrData.rst
+	Applications_K10x_Lte_Sense_Lte_Downlink_Demod_SiSync.rst

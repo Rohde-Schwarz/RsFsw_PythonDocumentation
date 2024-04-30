@@ -1,0 +1,20 @@
+Update
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:FIRMware:UPDate
+
+.. code-block:: python
+
+	SYSTem:FIRMware:UPDate
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Firmware.Update.UpdateCls
+	:members:
+	:undoc-members:
+	:noindex:

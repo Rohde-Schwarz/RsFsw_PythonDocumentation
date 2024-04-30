@@ -1,0 +1,37 @@
+Rerror
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TABLe:PHASe:RERRor
+
+.. code-block:: python
+
+	CALCulate<n>:TABLe:PHASe:RERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Phase.Rerror.RerrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.table.phase.rerror.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_Table_Phase_Rerror_Limit.rst

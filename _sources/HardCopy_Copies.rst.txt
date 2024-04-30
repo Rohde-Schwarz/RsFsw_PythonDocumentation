@@ -1,0 +1,20 @@
+Copies
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:COPies
+
+.. code-block:: python
+
+	HCOPy:COPies
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Copies.CopiesCls
+	:members:
+	:undoc-members:
+	:noindex:

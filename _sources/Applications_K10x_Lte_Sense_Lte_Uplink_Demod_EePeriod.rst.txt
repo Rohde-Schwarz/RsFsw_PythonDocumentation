@@ -1,0 +1,20 @@
+EePeriod
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:EEPeriod
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:EEPeriod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.EePeriod.EePeriodCls
+	:members:
+	:undoc-members:
+	:noindex:

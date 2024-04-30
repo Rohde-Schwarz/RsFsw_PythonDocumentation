@@ -1,0 +1,20 @@
+Msize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:GAP<gap>[:AUTO]:MSIZe
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:GAP<gap>[:AUTO]:MSIZe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Gap.Auto.Msize.MsizeCls
+	:members:
+	:undoc-members:
+	:noindex:

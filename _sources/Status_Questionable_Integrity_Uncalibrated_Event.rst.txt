@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:INTegrity:UNCalibrated[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:INTegrity:UNCalibrated[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Integrity.Uncalibrated.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

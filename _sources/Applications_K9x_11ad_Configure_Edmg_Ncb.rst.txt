@@ -1,0 +1,20 @@
+Ncb
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:EDMG:NCB
+
+.. code-block:: python
+
+	CONFigure:EDMG:NCB
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Configure.Edmg.Ncb.NcbCls
+	:members:
+	:undoc-members:
+	:noindex:

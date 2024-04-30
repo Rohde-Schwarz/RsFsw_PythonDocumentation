@@ -1,0 +1,20 @@
+Next
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy[:IMMediate]:NEXT
+
+.. code-block:: python
+
+	HCOPy[:IMMediate]:NEXT
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Immediate.Next.NextCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Modulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc:MODulation
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc:MODulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Modulation.ModulationCls
+	:members:
+	:undoc-members:
+	:noindex:

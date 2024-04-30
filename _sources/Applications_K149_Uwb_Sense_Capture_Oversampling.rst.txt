@@ -1,0 +1,20 @@
+Oversampling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CAPTure:OVERsampling
+
+.. code-block:: python
+
+	[SENSe]:CAPTure:OVERsampling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Capture.Oversampling.OversamplingCls
+	:members:
+	:undoc-members:
+	:noindex:

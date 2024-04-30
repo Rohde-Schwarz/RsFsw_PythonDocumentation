@@ -1,0 +1,20 @@
+Sflatness
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:SFLatness
+
+.. code-block:: python
+
+	UNIT:SFLatness
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Unit.Sflatness.SflatnessCls
+	:members:
+	:undoc-members:
+	:noindex:

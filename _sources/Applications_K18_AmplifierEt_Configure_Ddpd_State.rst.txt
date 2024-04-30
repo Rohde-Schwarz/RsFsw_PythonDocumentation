@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DDPD[:STATe]
+
+.. code-block:: python
+
+	CONFigure:DDPD[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Ddpd.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

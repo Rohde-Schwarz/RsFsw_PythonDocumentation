@@ -1,0 +1,20 @@
+DiqFilter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:DIQFilter
+
+.. code-block:: python
+
+	TRACe:IQ:DIQFilter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Trace.Iq.DiqFilter.DiqFilterCls
+	:members:
+	:undoc-members:
+	:noindex:

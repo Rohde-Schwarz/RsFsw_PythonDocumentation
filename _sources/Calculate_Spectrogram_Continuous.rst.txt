@@ -1,0 +1,20 @@
+Continuous
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:SPECtrogram:CONTinuous
+
+.. code-block:: python
+
+	CALCulate<n>:SPECtrogram:CONTinuous
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Spectrogram.Continuous.ContinuousCls
+	:members:
+	:undoc-members:
+	:noindex:

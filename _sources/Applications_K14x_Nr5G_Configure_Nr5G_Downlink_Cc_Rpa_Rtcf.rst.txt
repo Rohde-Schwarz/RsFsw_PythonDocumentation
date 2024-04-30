@@ -1,0 +1,20 @@
+Rtcf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:RPA:RTCF
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:RPA:RTCF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Rpa.Rtcf.RtcfCls
+	:members:
+	:undoc-members:
+	:noindex:

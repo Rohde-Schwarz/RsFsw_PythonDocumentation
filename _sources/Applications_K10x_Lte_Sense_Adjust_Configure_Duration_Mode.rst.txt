@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:CONFigure:DURation:MODE
+
+.. code-block:: python
+
+	[SENSe]:ADJust:CONFigure:DURation:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Adjust.Configure.Duration.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

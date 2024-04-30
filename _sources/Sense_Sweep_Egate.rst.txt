@@ -1,0 +1,44 @@
+Egate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.EgateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.sweep.egate.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Sweep_Egate_Auto.rst
+	Sense_Sweep_Egate_Holdoff.rst
+	Sense_Sweep_Egate_Length.rst
+	Sense_Sweep_Egate_Level.rst
+	Sense_Sweep_Egate_Polarity.rst
+	Sense_Sweep_Egate_Source.rst
+	Sense_Sweep_Egate_Trace.rst
+	Sense_Sweep_Egate_TypePy.rst

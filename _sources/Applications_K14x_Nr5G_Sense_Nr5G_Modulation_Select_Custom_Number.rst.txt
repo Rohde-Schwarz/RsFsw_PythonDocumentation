@@ -1,0 +1,20 @@
+Number
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:MODulation:SELect:CUSTom:NUMBer
+
+.. code-block:: python
+
+	[SENSe]:NR5G:MODulation:SELect:CUSTom:NUMBer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Modulation.Select.Custom.Number.NumberCls
+	:members:
+	:undoc-members:
+	:noindex:

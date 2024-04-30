@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:TRACe<t>:COMMent
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:TRACe<t>:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Trace.Comment.CommentCls
+	:members:
+	:undoc-members:
+	:noindex:

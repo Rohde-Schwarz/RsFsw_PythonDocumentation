@@ -1,0 +1,20 @@
+Squelch
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:FDOMain:SQUelch
+
+.. code-block:: python
+
+	CONFigure:FDOMain:SQUelch
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Fdomain.Squelch.SquelchCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,50 @@
+User
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:PRESet
+	single: [SENSe]:CORRection:FRESponse:USER:LOAD
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:PRESet
+	[SENSe]:CORRection:FRESponse:USER:LOAD
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.UserCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.user.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_User_Adjust.rst
+	Sense_Correction_Fresponse_User_Flist.rst
+	Sense_Correction_Fresponse_User_Fstate.rst
+	Sense_Correction_Fresponse_User_Iq.rst
+	Sense_Correction_Fresponse_User_Pstate.rst
+	Sense_Correction_Fresponse_User_Scope.rst
+	Sense_Correction_Fresponse_User_Scovered.rst
+	Sense_Correction_Fresponse_User_Slist.rst
+	Sense_Correction_Fresponse_User_Spectrum.rst
+	Sense_Correction_Fresponse_User_State.rst
+	Sense_Correction_Fresponse_User_Store.rst
+	Sense_Correction_Fresponse_User_Valid.rst

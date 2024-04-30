@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:RANGe:LENGth
+
+.. code-block:: python
+
+	[SENSe]:DETect:RANGe:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Detect.Range.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

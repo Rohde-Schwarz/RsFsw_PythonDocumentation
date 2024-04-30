@@ -1,0 +1,20 @@
+Us4K
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:US4K
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:US4K
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Us4K.Us4KCls
+	:members:
+	:undoc-members:
+	:noindex:

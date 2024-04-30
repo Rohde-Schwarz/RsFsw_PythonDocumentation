@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SQUelch:LEVel
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SQUelch:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Squelch.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

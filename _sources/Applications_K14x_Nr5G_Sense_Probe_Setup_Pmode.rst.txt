@@ -1,0 +1,20 @@
+Pmode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<p>:SETup:PMODe
+
+.. code-block:: python
+
+	[SENSe]:PROBe<p>:SETup:PMODe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Probe.Setup.Pmode.PmodeCls
+	:members:
+	:undoc-members:
+	:noindex:

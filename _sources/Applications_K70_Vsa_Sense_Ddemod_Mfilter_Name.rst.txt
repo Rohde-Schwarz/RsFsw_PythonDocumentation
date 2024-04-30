@@ -1,0 +1,20 @@
+Name
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:MFILter:NAME
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:MFILter:NAME
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Mfilter.Name.NameCls
+	:members:
+	:undoc-members:
+	:noindex:

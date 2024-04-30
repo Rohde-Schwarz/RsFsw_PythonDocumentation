@@ -1,0 +1,20 @@
+Order
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:KDATa:PRBS:POLYnomial[:ORDer]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:KDATa:PRBS:POLYnomial[:ORDer]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Prbs.Polynomial.Order.OrderCls
+	:members:
+	:undoc-members:
+	:noindex:

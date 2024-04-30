@@ -1,0 +1,20 @@
+Unit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DIQ:RANGe[:UPPer]:UNIT
+
+.. code-block:: python
+
+	INPut:DIQ:RANGe[:UPPer]:UNIT
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Diq.Range.Upper.Unit.UnitCls
+	:members:
+	:undoc-members:
+	:noindex:

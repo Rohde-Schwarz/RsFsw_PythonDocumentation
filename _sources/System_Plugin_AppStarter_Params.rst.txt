@@ -1,0 +1,20 @@
+Params
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:PARams
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:PARams
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Params.ParamsCls
+	:members:
+	:undoc-members:
+	:noindex:

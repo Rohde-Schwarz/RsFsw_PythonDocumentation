@@ -1,0 +1,20 @@
+MaxNonlinear
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FREQuency:MAXNonlinear
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FREQuency:MAXNonlinear
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.MaxNonlinear.MaxNonlinearCls
+	:members:
+	:undoc-members:
+	:noindex:

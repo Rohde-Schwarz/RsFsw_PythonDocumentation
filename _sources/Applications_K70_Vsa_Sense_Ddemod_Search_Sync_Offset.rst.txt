@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

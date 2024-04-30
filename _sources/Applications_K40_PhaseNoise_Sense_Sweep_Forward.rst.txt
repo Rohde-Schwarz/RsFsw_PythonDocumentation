@@ -1,0 +1,20 @@
+Forward
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:FORWard
+
+.. code-block:: python
+
+	[SENSe]:SWEep:FORWard
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.Sweep.Forward.ForwardCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Step
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep:X:STEP
+
+.. code-block:: python
+
+	CONFigure:PSWeep:X:STEP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.X.Step.StepCls
+	:members:
+	:undoc-members:
+	:noindex:

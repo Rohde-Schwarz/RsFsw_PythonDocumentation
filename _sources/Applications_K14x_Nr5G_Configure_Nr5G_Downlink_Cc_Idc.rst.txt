@@ -1,0 +1,20 @@
+Idc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:IDC
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:IDC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Idc.IdcCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:INPut:GAIN:STATe
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:INPut:GAIN:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.InputPy.Gain.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Nstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FSK:NSTate
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FSK:NSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Fsk.Nstate.NstateCls
+	:members:
+	:undoc-members:
+	:noindex:

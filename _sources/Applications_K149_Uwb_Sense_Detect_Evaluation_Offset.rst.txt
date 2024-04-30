@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:EVALuation:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:DETect:EVALuation:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.Evaluation.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

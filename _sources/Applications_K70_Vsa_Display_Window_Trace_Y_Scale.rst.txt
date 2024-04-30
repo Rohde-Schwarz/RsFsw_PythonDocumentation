@@ -1,0 +1,33 @@
+Scale
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.Trace.Y.Scale.ScaleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.display.window.trace.y.scale.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Display_Window_Trace_Y_Scale_Auto.rst
+	Applications_K70_Vsa_Display_Window_Trace_Y_Scale_Mode.rst
+	Applications_K70_Vsa_Display_Window_Trace_Y_Scale_Pdivision.rst
+	Applications_K70_Vsa_Display_Window_Trace_Y_Scale_RefLevel.rst
+	Applications_K70_Vsa_Display_Window_Trace_Y_Scale_RefPosition.rst
+	Applications_K70_Vsa_Display_Window_Trace_Y_Scale_Rvalue.rst

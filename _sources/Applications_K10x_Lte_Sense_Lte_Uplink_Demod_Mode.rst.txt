@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:MODE
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,46 @@
+Cc<CarrierComponent>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k10Xlte.sense.lte.cc.repcap_carrierComponent_get()
+	driver.applications.k10Xlte.sense.lte.cc.repcap_carrierComponent_set(repcap.CarrierComponent.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Cc.CcCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.sense.lte.cc.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Sense_Lte_Cc_Allocation.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Antenna.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Carrier.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Cword.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Location.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Modulation.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Preamble.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Sflatness.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Slot.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Subframe.rst
+	Applications_K10x_Lte_Sense_Lte_Cc_Symbol.rst

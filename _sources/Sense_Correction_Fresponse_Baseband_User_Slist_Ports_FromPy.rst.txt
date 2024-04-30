@@ -1,0 +1,20 @@
+FromPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:BASeband:USER:SLISt<sli>:PORTs:FROM
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:BASeband:USER:SLISt<sli>:PORTs:FROM
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.Slist.Ports.FromPy.FromPyCls
+	:members:
+	:undoc-members:
+	:noindex:

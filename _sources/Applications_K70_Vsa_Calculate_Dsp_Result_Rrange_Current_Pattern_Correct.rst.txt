@@ -1,0 +1,20 @@
+Correct
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DSP:RESult:RRANge:CURRent:PATTern:CORRect
+
+.. code-block:: python
+
+	CALCulate<n>:DSP:RESult:RRANge:CURRent:PATTern:CORRect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Rrange.Current.Pattern.Correct.CorrectCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:DCYCle:MINimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:DCYCle:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Dcycle.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

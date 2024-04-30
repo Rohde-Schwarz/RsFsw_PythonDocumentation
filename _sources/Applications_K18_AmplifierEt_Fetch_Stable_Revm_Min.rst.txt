@@ -1,0 +1,32 @@
+Min
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Revm.Min.MinCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.stable.revm.min.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Stable_Revm_Min_Average.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Revm_Min_Maximum.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Revm_Min_Minimum.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Revm_Min_Selected.rst
+	Applications_K18_AmplifierEt_Fetch_Stable_Revm_Min_StDeviation.rst

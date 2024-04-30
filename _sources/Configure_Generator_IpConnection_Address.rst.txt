@@ -1,0 +1,20 @@
+Address
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:IPConnection:ADDRess
+
+.. code-block:: python
+
+	CONFigure:GENerator:IPConnection:ADDRess
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.IpConnection.Address.AddressCls
+	:members:
+	:undoc-members:
+	:noindex:

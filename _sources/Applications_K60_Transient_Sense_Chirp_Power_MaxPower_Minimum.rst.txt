@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:POWer:MAXPower:MINimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:POWer:MAXPower:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Power.MaxPower.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Derror
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:FSK:DERRor
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:FSK:DERRor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Fsk.Derror.DerrorCls
+	:members:
+	:undoc-members:
+	:noindex:

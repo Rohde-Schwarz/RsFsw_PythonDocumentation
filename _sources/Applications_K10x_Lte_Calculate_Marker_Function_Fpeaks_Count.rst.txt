@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:COUNt
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Fpeaks.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Events
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:SCAPture:EVENts
+
+.. code-block:: python
+
+	[SENSe]:SWEep:SCAPture:EVENts
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Scapture.Events.EventsCls
+	:members:
+	:undoc-members:
+	:noindex:

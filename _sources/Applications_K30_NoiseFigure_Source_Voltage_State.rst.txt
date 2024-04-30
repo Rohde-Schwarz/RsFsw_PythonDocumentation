@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:VOLTage[:STATe]
+
+.. code-block:: python
+
+	SOURce:VOLTage[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

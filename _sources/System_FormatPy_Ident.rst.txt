@@ -1,0 +1,20 @@
+Ident
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:FORMat:IDENt
+
+.. code-block:: python
+
+	SYSTem:FORMat:IDENt
+
+
+
+.. autoclass:: RsFsw.Implementations.System.FormatPy.Ident.IdentCls
+	:members:
+	:undoc-members:
+	:noindex:

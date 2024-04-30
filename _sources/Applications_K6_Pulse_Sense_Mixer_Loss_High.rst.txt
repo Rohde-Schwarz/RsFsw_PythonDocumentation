@@ -1,0 +1,20 @@
+High
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:LOSS:HIGH
+
+.. code-block:: python
+
+	[SENSe]:MIXer:LOSS:HIGH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Mixer.Loss.High.HighCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Common
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:COMMon
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:COMMon
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Common.CommonCls
+	:members:
+	:undoc-members:
+	:noindex:

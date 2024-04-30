@@ -1,0 +1,20 @@
+Mixer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:MIXer
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:MIXer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Correction.Cvl.Mixer.MixerCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Show
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RTMS:ALINe:SHOW
+
+.. code-block:: python
+
+	CALCulate<n>:RTMS:ALINe:SHOW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Rtms.Aline.Show.ShowCls
+	:members:
+	:undoc-members:
+	:noindex:

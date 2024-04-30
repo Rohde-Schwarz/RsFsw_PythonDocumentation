@@ -1,0 +1,20 @@
+Ostate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:AFTM:OSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:AFTM:OSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Ostate.OstateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mhelper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:MSHelper:MHELper
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:MSHelper:MHELper
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.MsHelper.Mhelper.MhelperCls
+	:members:
+	:undoc-members:
+	:noindex:

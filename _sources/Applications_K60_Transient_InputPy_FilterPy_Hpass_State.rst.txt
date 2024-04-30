@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:FILTer:HPASs[:STATe]
+
+.. code-block:: python
+
+	INPut:FILTer:HPASs[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.InputPy.FilterPy.Hpass.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Stat
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CMEasurement:RESult:PNDB[:STAT]
+
+.. code-block:: python
+
+	CONFigure:CMEasurement:RESult:PNDB[:STAT]
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Cmeasurement.Result.Pndb.Stat.StatCls
+	:members:
+	:undoc-members:
+	:noindex:

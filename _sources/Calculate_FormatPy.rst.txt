@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:FORMat
+
+.. code-block:: python
+
+	CALCulate<n>:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

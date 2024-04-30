@@ -1,0 +1,20 @@
+Skew
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:SKEW
+
+.. code-block:: python
+
+	INPut:IQ:SKEW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.InputPy.Iq.Skew.SkewCls
+	:members:
+	:undoc-members:
+	:noindex:

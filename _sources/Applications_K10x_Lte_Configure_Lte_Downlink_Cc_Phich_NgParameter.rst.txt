@@ -1,0 +1,20 @@
+NgParameter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PHICh:NGParameter
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PHICh:NGParameter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Phich.NgParameter.NgParameterCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+GrpHopping
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:DRS:GRPHopping
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:DRS:GRPHopping
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Drs.GrpHopping.GrpHoppingCls
+	:members:
+	:undoc-members:
+	:noindex:

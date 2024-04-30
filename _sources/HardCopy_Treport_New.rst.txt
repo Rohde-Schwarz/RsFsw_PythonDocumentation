@@ -1,0 +1,20 @@
+New
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:NEW
+
+.. code-block:: python
+
+	HCOPy:TREPort:NEW
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.New.NewCls
+	:members:
+	:undoc-members:
+	:noindex:

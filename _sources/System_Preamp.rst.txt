@@ -1,0 +1,20 @@
+Preamp
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PREamp
+
+.. code-block:: python
+
+	SYSTem:PREamp
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Preamp.PreampCls
+	:members:
+	:undoc-members:
+	:noindex:

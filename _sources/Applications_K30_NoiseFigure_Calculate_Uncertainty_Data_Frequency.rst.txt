@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:DATA:FREQuency
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:DATA:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Data.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

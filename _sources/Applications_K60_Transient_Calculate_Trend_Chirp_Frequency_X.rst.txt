@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:CHIRp:FREQuency:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:CHIRp:FREQuency:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Chirp.Frequency.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,37 @@
+Output<OutputConnector>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr4
+	rc = driver.applications.k60Transient.output.repcap_outputConnector_get()
+	driver.applications.k60Transient.output.repcap_outputConnector_set(repcap.OutputConnector.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Output.OutputCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.output.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Output_Iqhs.rst
+	Applications_K60_Transient_Output_Trigger.rst

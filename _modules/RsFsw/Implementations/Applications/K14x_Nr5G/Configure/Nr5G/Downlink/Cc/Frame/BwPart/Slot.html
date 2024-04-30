@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../../../../" id="documentation_options" src="../../../../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../../../../../K14x_Nr5G.html">RsFsw.Implementations.Applications.K14x_Nr5G</a> &raquo;</li>
+          <li><a href="../../../../../../Configure.html">RsFsw.Implementations.Applications.K14x_Nr5G.Configure</a> &raquo;</li>
+          <li><a href="../../../../../Nr5G.html">RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G</a> &raquo;</li>
+          <li><a href="../../../../Downlink.html">RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink</a> &raquo;</li>
+          <li><a href="../../../Cc.html">RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc</a> &raquo;</li>
+          <li><a href="../../Frame.html">RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame</a> &raquo;</li>
+          <li><a href="../BwPart.html">RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">...........Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">...........Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">...........Internal.RepeatedCapability</span> <span class="kn">import</span> <span class="n">RepeatedCapability</span>
+<span class="kn">from</span> <span class="nn">...........</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="SlotCls"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot.html#RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.SlotCls">[docs]</a><span class="k">class</span> <span class="nc">SlotCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Slot commands group definition. 89 total commands, 9 Subgroups, 2 group commands</span>
+<span class="sd">	Repeated Capability: Slot, default value after init: Slot.Nr0&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;slot&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">rep_cap</span> <span class="o">=</span> <span class="n">RepeatedCapability</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">group_name</span><span class="p">,</span> <span class="s1">&#39;repcap_slot_get&#39;</span><span class="p">,</span> <span class="s1">&#39;repcap_slot_set&#39;</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="o">.</span><span class="n">Nr0</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_slot_set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">slot</span><span class="p">:</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Repeated Capability default value numeric suffix.</span>
+<span class="sd">		This value is used, if you do not explicitely set it in the child set/get methods, or if you leave it to Slot.Default</span>
+<span class="sd">		Default value after init: Slot.Nr0&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">set_repcap_enum_value</span><span class="p">(</span><span class="n">slot</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_slot_get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Returns the current default repeated capability for the child set/get methods&quot;&quot;&quot;</span>
+		<span class="c1"># noinspection PyTypeChecker</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_enum_value</span><span class="p">()</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">alCount</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;alCount commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_alCount&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.AlCount</span> <span class="kn">import</span> <span class="n">AlCountCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_alCount</span> <span class="o">=</span> <span class="n">AlCountCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_alCount</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">allocation</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;allocation commands group. 15 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_allocation&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Allocation</span> <span class="kn">import</span> <span class="n">AllocationCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_allocation</span> <span class="o">=</span> <span class="n">AllocationCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_allocation</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">atype</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;atype commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_atype&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Atype</span> <span class="kn">import</span> <span class="n">AtypeCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_atype</span> <span class="o">=</span> <span class="n">AtypeCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_atype</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">coreset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;coreset commands group. 11 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_coreset&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Coreset</span> <span class="kn">import</span> <span class="n">CoresetCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_coreset</span> <span class="o">=</span> <span class="n">CoresetCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_coreset</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">crsCount</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;crsCount commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_crsCount&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.CrsCount</span> <span class="kn">import</span> <span class="n">CrsCountCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_crsCount</span> <span class="o">=</span> <span class="n">CrsCountCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_crsCount</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">cuid</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;cuid commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_cuid&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Cuid</span> <span class="kn">import</span> <span class="n">CuidCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_cuid</span> <span class="o">=</span> <span class="n">CuidCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cuid</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">formatPy</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;formatPy commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_formatPy&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.FormatPy</span> <span class="kn">import</span> <span class="n">FormatPyCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_formatPy</span> <span class="o">=</span> <span class="n">FormatPyCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_formatPy</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">orSignals</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;orSignals commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_orSignals&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.OrSignals</span> <span class="kn">import</span> <span class="n">OrSignalsCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_orSignals</span> <span class="o">=</span> <span class="n">OrSignalsCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_orSignals</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">paste</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;paste commands group. 3 Sub-classes, 0 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_paste&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Paste</span> <span class="kn">import</span> <span class="n">PasteCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_paste</span> <span class="o">=</span> <span class="n">PasteCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_paste</span>
+
+<div class="viewcode-block" id="SlotCls.copy"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot.html#RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.SlotCls.copy">[docs]</a>	<span class="k">def</span> <span class="nf">copy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">carrierComponent</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">bwPart</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CONFigure[:NR5G]:DL[:CC&lt;cc&gt;]:FRAMe&lt;fr&gt;:BWPart&lt;bwp&gt;:SLOT&lt;sl&gt;:COPY \n</span>
+<span class="sd">		Snippet: driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.copy(carrierComponent = repcap.CarrierComponent.Default, frame = repcap.Frame.Default, bwPart = repcap.BwPart.Default, slot = repcap.Slot.Default) \n</span>
+<span class="sd">		Copies a slot configuration. \n</span>
+<span class="sd">			:param carrierComponent: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Cc&#39;)</span>
+<span class="sd">			:param frame: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Frame&#39;)</span>
+<span class="sd">			:param bwPart: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;BwPart&#39;)</span>
+<span class="sd">			:param slot: optional repeated capability selector. Default value: Nr0 (settable in the interface &#39;Slot&#39;)</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="n">carrierComponent_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">carrierComponent</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="p">)</span>
+		<span class="n">frame_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="p">)</span>
+		<span class="n">bwPart_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">bwPart</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="p">)</span>
+		<span class="n">slot_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">slot</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CONFigure:NR5G:DL:CC</span><span class="si">{</span><span class="n">carrierComponent_cmd_val</span><span class="si">}</span><span class="s1">:FRAMe</span><span class="si">{</span><span class="n">frame_cmd_val</span><span class="si">}</span><span class="s1">:BWPart</span><span class="si">{</span><span class="n">bwPart_cmd_val</span><span class="si">}</span><span class="s1">:SLOT</span><span class="si">{</span><span class="n">slot_cmd_val</span><span class="si">}</span><span class="s1">:COPY&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="SlotCls.copy_with_opc"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot.html#RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.SlotCls.copy_with_opc">[docs]</a>	<span class="k">def</span> <span class="nf">copy_with_opc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">carrierComponent</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">bwPart</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="n">carrierComponent_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">carrierComponent</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="p">)</span>
+		<span class="n">frame_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="p">)</span>
+		<span class="n">bwPart_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">bwPart</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="p">)</span>
+		<span class="n">slot_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">slot</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="p">)</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CONFigure[:NR5G]:DL[:CC&lt;cc&gt;]:FRAMe&lt;fr&gt;:BWPart&lt;bwp&gt;:SLOT&lt;sl&gt;:COPY \n</span>
+<span class="sd">		Snippet: driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.copy_with_opc(carrierComponent = repcap.CarrierComponent.Default, frame = repcap.Frame.Default, bwPart = repcap.BwPart.Default, slot = repcap.Slot.Default) \n</span>
+<span class="sd">		Copies a slot configuration. \n</span>
+<span class="sd">		Same as copy, but waits for the operation to complete before continuing further. Use the RsFsw.utilities.opc_timeout_set() to set the timeout value. \n</span>
+<span class="sd">			:param carrierComponent: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Cc&#39;)</span>
+<span class="sd">			:param frame: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Frame&#39;)</span>
+<span class="sd">			:param bwPart: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;BwPart&#39;)</span>
+<span class="sd">			:param slot: optional repeated capability selector. Default value: Nr0 (settable in the interface &#39;Slot&#39;)</span>
+<span class="sd">			:param opc_timeout_ms: Maximum time to wait in milliseconds, valid only for this call.&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CONFigure:NR5G:DL:CC</span><span class="si">{</span><span class="n">carrierComponent_cmd_val</span><span class="si">}</span><span class="s1">:FRAMe</span><span class="si">{</span><span class="n">frame_cmd_val</span><span class="si">}</span><span class="s1">:BWPart</span><span class="si">{</span><span class="n">bwPart_cmd_val</span><span class="si">}</span><span class="s1">:SLOT</span><span class="si">{</span><span class="n">slot_cmd_val</span><span class="si">}</span><span class="s1">:COPY&#39;</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="SlotCls.preset"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot.html#RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.SlotCls.preset">[docs]</a>	<span class="k">def</span> <span class="nf">preset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">carrierComponent</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">bwPart</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CONFigure[:NR5G]:DL[:CC&lt;cc&gt;]:FRAMe&lt;fr&gt;:BWPart&lt;bwp&gt;:SLOT&lt;sl&gt;:PRESet \n</span>
+<span class="sd">		Snippet: driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.preset(carrierComponent = repcap.CarrierComponent.Default, frame = repcap.Frame.Default, bwPart = repcap.BwPart.Default, slot = repcap.Slot.Default) \n</span>
+<span class="sd">		Resets the slot configuration of a bandwidth part to its default state. \n</span>
+<span class="sd">			:param carrierComponent: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Cc&#39;)</span>
+<span class="sd">			:param frame: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Frame&#39;)</span>
+<span class="sd">			:param bwPart: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;BwPart&#39;)</span>
+<span class="sd">			:param slot: optional repeated capability selector. Default value: Nr0 (settable in the interface &#39;Slot&#39;)</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="n">carrierComponent_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">carrierComponent</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="p">)</span>
+		<span class="n">frame_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="p">)</span>
+		<span class="n">bwPart_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">bwPart</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="p">)</span>
+		<span class="n">slot_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">slot</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CONFigure:NR5G:DL:CC</span><span class="si">{</span><span class="n">carrierComponent_cmd_val</span><span class="si">}</span><span class="s1">:FRAMe</span><span class="si">{</span><span class="n">frame_cmd_val</span><span class="si">}</span><span class="s1">:BWPart</span><span class="si">{</span><span class="n">bwPart_cmd_val</span><span class="si">}</span><span class="s1">:SLOT</span><span class="si">{</span><span class="n">slot_cmd_val</span><span class="si">}</span><span class="s1">:PRESet&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="SlotCls.preset_with_opc"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Frame_BwPart_Slot.html#RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Frame.BwPart.Slot.SlotCls.preset_with_opc">[docs]</a>	<span class="k">def</span> <span class="nf">preset_with_opc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">carrierComponent</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">frame</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">bwPart</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">slot</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="n">carrierComponent_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">carrierComponent</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="p">)</span>
+		<span class="n">frame_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="p">)</span>
+		<span class="n">bwPart_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">bwPart</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="p">)</span>
+		<span class="n">slot_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">slot</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="p">)</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CONFigure[:NR5G]:DL[:CC&lt;cc&gt;]:FRAMe&lt;fr&gt;:BWPart&lt;bwp&gt;:SLOT&lt;sl&gt;:PRESet \n</span>
+<span class="sd">		Snippet: driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.frame.bwPart.slot.preset_with_opc(carrierComponent = repcap.CarrierComponent.Default, frame = repcap.Frame.Default, bwPart = repcap.BwPart.Default, slot = repcap.Slot.Default) \n</span>
+<span class="sd">		Resets the slot configuration of a bandwidth part to its default state. \n</span>
+<span class="sd">		Same as preset, but waits for the operation to complete before continuing further. Use the RsFsw.utilities.opc_timeout_set() to set the timeout value. \n</span>
+<span class="sd">			:param carrierComponent: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Cc&#39;)</span>
+<span class="sd">			:param frame: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Frame&#39;)</span>
+<span class="sd">			:param bwPart: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;BwPart&#39;)</span>
+<span class="sd">			:param slot: optional repeated capability selector. Default value: Nr0 (settable in the interface &#39;Slot&#39;)</span>
+<span class="sd">			:param opc_timeout_ms: Maximum time to wait in milliseconds, valid only for this call.&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CONFigure:NR5G:DL:CC</span><span class="si">{</span><span class="n">carrierComponent_cmd_val</span><span class="si">}</span><span class="s1">:FRAMe</span><span class="si">{</span><span class="n">frame_cmd_val</span><span class="si">}</span><span class="s1">:BWPart</span><span class="si">{</span><span class="n">bwPart_cmd_val</span><span class="si">}</span><span class="s1">:SLOT</span><span class="si">{</span><span class="n">slot_cmd_val</span><span class="si">}</span><span class="s1">:PRESet&#39;</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">)</span></div>
+
+	<span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;SlotCls&#39;</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Clones the group by creating new object from it and its whole existing subgroups</span>
+<span class="sd">		Also copies all the existing default Repeated Capabilities setting,</span>
+<span class="sd">		which you can change independently without affecting the original group&quot;&quot;&quot;</span>
+		<span class="n">new_group</span> <span class="o">=</span> <span class="n">SlotCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">synchronize_repcaps</span><span class="p">(</span><span class="n">new_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">new_group</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

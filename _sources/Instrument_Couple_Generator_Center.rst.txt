@@ -1,0 +1,29 @@
+Center
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Generator.Center.CenterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.instrument.couple.generator.center.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Instrument_Couple_Generator_Center_Offset.rst
+	Instrument_Couple_Generator_Center_State.rst

@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:EVALuation:STOP
+
+.. code-block:: python
+
+	CALCulate<n>:EVALuation:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Evaluation.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

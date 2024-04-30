@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:OOFFset:MEAN:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:OOFFset:MEAN:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Ooffset.Mean.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

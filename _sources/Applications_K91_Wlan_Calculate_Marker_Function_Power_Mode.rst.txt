@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:POWer:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:POWer:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.Function.Power.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Tframe
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh[:CC<cc>]:SUMMary:TFRame
+
+.. code-block:: python
+
+	FETCh[:CC<cc>]:SUMMary:TFRame
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.Cc.Summary.Tframe.TframeCls
+	:members:
+	:undoc-members:
+	:noindex:

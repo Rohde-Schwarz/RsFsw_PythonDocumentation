@@ -1,0 +1,42 @@
+Cratio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TSIDelobe:CRATio
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TSIDelobe:CRATio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Tsidelobe.Cratio.CratioCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.tsidelobe.cratio.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_Cratio_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_Cratio_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_Cratio_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_Cratio_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_Cratio_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe_Cratio_StandardDev.rst

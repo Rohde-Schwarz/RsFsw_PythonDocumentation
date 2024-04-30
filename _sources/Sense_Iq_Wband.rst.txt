@@ -1,0 +1,20 @@
+Wband
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:WBANd
+
+.. code-block:: python
+
+	[SENSe]:IQ:WBANd
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Iq.Wband.WbandCls
+	:members:
+	:undoc-members:
+	:noindex:

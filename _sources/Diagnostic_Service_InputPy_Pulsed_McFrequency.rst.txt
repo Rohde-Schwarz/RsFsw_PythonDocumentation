@@ -1,0 +1,20 @@
+McFrequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:PULSed:MCFRequency
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:PULSed:MCFRequency
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Pulsed.McFrequency.McFrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

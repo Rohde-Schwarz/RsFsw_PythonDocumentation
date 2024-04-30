@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:TIMing:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:TIMing:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Timing.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

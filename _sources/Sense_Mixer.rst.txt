@@ -1,0 +1,39 @@
+Mixer
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mixer.MixerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.mixer.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Mixer_Bias.rst
+	Sense_Mixer_Frequency.rst
+	Sense_Mixer_Harmonic.rst
+	Sense_Mixer_Ifreq.rst
+	Sense_Mixer_LoPower.rst
+	Sense_Mixer_Loss.rst
+	Sense_Mixer_Ports.rst
+	Sense_Mixer_RfOverrange.rst
+	Sense_Mixer_Signal.rst
+	Sense_Mixer_State.rst
+	Sense_Mixer_Threshold.rst
+	Sense_Mixer_Xcorr.rst

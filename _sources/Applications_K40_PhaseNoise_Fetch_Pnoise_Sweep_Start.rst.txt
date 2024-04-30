@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PNOise<t>:SWEep:STARt
+
+.. code-block:: python
+
+	FETCh:PNOise<t>:SWEep:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Sweep.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

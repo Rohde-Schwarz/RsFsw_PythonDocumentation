@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:EQUalizer:FILTer:FILE:FORMat
+
+.. code-block:: python
+
+	CONFigure:EQUalizer:FILTer:FILE:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Equalizer.FilterPy.File.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

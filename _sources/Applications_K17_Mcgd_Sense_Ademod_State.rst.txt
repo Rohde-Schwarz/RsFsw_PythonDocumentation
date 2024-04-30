@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:ADEMod[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

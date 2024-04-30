@@ -1,0 +1,20 @@
+Volume
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:SPEaker:VOLume
+
+.. code-block:: python
+
+	SYSTem:SPEaker:VOLume
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.System.Speaker.Volume.VolumeCls
+	:members:
+	:undoc-members:
+	:noindex:

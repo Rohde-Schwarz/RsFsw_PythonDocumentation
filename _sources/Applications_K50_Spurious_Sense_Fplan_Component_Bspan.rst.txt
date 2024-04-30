@@ -1,0 +1,20 @@
+Bspan
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FPLan:COMPonent<co>:BSPan
+
+.. code-block:: python
+
+	[SENSe]:FPLan:COMPonent<co>:BSPan
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Component.Bspan.BspanCls
+	:members:
+	:undoc-members:
+	:noindex:

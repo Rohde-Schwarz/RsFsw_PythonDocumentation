@@ -1,0 +1,20 @@
+Dcycle
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:GOS:DCYCle
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:DCYCle
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Dcycle.DcycleCls
+	:members:
+	:undoc-members:
+	:noindex:

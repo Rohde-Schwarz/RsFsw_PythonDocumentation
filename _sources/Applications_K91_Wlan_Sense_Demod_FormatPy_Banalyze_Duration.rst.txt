@@ -1,0 +1,30 @@
+Duration
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.Banalyze.Duration.DurationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.demod.formatPy.banalyze.duration.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Duration_Equal.rst
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Duration_Max.rst
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Duration_Min.rst

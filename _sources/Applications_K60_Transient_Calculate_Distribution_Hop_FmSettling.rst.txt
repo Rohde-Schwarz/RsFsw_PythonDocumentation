@@ -1,0 +1,20 @@
+FmSettling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:HOP:FMSettling
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:HOP:FMSettling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Distribution.Hop.FmSettling.FmSettlingCls
+	:members:
+	:undoc-members:
+	:noindex:

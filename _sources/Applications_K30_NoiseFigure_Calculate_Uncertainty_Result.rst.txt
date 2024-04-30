@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty[:RESult]
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

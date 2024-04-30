@@ -1,0 +1,20 @@
+Ncorrection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:OOPower:NCORrection
+
+.. code-block:: python
+
+	[SENSe]:NR5G:OOPower:NCORrection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.OoPower.Ncorrection.NcorrectionCls
+	:members:
+	:undoc-members:
+	:noindex:

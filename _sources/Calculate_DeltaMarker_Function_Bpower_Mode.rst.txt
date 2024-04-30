@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:FUNCtion:BPOWer:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:FUNCtion:BPOWer:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Bpower.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

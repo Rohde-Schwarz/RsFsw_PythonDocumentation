@@ -1,0 +1,38 @@
+Sweep
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.SweepCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.sweep.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Sweep_Count.rst
+	Applications_K14x_Nr5G_Sense_Sweep_CtMode.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Duration.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Egate.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Event.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Lcapture.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Mode.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Optimize.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Scapture.rst
+	Applications_K14x_Nr5G_Sense_Sweep_Time.rst
+	Applications_K14x_Nr5G_Sense_Sweep_TypePy.rst

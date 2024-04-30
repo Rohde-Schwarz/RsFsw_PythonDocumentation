@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Trace.Iq.Data.Memory &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../" id="documentation_options" src="../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../Trace.html">RsFsw.Implementations.Trace</a> &raquo;</li>
+          <li><a href="../../Iq.html">RsFsw.Implementations.Trace.Iq</a> &raquo;</li>
+          <li><a href="../Data.html">RsFsw.Implementations.Trace.Iq.Data</a> &raquo;</li>
+      <li>RsFsw.Implementations.Trace.Iq.Data.Memory</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Trace.Iq.Data.Memory</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span>
+
+<span class="kn">from</span> <span class="nn">.....Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">.....Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">.....Internal.Types</span> <span class="kn">import</span> <span class="n">DataType</span>
+<span class="kn">from</span> <span class="nn">.....Internal.ArgSingleList</span> <span class="kn">import</span> <span class="n">ArgSingleList</span>
+<span class="kn">from</span> <span class="nn">.....Internal.ArgSingle</span> <span class="kn">import</span> <span class="n">ArgSingle</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="MemoryCls"><a class="viewcode-back" href="../../../../../../Trace_Iq_Data_Memory.html#RsFsw.Implementations.Trace.Iq.Data.Memory.MemoryCls">[docs]</a><span class="k">class</span> <span class="nc">MemoryCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Memory commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;memory&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+<div class="viewcode-block" id="MemoryCls.get"><a class="viewcode-back" href="../../../../../../Trace_Iq_Data_Memory.html#RsFsw.Implementations.Trace.Iq.Data.Memory.MemoryCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">points_offset</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">points_count</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">float</span><span class="p">]:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: TRACe:IQ:DATA:MEMory \n</span>
+<span class="sd">		Snippet: value: List[float] = driver.trace.iq.data.memory.get(points_offset = 1, points_count = 1) \n</span>
+<span class="sd">		Queries the I/Q data currently stored in the capture buffer of the FSW. By default, the command returns all I/Q data in</span>
+<span class="sd">		the memory. You can, however, narrow down the amount of data that the command returns using the optional parameters.</span>
+<span class="sd">		If no parameters are specified with the command, the entire trace data is retrieved. In this case, the command returns</span>
+<span class="sd">		the same results as method RsFsw.Trace.Iq.Data.get_. (Note, however, that the method RsFsw.Trace.Iq.Data.get_ command</span>
+<span class="sd">		initiates a new measurement before returning the captured values, rather than returning the existing data in the memory.)</span>
+<span class="sd">		This command is not available for traces captured with the optional 2 GHz / 5 GHz bandwidth extension (FSW-B2000/B5000) .</span>
+<span class="sd">		The command returns a comma-separated list of the measured values in floating point format (comma-separated values = CSV)</span>
+<span class="sd">		. The number of values returned is 2 * the number of complex samples. The total number of complex samples is displayed in</span>
+<span class="sd">		the channel bar in manual operation and can be calculated as: &lt;SampleRate&gt; * &lt;CaptureTime&gt; (See TRACe:IQ:SET, method</span>
+<span class="sd">		RsFsw.Applications.K10x_Lte.Trace.Iq.SymbolRate.get_ and [SENSe:]SWEep:TIME) \n</span>
+<span class="sd">			:param points_offset: No help available</span>
+<span class="sd">			:param points_count: No help available</span>
+<span class="sd">			:return: iq_data: Measured value pair (I,Q) for each sample that has been recorded. By default, the first half of the list contains the I values, the second half the Q values. The order can be configured using method RsFsw.Applications.K18_AmplifierEt.Trace.Iq.Data.FormatPy.set. The data format of the individual values depends on method RsFsw.FormatPy.Data.set. Unit: V&quot;&quot;&quot;</span>
+		<span class="n">param</span> <span class="o">=</span> <span class="n">ArgSingleList</span><span class="p">()</span><span class="o">.</span><span class="n">compose_cmd_string</span><span class="p">(</span><span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;points_offset&#39;</span><span class="p">,</span> <span class="n">points_offset</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">Integer</span><span class="p">),</span> <span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;points_count&#39;</span><span class="p">,</span> <span class="n">points_count</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">Integer</span><span class="p">))</span>
+		<span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_bin_or_ascii_float_list</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;FORMAT REAL,32;TRACe:IQ:DATA:MEMory? </span><span class="si">{</span><span class="n">param</span><span class="si">}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span>
+		<span class="k">return</span> <span class="n">response</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:CFACtor:IN:MAXimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:CFACtor:IN:MAXimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.Cfactor.InputPy.Maximum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

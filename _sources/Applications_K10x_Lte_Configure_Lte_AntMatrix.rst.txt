@@ -1,0 +1,30 @@
+AntMatrix
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.AntMatrix.AntMatrixCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.antMatrix.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_AntMatrix_Address.rst
+	Applications_K10x_Lte_Configure_Lte_AntMatrix_LedState.rst
+	Applications_K10x_Lte_Configure_Lte_AntMatrix_State.rst

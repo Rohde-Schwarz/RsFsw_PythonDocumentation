@@ -1,0 +1,20 @@
+Dmodulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL:NPDSch:DMODulation
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL:NPDSch:DMODulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Npdsch.Dmodulation.DmodulationCls
+	:members:
+	:undoc-members:
+	:noindex:

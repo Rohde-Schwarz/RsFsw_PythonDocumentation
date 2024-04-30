@@ -1,0 +1,37 @@
+InputPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_InputPy_Attenuation.rst
+	Applications_K17_Mcgd_InputPy_Connector.rst
+	Applications_K17_Mcgd_InputPy_Coupling.rst
+	Applications_K17_Mcgd_InputPy_Dpath.rst
+	Applications_K17_Mcgd_InputPy_Eatt.rst
+	Applications_K17_Mcgd_InputPy_FilterPy.rst
+	Applications_K17_Mcgd_InputPy_Gain.rst
+	Applications_K17_Mcgd_InputPy_Impedance.rst
+	Applications_K17_Mcgd_InputPy_Select.rst
+	Applications_K17_Mcgd_InputPy_TypePy.rst

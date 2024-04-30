@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:ADEMod[:ONLine][:STATe]
+
+.. code-block:: python
+
+	OUTPut:ADEMod[:ONLine][:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ademod.Online.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

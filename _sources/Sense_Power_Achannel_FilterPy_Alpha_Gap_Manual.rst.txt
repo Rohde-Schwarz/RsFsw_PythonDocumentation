@@ -1,0 +1,29 @@
+Manual
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.FilterPy.Alpha.Gap.Manual.ManualCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.filterPy.alpha.gap.manual.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_FilterPy_Alpha_Gap_Manual_Lower.rst
+	Sense_Power_Achannel_FilterPy_Alpha_Gap_Manual_Upper.rst

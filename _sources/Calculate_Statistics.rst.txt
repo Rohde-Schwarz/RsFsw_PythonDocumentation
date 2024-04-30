@@ -1,0 +1,41 @@
+Statistics
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:PRESet
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:PRESet
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.StatisticsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.statistics.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Statistics_AmplitudeProbDensity.rst
+	Calculate_Statistics_CumulativeDistribFnc.rst
+	Calculate_Statistics_Nsamples.rst
+	Calculate_Statistics_Result.rst
+	Calculate_Statistics_Scale.rst

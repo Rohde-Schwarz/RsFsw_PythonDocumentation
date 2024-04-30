@@ -1,0 +1,20 @@
+Duplicate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INSTrument:CREate:DUPLicate
+
+.. code-block:: python
+
+	INSTrument:CREate:DUPLicate
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Create.Duplicate.DuplicateCls
+	:members:
+	:undoc-members:
+	:noindex:

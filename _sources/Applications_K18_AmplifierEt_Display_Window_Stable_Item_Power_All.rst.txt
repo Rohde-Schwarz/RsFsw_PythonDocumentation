@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:STABle:ITEM:POWer:ALL
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:STABle:ITEM:POWer:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Stable.Item.Power.All.AllCls
+	:members:
+	:undoc-members:
+	:noindex:

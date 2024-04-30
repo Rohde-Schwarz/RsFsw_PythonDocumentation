@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:FERRor:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:FERRor:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.FreqError.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

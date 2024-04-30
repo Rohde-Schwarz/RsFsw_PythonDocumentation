@@ -1,0 +1,20 @@
+Aunit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INSTrument:COUPle:AUNit
+
+.. code-block:: python
+
+	INSTrument:COUPle:AUNit
+
+
+
+.. autoclass:: RsFsw.Implementations.Instrument.Couple.Aunit.AunitCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:PERRor:PCURrent:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:PERRor:PCURrent:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Perror.Pcurrent.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

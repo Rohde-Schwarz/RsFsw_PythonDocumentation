@@ -1,0 +1,20 @@
+WlfRatio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:FDOMain:WLFRatio
+
+.. code-block:: python
+
+	CONFigure:FDOMain:WLFRatio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Fdomain.WlfRatio.WlfRatioCls
+	:members:
+	:undoc-members:
+	:noindex:

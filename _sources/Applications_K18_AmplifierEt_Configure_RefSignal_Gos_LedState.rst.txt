@@ -1,0 +1,20 @@
+LedState
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:GOS:LEDState
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:LEDState
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.LedState.LedStateCls
+	:members:
+	:undoc-members:
+	:noindex:

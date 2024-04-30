@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:CONFigure:GENerator:INITialise[:IMMediate]
+
+.. code-block:: python
+
+	SYSTem:CONFigure:GENerator:INITialise[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.System.Configure.Generator.Initialise.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

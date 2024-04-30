@@ -1,0 +1,20 @@
+Osystem
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:OSYStem
+
+.. code-block:: python
+
+	SYSTem:OSYStem
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Osystem.OsystemCls
+	:members:
+	:undoc-members:
+	:noindex:

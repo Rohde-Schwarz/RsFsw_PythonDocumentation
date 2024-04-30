@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:TABLe:DATA
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:TABLe:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Frequency.Table.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

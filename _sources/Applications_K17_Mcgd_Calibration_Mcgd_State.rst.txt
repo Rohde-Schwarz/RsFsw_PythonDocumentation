@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALibration:MCGD:STATe
+
+.. code-block:: python
+
+	CALibration:MCGD:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Calibration.Mcgd.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

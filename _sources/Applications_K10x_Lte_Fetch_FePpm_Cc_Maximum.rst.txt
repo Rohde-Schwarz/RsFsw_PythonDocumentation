@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:FEPPm[:CC<cc>]:MAXimum
+
+.. code-block:: python
+
+	FETCh:FEPPm[:CC<cc>]:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.FePpm.Cc.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

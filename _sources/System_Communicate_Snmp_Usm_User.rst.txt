@@ -1,0 +1,41 @@
+User
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: SYSTem:COMMunicate:SNMP:USM:USER
+	single: SYSTem:COMMunicate:SNMP:USM:USER:DELete
+	single: SYSTem:COMMunicate:SNMP:USM:USER:DELete:ALL
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:SNMP:USM:USER
+	SYSTem:COMMunicate:SNMP:USM:USER:DELete
+	SYSTem:COMMunicate:SNMP:USM:USER:DELete:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Communicate.Snmp.Usm.User.UserCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.communicate.snmp.usm.user.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Communicate_Snmp_Usm_User_All.rst

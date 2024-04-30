@@ -1,0 +1,20 @@
+Replace
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:STATes:TABLe:REPLace
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:STATes:TABLe:REPLace
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.States.Table.Replace.ReplaceCls
+	:members:
+	:undoc-members:
+	:noindex:

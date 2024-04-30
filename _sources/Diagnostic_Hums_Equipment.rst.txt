@@ -1,0 +1,20 @@
+Equipment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:EQUipment
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:EQUipment
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Equipment.EquipmentCls
+	:members:
+	:undoc-members:
+	:noindex:

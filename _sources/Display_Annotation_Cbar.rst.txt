@@ -1,0 +1,20 @@
+Cbar
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:ANNotation:CBAR
+
+.. code-block:: python
+
+	DISPlay:ANNotation:CBAR
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Annotation.Cbar.CbarCls
+	:members:
+	:undoc-members:
+	:noindex:

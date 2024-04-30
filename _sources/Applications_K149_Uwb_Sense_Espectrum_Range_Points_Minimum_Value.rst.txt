@@ -1,0 +1,37 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:RANGe<range>:POINts:MINimum[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:RANGe<range>:POINts:MINimum[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Range.Points.Minimum.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.espectrum.range.points.minimum.value.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Espectrum_Range_Points_Minimum_Value_Dummy.rst

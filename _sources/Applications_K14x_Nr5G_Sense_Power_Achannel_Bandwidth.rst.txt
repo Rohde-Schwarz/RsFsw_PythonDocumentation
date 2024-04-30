@@ -1,0 +1,33 @@
+Bandwidth
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Bandwidth.BandwidthCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.power.achannel.bandwidth.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Bandwidth_Achannel.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Bandwidth_Alternate.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Bandwidth_Channel.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Bandwidth_Gap.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Bandwidth_UaChannel.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Bandwidth_Ualternate.rst

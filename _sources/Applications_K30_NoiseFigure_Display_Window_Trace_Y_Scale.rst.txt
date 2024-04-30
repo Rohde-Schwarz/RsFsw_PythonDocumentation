@@ -1,0 +1,31 @@
+Scale
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Display.Window.Trace.Y.Scale.ScaleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.display.window.trace.y.scale.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_Auto.rst
+	Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_Bottom.rst
+	Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_RefLevel.rst
+	Applications_K30_NoiseFigure_Display_Window_Trace_Y_Scale_Top.rst

@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:POWer:RESult
+
+.. code-block:: python
+
+	[SENSe]:LIST:POWer:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Power.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

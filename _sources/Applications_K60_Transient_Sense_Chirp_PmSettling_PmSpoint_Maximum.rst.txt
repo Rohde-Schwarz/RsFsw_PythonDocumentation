@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PMSettling:PMSPoint:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PMSettling:PMSPoint:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.PmSettling.PmSpoint.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,32 @@
+Power
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel.rst
+	Sense_Power_Bandwidth.rst
+	Sense_Power_Hspeed.rst
+	Sense_Power_Ncorrection.rst
+	Sense_Power_Trace.rst

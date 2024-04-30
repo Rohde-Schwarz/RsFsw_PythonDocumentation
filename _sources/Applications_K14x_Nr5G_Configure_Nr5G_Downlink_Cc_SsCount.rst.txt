@@ -1,0 +1,20 @@
+SsCount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:SSCount
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:SSCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.SsCount.SsCountCls
+	:members:
+	:undoc-members:
+	:noindex:

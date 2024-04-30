@@ -1,0 +1,20 @@
+Agating
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:AGATing
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:AGATing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Egate.Agating.AgatingCls
+	:members:
+	:undoc-members:
+	:noindex:

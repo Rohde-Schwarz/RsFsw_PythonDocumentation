@@ -1,0 +1,20 @@
+Anst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SRS:ANST
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SRS:ANST
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Srs.Anst.AnstCls
+	:members:
+	:undoc-members:
+	:noindex:

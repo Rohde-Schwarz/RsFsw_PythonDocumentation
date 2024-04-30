@@ -1,0 +1,38 @@
+Setup
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Probe.Setup.SetupCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.probe.setup.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Probe_Setup_Attenuation.rst
+	Sense_Probe_Setup_AttRatio.rst
+	Sense_Probe_Setup_CmOffset.rst
+	Sense_Probe_Setup_DmOffset.rst
+	Sense_Probe_Setup_Mode.rst
+	Sense_Probe_Setup_Name.rst
+	Sense_Probe_Setup_NmOffset.rst
+	Sense_Probe_Setup_Pmode.rst
+	Sense_Probe_Setup_PmOffset.rst
+	Sense_Probe_Setup_State.rst
+	Sense_Probe_Setup_TypePy.rst

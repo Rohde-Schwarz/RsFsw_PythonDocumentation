@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<pb>:SETup:TYPE
+
+.. code-block:: python
+
+	[SENSe]:PROBe<pb>:SETup:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Probe.Setup.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

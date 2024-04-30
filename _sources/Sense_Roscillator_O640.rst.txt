@@ -1,0 +1,20 @@
+O640
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:O640
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:O640
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.O640.O640Cls
+	:members:
+	:undoc-members:
+	:noindex:

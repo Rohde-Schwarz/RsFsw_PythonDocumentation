@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:USER:FLISt<fli>:MAGNitude[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:USER:FLISt<fli>:MAGNitude[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.User.Flist.Magnitude.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

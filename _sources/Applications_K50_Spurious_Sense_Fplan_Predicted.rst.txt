@@ -1,0 +1,20 @@
+Predicted
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FPLan:PREDicted:EXPort
+
+.. code-block:: python
+
+	[SENSe]:FPLan:PREDicted:EXPort
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Predicted.PredictedCls
+	:members:
+	:undoc-members:
+	:noindex:

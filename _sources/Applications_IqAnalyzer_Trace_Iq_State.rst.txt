@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ[:STATe]
+
+.. code-block:: python
+
+	TRACe:IQ[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Trace.Iq.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

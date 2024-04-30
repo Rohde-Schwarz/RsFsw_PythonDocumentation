@@ -1,0 +1,20 @@
+Add
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FPLan:COMPonent<co>:ADD
+
+.. code-block:: python
+
+	[SENSe]:FPLan:COMPonent<co>:ADD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Component.Add.AddCls
+	:members:
+	:undoc-members:
+	:noindex:

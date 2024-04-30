@@ -1,0 +1,20 @@
+HwSettings
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect:CHANnel[:ITEM]:HWSettings
+
+.. code-block:: python
+
+	MMEMory:SELect:CHANnel[:ITEM]:HWSettings
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.HwSettings.HwSettingsCls
+	:members:
+	:undoc-members:
+	:noindex:

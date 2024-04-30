@@ -1,0 +1,20 @@
+Execute
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:SPCHeck:EXECute
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SPCHeck:EXECute
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.SpCheck.Execute.ExecuteCls
+	:members:
+	:undoc-members:
+	:noindex:

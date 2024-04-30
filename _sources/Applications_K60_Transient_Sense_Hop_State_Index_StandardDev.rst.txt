@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:STATe[:INDex]:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:HOP:STATe[:INDex]:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.State.Index.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

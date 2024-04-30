@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:STATistic<n>:TYPE
+
+.. code-block:: python
+
+	[SENSe]:STATistic<n>:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Statistic.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

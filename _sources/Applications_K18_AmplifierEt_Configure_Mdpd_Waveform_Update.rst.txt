@@ -1,0 +1,20 @@
+Update
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MDPD:WAVeform:UPDate
+
+.. code-block:: python
+
+	CONFigure:MDPD:WAVeform:UPDate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.Waveform.Update.UpdateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Detection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:PLC:DETection
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:PLC:DETection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Plc.Detection.DetectionCls
+	:members:
+	:undoc-members:
+	:noindex:

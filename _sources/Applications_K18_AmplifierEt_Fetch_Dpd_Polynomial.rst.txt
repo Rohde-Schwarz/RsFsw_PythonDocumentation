@@ -1,0 +1,20 @@
+Polynomial
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:DPD:POLYnomial
+
+.. code-block:: python
+
+	FETCh:DPD:POLYnomial
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Dpd.Polynomial.PolynomialCls
+	:members:
+	:undoc-members:
+	:noindex:

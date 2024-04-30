@@ -1,0 +1,20 @@
+RmsFm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FREQuency:RMSFm
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FREQuency:RMSFm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.RmsFm.RmsFmCls
+	:members:
+	:undoc-members:
+	:noindex:

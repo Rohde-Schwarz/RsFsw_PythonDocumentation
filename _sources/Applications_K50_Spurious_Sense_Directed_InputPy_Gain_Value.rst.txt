@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DIRected:INPut:GAIN[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DIRected:INPut:GAIN[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.InputPy.Gain.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

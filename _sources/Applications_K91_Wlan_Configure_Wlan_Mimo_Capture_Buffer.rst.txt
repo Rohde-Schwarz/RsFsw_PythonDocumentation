@@ -1,0 +1,20 @@
+Buffer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:MIMO:CAPTure:BUFFer
+
+.. code-block:: python
+
+	CONFigure:WLAN:MIMO:CAPTure:BUFFer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Mimo.Capture.Buffer.BufferCls
+	:members:
+	:undoc-members:
+	:noindex:

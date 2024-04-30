@@ -1,0 +1,20 @@
+Atiming
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:OOPower:ATIMing
+
+.. code-block:: python
+
+	[SENSe][:LTE]:OOPower:ATIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.OoPower.Atiming.AtimingCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,30 @@
+Slimits
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.X.Slimits.SlimitsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.marker.x.slimits.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Marker_X_Slimits_Left.rst
+	Applications_K91_Wlan_Calculate_Marker_X_Slimits_Right.rst
+	Applications_K91_Wlan_Calculate_Marker_X_Slimits_State.rst

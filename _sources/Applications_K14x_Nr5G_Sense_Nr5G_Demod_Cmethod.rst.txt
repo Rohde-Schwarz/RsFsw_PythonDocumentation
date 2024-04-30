@@ -1,0 +1,20 @@
+Cmethod
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:CMEThod
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:CMEThod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.Cmethod.CmethodCls
+	:members:
+	:undoc-members:
+	:noindex:

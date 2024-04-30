@@ -1,0 +1,39 @@
+Sequencer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INITiate:SEQuencer:ABORt
+
+.. code-block:: python
+
+	INITiate:SEQuencer:ABORt
+
+
+
+.. autoclass:: RsFsw.Implementations.Initiate.Sequencer.SequencerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.initiate.sequencer.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Initiate_Sequencer_Immediate.rst
+	Initiate_Sequencer_Mode.rst
+	Initiate_Sequencer_Refresh.rst

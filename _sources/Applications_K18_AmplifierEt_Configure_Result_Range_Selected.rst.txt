@@ -1,0 +1,20 @@
+Selected
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:RESult:RANGe[:SELected]
+
+.. code-block:: python
+
+	CONFigure:RESult:RANGe[:SELected]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Result.Range.Selected.SelectedCls
+	:members:
+	:undoc-members:
+	:noindex:

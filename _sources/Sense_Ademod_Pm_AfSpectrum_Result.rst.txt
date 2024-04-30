@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:PM:AFSPectrum:RESult
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:PM:AFSPectrum:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Pm.AfSpectrum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

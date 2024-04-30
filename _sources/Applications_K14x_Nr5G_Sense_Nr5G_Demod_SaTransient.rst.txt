@@ -1,0 +1,20 @@
+SaTransient
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:SATRansient
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:SATRansient
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.SaTransient.SaTransientCls
+	:members:
+	:undoc-members:
+	:noindex:

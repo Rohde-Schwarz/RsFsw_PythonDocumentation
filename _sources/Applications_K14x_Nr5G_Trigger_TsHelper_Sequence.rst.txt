@@ -1,0 +1,20 @@
+Sequence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger:TSHelper:SEQuence
+
+.. code-block:: python
+
+	TRIGger:TSHelper:SEQuence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trigger.TsHelper.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:

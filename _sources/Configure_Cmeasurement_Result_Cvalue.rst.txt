@@ -1,0 +1,20 @@
+Cvalue
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CMEasurement:RESult:CVALue
+
+.. code-block:: python
+
+	CONFigure:CMEasurement:RESult:CVALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Cmeasurement.Result.Cvalue.CvalueCls
+	:members:
+	:undoc-members:
+	:noindex:

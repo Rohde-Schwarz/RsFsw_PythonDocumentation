@@ -1,0 +1,49 @@
+Cc<CarrierComponent>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.repcap_carrierComponent_get()
+	driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.repcap_carrierComponent_set(repcap.CarrierComponent.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.CcCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.uplink.cc.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Bw.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_DfRange.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Fnnf.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Frame.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_FtConfig.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Idc.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Pamapping.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Plc.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Prach.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Pusch.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Rfuc.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Rpa.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_Sflatness.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink_Cc_TpRecoding.rst

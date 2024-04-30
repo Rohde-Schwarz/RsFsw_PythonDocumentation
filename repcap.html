@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RepCaps &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="Enums" href="enums.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">RepCaps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#allocation">Allocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#antenna">Antenna</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#antennaport">AntennaPort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#antennaport1k">AntennaPort1k</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#antennaport3k">AntennaPort3k</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#antennaportconfig">AntennaPortConfig</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bwpart">BwPart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#carriercomponent">CarrierComponent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#channel">Channel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cluster">Cluster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#codeword">Codeword</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coefficients">Coefficients</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#colors">Colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#component">Component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#coreset">Coreset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cornerfrequency">CornerFrequency</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#csirs">CsiRs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deltamarker">DeltaMarker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#displayline">DisplayLine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#externalgen">ExternalGen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#externalport">ExternalPort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#externalrosc">ExternalRosc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#filelist">FileList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#filterpy">FilterPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#frame">Frame</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#freqline">FreqLine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#freqoffset">FreqOffset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gapchannel">GapChannel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gaterange">GateRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#generator">Generator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#halfdecaderange">HalfDecadeRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inputix">InputIx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#instrument">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#item">Item</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#limitix">LimitIx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#limitsegment">LimitSegment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#line">Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#marker">Marker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markerdestination">MarkerDestination</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mimoantenna">MimoAntenna</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#notch">Notch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#outputconnector">OutputConnector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#port">Port</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#powerclass">PowerClass</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#powerline">PowerLine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#powermeter">PowerMeter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#probe">Probe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pucch">Pucch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rangepy">RangePy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#refmeasurement">RefMeasurement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ruallocationix">RuAllocationIx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#segment">Segment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#slot">Slot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#source">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sportpair">SPortPair</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ssblock">SsBlock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#status">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step">Step</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#store">Store</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#subblock">SubBlock</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#subframe">Subframe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#subwindow">SubWindow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tab">Tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#targetlimitline">TargetLimitLine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#timeline">TimeLine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#touchstone">TouchStone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#trace">Trace</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#triggerport">TriggerPort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#upperaltchannel">UpperAltChannel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#userix">UserIx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#userrange">UserRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#window">Window</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#zoomwindow">ZoomWindow</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>RepCaps</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/repcap.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="repcaps">
+<h1>RepCaps<a class="headerlink" href="#repcaps" title="Permalink to this headline"></a></h1>
+<section id="allocation">
+<h2>Allocation<a class="headerlink" href="#allocation" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Allocation</span><span class="o">.</span><span class="n">Nr0</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr0</span> <span class="o">..</span> <span class="n">Nr110</span>
+<span class="c1"># All values (111x):</span>
+<span class="n">Nr0</span> <span class="o">|</span> <span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span>
+<span class="n">Nr8</span> <span class="o">|</span> <span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span>
+<span class="n">Nr16</span> <span class="o">|</span> <span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span>
+<span class="n">Nr24</span> <span class="o">|</span> <span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span>
+<span class="n">Nr32</span> <span class="o">|</span> <span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span>
+<span class="n">Nr40</span> <span class="o">|</span> <span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span>
+<span class="n">Nr48</span> <span class="o">|</span> <span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span>
+<span class="n">Nr56</span> <span class="o">|</span> <span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span>
+<span class="n">Nr64</span> <span class="o">|</span> <span class="n">Nr65</span> <span class="o">|</span> <span class="n">Nr66</span> <span class="o">|</span> <span class="n">Nr67</span> <span class="o">|</span> <span class="n">Nr68</span> <span class="o">|</span> <span class="n">Nr69</span> <span class="o">|</span> <span class="n">Nr70</span> <span class="o">|</span> <span class="n">Nr71</span>
+<span class="n">Nr72</span> <span class="o">|</span> <span class="n">Nr73</span> <span class="o">|</span> <span class="n">Nr74</span> <span class="o">|</span> <span class="n">Nr75</span> <span class="o">|</span> <span class="n">Nr76</span> <span class="o">|</span> <span class="n">Nr77</span> <span class="o">|</span> <span class="n">Nr78</span> <span class="o">|</span> <span class="n">Nr79</span>
+<span class="n">Nr80</span> <span class="o">|</span> <span class="n">Nr81</span> <span class="o">|</span> <span class="n">Nr82</span> <span class="o">|</span> <span class="n">Nr83</span> <span class="o">|</span> <span class="n">Nr84</span> <span class="o">|</span> <span class="n">Nr85</span> <span class="o">|</span> <span class="n">Nr86</span> <span class="o">|</span> <span class="n">Nr87</span>
+<span class="n">Nr88</span> <span class="o">|</span> <span class="n">Nr89</span> <span class="o">|</span> <span class="n">Nr90</span> <span class="o">|</span> <span class="n">Nr91</span> <span class="o">|</span> <span class="n">Nr92</span> <span class="o">|</span> <span class="n">Nr93</span> <span class="o">|</span> <span class="n">Nr94</span> <span class="o">|</span> <span class="n">Nr95</span>
+<span class="n">Nr96</span> <span class="o">|</span> <span class="n">Nr97</span> <span class="o">|</span> <span class="n">Nr98</span> <span class="o">|</span> <span class="n">Nr99</span> <span class="o">|</span> <span class="n">Nr100</span> <span class="o">|</span> <span class="n">Nr101</span> <span class="o">|</span> <span class="n">Nr102</span> <span class="o">|</span> <span class="n">Nr103</span>
+<span class="n">Nr104</span> <span class="o">|</span> <span class="n">Nr105</span> <span class="o">|</span> <span class="n">Nr106</span> <span class="o">|</span> <span class="n">Nr107</span> <span class="o">|</span> <span class="n">Nr108</span> <span class="o">|</span> <span class="n">Nr109</span> <span class="o">|</span> <span class="n">Nr110</span>
+</pre></div>
+</div>
+</section>
+<section id="antenna">
+<h2>Antenna<a class="headerlink" href="#antenna" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Antenna</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="antennaport">
+<h2>AntennaPort<a class="headerlink" href="#antennaport" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">AntennaPort</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr12</span>
+<span class="c1"># All values (12x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span>
+</pre></div>
+</div>
+</section>
+<section id="antennaport1k">
+<h2>AntennaPort1k<a class="headerlink" href="#antennaport1k" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">AntennaPort1k</span><span class="o">.</span><span class="n">Nr1000</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1000</span> <span class="o">..</span> <span class="n">Nr1011</span>
+<span class="c1"># All values (12x):</span>
+<span class="n">Nr1000</span> <span class="o">|</span> <span class="n">Nr1001</span> <span class="o">|</span> <span class="n">Nr1002</span> <span class="o">|</span> <span class="n">Nr1003</span> <span class="o">|</span> <span class="n">Nr1004</span> <span class="o">|</span> <span class="n">Nr1005</span> <span class="o">|</span> <span class="n">Nr1006</span> <span class="o">|</span> <span class="n">Nr1007</span>
+<span class="n">Nr1008</span> <span class="o">|</span> <span class="n">Nr1009</span> <span class="o">|</span> <span class="n">Nr1010</span> <span class="o">|</span> <span class="n">Nr1011</span>
+</pre></div>
+</div>
+</section>
+<section id="antennaport3k">
+<h2>AntennaPort3k<a class="headerlink" href="#antennaport3k" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">AntennaPort3k</span><span class="o">.</span><span class="n">Nr3000</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr3000</span> <span class="o">..</span> <span class="n">Nr3031</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr3000</span> <span class="o">|</span> <span class="n">Nr3001</span> <span class="o">|</span> <span class="n">Nr3002</span> <span class="o">|</span> <span class="n">Nr3003</span> <span class="o">|</span> <span class="n">Nr3004</span> <span class="o">|</span> <span class="n">Nr3005</span> <span class="o">|</span> <span class="n">Nr3006</span> <span class="o">|</span> <span class="n">Nr3007</span>
+<span class="n">Nr3008</span> <span class="o">|</span> <span class="n">Nr3009</span> <span class="o">|</span> <span class="n">Nr3010</span> <span class="o">|</span> <span class="n">Nr3011</span> <span class="o">|</span> <span class="n">Nr3012</span> <span class="o">|</span> <span class="n">Nr3013</span> <span class="o">|</span> <span class="n">Nr3014</span> <span class="o">|</span> <span class="n">Nr3015</span>
+<span class="n">Nr3016</span> <span class="o">|</span> <span class="n">Nr3017</span> <span class="o">|</span> <span class="n">Nr3018</span> <span class="o">|</span> <span class="n">Nr3019</span> <span class="o">|</span> <span class="n">Nr3020</span> <span class="o">|</span> <span class="n">Nr3021</span> <span class="o">|</span> <span class="n">Nr3022</span> <span class="o">|</span> <span class="n">Nr3023</span>
+<span class="n">Nr3024</span> <span class="o">|</span> <span class="n">Nr3025</span> <span class="o">|</span> <span class="n">Nr3026</span> <span class="o">|</span> <span class="n">Nr3027</span> <span class="o">|</span> <span class="n">Nr3028</span> <span class="o">|</span> <span class="n">Nr3029</span> <span class="o">|</span> <span class="n">Nr3030</span> <span class="o">|</span> <span class="n">Nr3031</span>
+</pre></div>
+</div>
+</section>
+<section id="antennaportconfig">
+<h2>AntennaPortConfig<a class="headerlink" href="#antennaportconfig" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">AntennaPortConfig</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (2x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span>
+</pre></div>
+</div>
+</section>
+<section id="bwpart">
+<h2>BwPart<a class="headerlink" href="#bwpart" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">BwPart</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr12</span>
+<span class="c1"># All values (12x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span>
+</pre></div>
+</div>
+</section>
+<section id="carriercomponent">
+<h2>CarrierComponent<a class="headerlink" href="#carriercomponent" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CarrierComponent</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="channel">
+<h2>Channel<a class="headerlink" href="#channel" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Channel</span><span class="o">.</span><span class="n">Ch1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ch1</span> <span class="o">..</span> <span class="n">Ch64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Ch1</span> <span class="o">|</span> <span class="n">Ch2</span> <span class="o">|</span> <span class="n">Ch3</span> <span class="o">|</span> <span class="n">Ch4</span> <span class="o">|</span> <span class="n">Ch5</span> <span class="o">|</span> <span class="n">Ch6</span> <span class="o">|</span> <span class="n">Ch7</span> <span class="o">|</span> <span class="n">Ch8</span>
+<span class="n">Ch9</span> <span class="o">|</span> <span class="n">Ch10</span> <span class="o">|</span> <span class="n">Ch11</span> <span class="o">|</span> <span class="n">Ch12</span> <span class="o">|</span> <span class="n">Ch13</span> <span class="o">|</span> <span class="n">Ch14</span> <span class="o">|</span> <span class="n">Ch15</span> <span class="o">|</span> <span class="n">Ch16</span>
+<span class="n">Ch17</span> <span class="o">|</span> <span class="n">Ch18</span> <span class="o">|</span> <span class="n">Ch19</span> <span class="o">|</span> <span class="n">Ch20</span> <span class="o">|</span> <span class="n">Ch21</span> <span class="o">|</span> <span class="n">Ch22</span> <span class="o">|</span> <span class="n">Ch23</span> <span class="o">|</span> <span class="n">Ch24</span>
+<span class="n">Ch25</span> <span class="o">|</span> <span class="n">Ch26</span> <span class="o">|</span> <span class="n">Ch27</span> <span class="o">|</span> <span class="n">Ch28</span> <span class="o">|</span> <span class="n">Ch29</span> <span class="o">|</span> <span class="n">Ch30</span> <span class="o">|</span> <span class="n">Ch31</span> <span class="o">|</span> <span class="n">Ch32</span>
+<span class="n">Ch33</span> <span class="o">|</span> <span class="n">Ch34</span> <span class="o">|</span> <span class="n">Ch35</span> <span class="o">|</span> <span class="n">Ch36</span> <span class="o">|</span> <span class="n">Ch37</span> <span class="o">|</span> <span class="n">Ch38</span> <span class="o">|</span> <span class="n">Ch39</span> <span class="o">|</span> <span class="n">Ch40</span>
+<span class="n">Ch41</span> <span class="o">|</span> <span class="n">Ch42</span> <span class="o">|</span> <span class="n">Ch43</span> <span class="o">|</span> <span class="n">Ch44</span> <span class="o">|</span> <span class="n">Ch45</span> <span class="o">|</span> <span class="n">Ch46</span> <span class="o">|</span> <span class="n">Ch47</span> <span class="o">|</span> <span class="n">Ch48</span>
+<span class="n">Ch49</span> <span class="o">|</span> <span class="n">Ch50</span> <span class="o">|</span> <span class="n">Ch51</span> <span class="o">|</span> <span class="n">Ch52</span> <span class="o">|</span> <span class="n">Ch53</span> <span class="o">|</span> <span class="n">Ch54</span> <span class="o">|</span> <span class="n">Ch55</span> <span class="o">|</span> <span class="n">Ch56</span>
+<span class="n">Ch57</span> <span class="o">|</span> <span class="n">Ch58</span> <span class="o">|</span> <span class="n">Ch59</span> <span class="o">|</span> <span class="n">Ch60</span> <span class="o">|</span> <span class="n">Ch61</span> <span class="o">|</span> <span class="n">Ch62</span> <span class="o">|</span> <span class="n">Ch63</span> <span class="o">|</span> <span class="n">Ch64</span>
+</pre></div>
+</div>
+</section>
+<section id="cluster">
+<h2>Cluster<a class="headerlink" href="#cluster" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Cluster</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (2x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span>
+</pre></div>
+</div>
+</section>
+<section id="codeword">
+<h2>Codeword<a class="headerlink" href="#codeword" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Codeword</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+</pre></div>
+</div>
+</section>
+<section id="coefficients">
+<h2>Coefficients<a class="headerlink" href="#coefficients" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Coefficients</span><span class="o">.</span><span class="n">Order1</span>
+<span class="c1"># Range:</span>
+<span class="n">Order1</span> <span class="o">..</span> <span class="n">Order16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Order1</span> <span class="o">|</span> <span class="n">Order2</span> <span class="o">|</span> <span class="n">Order3</span> <span class="o">|</span> <span class="n">Order4</span> <span class="o">|</span> <span class="n">Order5</span> <span class="o">|</span> <span class="n">Order6</span> <span class="o">|</span> <span class="n">Order7</span> <span class="o">|</span> <span class="n">Order8</span>
+<span class="n">Order9</span> <span class="o">|</span> <span class="n">Order10</span> <span class="o">|</span> <span class="n">Order11</span> <span class="o">|</span> <span class="n">Order12</span> <span class="o">|</span> <span class="n">Order13</span> <span class="o">|</span> <span class="n">Order14</span> <span class="o">|</span> <span class="n">Order15</span> <span class="o">|</span> <span class="n">Order16</span>
+</pre></div>
+</div>
+</section>
+<section id="colors">
+<h2>Colors<a class="headerlink" href="#colors" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Colors</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span>
+</pre></div>
+</div>
+</section>
+<section id="component">
+<h2>Component<a class="headerlink" href="#component" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Component</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix7</span> <span class="o">|</span> <span class="n">Ix8</span>
+<span class="n">Ix9</span> <span class="o">|</span> <span class="n">Ix10</span> <span class="o">|</span> <span class="n">Ix11</span> <span class="o">|</span> <span class="n">Ix12</span> <span class="o">|</span> <span class="n">Ix13</span> <span class="o">|</span> <span class="n">Ix14</span> <span class="o">|</span> <span class="n">Ix15</span> <span class="o">|</span> <span class="n">Ix16</span>
+<span class="n">Ix17</span> <span class="o">|</span> <span class="n">Ix18</span> <span class="o">|</span> <span class="n">Ix19</span> <span class="o">|</span> <span class="n">Ix20</span> <span class="o">|</span> <span class="n">Ix21</span> <span class="o">|</span> <span class="n">Ix22</span> <span class="o">|</span> <span class="n">Ix23</span> <span class="o">|</span> <span class="n">Ix24</span>
+<span class="n">Ix25</span> <span class="o">|</span> <span class="n">Ix26</span> <span class="o">|</span> <span class="n">Ix27</span> <span class="o">|</span> <span class="n">Ix28</span> <span class="o">|</span> <span class="n">Ix29</span> <span class="o">|</span> <span class="n">Ix30</span> <span class="o">|</span> <span class="n">Ix31</span> <span class="o">|</span> <span class="n">Ix32</span>
+</pre></div>
+</div>
+</section>
+<section id="coreset">
+<h2>Coreset<a class="headerlink" href="#coreset" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Coreset</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+<span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span> <span class="o">|</span> <span class="n">Nr40</span>
+<span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span> <span class="o">|</span> <span class="n">Nr48</span>
+<span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span> <span class="o">|</span> <span class="n">Nr56</span>
+<span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span> <span class="o">|</span> <span class="n">Nr64</span>
+</pre></div>
+</div>
+</section>
+<section id="cornerfrequency">
+<h2>CornerFrequency<a class="headerlink" href="#cornerfrequency" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CornerFrequency</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr5</span>
+<span class="c1"># All values (5x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span>
+</pre></div>
+</div>
+</section>
+<section id="csirs">
+<h2>CsiRs<a class="headerlink" href="#csirs" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">CsiRs</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+<span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span> <span class="o">|</span> <span class="n">Nr40</span>
+<span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span> <span class="o">|</span> <span class="n">Nr48</span>
+<span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span> <span class="o">|</span> <span class="n">Nr56</span>
+<span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span> <span class="o">|</span> <span class="n">Nr64</span>
+</pre></div>
+</div>
+</section>
+<section id="deltamarker">
+<h2>DeltaMarker<a class="headerlink" href="#deltamarker" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">DeltaMarker</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="displayline">
+<h2>DisplayLine<a class="headerlink" href="#displayline" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">DisplayLine</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (2x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span>
+</pre></div>
+</div>
+</section>
+<section id="externalgen">
+<h2>ExternalGen<a class="headerlink" href="#externalgen" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">ExternalGen</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+</pre></div>
+</div>
+</section>
+<section id="externalport">
+<h2>ExternalPort<a class="headerlink" href="#externalport" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">ExternalPort</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (3x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span>
+</pre></div>
+</div>
+</section>
+<section id="externalrosc">
+<h2>ExternalRosc<a class="headerlink" href="#externalrosc" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">ExternalRosc</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (2x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span>
+</pre></div>
+</div>
+</section>
+<section id="filelist">
+<h2>FileList<a class="headerlink" href="#filelist" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">FileList</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+<span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span> <span class="o">|</span> <span class="n">Nr40</span>
+<span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span> <span class="o">|</span> <span class="n">Nr48</span>
+<span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span> <span class="o">|</span> <span class="n">Nr56</span>
+<span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span> <span class="o">|</span> <span class="n">Nr64</span>
+</pre></div>
+</div>
+</section>
+<section id="filterpy">
+<h2>FilterPy<a class="headerlink" href="#filterpy" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">FilterPy</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="frame">
+<h2>Frame<a class="headerlink" href="#frame" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Frame</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="freqline">
+<h2>FreqLine<a class="headerlink" href="#freqline" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">FreqLine</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span>
+</pre></div>
+</div>
+</section>
+<section id="freqoffset">
+<h2>FreqOffset<a class="headerlink" href="#freqoffset" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">FreqOffset</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+</pre></div>
+</div>
+</section>
+<section id="gapchannel">
+<h2>GapChannel<a class="headerlink" href="#gapchannel" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">GapChannel</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (2x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span>
+</pre></div>
+</div>
+</section>
+<section id="gaterange">
+<h2>GateRange<a class="headerlink" href="#gaterange" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">GateRange</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+<span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span> <span class="o">|</span> <span class="n">Nr40</span>
+<span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span> <span class="o">|</span> <span class="n">Nr48</span>
+<span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span> <span class="o">|</span> <span class="n">Nr56</span>
+<span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span> <span class="o">|</span> <span class="n">Nr64</span>
+</pre></div>
+</div>
+</section>
+<section id="generator">
+<h2>Generator<a class="headerlink" href="#generator" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Generator</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="halfdecaderange">
+<h2>HalfDecadeRange<a class="headerlink" href="#halfdecaderange" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">HalfDecadeRange</span><span class="o">.</span><span class="n">Rng_1Hz_3Hz</span>
+<span class="c1"># Range:</span>
+<span class="n">Rng_1Hz_3Hz</span> <span class="o">..</span> <span class="n">Rng_100GHz_300GHz</span>
+<span class="c1"># All values (23x):</span>
+<span class="n">Rng_1Hz_3Hz</span> <span class="o">|</span> <span class="n">Rng_3Hz_10Hz</span> <span class="o">|</span> <span class="n">Rng_10Hz_30Hz</span> <span class="o">|</span> <span class="n">Rng_30Hz_100Hz</span> <span class="o">|</span> <span class="n">Rng_100Hz_300Hz</span> <span class="o">|</span> <span class="n">Rng_300Hz_1kHz</span> <span class="o">|</span> <span class="n">Rng_1kHz_3kHz</span> <span class="o">|</span> <span class="n">Rng_3KHz_10kHz</span>
+<span class="n">Rng_10kHz_30kHz</span> <span class="o">|</span> <span class="n">Rng_30kHz_100kHz</span> <span class="o">|</span> <span class="n">Rng_100kHz_300kHz</span> <span class="o">|</span> <span class="n">Rng_300kHz_1MHz</span> <span class="o">|</span> <span class="n">Rng_1MHz_3MHz</span> <span class="o">|</span> <span class="n">Rng_3MHz_10MHz</span> <span class="o">|</span> <span class="n">Rng_10MHz_30MHz</span> <span class="o">|</span> <span class="n">Rng_30MHz_100MHz</span>
+<span class="n">Rng_100MHz_300MHz</span> <span class="o">|</span> <span class="n">Rng_300MHz_1GHz</span> <span class="o">|</span> <span class="n">Rng_1GHz_3GHz</span> <span class="o">|</span> <span class="n">Rng_3GHz_10GHz</span> <span class="o">|</span> <span class="n">Rng_10GHz_30GHz</span> <span class="o">|</span> <span class="n">Rng_30GHz_100GHz</span> <span class="o">|</span> <span class="n">Rng_100GHz_300GHz</span>
+</pre></div>
+</div>
+</section>
+<section id="inputix">
+<h2>InputIx<a class="headerlink" href="#inputix" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">InputIx</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="instrument">
+<h2>Instrument<a class="headerlink" href="#instrument" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Instrument</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span>
+</pre></div>
+</div>
+</section>
+<section id="item">
+<h2>Item<a class="headerlink" href="#item" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Item</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix7</span> <span class="o">|</span> <span class="n">Ix8</span>
+<span class="n">Ix9</span> <span class="o">|</span> <span class="n">Ix10</span> <span class="o">|</span> <span class="n">Ix11</span> <span class="o">|</span> <span class="n">Ix12</span> <span class="o">|</span> <span class="n">Ix13</span> <span class="o">|</span> <span class="n">Ix14</span> <span class="o">|</span> <span class="n">Ix15</span> <span class="o">|</span> <span class="n">Ix16</span>
+<span class="n">Ix17</span> <span class="o">|</span> <span class="n">Ix18</span> <span class="o">|</span> <span class="n">Ix19</span> <span class="o">|</span> <span class="n">Ix20</span> <span class="o">|</span> <span class="n">Ix21</span> <span class="o">|</span> <span class="n">Ix22</span> <span class="o">|</span> <span class="n">Ix23</span> <span class="o">|</span> <span class="n">Ix24</span>
+<span class="n">Ix25</span> <span class="o">|</span> <span class="n">Ix26</span> <span class="o">|</span> <span class="n">Ix27</span> <span class="o">|</span> <span class="n">Ix28</span> <span class="o">|</span> <span class="n">Ix29</span> <span class="o">|</span> <span class="n">Ix30</span> <span class="o">|</span> <span class="n">Ix31</span> <span class="o">|</span> <span class="n">Ix32</span>
+<span class="n">Ix33</span> <span class="o">|</span> <span class="n">Ix34</span> <span class="o">|</span> <span class="n">Ix35</span> <span class="o">|</span> <span class="n">Ix36</span> <span class="o">|</span> <span class="n">Ix37</span> <span class="o">|</span> <span class="n">Ix38</span> <span class="o">|</span> <span class="n">Ix39</span> <span class="o">|</span> <span class="n">Ix40</span>
+<span class="n">Ix41</span> <span class="o">|</span> <span class="n">Ix42</span> <span class="o">|</span> <span class="n">Ix43</span> <span class="o">|</span> <span class="n">Ix44</span> <span class="o">|</span> <span class="n">Ix45</span> <span class="o">|</span> <span class="n">Ix46</span> <span class="o">|</span> <span class="n">Ix47</span> <span class="o">|</span> <span class="n">Ix48</span>
+<span class="n">Ix49</span> <span class="o">|</span> <span class="n">Ix50</span> <span class="o">|</span> <span class="n">Ix51</span> <span class="o">|</span> <span class="n">Ix52</span> <span class="o">|</span> <span class="n">Ix53</span> <span class="o">|</span> <span class="n">Ix54</span> <span class="o">|</span> <span class="n">Ix55</span> <span class="o">|</span> <span class="n">Ix56</span>
+<span class="n">Ix57</span> <span class="o">|</span> <span class="n">Ix58</span> <span class="o">|</span> <span class="n">Ix59</span> <span class="o">|</span> <span class="n">Ix60</span> <span class="o">|</span> <span class="n">Ix61</span> <span class="o">|</span> <span class="n">Ix62</span> <span class="o">|</span> <span class="n">Ix63</span> <span class="o">|</span> <span class="n">Ix64</span>
+</pre></div>
+</div>
+</section>
+<section id="limitix">
+<h2>LimitIx<a class="headerlink" href="#limitix" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">LimitIx</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="limitsegment">
+<h2>LimitSegment<a class="headerlink" href="#limitsegment" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">LimitSegment</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="line">
+<h2>Line<a class="headerlink" href="#line" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Line</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix7</span> <span class="o">|</span> <span class="n">Ix8</span>
+</pre></div>
+</div>
+</section>
+<section id="marker">
+<h2>Marker<a class="headerlink" href="#marker" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Marker</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="markerdestination">
+<h2>MarkerDestination<a class="headerlink" href="#markerdestination" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">MarkerDestination</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="mimoantenna">
+<h2>MimoAntenna<a class="headerlink" href="#mimoantenna" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">MimoAntenna</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span>
+</pre></div>
+</div>
+</section>
+<section id="notch">
+<h2>Notch<a class="headerlink" href="#notch" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Notch</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="outputconnector">
+<h2>OutputConnector<a class="headerlink" href="#outputconnector" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">OutputConnector</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span>
+</pre></div>
+</div>
+</section>
+<section id="port">
+<h2>Port<a class="headerlink" href="#port" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Port</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (2x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span>
+</pre></div>
+</div>
+</section>
+<section id="powerclass">
+<h2>PowerClass<a class="headerlink" href="#powerclass" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">PowerClass</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr30</span>
+<span class="c1"># All values (30x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span>
+</pre></div>
+</div>
+</section>
+<section id="powerline">
+<h2>PowerLine<a class="headerlink" href="#powerline" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">PowerLine</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix8</span>
+<span class="c1"># All values (7x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix8</span>
+</pre></div>
+</div>
+</section>
+<section id="powermeter">
+<h2>PowerMeter<a class="headerlink" href="#powermeter" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">PowerMeter</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="probe">
+<h2>Probe<a class="headerlink" href="#probe" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Probe</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+</pre></div>
+</div>
+</section>
+<section id="pucch">
+<h2>Pucch<a class="headerlink" href="#pucch" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Pucch</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="rangepy">
+<h2>RangePy<a class="headerlink" href="#rangepy" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RangePy</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix64</span>
+<span class="c1"># All values (64x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix7</span> <span class="o">|</span> <span class="n">Ix8</span>
+<span class="n">Ix9</span> <span class="o">|</span> <span class="n">Ix10</span> <span class="o">|</span> <span class="n">Ix11</span> <span class="o">|</span> <span class="n">Ix12</span> <span class="o">|</span> <span class="n">Ix13</span> <span class="o">|</span> <span class="n">Ix14</span> <span class="o">|</span> <span class="n">Ix15</span> <span class="o">|</span> <span class="n">Ix16</span>
+<span class="n">Ix17</span> <span class="o">|</span> <span class="n">Ix18</span> <span class="o">|</span> <span class="n">Ix19</span> <span class="o">|</span> <span class="n">Ix20</span> <span class="o">|</span> <span class="n">Ix21</span> <span class="o">|</span> <span class="n">Ix22</span> <span class="o">|</span> <span class="n">Ix23</span> <span class="o">|</span> <span class="n">Ix24</span>
+<span class="n">Ix25</span> <span class="o">|</span> <span class="n">Ix26</span> <span class="o">|</span> <span class="n">Ix27</span> <span class="o">|</span> <span class="n">Ix28</span> <span class="o">|</span> <span class="n">Ix29</span> <span class="o">|</span> <span class="n">Ix30</span> <span class="o">|</span> <span class="n">Ix31</span> <span class="o">|</span> <span class="n">Ix32</span>
+<span class="n">Ix33</span> <span class="o">|</span> <span class="n">Ix34</span> <span class="o">|</span> <span class="n">Ix35</span> <span class="o">|</span> <span class="n">Ix36</span> <span class="o">|</span> <span class="n">Ix37</span> <span class="o">|</span> <span class="n">Ix38</span> <span class="o">|</span> <span class="n">Ix39</span> <span class="o">|</span> <span class="n">Ix40</span>
+<span class="n">Ix41</span> <span class="o">|</span> <span class="n">Ix42</span> <span class="o">|</span> <span class="n">Ix43</span> <span class="o">|</span> <span class="n">Ix44</span> <span class="o">|</span> <span class="n">Ix45</span> <span class="o">|</span> <span class="n">Ix46</span> <span class="o">|</span> <span class="n">Ix47</span> <span class="o">|</span> <span class="n">Ix48</span>
+<span class="n">Ix49</span> <span class="o">|</span> <span class="n">Ix50</span> <span class="o">|</span> <span class="n">Ix51</span> <span class="o">|</span> <span class="n">Ix52</span> <span class="o">|</span> <span class="n">Ix53</span> <span class="o">|</span> <span class="n">Ix54</span> <span class="o">|</span> <span class="n">Ix55</span> <span class="o">|</span> <span class="n">Ix56</span>
+<span class="n">Ix57</span> <span class="o">|</span> <span class="n">Ix58</span> <span class="o">|</span> <span class="n">Ix59</span> <span class="o">|</span> <span class="n">Ix60</span> <span class="o">|</span> <span class="n">Ix61</span> <span class="o">|</span> <span class="n">Ix62</span> <span class="o">|</span> <span class="n">Ix63</span> <span class="o">|</span> <span class="n">Ix64</span>
+</pre></div>
+</div>
+</section>
+<section id="refmeasurement">
+<h2>RefMeasurement<a class="headerlink" href="#refmeasurement" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RefMeasurement</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="ruallocationix">
+<h2>RuAllocationIx<a class="headerlink" href="#ruallocationix" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RuAllocationIx</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr9</span>
+<span class="c1"># All values (9x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span>
+</pre></div>
+</div>
+</section>
+<section id="segment">
+<h2>Segment<a class="headerlink" href="#segment" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Segment</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span>
+</pre></div>
+</div>
+</section>
+<section id="slot">
+<h2>Slot<a class="headerlink" href="#slot" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Slot</span><span class="o">.</span><span class="n">Nr0</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr0</span> <span class="o">..</span> <span class="n">Nr80</span>
+<span class="c1"># All values (81x):</span>
+<span class="n">Nr0</span> <span class="o">|</span> <span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span>
+<span class="n">Nr8</span> <span class="o">|</span> <span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span>
+<span class="n">Nr16</span> <span class="o">|</span> <span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span>
+<span class="n">Nr24</span> <span class="o">|</span> <span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span>
+<span class="n">Nr32</span> <span class="o">|</span> <span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span>
+<span class="n">Nr40</span> <span class="o">|</span> <span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span>
+<span class="n">Nr48</span> <span class="o">|</span> <span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span>
+<span class="n">Nr56</span> <span class="o">|</span> <span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span>
+<span class="n">Nr64</span> <span class="o">|</span> <span class="n">Nr65</span> <span class="o">|</span> <span class="n">Nr66</span> <span class="o">|</span> <span class="n">Nr67</span> <span class="o">|</span> <span class="n">Nr68</span> <span class="o">|</span> <span class="n">Nr69</span> <span class="o">|</span> <span class="n">Nr70</span> <span class="o">|</span> <span class="n">Nr71</span>
+<span class="n">Nr72</span> <span class="o">|</span> <span class="n">Nr73</span> <span class="o">|</span> <span class="n">Nr74</span> <span class="o">|</span> <span class="n">Nr75</span> <span class="o">|</span> <span class="n">Nr76</span> <span class="o">|</span> <span class="n">Nr77</span> <span class="o">|</span> <span class="n">Nr78</span> <span class="o">|</span> <span class="n">Nr79</span>
+<span class="n">Nr80</span>
+</pre></div>
+</div>
+</section>
+<section id="source">
+<h2>Source<a class="headerlink" href="#source" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Source</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="sportpair">
+<h2>SPortPair<a class="headerlink" href="#sportpair" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SPortPair</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span>
+</pre></div>
+</div>
+</section>
+<section id="ssblock">
+<h2>SsBlock<a class="headerlink" href="#ssblock" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SsBlock</span><span class="o">.</span><span class="n">Nr0</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr0</span> <span class="o">..</span> <span class="n">Nr64</span>
+<span class="c1"># All values (65x):</span>
+<span class="n">Nr0</span> <span class="o">|</span> <span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span>
+<span class="n">Nr8</span> <span class="o">|</span> <span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span>
+<span class="n">Nr16</span> <span class="o">|</span> <span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span>
+<span class="n">Nr24</span> <span class="o">|</span> <span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span>
+<span class="n">Nr32</span> <span class="o">|</span> <span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span>
+<span class="n">Nr40</span> <span class="o">|</span> <span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span>
+<span class="n">Nr48</span> <span class="o">|</span> <span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span>
+<span class="n">Nr56</span> <span class="o">|</span> <span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span>
+<span class="n">Nr64</span>
+</pre></div>
+</div>
+</section>
+<section id="status">
+<h2>Status<a class="headerlink" href="#status" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Status</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="step">
+<h2>Step<a class="headerlink" href="#step" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Step</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="store">
+<h2>Store<a class="headerlink" href="#store" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Store</span><span class="o">.</span><span class="n">Pos1</span>
+<span class="c1"># Range:</span>
+<span class="n">Pos1</span> <span class="o">..</span> <span class="n">Pos32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Pos1</span> <span class="o">|</span> <span class="n">Pos2</span> <span class="o">|</span> <span class="n">Pos3</span> <span class="o">|</span> <span class="n">Pos4</span> <span class="o">|</span> <span class="n">Pos5</span> <span class="o">|</span> <span class="n">Pos6</span> <span class="o">|</span> <span class="n">Pos7</span> <span class="o">|</span> <span class="n">Pos8</span>
+<span class="n">Pos9</span> <span class="o">|</span> <span class="n">Pos10</span> <span class="o">|</span> <span class="n">Pos11</span> <span class="o">|</span> <span class="n">Pos12</span> <span class="o">|</span> <span class="n">Pos13</span> <span class="o">|</span> <span class="n">Pos14</span> <span class="o">|</span> <span class="n">Pos15</span> <span class="o">|</span> <span class="n">Pos16</span>
+<span class="n">Pos17</span> <span class="o">|</span> <span class="n">Pos18</span> <span class="o">|</span> <span class="n">Pos19</span> <span class="o">|</span> <span class="n">Pos20</span> <span class="o">|</span> <span class="n">Pos21</span> <span class="o">|</span> <span class="n">Pos22</span> <span class="o">|</span> <span class="n">Pos23</span> <span class="o">|</span> <span class="n">Pos24</span>
+<span class="n">Pos25</span> <span class="o">|</span> <span class="n">Pos26</span> <span class="o">|</span> <span class="n">Pos27</span> <span class="o">|</span> <span class="n">Pos28</span> <span class="o">|</span> <span class="n">Pos29</span> <span class="o">|</span> <span class="n">Pos30</span> <span class="o">|</span> <span class="n">Pos31</span> <span class="o">|</span> <span class="n">Pos32</span>
+</pre></div>
+</div>
+</section>
+<section id="subblock">
+<h2>SubBlock<a class="headerlink" href="#subblock" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubBlock</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+</pre></div>
+</div>
+</section>
+<section id="subframe">
+<h2>Subframe<a class="headerlink" href="#subframe" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Subframe</span><span class="o">.</span><span class="n">Nr0</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr0</span> <span class="o">..</span> <span class="n">Nr41</span>
+<span class="c1"># All values (42x):</span>
+<span class="n">Nr0</span> <span class="o">|</span> <span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span>
+<span class="n">Nr8</span> <span class="o">|</span> <span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span>
+<span class="n">Nr16</span> <span class="o">|</span> <span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span>
+<span class="n">Nr24</span> <span class="o">|</span> <span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span>
+<span class="n">Nr32</span> <span class="o">|</span> <span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span>
+<span class="n">Nr40</span> <span class="o">|</span> <span class="n">Nr41</span>
+</pre></div>
+</div>
+</section>
+<section id="subwindow">
+<h2>SubWindow<a class="headerlink" href="#subwindow" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">SubWindow</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="tab">
+<h2>Tab<a class="headerlink" href="#tab" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Tab</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="targetlimitline">
+<h2>TargetLimitLine<a class="headerlink" href="#targetlimitline" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">TargetLimitLine</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+<section id="timeline">
+<h2>TimeLine<a class="headerlink" href="#timeline" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">TimeLine</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Values (4x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span>
+</pre></div>
+</div>
+</section>
+<section id="touchstone">
+<h2>TouchStone<a class="headerlink" href="#touchstone" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">TouchStone</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix7</span> <span class="o">|</span> <span class="n">Ix8</span>
+<span class="n">Ix9</span> <span class="o">|</span> <span class="n">Ix10</span> <span class="o">|</span> <span class="n">Ix11</span> <span class="o">|</span> <span class="n">Ix12</span> <span class="o">|</span> <span class="n">Ix13</span> <span class="o">|</span> <span class="n">Ix14</span> <span class="o">|</span> <span class="n">Ix15</span> <span class="o">|</span> <span class="n">Ix16</span>
+<span class="n">Ix17</span> <span class="o">|</span> <span class="n">Ix18</span> <span class="o">|</span> <span class="n">Ix19</span> <span class="o">|</span> <span class="n">Ix20</span> <span class="o">|</span> <span class="n">Ix21</span> <span class="o">|</span> <span class="n">Ix22</span> <span class="o">|</span> <span class="n">Ix23</span> <span class="o">|</span> <span class="n">Ix24</span>
+<span class="n">Ix25</span> <span class="o">|</span> <span class="n">Ix26</span> <span class="o">|</span> <span class="n">Ix27</span> <span class="o">|</span> <span class="n">Ix28</span> <span class="o">|</span> <span class="n">Ix29</span> <span class="o">|</span> <span class="n">Ix30</span> <span class="o">|</span> <span class="n">Ix31</span> <span class="o">|</span> <span class="n">Ix32</span>
+</pre></div>
+</div>
+</section>
+<section id="trace">
+<h2>Trace<a class="headerlink" href="#trace" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Trace</span><span class="o">.</span><span class="n">Tr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Tr1</span> <span class="o">..</span> <span class="n">Tr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Tr1</span> <span class="o">|</span> <span class="n">Tr2</span> <span class="o">|</span> <span class="n">Tr3</span> <span class="o">|</span> <span class="n">Tr4</span> <span class="o">|</span> <span class="n">Tr5</span> <span class="o">|</span> <span class="n">Tr6</span> <span class="o">|</span> <span class="n">Tr7</span> <span class="o">|</span> <span class="n">Tr8</span>
+<span class="n">Tr9</span> <span class="o">|</span> <span class="n">Tr10</span> <span class="o">|</span> <span class="n">Tr11</span> <span class="o">|</span> <span class="n">Tr12</span> <span class="o">|</span> <span class="n">Tr13</span> <span class="o">|</span> <span class="n">Tr14</span> <span class="o">|</span> <span class="n">Tr15</span> <span class="o">|</span> <span class="n">Tr16</span>
+</pre></div>
+</div>
+</section>
+<section id="triggerport">
+<h2>TriggerPort<a class="headerlink" href="#triggerport" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">TriggerPort</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+</pre></div>
+</div>
+</section>
+<section id="upperaltchannel">
+<h2>UpperAltChannel<a class="headerlink" href="#upperaltchannel" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UpperAltChannel</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr63</span>
+<span class="c1"># All values (63x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+<span class="n">Nr33</span> <span class="o">|</span> <span class="n">Nr34</span> <span class="o">|</span> <span class="n">Nr35</span> <span class="o">|</span> <span class="n">Nr36</span> <span class="o">|</span> <span class="n">Nr37</span> <span class="o">|</span> <span class="n">Nr38</span> <span class="o">|</span> <span class="n">Nr39</span> <span class="o">|</span> <span class="n">Nr40</span>
+<span class="n">Nr41</span> <span class="o">|</span> <span class="n">Nr42</span> <span class="o">|</span> <span class="n">Nr43</span> <span class="o">|</span> <span class="n">Nr44</span> <span class="o">|</span> <span class="n">Nr45</span> <span class="o">|</span> <span class="n">Nr46</span> <span class="o">|</span> <span class="n">Nr47</span> <span class="o">|</span> <span class="n">Nr48</span>
+<span class="n">Nr49</span> <span class="o">|</span> <span class="n">Nr50</span> <span class="o">|</span> <span class="n">Nr51</span> <span class="o">|</span> <span class="n">Nr52</span> <span class="o">|</span> <span class="n">Nr53</span> <span class="o">|</span> <span class="n">Nr54</span> <span class="o">|</span> <span class="n">Nr55</span> <span class="o">|</span> <span class="n">Nr56</span>
+<span class="n">Nr57</span> <span class="o">|</span> <span class="n">Nr58</span> <span class="o">|</span> <span class="n">Nr59</span> <span class="o">|</span> <span class="n">Nr60</span> <span class="o">|</span> <span class="n">Nr61</span> <span class="o">|</span> <span class="n">Nr62</span> <span class="o">|</span> <span class="n">Nr63</span>
+</pre></div>
+</div>
+</section>
+<section id="userix">
+<h2>UserIx<a class="headerlink" href="#userix" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="o">.</span><span class="n">Ix1</span>
+<span class="c1"># Range:</span>
+<span class="n">Ix1</span> <span class="o">..</span> <span class="n">Ix8</span>
+<span class="c1"># All values (8x):</span>
+<span class="n">Ix1</span> <span class="o">|</span> <span class="n">Ix2</span> <span class="o">|</span> <span class="n">Ix3</span> <span class="o">|</span> <span class="n">Ix4</span> <span class="o">|</span> <span class="n">Ix5</span> <span class="o">|</span> <span class="n">Ix6</span> <span class="o">|</span> <span class="n">Ix7</span> <span class="o">|</span> <span class="n">Ix8</span>
+</pre></div>
+</div>
+</section>
+<section id="userrange">
+<h2>UserRange<a class="headerlink" href="#userrange" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserRange</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="window">
+<h2>Window<a class="headerlink" href="#window" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Window</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr16</span>
+<span class="c1"># All values (16x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+</pre></div>
+</div>
+</section>
+<section id="zoomwindow">
+<h2>ZoomWindow<a class="headerlink" href="#zoomwindow" title="Permalink to this headline"></a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># First value:</span>
+<span class="n">value</span> <span class="o">=</span> <span class="n">repcap</span><span class="o">.</span><span class="n">ZoomWindow</span><span class="o">.</span><span class="n">Nr1</span>
+<span class="c1"># Range:</span>
+<span class="n">Nr1</span> <span class="o">..</span> <span class="n">Nr32</span>
+<span class="c1"># All values (32x):</span>
+<span class="n">Nr1</span> <span class="o">|</span> <span class="n">Nr2</span> <span class="o">|</span> <span class="n">Nr3</span> <span class="o">|</span> <span class="n">Nr4</span> <span class="o">|</span> <span class="n">Nr5</span> <span class="o">|</span> <span class="n">Nr6</span> <span class="o">|</span> <span class="n">Nr7</span> <span class="o">|</span> <span class="n">Nr8</span>
+<span class="n">Nr9</span> <span class="o">|</span> <span class="n">Nr10</span> <span class="o">|</span> <span class="n">Nr11</span> <span class="o">|</span> <span class="n">Nr12</span> <span class="o">|</span> <span class="n">Nr13</span> <span class="o">|</span> <span class="n">Nr14</span> <span class="o">|</span> <span class="n">Nr15</span> <span class="o">|</span> <span class="n">Nr16</span>
+<span class="n">Nr17</span> <span class="o">|</span> <span class="n">Nr18</span> <span class="o">|</span> <span class="n">Nr19</span> <span class="o">|</span> <span class="n">Nr20</span> <span class="o">|</span> <span class="n">Nr21</span> <span class="o">|</span> <span class="n">Nr22</span> <span class="o">|</span> <span class="n">Nr23</span> <span class="o">|</span> <span class="n">Nr24</span>
+<span class="n">Nr25</span> <span class="o">|</span> <span class="n">Nr26</span> <span class="o">|</span> <span class="n">Nr27</span> <span class="o">|</span> <span class="n">Nr28</span> <span class="o">|</span> <span class="n">Nr29</span> <span class="o">|</span> <span class="n">Nr30</span> <span class="o">|</span> <span class="n">Nr31</span> <span class="o">|</span> <span class="n">Nr32</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="enums.html" class="btn btn-neutral float-left" title="Enums" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS[:STATe]
+
+.. code-block:: python
+
+	DIAGnostic:HUMS[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

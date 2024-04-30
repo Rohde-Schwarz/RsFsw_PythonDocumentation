@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:FERRor:RCURrent:VALue
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:FERRor:RCURrent:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.FreqError.Rcurrent.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:PERRor:MINimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:PERRor:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.Perror.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

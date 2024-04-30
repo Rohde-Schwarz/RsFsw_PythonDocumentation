@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:CFACtor:IN:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:CFACtor:IN:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Cfactor.InputPy.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

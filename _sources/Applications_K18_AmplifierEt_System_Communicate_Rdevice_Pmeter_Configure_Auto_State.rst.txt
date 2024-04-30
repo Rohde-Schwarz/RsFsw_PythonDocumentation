@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:PMETer<p>:CONFigure:AUTO[:STATe]
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:PMETer<p>:CONFigure:AUTO[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.System.Communicate.Rdevice.Pmeter.Configure.Auto.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

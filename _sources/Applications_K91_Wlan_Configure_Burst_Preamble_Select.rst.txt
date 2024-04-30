@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:PREamble:SELect
+
+.. code-block:: python
+
+	CONFigure:BURSt:PREamble:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Preamble.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

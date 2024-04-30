@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:SELect
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

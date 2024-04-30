@@ -1,0 +1,20 @@
+Bb
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:TARGet:PATH:BB
+
+.. code-block:: python
+
+	CONFigure:GENerator:TARGet:PATH:BB
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Target.Path.Bb.BbCls
+	:members:
+	:undoc-members:
+	:noindex:

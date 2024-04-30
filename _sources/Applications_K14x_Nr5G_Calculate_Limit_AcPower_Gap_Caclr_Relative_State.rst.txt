@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ACPower:GAP<gap>[:CACLr][:RELative]:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ACPower:GAP<gap>[:CACLr][:RELative]:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.AcPower.Gap.Caclr.Relative.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer:TRIGger:LEVel
+
+.. code-block:: python
+
+	[SENSe]:PMETer:TRIGger:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pmeter.Trigger.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Coupling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:OSC:COUPling
+
+.. code-block:: python
+
+	INPut:IQ:OSC:COUPling
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.Coupling.CouplingCls
+	:members:
+	:undoc-members:
+	:noindex:

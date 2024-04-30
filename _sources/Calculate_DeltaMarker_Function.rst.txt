@@ -1,0 +1,32 @@
+Function
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.FunctionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.function.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Function_AfPhase.rst
+	Calculate_DeltaMarker_Function_Bpower.rst
+	Calculate_DeltaMarker_Function_Fixed.rst
+	Calculate_DeltaMarker_Function_Fmeasurement.rst
+	Calculate_DeltaMarker_Function_Pnoise.rst

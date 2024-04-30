@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:GTIMe:AUTO:TYPE
+
+.. code-block:: python
+
+	CONFigure:WLAN:GTIMe:AUTO:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.Gtime.Auto.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

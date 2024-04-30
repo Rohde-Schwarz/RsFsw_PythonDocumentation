@@ -1,0 +1,20 @@
+Emodel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSPectrum:EMODel
+
+.. code-block:: python
+
+	CALCulate<n>:PSPectrum:EMODel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Emodel.EmodelCls
+	:members:
+	:undoc-members:
+	:noindex:

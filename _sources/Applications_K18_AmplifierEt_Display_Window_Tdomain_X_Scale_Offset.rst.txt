@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TDOMain:X[:SCALe]:OFFSet
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TDOMain:X[:SCALe]:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Display.Window.Tdomain.X.Scale.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

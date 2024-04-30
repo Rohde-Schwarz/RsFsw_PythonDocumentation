@@ -1,0 +1,20 @@
+Ssubframe
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:FRAMe:SSUBframe
+
+.. code-block:: python
+
+	[SENSe][:LTE]:FRAMe:SSUBframe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Frame.Ssubframe.SsubframeCls
+	:members:
+	:undoc-members:
+	:noindex:

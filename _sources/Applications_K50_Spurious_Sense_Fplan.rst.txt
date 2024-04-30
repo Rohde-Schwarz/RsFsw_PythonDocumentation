@@ -1,0 +1,41 @@
+Fplan
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:FPLan:SAVE
+	single: [SENSe]:FPLan:LOAD
+
+.. code-block:: python
+
+	[SENSe]:FPLan:SAVE
+	[SENSe]:FPLan:LOAD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.FplanCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.fplan.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Fplan_Component.rst
+	Applications_K50_Spurious_Sense_Fplan_Predicted.rst
+	Applications_K50_Spurious_Sense_Fplan_Transfer.rst

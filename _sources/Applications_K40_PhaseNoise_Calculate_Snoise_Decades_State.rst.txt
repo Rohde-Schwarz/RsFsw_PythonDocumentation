@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:SNOise<m>:DECades[:STATe]
+
+.. code-block:: python
+
+	CALCulate<n>:SNOise<m>:DECades[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Calculate.Snoise.Decades.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

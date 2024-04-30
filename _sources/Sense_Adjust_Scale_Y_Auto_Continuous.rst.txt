@@ -1,0 +1,20 @@
+Continuous
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:SCALe[:Y]:AUTO[:CONTinuous]
+
+.. code-block:: python
+
+	[SENSe]:ADJust:SCALe[:Y]:AUTO[:CONTinuous]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Adjust.Scale.Y.Auto.Continuous.ContinuousCls
+	:members:
+	:undoc-members:
+	:noindex:

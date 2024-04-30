@@ -1,0 +1,20 @@
+Formatted
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:ALL:FORMatted
+
+.. code-block:: python
+
+	FETCh:BURSt:ALL:FORMatted
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.All.Formatted.FormattedCls
+	:members:
+	:undoc-members:
+	:noindex:

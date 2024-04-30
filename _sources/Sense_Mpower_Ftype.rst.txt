@@ -1,0 +1,20 @@
+Ftype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MPOWer:FTYPe
+
+.. code-block:: python
+
+	[SENSe]:MPOWer:FTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mpower.Ftype.FtypeCls
+	:members:
+	:undoc-members:
+	:noindex:

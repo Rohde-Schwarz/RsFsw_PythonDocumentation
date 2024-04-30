@@ -1,0 +1,20 @@
+Phz
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:POWer<sb>:RESult:PHZ
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:POWer<sb>:RESult:PHZ
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Marker.Function.Power.Result.Phz.PhzCls
+	:members:
+	:undoc-members:
+	:noindex:

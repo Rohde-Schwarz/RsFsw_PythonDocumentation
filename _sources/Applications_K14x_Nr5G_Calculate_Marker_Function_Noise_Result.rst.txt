@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:NOISe:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:NOISe:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Function.Noise.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

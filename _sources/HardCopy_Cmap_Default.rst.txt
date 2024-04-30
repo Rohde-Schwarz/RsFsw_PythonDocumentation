@@ -1,0 +1,36 @@
+Default<Colors>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix4
+	rc = driver.hardCopy.cmap.default.repcap_colors_get()
+	driver.hardCopy.cmap.default.repcap_colors_set(repcap.Colors.Ix1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:CMAP<it>:DEFault<ci>
+
+.. code-block:: python
+
+	HCOPy:CMAP<it>:DEFault<ci>
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Cmap.Default.DefaultCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.cmap.default.clone()

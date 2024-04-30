@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MDPD:WAVeform:PATH
+
+.. code-block:: python
+
+	FETCh:MDPD:WAVeform:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Mdpd.Waveform.Path.PathCls
+	:members:
+	:undoc-members:
+	:noindex:

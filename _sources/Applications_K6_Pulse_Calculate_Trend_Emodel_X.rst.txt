@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:EMODel:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:EMODel:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Emodel.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

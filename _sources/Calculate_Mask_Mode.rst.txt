@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

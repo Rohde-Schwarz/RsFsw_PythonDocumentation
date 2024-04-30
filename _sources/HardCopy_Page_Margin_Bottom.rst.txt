@@ -1,0 +1,20 @@
+Bottom
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:PAGE:MARGin:BOTTom
+
+.. code-block:: python
+
+	HCOPy:PAGE:MARGin:BOTTom
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Margin.Bottom.BottomCls
+	:members:
+	:undoc-members:
+	:noindex:

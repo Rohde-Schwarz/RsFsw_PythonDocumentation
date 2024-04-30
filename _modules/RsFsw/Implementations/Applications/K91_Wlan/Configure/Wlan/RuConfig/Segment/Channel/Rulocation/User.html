@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../../../../" id="documentation_options" src="../../../../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../../../../../K91_Wlan.html">RsFsw.Implementations.Applications.K91_Wlan</a> &raquo;</li>
+          <li><a href="../../../../../../Configure.html">RsFsw.Implementations.Applications.K91_Wlan.Configure</a> &raquo;</li>
+          <li><a href="../../../../../Wlan.html">RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan</a> &raquo;</li>
+          <li><a href="../../../../RuConfig.html">RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig</a> &raquo;</li>
+          <li><a href="../../../Segment.html">RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment</a> &raquo;</li>
+          <li><a href="../../Channel.html">RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel</a> &raquo;</li>
+          <li><a href="../Rulocation.html">RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">...........Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">...........Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">...........Internal.RepeatedCapability</span> <span class="kn">import</span> <span class="n">RepeatedCapability</span>
+<span class="kn">from</span> <span class="nn">...........</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="UserCls"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User.html#RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User.UserCls">[docs]</a><span class="k">class</span> <span class="nc">UserCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;User commands group definition. 8 total commands, 7 Subgroups, 1 group commands</span>
+<span class="sd">	Repeated Capability: UserIx, default value after init: UserIx.Ix1&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">rep_cap</span> <span class="o">=</span> <span class="n">RepeatedCapability</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">group_name</span><span class="p">,</span> <span class="s1">&#39;repcap_userIx_get&#39;</span><span class="p">,</span> <span class="s1">&#39;repcap_userIx_set&#39;</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="o">.</span><span class="n">Ix1</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_userIx_set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">userIx</span><span class="p">:</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Repeated Capability default value numeric suffix.</span>
+<span class="sd">		This value is used, if you do not explicitely set it in the child set/get methods, or if you leave it to UserIx.Default</span>
+<span class="sd">		Default value after init: UserIx.Ix1&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">set_repcap_enum_value</span><span class="p">(</span><span class="n">userIx</span><span class="p">)</span>
+
+	<span class="k">def</span> <span class="nf">repcap_userIx_get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Returns the current default repeated capability for the child set/get methods&quot;&quot;&quot;</span>
+		<span class="c1"># noinspection PyTypeChecker</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_enum_value</span><span class="p">()</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">insert</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;insert commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_insert&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Insert</span> <span class="kn">import</span> <span class="n">InsertCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_insert</span> <span class="o">=</span> <span class="n">InsertCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_insert</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">mcsIndex</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;mcsIndex commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_mcsIndex&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.McsIndex</span> <span class="kn">import</span> <span class="n">McsIndexCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_mcsIndex</span> <span class="o">=</span> <span class="n">McsIndexCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_mcsIndex</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">nsts</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;nsts commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_nsts&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Nsts</span> <span class="kn">import</span> <span class="n">NstsCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_nsts</span> <span class="o">=</span> <span class="n">NstsCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_nsts</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">tbeamforming</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;tbeamforming commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_tbeamforming&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Tbeamforming</span> <span class="kn">import</span> <span class="n">TbeamformingCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_tbeamforming</span> <span class="o">=</span> <span class="n">TbeamformingCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_tbeamforming</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">dcm</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;dcm commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_dcm&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Dcm</span> <span class="kn">import</span> <span class="n">DcmCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_dcm</span> <span class="o">=</span> <span class="n">DcmCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dcm</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">coding</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;coding commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_coding&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Coding</span> <span class="kn">import</span> <span class="n">CodingCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_coding</span> <span class="o">=</span> <span class="n">CodingCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_coding</span>
+
+	<span class="nd">@property</span>
+	<span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;count commands group. 0 Sub-classes, 1 commands.&quot;&quot;&quot;</span>
+		<span class="k">if</span> <span class="ow">not</span> <span class="nb">hasattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="s1">&#39;_count&#39;</span><span class="p">):</span>
+			<span class="kn">from</span> <span class="nn">.Count</span> <span class="kn">import</span> <span class="n">CountCls</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">_count</span> <span class="o">=</span> <span class="n">CountCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_count</span>
+
+<div class="viewcode-block" id="UserCls.delete"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User.html#RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User.UserCls.delete">[docs]</a>	<span class="k">def</span> <span class="nf">delete</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">segment</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Segment</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">channel</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Channel</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">ruAllocationIx</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">RuAllocationIx</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">userIx</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CONFigure:WLAN:RUConfig:SEGMent&lt;seg&gt;:CHANnel&lt;ch&gt;:RULocation&lt;cf&gt;:USER&lt;mu&gt;:DELete \n</span>
+<span class="sd">		Snippet: driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.user.delete(segment = repcap.Segment.Default, channel = repcap.Channel.Default, ruAllocationIx = repcap.RuAllocationIx.Default, userIx = repcap.UserIx.Default) \n</span>
+<span class="sd">		Deletes the selected user (station) from the HE Multi-User Downlink PPDU configuration table (for MIMO configuration</span>
+<span class="sd">		only) . \n</span>
+<span class="sd">			:param segment: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Segment&#39;)</span>
+<span class="sd">			:param channel: optional repeated capability selector. Default value: Ch1 (settable in the interface &#39;Channel&#39;)</span>
+<span class="sd">			:param ruAllocationIx: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Rulocation&#39;)</span>
+<span class="sd">			:param userIx: optional repeated capability selector. Default value: Ix1 (settable in the interface &#39;User&#39;)</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="n">segment_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">segment</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Segment</span><span class="p">)</span>
+		<span class="n">channel_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">channel</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Channel</span><span class="p">)</span>
+		<span class="n">ruAllocationIx_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">ruAllocationIx</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RuAllocationIx</span><span class="p">)</span>
+		<span class="n">userIx_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">userIx</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CONFigure:WLAN:RUConfig:SEGMent</span><span class="si">{</span><span class="n">segment_cmd_val</span><span class="si">}</span><span class="s1">:CHANnel</span><span class="si">{</span><span class="n">channel_cmd_val</span><span class="si">}</span><span class="s1">:RULocation</span><span class="si">{</span><span class="n">ruAllocationIx_cmd_val</span><span class="si">}</span><span class="s1">:USER</span><span class="si">{</span><span class="n">userIx_cmd_val</span><span class="si">}</span><span class="s1">:DELete&#39;</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="UserCls.delete_with_opc"><a class="viewcode-back" href="../../../../../../../../../../../Applications_K91_Wlan_Configure_Wlan_RuConfig_Segment_Channel_Rulocation_User.html#RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.Segment.Channel.Rulocation.User.UserCls.delete_with_opc">[docs]</a>	<span class="k">def</span> <span class="nf">delete_with_opc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">segment</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Segment</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">channel</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">Channel</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">ruAllocationIx</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">RuAllocationIx</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">userIx</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="o">.</span><span class="n">Default</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="n">segment_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">segment</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Segment</span><span class="p">)</span>
+		<span class="n">channel_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">channel</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">Channel</span><span class="p">)</span>
+		<span class="n">ruAllocationIx_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">ruAllocationIx</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">RuAllocationIx</span><span class="p">)</span>
+		<span class="n">userIx_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">userIx</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">UserIx</span><span class="p">)</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: CONFigure:WLAN:RUConfig:SEGMent&lt;seg&gt;:CHANnel&lt;ch&gt;:RULocation&lt;cf&gt;:USER&lt;mu&gt;:DELete \n</span>
+<span class="sd">		Snippet: driver.applications.k91Wlan.configure.wlan.ruConfig.segment.channel.rulocation.user.delete_with_opc(segment = repcap.Segment.Default, channel = repcap.Channel.Default, ruAllocationIx = repcap.RuAllocationIx.Default, userIx = repcap.UserIx.Default) \n</span>
+<span class="sd">		Deletes the selected user (station) from the HE Multi-User Downlink PPDU configuration table (for MIMO configuration</span>
+<span class="sd">		only) . \n</span>
+<span class="sd">		Same as delete, but waits for the operation to complete before continuing further. Use the RsFsw.utilities.opc_timeout_set() to set the timeout value. \n</span>
+<span class="sd">			:param segment: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Segment&#39;)</span>
+<span class="sd">			:param channel: optional repeated capability selector. Default value: Ch1 (settable in the interface &#39;Channel&#39;)</span>
+<span class="sd">			:param ruAllocationIx: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Rulocation&#39;)</span>
+<span class="sd">			:param userIx: optional repeated capability selector. Default value: Ix1 (settable in the interface &#39;User&#39;)</span>
+<span class="sd">			:param opc_timeout_ms: Maximum time to wait in milliseconds, valid only for this call.&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_with_opc</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;CONFigure:WLAN:RUConfig:SEGMent</span><span class="si">{</span><span class="n">segment_cmd_val</span><span class="si">}</span><span class="s1">:CHANnel</span><span class="si">{</span><span class="n">channel_cmd_val</span><span class="si">}</span><span class="s1">:RULocation</span><span class="si">{</span><span class="n">ruAllocationIx_cmd_val</span><span class="si">}</span><span class="s1">:USER</span><span class="si">{</span><span class="n">userIx_cmd_val</span><span class="si">}</span><span class="s1">:DELete&#39;</span><span class="p">,</span> <span class="n">opc_timeout_ms</span><span class="p">)</span></div>
+
+	<span class="k">def</span> <span class="nf">clone</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s1">&#39;UserCls&#39;</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;Clones the group by creating new object from it and its whole existing subgroups</span>
+<span class="sd">		Also copies all the existing default Repeated Capabilities setting,</span>
+<span class="sd">		which you can change independently without affecting the original group&quot;&quot;&quot;</span>
+		<span class="n">new_group</span> <span class="o">=</span> <span class="n">UserCls</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">parent</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">synchronize_repcaps</span><span class="p">(</span><span class="n">new_group</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">new_group</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

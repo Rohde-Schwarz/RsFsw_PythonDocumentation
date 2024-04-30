@@ -1,0 +1,33 @@
+FreqError
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.FreqError.FreqErrorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.calculate.limit.maccuracy.freqError.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Calculate_Limit_Maccuracy_FreqError_Pcurrent.rst
+	Applications_K70_Vsa_Calculate_Limit_Maccuracy_FreqError_Pmean.rst
+	Applications_K70_Vsa_Calculate_Limit_Maccuracy_FreqError_Ppeak.rst
+	Applications_K70_Vsa_Calculate_Limit_Maccuracy_FreqError_Rcurrent.rst
+	Applications_K70_Vsa_Calculate_Limit_Maccuracy_FreqError_Rmean.rst
+	Applications_K70_Vsa_Calculate_Limit_Maccuracy_FreqError_Rpeak.rst

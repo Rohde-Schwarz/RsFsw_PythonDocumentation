@@ -1,0 +1,20 @@
+Timing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSPectrum:TIMing
+
+.. code-block:: python
+
+	CALCulate<n>:PSPectrum:TIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Timing.TimingCls
+	:members:
+	:undoc-members:
+	:noindex:

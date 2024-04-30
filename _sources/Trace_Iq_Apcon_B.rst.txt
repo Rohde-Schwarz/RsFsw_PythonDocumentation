@@ -1,0 +1,20 @@
+B
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:APCon:B
+
+.. code-block:: python
+
+	TRACe:IQ:APCon:B
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Apcon.B.BCls
+	:members:
+	:undoc-members:
+	:noindex:

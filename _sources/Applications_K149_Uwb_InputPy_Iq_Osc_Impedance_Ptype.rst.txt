@@ -1,0 +1,20 @@
+Ptype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:OSC:IMPedance:PTYPe
+
+.. code-block:: python
+
+	INPut:IQ:OSC:IMPedance:PTYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.InputPy.Iq.Osc.Impedance.Ptype.PtypeCls
+	:members:
+	:undoc-members:
+	:noindex:

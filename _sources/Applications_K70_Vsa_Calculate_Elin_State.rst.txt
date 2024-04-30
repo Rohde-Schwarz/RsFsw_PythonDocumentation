@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:ELIN:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:ELIN:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Elin.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

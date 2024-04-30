@@ -1,0 +1,20 @@
+CurrentDirectory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:CDIRectory
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:CDIRectory
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.CurrentDirectory.CurrentDirectoryCls
+	:members:
+	:undoc-members:
+	:noindex:

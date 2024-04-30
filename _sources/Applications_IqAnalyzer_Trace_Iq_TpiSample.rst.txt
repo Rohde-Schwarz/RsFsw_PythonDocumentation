@@ -1,0 +1,20 @@
+TpiSample
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:TPISample
+
+.. code-block:: python
+
+	TRACe:IQ:TPISample
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Trace.Iq.TpiSample.TpiSampleCls
+	:members:
+	:undoc-members:
+	:noindex:

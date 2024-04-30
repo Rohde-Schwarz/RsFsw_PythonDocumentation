@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>[:CC<cc>]:SUMMary:EVM:DSQP[:AVERage]:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>[:CC<cc>]:SUMMary:EVM:DSQP[:AVERage]:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Limit.Cc.Summary.Evm.Dsqp.Average.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

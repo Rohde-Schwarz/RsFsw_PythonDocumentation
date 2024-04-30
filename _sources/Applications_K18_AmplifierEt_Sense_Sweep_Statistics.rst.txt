@@ -1,0 +1,31 @@
+Statistics
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Sweep.Statistics.StatisticsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.sense.sweep.statistics.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Sense_Sweep_Statistics_Continuous.rst
+	Applications_K18_AmplifierEt_Sense_Sweep_Statistics_Count.rst
+	Applications_K18_AmplifierEt_Sense_Sweep_Statistics_Mode.rst
+	Applications_K18_AmplifierEt_Sense_Sweep_Statistics_State.rst

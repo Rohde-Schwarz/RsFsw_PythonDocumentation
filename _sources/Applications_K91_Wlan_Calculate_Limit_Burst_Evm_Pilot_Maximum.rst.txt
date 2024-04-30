@@ -1,0 +1,37 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:BURSt:EVM:PILot:MAXimum
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:BURSt:EVM:PILot:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Limit.Burst.Evm.Pilot.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.limit.burst.evm.pilot.maximum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Limit_Burst_Evm_Pilot_Maximum_Result.rst

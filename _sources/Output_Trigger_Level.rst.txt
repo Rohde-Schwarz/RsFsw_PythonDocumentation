@@ -1,0 +1,20 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:TRIGger<2|3>:LEVel
+
+.. code-block:: python
+
+	OUTPut:TRIGger<2|3>:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Trigger.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:

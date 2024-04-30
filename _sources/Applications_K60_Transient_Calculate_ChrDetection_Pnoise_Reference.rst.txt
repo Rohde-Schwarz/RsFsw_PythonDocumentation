@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:PNOise:REFerence
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:PNOise:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Pnoise.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

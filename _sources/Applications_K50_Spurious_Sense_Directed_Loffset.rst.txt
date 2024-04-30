@@ -1,0 +1,20 @@
+Loffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DIRected:LOFFset
+
+.. code-block:: python
+
+	[SENSe]:DIRected:LOFFset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Directed.Loffset.LoffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

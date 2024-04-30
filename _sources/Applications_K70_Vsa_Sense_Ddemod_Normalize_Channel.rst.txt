@@ -1,0 +1,20 @@
+Channel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:NORMalize:CHANnel
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:NORMalize:CHANnel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Normalize.Channel.ChannelCls
+	:members:
+	:undoc-members:
+	:noindex:

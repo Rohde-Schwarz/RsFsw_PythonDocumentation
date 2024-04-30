@@ -1,0 +1,33 @@
+Frequency
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.frequency.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Frequency_Annotation.rst
+	Sense_Frequency_Center.rst
+	Sense_Frequency_Offset.rst
+	Sense_Frequency_Span.rst
+	Sense_Frequency_Start.rst
+	Sense_Frequency_Stop.rst

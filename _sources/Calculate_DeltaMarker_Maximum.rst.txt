@@ -1,0 +1,31 @@
+Maximum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.maximum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Maximum_Left.rst
+	Calculate_DeltaMarker_Maximum_Next.rst
+	Calculate_DeltaMarker_Maximum_Peak.rst
+	Calculate_DeltaMarker_Maximum_Right.rst

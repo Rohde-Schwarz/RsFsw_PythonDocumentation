@@ -1,0 +1,20 @@
+Save
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:SAVE
+
+.. code-block:: python
+
+	[SENSe]:CORRection:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Save.SaveCls
+	:members:
+	:undoc-members:
+	:noindex:

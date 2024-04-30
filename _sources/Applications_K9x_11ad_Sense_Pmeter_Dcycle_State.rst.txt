@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer<p>:DCYCle[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:PMETer<p>:DCYCle[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Pmeter.Dcycle.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

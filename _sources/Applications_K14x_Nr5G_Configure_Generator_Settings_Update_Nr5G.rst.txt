@@ -1,0 +1,20 @@
+Nr5G
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:SETTings:UPDate:NR5G
+
+.. code-block:: python
+
+	CONFigure:GENerator:SETTings:UPDate:NR5G
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Generator.Settings.Update.Nr5G.Nr5GCls
+	:members:
+	:undoc-members:
+	:noindex:

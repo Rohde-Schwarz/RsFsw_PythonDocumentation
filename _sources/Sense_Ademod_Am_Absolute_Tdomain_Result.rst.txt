@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AM[:ABSolute][:TDOMain]:RESult
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AM[:ABSolute][:TDOMain]:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Am.Absolute.Tdomain.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

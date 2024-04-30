@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:SEARch:AUTO
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:FPEaks:SEARch:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Marker.Function.Fpeaks.Search.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Rmark
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SSEarch:RMARk
+
+.. code-block:: python
+
+	[SENSe]:SSEarch:RMARk
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.Rmark.RmarkCls
+	:members:
+	:undoc-members:
+	:noindex:

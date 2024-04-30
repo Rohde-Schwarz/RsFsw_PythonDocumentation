@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:GAIN:STATe
+
+.. code-block:: python
+
+	INPut:GAIN:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Gain.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

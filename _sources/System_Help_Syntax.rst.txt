@@ -1,0 +1,37 @@
+Syntax
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:HELP:SYNTax
+
+.. code-block:: python
+
+	SYSTem:HELP:SYNTax
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Help.Syntax.SyntaxCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.system.help.syntax.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	System_Help_Syntax_All.rst

@@ -1,0 +1,20 @@
+PwrRipple
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:POWer:PWRRipple
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:POWer:PWRRipple
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Power.PwrRipple.PwrRippleCls
+	:members:
+	:undoc-members:
+	:noindex:

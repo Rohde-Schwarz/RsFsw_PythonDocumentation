@@ -1,0 +1,20 @@
+ChError
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FREQuency:CHERror
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FREQuency:CHERror
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.Frequency.ChError.ChErrorCls
+	:members:
+	:undoc-members:
+	:noindex:

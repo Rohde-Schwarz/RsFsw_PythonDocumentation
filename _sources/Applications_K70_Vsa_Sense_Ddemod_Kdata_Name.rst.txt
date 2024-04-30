@@ -1,0 +1,20 @@
+Name
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:KDATa[:NAME]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:KDATa[:NAME]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Name.NameCls
+	:members:
+	:undoc-members:
+	:noindex:

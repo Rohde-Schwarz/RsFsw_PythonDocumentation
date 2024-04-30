@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sense &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Adjust" href="Applications_K70_Vsa_Sense_Adjust.html" />
+    <link rel="prev" title="Length" href="Applications_K70_Vsa_Output_Trigger_Pulse_Length.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Calibration.html">Calibration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Sense</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust.html">Adjust</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction.html">Correction</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod.html">Ddemod</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Demod.html">Demod</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Frequency.html">Frequency</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Iq.html">Iq</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer.html">Mixer</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Msra.html">Msra</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe.html">Probe&lt;Probe&gt;</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Rtms.html">Rtms</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_SwapIq.html">SwapIq</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Sweep.html">Sweep</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Tcapture.html">Tcapture</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Status.html">Status</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Trigger.html">Trigger&lt;TriggerPort&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad.html">K9x_11ad</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+          <li><a href="Applications_K70_Vsa.html">K70_Vsa</a> &raquo;</li>
+      <li>Sense</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K70_Vsa_Sense.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="sense">
+<h1>Sense<a class="headerlink" href="#sense" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">SenseCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K70_Vsa/Sense.html#SenseCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>Sense commands group definition. 196 total commands, 13 Subgroups, 0 group commands</p>
+</dd></dl>
+
+<p class="rubric">Cloning the Group</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a clone of the original group, that exists independently</span>
+<span class="n">group2</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k70Vsa</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="rubric">Subgroups</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust.html">Adjust</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure.html">Configure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Hysteresis.html">Hysteresis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Hysteresis_Lower.html">Lower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Hysteresis_Upper.html">Upper</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Level.html">Level</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Level_Duration.html">Duration</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Level_Duration_Mode.html">Mode</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Configure_Trigger.html">Trigger</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Adjust_Level.html">Level</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction.html">Correction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl.html">Cvl</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Band.html">Band</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Bias.html">Bias</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Catalog.html">Catalog</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Comment.html">Comment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Data.html">Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Harmonic.html">Harmonic</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Mixer.html">Mixer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Ports.html">Ports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Select.html">Select</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Correction_Cvl_Snumber.html">Snumber</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod.html">Ddemod</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Apsk.html">Apsk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Apsk_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Ask.html">Ask</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Ask_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Bordering.html">Bordering</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Ecalc.html">Ecalc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Ecalc_Mode.html">Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Ecalc_Offset.html">Offset</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_EpRate.html">EpRate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_EpRate_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_EpRate_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer.html">Equalizer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_File.html">File</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_File_FormatPy.html">FormatPy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_Length.html">Length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_Load.html">Load</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_Mode.html">Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_Save.html">Save</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Equalizer_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Factory.html">Factory</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Factory_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_FilterPy.html">FilterPy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_FilterPy_Alpha.html">Alpha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_FilterPy_Reference.html">Reference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_FilterPy_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsk.html">Fsk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsk_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsync.html">Fsync</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsync_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsync_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsync_Mode.html">Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Fsync_Result.html">Result</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata.html">Kdata</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Name.html">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs.html">Prbs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Feedback.html">Feedback</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Feedback_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Feedback_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Pattern.html">Pattern</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Pattern_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Pattern_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Polynomial.html">Polynomial</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Polynomial_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Polynomial_Order.html">Order</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Ser.html">Ser</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Ser_Limit.html">Limit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_Source.html">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Kdata_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mapping.html">Mapping</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mapping_Catalog.html">Catalog</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mapping_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mfilter.html">Mfilter</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mfilter_Alpha.html">Alpha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mfilter_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mfilter_Name.html">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mfilter_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Mfilter_User.html">User</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Msk.html">Msk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Msk_FormatPy.html">FormatPy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize.html">Normalize</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_Adroop.html">Adroop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_Cfdrift.html">Cfdrift</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_Channel.html">Channel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_FdError.html">FdError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_IqImbalance.html">IqImbalance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_IqOffset.html">IqOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_SrError.html">SrError</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Normalize_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Optimization.html">Optimization</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern.html">Pattern</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Apsk.html">Apsk</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Apsk_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Ask.html">Ask</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Ask_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame.html">Frame</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit.html">Edit</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Next.html">Next</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Next_Boosting.html">Boosting</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Next_Modulation.html">Modulation</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Previous.html">Previous</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Previous_Boosting.html">Boosting</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Previous_Modulation.html">Modulation</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Structure.html">Structure</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Text.html">Text</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Load.html">Load</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Mode.html">Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Mapping.html">Mapping</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Mapping_Catalog.html">Catalog</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Mapping_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Psk.html">Psk</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Psk_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Psk_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Qam.html">Qam</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Qam_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Qam_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Qpsk.html">Qpsk</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_Qpsk_FormatPy.html">FormatPy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_User.html">User</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Pattern_User_Name.html">Name</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Prate.html">Prate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Preset.html">Preset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Preset_Calc.html">Calc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Preset_RefLevel.html">RefLevel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Preset_Standard.html">Standard</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Psk.html">Psk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Psk_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Psk_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Qam.html">Qam</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Qam_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Qam_Nstate.html">Nstate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Qpsk.html">Qpsk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Qpsk_FormatPy.html">FormatPy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Rlength.html">Rlength</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Rlength_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Rlength_Symbols.html">Symbols</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Rlength_Symbols_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Rlength_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Sband.html">Sband</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search.html">Search</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst.html">Burst</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Configure.html">Configure</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Configure_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Glength.html">Glength</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Glength_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Length.html">Length</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Length_Maximum.html">Maximum</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Length_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Skip.html">Skip</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Skip_Falling.html">Falling</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Skip_Rising.html">Rising</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Burst_Tolerance.html">Tolerance</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Mburst.html">Mburst</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Mburst_Calc.html">Calc</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Mburst_Start.html">Start</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Mburst_Start_Samples.html">Samples</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Mburst_Start_Symbols.html">Symbols</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pattern.html">Pattern</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pattern_Configure.html">Configure</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pattern_Configure_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pattern_Sync.html">Sync</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pattern_Sync_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pattern_Sync_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pulse.html">Pulse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Pulse_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync.html">Sync</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Auto.html">Auto</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Catalog.html">Catalog</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Comment.html">Comment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Data.html">Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Found.html">Found</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_IqcThreshold.html">IqcThreshold</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Name.html">Name</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Nstate.html">Nstate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Offset.html">Offset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Pattern.html">Pattern</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Pattern_Add.html">Add</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Pattern_Remove.html">Remove</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Select.html">Select</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Text.html">Text</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Search_Time.html">Time</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Signal.html">Signal</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Signal_Pattern.html">Pattern</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Signal_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard.html">Standard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Comment.html">Comment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Preset.html">Preset</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Preset_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Sync.html">Sync</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Sync_Offset.html">Offset</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Sync_Offset_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Standard_Sync_Offset_Value.html">Value</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_SymbolRate.html">SymbolRate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Tfilter.html">Tfilter</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Tfilter_Alpha.html">Alpha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Tfilter_Name.html">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Tfilter_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Tfilter_User.html">User</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Time.html">Time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_Time_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_User.html">User</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Ddemod_User_Name.html">Name</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Demod.html">Demod</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Demod_Squelch.html">Squelch</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Demod_Squelch_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Demod_Squelch_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Frequency.html">Frequency</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Frequency_Center.html">Center</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Frequency_Center_Step.html">Step</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Frequency_Center_Step_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Frequency_Offset.html">Offset</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Iq.html">Iq</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Iq_Wband.html">Wband</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer.html">Mixer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Bias.html">Bias</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Bias_High.html">High</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Bias_Low.html">Low</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Frequency.html">Frequency</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Frequency_Handover.html">Handover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Frequency_Start.html">Start</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Frequency_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic.html">Harmonic</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic_Band.html">Band</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic_High.html">High</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic_High_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic_High_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic_Low.html">Low</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Harmonic_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_LoPower.html">LoPower</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Loss.html">Loss</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Loss_High.html">High</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Loss_Low.html">Low</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Loss_Table.html">Table</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Loss_Table_High.html">High</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Loss_Table_Low.html">Low</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_Ports.html">Ports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_RfOverrange.html">RfOverrange</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_RfOverrange_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Mixer_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Msra.html">Msra</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Msra_Capture.html">Capture</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Msra_Capture_Offset.html">Offset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe.html">Probe&lt;Probe&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Id.html">Id</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Id_PartNumber.html">PartNumber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Id_SrNumber.html">SrNumber</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup.html">Setup</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_AttRatio.html">AttRatio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_CmOffset.html">CmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_DmOffset.html">DmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_Mode.html">Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_Name.html">Name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_NmOffset.html">NmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_Pmode.html">Pmode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_PmOffset.html">PmOffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Probe_Setup_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Rtms.html">Rtms</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Rtms_Capture.html">Capture</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Rtms_Capture_Offset.html">Offset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_SwapIq.html">SwapIq</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Sweep.html">Sweep</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Sweep_Count.html">Count</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Sweep_Count_Current.html">Current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa_Sense_Sweep_Count_Value.html">Value</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K70_Vsa_Sense_Tcapture.html">Tcapture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K70_Vsa_Sense_Tcapture_Length.html">Length</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K70_Vsa_Output_Trigger_Pulse_Length.html" class="btn btn-neutral float-left" title="Length" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K70_Vsa_Sense_Adjust.html" class="btn btn-neutral float-right" title="Adjust" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

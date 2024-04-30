@@ -1,0 +1,20 @@
+End
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:FREQuency:OFFSet:END
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:FREQuency:OFFSet:END
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Frequency.Offset.End.EndCls
+	:members:
+	:undoc-members:
+	:noindex:

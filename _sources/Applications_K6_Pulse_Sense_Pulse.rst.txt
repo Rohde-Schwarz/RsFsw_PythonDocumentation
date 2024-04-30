@@ -1,0 +1,36 @@
+Pulse
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.PulseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Emodel.rst
+	Applications_K6_Pulse_Sense_Pulse_Frequency.rst
+	Applications_K6_Pulse_Sense_Pulse_Id.rst
+	Applications_K6_Pulse_Sense_Pulse_Number.rst
+	Applications_K6_Pulse_Sense_Pulse_Phase.rst
+	Applications_K6_Pulse_Sense_Pulse_Power.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing.rst
+	Applications_K6_Pulse_Sense_Pulse_Tsidelobe.rst

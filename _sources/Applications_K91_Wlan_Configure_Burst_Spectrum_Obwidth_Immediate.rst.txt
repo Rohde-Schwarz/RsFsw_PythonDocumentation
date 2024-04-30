@@ -1,0 +1,20 @@
+Immediate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:SPECtrum:OBWidth[:IMMediate]
+
+.. code-block:: python
+
+	CONFigure:BURSt:SPECtrum:OBWidth[:IMMediate]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Spectrum.Obwidth.Immediate.ImmediateCls
+	:members:
+	:undoc-members:
+	:noindex:

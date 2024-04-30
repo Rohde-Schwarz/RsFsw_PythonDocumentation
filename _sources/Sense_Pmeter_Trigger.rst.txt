@@ -1,0 +1,33 @@
+Trigger
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Pmeter.Trigger.TriggerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.pmeter.trigger.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Pmeter_Trigger_Dtime.rst
+	Sense_Pmeter_Trigger_Holdoff.rst
+	Sense_Pmeter_Trigger_Hysteresis.rst
+	Sense_Pmeter_Trigger_Level.rst
+	Sense_Pmeter_Trigger_Slope.rst
+	Sense_Pmeter_Trigger_State.rst

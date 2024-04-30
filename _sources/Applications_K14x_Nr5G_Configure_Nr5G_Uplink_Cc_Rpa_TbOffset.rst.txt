@@ -1,0 +1,20 @@
+TbOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:RPA:TBOFfset
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:RPA:TBOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Rpa.TbOffset.TbOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

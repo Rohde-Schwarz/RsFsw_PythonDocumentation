@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:RMSFm:AVERage
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:RMSFm:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.RmsFm.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

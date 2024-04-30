@@ -1,0 +1,39 @@
+Sts
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:PULSe:LOCation:STS
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:PULSe:LOCation:STS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Pulse.Location.Sts.StsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.pulse.location.sts.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Pulse_Location_Sts_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Pulse_Location_Sts_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Pulse_Location_Sts_Minimum.rst

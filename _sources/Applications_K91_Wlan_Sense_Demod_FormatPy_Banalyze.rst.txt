@@ -1,0 +1,40 @@
+Banalyze
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FORMat:BANalyze
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FORMat:BANalyze
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.Banalyze.BanalyzeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.sense.demod.formatPy.banalyze.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Btype.rst
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Dbytes.rst
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Duration.rst
+	Applications_K91_Wlan_Sense_Demod_FormatPy_Banalyze_Symbols.rst

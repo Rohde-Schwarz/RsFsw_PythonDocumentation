@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frequency &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Offset" href="Sense_Npratio_Channel_Integration_Frequency_Offset.html" />
+    <link rel="prev" title="Bandwidth" href="Sense_Npratio_Channel_Integration_Bandwidth.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Applications.html">Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="Sense.html">Sense</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Sense_Ademod.html">Ademod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Adjust.html">Adjust</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Bandwidth.html">Bandwidth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Correction.html">Correction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Ddemod.html">Ddemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Demod.html">Demod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Espectrum.html">Espectrum&lt;SubBlock&gt;</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_FilterPy.html">FilterPy&lt;FilterPy&gt;</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Frequency.html">Frequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Iq.html">Iq</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_ListPy.html">ListPy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Mixer.html">Mixer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Mpower.html">Mpower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Msra.html">Msra</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="Sense_Npratio.html">Npratio</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="Sense_Npratio_Channel.html">Channel</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="Sense_Npratio_Channel_Bandwidth.html">Bandwidth</a></li>
+<li class="toctree-l5 current"><a class="reference internal" href="Sense_Npratio_Channel_Integration.html">Integration</a><ul class="current">
+<li class="toctree-l6"><a class="reference internal" href="Sense_Npratio_Channel_Integration_Auto.html">Auto</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Sense_Npratio_Channel_Integration_Bandwidth.html">Bandwidth</a></li>
+<li class="toctree-l6 current"><a class="current reference internal" href="#">Frequency</a><ul>
+<li class="toctree-l7"><a class="reference internal" href="Sense_Npratio_Channel_Integration_Frequency_Offset.html">Offset</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Sense_Npratio_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Sense_Npratio_Notch.html">Notch&lt;Notch&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Sense_Npratio_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Power.html">Power</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Probe.html">Probe&lt;Probe&gt;</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Rlength.html">Rlength</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Roscillator.html">Roscillator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Rtms.html">Rtms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Sampling.html">Sampling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_SwapIq.html">SwapIq</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Sweep.html">Sweep</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_SymbolRate.html">SymbolRate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Trace.html">Trace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Sense_Window.html">Window&lt;Window&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Sense.html">Sense</a> &raquo;</li>
+          <li><a href="Sense_Npratio.html">Npratio</a> &raquo;</li>
+          <li><a href="Sense_Npratio_Channel.html">Channel</a> &raquo;</li>
+          <li><a href="Sense_Npratio_Channel_Integration.html">Integration</a> &raquo;</li>
+      <li>Frequency</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Sense_Npratio_Channel_Integration_Frequency.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="frequency">
+<h1>Frequency<a class="headerlink" href="#frequency" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">FrequencyCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Sense/Npratio/Channel/Integration/Frequency.html#FrequencyCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>Frequency commands group definition. 1 total commands, 1 Subgroups, 0 group commands</p>
+</dd></dl>
+
+<p class="rubric">Cloning the Group</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a clone of the original group, that exists independently</span>
+<span class="n">group2</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">sense</span><span class="o">.</span><span class="n">npratio</span><span class="o">.</span><span class="n">channel</span><span class="o">.</span><span class="n">integration</span><span class="o">.</span><span class="n">frequency</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="rubric">Subgroups</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Sense_Npratio_Channel_Integration_Frequency_Offset.html">Offset</a></li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Sense_Npratio_Channel_Integration_Bandwidth.html" class="btn btn-neutral float-left" title="Bandwidth" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Sense_Npratio_Channel_Integration_Frequency_Offset.html" class="btn btn-neutral float-right" title="Offset" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

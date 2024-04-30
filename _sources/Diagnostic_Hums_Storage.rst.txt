@@ -1,0 +1,20 @@
+Storage
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:STORage
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:STORage
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Storage.StorageCls
+	:members:
+	:undoc-members:
+	:noindex:

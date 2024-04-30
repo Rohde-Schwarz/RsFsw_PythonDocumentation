@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:FREQuency:OFFSet:HZ:AVERage
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:FREQuency:OFFSet:HZ:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Frequency.Offset.Hz.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

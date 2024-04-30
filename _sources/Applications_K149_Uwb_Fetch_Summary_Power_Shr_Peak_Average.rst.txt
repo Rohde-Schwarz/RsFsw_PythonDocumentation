@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:POWer:SHR:PEAK:AVERage
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:POWer:SHR:PEAK:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Power.Shr.Peak.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

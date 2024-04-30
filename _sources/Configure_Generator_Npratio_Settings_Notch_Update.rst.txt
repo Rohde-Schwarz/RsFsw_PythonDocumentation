@@ -1,0 +1,20 @@
+Update
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:SETTings:NOTCh:UPDate
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:SETTings:NOTCh:UPDate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Settings.Notch.Update.UpdateCls
+	:members:
+	:undoc-members:
+	:noindex:

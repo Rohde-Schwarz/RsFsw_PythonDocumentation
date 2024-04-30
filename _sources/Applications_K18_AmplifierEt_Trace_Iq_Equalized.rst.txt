@@ -1,0 +1,20 @@
+Equalized
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:EQUalized
+
+.. code-block:: python
+
+	TRACe:IQ:EQUalized
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Trace.Iq.Equalized.EqualizedCls
+	:members:
+	:undoc-members:
+	:noindex:

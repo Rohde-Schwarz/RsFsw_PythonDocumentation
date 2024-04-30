@@ -1,0 +1,20 @@
+Rfm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PNOise<t>:USER<range>:RFM
+
+.. code-block:: python
+
+	FETCh:PNOise<t>:USER<range>:RFM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.User.Rfm.RfmCls
+	:members:
+	:undoc-members:
+	:noindex:

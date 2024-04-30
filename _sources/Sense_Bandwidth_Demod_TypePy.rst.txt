@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth:DEMod:TYPE
+
+.. code-block:: python
+
+	[SENSe]:BWIDth:DEMod:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Bandwidth.Demod.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

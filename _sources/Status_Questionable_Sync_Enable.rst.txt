@@ -1,0 +1,20 @@
+Enable
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:SYNC:ENABle
+
+.. code-block:: python
+
+	STATus:QUEStionable:SYNC:ENABle
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Sync.Enable.EnableCls
+	:members:
+	:undoc-members:
+	:noindex:

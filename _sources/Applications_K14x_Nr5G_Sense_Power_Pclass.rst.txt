@@ -1,0 +1,20 @@
+Pclass
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:PCLass
+
+.. code-block:: python
+
+	[SENSe]:POWer:PCLass
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Pclass.PclassCls
+	:members:
+	:undoc-members:
+	:noindex:

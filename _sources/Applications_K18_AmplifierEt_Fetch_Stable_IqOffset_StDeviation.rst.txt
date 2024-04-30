@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:IQOFfset:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:IQOFfset:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.IqOffset.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

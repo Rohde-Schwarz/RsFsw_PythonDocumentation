@@ -1,0 +1,44 @@
+User
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:BASeband:USER:PRESet
+	single: [SENSe]:CORRection:FRESponse:BASeband:USER:LOAD
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:BASeband:USER:PRESet
+	[SENSe]:CORRection:FRESponse:BASeband:USER:LOAD
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.Baseband.User.UserCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.correction.fresponse.baseband.user.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Correction_Fresponse_Baseband_User_Adjust.rst
+	Sense_Correction_Fresponse_Baseband_User_Flist.rst
+	Sense_Correction_Fresponse_Baseband_User_Refresh.rst
+	Sense_Correction_Fresponse_Baseband_User_Slist.rst
+	Sense_Correction_Fresponse_Baseband_User_State.rst
+	Sense_Correction_Fresponse_Baseband_User_Store.rst

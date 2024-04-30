@@ -1,0 +1,57 @@
+Nr5G
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Nr5GCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Aclr.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Bstation.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Caclr.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Center.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Craster.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_CsCapture.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Cspacing.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Evm.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_FcOffset.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Felc.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_GmcFreq.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Ldirection.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_McaClr.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Measurement.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Msem.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_MsHelper.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_NcSpacing.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_NoCc.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_NrqMaster.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_NrqPrimary.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Nsources.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Oband.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Omode.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_OoPower.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Oran.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Orel.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Sem.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Simulation.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Uplink.rst

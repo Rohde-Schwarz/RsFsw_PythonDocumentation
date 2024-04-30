@@ -1,0 +1,20 @@
+Spacing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:MCPHase:SPACing
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:MCPHase:SPACing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.McPhase.Spacing.SpacingCls
+	:members:
+	:undoc-members:
+	:noindex:

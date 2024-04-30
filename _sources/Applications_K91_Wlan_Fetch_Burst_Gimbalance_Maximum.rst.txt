@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:GIMBalance:MAXimum
+
+.. code-block:: python
+
+	FETCh:BURSt:GIMBalance:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Gimbalance.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

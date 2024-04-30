@@ -1,0 +1,20 @@
+Cstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:CONNection:CSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:CONNection:CSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Connection.Cstate.CstateCls
+	:members:
+	:undoc-members:
+	:noindex:

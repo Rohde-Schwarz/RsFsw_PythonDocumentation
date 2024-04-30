@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SRATe
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

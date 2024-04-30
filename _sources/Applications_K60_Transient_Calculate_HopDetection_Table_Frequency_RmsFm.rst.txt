@@ -1,0 +1,20 @@
+RmsFm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:FREQuency:RMSFm
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:FREQuency:RMSFm
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Frequency.RmsFm.RmsFmCls
+	:members:
+	:undoc-members:
+	:noindex:

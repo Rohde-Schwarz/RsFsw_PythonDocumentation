@@ -1,0 +1,32 @@
+Sync
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Sync.SyncCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.sync.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Sync_Confidence.rst
+	Applications_K18_AmplifierEt_Configure_Sync_Domain.rst
+	Applications_K18_AmplifierEt_Configure_Sync_Estimation.rst
+	Applications_K18_AmplifierEt_Configure_Sync_Second.rst
+	Applications_K18_AmplifierEt_Configure_Sync_Stat.rst

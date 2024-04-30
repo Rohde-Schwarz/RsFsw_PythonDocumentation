@@ -1,0 +1,20 @@
+UeId
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL:NPDSch:UEID
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL:NPDSch:UEID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Npdsch.UeId.UeIdCls
+	:members:
+	:undoc-members:
+	:noindex:

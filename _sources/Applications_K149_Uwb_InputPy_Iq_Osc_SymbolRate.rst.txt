@@ -1,0 +1,20 @@
+SymbolRate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:OSC:SRATe
+
+.. code-block:: python
+
+	INPut:IQ:OSC:SRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.InputPy.Iq.Osc.SymbolRate.SymbolRateCls
+	:members:
+	:undoc-members:
+	:noindex:

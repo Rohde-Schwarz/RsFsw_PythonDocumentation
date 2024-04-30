@@ -1,0 +1,37 @@
+Threshold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:THReshold
+
+.. code-block:: python
+
+	CALCulate<n>:THReshold
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Threshold.ThresholdCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.threshold.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Threshold_State.rst

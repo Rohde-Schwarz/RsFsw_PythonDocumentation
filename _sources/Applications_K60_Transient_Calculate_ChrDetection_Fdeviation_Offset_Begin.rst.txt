@@ -1,0 +1,20 @@
+Begin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:FDEViation:OFFSet:BEGin
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:FDEViation:OFFSet:BEGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Fdeviation.Offset.Begin.BeginCls
+	:members:
+	:undoc-members:
+	:noindex:

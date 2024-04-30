@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:POWer:OUTPut:MIN:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:POWer:OUTPut:MIN:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Power.Output.Min.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

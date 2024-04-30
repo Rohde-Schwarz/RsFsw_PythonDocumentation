@@ -1,0 +1,42 @@
+Tstamp
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:TSTamp
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:TSTamp
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Tstamp.TstampCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.sense.pulse.timing.tstamp.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp_Average.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp_Count.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp_Limit.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp_Maximum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp_Minimum.rst
+	Applications_K6_Pulse_Sense_Pulse_Timing_Tstamp_StandardDev.rst

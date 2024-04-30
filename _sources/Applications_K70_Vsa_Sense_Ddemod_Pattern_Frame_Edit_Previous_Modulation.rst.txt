@@ -1,0 +1,20 @@
+Modulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:PATTern:FRAMe:EDIT:PREVious:MODulation
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PATTern:FRAMe:EDIT:PREVious:MODulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.Previous.Modulation.ModulationCls
+	:members:
+	:undoc-members:
+	:noindex:

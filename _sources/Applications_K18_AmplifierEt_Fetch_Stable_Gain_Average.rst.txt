@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:GAIN:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:GAIN:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Gain.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

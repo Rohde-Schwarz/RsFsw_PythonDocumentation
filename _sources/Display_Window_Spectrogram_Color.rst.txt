@@ -1,0 +1,33 @@
+Color
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Spectrogram.Color.ColorCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.spectrogram.color.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Spectrogram_Color_Adjust.rst
+	Display_Window_Spectrogram_Color_Default.rst
+	Display_Window_Spectrogram_Color_Lower.rst
+	Display_Window_Spectrogram_Color_Shape.rst
+	Display_Window_Spectrogram_Color_Style.rst
+	Display_Window_Spectrogram_Color_Upper.rst

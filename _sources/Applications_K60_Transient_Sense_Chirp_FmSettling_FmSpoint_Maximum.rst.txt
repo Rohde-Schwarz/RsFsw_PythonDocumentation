@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:FMSettling:FMSPoint:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:FMSettling:FMSPoint:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.FmSettling.FmSpoint.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

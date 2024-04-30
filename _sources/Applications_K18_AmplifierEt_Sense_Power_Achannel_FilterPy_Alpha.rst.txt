@@ -1,0 +1,30 @@
+Alpha
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Power.Achannel.FilterPy.Alpha.AlphaCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.sense.power.achannel.filterPy.alpha.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_FilterPy_Alpha_Achannel.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_FilterPy_Alpha_Alternate.rst
+	Applications_K18_AmplifierEt_Sense_Power_Achannel_FilterPy_Alpha_Channel.rst

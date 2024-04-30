@@ -1,0 +1,39 @@
+Level
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:POWer:LEVel
+
+.. code-block:: python
+
+	CONFigure:GENerator:POWer:LEVel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Generator.Power.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.generator.power.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_Generator_Power_Level_Attenuation.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Power_Level_LedState.rst
+	Applications_K18_AmplifierEt_Configure_Generator_Power_Level_Offset.rst

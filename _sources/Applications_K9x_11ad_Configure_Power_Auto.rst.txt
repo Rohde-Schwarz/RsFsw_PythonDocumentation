@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:POWer:AUTO
+
+.. code-block:: python
+
+	CONFigure:POWer:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Configure.Power.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Generator
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:AFTM:FREQuency:GENerator
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:AFTM:FREQuency:GENerator
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Aftm.Frequency.Generator.GeneratorCls
+	:members:
+	:undoc-members:
+	:noindex:

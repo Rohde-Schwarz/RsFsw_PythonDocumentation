@@ -1,0 +1,20 @@
+Notch
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SETTings:NPRatio:NOTCh
+
+.. code-block:: python
+
+	CONFigure:SETTings:NPRatio:NOTCh
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Settings.Npratio.Notch.NotchCls
+	:members:
+	:undoc-members:
+	:noindex:

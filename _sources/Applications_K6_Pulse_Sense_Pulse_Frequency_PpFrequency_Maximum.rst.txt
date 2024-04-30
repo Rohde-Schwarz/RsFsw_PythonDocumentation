@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:FREQuency:PPFRequency:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:FREQuency:PPFRequency:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Frequency.PpFrequency.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

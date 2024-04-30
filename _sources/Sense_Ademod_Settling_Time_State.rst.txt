@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SETTling:TIME:STATe
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SETTling:TIME:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Settling.Time.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

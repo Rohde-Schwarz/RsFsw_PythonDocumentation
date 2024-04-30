@@ -1,0 +1,37 @@
+Bandwidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:COUPling:BANDwidth
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:COUPling:BANDwidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.Coupling.Bandwidth.BandwidthCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.roscillator.coupling.bandwidth.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Roscillator_Coupling_Bandwidth_Mode.rst

@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:FMPLevel:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:FMPLevel:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallMidPoint.Level.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

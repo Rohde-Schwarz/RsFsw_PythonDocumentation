@@ -1,0 +1,20 @@
+Acquire
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:COLLect[:ACQuire]
+
+.. code-block:: python
+
+	[SENSe]:CORRection:COLLect[:ACQuire]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Collect.Acquire.AcquireCls
+	:members:
+	:undoc-members:
+	:noindex:

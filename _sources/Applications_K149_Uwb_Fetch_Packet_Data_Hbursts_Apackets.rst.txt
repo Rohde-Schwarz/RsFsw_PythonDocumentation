@@ -1,0 +1,20 @@
+Apackets
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:PACKet:DATA:HBURsts:APACkets
+
+.. code-block:: python
+
+	FETCh<n>:PACKet:DATA:HBURsts:APACkets
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Packet.Data.Hbursts.Apackets.ApacketsCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Combine
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:RECording:COMBine
+
+.. code-block:: python
+
+	CONFigure:GENerator:RECording:COMBine
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Recording.Combine.CombineCls
+	:members:
+	:undoc-members:
+	:noindex:

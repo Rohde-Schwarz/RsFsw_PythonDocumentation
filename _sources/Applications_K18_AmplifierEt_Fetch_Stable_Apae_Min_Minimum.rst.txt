@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:APAE:MIN:MINimum
+
+.. code-block:: python
+
+	FETCh:STABle:APAE:MIN:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Apae.Min.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:PSWeep:X:STOP
+
+.. code-block:: python
+
+	CONFigure:PSWeep:X:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Psweep.X.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,40 @@
+PwrRipple
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:POWer:PWRRipple
+
+.. code-block:: python
+
+	[SENSe]:HOP:POWer:PWRRipple
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Power.PwrRipple.PwrRippleCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.hop.power.pwrRipple.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Hop_Power_PwrRipple_Average.rst
+	Applications_K60_Transient_Sense_Hop_Power_PwrRipple_Maximum.rst
+	Applications_K60_Transient_Sense_Hop_Power_PwrRipple_Minimum.rst
+	Applications_K60_Transient_Sense_Hop_Power_PwrRipple_StandardDev.rst

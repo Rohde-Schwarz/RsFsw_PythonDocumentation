@@ -1,0 +1,20 @@
+Angle
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNIT:ANGLe
+
+.. code-block:: python
+
+	CALCulate<n>:UNIT:ANGLe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.Unit.Angle.AngleCls
+	:members:
+	:undoc-members:
+	:noindex:

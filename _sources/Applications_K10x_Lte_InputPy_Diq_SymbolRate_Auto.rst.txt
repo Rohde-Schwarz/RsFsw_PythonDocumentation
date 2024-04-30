@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DIQ:SRATe:AUTO
+
+.. code-block:: python
+
+	INPut:DIQ:SRATe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Diq.SymbolRate.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

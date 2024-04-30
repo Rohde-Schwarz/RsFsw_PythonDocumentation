@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:FRSPan:AUTO
+
+.. code-block:: python
+
+	CONFigure:FRSPan:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.FrSpan.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

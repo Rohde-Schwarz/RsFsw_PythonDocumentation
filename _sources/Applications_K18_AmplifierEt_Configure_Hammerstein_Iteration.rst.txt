@@ -1,0 +1,20 @@
+Iteration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:HAMMerstein:ITERation
+
+.. code-block:: python
+
+	CONFigure:HAMMerstein:ITERation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Hammerstein.Iteration.IterationCls
+	:members:
+	:undoc-members:
+	:noindex:

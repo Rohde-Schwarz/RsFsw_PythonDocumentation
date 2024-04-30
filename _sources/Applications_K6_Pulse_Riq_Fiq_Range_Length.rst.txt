@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:FIQ:RANGe:LENGth
+
+.. code-block:: python
+
+	RIQ:FIQ:RANGe:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Fiq.Range.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

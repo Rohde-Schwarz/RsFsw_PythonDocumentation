@@ -1,0 +1,20 @@
+User
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:TFILter:USER
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:TFILter:USER
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Tfilter.User.UserCls
+	:members:
+	:undoc-members:
+	:noindex:

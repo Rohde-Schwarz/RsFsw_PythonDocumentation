@@ -1,0 +1,29 @@
+Range
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Diq.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.inputPy.diq.range.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	InputPy_Diq_Range_Coupling.rst
+	InputPy_Diq_Range_Upper.rst

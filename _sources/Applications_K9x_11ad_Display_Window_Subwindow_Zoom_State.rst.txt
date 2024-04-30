@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:ZOOM[:STATe]
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:ZOOM[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Display.Window.Subwindow.Zoom.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

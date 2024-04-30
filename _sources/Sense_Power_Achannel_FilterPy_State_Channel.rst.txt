@@ -1,0 +1,36 @@
+Channel<Channel>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ch1 .. Ch64
+	rc = driver.sense.power.achannel.filterPy.state.channel.repcap_channel_get()
+	driver.sense.power.achannel.filterPy.state.channel.repcap_channel_set(repcap.Channel.Ch1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:FILTer[:STATe]:CHANnel<ch>
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:FILTer[:STATe]:CHANnel<ch>
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.FilterPy.State.Channel.ChannelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.filterPy.state.channel.clone()

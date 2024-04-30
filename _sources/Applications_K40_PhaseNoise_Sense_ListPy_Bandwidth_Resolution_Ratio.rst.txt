@@ -1,0 +1,20 @@
+Ratio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:BWIDth[:RESolution]:RATio
+
+.. code-block:: python
+
+	[SENSe]:LIST:BWIDth[:RESolution]:RATio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Sense.ListPy.Bandwidth.Resolution.Ratio.RatioCls
+	:members:
+	:undoc-members:
+	:noindex:

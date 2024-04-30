@@ -1,0 +1,20 @@
+Rl
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:MATCh:DUT:OUT:RL
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:MATCh:DUT:OUT:RL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Match.Dut.Out.Rl.RlCls
+	:members:
+	:undoc-members:
+	:noindex:

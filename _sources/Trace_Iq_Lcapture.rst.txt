@@ -1,0 +1,20 @@
+Lcapture
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe:IQ:LCAPture
+
+.. code-block:: python
+
+	TRACe:IQ:LCAPture
+
+
+
+.. autoclass:: RsFsw.Implementations.Trace.Iq.Lcapture.LcaptureCls
+	:members:
+	:undoc-members:
+	:noindex:

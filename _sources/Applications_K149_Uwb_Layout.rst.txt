@@ -1,0 +1,33 @@
+Layout
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Layout.LayoutCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.layout.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Layout_Add.rst
+	Applications_K149_Uwb_Layout_Catalog.rst
+	Applications_K149_Uwb_Layout_Identify.rst
+	Applications_K149_Uwb_Layout_Move.rst
+	Applications_K149_Uwb_Layout_Replace.rst
+	Applications_K149_Uwb_Layout_Select.rst

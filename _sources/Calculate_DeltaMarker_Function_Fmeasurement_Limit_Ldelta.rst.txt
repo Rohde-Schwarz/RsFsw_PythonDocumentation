@@ -1,0 +1,20 @@
+Ldelta
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:FUNCtion:FMEasurement:LIMit<li>:LDELta
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:FUNCtion:FMEasurement:LIMit<li>:LDELta
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Fmeasurement.Limit.Ldelta.LdeltaCls
+	:members:
+	:undoc-members:
+	:noindex:

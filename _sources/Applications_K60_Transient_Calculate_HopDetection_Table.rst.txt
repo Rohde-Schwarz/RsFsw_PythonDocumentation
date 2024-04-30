@@ -1,0 +1,37 @@
+Table
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.TableCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.hopDetection.table.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_HopDetection_Table_Column.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_FmSettling.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Frequency.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Phase.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_PmSettling.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Power.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Results.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_State.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Timing.rst
+	Applications_K60_Transient_Calculate_HopDetection_Table_Total.rst

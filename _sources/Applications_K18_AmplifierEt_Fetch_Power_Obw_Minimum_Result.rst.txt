@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:POWer:OBW:MINimum[:RESult]
+
+.. code-block:: python
+
+	FETCh:POWer:OBW:MINimum[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.Obw.Minimum.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

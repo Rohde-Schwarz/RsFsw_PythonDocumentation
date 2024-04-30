@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:REFerence
+
+.. code-block:: python
+
+	[SENSe]:DETect:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

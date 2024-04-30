@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:POWer:DCPNoise[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:POWer:DCPNoise[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Power.DcpNoise.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

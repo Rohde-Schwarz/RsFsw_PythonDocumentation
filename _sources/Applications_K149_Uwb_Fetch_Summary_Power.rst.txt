@@ -1,0 +1,32 @@
+Power
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Power_IqOffset.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_Packet.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_Psdu.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_Shr.rst
+	Applications_K149_Uwb_Fetch_Summary_Power_Sts.rst

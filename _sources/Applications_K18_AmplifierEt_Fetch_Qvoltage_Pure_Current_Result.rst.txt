@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:QVOLtage:PURE:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:QVOLtage:PURE:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Qvoltage.Pure.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

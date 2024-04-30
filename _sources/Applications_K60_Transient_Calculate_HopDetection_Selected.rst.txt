@@ -1,0 +1,20 @@
+Selected
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:SELected
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:SELected
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Selected.SelectedCls
+	:members:
+	:undoc-members:
+	:noindex:

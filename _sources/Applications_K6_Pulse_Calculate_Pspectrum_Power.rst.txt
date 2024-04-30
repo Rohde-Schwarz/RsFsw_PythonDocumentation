@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSPectrum:POWer
+
+.. code-block:: python
+
+	CALCulate<n>:PSPectrum:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

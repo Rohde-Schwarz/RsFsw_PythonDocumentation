@@ -1,0 +1,20 @@
+RbCount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc[:CLUSter<cl>]:RBCount
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SUBFrame<sf>:ALLoc[:CLUSter<cl>]:RBCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Cluster.RbCount.RbCountCls
+	:members:
+	:undoc-members:
+	:noindex:

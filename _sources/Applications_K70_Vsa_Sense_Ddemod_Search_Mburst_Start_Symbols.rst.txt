@@ -1,0 +1,20 @@
+Symbols
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:MBURst:STARt[:SYMBols]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:MBURst:STARt[:SYMBols]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Mburst.Start.Symbols.SymbolsCls
+	:members:
+	:undoc-members:
+	:noindex:

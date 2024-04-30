@@ -1,0 +1,38 @@
+Subwindow<SubWindow>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.display.window.subwindow.repcap_subWindow_get()
+	driver.display.window.subwindow.repcap_subWindow_set(repcap.SubWindow.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.SubwindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.subwindow.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Subwindow_Notes.rst
+	Display_Window_Subwindow_Trace.rst
+	Display_Window_Subwindow_Zoom.rst

@@ -1,0 +1,20 @@
+Ntransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:CALibration:NTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:CALibration:NTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Calibration.Ntransition.NtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

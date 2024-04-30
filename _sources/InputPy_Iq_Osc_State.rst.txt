@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:OSC[:STATe]
+
+.. code-block:: python
+
+	INPut:IQ:OSC[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.Osc.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

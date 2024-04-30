@@ -1,0 +1,20 @@
+Data
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:DATA
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:DATA
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Data.DataCls
+	:members:
+	:undoc-members:
+	:noindex:

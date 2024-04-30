@@ -1,0 +1,20 @@
+Time
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:PRETrigger[:TIME]
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:PRETrigger[:TIME]
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Pretrigger.Time.TimeCls
+	:members:
+	:undoc-members:
+	:noindex:

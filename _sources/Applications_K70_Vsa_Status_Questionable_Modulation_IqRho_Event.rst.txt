@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:MODulation<1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16>:IQRHo[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16>:IQRHo[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.IqRho.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,40 @@
+Maccuracy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.MaccuracyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.maccuracy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Adroop.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_FreqError.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Gimbalance.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_IqImbalance.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_IqOffset.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Merror.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Perror.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Poffset.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Qerror.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Result.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Revm.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_Rmev.rst
+	Applications_K18_AmplifierEt_Fetch_Maccuracy_SrError.rst

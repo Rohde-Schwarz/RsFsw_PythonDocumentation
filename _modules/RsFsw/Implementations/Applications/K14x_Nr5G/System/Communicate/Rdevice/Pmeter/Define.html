@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../../../../" id="documentation_options" src="../../../../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../../../../Applications.html">RsFsw.Implementations.Applications</a> &raquo;</li>
+          <li><a href="../../../../../K14x_Nr5G.html">RsFsw.Implementations.Applications.K14x_Nr5G</a> &raquo;</li>
+          <li><a href="../../../../System.html">RsFsw.Implementations.Applications.K14x_Nr5G.System</a> &raquo;</li>
+          <li><a href="../../../Communicate.html">RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate</a> &raquo;</li>
+          <li><a href="../../Rdevice.html">RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice</a> &raquo;</li>
+          <li><a href="../Pmeter.html">RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter</a> &raquo;</li>
+      <li>RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">........Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">........Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">........Internal.Types</span> <span class="kn">import</span> <span class="n">DataType</span>
+<span class="kn">from</span> <span class="nn">........Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">........Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">........Internal.ArgSingleList</span> <span class="kn">import</span> <span class="n">ArgSingleList</span>
+<span class="kn">from</span> <span class="nn">........Internal.ArgSingle</span> <span class="kn">import</span> <span class="n">ArgSingle</span>
+<span class="kn">from</span> <span class="nn">........</span> <span class="kn">import</span> <span class="n">repcap</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="DefineCls"><a class="viewcode-back" href="../../../../../../../../../Applications_K14x_Nr5G_System_Communicate_Rdevice_Pmeter_Define.html#RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define.DefineCls">[docs]</a><span class="k">class</span> <span class="nc">DefineCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Define commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;define&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+<div class="viewcode-block" id="DefineCls.set"><a class="viewcode-back" href="../../../../../../../../../Applications_K14x_Nr5G_System_Communicate_Rdevice_Pmeter_Define.html#RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define.DefineCls.set">[docs]</a>	<span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">placeholder</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">type_py</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">interface</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">serial_no</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">powerMeter</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">PowerMeter</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: SYSTem:COMMunicate:RDEVice:PMETer&lt;p&gt;:DEFine \n</span>
+<span class="sd">		Snippet: driver.applications.k14Xnr5G.system.communicate.rdevice.pmeter.define.set(placeholder = &#39;abc&#39;, type_py = &#39;abc&#39;, interface = &#39;abc&#39;, serial_no = &#39;abc&#39;, powerMeter = repcap.PowerMeter.Default) \n</span>
+<span class="sd">		Assigns the power sensor with the specified serial number to the selected power sensor index (configuration) . The query</span>
+<span class="sd">		returns the power sensor type and serial number of the sensor assigned to the specified index. For a list of supported</span>
+<span class="sd">		power sensors, see the specifications document. \n</span>
+<span class="sd">			:param placeholder: Currently not used</span>
+<span class="sd">			:param type_py: Detected power sensor type, e.g. &#39;NRP-Z81&#39;.</span>
+<span class="sd">			:param interface: Interface the power sensor is connected to; always &#39;USB&#39;</span>
+<span class="sd">			:param serial_no: Serial number of the power sensor assigned to the specified index</span>
+<span class="sd">			:param powerMeter: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Pmeter&#39;)</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="n">param</span> <span class="o">=</span> <span class="n">ArgSingleList</span><span class="p">()</span><span class="o">.</span><span class="n">compose_cmd_string</span><span class="p">(</span><span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;placeholder&#39;</span><span class="p">,</span> <span class="n">placeholder</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">String</span><span class="p">),</span> <span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;type_py&#39;</span><span class="p">,</span> <span class="n">type_py</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">String</span><span class="p">),</span> <span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;interface&#39;</span><span class="p">,</span> <span class="n">interface</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">String</span><span class="p">),</span> <span class="n">ArgSingle</span><span class="p">(</span><span class="s1">&#39;serial_no&#39;</span><span class="p">,</span> <span class="n">serial_no</span><span class="p">,</span> <span class="n">DataType</span><span class="o">.</span><span class="n">String</span><span class="p">))</span>
+		<span class="n">powerMeter_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">powerMeter</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">PowerMeter</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SYSTem:COMMunicate:RDEVice:PMETer</span><span class="si">{</span><span class="n">powerMeter_cmd_val</span><span class="si">}</span><span class="s1">:DEFine </span><span class="si">{</span><span class="n">param</span><span class="si">}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">rstrip</span><span class="p">())</span></div>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="DefineCls.DefineStruct"><a class="viewcode-back" href="../../../../../../../../../Applications_K14x_Nr5G_System_Communicate_Rdevice_Pmeter_Define.html#RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define.DefineCls.DefineStruct">[docs]</a>	<span class="k">class</span> <span class="nc">DefineStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Response structure. Fields: \n</span>
+<span class="sd">			- Placeholder: str: Currently not used</span>
+<span class="sd">			- Type_Py: str: Detected power sensor type, e.g. &#39;NRP-Z81&#39;.</span>
+<span class="sd">			- Interface: str: Interface the power sensor is connected to; always &#39;USB&#39;</span>
+<span class="sd">			- Serial_No: str: Serial number of the power sensor assigned to the specified index&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_str</span><span class="p">(</span><span class="s1">&#39;Placeholder&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_str</span><span class="p">(</span><span class="s1">&#39;Type_Py&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_str</span><span class="p">(</span><span class="s1">&#39;Interface&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_str</span><span class="p">(</span><span class="s1">&#39;Serial_No&#39;</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Placeholder</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Type_Py</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Interface</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Serial_No</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="DefineCls.get"><a class="viewcode-back" href="../../../../../../../../../Applications_K14x_Nr5G_System_Communicate_Rdevice_Pmeter_Define.html#RsFsw.Implementations.Applications.K14x_Nr5G.System.Communicate.Rdevice.Pmeter.Define.DefineCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">powerMeter</span><span class="o">=</span><span class="n">repcap</span><span class="o">.</span><span class="n">PowerMeter</span><span class="o">.</span><span class="n">Default</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">DefineStruct</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: SYSTem:COMMunicate:RDEVice:PMETer&lt;p&gt;:DEFine \n</span>
+<span class="sd">		Snippet: value: DefineStruct = driver.applications.k14Xnr5G.system.communicate.rdevice.pmeter.define.get(powerMeter = repcap.PowerMeter.Default) \n</span>
+<span class="sd">		Assigns the power sensor with the specified serial number to the selected power sensor index (configuration) . The query</span>
+<span class="sd">		returns the power sensor type and serial number of the sensor assigned to the specified index. For a list of supported</span>
+<span class="sd">		power sensors, see the specifications document. \n</span>
+<span class="sd">			:param powerMeter: optional repeated capability selector. Default value: Nr1 (settable in the interface &#39;Pmeter&#39;)</span>
+<span class="sd">			:return: structure: for return value, see the help for DefineStruct structure arguments.&quot;&quot;&quot;</span>
+		<span class="n">powerMeter_cmd_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span><span class="o">.</span><span class="n">get_repcap_cmd_value</span><span class="p">(</span><span class="n">powerMeter</span><span class="p">,</span> <span class="n">repcap</span><span class="o">.</span><span class="n">PowerMeter</span><span class="p">)</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SYSTem:COMMunicate:RDEVice:PMETer</span><span class="si">{</span><span class="n">powerMeter_cmd_val</span><span class="si">}</span><span class="s1">:DEFine?&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">DefineStruct</span><span class="p">())</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

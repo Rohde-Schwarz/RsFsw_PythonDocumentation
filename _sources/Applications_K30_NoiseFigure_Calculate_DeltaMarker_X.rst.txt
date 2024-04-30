@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:X
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.DeltaMarker.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

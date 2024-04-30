@@ -1,0 +1,39 @@
+Chip
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh<n>:SUMMary:JITTer:CHIP
+
+.. code-block:: python
+
+	FETCh<n>:SUMMary:JITTer:CHIP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Fetch.Summary.Jitter.Chip.ChipCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.fetch.summary.jitter.chip.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Fetch_Summary_Jitter_Chip_Average.rst
+	Applications_K149_Uwb_Fetch_Summary_Jitter_Chip_Maximum.rst
+	Applications_K149_Uwb_Fetch_Summary_Jitter_Chip_Minimum.rst

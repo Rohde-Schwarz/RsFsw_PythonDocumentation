@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:MIXer[:POWer]
+
+.. code-block:: python
+
+	INPut:MIXer[:POWer]
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Mixer.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

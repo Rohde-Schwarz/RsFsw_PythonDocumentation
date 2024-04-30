@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:POWer:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:POWer:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Power.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

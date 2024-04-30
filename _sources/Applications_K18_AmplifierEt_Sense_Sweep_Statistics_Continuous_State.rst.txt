@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:STATistics:CONTinuous[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:SWEep:STATistics:CONTinuous[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Sweep.Statistics.Continuous.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

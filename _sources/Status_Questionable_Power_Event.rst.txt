@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:POWer[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:POWer[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Power.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

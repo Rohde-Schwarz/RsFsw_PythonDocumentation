@@ -1,0 +1,20 @@
+Rinterval
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:TIME:RINTerval
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:TIME:RINTerval
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Trigger.Sequence.Time.Rinterval.RintervalCls
+	:members:
+	:undoc-members:
+	:noindex:

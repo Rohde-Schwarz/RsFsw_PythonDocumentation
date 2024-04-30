@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:SKEYs[:STATe]
+
+.. code-block:: python
+
+	DISPlay:SKEYs[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Skeys.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

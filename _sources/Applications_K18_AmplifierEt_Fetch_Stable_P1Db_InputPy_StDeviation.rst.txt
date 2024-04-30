@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:P1DB:IN:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:P1DB:IN:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.P1Db.InputPy.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Method
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:MCPHase:METHod
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:MCPHase:METHod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.McPhase.Method.MethodCls
+	:members:
+	:undoc-members:
+	:noindex:

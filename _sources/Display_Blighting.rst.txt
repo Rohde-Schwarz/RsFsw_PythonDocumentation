@@ -1,0 +1,20 @@
+Blighting
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:BLIGhting
+
+.. code-block:: python
+
+	DISPlay:BLIGhting
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Blighting.BlightingCls
+	:members:
+	:undoc-members:
+	:noindex:

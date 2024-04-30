@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:TYPE
+
+.. code-block:: python
+
+	INPut:IQ:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.InputPy.Iq.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

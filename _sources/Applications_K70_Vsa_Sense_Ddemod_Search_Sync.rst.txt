@@ -1,0 +1,52 @@
+Sync
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:COPY
+	single: [SENSe]:DDEMod:SEARch:SYNC:DELete
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:COPY
+	[SENSe]:DDEMod:SEARch:SYNC:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.SyncCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.ddemod.search.sync.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Auto.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Catalog.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Comment.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Data.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Found.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_IqcThreshold.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Mode.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Name.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Nstate.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Offset.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Pattern.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Select.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_State.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Text.rst

@@ -1,0 +1,20 @@
+Cfdrift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:FSK:CFDRift
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:DDEMod:STATistic:FSK:CFDRift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.Fsk.Cfdrift.CfdriftCls
+	:members:
+	:undoc-members:
+	:noindex:

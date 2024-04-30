@@ -1,0 +1,34 @@
+Lower
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Calculate.Limit.Lower.LowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.calculate.limit.lower.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_Margin.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_Mode.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_Offset.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_Shift.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_Spacing.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_State.rst
+	Applications_K14x_Nr5G_Calculate_Limit_Lower_Threshold.rst

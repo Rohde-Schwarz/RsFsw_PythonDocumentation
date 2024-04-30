@@ -1,0 +1,42 @@
+Sblock<SubBlock>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr8
+	rc = driver.applications.k14Xnr5G.sense.power.achannel.sblock.repcap_subBlock_get()
+	driver.applications.k14Xnr5G.sense.power.achannel.sblock.repcap_subBlock_set(repcap.SubBlock.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Sblock.SblockCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.power.achannel.sblock.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_Bandwidth.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_Center.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_Frequency.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_Name.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_RfbWidth.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_Technology.rst
+	Applications_K14x_Nr5G_Sense_Power_Achannel_Sblock_TxChannel.rst

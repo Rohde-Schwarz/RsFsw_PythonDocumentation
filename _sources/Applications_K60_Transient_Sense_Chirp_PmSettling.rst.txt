@@ -1,0 +1,30 @@
+PmSettling
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.PmSettling.PmSettlingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.chirp.pmSettling.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmsLength.rst
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmSpoint.rst
+	Applications_K60_Transient_Sense_Chirp_PmSettling_PmStime.rst

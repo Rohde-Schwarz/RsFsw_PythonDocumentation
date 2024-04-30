@@ -1,0 +1,20 @@
+SnRatio
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:SNRatio
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:SNRatio
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.SnRatio.SnRatioCls
+	:members:
+	:undoc-members:
+	:noindex:

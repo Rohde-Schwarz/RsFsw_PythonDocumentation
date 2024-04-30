@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:POWer:PWRRipple:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:POWer:PWRRipple:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Power.PwrRipple.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:CONFigure[:LEVel]:DURation:MODE
+
+.. code-block:: python
+
+	[SENSe]:ADJust:CONFigure[:LEVel]:DURation:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Adjust.Configure.Level.Duration.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

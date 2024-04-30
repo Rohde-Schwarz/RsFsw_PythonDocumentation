@@ -1,0 +1,20 @@
+Range
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:EVALuation:STATistics:RANGe
+
+.. code-block:: python
+
+	[SENSe]:EVALuation:STATistics:RANGe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Evaluation.Statistics.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:

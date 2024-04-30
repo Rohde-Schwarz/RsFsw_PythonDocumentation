@@ -1,0 +1,20 @@
+StAdjust
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:DEMod:STADjust
+
+.. code-block:: python
+
+	[SENSe]:NR5G:DEMod:STADjust
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.StAdjust.StAdjustCls
+	:members:
+	:undoc-members:
+	:noindex:

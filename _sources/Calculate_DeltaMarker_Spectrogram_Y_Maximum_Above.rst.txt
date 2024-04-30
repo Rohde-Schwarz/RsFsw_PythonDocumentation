@@ -1,0 +1,20 @@
+Above
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:SPECtrogram:Y:MAXimum:ABOVe
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:SPECtrogram:Y:MAXimum:ABOVe
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Spectrogram.Y.Maximum.Above.AboveCls
+	:members:
+	:undoc-members:
+	:noindex:

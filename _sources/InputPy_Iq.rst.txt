@@ -1,0 +1,34 @@
+Iq
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.InputPy.Iq.IqCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.inputPy.iq.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	InputPy_Iq_Balanced.rst
+	InputPy_Iq_Fullscale.rst
+	InputPy_Iq_Impedance.rst
+	InputPy_Iq_Optimize.rst
+	InputPy_Iq_Osc.rst
+	InputPy_Iq_Skew.rst
+	InputPy_Iq_TypePy.rst

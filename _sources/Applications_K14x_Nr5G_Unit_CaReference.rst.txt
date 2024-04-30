@@ -1,0 +1,20 @@
+CaReference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:CAReference
+
+.. code-block:: python
+
+	UNIT:CAReference
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Unit.CaReference.CaReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

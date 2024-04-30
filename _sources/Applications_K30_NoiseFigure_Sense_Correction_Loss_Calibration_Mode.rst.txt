@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:LOSS:CALibration:MODE
+
+.. code-block:: python
+
+	[SENSe]:CORRection:LOSS:CALibration:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Loss.Calibration.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

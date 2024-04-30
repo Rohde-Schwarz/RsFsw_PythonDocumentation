@@ -1,0 +1,20 @@
+FmStime
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FMSettling:FMSTime
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FMSettling:FMSTime
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.FmSettling.FmStime.FmStimeCls
+	:members:
+	:undoc-members:
+	:noindex:

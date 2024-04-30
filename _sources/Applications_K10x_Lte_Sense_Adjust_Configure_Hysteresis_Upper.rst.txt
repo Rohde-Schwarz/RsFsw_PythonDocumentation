@@ -1,0 +1,20 @@
+Upper
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:CONFigure:HYSTeresis:UPPer
+
+.. code-block:: python
+
+	[SENSe]:ADJust:CONFigure:HYSTeresis:UPPer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Adjust.Configure.Hysteresis.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:

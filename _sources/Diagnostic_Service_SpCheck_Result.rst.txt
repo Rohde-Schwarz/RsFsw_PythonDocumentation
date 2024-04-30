@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:SPCHeck:RESult
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:SPCHeck:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.SpCheck.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

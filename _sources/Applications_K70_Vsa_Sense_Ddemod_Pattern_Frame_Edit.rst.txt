@@ -1,0 +1,42 @@
+Edit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:DDEMod:PATTern:FRAMe:EDIT
+	single: [SENSe]:DDEMod:PATTern:FRAMe:EDIT:SAVE
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PATTern:FRAMe:EDIT
+	[SENSe]:DDEMod:PATTern:FRAMe:EDIT:SAVE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Frame.Edit.EditCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.ddemod.pattern.frame.edit.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Next.rst
+	Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Previous.rst
+	Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Structure.rst
+	Applications_K70_Vsa_Sense_Ddemod_Pattern_Frame_Edit_Text.rst

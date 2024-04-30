@@ -1,0 +1,20 @@
+AlCount
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALCount
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SUBFrame<sf>:ALCount
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Subframe.AlCount.AlCountCls
+	:members:
+	:undoc-members:
+	:noindex:

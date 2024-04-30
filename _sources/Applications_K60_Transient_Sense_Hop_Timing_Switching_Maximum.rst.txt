@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:TIMing:SWITching:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:TIMing:SWITching:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Timing.Switching.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+RefPosition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:X[:SCALe]:RPOSition
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:X[:SCALe]:RPOSition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Display.Window.Trace.X.Scale.RefPosition.RefPositionCls
+	:members:
+	:undoc-members:
+	:noindex:

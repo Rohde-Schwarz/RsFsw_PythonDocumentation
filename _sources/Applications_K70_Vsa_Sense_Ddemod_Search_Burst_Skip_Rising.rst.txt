@@ -1,0 +1,20 @@
+Rising
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:BURSt:SKIP:RISing
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:BURSt:SKIP:RISing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Burst.Skip.Rising.RisingCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Acon
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:ACON
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:ACON
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.Acon.AconCls
+	:members:
+	:undoc-members:
+	:noindex:

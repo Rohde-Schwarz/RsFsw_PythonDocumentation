@@ -1,0 +1,20 @@
+EhtPpdu
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:RUConfig:EHTPpdu
+
+.. code-block:: python
+
+	CONFigure:WLAN:RUConfig:EHTPpdu
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.RuConfig.EhtPpdu.EhtPpduCls
+	:members:
+	:undoc-members:
+	:noindex:

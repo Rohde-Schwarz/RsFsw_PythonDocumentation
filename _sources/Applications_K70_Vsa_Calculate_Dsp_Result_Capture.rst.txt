@@ -1,0 +1,29 @@
+Capture
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Capture.CaptureCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.calculate.dsp.result.capture.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Calculate_Dsp_Result_Capture_Bursts.rst
+	Applications_K70_Vsa_Calculate_Dsp_Result_Capture_Patterns.rst

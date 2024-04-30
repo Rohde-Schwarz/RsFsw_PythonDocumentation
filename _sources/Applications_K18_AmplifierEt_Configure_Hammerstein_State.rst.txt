@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:HAMMerstein[:STATe]
+
+.. code-block:: python
+
+	CONFigure:HAMMerstein[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Hammerstein.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

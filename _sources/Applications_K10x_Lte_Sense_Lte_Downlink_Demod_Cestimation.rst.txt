@@ -1,0 +1,20 @@
+Cestimation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:DEMod:CESTimation
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:DEMod:CESTimation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.Cestimation.CestimationCls
+	:members:
+	:undoc-members:
+	:noindex:

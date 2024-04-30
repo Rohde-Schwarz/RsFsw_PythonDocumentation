@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:CVL:SELect
+
+.. code-block:: python
+
+	[SENSe]:CORRection:CVL:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Correction.Cvl.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

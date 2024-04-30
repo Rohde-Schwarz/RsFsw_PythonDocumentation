@@ -1,0 +1,39 @@
+RsFsw API Structure
+========================================
+
+
+.. autoclass:: RsFsw.RsFsw
+	:members:
+	:undoc-members:
+	:noindex:
+
+.. rubric:: Subgroups
+
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications.rst
+	Calculate.rst
+	Calibration.rst
+	Configure.rst
+	Diagnostic.rst
+	Display.rst
+	Fetch.rst
+	FormatPy.rst
+	HardCopy.rst
+	Initiate.rst
+	InputPy.rst
+	Instrument.rst
+	Layout.rst
+	MassMemory.rst
+	Output.rst
+	Read.rst
+	Sense.rst
+	Source.rst
+	Status.rst
+	System.rst
+	Trace.rst
+	Trigger.rst
+	TriggerInvoke.rst
+	Unit.rst

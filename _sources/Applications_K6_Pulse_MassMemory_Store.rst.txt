@@ -1,0 +1,38 @@
+Store<Store>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Pos1 .. Pos32
+	rc = driver.applications.k6Pulse.massMemory.store.repcap_store_get()
+	driver.applications.k6Pulse.massMemory.store.repcap_store_set(repcap.Store.Pos1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.MassMemory.Store.StoreCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.massMemory.store.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_MassMemory_Store_Iq.rst
+	Applications_K6_Pulse_MassMemory_Store_Table.rst
+	Applications_K6_Pulse_MassMemory_Store_Trace.rst

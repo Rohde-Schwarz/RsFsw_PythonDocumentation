@@ -1,0 +1,20 @@
+Unit
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:SCALe:Y:UNIT
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:SCALe:Y:UNIT
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Scale.Y.Unit.UnitCls
+	:members:
+	:undoc-members:
+	:noindex:

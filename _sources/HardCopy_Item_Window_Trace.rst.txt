@@ -1,0 +1,28 @@
+Trace
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Item.Window.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.item.window.trace.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Item_Window_Trace_State.rst

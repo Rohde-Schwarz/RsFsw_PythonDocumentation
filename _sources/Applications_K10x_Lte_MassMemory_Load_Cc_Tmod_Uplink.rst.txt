@@ -1,0 +1,20 @@
+Uplink
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD[:CC<cc>]:TMOD:UL
+
+.. code-block:: python
+
+	MMEMory:LOAD[:CC<cc>]:TMOD:UL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.MassMemory.Load.Cc.Tmod.Uplink.UplinkCls
+	:members:
+	:undoc-members:
+	:noindex:

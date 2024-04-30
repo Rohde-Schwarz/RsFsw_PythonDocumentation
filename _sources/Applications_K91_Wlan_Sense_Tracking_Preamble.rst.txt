@@ -1,0 +1,20 @@
+Preamble
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:TRACking:PREamble
+
+.. code-block:: python
+
+	[SENSe]:TRACking:PREamble
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Tracking.Preamble.PreambleCls
+	:members:
+	:undoc-members:
+	:noindex:

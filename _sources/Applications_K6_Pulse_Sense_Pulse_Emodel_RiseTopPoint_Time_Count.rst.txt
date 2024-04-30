@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RTPTime:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RTPTime:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseTopPoint.Time.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

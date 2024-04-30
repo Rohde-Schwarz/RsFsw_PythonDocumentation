@@ -1,0 +1,40 @@
+Iq
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Trace.Iq.IqCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.iqAnalyzer.trace.iq.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_IqAnalyzer_Trace_Iq_Apcon.rst
+	Applications_IqAnalyzer_Trace_Iq_Average.rst
+	Applications_IqAnalyzer_Trace_Iq_Data.rst
+	Applications_IqAnalyzer_Trace_Iq_DiqFilter.rst
+	Applications_IqAnalyzer_Trace_Iq_Egate.rst
+	Applications_IqAnalyzer_Trace_Iq_Eval.rst
+	Applications_IqAnalyzer_Trace_Iq_File.rst
+	Applications_IqAnalyzer_Trace_Iq_Rlength.rst
+	Applications_IqAnalyzer_Trace_Iq_State.rst
+	Applications_IqAnalyzer_Trace_Iq_SymbolRate.rst
+	Applications_IqAnalyzer_Trace_Iq_TpiSample.rst
+	Applications_IqAnalyzer_Trace_Iq_Wband.rst
+	Applications_IqAnalyzer_Trace_Iq_Wfilter.rst

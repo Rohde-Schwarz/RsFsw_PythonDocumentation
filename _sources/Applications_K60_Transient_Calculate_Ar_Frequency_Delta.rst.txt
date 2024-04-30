@@ -1,0 +1,20 @@
+Delta
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:AR:FREQuency:DELTa
+
+.. code-block:: python
+
+	CALCulate<n>:AR:FREQuency:DELTa
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Ar.Frequency.Delta.DeltaCls
+	:members:
+	:undoc-members:
+	:noindex:

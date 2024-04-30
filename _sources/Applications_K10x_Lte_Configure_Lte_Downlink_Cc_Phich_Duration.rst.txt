@@ -1,0 +1,20 @@
+Duration
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PHICh:DURation
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PHICh:DURation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Phich.Duration.DurationCls
+	:members:
+	:undoc-members:
+	:noindex:

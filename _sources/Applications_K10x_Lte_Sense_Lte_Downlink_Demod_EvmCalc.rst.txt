@@ -1,0 +1,20 @@
+EvmCalc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:DEMod:EVMCalc
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:DEMod:EVMCalc
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.EvmCalc.EvmCalcCls
+	:members:
+	:undoc-members:
+	:noindex:

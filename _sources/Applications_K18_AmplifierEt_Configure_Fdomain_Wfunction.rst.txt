@@ -1,0 +1,20 @@
+Wfunction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:FDOMain:WFUNction
+
+.. code-block:: python
+
+	CONFigure:FDOMain:WFUNction
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Fdomain.Wfunction.WfunctionCls
+	:members:
+	:undoc-members:
+	:noindex:

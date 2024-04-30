@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:QUADoffset:MAXimum
+
+.. code-block:: python
+
+	FETCh:BURSt:QUADoffset:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.QuadOffset.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

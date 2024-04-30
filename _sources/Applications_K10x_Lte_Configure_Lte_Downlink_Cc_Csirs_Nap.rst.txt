@@ -1,0 +1,20 @@
+Nap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:NAP
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:NAP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Csirs.Nap.NapCls
+	:members:
+	:undoc-members:
+	:noindex:

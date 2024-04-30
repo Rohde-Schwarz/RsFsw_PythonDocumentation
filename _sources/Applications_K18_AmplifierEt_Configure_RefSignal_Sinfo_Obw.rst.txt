@@ -1,0 +1,20 @@
+Obw
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:SINFo:OBW
+
+.. code-block:: python
+
+	CONFigure:REFSignal:SINFo:OBW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Sinfo.Obw.ObwCls
+	:members:
+	:undoc-members:
+	:noindex:

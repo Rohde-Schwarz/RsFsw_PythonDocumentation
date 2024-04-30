@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:COUPling:MODE
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:COUPling:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.Coupling.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

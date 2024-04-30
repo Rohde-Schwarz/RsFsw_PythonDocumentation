@@ -1,0 +1,20 @@
+Copy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>:COPY
+
+.. code-block:: python
+
+	TRACe<n>:COPY
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trace.Copy.CopyCls
+	:members:
+	:undoc-members:
+	:noindex:

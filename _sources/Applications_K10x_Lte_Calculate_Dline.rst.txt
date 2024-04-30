@@ -1,0 +1,45 @@
+Dline<DisplayLine>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr2
+	rc = driver.applications.k10Xlte.calculate.dline.repcap_displayLine_get()
+	driver.applications.k10Xlte.calculate.dline.repcap_displayLine_set(repcap.DisplayLine.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DLINe<dl>
+
+.. code-block:: python
+
+	CALCulate<n>:DLINe<dl>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Calculate.Dline.DlineCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.calculate.dline.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Calculate_Dline_State.rst

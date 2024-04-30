@@ -1,0 +1,20 @@
+Rseq
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PRACh:RSEQ
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PRACh:RSEQ
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Prach.Rseq.RseqCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+PrData
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:DL:DEMod:PRData
+
+.. code-block:: python
+
+	[SENSe][:LTE]:DL:DEMod:PRData
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Downlink.Demod.PrData.PrDataCls
+	:members:
+	:undoc-members:
+	:noindex:

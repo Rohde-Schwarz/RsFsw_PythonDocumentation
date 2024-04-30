@@ -1,0 +1,20 @@
+Color
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:DEVice:COLor
+
+.. code-block:: python
+
+	HCOPy:DEVice:COLor
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Device.Color.ColorCls
+	:members:
+	:undoc-members:
+	:noindex:

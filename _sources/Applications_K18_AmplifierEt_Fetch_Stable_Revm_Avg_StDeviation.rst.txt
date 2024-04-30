@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:REVM:AVG:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:REVM:AVG:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Revm.Avg.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

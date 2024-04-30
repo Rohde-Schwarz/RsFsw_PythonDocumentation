@@ -1,0 +1,20 @@
+Alignment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:RESult:ALIGnment
+
+.. code-block:: python
+
+	CALCulate<n>:RESult:ALIGnment
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Result.Alignment.AlignmentCls
+	:members:
+	:undoc-members:
+	:noindex:

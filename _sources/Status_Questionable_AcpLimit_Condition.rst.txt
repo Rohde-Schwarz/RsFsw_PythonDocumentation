@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:ACPLimit:CONDition
+
+.. code-block:: python
+
+	STATus:QUEStionable:ACPLimit:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.AcpLimit.Condition.ConditionCls
+	:members:
+	:undoc-members:
+	:noindex:

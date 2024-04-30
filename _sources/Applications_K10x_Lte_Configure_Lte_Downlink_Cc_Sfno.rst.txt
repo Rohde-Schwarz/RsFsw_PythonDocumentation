@@ -1,0 +1,20 @@
+Sfno
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SFNO
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SFNO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sfno.SfnoCls
+	:members:
+	:undoc-members:
+	:noindex:

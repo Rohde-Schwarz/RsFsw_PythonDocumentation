@@ -1,0 +1,38 @@
+Rrc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:FILTer:RRC
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:FILTer:RRC
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.FilterPy.Rrc.RrcCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.espectrum.filterPy.rrc.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Espectrum_FilterPy_Rrc_Alpha.rst
+	Applications_K149_Uwb_Sense_Espectrum_FilterPy_Rrc_State.rst

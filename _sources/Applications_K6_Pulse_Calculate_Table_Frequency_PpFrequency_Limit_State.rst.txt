@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TABLe:FREQuency:PPFRequency:LIMit:STATe
+
+.. code-block:: python
+
+	CALCulate<n>:TABLe:FREQuency:PPFRequency:LIMit:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Frequency.PpFrequency.Limit.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

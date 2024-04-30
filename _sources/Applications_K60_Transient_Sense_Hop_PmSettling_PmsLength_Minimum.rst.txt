@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PMSettling:PMSLength:MINimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:PMSettling:PMSLength:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.PmSettling.PmsLength.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

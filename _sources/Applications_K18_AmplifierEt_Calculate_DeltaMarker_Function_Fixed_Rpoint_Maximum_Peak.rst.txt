@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:FUNCtion:FIXed:RPOint:MAXimum[:PEAK]
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:FUNCtion:FIXed:RPOint:MAXimum[:PEAK]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.DeltaMarker.Function.Fixed.Rpoint.Maximum.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:

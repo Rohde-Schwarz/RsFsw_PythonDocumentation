@@ -1,0 +1,37 @@
+Resolution
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth[:RESolution]
+
+.. code-block:: python
+
+	[SENSe]:BWIDth[:RESolution]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Bandwidth.Resolution.ResolutionCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k149Uwb.sense.bandwidth.resolution.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K149_Uwb_Sense_Bandwidth_Resolution_Auto.rst

@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:TAERror[:CC<cc>]:ANTenna<ant>:MINimum
+
+.. code-block:: python
+
+	FETCh:TAERror[:CC<cc>]:ANTenna<ant>:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.TaError.Cc.Antenna.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

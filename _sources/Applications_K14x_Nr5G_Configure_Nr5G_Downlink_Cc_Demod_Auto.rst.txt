@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL[:CC<cc>]:DEMod:AUTO
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL[:CC<cc>]:DEMod:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Demod.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

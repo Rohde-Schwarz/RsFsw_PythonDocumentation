@@ -1,0 +1,20 @@
+Active
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect:CHANnel[:ITEM]:TRACe[:ACTive]
+
+.. code-block:: python
+
+	MMEMory:SELect:CHANnel[:ITEM]:TRACe[:ACTive]
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Channel.Item.Trace.Active.ActiveCls
+	:members:
+	:undoc-members:
+	:noindex:

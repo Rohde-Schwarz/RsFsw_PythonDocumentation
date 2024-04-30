@@ -1,0 +1,31 @@
+Layout
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K7_AnalogDemod.Layout.LayoutCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k7AnalogDemod.layout.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K7_AnalogDemod_Layout_Add.rst
+	Applications_K7_AnalogDemod_Layout_Catalog.rst
+	Applications_K7_AnalogDemod_Layout_Identify.rst
+	Applications_K7_AnalogDemod_Layout_Replace.rst

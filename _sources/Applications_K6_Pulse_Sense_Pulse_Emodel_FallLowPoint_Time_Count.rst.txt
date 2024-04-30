@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:FLPTime:COUNt
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:FLPTime:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.FallLowPoint.Time.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

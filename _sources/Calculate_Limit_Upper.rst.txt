@@ -1,0 +1,35 @@
+Upper
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Upper.UpperCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.upper.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_Upper_Data.rst
+	Calculate_Limit_Upper_Margin.rst
+	Calculate_Limit_Upper_Mode.rst
+	Calculate_Limit_Upper_Offset.rst
+	Calculate_Limit_Upper_Shift.rst
+	Calculate_Limit_Upper_Spacing.rst
+	Calculate_Limit_Upper_State.rst
+	Calculate_Limit_Upper_Threshold.rst

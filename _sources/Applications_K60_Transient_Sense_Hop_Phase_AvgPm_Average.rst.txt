@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:PHASe:AVGPm:AVERage
+
+.. code-block:: python
+
+	[SENSe]:HOP:PHASe:AVGPm:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Phase.AvgPm.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

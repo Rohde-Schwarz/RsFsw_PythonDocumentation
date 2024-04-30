@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:VOLTage:SEQuence:RESult
+
+.. code-block:: python
+
+	SOURce:VOLTage:SEQuence:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Voltage.Sequence.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

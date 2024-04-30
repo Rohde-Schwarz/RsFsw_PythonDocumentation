@@ -1,0 +1,20 @@
+Active
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:SELect[:ITEM]:TRANsducer[:ACTive]
+
+.. code-block:: python
+
+	MMEMory:SELect[:ITEM]:TRANsducer[:ACTive]
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Select.Item.Transducer.Active.ActiveCls
+	:members:
+	:undoc-members:
+	:noindex:

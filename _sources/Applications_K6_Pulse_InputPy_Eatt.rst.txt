@@ -1,0 +1,38 @@
+Eatt
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:EATT
+
+.. code-block:: python
+
+	INPut:EATT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.InputPy.Eatt.EattCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.inputPy.eatt.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_InputPy_Eatt_Auto.rst
+	Applications_K6_Pulse_InputPy_Eatt_State.rst

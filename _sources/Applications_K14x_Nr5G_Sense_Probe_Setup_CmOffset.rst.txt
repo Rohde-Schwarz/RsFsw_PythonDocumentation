@@ -1,0 +1,20 @@
+CmOffset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PROBe<p>:SETup:CMOFfset
+
+.. code-block:: python
+
+	[SENSe]:PROBe<p>:SETup:CMOFfset
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Probe.Setup.CmOffset.CmOffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

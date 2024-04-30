@@ -1,0 +1,20 @@
+Cfactor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:SINFo:CFACtor
+
+.. code-block:: python
+
+	CONFigure:REFSignal:SINFo:CFACtor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Sinfo.Cfactor.CfactorCls
+	:members:
+	:undoc-members:
+	:noindex:

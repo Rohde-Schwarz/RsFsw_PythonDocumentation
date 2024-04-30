@@ -1,0 +1,20 @@
+Nmrl
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:MBSFn:AI:NMRL
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:MBSFn:AI:NMRL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Mbsfn.Ai.Nmrl.NmrlCls
+	:members:
+	:undoc-members:
+	:noindex:

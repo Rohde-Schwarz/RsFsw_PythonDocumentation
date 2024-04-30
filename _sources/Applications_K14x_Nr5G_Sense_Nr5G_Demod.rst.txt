@@ -1,0 +1,41 @@
+Demod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.nr5G.demod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_CaMode.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_Cestimation.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_CetAverage.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_Cmethod.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_Crdata.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_Ddata.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_EflRange.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_FilterPy.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_McFilter.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_PrData.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_SaTransient.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_SbTransient.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_StAdjust.rst
+	Applications_K14x_Nr5G_Sense_Nr5G_Demod_Tperiod.rst

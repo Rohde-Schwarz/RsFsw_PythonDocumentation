@@ -1,0 +1,20 @@
+Holdoff
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger<tp>[:SEQuence]:BBPower:HOLDoff
+
+.. code-block:: python
+
+	TRIGger<tp>[:SEQuence]:BBPower:HOLDoff
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.BbPower.Holdoff.HoldoffCls
+	:members:
+	:undoc-members:
+	:noindex:

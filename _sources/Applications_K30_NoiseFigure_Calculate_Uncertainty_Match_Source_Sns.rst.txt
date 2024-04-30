@@ -1,0 +1,20 @@
+Sns
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:MATCh:SOURce:SNS
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:MATCh:SOURce:SNS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Match.Source.Sns.SnsCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,38 @@
+PmSettling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:CHIRp:PMSettling
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:CHIRp:PMSettling
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Chirp.PmSettling.PmSettlingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.trend.chirp.pmSettling.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Trend_Chirp_PmSettling_X.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_PmSettling_Y.rst

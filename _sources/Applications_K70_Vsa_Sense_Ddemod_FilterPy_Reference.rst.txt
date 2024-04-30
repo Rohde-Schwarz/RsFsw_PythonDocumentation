@@ -1,0 +1,20 @@
+Reference
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FILTer:REFerence
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FILTer:REFerence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.FilterPy.Reference.ReferenceCls
+	:members:
+	:undoc-members:
+	:noindex:

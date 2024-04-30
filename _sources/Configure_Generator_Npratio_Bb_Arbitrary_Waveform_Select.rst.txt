@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:BB:ARBitrary:WAVeform:SELect
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:BB:ARBitrary:WAVeform:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Bb.Arbitrary.Waveform.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

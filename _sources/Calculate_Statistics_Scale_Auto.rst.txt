@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:SCALe:AUTO
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:SCALe:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Statistics.Scale.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

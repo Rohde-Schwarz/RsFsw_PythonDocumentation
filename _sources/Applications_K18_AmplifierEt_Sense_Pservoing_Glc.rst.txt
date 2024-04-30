@@ -1,0 +1,20 @@
+Glc
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PSERvoing[:GLC]
+
+.. code-block:: python
+
+	[SENSe]:PSERvoing[:GLC]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pservoing.Glc.GlcCls
+	:members:
+	:undoc-members:
+	:noindex:

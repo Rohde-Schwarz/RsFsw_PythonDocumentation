@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:AUTO
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

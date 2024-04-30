@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:EMODel:RMPLevel:MINimum
+
+.. code-block:: python
+
+	[SENSe]:PULSe:EMODel:RMPLevel:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Emodel.RiseMidPoint.Level.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

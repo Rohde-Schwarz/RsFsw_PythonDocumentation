@@ -1,0 +1,42 @@
+Sequence
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.SequenceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.trigger.sequence.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Trigger_Sequence_BbPower.rst
+	Trigger_Sequence_Ctpis.rst
+	Trigger_Sequence_Dtime.rst
+	Trigger_Sequence_Holdoff.rst
+	Trigger_Sequence_IfPower.rst
+	Trigger_Sequence_Level.rst
+	Trigger_Sequence_Mask.rst
+	Trigger_Sequence_Oscilloscope.rst
+	Trigger_Sequence_PostTrigger.rst
+	Trigger_Sequence_Pretrigger.rst
+	Trigger_Sequence_RfPower.rst
+	Trigger_Sequence_Slope.rst
+	Trigger_Sequence_Source.rst
+	Trigger_Sequence_TdTrigger.rst
+	Trigger_Sequence_Time.rst

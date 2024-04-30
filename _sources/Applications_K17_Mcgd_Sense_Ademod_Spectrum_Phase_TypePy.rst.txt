@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:SPECtrum:PHASe:TYPE
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:SPECtrum:PHASe:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Spectrum.Phase.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

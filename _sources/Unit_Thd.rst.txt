@@ -1,0 +1,20 @@
+Thd
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:THD
+
+.. code-block:: python
+
+	UNIT:THD
+
+
+
+.. autoclass:: RsFsw.Implementations.Unit.Thd.ThdCls
+	:members:
+	:undoc-members:
+	:noindex:

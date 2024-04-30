@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Sense.Sweep.Optimize &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../" id="documentation_options" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../Sense.html">RsFsw.Implementations.Sense</a> &raquo;</li>
+          <li><a href="../Sweep.html">RsFsw.Implementations.Sense.Sweep</a> &raquo;</li>
+      <li>RsFsw.Implementations.Sense.Sweep.Optimize</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Sense.Sweep.Optimize</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">....Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">....Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">....Internal</span> <span class="kn">import</span> <span class="n">Conversions</span>
+<span class="kn">from</span> <span class="nn">....</span> <span class="kn">import</span> <span class="n">enums</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="OptimizeCls"><a class="viewcode-back" href="../../../../../Sense_Sweep_Optimize.html#RsFsw.Implementations.Sense.Sweep.Optimize.OptimizeCls">[docs]</a><span class="k">class</span> <span class="nc">OptimizeCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Optimize commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;optimize&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+<div class="viewcode-block" id="OptimizeCls.set"><a class="viewcode-back" href="../../../../../Sense_Sweep_Optimize.html#RsFsw.Implementations.Sense.Sweep.Optimize.OptimizeCls.set">[docs]</a>	<span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mode</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">SweepOptimizeB</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:SWEep:OPTimize \n</span>
+<span class="sd">		Snippet: driver.sense.sweep.optimize.set(mode = enums.SweepOptimizeB.AUTO) \n</span>
+<span class="sd">		In FFT mode, several FFT analysis steps are required to cover the entire measurement span. The span which is covered by</span>
+<span class="sd">		one FFT analysis step is called subspan. The subspan cannot be defined directly, but it can be optimized according to</span>
+<span class="sd">		measurement requirements. Optimization parameters in FFT mode</span>
+<span class="sd">			Table Header: Optimization mode / Description \n</span>
+<span class="sd">			- DYNamic / Optimizes the dynamic range by using the narrowest possible subspan (depending on the RBW) . The autorange function for the internal IF gain calculation is activated to obtain the best control range for the A/D converter.</span>
+<span class="sd">			- SPEed / Optimizes the sweep rate by using the widest possible subspan (depending on the RBW) . The autorange function for the internal IF gain calculation is deactivated. (Note: set the reference level accordingly to optimize the control range for the A/D converter) . It is recommended that you set the &#39;Sweep Time&#39; to &#39;Auto&#39; to optimize the sweep rate.</span>
+<span class="sd">			- TRANsient / Recommended mode for measurements on highly transient signals in spectrum analysis. It increases the measurement speed with a trade off in dynamic range. Only available for FSW67/85 models.</span>
+<span class="sd">			- AUTO / Uses a medium-sized subspan to obtain a compromise between a large dynamic range and a fast sweep rate. The autorange function for the internal IF gain calculation is activated to obtain the best control range for the A/D converter.</span>
+<span class="sd">		Note: FFT mode and external mixers (R&amp;S FSW-B21) The subspan optimization modes &#39;Dynamic&#39; and &#39;Auto&#39; include automatic</span>
+<span class="sd">		suppression of unwanted mixing products. Thus, when using external mixers (R&amp;S FSW-B21) , use the &#39;Speed&#39; mode to obtain</span>
+<span class="sd">		similar results in FFT mode as in frequency sweep mode. Zero span mode For zero span measurements, the optimization mode</span>
+<span class="sd">		defines the selection of the A/D converter prefilter. Optimization parameters in zero span mode</span>
+<span class="sd">			Table Header: Optimization mode / Description \n</span>
+<span class="sd">			- DYNamic / The narrowest filter possible (depending on the RBW) is used.</span>
+<span class="sd">			- SPEed / The widest filter possible (depending on the RBW) is used.</span>
+<span class="sd">			- AUTO / A medium-sized prefilter is used.</span>
+<span class="sd">		Note: EMI measurements For EMI measurements (using R&amp;S FSW-K54) , &#39;Dynamic&#39; mode is not supported. &#39;Auto&#39; mode always</span>
+<span class="sd">		uses &#39;Speed&#39; optimization. \n</span>
+<span class="sd">			:param mode: No help available</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="n">param</span> <span class="o">=</span> <span class="n">Conversions</span><span class="o">.</span><span class="n">enum_scalar_to_str</span><span class="p">(</span><span class="n">mode</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">SweepOptimizeB</span><span class="p">)</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:SWEep:OPTimize </span><span class="si">{</span><span class="n">param</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span></div>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="OptimizeCls.get"><a class="viewcode-back" href="../../../../../Sense_Sweep_Optimize.html#RsFsw.Implementations.Sense.Sweep.Optimize.OptimizeCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">enums</span><span class="o">.</span><span class="n">SweepOptimizeB</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:SWEep:OPTimize \n</span>
+<span class="sd">		Snippet: value: enums.SweepOptimizeB = driver.sense.sweep.optimize.get() \n</span>
+<span class="sd">		In FFT mode, several FFT analysis steps are required to cover the entire measurement span. The span which is covered by</span>
+<span class="sd">		one FFT analysis step is called subspan. The subspan cannot be defined directly, but it can be optimized according to</span>
+<span class="sd">		measurement requirements. Optimization parameters in FFT mode</span>
+<span class="sd">			Table Header: Optimization mode / Description \n</span>
+<span class="sd">			- DYNamic / Optimizes the dynamic range by using the narrowest possible subspan (depending on the RBW) . The autorange function for the internal IF gain calculation is activated to obtain the best control range for the A/D converter.</span>
+<span class="sd">			- SPEed / Optimizes the sweep rate by using the widest possible subspan (depending on the RBW) . The autorange function for the internal IF gain calculation is deactivated. (Note: set the reference level accordingly to optimize the control range for the A/D converter) . It is recommended that you set the &#39;Sweep Time&#39; to &#39;Auto&#39; to optimize the sweep rate.</span>
+<span class="sd">			- TRANsient / Recommended mode for measurements on highly transient signals in spectrum analysis. It increases the measurement speed with a trade off in dynamic range. Only available for FSW67/85 models.</span>
+<span class="sd">			- AUTO / Uses a medium-sized subspan to obtain a compromise between a large dynamic range and a fast sweep rate. The autorange function for the internal IF gain calculation is activated to obtain the best control range for the A/D converter.</span>
+<span class="sd">		Note: FFT mode and external mixers (R&amp;S FSW-B21) The subspan optimization modes &#39;Dynamic&#39; and &#39;Auto&#39; include automatic</span>
+<span class="sd">		suppression of unwanted mixing products. Thus, when using external mixers (R&amp;S FSW-B21) , use the &#39;Speed&#39; mode to obtain</span>
+<span class="sd">		similar results in FFT mode as in frequency sweep mode. Zero span mode For zero span measurements, the optimization mode</span>
+<span class="sd">		defines the selection of the A/D converter prefilter. Optimization parameters in zero span mode</span>
+<span class="sd">			Table Header: Optimization mode / Description \n</span>
+<span class="sd">			- DYNamic / The narrowest filter possible (depending on the RBW) is used.</span>
+<span class="sd">			- SPEed / The widest filter possible (depending on the RBW) is used.</span>
+<span class="sd">			- AUTO / A medium-sized prefilter is used.</span>
+<span class="sd">		Note: EMI measurements For EMI measurements (using R&amp;S FSW-K54) , &#39;Dynamic&#39; mode is not supported. &#39;Auto&#39; mode always</span>
+<span class="sd">		uses &#39;Speed&#39; optimization. \n</span>
+<span class="sd">			:return: mode: No help available&quot;&quot;&quot;</span>
+		<span class="n">response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_str</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:SWEep:OPTimize?&#39;</span><span class="p">)</span>
+		<span class="k">return</span> <span class="n">Conversions</span><span class="o">.</span><span class="n">str_to_scalar_enum</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">SweepOptimizeB</span><span class="p">)</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:ADEMod:RESults:PM:DETector<det>:MODE
+
+.. code-block:: python
+
+	CONFigure:ADEMod:RESults:PM:DETector<det>:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Ademod.Results.Pm.Detector.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

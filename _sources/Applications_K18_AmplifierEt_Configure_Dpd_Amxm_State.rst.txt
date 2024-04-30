@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:DPD:AMXM[:STATe]
+
+.. code-block:: python
+
+	CONFigure:DPD:AMXM[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Dpd.Amxm.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

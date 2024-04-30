@@ -1,0 +1,20 @@
+Usst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:USST
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:USST
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Usst.UsstCls
+	:members:
+	:undoc-members:
+	:noindex:

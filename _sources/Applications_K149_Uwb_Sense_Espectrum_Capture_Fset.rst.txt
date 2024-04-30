@@ -1,0 +1,20 @@
+Fset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:CAPTure:FSET
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:CAPTure:FSET
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Espectrum.Capture.Fset.FsetCls
+	:members:
+	:undoc-members:
+	:noindex:

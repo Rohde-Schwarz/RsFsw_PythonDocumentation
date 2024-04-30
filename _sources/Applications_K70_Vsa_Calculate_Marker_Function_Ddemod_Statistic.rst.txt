@@ -1,0 +1,43 @@
+Statistic
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Function.Ddemod.Statistic.StatisticCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.calculate.marker.function.ddemod.statistic.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Adroop.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_All.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_CfError.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Evm.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_FdError.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Fsk.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Gimbalance.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_IqImbalance.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Merror.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Mpower.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Ooffset.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Perror.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Qerror.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Rho.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_Snr.rst
+	Applications_K70_Vsa_Calculate_Marker_Function_Ddemod_Statistic_SrError.rst

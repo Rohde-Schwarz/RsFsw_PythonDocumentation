@@ -1,0 +1,20 @@
+Apply
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:MSR:APPLy
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:MSR:APPLy
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.Msr.Apply.ApplyCls
+	:members:
+	:undoc-members:
+	:noindex:

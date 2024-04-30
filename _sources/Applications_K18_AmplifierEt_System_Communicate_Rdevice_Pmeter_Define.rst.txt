@@ -1,0 +1,20 @@
+Define
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:COMMunicate:RDEVice:PMETer<p>:DEFine
+
+.. code-block:: python
+
+	SYSTem:COMMunicate:RDEVice:PMETer<p>:DEFine
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.System.Communicate.Rdevice.Pmeter.Define.DefineCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:STS:LENGth
+
+.. code-block:: python
+
+	[SENSe]:DEMod:STS:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.Sts.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

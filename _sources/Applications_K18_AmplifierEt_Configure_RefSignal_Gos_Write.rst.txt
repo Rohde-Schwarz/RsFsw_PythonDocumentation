@@ -1,0 +1,20 @@
+Write
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:GOS:WRITe
+
+.. code-block:: python
+
+	CONFigure:REFSignal:GOS:WRITe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Gos.Write.WriteCls
+	:members:
+	:undoc-members:
+	:noindex:

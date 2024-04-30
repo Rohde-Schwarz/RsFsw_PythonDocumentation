@@ -1,0 +1,20 @@
+Control
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:TEMPerature:CONTrol
+
+.. code-block:: python
+
+	[SENSe]:CORRection:TEMPerature:CONTrol
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Temperature.Control.ControlCls
+	:members:
+	:undoc-members:
+	:noindex:

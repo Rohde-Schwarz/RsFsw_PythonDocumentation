@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:FIQ:PATH
+
+.. code-block:: python
+
+	RIQ:FIQ:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Fiq.Path.PathCls
+	:members:
+	:undoc-members:
+	:noindex:

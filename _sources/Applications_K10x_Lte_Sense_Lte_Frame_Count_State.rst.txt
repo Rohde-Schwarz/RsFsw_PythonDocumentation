@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:FRAMe:COUNt:STATe
+
+.. code-block:: python
+
+	[SENSe][:LTE]:FRAMe:COUNt:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Frame.Count.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

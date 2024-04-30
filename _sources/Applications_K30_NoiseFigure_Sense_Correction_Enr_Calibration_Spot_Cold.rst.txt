@@ -1,0 +1,20 @@
+Cold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:ENR:CALibration:SPOT:COLD
+
+.. code-block:: python
+
+	[SENSe]:CORRection:ENR:CALibration:SPOT:COLD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Correction.Enr.Calibration.Spot.Cold.ColdCls
+	:members:
+	:undoc-members:
+	:noindex:

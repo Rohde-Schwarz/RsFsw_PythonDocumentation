@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:FREQuency:AVGFm:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:FREQuency:AVGFm:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Frequency.AvgFm.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

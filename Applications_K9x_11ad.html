@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K9x_11ad &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Calculate&lt;Window&gt;" href="Applications_K9x_11ad_Calculate.html" />
+    <link rel="prev" title="Sflatness" href="Applications_K91_Wlan_Unit_Sflatness.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="RsFsw.html">RsFsw API Structure</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Applications.html">Applications</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Applications_IqAnalyzer.html">IqAnalyzer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K10x_Lte.html">K10x_Lte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K149_Uwb.html">K149_Uwb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K14x_Nr5G.html">K14x_Nr5G</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K17_Mcgd.html">K17_Mcgd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K18_AmplifierEt.html">K18_AmplifierEt</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K30_NoiseFigure.html">K30_NoiseFigure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K40_PhaseNoise.html">K40_PhaseNoise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K50_Spurious.html">K50_Spurious</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K6_Pulse.html">K6_Pulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K60_Transient.html">K60_Transient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K7_AnalogDemod.html">K7_AnalogDemod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K70_Vsa.html">K70_Vsa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K91_Wlan.html">K91_Wlan</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">K9x_11ad</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calibration.html">Calibration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Configure.html">Configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display.html">Display</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch.html">Fetch</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_FormatPy.html">FormatPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Initiate.html">Initiate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_InputPy.html">InputPy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Layout.html">Layout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_MassMemory.html">MassMemory</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Output.html">Output</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Read.html">Read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense.html">Sense</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_System.html">System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger.html">Trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Unit.html">Unit</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Calculate.html">Calculate&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Calibration.html">Calibration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Configure.html">Configure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Diagnostic.html">Diagnostic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Display.html">Display</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Fetch.html">Fetch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FormatPy.html">FormatPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="HardCopy.html">HardCopy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Initiate.html">Initiate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputPy.html">InputPy&lt;InputIx&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Instrument.html">Instrument</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Layout.html">Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MassMemory.html">MassMemory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Output.html">Output&lt;OutputConnector&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Read.html">Read</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sense.html">Sense</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Source.html">Source</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Status.html">Status</a></li>
+<li class="toctree-l2"><a class="reference internal" href="System.html">System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trace.html">Trace&lt;Window&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Trigger.html">Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="TriggerInvoke.html">TriggerInvoke</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Unit.html">Unit</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="RsFsw.html">RsFsw API Structure</a> &raquo;</li>
+          <li><a href="Applications.html">Applications</a> &raquo;</li>
+      <li>K9x_11ad</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/Applications_K9x_11ad.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="k9x-11ad">
+<h1>K9x_11ad<a class="headerlink" href="#k9x-11ad" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">K9x_11adCls</span></span><a class="reference internal" href="_modules/RsFsw/Implementations/Applications/K9x_11ad.html#K9x_11adCls"><span class="viewcode-link"><span class="pre">[source]</span></span></a></dt>
+<dd><p>K9x_11ad commands group definition. 260 total commands, 17 Subgroups, 0 group commands</p>
+</dd></dl>
+
+<p class="rubric">Cloning the Group</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a clone of the original group, that exists independently</span>
+<span class="n">group2</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">applications</span><span class="o">.</span><span class="n">k9x_11ad</span><span class="o">.</span><span class="n">clone</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="rubric">Subgroups</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Calculate.html">Calculate&lt;Window&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker.html">DeltaMarker&lt;DeltaMarker&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Aoff.html">Aoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_LinkTo.html">LinkTo</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_LinkTo_Marker.html">Marker&lt;MarkerDestination&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Maximum.html">Maximum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Maximum_Left.html">Left</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Maximum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Maximum_Peak.html">Peak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Maximum_Right.html">Right</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Minimum.html">Minimum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Minimum_Left.html">Left</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Minimum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Minimum_Peak.html">Peak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Minimum_Right.html">Right</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Trace.html">Trace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_X.html">X</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_X_Relative.html">Relative</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_DeltaMarker_Y.html">Y</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Limit.html">Limit&lt;LimitIx&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Limit_Fail.html">Fail</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker.html">Marker&lt;Marker&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Aoff.html">Aoff</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Function.html">Function</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Function_Center.html">Center</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Link.html">Link</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_LinkTo.html">LinkTo</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_LinkTo_Marker.html">Marker&lt;MarkerDestination&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_LoExclude.html">LoExclude</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Maximum.html">Maximum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Maximum_Left.html">Left</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Maximum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Maximum_Peak.html">Peak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Maximum_Right.html">Right</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Minimum.html">Minimum</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Minimum_Left.html">Left</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Minimum_Next.html">Next</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Minimum_Peak.html">Peak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Minimum_Right.html">Right</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Pexcursion.html">Pexcursion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Trace.html">Trace</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_X.html">X</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Marker_Y.html">Y</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Pmeter_Relative.html">Relative</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Pmeter_Relative_Magnitude.html">Magnitude</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Pmeter_Relative_Magnitude_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Pmeter_Relative_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Unit.html">Unit</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Unit_Angle.html">Angle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Unit_Frequency.html">Frequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calculate_Unit_Power.html">Power</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Calibration.html">Calibration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Calibration_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Calibration_Pmeter_Zero.html">Zero</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Calibration_Pmeter_Zero_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Configure.html">Configure</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Configure_Burst.html">Burst</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Configure_Burst_Iq.html">Iq</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Configure_Burst_Iq_Immediate.html">Immediate</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Configure_Edmg.html">Edmg</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Configure_Edmg_Crate.html">Crate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Configure_Edmg_Ncb.html">Ncb</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Configure_Edmg_UcRate.html">UcRate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Configure_Power.html">Power</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Configure_Power_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Display.html">Display</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Display_Window.html">Window&lt;Window&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Mtable.html">Mtable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Pmeter_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Size.html">Size</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow.html">Subwindow&lt;SubWindow&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow_Zoom.html">Zoom</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow_Zoom_Area.html">Area</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow_Zoom_Multiple.html">Multiple&lt;ZoomWindow&gt;</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow_Zoom_Multiple_Area.html">Area</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow_Zoom_Multiple_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Subwindow_Zoom_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Table.html">Table</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Table_Item.html">Item</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace.html">Trace&lt;Trace&gt;</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Label.html">Label</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Label_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Label_Text.html">Text</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Mode.html">Mode</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y.html">Y</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale.html">Scale</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_Auto.html">Auto</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_Maximum.html">Maximum</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_Minimum.html">Minimum</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_Pdivision.html">Pdivision</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_RefLevel.html">RefLevel</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_RefPosition.html">RefPosition</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Display_Window_Trace_Y_Scale_Rvalue.html">Rvalue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Fetch.html">Fetch</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Burst.html">Burst</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Burst_All.html">All</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Burst_Count.html">Count</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Burst_Lengths.html">Lengths</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Cfactor.html">Cfactor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Cfactor_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Cfactor_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Cfactor_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_CfError.html">CfError</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_CfError_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_CfError_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_CfError_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm.html">Evm</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_All.html">All</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_All_Average.html">Average</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_All_Maximum.html">Maximum</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_All_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Data.html">Data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Data_Average.html">Average</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Data_Maximum.html">Maximum</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Data_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Pilot.html">Pilot</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Pilot_Average.html">Average</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Pilot_Maximum.html">Maximum</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Evm_Pilot_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Ftime.html">Ftime</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Ftime_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Ftime_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Ftime_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Gimbalance.html">Gimbalance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Gimbalance_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Gimbalance_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Gimbalance_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_HbeRate.html">HbeRate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_HbeRate_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_HbeRate_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_HbeRate_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_IqOffset.html">IqOffset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_IqOffset_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_IqOffset_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_IqOffset_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_PbeRate.html">PbeRate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_PbeRate_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_PbeRate_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_PbeRate_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_QuadError.html">QuadError</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_QuadError_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_QuadError_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_QuadError_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Rtime.html">Rtime</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Rtime_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Rtime_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Rtime_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Snr.html">Snr</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Snr_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Snr_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Snr_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_SymbolError.html">SymbolError</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_SymbolError_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_SymbolError_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_SymbolError_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_TdPower.html">TdPower</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_TdPower_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_TdPower_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_TdPower_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Tskew.html">Tskew</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Tskew_Average.html">Average</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Tskew_Maximum.html">Maximum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Fetch_Tskew_Minimum.html">Minimum</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_FormatPy.html">FormatPy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_FormatPy_Bstream.html">Bstream</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_FormatPy_Dexport.html">Dexport</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_FormatPy_Dexport_Dseparator.html">Dseparator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_FormatPy_Dexport_Graph.html">Graph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_FormatPy_Dexport_Header.html">Header</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_FormatPy_Dexport_Traces.html">Traces</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Initiate.html">Initiate</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Initiate_Continuous.html">Continuous</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Initiate_Immediate.html">Immediate</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_InputPy.html">InputPy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Attenuation.html">Attenuation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Attenuation_Auto.html">Auto</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Connector.html">Connector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Coupling.html">Coupling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Eatt.html">Eatt</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Eatt_Auto.html">Auto</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Eatt_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Egain.html">Egain</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Egain_Bypass.html">Bypass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Egain_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_FilterPy.html">FilterPy</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_FilterPy_Achannels.html">Achannels</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_InputPy_FilterPy_Achannels_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Gain.html">Gain</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Gain_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Gain_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_Select.html">Select</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_InputPy_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Layout.html">Layout</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Add.html">Add</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Layout_Add_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Catalog.html">Catalog</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Layout_Catalog_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Identify.html">Identify</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Layout_Identify_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Move.html">Move</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Layout_Move_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Remove.html">Remove</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Layout_Remove_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Replace.html">Replace</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Layout_Replace_Window.html">Window</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Layout_Splitter.html">Splitter</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_MassMemory.html">MassMemory</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Load.html">Load</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Load_Iq.html">Iq</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Load_Iq_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Load_Iq_Stream.html">Stream</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Load_Iq_Stream_Auto.html">Auto</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Load_Iq_Stream_ListPy.html">ListPy</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Store.html">Store&lt;Store&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Store_Iq.html">Iq</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Store_Iq_Comment.html">Comment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Store_Iq_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_MassMemory_Store_Trace.html">Trace</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Output.html">Output</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Output_Ifreq.html">Ifreq</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Output_Ifreq_IfFrequency.html">IfFrequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Output_Ifreq_Source.html">Source</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger.html">Trigger&lt;TriggerPort&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger_Direction.html">Direction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger_Otype.html">Otype</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger_Pulse.html">Pulse</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger_Pulse_Immediate.html">Immediate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Output_Trigger_Pulse_Length.html">Length</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Read.html">Read</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Read_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Sense.html">Sense</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Adjust.html">Adjust</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Adjust_Configure.html">Configure</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Adjust_Configure_Level.html">Level</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Adjust_Configure_Level_Duration.html">Duration</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Sense_Adjust_Configure_Level_Duration_Mode.html">Mode</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Adjust_Level.html">Level</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Burst.html">Burst</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Burst_Count.html">Count</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Burst_Count_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Burst_Select.html">Select</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Burst_Select_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction.html">Correction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl.html">Cvl</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Band.html">Band</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Bias.html">Bias</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Catalog.html">Catalog</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Comment.html">Comment</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Data.html">Data</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Harmonic.html">Harmonic</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Mixer.html">Mixer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Ports.html">Ports</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Select.html">Select</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Correction_Cvl_Snumber.html">Snumber</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod.html">Demod</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod_FormatPy.html">FormatPy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod_FormatPy_Banalyze.html">Banalyze</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod_FormatPy_Banalyze_Symbols.html">Symbols</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod_FormatPy_Banalyze_Symbols_Equal.html">Equal</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod_FormatPy_Banalyze_Symbols_Max.html">Max</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_Sense_Demod_FormatPy_Banalyze_Symbols_Min.html">Min</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency.html">Frequency</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Center.html">Center</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Center_Step.html">Step</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Center_Step_Auto.html">Auto</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Offset.html">Offset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Span.html">Span</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Start.html">Start</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Frequency_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Iq.html">Iq</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Iq_Wband.html">Wband</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer.html">Mixer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Bias.html">Bias</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Bias_High.html">High</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Bias_Low.html">Low</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Frequency.html">Frequency</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Frequency_Handover.html">Handover</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Frequency_Start.html">Start</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Frequency_Stop.html">Stop</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic.html">Harmonic</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic_Band.html">Band</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic_High.html">High</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic_High_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic_High_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic_Low.html">Low</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Harmonic_TypePy.html">TypePy</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_LoPower.html">LoPower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Loss.html">Loss</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Loss_High.html">High</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Loss_Low.html">Low</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Loss_Table.html">Table</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Loss_Table_High.html">High</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Loss_Table_Low.html">Low</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Ports.html">Ports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_RfOverrange.html">RfOverrange</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_RfOverrange_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Signal.html">Signal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Mixer_Threshold.html">Threshold</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Dcycle.html">Dcycle</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Dcycle_State.html">State</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Dcycle_Value.html">Value</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Frequency.html">Frequency</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Frequency_Link.html">Link</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Mtime.html">Mtime</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Mtime_Average.html">Average</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Mtime_Average_Count.html">Count</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Mtime_Average_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Roffset.html">Roffset</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Roffset_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Soffset.html">Soffset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_State.html">State</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Trigger.html">Trigger</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Trigger_Level.html">Level</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Trigger_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Update.html">Update</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Pmeter_Update_State.html">State</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_SwapIq.html">SwapIq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Sweep.html">Sweep</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Sweep_Count.html">Count</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Sense_Sweep_Count_Current.html">Current</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Sweep_Mode.html">Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Sense_Tracking.html">Tracking</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Tracking_IqMcomp.html">IqMcomp</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Tracking_Level.html">Level</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Sense_Tracking_Phase.html">Phase</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_System.html">System</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate.html">Communicate</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice.html">Rdevice</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope.html">Oscilloscope</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Alignment.html">Alignment</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Alignment_Date.html">Date</a></li>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Alignment_Step.html">Step&lt;Step&gt;</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Idn.html">Idn</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_LedState.html">LedState</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_PsMode.html">PsMode</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_PsMode_State.html">State</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_State.html">State</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_SymbolRate.html">SymbolRate</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Tcpip.html">Tcpip</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Vdevice.html">Vdevice</a></li>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_System_Communicate_Rdevice_Oscilloscope_Vfirmware.html">Vfirmware</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_System_Preset.html">Preset</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_System_Preset_Channel.html">Channel</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_System_Preset_Channel_Exec.html">Exec</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Trace.html">Trace&lt;Window&gt;</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Trace_Data.html">Data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trace_Data_X.html">X</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq.html">Iq</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq_Data.html">Data</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq_Data_Memory.html">Memory</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq_File.html">File</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq_File_Repetition.html">Repetition</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq_File_Repetition_Count.html">Count</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trace_Iq_SymbolRate.html">SymbolRate</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Trigger.html">Trigger</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence.html">Sequence</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Dtime.html">Dtime</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Holdoff.html">Holdoff</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Holdoff_Time.html">Time</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_IfPower.html">IfPower</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_IfPower_Holdoff.html">Holdoff</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_IfPower_Hysteresis.html">Hysteresis</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Level.html">Level</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Level_External.html">External&lt;ExternalPort&gt;</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Level_IfPower.html">IfPower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Level_IqPower.html">IqPower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Level_RfPower.html">RfPower</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Slope.html">Slope</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Source.html">Source</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Time.html">Time</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Trigger_Sequence_Time_Rinterval.html">Rinterval</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Applications_K9x_11ad_Unit.html">Unit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Unit_Angle.html">Angle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Applications_K9x_11ad_Unit_Pmeter.html">Pmeter&lt;PowerMeter&gt;</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Applications_K9x_11ad_Unit_Pmeter_Power.html">Power</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="Applications_K9x_11ad_Unit_Pmeter_Power_Ratio.html">Ratio</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Applications_K91_Wlan_Unit_Sflatness.html" class="btn btn-neutral float-left" title="Sflatness" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="Applications_K9x_11ad_Calculate.html" class="btn btn-neutral float-right" title="Calculate&lt;Window&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

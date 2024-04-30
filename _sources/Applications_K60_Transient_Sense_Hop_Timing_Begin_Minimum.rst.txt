@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:HOP:TIMing:BEGin:MINimum
+
+.. code-block:: python
+
+	[SENSe]:HOP:TIMing:BEGin:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Hop.Timing.Begin.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

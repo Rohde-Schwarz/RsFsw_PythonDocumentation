@@ -1,0 +1,20 @@
+Min
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FORMat:BANalyze:SYMBols:MIN
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FORMat:BANalyze:SYMBols:MIN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Sense.Demod.FormatPy.Banalyze.Symbols.Min.MinCls
+	:members:
+	:undoc-members:
+	:noindex:

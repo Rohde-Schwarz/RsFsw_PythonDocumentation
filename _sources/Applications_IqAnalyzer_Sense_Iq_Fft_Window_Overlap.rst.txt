@@ -1,0 +1,20 @@
+Overlap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:IQ:FFT:WINDow:OVERlap
+
+.. code-block:: python
+
+	[SENSe]:IQ:FFT:WINDow:OVERlap
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.IqAnalyzer.Sense.Iq.Fft.Window.Overlap.OverlapCls
+	:members:
+	:undoc-members:
+	:noindex:

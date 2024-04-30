@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETector<det>[:FUNCtion]:AUTO
+
+.. code-block:: python
+
+	[SENSe]:DETector<det>[:FUNCtion]:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Detector.Function.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

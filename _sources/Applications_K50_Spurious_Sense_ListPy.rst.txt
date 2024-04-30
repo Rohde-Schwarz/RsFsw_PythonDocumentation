@@ -1,0 +1,41 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Commands :
+
+.. index::
+	single: [SENSe]:LIST:SAVE
+	single: [SENSe]:LIST:LOAD
+	single: [SENSe]:LIST:CLEar
+
+.. code-block:: python
+
+	[SENSe]:LIST:SAVE
+	[SENSe]:LIST:LOAD
+	[SENSe]:LIST:CLEar
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.listPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_ListPy_Range.rst

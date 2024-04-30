@@ -1,0 +1,20 @@
+DeShift
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PUCCh:DESHift
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PUCCh:DESHift
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pucch.DeShift.DeShiftCls
+	:members:
+	:undoc-members:
+	:noindex:

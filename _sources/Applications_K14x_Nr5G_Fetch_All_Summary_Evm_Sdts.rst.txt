@@ -1,0 +1,20 @@
+Sdts
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:ALL:SUMMary:EVM:SDTS
+
+.. code-block:: python
+
+	FETCh:ALL:SUMMary:EVM:SDTS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Fetch.All.Summary.Evm.Sdts.SdtsCls
+	:members:
+	:undoc-members:
+	:noindex:

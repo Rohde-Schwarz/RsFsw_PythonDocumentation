@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:TIMing:LENGth:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:TIMing:LENGth:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Timing.Length.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

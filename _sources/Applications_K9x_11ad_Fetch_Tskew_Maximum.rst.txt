@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:TSKew:MAXimum
+
+.. code-block:: python
+
+	FETCh:TSKew:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.Tskew.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

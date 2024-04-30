@@ -1,0 +1,20 @@
+Requirement
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:SEM:UL:REQuirement
+
+.. code-block:: python
+
+	[SENSe]:POWer:SEM:UL:REQuirement
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Power.Sem.Uplink.Requirement.RequirementCls
+	:members:
+	:undoc-members:
+	:noindex:

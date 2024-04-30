@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:AR:TIME:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:AR:TIME:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Ar.Time.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

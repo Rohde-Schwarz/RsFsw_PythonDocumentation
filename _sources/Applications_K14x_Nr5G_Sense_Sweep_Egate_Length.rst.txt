@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:LENGth
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Sweep.Egate.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

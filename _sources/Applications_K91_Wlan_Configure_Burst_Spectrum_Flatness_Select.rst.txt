@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:SPECtrum:FLATness:SELect
+
+.. code-block:: python
+
+	CONFigure:BURSt:SPECtrum:FLATness:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Spectrum.Flatness.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

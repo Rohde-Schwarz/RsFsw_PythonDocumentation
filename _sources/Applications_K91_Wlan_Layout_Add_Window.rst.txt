@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: LAYout:ADD[:WINDow]
+
+.. code-block:: python
+
+	LAYout:ADD[:WINDow]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Layout.Add.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:

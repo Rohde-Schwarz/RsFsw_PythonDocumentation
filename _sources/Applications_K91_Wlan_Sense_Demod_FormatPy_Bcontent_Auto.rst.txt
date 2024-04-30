@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FORMat[:BCONtent]:AUTO
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FORMat[:BCONtent]:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.Bcontent.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

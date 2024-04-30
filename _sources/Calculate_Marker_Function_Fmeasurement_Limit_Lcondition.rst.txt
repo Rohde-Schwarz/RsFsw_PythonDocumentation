@@ -1,0 +1,20 @@
+Lcondition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:FMEasurement:LIMit<li>:LCONdition
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:FMEasurement:LIMit<li>:LCONdition
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.Fmeasurement.Limit.Lcondition.LconditionCls
+	:members:
+	:undoc-members:
+	:noindex:

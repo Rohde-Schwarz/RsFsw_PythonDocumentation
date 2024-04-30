@@ -1,0 +1,38 @@
+Utilization
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:UTILization
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:UTILization
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Utilization.UtilizationCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.hums.utilization.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Hums_Utilization_Activity.rst
+	Diagnostic_Hums_Utilization_History.rst

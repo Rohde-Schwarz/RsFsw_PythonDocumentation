@@ -1,0 +1,38 @@
+Tsidelobe
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Table.Tsidelobe.TsidelobeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k6Pulse.calculate.table.tsidelobe.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_All.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_AmPower.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_Cratio.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_ImPower.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_IsLevel.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_Mfrequency.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_Mphase.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_Mwidth.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_Pcorrelation.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_PsLevel.rst
+	Applications_K6_Pulse_Calculate_Table_Tsidelobe_Sdelay.rst

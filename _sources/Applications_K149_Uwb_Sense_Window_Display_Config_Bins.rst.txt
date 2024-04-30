@@ -1,0 +1,20 @@
+Bins
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SENSe[:WINDow<n>]:DISPlay:CONFig:BINS
+
+.. code-block:: python
+
+	SENSe[:WINDow<n>]:DISPlay:CONFig:BINS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Window.Display.Config.Bins.BinsCls
+	:members:
+	:undoc-members:
+	:noindex:

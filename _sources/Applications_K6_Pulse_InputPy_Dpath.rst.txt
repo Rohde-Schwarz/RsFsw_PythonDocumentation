@@ -1,0 +1,20 @@
+Dpath
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:DPATh
+
+.. code-block:: python
+
+	INPut:DPATh
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.InputPy.Dpath.DpathCls
+	:members:
+	:undoc-members:
+	:noindex:

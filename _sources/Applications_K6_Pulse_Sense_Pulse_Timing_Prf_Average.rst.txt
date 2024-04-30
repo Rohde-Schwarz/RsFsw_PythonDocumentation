@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:PRF:AVERage
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:PRF:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Prf.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

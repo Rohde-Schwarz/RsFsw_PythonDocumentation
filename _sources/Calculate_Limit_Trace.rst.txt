@@ -1,0 +1,45 @@
+Trace<Trace>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Tr1 .. Tr16
+	rc = driver.calculate.limit.trace.repcap_trace_get()
+	driver.calculate.limit.trace.repcap_trace_set(repcap.Trace.Tr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:TRACe<t>
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:TRACe<t>
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.Trace.TraceCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.trace.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_Trace_Check.rst

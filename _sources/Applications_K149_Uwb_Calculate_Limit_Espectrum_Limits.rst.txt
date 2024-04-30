@@ -1,0 +1,20 @@
+Limits
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<m>:ESPectrum:LIMits
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<m>:ESPectrum:LIMits
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Calculate.Limit.Espectrum.Limits.LimitsCls
+	:members:
+	:undoc-members:
+	:noindex:

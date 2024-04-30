@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SOURce:EXTernal<gen>[:STATe]
+
+.. code-block:: python
+
+	SOURce:EXTernal<gen>[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Source.External.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

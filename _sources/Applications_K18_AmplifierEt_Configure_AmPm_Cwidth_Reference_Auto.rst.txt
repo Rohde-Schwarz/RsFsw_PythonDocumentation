@@ -1,0 +1,20 @@
+Auto
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:AMPM:CWIDth:REFerence:AUTO
+
+.. code-block:: python
+
+	CONFigure:AMPM:CWIDth:REFerence:AUTO
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.AmPm.Cwidth.Reference.Auto.AutoCls
+	:members:
+	:undoc-members:
+	:noindex:

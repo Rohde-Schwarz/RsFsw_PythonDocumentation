@@ -1,0 +1,36 @@
+Channel<Channel>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ch1 .. Ch64
+	rc = driver.applications.k14Xnr5G.sense.power.achannel.name.channel.repcap_channel_get()
+	driver.applications.k14Xnr5G.sense.power.achannel.name.channel.repcap_channel_set(repcap.Channel.Ch1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:POWer:ACHannel:NAME:CHANnel<ch>
+
+.. code-block:: python
+
+	[SENSe]:POWer:ACHannel:NAME:CHANnel<ch>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Power.Achannel.Name.Channel.ChannelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.sense.power.achannel.name.channel.clone()

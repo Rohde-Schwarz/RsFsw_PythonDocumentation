@@ -1,0 +1,46 @@
+Marker<Marker>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k91Wlan.calculate.marker.repcap_marker_get()
+	driver.applications.k91Wlan.calculate.marker.repcap_marker_set(repcap.Marker.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.MarkerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.marker.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_Marker_Aoff.rst
+	Applications_K91_Wlan_Calculate_Marker_Bsymbol.rst
+	Applications_K91_Wlan_Calculate_Marker_Carrier.rst
+	Applications_K91_Wlan_Calculate_Marker_Function.rst
+	Applications_K91_Wlan_Calculate_Marker_LoExclude.rst
+	Applications_K91_Wlan_Calculate_Marker_Pexcursion.rst
+	Applications_K91_Wlan_Calculate_Marker_State.rst
+	Applications_K91_Wlan_Calculate_Marker_Symbol.rst
+	Applications_K91_Wlan_Calculate_Marker_Trace.rst
+	Applications_K91_Wlan_Calculate_Marker_X.rst
+	Applications_K91_Wlan_Calculate_Marker_Y.rst

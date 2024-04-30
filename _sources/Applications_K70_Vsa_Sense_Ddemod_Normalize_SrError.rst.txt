@@ -1,0 +1,20 @@
+SrError
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:NORMalize:SRERror
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:NORMalize:SRERror
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Normalize.SrError.SrErrorCls
+	:members:
+	:undoc-members:
+	:noindex:

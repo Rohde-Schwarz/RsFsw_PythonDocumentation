@@ -1,0 +1,20 @@
+Stat
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:SRS:STAT
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:SRS:STAT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Srs.Stat.StatCls
+	:members:
+	:undoc-members:
+	:noindex:

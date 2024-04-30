@@ -1,0 +1,37 @@
+Cluster<Cluster>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr2
+	rc = driver.applications.k10Xlte.configure.lte.uplink.cc.subframe.alloc.cluster.repcap_cluster_get()
+	driver.applications.k10Xlte.configure.lte.uplink.cc.subframe.alloc.cluster.repcap_cluster_set(repcap.Cluster.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Subframe.Alloc.Cluster.ClusterCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.uplink.cc.subframe.alloc.cluster.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Subframe_Alloc_Cluster_RbCount.rst
+	Applications_K10x_Lte_Configure_Lte_Uplink_Cc_Subframe_Alloc_Cluster_RbOffset.rst

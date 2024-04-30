@@ -1,0 +1,20 @@
+Pm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:LEVel:PM
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:LEVel:PM
+
+
+
+.. autoclass:: RsFsw.Implementations.Trigger.Sequence.Level.Pm.PmCls
+	:members:
+	:undoc-members:
+	:noindex:

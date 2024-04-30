@@ -1,0 +1,39 @@
+Ademod
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.AdemodCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.ademod.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod_Acv.rst
+	Sense_Ademod_Af.rst
+	Sense_Ademod_Am.rst
+	Sense_Ademod_Fm.rst
+	Sense_Ademod_Mtime.rst
+	Sense_Ademod_Pm.rst
+	Sense_Ademod_Preset.rst
+	Sense_Ademod_Set.rst
+	Sense_Ademod_Settling.rst
+	Sense_Ademod_Spectrum.rst
+	Sense_Ademod_Squelch.rst
+	Sense_Ademod_Zoom.rst

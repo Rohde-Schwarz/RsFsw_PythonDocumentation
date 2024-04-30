@@ -1,0 +1,20 @@
+StandardDev
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PULSe:TIMing:RISE:SDEViation
+
+.. code-block:: python
+
+	[SENSe]:PULSe:TIMing:RISE:SDEViation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Pulse.Timing.Rise.StandardDev.StandardDevCls
+	:members:
+	:undoc-members:
+	:noindex:

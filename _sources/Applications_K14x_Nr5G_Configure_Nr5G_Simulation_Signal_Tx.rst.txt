@@ -1,0 +1,36 @@
+Tx<Antenna>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k14Xnr5G.configure.nr5G.simulation.signal.tx.repcap_antenna_get()
+	driver.applications.k14Xnr5G.configure.nr5G.simulation.signal.tx.repcap_antenna_set(repcap.Antenna.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:SIMulation:SIGNal:TX<ant>
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:SIMulation:SIGNal:TX<ant>
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Simulation.Signal.Tx.TxCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.simulation.signal.tx.clone()

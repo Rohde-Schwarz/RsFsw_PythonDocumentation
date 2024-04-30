@@ -1,0 +1,20 @@
+Opower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:OPOWer
+
+.. code-block:: python
+
+	UNIT:OPOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Unit.Opower.OpowerCls
+	:members:
+	:undoc-members:
+	:noindex:

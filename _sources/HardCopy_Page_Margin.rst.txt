@@ -1,0 +1,32 @@
+Margin
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Margin.MarginCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.page.margin.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Page_Margin_Bottom.rst
+	HardCopy_Page_Margin_Left.rst
+	HardCopy_Page_Margin_Right.rst
+	HardCopy_Page_Margin_Top.rst
+	HardCopy_Page_Margin_Unit.rst

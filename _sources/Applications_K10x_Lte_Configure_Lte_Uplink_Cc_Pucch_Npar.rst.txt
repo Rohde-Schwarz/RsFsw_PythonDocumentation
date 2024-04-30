@@ -1,0 +1,20 @@
+Npar
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PUCCh:NPAR
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PUCCh:NPAR
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pucch.Npar.NparCls
+	:members:
+	:undoc-members:
+	:noindex:

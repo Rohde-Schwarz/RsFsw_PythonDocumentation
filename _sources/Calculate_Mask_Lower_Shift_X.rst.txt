@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:LOWer:SHIFt:X
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:LOWer:SHIFt:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.Lower.Shift.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

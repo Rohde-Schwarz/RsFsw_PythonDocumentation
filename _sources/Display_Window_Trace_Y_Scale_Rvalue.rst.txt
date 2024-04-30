@@ -1,0 +1,20 @@
+Rvalue
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]:RVALue
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>]:TRACe<t>:Y[:SCALe]:RVALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Trace.Y.Scale.Rvalue.RvalueCls
+	:members:
+	:undoc-members:
+	:noindex:

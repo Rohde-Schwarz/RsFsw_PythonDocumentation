@@ -1,0 +1,20 @@
+Transfer
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FPLan:TRANsfer
+
+.. code-block:: python
+
+	[SENSe]:FPLan:TRANsfer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Fplan.Transfer.TransferCls
+	:members:
+	:undoc-members:
+	:noindex:

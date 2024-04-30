@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:CAGGregation:STATe
+
+.. code-block:: python
+
+	CONFigure[:LTE]:CAGGregation:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Caggregation.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

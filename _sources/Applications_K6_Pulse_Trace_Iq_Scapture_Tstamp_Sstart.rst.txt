@@ -1,0 +1,20 @@
+Sstart
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>:IQ:SCAPture:TSTamp:SSTart
+
+.. code-block:: python
+
+	TRACe<n>:IQ:SCAPture:TSTamp:SSTart
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Trace.Iq.Scapture.Tstamp.Sstart.SstartCls
+	:members:
+	:undoc-members:
+	:noindex:

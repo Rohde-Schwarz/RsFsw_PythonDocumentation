@@ -1,0 +1,38 @@
+Pattern
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:PATTern
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:PATTern
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Pattern.PatternCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.ddemod.search.sync.pattern.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Pattern_Add.rst
+	Applications_K70_Vsa_Sense_Ddemod_Search_Sync_Pattern_Remove.rst

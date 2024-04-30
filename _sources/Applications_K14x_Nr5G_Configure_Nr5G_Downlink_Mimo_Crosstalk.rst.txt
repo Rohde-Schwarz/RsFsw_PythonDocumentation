@@ -1,0 +1,20 @@
+Crosstalk
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:DL:MIMO:CROSstalk
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:DL:MIMO:CROSstalk
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Mimo.Crosstalk.CrosstalkCls
+	:members:
+	:undoc-members:
+	:noindex:

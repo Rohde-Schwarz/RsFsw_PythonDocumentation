@@ -1,0 +1,31 @@
+Prbs
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Prbs.PrbsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k70Vsa.sense.ddemod.kdata.prbs.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Feedback.rst
+	Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Pattern.rst
+	Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_Polynomial.rst
+	Applications_K70_Vsa_Sense_Ddemod_Kdata_Prbs_TypePy.rst

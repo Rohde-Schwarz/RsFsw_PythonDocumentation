@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:IQIMbalance:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:IQIMbalance:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.IqImbalance.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

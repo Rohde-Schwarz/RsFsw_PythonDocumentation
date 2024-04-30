@@ -1,0 +1,30 @@
+Pulse
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Generator.Pulse.PulseCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.generator.pulse.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_Generator_Pulse_Period.rst
+	Applications_K30_NoiseFigure_Source_Generator_Pulse_Trigger.rst
+	Applications_K30_NoiseFigure_Source_Generator_Pulse_Width.rst

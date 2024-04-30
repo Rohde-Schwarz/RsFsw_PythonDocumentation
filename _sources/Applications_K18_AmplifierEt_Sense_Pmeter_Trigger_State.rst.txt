@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:PMETer:TRIGger[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:PMETer:TRIGger[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Pmeter.Trigger.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

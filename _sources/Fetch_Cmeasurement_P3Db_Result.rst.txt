@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:CMEasurement:P3DB[:RESult]
+
+.. code-block:: python
+
+	FETCh:CMEasurement:P3DB[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Fetch.Cmeasurement.P3Db.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

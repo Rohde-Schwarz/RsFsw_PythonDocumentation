@@ -1,0 +1,20 @@
+Simulation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SIMulation
+
+.. code-block:: python
+
+	DIAGnostic:SIMulation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Diagnostic.Simulation.SimulationCls
+	:members:
+	:undoc-members:
+	:noindex:

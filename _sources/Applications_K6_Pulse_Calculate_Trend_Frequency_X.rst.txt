@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:FREQuency:X
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:FREQuency:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Trend.Frequency.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

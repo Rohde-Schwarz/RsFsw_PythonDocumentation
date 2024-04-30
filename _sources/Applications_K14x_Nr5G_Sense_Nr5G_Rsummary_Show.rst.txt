@@ -1,0 +1,20 @@
+Show
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:RSUMmary:SHOW
+
+.. code-block:: python
+
+	[SENSe]:NR5G:RSUMmary:SHOW
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Rsummary.Show.ShowCls
+	:members:
+	:undoc-members:
+	:noindex:

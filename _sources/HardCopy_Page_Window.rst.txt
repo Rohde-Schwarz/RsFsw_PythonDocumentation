@@ -1,0 +1,31 @@
+Window
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Page.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.hardCopy.page.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	HardCopy_Page_Window_Channel.rst
+	HardCopy_Page_Window_Count.rst
+	HardCopy_Page_Window_Scale.rst
+	HardCopy_Page_Window_State.rst

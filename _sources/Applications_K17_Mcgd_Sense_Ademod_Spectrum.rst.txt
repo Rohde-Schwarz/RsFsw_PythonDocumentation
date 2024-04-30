@@ -1,0 +1,30 @@
+Spectrum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Sense.Ademod.Spectrum.SpectrumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.sense.ademod.spectrum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Sense_Ademod_Spectrum_Magnitude.rst
+	Applications_K17_Mcgd_Sense_Ademod_Spectrum_Phase.rst
+	Applications_K17_Mcgd_Sense_Ademod_Spectrum_Span.rst

@@ -1,0 +1,20 @@
+MakeDirectory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:MDIRectory
+
+.. code-block:: python
+
+	MMEMory:MDIRectory
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.MakeDirectory.MakeDirectoryCls
+	:members:
+	:undoc-members:
+	:noindex:

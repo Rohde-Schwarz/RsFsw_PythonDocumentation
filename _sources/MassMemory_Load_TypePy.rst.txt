@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:TYPE
+
+.. code-block:: python
+
+	MMEMory:LOAD:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Load.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

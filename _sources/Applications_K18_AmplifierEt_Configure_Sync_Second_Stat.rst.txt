@@ -1,0 +1,20 @@
+Stat
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:SYNC:SECond:STAT
+
+.. code-block:: python
+
+	CONFigure:SYNC:SECond:STAT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Sync.Second.Stat.StatCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,38 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit<li>:ACPower:ALTernate<ch>:RESult
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit<li>:ACPower:ALTernate<ch>:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Limit.AcPower.Alternate.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.limit.acPower.alternate.result.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Limit_AcPower_Alternate_Result_Absolute.rst
+	Calculate_Limit_AcPower_Alternate_Result_Relative.rst

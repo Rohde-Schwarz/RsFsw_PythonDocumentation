@@ -1,0 +1,20 @@
+Single
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CONFigure:LIST:SINGle
+
+.. code-block:: python
+
+	[SENSe]:CONFigure:LIST:SINGle
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Configure.ListPy.Single.SingleCls
+	:members:
+	:undoc-members:
+	:noindex:

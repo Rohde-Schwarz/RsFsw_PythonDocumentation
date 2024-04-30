@@ -1,0 +1,31 @@
+Spectrogram
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Spectrogram.SpectrogramCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.spectrogram.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Spectrogram_Frame.rst
+	Calculate_Marker_Spectrogram_Sarea.rst
+	Calculate_Marker_Spectrogram_Xy.rst
+	Calculate_Marker_Spectrogram_Y.rst

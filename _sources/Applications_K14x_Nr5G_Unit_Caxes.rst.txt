@@ -1,0 +1,20 @@
+Caxes
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:CAXes
+
+.. code-block:: python
+
+	UNIT:CAXes
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Unit.Caxes.CaxesCls
+	:members:
+	:undoc-members:
+	:noindex:

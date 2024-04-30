@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:CONTinuous[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:CONTinuous[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Sweep.Egate.Continuous.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

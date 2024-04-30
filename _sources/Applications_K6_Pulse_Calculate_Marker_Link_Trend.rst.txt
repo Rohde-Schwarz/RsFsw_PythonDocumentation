@@ -1,0 +1,20 @@
+Trend
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:LINK:TRENd
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:LINK:TRENd
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Marker.Link.Trend.TrendCls
+	:members:
+	:undoc-members:
+	:noindex:

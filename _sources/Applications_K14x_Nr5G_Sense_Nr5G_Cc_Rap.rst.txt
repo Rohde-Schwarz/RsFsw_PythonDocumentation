@@ -1,0 +1,20 @@
+Rap
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G[:CC<cc>]:RAP
+
+.. code-block:: python
+
+	[SENSe]:NR5G[:CC<cc>]:RAP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Cc.Rap.RapCls
+	:members:
+	:undoc-members:
+	:noindex:

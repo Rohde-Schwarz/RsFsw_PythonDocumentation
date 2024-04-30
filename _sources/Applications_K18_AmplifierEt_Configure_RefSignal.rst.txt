@@ -1,0 +1,32 @@
+RefSignal
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.RefSignalCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.configure.refSignal.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cgw.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Cwf.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Gos.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Segment.rst
+	Applications_K18_AmplifierEt_Configure_RefSignal_Sinfo.rst

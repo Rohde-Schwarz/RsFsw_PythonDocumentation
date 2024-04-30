@@ -1,0 +1,20 @@
+Antenna
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SYNC:ANTenna
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SYNC:ANTenna
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sync.Antenna.AntennaCls
+	:members:
+	:undoc-members:
+	:noindex:

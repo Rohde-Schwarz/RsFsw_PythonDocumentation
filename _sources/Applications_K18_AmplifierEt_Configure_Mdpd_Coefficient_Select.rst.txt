@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MDPD:COEFficient:SELect
+
+.. code-block:: python
+
+	CONFigure:MDPD:COEFficient:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.Coefficient.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

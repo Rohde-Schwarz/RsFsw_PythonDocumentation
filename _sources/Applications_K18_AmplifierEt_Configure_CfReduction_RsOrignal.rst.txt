@@ -1,0 +1,20 @@
+RsOrignal
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CFReduction:RSORignal
+
+.. code-block:: python
+
+	CONFigure:CFReduction:RSORignal
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.CfReduction.RsOrignal.RsOrignalCls
+	:members:
+	:undoc-members:
+	:noindex:

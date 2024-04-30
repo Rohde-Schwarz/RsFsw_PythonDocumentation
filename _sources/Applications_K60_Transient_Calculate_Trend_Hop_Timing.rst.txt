@@ -1,0 +1,38 @@
+Timing
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:TRENd:HOP:TIMing
+
+.. code-block:: python
+
+	CALCulate<n>:TRENd:HOP:TIMing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Hop.Timing.TimingCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.trend.hop.timing.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Trend_Hop_Timing_X.rst
+	Applications_K60_Transient_Calculate_Trend_Hop_Timing_Y.rst

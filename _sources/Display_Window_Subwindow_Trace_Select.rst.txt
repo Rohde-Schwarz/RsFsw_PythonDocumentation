@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:SELect
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:TRACe<t>:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Trace.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:MINimum[:PEAK]
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:MINimum[:PEAK]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Minimum.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:

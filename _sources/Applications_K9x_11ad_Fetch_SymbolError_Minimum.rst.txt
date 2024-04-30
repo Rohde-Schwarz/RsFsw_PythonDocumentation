@@ -1,0 +1,20 @@
+Minimum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:SYMBolerror:MINimum
+
+.. code-block:: python
+
+	FETCh:SYMBolerror:MINimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Fetch.SymbolError.Minimum.MinimumCls
+	:members:
+	:undoc-members:
+	:noindex:

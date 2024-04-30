@@ -1,0 +1,40 @@
+DeltaMarker<DeltaMarker>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr32
+	rc = driver.applications.k91Wlan.calculate.deltaMarker.repcap_deltaMarker_get()
+	driver.applications.k91Wlan.calculate.deltaMarker.repcap_deltaMarker_set(repcap.DeltaMarker.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.DeltaMarker.DeltaMarkerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.calculate.deltaMarker.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Calculate_DeltaMarker_Aoff.rst
+	Applications_K91_Wlan_Calculate_DeltaMarker_Function.rst
+	Applications_K91_Wlan_Calculate_DeltaMarker_State.rst
+	Applications_K91_Wlan_Calculate_DeltaMarker_X.rst
+	Applications_K91_Wlan_Calculate_DeltaMarker_Y.rst

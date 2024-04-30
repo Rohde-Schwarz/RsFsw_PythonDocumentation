@@ -1,0 +1,20 @@
+Rf
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:POWer:EXPected:RF
+
+.. code-block:: python
+
+	CONFigure:POWer:EXPected:RF
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Configure.Power.Expected.Rf.RfCls
+	:members:
+	:undoc-members:
+	:noindex:

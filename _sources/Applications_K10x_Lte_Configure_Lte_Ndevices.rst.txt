@@ -1,0 +1,20 @@
+Ndevices
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:NDEVices
+
+.. code-block:: python
+
+	CONFigure[:LTE]:NDEVices
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Ndevices.NdevicesCls
+	:members:
+	:undoc-members:
+	:noindex:

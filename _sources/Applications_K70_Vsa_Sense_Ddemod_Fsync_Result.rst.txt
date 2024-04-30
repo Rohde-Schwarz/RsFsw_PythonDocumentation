@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:FSYNc:RESult
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:FSYNc:RESult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Fsync.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

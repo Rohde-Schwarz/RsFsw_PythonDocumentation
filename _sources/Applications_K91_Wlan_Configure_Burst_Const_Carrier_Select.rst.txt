@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:BURSt:CONSt:CARRier:SELect
+
+.. code-block:: python
+
+	CONFigure:BURSt:CONSt:CARRier:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Burst.Const.Carrier.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

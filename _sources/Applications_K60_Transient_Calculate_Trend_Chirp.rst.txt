@@ -1,0 +1,34 @@
+Chirp
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Trend.Chirp.ChirpCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.calculate.trend.chirp.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Calculate_Trend_Chirp_FmSettling.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_Frequency.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_Phase.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_PmSettling.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_Power.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_State.rst
+	Applications_K60_Transient_Calculate_Trend_Chirp_Timing.rst

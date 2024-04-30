@@ -1,0 +1,20 @@
+Step
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:STEP
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:STEP
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Frequency.Step.StepCls
+	:members:
+	:undoc-members:
+	:noindex:

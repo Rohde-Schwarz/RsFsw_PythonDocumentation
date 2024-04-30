@@ -1,0 +1,6481 @@
+Enums
+=========
+
+AccessType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AccessType.RO
+	# All values (2x):
+	RO | RW
+
+AcpLimitEvalMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AcpLimitEvalMode.ABSolute
+	# All values (3x):
+	ABSolute | OR | RELative
+
+AcpResult
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AcpResult.ABSolute
+	# All values (3x):
+	ABSolute | ALL | RELative
+
+AdemMeasType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AdemMeasType.MIDDle
+	# All values (5x):
+	MIDDle | MPEak | NPEak | PPEak | RMS
+
+AdjChannel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AdjChannel.E500
+	# All values (3x):
+	E500 | NOSBw | U384
+
+AdjChannelBw
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AdjChannelBw.EUTRa
+	# Last value:
+	value = enums.AdjChannelBw.UTRa768
+	# All values (10x):
+	EUTRa | N1GSm | N1UTra | STANdalone | U128 | U384 | U768 | UTRa128
+	UTRa384 | UTRa768
+
+AdjustAlignment
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AdjustAlignment.CENTer
+	# All values (3x):
+	CENTer | LEFT | RIGHt
+
+AllocationContent
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AllocationContent.NONE
+	# All values (6x):
+	NONE | PACC | PSCC | PUACh | PUCCh | PUSCh
+
+AllocMapping
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AllocMapping.LC101
+	# Last value:
+	value = enums.AllocMapping.LC91
+	# All values (19x):
+	LC101 | LC11 | LC111 | LC121 | LC21 | LC22 | LC31 | LC32
+	LC41 | LC42 | LC51 | LC52 | LC61 | LC62 | LC71 | LC72
+	LC81 | LC82 | LC91
+
+AllocType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AllocType.DATA
+	# All values (2x):
+	DATA | UNUSed
+
+AllOrOne
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AllOrOne.ALL
+	# All values (2x):
+	ALL | ONE
+
+AmPmDef
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AmPmDef.MREF
+	# All values (2x):
+	MREF | REFMeas
+
+AnalysisModeUl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AnalysisModeUl.NPRach
+	# All values (4x):
+	NPRach | NPUSch | PRACh | PUSCh
+
+AngleUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AngleUnit.DEG
+	# All values (2x):
+	DEG | RAD
+
+AnnotationMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AnnotationMode.CSPan
+	# All values (2x):
+	CSPan | SSTop
+
+AntennaA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AntennaA.ANT1
+	# Last value:
+	value = enums.AntennaA.ANTenna8
+	# All values (16x):
+	ANT1 | ANT2 | ANT3 | ANT4 | ANT5 | ANT6 | ANT7 | ANT8
+	ANTenna1 | ANTenna2 | ANTenna3 | ANTenna4 | ANTenna5 | ANTenna6 | ANTenna7 | ANTenna8
+
+AntennaB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AntennaB.ALL
+	# All values (6x):
+	ALL | ANT1 | ANT2 | ANT3 | ANT4 | NONE
+
+AntennaC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AntennaC.ALL
+	# Last value:
+	value = enums.AntennaC.AUTO
+	# All values (9x):
+	ALL | ANT1 | ANT2 | ANT3 | ANT4 | AUT1 | AUT2 | AUT4
+	AUTO
+
+AntennaD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AntennaD.ALL
+	# All values (5x):
+	ALL | ANT1 | ANT2 | ANT3 | ANT4
+
+AntennaPortA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AntennaPortA.ALL
+	# Last value:
+	value = enums.AntennaPortA.AP_9
+	# All values (9x):
+	ALL | AP_10 | AP_11 | AP_12 | AP_13 | AP_14 | AP_5_7 | AP_8
+	AP_9
+
+AntennaPortB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AntennaPortB.ALL
+	# Last value:
+	value = enums.AntennaPortB.AP_22
+	# All values (9x):
+	ALL | AP_15 | AP_16 | AP_17 | AP_18 | AP_19 | AP_20 | AP_21
+	AP_22
+
+AntennaPortC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AntennaPortC.ALL
+	# All values (5x):
+	ALL | AP_0 | AP_1 | AP_2 | AP_3
+
+AntennaPorts
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AntennaPorts.AP1
+	# All values (3x):
+	AP1 | AP2 | AP4
+
+AntennaPortsLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AntennaPortsLte.TX1
+	# All values (4x):
+	TX1 | TX2 | TX4 | TX8
+
+AntennasCount
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AntennasCount.TX1
+	# All values (8x):
+	TX1 | TX2 | TX3 | TX4 | TX5 | TX6 | TX7 | TX8
+
+AttenuatorMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AttenuatorMode.LDIStortion
+	# All values (3x):
+	LDIStortion | LNOise | NORMal
+
+AutoDemodType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoDemodType.ALL
+	# All values (3x):
+	ALL | OFF | SCON
+
+AutoFixRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoFixRange.LOWer
+	# All values (3x):
+	LOWer | NONE | UPPer
+
+AutoManualMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoManualMode.AUTO
+	# All values (2x):
+	AUTO | MANual
+
+AutoManualUserMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoManualUserMode.AUTO
+	# All values (3x):
+	AUTO | MANual | USER
+
+AutoMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoMode.AUTO
+	# All values (3x):
+	AUTO | OFF | ON
+
+AutoOrOff
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoOrOff.AUTO
+	# All values (2x):
+	AUTO | OFF
+
+AutoscaleMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AutoscaleMode.ALL
+	# All values (3x):
+	ALL | DEFault | ONCE
+
+AverageModeA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AverageModeA.LINear
+	# All values (3x):
+	LINear | LOGarithmic | POWer
+
+AverageModeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AverageModeB.LINear
+	# All values (6x):
+	LINear | LOGarithmic | MAXimum | POWer | SCALar | VIDeo
+
+AverageModeC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AverageModeC.LINear
+	# All values (3x):
+	LINear | POWer | VIDeo
+
+AverageModeD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AverageModeD.LINear
+	# All values (5x):
+	LINear | MAXimum | POWer | SCALar | VIDeo
+
+AveragingMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AveragingMode.PALL
+	# All values (2x):
+	PALL | TGPP
+
+AxesUnits
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxesUnits.CARRier
+	# All values (2x):
+	CARRier | HZ
+
+AxisbK60
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisbK60.AVPHm
+	# All values (5x):
+	AVPHm | MXPHm | POVershoot | PUNDershoot | RMSPm
+
+AxisFmSettling
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisFmSettling.FMSLength
+	# All values (3x):
+	FMSLength | FMSPoint | FMSTime
+
+AxisFreqFmItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisFreqFmItems.AVGFm
+	# All values (6x):
+	AVGFm | FMERror | FREQuency | MAXFm | RELFrequency | RMSFm
+
+AxisFreqItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.AxisFreqItems.AVGFm
+	# Last value:
+	value = enums.AxisFreqItems.RMSNonlinear
+	# All values (11x):
+	AVGFm | AVGNonlinear | BWIDth | CHERror | FOVershoot | FREQuency | FUNDershoot | MAXFm
+	MAXNonlinear | RMSFm | RMSNonlinear
+
+AxisHopState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisHopState.INDex
+	# All values (2x):
+	INDex | STAFrequency
+
+AxisHopTiming
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisHopTiming.BEGin
+	# All values (3x):
+	BEGin | DWELl | SWITching
+
+AxisIndex
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisIndex.INDex
+	# All values (1x):
+	INDex
+
+AxisPhase
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisPhase.AVPHm
+	# All values (3x):
+	AVPHm | MXPHm | RMSPm
+
+AxisPower
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisPower.AVGPower
+	# All values (4x):
+	AVGPower | MAXPower | MINPower | PWRRipple
+
+AxisTimingItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.AxisTimingItems.BEGin
+	# All values (4x):
+	BEGin | LENGth | RATE | SWITching
+
+Band
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.Band.A
+	# Last value:
+	value = enums.Band.Y
+	# All values (14x):
+	A | D | E | F | G | J | K | KA
+	Q | U | USER | V | W | Y
+
+BandB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.BandB.D
+	# Last value:
+	value = enums.BandB.Y
+	# All values (12x):
+	D | E | F | G | J | KA | Q | U
+	USER | V | W | Y
+
+BandwidthChRaster
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BandwidthChRaster.C100
+	# All values (2x):
+	C100 | C15
+
+BandwidthLteA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.BandwidthLteA.B1010
+	# Last value:
+	value = enums.BandwidthLteA.USER
+	# All values (9x):
+	B1010 | B1015 | B1020 | B1515 | B1520 | B2020 | B510 | B520
+	USER
+
+BandwidthLteB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BandwidthLteB.BW1_40
+	# All values (6x):
+	BW1_40 | BW10_00 | BW15_00 | BW20_00 | BW3_00 | BW5_00
+
+BandwidthLteC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BandwidthLteC.BW1_40
+	# All values (8x):
+	BW1_40 | BW10_00 | BW15_00 | BW20_00 | BW3_00 | BW5_00 | NB_1rb | NB_6rb
+
+BandwidthNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.BandwidthNr5G.BW10
+	# Last value:
+	value = enums.BandwidthNr5G.BW90
+	# All values (22x):
+	BW10 | BW100 | BW15 | BW1600 | BW20 | BW200 | BW2000 | BW25
+	BW30 | BW35 | BW40 | BW400 | BW4000 | BW45 | BW5 | BW50
+	BW60 | BW70 | BW80 | BW800 | BW8000 | BW90
+
+BbInputSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BbInputSource.AIQ
+	# All values (4x):
+	AIQ | DIQ | FIQ | RF
+
+BbOrRf
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BbOrRf.BB
+	# All values (2x):
+	BB | RF
+
+BerRateFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.BerRateFormat.CURRent
+	# Last value:
+	value = enums.BerRateFormat.TTOTal
+	# All values (17x):
+	CURRent | DSINdex | MAX | MIN | SECurrent | SEMax | SEMin | SETotal
+	TCURrent | TECurrent | TEMax | TEMin | TETotal | TMAX | TMIN | TOTal
+	TTOTal
+
+BitOrdering
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BitOrdering.LSB
+	# All values (2x):
+	LSB | MSB
+
+BitstreamFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BitstreamFormat.HEXadecimal
+	# All values (2x):
+	HEXadecimal | OCTet
+
+BitstreamUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BitstreamUnit.BIT
+	# All values (4x):
+	BIT | BITS | SYM | SYMBols
+
+BstreamUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BstreamUnit.BIT
+	# All values (2x):
+	BIT | SYM
+
+BsType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BsType.FR1C
+	# All values (4x):
+	FR1C | FR1H | FR1O | FR2O
+
+BurstMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BurstMode.BURS
+	# All values (2x):
+	BURS | MEAS
+
+BurstSetPeriodicity
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BurstSetPeriodicity.AUTO
+	# All values (7x):
+	AUTO | MS05 | MS10 | MS160 | MS20 | MS40 | MS80
+
+BurstUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.BurstUnit.SAMPle
+	# All values (2x):
+	SAMPle | SYMBol
+
+CalculationLteEvm
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CalculationLteEvm.OTP
+	# All values (2x):
+	OTP | TGPP
+
+CalibrationPath
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CalibrationPath.FULL
+	# All values (2x):
+	FULL | PARTial
+
+CalibrationScope
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CalibrationScope.ACLear
+	# All values (5x):
+	ACLear | ALL | OFF | ON | SAONly
+
+CalibrationStateDiagnostic
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CalibrationStateDiagnostic.EXPired
+	# All values (3x):
+	EXPired | NAN | OK
+
+CarriersAnalyze
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CarriersAnalyze.ALL
+	# All values (2x):
+	ALL | VIEWed
+
+CcolorState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CcolorState.ALLocation
+	# All values (2x):
+	ALLocation | MODulation
+
+CcSlot
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CcSlot.ALL
+	# All values (4x):
+	ALL | S0 | S1 | SINGle
+
+CdmType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CdmType.CDM4
+	# All values (4x):
+	CDM4 | CDM8 | FDCDm2 | NOCDm
+
+CestMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CestMode.CARRiers
+	# All values (3x):
+	CARRiers | OFF | OFFSet
+
+CestTransmType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CestTransmType.OWAY
+	# All values (2x):
+	OWAY | TWAY
+
+ChannelBandwidth
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ChannelBandwidth.BW10
+	# All values (8x):
+	BW10 | BW160 | BW2_5 | BW20 | BW320 | BW40 | BW5 | BW80
+
+ChannelEstDl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ChannelEstDl.OFF
+	# All values (4x):
+	OFF | PIL | PILPay | TGPP
+
+ChannelEstimation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ChannelEstimation.LINT
+	# All values (5x):
+	LINT | NORMal | OFF | PILPay | TGPP
+
+ChannelEstUl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ChannelEstUl.PIL
+	# All values (2x):
+	PIL | PILPay
+
+ChannelNumber
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ChannelNumber.C0
+	# Last value:
+	value = enums.ChannelNumber.C9
+	# All values (16x):
+	C0 | C1 | C10 | C11 | C12 | C13 | C14 | C15
+	C2 | C3 | C4 | C5 | C6 | C7 | C8 | C9
+
+ChannelType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ChannelType.IqAnalyzer=IQ
+	# Last value:
+	value = enums.ChannelType.SpectrumAnalyzer=SANALYZER
+	# All values (31x):
+	IqAnalyzer | K10_Gsm | K106_NbIot | K10x_Lte | K118_Verizon5G | K14x_5GnewRadio | K15_Avionics | K17_MultiCarrierGroupDelay
+	K18_AmplifierMeas | K192_193_Docsis31 | K201_OneWeb | K30_Noise | K40_PhaseNoise | K50_FastSpurSearch | K6_PulseAnalysis | K60_TransientAnalysis
+	K7_AnalogModulation | K70_VectorSignalAnalyzer | K72_3GppFddBts | K73_3GppFddUe | K76_TdScdmaBts | K77_TdScdmaUe | K82_Cdma2000Bts | K83_Cdma2000Ms
+	K84_EvdoBts | K85_EvdoMs | K91_Wlan | K95_80211ad | K97_80211ay | RealTimeSpectrum | SpectrumAnalyzer
+
+ChannelTypeResults
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ChannelTypeResults.EFFective
+	# All values (2x):
+	EFFective | PHYSical
+
+CheckResult
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CheckResult.FAILED
+	# All values (2x):
+	FAILED | PASSED
+
+ChirpXaxisItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ChirpXaxisItems.AVGFm
+	# Last value:
+	value = enums.ChirpXaxisItems.RMSPm
+	# All values (27x):
+	AVGFm | AVGNonlinear | AVGPower | AVPHm | BEGin | CHERror | FMSLength | FMSPoint
+	FMSTime | FOVershoot | FREQuency | FUNDershoot | INDex | MAXFm | MAXNonlinear | MAXPower
+	MINPower | MXPHm | PMSLength | PMSPoint | PMSTime | POVershoot | PUNDershoot | PWRRipple
+	RMSFm | RMSNonlinear | RMSPm
+
+CoefTypeK18
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CoefTypeK18.FILE
+	# All values (2x):
+	FILE | MODeling
+
+Color
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.Color.BLACk
+	# Last value:
+	value = enums.Color.YELLow
+	# All values (16x):
+	BLACk | BLUE | BROWn | CYAN | DGRay | GREen | LBLue | LCYan
+	LGRay | LGReen | LMAGenta | LRED | MAGenta | RED | WHITe | YELLow
+
+ColorSchemeA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ColorSchemeA.COLD
+	# All values (5x):
+	COLD | COLor | GRAYscale | HOT | RADar
+
+ColorSchemeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ColorSchemeB.COLD
+	# All values (4x):
+	COLD | GRAYscale | HOT | RADar
+
+CompatibilityMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.CompatibilityMode.ATT
+	# Last value:
+	value = enums.CompatibilityMode.FSWXv1_0
+	# All values (11x):
+	ATT | DEFault | FSET | FSL | FSMR | FSP | FSQ | FSU
+	FSV | FSW | FSWXv1_0
+
+Complexity
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Complexity.ENHanced
+	# All values (2x):
+	ENHanced | SIMPle
+
+ComponentType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ComponentType.AMPLifier
+	# All values (4x):
+	AMPLifier | DIVider | MIXer | MULTiplier
+
+ConfigMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ConfigMode.DEFault
+	# All values (2x):
+	DEFault | USER
+
+ControlState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ControlState.ERRor
+	# All values (3x):
+	ERRor | OFF | SUCCessful
+
+CopyLogicMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CopyLogicMode.CUSTom
+	# All values (2x):
+	CUSTom | SLOTs
+
+CorrectionMeasType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CorrectionMeasType.OPEN
+	# All values (2x):
+	OPEN | THRough
+
+CorrectionMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CorrectionMethod.REFLexion
+	# All values (2x):
+	REFLexion | TRANsmission
+
+CorrectionMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CorrectionMode.SPOT
+	# All values (2x):
+	SPOT | TABLe
+
+Counter
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Counter.CAPTure
+	# All values (2x):
+	CAPTure | STATistics
+
+CouplingAmplitude
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CouplingAmplitude.AUTO
+	# All values (4x):
+	AUTO | MASTer | OFF | PRIMary
+
+CouplingRlevel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CouplingRlevel.MANual
+	# All values (3x):
+	MANual | MASTer | PRIMary
+
+CouplingRosc
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CouplingRosc.AUTO
+	# All values (3x):
+	AUTO | EXTernal | OFF
+
+CouplingTypeA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CouplingTypeA.AC
+	# All values (2x):
+	AC | DC
+
+CouplingTypeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CouplingTypeB.AC
+	# All values (3x):
+	AC | DC | DCLimit
+
+CrDataState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CrDataState.ALL0
+	# All values (4x):
+	ALL0 | AUTO | PASLots | PN23
+
+CsdSyncMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CsdSyncMethod.APPLy
+	# All values (2x):
+	APPLy | IGNore
+
+CycPrefixType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.CycPrefixType.EXT
+	# All values (3x):
+	EXT | MNEM | NORM
+
+DataDemodModeK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DataDemodModeK91.ACDScarrier
+	# All values (2x):
+	ACDScarrier | ALBDecoder
+
+DataExportMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DataExportMode.RAW
+	# All values (2x):
+	RAW | TRACe
+
+DataFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.DataFormat.ASCii
+	# Last value:
+	value = enums.DataFormat.UINT_cma_64
+	# All values (10x):
+	ASCii | MATLAB_cma_16 | MATLAB_cma_32 | MATLAB_cma_64 | Real16 | Real32 | Real64 | UINT_cma_16
+	UINT_cma_32 | UINT_cma_64
+
+DataSourceLocation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DataSourceLocation.AMD
+	# All values (2x):
+	AMD | BMD
+
+DaysOfWeek
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DaysOfWeek.ALL
+	# All values (8x):
+	ALL | FRIDay | MONDay | SATurday | SUNDay | THURsday | TUESday | WEDNesday
+
+DciField
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.DciField.AINDicator
+	# Last value:
+	value = enums.DciField.ZCRTrigger
+	# All values (73x):
+	AINDicator | APORts | ARBSet | BOINdicator | BPINdicator | CACPext | CAPC | CARRier
+	CBGFi | CBGTi | CINDication | CLINdicator | COTDuration | CSIRequest | DAI1 | DAI2
+	DFIFlag | DSINit | FDRassign | FHFLag | HABitmap | HPNumber | IFDFormats | ISPindicator
+	LOSFn | M | MASoffset | MCS1 | MCS2 | MGFLag | N | N1
+	N2 | NDI1 | NDI2 | NFINdicator | NRPGroup | OHARequest | OPCParam | PBITs
+	PBSindicator | PDASso | PEINdication | PGINdex | PHFTiming | PINDicator | PINLayers | PMINdex
+	PRINdicator | RAPindex | RBITs | RMINdicator | RV1 | RV2 | SDINdication | SDINdicator
+	SFINdicator | SIINdicator | SMESsage | SMINdicator | SPINdex | SRINdicator | SRSRequest | TBSCaling
+	TCINdication | TCSPusch | TDRassign | TPCCommand | USCH | USUL | VTPMapping | WUINdication
+	ZCRTrigger
+
+DciScope
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DciScope.ICDF
+	# All values (2x):
+	ICDF | SPUS
+
+DdemGroup
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DdemGroup.APSK
+	# All values (8x):
+	APSK | ASK | FSK | MSK | PSK | QAM | QPSK | UQAM
+
+DdemodFilter
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.DdemodFilter.A25Fm
+	# Last value:
+	value = enums.DdemodFilter.RRCosine
+	# All values (13x):
+	A25Fm | B22 | B25 | B44 | EMES | EREF | GAUSsian | QFM
+	QFR | QRM | QRR | RCOSine | RRCosine
+
+DdemResultType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.DdemResultType.ADR
+	# Last value:
+	value = enums.DdemResultType.RHO
+	# All values (20x):
+	ADR | DEV | DTTS | EVPK | EVPS | EVRM | FEPK | FERR
+	FSPK | FSPS | FSRM | IQIM | IQOF | MEPK | MEPS | MERM
+	PEPK | PEPS | PERM | RHO
+
+DdemSignalType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DdemSignalType.BURSted
+	# All values (2x):
+	BURSted | CONTinuous
+
+DdpdResult
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DdpdResult.ACB1
+	# All values (4x):
+	ACB1 | ACL1 | ACU1 | EVM
+
+DemodDataSelect
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DemodDataSelect.ADEScramble
+	# All values (3x):
+	ADEScramble | BDEScramble | DPData
+
+DemodInterpolation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DemodInterpolation.LINear
+	# All values (2x):
+	LINear | WIENer
+
+DensityConf
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DensityConf.DEN1
+	# All values (4x):
+	DEN1 | DEN3 | EVEN | ODD
+
+DeploymentFrange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DeploymentFrange.EHIGh
+	# All values (4x):
+	EHIGh | HIGH | LOW | MIDDle
+
+Detect
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Detect.DETected
+	# All values (2x):
+	DETected | NDETected
+
+Detector
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Detector.APEak
+	# All values (7x):
+	APEak | AVERage | NEGative | POSitive | QPEak | RMS | SAMPle
+
+DetectorA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectorA.ACSine
+	# All values (8x):
+	ACSine | ACVideo | AVERage | CAVerage | CRMS | OFF | POSitive | QPEak
+
+DetectorB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.DetectorB.ACSine
+	# Last value:
+	value = enums.DetectorB.SMP
+	# All values (13x):
+	ACSine | ACVideo | APEak | AVERage | CAVerage | CRMS | NEGative | NRM
+	POSitive | QPEak | RMS | SAMPle | SMP
+
+DetectorC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectorC.ACSine
+	# All values (8x):
+	ACSine | ACVideo | APEak | AVERage | NEGative | POSitive | RMS | SAMPle
+
+DetectorD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectorD.AVERage
+	# All values (5x):
+	AVERage | NEGative | POSitive | RMS | SAMPle
+
+DetectorE
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectorE.AVERage
+	# All values (4x):
+	AVERage | NEGative | NONE | POSitive
+
+DetectorF
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectorF.APE
+	# All values (5x):
+	APE | AVERage | NEGative | POSitive | SAMPle
+
+DetectReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectReference.ABSolute
+	# All values (4x):
+	ABSolute | NOISe | PEAK | RLEVel
+
+DetectReferenceB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DetectReferenceB.ABSolute
+	# All values (4x):
+	ABSolute | NOISe | PEAK | REFLevel
+
+DiagnosticSignal
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DiagnosticSignal.AIQ
+	# All values (8x):
+	AIQ | CALibration | EMI | MCALibration | RF | SYNThtwo | TG | WBCal
+
+DiqUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DiqUnit.AMPere
+	# All values (8x):
+	AMPere | DBM | DBMV | DBPW | DBUA | DBUV | VOLT | WATT
+
+DisplayFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DisplayFormat.SINGle
+	# All values (2x):
+	SINGle | SPLit
+
+DisplayPosition
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DisplayPosition.BOTTom
+	# All values (3x):
+	BOTTom | OFF | TOP
+
+DisplayType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DisplayType.BOTH
+	# All values (4x):
+	BOTH | NONE | SPECtrum | TIME
+
+DlUlDirection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DlUlDirection.DL
+	# All values (2x):
+	DL | UL
+
+DmrsReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DmrsReference.CSTart
+	# All values (2x):
+	CSTart | RPA
+
+DmrsReferencePoint
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DmrsReferencePoint.BWPStart
+	# All values (2x):
+	BWPStart | RPA
+
+DmRsSeqGenMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DmRsSeqGenMethod.NIDCell
+	# All values (3x):
+	NIDCell | NIDDmrs | NIDPusch
+
+DmRsSeqGenMethodB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DmRsSeqGenMethodB.NIDCell
+	# All values (3x):
+	NIDCell | NIDNscid | NIDPusch
+
+DotStyle
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DotStyle.AUTO
+	# All values (4x):
+	AUTO | DLINes | DOTS | LINes
+
+DpdMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DpdMethod.GENerator
+	# All values (2x):
+	GENerator | WFILe
+
+DpdOrder
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DpdOrder.AMFirst
+	# All values (2x):
+	AMFirst | PMFirst
+
+DspreadK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DspreadK91.MANual
+	# All values (2x):
+	MANual | OFF
+
+DuplexingLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DuplexingLte.FDD
+	# All values (3x):
+	FDD | LAA | TDD
+
+Duration
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Duration.LONG
+	# All values (3x):
+	LONG | NORMal | SHORt
+
+DutSize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DutSize.DUT15
+	# All values (3x):
+	DUT15 | DUT30 | NONE
+
+DutType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.DutType.AMPLifier
+	# All values (5x):
+	AMPLifier | DDOWnconv | DOWNconv | SDConverter | UPConv
+
+EgateType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EgateType.EDGE
+	# All values (2x):
+	EDGE | LEVel
+
+EnrType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EnrType.DIODe
+	# All values (3x):
+	DIODe | RESistor | SMARt
+
+ErrorType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ErrorType.FREQuency
+	# All values (2x):
+	FREQuency | PHASe
+
+EspectrumRtype
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EspectrumRtype.CPOWer
+	# All values (2x):
+	CPOWer | PEAK
+
+EtResultUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EtResultUnit.DBM
+	# All values (2x):
+	DBM | WATT
+
+EvaluateDsp
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EvaluateDsp.CHIRp
+	# All values (4x):
+	CHIRp | FULL | HOP | REGion
+
+EvaluateType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EvaluateType.ITIMe
+	# All values (2x):
+	ITIMe | QTIMe
+
+EvaluationFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EvaluationFormat.CCDF
+	# All values (8x):
+	CCDF | FREQuency | MAGNitude | PHASe | RIMag | STATistic | UPHase | VECTor
+
+EvaluationMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EvaluationMode.FDOMain
+	# All values (3x):
+	FDOMain | IQ | TDOMain
+
+EventFilterCondition
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EventFilterCondition.EQUal
+	# All values (5x):
+	EQUal | FAILed | GTEQual | LTEQual | PASSed
+
+EventOnce
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EventOnce.ONCE
+	# All values (1x):
+	ONCE
+
+EvmCalc
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EvmCalc.MACPower
+	# All values (4x):
+	MACPower | MECPower | SIGNal | SYMBol
+
+EvmCalcState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.EvmCalcState.AOTP
+	# All values (5x):
+	AOTP | CUSTom | HPOS | LPOS | TGPP
+
+Factory
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Factory.ALL
+	# All values (3x):
+	ALL | PATTern | STANdard
+
+FdrAssignment
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FdrAssignment.ALL
+	# All values (2x):
+	ALL | CUSTom
+
+FftFilterMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FftFilterMode.AUTO
+	# All values (3x):
+	AUTO | NARRow | WIDE
+
+FftOffsetMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FftOffsetMode.AUTO
+	# All values (3x):
+	AUTO | GICenter | PEAK
+
+FftWindowType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FftWindowType.BLACkharris
+	# All values (7x):
+	BLACkharris | FLATtop | GAUSsian | HAMMing | HANNing | KAISerbessel | RECTangular
+
+FftWindowTypeK60
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FftWindowTypeK60.BLACkharris
+	# All values (7x):
+	BLACkharris | CHEByshev | FLATtop | GAUSsian | HAMMing | HANNing | RECTangular
+
+FileFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FileFormat.CSV
+	# All values (2x):
+	CSV | DAT
+
+FileFormatDdem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FileFormatDdem.FRES
+	# All values (2x):
+	FRES | VAE
+
+FileFormatSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FileFormatSource.CSV
+	# All values (2x):
+	CSV | FRES
+
+FileSeparator
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FileSeparator.COMMa
+	# All values (3x):
+	COMMa | SEMicolon | TAB
+
+FilterDemodNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FilterDemodNr5G.MFILter
+	# All values (3x):
+	MFILter | NONE | PBWP
+
+FilterTypeA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FilterTypeA.FLAT
+	# All values (2x):
+	FLAT | GAUSs
+
+FilterTypeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.FilterTypeB.CFILter
+	# Last value:
+	value = enums.FilterTypeB.RRC
+	# All values (9x):
+	CFILter | CISPr | FFT | MIL | NOISe | NORMal | P5 | PULSe
+	RRC
+
+FilterTypeC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FilterTypeC.CFILter
+	# All values (7x):
+	CFILter | CISPr | MIL | NORMal | P5 | PULSe | RRC
+
+FilterTypeK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FilterTypeK91.CFILter
+	# All values (5x):
+	CFILter | NORMal | P5 | PULSe | RRC
+
+FilterTypeNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FilterTypeNr5G.CFILter
+	# All values (7x):
+	CFILter | FFT | NOISe | NORMal | P5 | PULSe | RRC
+
+FineSync
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FineSync.DDATa
+	# All values (3x):
+	DDATa | KDATa | PATTern
+
+FlatnessUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FlatnessUnit.DB
+	# All values (2x):
+	DB | DBM
+
+FmVideoFilterType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FmVideoFilterType.LP01
+	# All values (6x):
+	LP01 | LP1 | LP10 | LP25 | LP5 | NONE
+
+FormatConductor
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FormatConductor.CONDucted
+	# All values (2x):
+	CONDucted | OTA
+
+FormatDci
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.FormatDci.F00
+	# Last value:
+	value = enums.FormatDci.F31
+	# All values (15x):
+	F00 | F01 | F02 | F10 | F11 | F12 | F20 | F21
+	F22 | F23 | F24 | F25 | F26 | F30 | F31
+
+FormatMHelper
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FormatMHelper.MANual
+	# All values (3x):
+	MANual | MIMO | MULTisiso
+
+FpeaksSortMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FpeaksSortMode.X
+	# All values (2x):
+	X | Y
+
+FrameModulation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrameModulation.AUTO
+	# All values (3x):
+	AUTO | DATA | PATTern
+
+FrameModulationB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrameModulationB.DATA
+	# All values (2x):
+	DATA | PATTern
+
+FrameOptimize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrameOptimize.DYNamic
+	# All values (2x):
+	DYNamic | SPEed
+
+FramesScope
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FramesScope.ALL
+	# All values (2x):
+	ALL | CHANnel
+
+FrameTriggerSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrameTriggerSource.AVAilable
+	# All values (3x):
+	AVAilable | NAVailable | RSLots
+
+FrCharReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrCharReference.LRB
+	# All values (2x):
+	LRB | RTCF
+
+FreqHopingModeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FreqHopingModeB.DISable
+	# All values (3x):
+	DISable | INTer | INTRa
+
+FreqHoppingMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FreqHoppingMode.INTer
+	# All values (3x):
+	INTer | INTRa | NONE
+
+FreqOffsetMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FreqOffsetMode.ARBitrary
+	# All values (2x):
+	ARBitrary | EQUidistant
+
+FreqReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FreqReference.CENTer
+	# All values (2x):
+	CENTer | EDGE
+
+FreqTimeScaling
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FreqTimeScaling.GHZ_us
+	# All values (4x):
+	GHZ_us | HZ_us | KHZ_us | MHZ_us
+
+FrequencyCouplingLinkA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrequencyCouplingLinkA.OFF
+	# All values (3x):
+	OFF | RBW | SPAN
+
+FrequencyCouplingLinkB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrequencyCouplingLinkB.OFF
+	# All values (2x):
+	OFF | SPAN
+
+FrequencyScaling
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrequencyScaling.GHZ
+	# All values (4x):
+	GHZ | HZ | KHZ | MHZ
+
+FrequencyType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FrequencyType.IF
+	# All values (3x):
+	IF | LO | RF
+
+FullScaleLevelUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FullScaleLevelUnit.DBM
+	# All values (2x):
+	DBM | VOLT
+
+FunctionA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FunctionA.MAX
+	# All values (2x):
+	MAX | OFF
+
+FunctionB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.FunctionB.MAX
+	# All values (3x):
+	MAX | NONE | SUM
+
+GatedSourceK30
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GatedSourceK30.EXT2
+	# All values (3x):
+	EXT2 | EXT3 | EXTernal
+
+GatedSourceLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GatedSourceLte.EXT2
+	# All values (7x):
+	EXT2 | EXT3 | EXTernal | IFPower | PSENsor | RFPower | VIDeo
+
+GatedSourceNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.GatedSourceNr5G.EXT2
+	# Last value:
+	value = enums.GatedSourceNr5G.VIDeo
+	# All values (10x):
+	EXT2 | EXT3 | EXTernal | IFPower | IMMediate | IQPower | PSENsor | RFPower
+	TIME | VIDeo
+
+GateSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GateSource.EXTernal
+	# All values (2x):
+	EXTernal | IFPower
+
+GeneratorIntf
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GeneratorIntf.GPIB
+	# All values (2x):
+	GPIB | TCPip
+
+GeneratorIntfType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GeneratorIntfType.GPIB
+	# All values (3x):
+	GPIB | PEXPress | TCPip
+
+GeneratorLink
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GeneratorLink.GPIB
+	# All values (2x):
+	GPIB | TTL
+
+GeneratorPath
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GeneratorPath.A
+	# All values (4x):
+	A | B | GEN1 | GEN2
+
+GenLevelControl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GenLevelControl.DATT
+	# All values (2x):
+	DATT | RFL
+
+GenWaveform
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GenWaveform.DDPD
+	# All values (2x):
+	DDPD | REFerence
+
+GpibTerminator
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GpibTerminator.EOI
+	# All values (2x):
+	EOI | LFEoi
+
+GprdMeasMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GprdMeasMethod.FLATtop
+	# All values (2x):
+	FLATtop | ORTHogonal
+
+GroupHopingMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GroupHopingMode.DISable
+	# All values (3x):
+	DISable | ENABle | NEITher
+
+GrpdRelRefType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GrpdRelRefType.AVERage
+	# All values (3x):
+	AVERage | CENTer | MANual
+
+GuardInterval
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.GuardInterval.ALL
+	# Last value:
+	value = enums.GuardInterval.MS
+	# All values (20x):
+	ALL | DL | DL16 | DL32 | DN16 | DN8 | DS | FBURst
+	L1G1 | L1G2 | L2G1 | L2G2 | L4G1 | L4G4 | ML | ML16
+	ML32 | MN16 | MN8 | MS
+
+GuardTime
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.GuardTime.NORMal
+	# All values (2x):
+	NORMal | SHORt
+
+HalfFrame
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HalfFrame.ONE
+	# All values (2x):
+	ONE | ZERO
+
+HardcopyContent
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HardcopyContent.HCOPy
+	# All values (2x):
+	HCOPy | WINDows
+
+HardcopyHeader
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HardcopyHeader.ALWays
+	# All values (5x):
+	ALWays | GLOBal | NEVer | ONCE | SECTion
+
+HardcopyLogo
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HardcopyLogo.ALWays
+	# All values (3x):
+	ALWays | GLOBal | NEVer
+
+HardcopyMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HardcopyMode.REPort
+	# All values (2x):
+	REPort | SCReen
+
+HardcopyPageSize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HardcopyPageSize.A4
+	# All values (2x):
+	A4 | US
+
+HeadersK50
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.HeadersK50.ALL
+	# Last value:
+	value = enums.HeadersK50.STOP
+	# All values (9x):
+	ALL | DELTa | FREQuency | IDENt | POWer | RBW | SID | STARt
+	STOP
+
+HidGenMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HidGenMethod.NID
+	# All values (2x):
+	NID | NIDCell
+
+HoppingMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HoppingMode.GROup
+	# All values (3x):
+	GROup | NONE | SEQuence
+
+HopTableHeaders
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.HopTableHeaders.ALL
+	# Last value:
+	value = enums.HopTableHeaders.SWITching
+	# All values (25x):
+	ALL | AVGFm | AVGPower | AVPHm | BEGin | DWELl | FMERror | FMSLength
+	FMSPoint | FMSTime | FREQuency | MAXFm | MAXPower | MINPower | MXPHm | PMSLength
+	PMSPoint | PMSTime | PWRRipple | RELFrequency | RMSFm | RMSPm | STAFrequency | STATe
+	SWITching
+
+HopXaxisItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.HopXaxisItems.AVGFm
+	# Last value:
+	value = enums.HopXaxisItems.SWITching
+	# All values (24x):
+	AVGFm | AVGPower | AVPHm | BEGin | DWELl | FMERror | FMSLength | FMSPoint
+	FMSTime | FREQuency | INDex | MAXFm | MAXPower | MINPower | MXPHm | PMSLength
+	PMSPoint | PMSTime | PWRRipple | RELFrequency | RMSFm | RMSPm | STAFrequency | SWITching
+
+HumsFileFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.HumsFileFormat.JSON
+	# All values (2x):
+	JSON | XML
+
+IdnFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IdnFormat.FSL
+	# All values (3x):
+	FSL | LEGacy | NEW
+
+IfGainMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IfGainMode.NORMal
+	# All values (2x):
+	NORMal | PULSe
+
+IfGainModeDdem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IfGainModeDdem.AVERaging
+	# All values (5x):
+	AVERaging | FREeze | NORMal | TRACking | USER
+
+IfSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IfSource.HVIDeo
+	# All values (4x):
+	HVIDeo | IF | IF2 | VIDeo
+
+InOutDirection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InOutDirection.INPut
+	# All values (2x):
+	INPut | OUTPut
+
+InputConnector
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputConnector.AIQI
+	# All values (2x):
+	AIQI | RF
+
+InputConnectorB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputConnectorB.AIQI
+	# All values (3x):
+	AIQI | RF | RFPRobe
+
+InputConnectorC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputConnectorC.RF
+	# All values (2x):
+	RF | RFPRobe
+
+InputRf
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputRf.RF
+	# All values (1x):
+	RF
+
+InputSelect
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputSelect.INPut1
+	# All values (2x):
+	INPut1 | INPut2
+
+InputSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputSource.ABBand
+	# All values (7x):
+	ABBand | AIQ | DIQ | FIQ | OBBand | RF | RFAiq
+
+InputSourceB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputSourceB.FIQ
+	# All values (2x):
+	FIQ | RF
+
+InputSourceC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputSourceC.BARKer
+	# All values (4x):
+	BARKer | EBARker | FIQ | PFM
+
+InputSourceLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InputSourceLte.AIQ
+	# All values (4x):
+	AIQ | DIQ | FILE | RF
+
+InstrumentMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.InstrumentMode.MSRanalyzer
+	# All values (3x):
+	MSRanalyzer | RTMStandard | SANalyzer
+
+IqBandwidthMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqBandwidthMode.AUTO
+	# All values (3x):
+	AUTO | FFT | MANual
+
+IqBandwidthModeNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqBandwidthModeNr5G.CF
+	# All values (2x):
+	CF | MANual
+
+IqDataFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqDataFormat.FloatComplex=FLOat32,COMPlex
+	# All values (4x):
+	FloatComplex | FloatReal | IntegerComplex | IntegerReal
+
+IqDataFormatDdem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.IqDataFormatDdem.FloatComplex=FLOat32,COMPlex
+	# Last value:
+	value = enums.IqDataFormatDdem.IntegerReal=INT32,REAL
+	# All values (10x):
+	FloatComplex | FloatIiQq | FloatIqIq | FloatPolar | FloatReal | IntegerComplex | IntegerIiQq | IntegerIqIq
+	IntegerPolar | IntegerReal
+
+IqFftWindowType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqFftWindowType.BLACkman
+	# All values (7x):
+	BLACkman | CHEByshev | FLATtop | GAUSs | HAMMing | HANNing | RECTangle
+
+IqOptimizeMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqOptimizeMode.LDIStortion
+	# All values (2x):
+	LDIStortion | LNOise
+
+IqRangeType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqRangeType.CAPTure
+	# All values (2x):
+	CAPTure | RRANge
+
+IqResultDataFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqResultDataFormat.COMPatible
+	# All values (3x):
+	COMPatible | IQBLock | IQPair
+
+IqType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.IqType.Ipart=I
+	# All values (3x):
+	Ipart | IQpart | Qpart
+
+LayerMappingDl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.LayerMappingDl.LC11
+	# Last value:
+	value = enums.LayerMappingDl.LC82
+	# All values (11x):
+	LC11 | LC21 | LC22 | LC31 | LC32 | LC41 | LC42 | LC52
+	LC62 | LC72 | LC82
+
+LayerMappingUl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LayerMappingUl.LC11
+	# All values (5x):
+	LC11 | LC21 | LC22 | LC32 | LC42
+
+LedState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LedState.GREen
+	# All values (3x):
+	GREen | GREY | RED
+
+LeftRightDirection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LeftRightDirection.LEFT
+	# All values (2x):
+	LEFT | RIGHt
+
+LimitCheck
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LimitCheck.FAILed
+	# All values (2x):
+	FAILed | PASS
+
+LimitShape
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LimitShape.FC1
+	# All values (6x):
+	FC1 | FC2 | FC3 | FC4 | FC5 | NONE
+
+LimitState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LimitState.ABSolute
+	# All values (4x):
+	ABSolute | AND | OR | RELative
+
+LimitUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.LimitUnit.A
+	# Last value:
+	value = enums.LimitUnit.WATT
+	# All values (28x):
+	A | AMPere | DB | DBM | DBM_hz | DBM_mhz | DBMV | DBMV_mhz
+	DBPT | DBPT_mhz | DBPW | DBPW_mhz | DBUA | DBUa_m | DBUa_mhz | DBUa_mmhz
+	DBUV | DBUV_m | DBUV_mhz | DBUV_mmhz | DEG | HZ | PCT | RAD
+	S | UNITless | VOLT | WATT
+
+LimitUnitB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.LimitUnitB.AMPere
+	# Last value:
+	value = enums.LimitUnitB.WATT
+	# All values (22x):
+	AMPere | DB | DBM | DBMV | DBMV_mhz | DBPW | DBUA | DBUa_m
+	DBUa_mhz | DBUa_mmhz | DBUV | DBUV_m | DBUV_mhz | DBUV_mmhz | DEG | HZ
+	PCT | RAD | S | UNITless | VOLT | WATT
+
+LimitUnitLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LimitUnitLte.CARR
+	# All values (2x):
+	CARR | HZ
+
+LisnPhase
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LisnPhase.L1
+	# All values (4x):
+	L1 | L2 | L3 | N
+
+LisnType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LisnType.ENV216
+	# All values (8x):
+	ENV216 | ENV4200 | ENV432 | ESH2z5 | ESH3z5 | FOURphase | OFF | TWOPhase
+
+LoadType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LoadType.NEW
+	# All values (2x):
+	NEW | REPLace
+
+LogicalFnc
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LogicalFnc.AND
+	# All values (2x):
+	AND | OR
+
+LoscLocation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LoscLocation.CACB
+	# All values (3x):
+	CACB | CCC | USER
+
+LoType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LoType.FIXed
+	# All values (2x):
+	FIXed | VARiable
+
+LowerLimit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LowerLimit.ACLR
+	# All values (6x):
+	ACLR | ALL | CRT | EVM | GEN | SEM
+
+LowHigh
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LowHigh.HIGH
+	# All values (2x):
+	HIGH | LOW
+
+LraValue
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LraValue.L1151
+	# All values (4x):
+	L1151 | L139 | L571 | L839
+
+LteCarrResourceBlocks
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.LteCarrResourceBlocks.N100
+	# All values (6x):
+	N100 | N15 | N25 | N50 | N6 | N75
+
+MacFcs
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MacFcs.O2
+	# All values (3x):
+	O2 | O4 | OFF
+
+MarkerDemodMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MarkerDemodMode.AC
+	# All values (5x):
+	AC | AM | AUDio | FM | PM
+
+MarkerFunctionA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.MarkerFunctionA.ACPower
+	# Last value:
+	value = enums.MarkerFunctionA.TPOWer
+	# All values (15x):
+	ACPower | AOBandwidth | AOBWidth | CN | CN0 | COBandwidth | COBWidth | CPOWer
+	GACLr | MACM | MCACpower | OBANdwidth | OBWidth | PPOWer | TPOWer
+
+MarkerFunctionB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MarkerFunctionB.ACPower
+	# All values (8x):
+	ACPower | AOBWidth | CN | CN0 | CPOWer | MCACpower | OBANdwidth | OBWidth
+
+MarkerMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MarkerMode.DENSity
+	# All values (3x):
+	DENSity | POWer | RPOWer
+
+MarkerRealImag
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MarkerRealImag.IMAG
+	# All values (3x):
+	IMAG | MAGNitude | REAL
+
+MarkerRealImagB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MarkerRealImagB.IMAG
+	# All values (2x):
+	IMAG | REAL
+
+MaskCondition
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MaskCondition.ENTer
+	# All values (4x):
+	ENTer | INSide | LEAVe | OUTSide
+
+McsTable
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.McsTable.Q1024
+	# All values (4x):
+	Q1024 | Q256 | Q64 | Q64L
+
+MdpdWaveformType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MdpdWaveformType.DDPD
+	# All values (3x):
+	DDPD | MDPD | REF
+
+MeasurementK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MeasurementK91.ACPower
+	# All values (5x):
+	ACPower | CPOWer | MCACpower | OBANdwidth | OBWidth
+
+MeasurementLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.MeasurementLte.ACLR
+	# Last value:
+	value = enums.MeasurementLte.TPOO
+	# All values (12x):
+	ACLR | CACLr | CDECoder | ESPectrum | EVM | MCAClr | MCESpectrum | RAA
+	SPECtrum | TAERror | TAL | TPOO
+
+MeasurementLteResult
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MeasurementLteResult.ACPower
+	# All values (6x):
+	ACPower | CPOWer | GACLr | MACM | MCACpower | PPOWer
+
+MeasurementNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.MeasurementNr5G.ACLR
+	# Last value:
+	value = enums.MeasurementNr5G.TPOO
+	# All values (10x):
+	ACLR | CACLr | CMEasurement | ESPectrum | EVM | MCAClr | MCESpectrum | PRACh
+	TAERror | TPOO
+
+MeasurementStep
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MeasurementStep.NESTimate
+	# All values (4x):
+	NESTimate | SDETection | SOVerview | SPOTstep
+
+MeasurementType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MeasurementType.DIRected
+	# All values (2x):
+	DIRected | WIDE
+
+MeasurementTypeK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MeasurementTypeK91.FLATness
+	# All values (2x):
+	FLATness | GRDelay
+
+MessageType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MessageType.REMote
+	# All values (2x):
+	REMote | SMSG
+
+MimoAnalyzeMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MimoAnalyzeMethod.MANual
+	# All values (3x):
+	MANual | OSP | SIMultaneous
+
+MixerIdentifier
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MixerIdentifier.CLOCk
+	# All values (2x):
+	CLOCk | LO
+
+ModulationDl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ModulationDl.Q1K
+	# All values (5x):
+	Q1K | QAM16 | QAM256 | QAM64 | QPSK
+
+ModulationUl
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ModulationUl.PSK8
+	# All values (6x):
+	PSK8 | Q1K | QAM16 | QAM256 | QAM64 | QPSK
+
+MpowerDetector
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MpowerDetector.MEAN
+	# All values (2x):
+	MEAN | PEAK
+
+MskFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MskFormat.DIFFerential
+	# All values (4x):
+	DIFFerential | NORMal | TYPe1 | TYPe2
+
+MsSyncMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.MsSyncMode.MASTer
+	# All values (5x):
+	MASTer | NONE | PRIMary | SECondary | SLAVe
+
+NgMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.NgMethod.AUTO
+	# All values (6x):
+	AUTO | NG1 | NG1_2 | NG1_6 | NG2 | NGCustom
+
+NoiseFigure
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.NoiseFigure.BLACkharris
+	# All values (5x):
+	BLACkharris | FLATtop | GAUSsian | P5 | RECTangular
+
+NoiseFigureLimit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.NoiseFigureLimit.ENR
+	# All values (7x):
+	ENR | GAIN | NOISe | PCOLd | PHOT | TEMPerature | YFACtor
+
+NoiseFigureResult
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.NoiseFigureResult.CPCold
+	# Last value:
+	value = enums.NoiseFigureResult.YFACtor
+	# All values (13x):
+	CPCold | CPHot | CYFactor | DPCold | DPHot | ENR | GAIN | NOISe
+	NUNCertainty | PCOLd | PHOT | TEMPerature | YFACtor
+
+NoiseFigureResultCustom
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.NoiseFigureResultCustom.CPCold
+	# Last value:
+	value = enums.NoiseFigureResultCustom.YFACtor
+	# All values (10x):
+	CPCold | CPHot | CYFactor | ENR | GAIN | NOISe | PCOLd | PHOT
+	TEMPerature | YFACtor
+
+NoOfMimoAntennas
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.NoOfMimoAntennas.TX1
+	# All values (3x):
+	TX1 | TX2 | TX4
+
+NormalInverted
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.NormalInverted.INVerted
+	# All values (2x):
+	INVerted | NORMal
+
+NpRatioMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.NpRatioMode.DENSity
+	# All values (2x):
+	DENSity | POWer
+
+OccLength
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OccLength.N2
+	# All values (2x):
+	N2 | N4
+
+OddEven
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OddEven.EODD
+	# All values (3x):
+	EODD | EVEN | ODD
+
+OffPowerUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OffPowerUnit.DBM
+	# All values (2x):
+	DBM | DMHZ
+
+OffsetToSubcarrier
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OffsetToSubcarrier.NONE
+	# All values (5x):
+	NONE | OS00 | OS01 | OS10 | OS11
+
+OffState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OffState.OFF
+	# All values (1x):
+	OFF
+
+OperatingBandNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.OperatingBandNr5G.N1
+	# Last value:
+	value = enums.OperatingBandNr5G.N99
+	# All values (66x):
+	N1 | N100 | N101 | N102 | N12 | N13 | N14 | N18
+	N2 | N20 | N24 | N25 | N257 | N258 | N259 | N26
+	N260 | N261 | N262 | N263 | N28 | N29 | N3 | N30
+	N34 | N38 | N39 | N40 | N41 | N46 | N48 | N5
+	N50 | N51 | N53 | N65 | N66 | N67 | N7 | N70
+	N71 | N74 | N75 | N76 | N77 | N78 | N79 | N8
+	N80 | N81 | N82 | N83 | N84 | N85 | N86 | N89
+	N90 | N91 | N92 | N93 | N94 | N95 | N96 | N97
+	N98 | N99
+
+OptimizationCriterion
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OptimizationCriterion.EVMMin
+	# All values (2x):
+	EVMMin | RMSMin
+
+OptionState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OptionState.OCCupy
+	# All values (3x):
+	OCCupy | OFF | ON
+
+OspIdn
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OspIdn.A11
+	# All values (3x):
+	A11 | A12 | A13
+
+OutputIfSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OutputIfSource.IF
+	# All values (3x):
+	IF | IF2 | VIDeo
+
+OutputType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OutputType.DEVice
+	# All values (4x):
+	DEVice | TARMed | TOFF | UDEFined
+
+OversampleFactor
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.OversampleFactor.OV10
+	# All values (5x):
+	OV10 | OV12 | OV4 | OV6 | OV8
+
+PadType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PadType.MLPad
+	# All values (2x):
+	MLPad | SRESistor
+
+PageMarginUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PageMarginUnit.IN
+	# All values (2x):
+	IN | MM
+
+PageOrientation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PageOrientation.LANDscape
+	# All values (2x):
+	LANDscape | PORTrait
+
+PasteLogicMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PasteLogicMode.CUSTom
+	# All values (4x):
+	CUSTom | DATA | SLOTs | UNUSed
+
+Path
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Path.A
+	# All values (2x):
+	A | B
+
+PayloadLenSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PayloadLenSource.ESTimate
+	# All values (4x):
+	ESTimate | HTSignal | LSIGnal | SFIeld
+
+PayloadMax
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PayloadMax.S0
+	# All values (3x):
+	S0 | S1 | S2
+
+PdschDmRsSeqGenMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PdschDmRsSeqGenMethod.DSID
+	# All values (3x):
+	DSID | NIDCell | NIDDmrs
+
+PdschFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PdschFormat.OFF
+	# All values (3x):
+	OFF | PDCCh | PHYDet
+
+PdschSeqGenMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PdschSeqGenMethod.DSID
+	# All values (2x):
+	DSID | NIDCell
+
+PeriodMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PeriodMode.APERiodic
+	# All values (2x):
+	APERiodic | PERiodic
+
+PhaseTrackingMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PhaseTrackingMethod.OFF
+	# All values (3x):
+	OFF | PIL | PILPay
+
+PhrRate
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PhrRate.BMHP
+	# All values (4x):
+	BMHP | BMLP | HMHR | HMLR
+
+PictureFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PictureFormat.BMP
+	# Last value:
+	value = enums.PictureFormat.WMF
+	# All values (11x):
+	BMP | DOC | EWMF | GDI | JPEG | JPG | PDF | PNG
+	RTF | SVG | WMF
+
+PilotSeqMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PilotSeqMode.DETected
+	# All values (2x):
+	DETected | STANdard
+
+PmeterFreqLink
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PmeterFreqLink.CENTer
+	# All values (3x):
+	CENTer | MARKer1 | OFF
+
+PmRpointMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PmRpointMode.MANual
+	# All values (2x):
+	MANual | RIGHt
+
+Port
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Port.PORT1
+	# All values (4x):
+	PORT1 | PORT2 | PORT3 | PORT4
+
+PowerCategory
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerCategory.A
+	# All values (4x):
+	A | B | LARE | MED
+
+PowerCategoryB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerCategoryB.OPT1
+	# All values (2x):
+	OPT1 | OPT2
+
+PowerClass
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerClass.PC1
+	# All values (4x):
+	PC1 | PC1_5 | PC2 | PC3
+
+PowerClassB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerClassB.PC1
+	# All values (4x):
+	PC1 | PC2 | PC3 | PC4
+
+PowerIdn
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PowerIdn.ID1
+	# Last value:
+	value = enums.PowerIdn.NONE
+	# All values (16x):
+	ID1 | ID10 | ID11 | ID12 | ID13 | ID14 | ID15 | ID2
+	ID3 | ID4 | ID5 | ID6 | ID7 | ID8 | ID9 | NONE
+
+PowerMeasFunction
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerMeasFunction.ACPower
+	# All values (7x):
+	ACPower | CN | CN0 | CPOWer | MCACpower | OBANdwidth | OBWidth
+
+PowerMeasFunctionB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerMeasFunctionB.ACPower
+	# All values (3x):
+	ACPower | CPOWer | MCACpower
+
+PowerMeterUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerMeterUnit.DBM
+	# All values (3x):
+	DBM | W | WATT
+
+PowerSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerSource.VSUPply
+	# All values (2x):
+	VSUPply | VTUNe
+
+PowerUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PowerUnit.A
+	# Last value:
+	value = enums.PowerUnit.WATT
+	# All values (26x):
+	A | AMPere | DB | DBM | DBM_hz | DBM_mhz | DBMV | DBMV_mhz
+	DBPT | DBPT_mhz | DBPW | DBPW_mhz | DBUA | DBUa_m | DBUa_mhz | DBUa_mmhz
+	DBUV | DBUV_m | DBUV_mhz | DBUV_mmhz | PCT | UNITless | V | VOLT
+	W | WATT
+
+PowerUnitDdem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerUnitDdem.DBM
+	# All values (3x):
+	DBM | DBMV | DBUV
+
+PowerUnitK9x
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PowerUnitK9x.A
+	# Last value:
+	value = enums.PowerUnitK9x.WATT
+	# All values (11x):
+	A | AMPere | DBM | DBMV | DBPW | DBUA | DBUV | V
+	VOLT | W | WATT
+
+PowerUnitNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PowerUnitNr5G.A
+	# Last value:
+	value = enums.PowerUnitNr5G.WATT
+	# All values (24x):
+	A | AMPere | DB | DBM | DBMV | DBMV_mhz | DBPT | DBPT_mhz
+	DBPW | DBPW_mhz | DBUA | DBUa_m | DBUa_mhz | DBUa_mmhz | DBUV | DBUV_m
+	DBUV_mhz | DBUV_mmhz | PCT | UNITless | V | VOLT | W | WATT
+
+PowerVectorErrorMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PowerVectorErrorMode.ALL
+	# All values (2x):
+	ALL | PSDU
+
+PpduFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PpduFormat.AIEM
+	# Last value:
+	value = enums.PpduFormat.MVHT
+	# All values (23x):
+	AIEM | AIES | AIET | AIHM | AIHS | AIHT | ALL | DEHTppdu
+	DGRF | DHEP | DMIX | DNHT | DVHT | FAMA | FAMM | FBURst
+	FMMA | FMMD | FMMM | MGRF | MMIX | MNHT | MVHT
+
+PpduSelectMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PpduSelectMode.ALL
+	# All values (4x):
+	ALL | DEMod | FBURst | MEASure
+
+PpduType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PpduType.ALL
+	# Last value:
+	value = enums.PpduType.M3
+	# All values (10x):
+	ALL | D0 | D1 | D2 | D3 | FBURst | M0 | M1
+	M2 | M3
+
+PpduTypeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PpduTypeB.ALL
+	# All values (8x):
+	ALL | D0 | D1 | D2 | FBURst | M0 | M1 | M2
+
+PreambeTrackMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PreambeTrackMode.PAYLoad
+	# All values (2x):
+	PAYLoad | VHT
+
+PreambleUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PreambleUnit.HZ
+	# All values (2x):
+	HZ | PCT
+
+PreampOption
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PreampOption.B23
+	# All values (2x):
+	B23 | B24
+
+PrecodGrnMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PrecodGrnMethod.ACRBs
+	# All values (2x):
+	ACRBs | REGBundle
+
+PrecodingScheme
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PrecodingScheme.BF
+	# All values (4x):
+	BF | NONE | SPM | TXD
+
+PrefixLength
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PrefixLength.AUTO
+	# All values (3x):
+	AUTO | EXT | NORM
+
+PresetCompatible
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PresetCompatible.MRECeiver
+	# All values (8x):
+	MRECeiver | MSRA | OFF | PNOise | RECeiver | RTMS | SANalyzer | VNA
+
+Probability
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Probability.P0_01
+	# All values (4x):
+	P0_01 | P0_1 | P1 | P10
+
+ProbeMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ProbeMode.CM
+	# All values (4x):
+	CM | DM | NM | PM
+
+ProbeSetupMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ProbeSetupMode.NOACtion
+	# All values (2x):
+	NOACtion | RSINgle
+
+PskFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PskFormat.DIFFerential
+	# All values (7x):
+	DIFFerential | DPI2 | MNPi2 | N3Pi8 | NORMal | NPI2 | PI8D8psk
+
+PsweepSetting
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PsweepSetting.BIAS
+	# All values (4x):
+	BIAS | DELay | FREQuency | POWer
+
+PucchFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PucchFormat.F1
+	# Last value:
+	value = enums.PucchFormat.SUBF
+	# All values (14x):
+	F1 | F1A | F1AN | F1AS | F1B | F1BN | F1BS | F1N
+	F1S | F2 | F2A | F2B | F3 | SUBF
+
+PulseAxisItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PulseAxisItems.DCYCle
+	# Last value:
+	value = enums.PulseAxisItems.TSTamp
+	# All values (11x):
+	DCYCle | DRATio | FALL | OFF | PNUMber | PRF | PRI | PWIDth
+	RISE | SETTling | TSTamp
+
+PulseEmodelItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PulseEmodelItems.FBPTime
+	# Last value:
+	value = enums.PulseEmodelItems.RTPTime
+	# All values (18x):
+	FBPTime | FHPLevel | FHPTime | FLPLevel | FLPTime | FMPLevel | FMPTime | FTPLevel
+	FTPTime | RBPTime | RHPLevel | RHPTime | RLPLevel | RLPTime | RMPLevel | RMPTime
+	RTPLevel | RTPTime
+
+PulseFreqItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PulseFreqItems.CRATe
+	# All values (6x):
+	CRATe | DEViation | PERRor | POINt | PPFRequency | RERRor
+
+PulsePhaseItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PulsePhaseItems.DEViation
+	# All values (5x):
+	DEViation | PERRor | POINt | PPPHase | RERRor
+
+PulsePowerItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PulsePowerItems.ADDB
+	# Last value:
+	value = enums.PulsePowerItems.TOP
+	# All values (20x):
+	ADDB | ADPercent | AMPLitude | AVG | BASE | I | MAX | MIN
+	ODB | ON | OPERcent | PAVG | PMIN | POINt | PON | PPRatio
+	Q | RDB | RPERcent | TOP
+
+PulseSidelobeItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PulseSidelobeItems.AMPower
+	# Last value:
+	value = enums.PulseSidelobeItems.SDELay
+	# All values (10x):
+	AMPower | CRATio | IMPower | ISLevel | MFRequency | MPHase | MWIDth | PCORrelation
+	PSLevel | SDELay
+
+PulseTimingItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PulseTimingItems.DCYCle
+	# Last value:
+	value = enums.PulseTimingItems.TSTamp
+	# All values (10x):
+	DCYCle | DRATio | FALL | OFF | PRF | PRI | PWIDth | RISE
+	SETTling | TSTamp
+
+PulseYaxisItem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PulseYaxisItem.AMPLitude
+	# All values (5x):
+	AMPLitude | BURSt | PHASe | PIBurst | TOTal
+
+PuschModulation
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.PuschModulation.DMRS
+	# Last value:
+	value = enums.PuschModulation.QPSK
+	# All values (9x):
+	DMRS | PITBpsk | Q1K | Q2K | Q4K | QAM16 | QAM256 | QAM64
+	QPSK
+
+PuschModulationB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PuschModulationB.DMRS
+	# All values (8x):
+	DMRS | Q1K | Q2K | Q4K | QAM16 | QAM256 | QAM64 | QPSK
+
+PushSeqGenMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PushSeqGenMethod.NIDCell
+	# All values (2x):
+	NIDCell | NIDPusch
+
+PvTmode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PvTmode.EDGE
+	# All values (4x):
+	EDGE | FALL | FULL | RISE
+
+PvtRefPower
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PvtRefPower.MAXimum
+	# All values (2x):
+	MAXimum | MEAN
+
+PwrLevelMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PwrLevelMode.CURRent
+	# All values (2x):
+	CURRent | VOLTage
+
+PwrMeasUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.PwrMeasUnit.ABS
+	# All values (3x):
+	ABS | PHZ | PMHZ
+
+QamFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.QamFormat.DIFFerential
+	# All values (4x):
+	DIFFerential | MNPi4 | NORMal | NPI4
+
+QpskFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.QpskFormat.DIFFerential
+	# All values (7x):
+	DIFFerential | DPI4 | N3Pi4 | NORMal | NPI4 | OFFSet | SOFFset
+
+RangeClass
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RangeClass.LOCal
+	# All values (3x):
+	LOCal | MEDium | WIDE
+
+RangeK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RangeK91.PFTRacking
+	# All values (4x):
+	PFTRacking | PRE1t | PRE2t | PUTRacking
+
+RangeParam
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.RangeParam.ARBW
+	# Last value:
+	value = enums.RangeParam.TSTR
+	# All values (12x):
+	ARBW | LOFFset | MFRBw | NFFT | PAValue | PEXCursion | RBW | RFATtenuation
+	RLEVel | SNRatio | TSTP | TSTR
+
+RealtimeMeasType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RealtimeMeasType.HRESolution
+	# All values (2x):
+	HRESolution | MDOMain
+
+RefChannel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RefChannel.LHIGhest
+	# All values (3x):
+	LHIGhest | MAXimum | MINimum
+
+Reference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Reference.ALL0
+	# All values (3x):
+	ALL0 | AUTO | PS23
+
+ReferenceBdSourceK10x
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ReferenceBdSourceK10x.NONE
+	# All values (2x):
+	NONE | PN9
+
+ReferenceDataNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ReferenceDataNr5G.ALL0
+	# All values (5x):
+	ALL0 | AUTO | PASLots | PN23 | PS23
+
+ReferenceMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ReferenceMode.ABSolute
+	# All values (2x):
+	ABSolute | RELative
+
+ReferenceSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ReferenceSource.EXT
+	# All values (2x):
+	EXT | INT
+
+ReferenceSourceA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ReferenceSourceA.E10
+	# Last value:
+	value = enums.ReferenceSourceA.SYNC
+	# All values (11x):
+	E10 | E100 | E1000 | EAUTo | EXT1 | EXT2 | EXTernal | EXTernal1
+	EXTernal2 | INTernal | SYNC
+
+ReferenceSourceB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ReferenceSourceB.EAUTo
+	# All values (3x):
+	EAUTo | EXTernal | INTernal
+
+ReferenceSourceD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ReferenceSourceD.EXT2
+	# All values (4x):
+	EXT2 | EXT3 | EXTernal | IMMediate
+
+RefPointMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RefPointMode.CC1
+	# All values (2x):
+	CC1 | GMCFreq
+
+Relay
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.Relay.AC_enable
+	# Last value:
+	value = enums.Relay.SWRF1in
+	# All values (84x):
+	AC_enable | ACDC | AMPSw_2 | AMPSw_4 | ATT10 | ATT10db | ATT1db | ATT20
+	ATT20db | ATT2db | ATT40 | ATT40db | ATT4db_a | ATT4db_b | ATT5 | ATTinput2
+	CAL | CAL_enable | EATT | EMIMatt10 | EXT_relais | HP_Bypass | HP_Bypass_2 | HP_Hp100khz
+	HP_Hp1khz | HP_Hp1mhz | HP_Hp200khz | HP_Hp20khz | HP_Hp50khz | HP_Hp5mhz | HP_Hp9khz | HP_Sw
+	IFSW | INP2matt10r1 | INP2matt10r2 | INPut2 | LFMatt10 | LNA20db_1 | LNA20db_2 | LP_Lp100khz
+	LP_Lp14mhz | LP_Lp1mhz | LP_Lp20khz | LP_Lp40mhz | LP_Lp500khz | LP_Lp5mhz | LP_Sw | PREamp
+	PREamp30mhz | PRESab_bypr1 | PRESab_bypr2 | PRESab_swir1 | PRESab_swir2 | PRESel | RFAB | SATT10
+	SATT20 | SATT40 | SCAL | SIGSourout | SP6T | SPAByp | SPDTinput | SPDTmwcamp
+	SWAMp1 | SWAMp1amp2 | SWAMp1toamp4 | SWAMp2 | SWAMp3 | SWAMp3amp4 | SWAMp4 | SWAMp5
+	SWAMp6 | SWAMp7 | SWF1f2in | SWF1f2out | SWF1tof4out | SWF3f4out | SWF3in | SWF4in
+	SWF5in | SWF6f7in | SWFE | SWRF1in
+
+RestrictedPrachSet
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RestrictedPrachSet.A
+	# All values (3x):
+	A | B | NONE
+
+ResultDevReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultDevReference.CENTer
+	# All values (4x):
+	CENTer | EDGE | FMSettling | PMSettling
+
+ResultItemK18
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ResultItemK18.ACB1
+	# Last value:
+	value = enums.ResultItemK18.VICC
+	# All values (21x):
+	ACB1 | ACB2 | ACB3 | ACBM | ACL1 | ACP | ACU1 | AMWidth
+	CFACtor | EVM | GAIN | ICC | P1DB | P2DB | P3DB | PAE
+	PMWidth | POUT | RMS | VCC | VICC
+
+ResultNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultNr5G.AASL
+	# All values (2x):
+	AASL | AASY
+
+ResultReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultReference.CENTer
+	# All values (3x):
+	CENTer | FALL | RISE
+
+ResultTypeA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultTypeA.ALL
+	# All values (4x):
+	ALL | CPOWer | NPOWer | NPRatio
+
+ResultTypeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultTypeB.ALL
+	# All values (4x):
+	ALL | CFACtor | MEAN | PEAK
+
+ResultTypeC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultTypeC.AVERage
+	# All values (2x):
+	AVERage | IMMediate
+
+ResultTypeD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultTypeD.TOTal
+	# All values (1x):
+	TOTal
+
+ResultTypeE
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultTypeE.ALL
+	# All values (3x):
+	ALL | FALLing | RISing
+
+ResultTypeNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ResultTypeNr5G.AAPFail
+	# Last value:
+	value = enums.ResultTypeNr5G.USTS
+	# All values (66x):
+	AAPFail | APFail | ARPFail | BLER | CAPFail | CC | CFRequency | CPFail
+	CRESt | CRPFail | CSIPower | DS1K | DS4K | DSQP | DSSF | DSST
+	DSTS | EAACcs | EVM | EVMPeak | FERRor | FOFFset | FSOFfset | GIMBalance
+	IQOFfset | MAPFail | MCPFail | MID | MODulation | MRPFail | MSPFail | NORB
+	OSTP | OVLD | PACCs | PCHannel | POWer | PPRE | PSIGnal | QUADrature
+	RSSI | RSTP | SD1K | SD4K | SDPB | SDQP | SDSF | SDST
+	SDTS | SERRor | SPFail | SSPower | SSTate | TPUT | TSDelta | TSTamp
+	UCCD | UCCH | UPRach | US1K | US4K | USPB | USQP | USSF
+	USST | USTS
+
+ResultTypeReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ResultTypeReference.PINPut
+	# All values (2x):
+	PINPut | POUTput
+
+ResultTypeStat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.ResultTypeStat.AVG
+	# Last value:
+	value = enums.ResultTypeStat.TPEak
+	# All values (9x):
+	AVG | PAVG | PCTL | PEAK | PPCTl | PSDev | RPEak | SDEV
+	TPEak
+
+RoscillatorFreqMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RoscillatorFreqMode.E10
+	# All values (3x):
+	E10 | E100 | VARiable
+
+RoscillatorRefOut
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.RoscillatorRefOut.EXT1
+	# Last value:
+	value = enums.RoscillatorRefOut.OFF
+	# All values (9x):
+	EXT1 | EXT2 | EXTernal1 | EXTernal2 | O10 | O100 | O1000 | O8000
+	OFF
+
+RuConfigNheLtf
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RuConfigNheLtf.AUTO
+	# All values (7x):
+	AUTO | S1 | S2 | S4 | S6 | S8 | STA
+
+RuConfigPpdu
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.RuConfigPpdu.ESU
+	# All values (4x):
+	ESU | MU | SU | TRIG
+
+RuSize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.RuSize.S0
+	# Last value:
+	value = enums.RuSize.SU
+	# All values (18x):
+	S0 | S106 | S106s26 | S242 | S26 | S2X996 | S2X996s484 | S3X996
+	S3X996s484 | S484 | S484s242 | S4X996 | S52 | S52S26 | S996 | S996s484
+	S996s484s242 | SU
+
+ScaleScope
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ScaleScope.HDECades
+	# All values (3x):
+	HDECades | MANual | MRANge
+
+ScaleYaxisUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ScaleYaxisUnit.ABS
+	# All values (2x):
+	ABS | PCT
+
+ScalingManualMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ScalingManualMode.BRANge
+	# All values (4x):
+	BRANge | OFF | TBOTtom | TRANge
+
+ScalingMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ScalingMode.LINear
+	# All values (2x):
+	LINear | LOGarithmic
+
+ScDetailedObject
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ScDetailedObject.DPILot
+	# All values (4x):
+	DPILot | EHTLtf | HELTf | LLTF
+
+ScpiRecorderFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ScpiRecorderFormat.LONG
+	# All values (2x):
+	LONG | SHORt
+
+SearchArea
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SearchArea.MEMory
+	# All values (2x):
+	MEMory | VISible
+
+SearchMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SearchMode.FAST
+	# All values (2x):
+	FAST | POPTimzed
+
+Section
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Section.DATA
+	# All values (4x):
+	DATA | PHR | SHR | STS
+
+SelectAll
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SelectAll.ALL
+	# All values (1x):
+	ALL
+
+SelectionRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SelectionRange.ALL
+	# All values (3x):
+	ALL | CURRent | SELected
+
+SelectionRangeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SelectionRangeB.ALL
+	# All values (2x):
+	ALL | CURRent
+
+SelectionScope
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SelectionScope.ALL
+	# All values (2x):
+	ALL | SINGle
+
+SelectNone
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SelectNone.NONE
+	# All values (1x):
+	NONE
+
+SemPowerCategory
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SemPowerCategory.A
+	# All values (8x):
+	A | B | B1 | B2 | HOME | LARE | MED | WARE
+
+SemRequirement
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SemRequirement.GEN
+	# All values (6x):
+	GEN | NS27 | NS3 | NS35 | NS4 | NS67
+
+Separator
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Separator.COMMa
+	# All values (2x):
+	COMMa | POINt
+
+SequencerMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SequencerMode.CDEFined
+	# All values (4x):
+	CDEFined | CONTinous | CONTinuous | SINGle
+
+ServiceBandwidth
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ServiceBandwidth.BROadband
+	# All values (2x):
+	BROadband | NARRowband
+
+ServiceState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ServiceState.DEViations
+	# All values (4x):
+	DEViations | NAN | OK | REQired
+
+ShapingMethod
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ShapingMethod.POLYnomial
+	# All values (2x):
+	POLYnomial | TABLe
+
+ShiftIndex
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.ShiftIndex.NIDCell
+	# All values (2x):
+	NIDCell | NSHift
+
+SidebandPos
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SidebandPos.INVerse
+	# All values (2x):
+	INVerse | NORMal
+
+SignalLevel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalLevel.HIGH
+	# All values (3x):
+	HIGH | LOW | OFF
+
+SignalModel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalModel.CHIRp
+	# All values (2x):
+	CHIRp | HOP
+
+SignalPath
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalPath.RX1
+	# All values (8x):
+	RX1 | RX2 | RX3 | RX4 | RX5 | RX6 | RX7 | RX8
+
+SignalPathMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalPathMode.LDIS
+	# All values (2x):
+	LDIS | LNO
+
+SignalSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalSource.INSTrument
+	# All values (2x):
+	INSTrument | SIMulation
+
+SignalSourceB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalSourceB.ABBand
+	# All values (5x):
+	ABBand | AIQ | DIQ | FIQ | RF
+
+SignalType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SignalType.AC
+	# All values (3x):
+	AC | DC | DCZero
+
+SingleValue
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.SingleValue.ALL
+	# Last value:
+	value = enums.SingleValue.RHO
+	# All values (13x):
+	ALL | CFER | EVMP | EVMR | FDER | FEP | FERM | IQOF
+	MEP | MERM | PEP | PERM | RHO
+
+Size
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Size.LARGe
+	# All values (2x):
+	LARGe | SMALl
+
+SlopeType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SlopeType.NEGative
+	# All values (2x):
+	NEGative | POSitive
+
+Slot
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.Slot.S160
+	# Last value:
+	value = enums.Slot.SL80
+	# All values (13x):
+	S160 | S320 | S640 | SL10 | SL16 | SL20 | SL32 | SL4
+	SL40 | SL5 | SL64 | SL8 | SL80
+
+SnmpVersion
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SnmpVersion.DEFault
+	# All values (5x):
+	DEFault | OFF | V12 | V123 | V3
+
+Source
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.Source.AM
+	# Last value:
+	value = enums.Source.VIDeo
+	# All values (13x):
+	AM | FM | FOCus | HVIDeo | IF | IF2 | IQ | OFF
+	OUT1 | OUT2 | PM | SSB | VIDeo
+
+SourceFilePrbs
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SourceFilePrbs.FILE
+	# All values (2x):
+	FILE | PRBS
+
+SourceInt
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SourceInt.EXTernal
+	# All values (2x):
+	EXTernal | INTernal
+
+SourceSequence
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SourceSequence.CLOop
+	# All values (4x):
+	CLOop | MANual | OLOop | PERiodic
+
+SourceType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SourceType.CUSTom
+	# All values (2x):
+	CUSTom | STANdard
+
+SourceVsa
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.SourceVsa.BBPower
+	# Last value:
+	value = enums.SourceVsa.VIDeo
+	# All values (18x):
+	BBPower | EXT2 | EXT3 | EXTernal | GP0 | GP1 | GP2 | GP3
+	GP4 | GP5 | IFPower | IMMediate | IQPower | MAGNitude | MANual | RFPower
+	TIME | VIDeo
+
+SpacingY
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SpacingY.LDB
+	# All values (4x):
+	LDB | LINear | LOGarithmic | PERCent
+
+SpanSetting
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SpanSetting.FREQuency
+	# All values (2x):
+	FREQuency | TIME
+
+SpecialMappingMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SpecialMappingMode.DIRect
+	# All values (3x):
+	DIRect | SEXPansion | USER
+
+SpectrumMaskStandard
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SpectrumMaskStandard.ETSI
+	# All values (2x):
+	ETSI | IEEE
+
+SpectrumWindowType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SpectrumWindowType.BARTlett
+	# All values (5x):
+	BARTlett | BLACkman | HAMMing | HANNing | RECTangle
+
+SpurType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SpurType.DMINimum
+	# All values (2x):
+	DMINimum | PMAXimum
+
+SrsPeriodicity
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.SrsPeriodicity.SL1
+	# Last value:
+	value = enums.SrsPeriodicity.SL80
+	# All values (12x):
+	SL1 | SL10 | SL16 | SL2 | SL20 | SL32 | SL4 | SL40
+	SL5 | SL64 | SL8 | SL80
+
+StandardK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StandardK91.ETSI
+	# All values (3x):
+	ETSI | IEEE | USER
+
+StandardNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.StandardNr5G.GSM
+	# Last value:
+	value = enums.StandardNr5G.WCDMa
+	# All values (9x):
+	GSM | LTE_1_40 | LTE_10_00 | LTE_15_00 | LTE_20_00 | LTE_3_00 | LTE_5_00 | USER
+	WCDMa
+
+StandardNr5GExt
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.StandardNr5GExt.AWLan
+	# Last value:
+	value = enums.StandardNr5GExt.WIMax
+	# All values (57x):
+	AWLan | BWLan | CDPD | D2CDma | EUTRa | F19Cdma | F1D100nr5g | F1D20nr5g
+	F1U100nr5g | F1U20nr5g | F2D100nr5g | F2D200nr5g | F2U100nr5g | F2U200nr5g | F8CDma | FIS95a
+	FIS95c0 | FIS95c1 | FJ008 | FTCDma | FW3Gppcdma | FWCDma | GSM | L03S
+	L05R | L10R | L10S | L14S | L15R | L15S | L20R | L20S
+	M2CDma | MSR | NONE | NR5G | NR5Glte | PAPCo25 | PDC | PHS
+	R19Cdma | R8CDma | REUTra | RFID14443 | RIS95a | RIS95c0 | RIS95c1 | RJ008
+	RTCDma | RW3Gppcdma | RWCDma | S2CDma | TCDMa | TETRa | USER | WIBRo
+	WIMax
+
+State
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.State.ALL
+	# All values (4x):
+	ALL | AUTO | OFF | ON
+
+StaticsticsRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StaticsticsRange.CAPTure
+	# All values (2x):
+	CAPTure | COUNt
+
+StatisticMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StatisticMode.INFinite
+	# All values (2x):
+	INFinite | SONLy
+
+StatisticType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StatisticType.ALL
+	# All values (2x):
+	ALL | SELected
+
+Stepsize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Stepsize.POINts
+	# All values (2x):
+	POINts | STANdard
+
+StoreType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StoreType.CHANnel
+	# All values (2x):
+	CHANnel | INSTrument
+
+StsFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StsFormat.F0
+	# All values (4x):
+	F0 | F1 | F2 | F3
+
+StsLength
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StsLength.L128
+	# All values (5x):
+	L128 | L16 | L256 | L32 | L64
+
+StsSegments
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.StsSegments.S1
+	# All values (4x):
+	S1 | S2 | S3 | S4
+
+SubBlockGaps
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SubBlockGaps.AB
+	# All values (7x):
+	AB | BC | CD | DE | EF | FG | GH
+
+SubcarrierSpacing
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SubcarrierSpacing.SS120
+	# All values (8x):
+	SS120 | SS15 | SS240 | SS30 | SS480 | SS60 | SS960 | X60
+
+SubcarrierSpacingK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SubcarrierSpacingK91.NSTandard
+	# All values (2x):
+	NSTandard | STANdard
+
+SubcarrierSpacingNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SubcarrierSpacingNr5G.SS1_25
+	# All values (8x):
+	SS1_25 | SS120 | SS15 | SS30 | SS480 | SS5 | SS60 | SS960
+
+SubCarrSpacingOref
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SubCarrSpacingOref.CSIRs
+	# All values (3x):
+	CSIRs | NONE | TRS
+
+SubwindowSize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SubwindowSize.FULL
+	# All values (2x):
+	FULL | SPLit
+
+SummaryMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SummaryMode.AVERage
+	# All values (2x):
+	AVERage | SINGle
+
+SweepMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepMode.AUTO
+	# All values (2x):
+	AUTO | SINGle
+
+SweepModeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepModeB.AUTO
+	# All values (2x):
+	AUTO | ESPectrum
+
+SweepModeC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepModeC.AUTO
+	# All values (3x):
+	AUTO | ESPectrum | LIST
+
+SweepModeD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepModeD.AUTO
+	# All values (2x):
+	AUTO | TX
+
+SweepModeHalfDec
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepModeHalfDec.FFT
+	# All values (3x):
+	FFT | IQFFt | NORMal
+
+SweepModePhNoise
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepModePhNoise.AVERaged
+	# All values (4x):
+	AVERaged | FAST | MANual | NORMal
+
+SweepOptimize
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepOptimize.AUTO
+	# All values (3x):
+	AUTO | DYNamic | SPEed
+
+SweepOptimizeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepOptimizeB.AUTO
+	# All values (4x):
+	AUTO | DYNamic | SPEed | TRANsient
+
+SweepStatisticMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepStatisticMode.IQAVeraging
+	# All values (2x):
+	IQAVeraging | TRACe
+
+SweepType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepType.AUTO
+	# All values (3x):
+	AUTO | FFT | SWEep
+
+SweepTypeNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SweepTypeNr5G.AUTO
+	# All values (2x):
+	AUTO | FFT
+
+SymbolSelection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SymbolSelection.ALL
+	# All values (3x):
+	ALL | DATA | PATTern
+
+SyncDomain
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SyncDomain.IQDirect
+	# All values (4x):
+	IQDirect | IQPDiff | MAGNitude | TRIGger
+
+Synchronization
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Synchronization.ALL
+	# All values (2x):
+	ALL | NONE
+
+SyncMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SyncMode.MEAS
+	# All values (2x):
+	MEAS | SYNC
+
+SyncSignalOffsetReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SyncSignalOffsetReference.RPA
+	# All values (2x):
+	RPA | TXBW
+
+SyncSignalPattern
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SyncSignalPattern.A
+	# All values (7x):
+	A | B | C | D | E | F | G
+
+SystemStatus
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.SystemStatus.ERR
+	# All values (3x):
+	ERR | OK | WARN
+
+TableHeadersK60
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TableHeadersK60.ALL
+	# Last value:
+	value = enums.TableHeadersK60.SWITching
+	# All values (32x):
+	ALL | AVGFm | AVGNonlinear | AVGPower | AVPHm | BEGin | BWIDth | CHERror
+	FMSLength | FMSPoint | FMSTime | FOVershoot | FREQuency | FUNDershoot | LENGth | MAXFm
+	MAXNonlinear | MAXPower | MINPower | MXPHm | PMSLength | PMSPoint | PMSTime | POVershoot
+	PUNDershoot | PWRRipple | RATE | RMSFm | RMSNonlinear | RMSPm | STATe | SWITching
+
+TableItem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TableItem.ADRoop
+	# Last value:
+	value = enums.TableItem.VCC
+	# All values (37x):
+	ADRoop | AMPWidth | AMWidth | APAE | BBIVoltage | BBPower | BBQVoltage | CFIN
+	CFOU | FERRor | GAIN | GIMBalance | ICC | IQIMbalance | IQOFfset | MERRor
+	OBW | OUTP1db | OUTP2db | OUTP3db | P1DB | P2DB | P3DB | PC
+	PCPA | PERRor | PINPut | PISensor | PMPWidth | PMWidth | POSensor | POUTput
+	QERRor | REVM | RMEVm | SRERror | VCC
+
+TableItemK91B
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TableItemK91B.BPILot
+	# Last value:
+	value = enums.TableItemK91B.TPPower
+	# All values (40x):
+	BPILot | CCERror | CFERror | EACarriers | ECCMargin | ECCorr | EDCarriers | EPCarriers
+	FTIMe | GCFactor | GCFerror | GGIMbalance | GIMBalance | GIOFfset | IOFFset | IQSKew
+	MPOWer | PBERate | PEVM | PPOWer | PVERror | QERRor | QOFFset | RALL
+	RCFactor | RCFerror | RCPerror | RMCHpower | RMCPower | RPPower | RSCerror | RTIMe
+	SALL | SCERror | SEACarriers | SEDCarriers | SEPCarriers | TALL | TCFactor | TPPower
+
+TableItemK9X
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TableItemK9X.RxAll_CenterFreqError=RCFerror
+	# Last value:
+	value = enums.TableItemK9X.TxAll_QuadratureOffset=QOFFset
+	# All values (35x):
+	RxAll_CenterFreqError | RxAll_CommonPhaseError | RxAll_CrestFactor | RxAll_MimoChannelPower | RxAll_MimoCrossPower | RxAll_PpduPower | RxAll_SymbolClockError | StreamAll_CenterFreqError
+	StreamAll_ChipClockError | StreamAll_CrestFactor | StreamAll_EvmAllCarriers | StreamAll_EvmDataCarriers | StreamAll_EvmPilotCarriers | StreamAll_FallTime | StreamAll_GainImbalance | StreamAll_IqOffset
+	StreamAll_MeanPower | StreamAll_PeakPower | StreamAll_PeakVectorError | StreamAll_PilotBitErrorRate | StreamAll_PpduEvm | StreamAll_QuadratureError | StreamAll_RiseTime | SumGlobal_CenterFreqError
+	SumGlobal_EvmAllCarriers | SumGlobal_EvmDataCarriers | SumGlobal_EvmPilotCarriers | SumGlobal_PilotBitErrorRate | SumGlobal_SymbolClockError | TxAll_CrestFactor | TxAll_GainImbalance | TxAll_IqOffset
+	TxAll_IqSkew | TxAll_PpduPower | TxAll_QuadratureOffset
+
+TargetParameter
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TargetParameter.EVM
+	# All values (6x):
+	EVM | LADJ | LALT | POUT | UADJ | UALT
+
+TechnologyStandardA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TechnologyStandardA.GSM
+	# Last value:
+	value = enums.TechnologyStandardA.WCDMa
+	# All values (28x):
+	GSM | LTE_1_40 | LTE_10_00 | LTE_15_00 | LTE_20_00 | LTE_3_00 | LTE_5_00 | NR5G_fr1_10
+	NR5G_fr1_100 | NR5G_fr1_15 | NR5G_fr1_20 | NR5G_fr1_25 | NR5G_fr1_30 | NR5G_fr1_35 | NR5G_fr1_40 | NR5G_fr1_45
+	NR5G_fr1_5 | NR5G_fr1_50 | NR5G_fr1_60 | NR5G_fr1_70 | NR5G_fr1_80 | NR5G_fr1_90 | NR5G_fr2_100 | NR5G_fr2_200
+	NR5G_fr2_400 | NR5G_fr2_50 | USER | WCDMa
+
+TechnologyStandardB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TechnologyStandardB.AWLan
+	# Last value:
+	value = enums.TechnologyStandardB.WIMax
+	# All values (60x):
+	AWLan | BWLan | CDPD | D2CDma | EUTRa | F19Cdma | F1D100nr5g | F1D20nr5g
+	F1U100nr5g | F1U20nr5g | F2D100nr5g | F2D200nr5g | F2U100nr5g | F2U200nr5g | F8CDma | FIS95a
+	FIS95c0 | FIS95c1 | FJ008 | FTCDma | FW3Gppcdma | FWCDma | GSM | L03R
+	L03S | L05R | L05S | L10R | L10S | L14R | L14S | L15R
+	L15S | L20R | L20S | M2CDma | MSR | NONE | NR5G | NR5Glte
+	PAPCo25 | PDC | PHS | R19Cdma | R8CDma | REUTra | RFID14443 | RIS95a
+	RIS95c0 | RIS95c1 | RJ008 | RTCDma | RW3Gppcdma | RWCDma | S2CDma | TCDMa
+	TETRa | USER | WIBRo | WIMax
+
+TechnologyStandardDdem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TechnologyStandardDdem.DECT
+	# All values (3x):
+	DECT | EDGE | GSM
+
+Temperature
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Temperature.COLD
+	# All values (2x):
+	COLD | HOT
+
+TestCaseNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TestCaseNr5G.NONE
+	# Last value:
+	value = enums.TestCaseNr5G.OT9
+	# All values (14x):
+	NONE | OT1 | OT10 | OT11 | OT12 | OT13 | OT2 | OT3
+	OT4 | OT5 | OT6 | OT7 | OT8 | OT9
+
+TimeFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TimeFormat.DE
+	# All values (3x):
+	DE | ISO | US
+
+TimeLimitUnit
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TimeLimitUnit.S
+	# All values (2x):
+	S | SYM
+
+TimeOrder
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TimeOrder.AFTer
+	# All values (2x):
+	AFTer | BEFore
+
+TimeScaling
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TimeScaling.MS
+	# All values (4x):
+	MS | NS | S | US
+
+TouchscreenState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TouchscreenState.FRAMe
+	# All values (4x):
+	FRAMe | OFF | ON | TCOFf
+
+TperiodState
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TperiodState.US10
+	# All values (4x):
+	US10 | US2 | US4 | US7
+
+TraceAutoMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceAutoMode.HYSTeresis
+	# All values (2x):
+	HYSTeresis | MEMory
+
+TraceChannel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceChannel.CHANnel1
+	# All values (4x):
+	CHANnel1 | CHANnel2 | CHANnel3 | CHANnel4
+
+TraceDetector
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceDetector.APEak
+	# All values (6x):
+	APEak | AVERage | NEGative | POSitive | RMS | SAMPle
+
+TraceFormat
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TraceFormat.BERate
+	# Last value:
+	value = enums.TraceFormat.UPHase
+	# All values (22x):
+	BERate | BINary | COMP | CONF | CONS | COVF | DECimal | FEYE
+	FREQuency | GDELay | HEXadecimal | IEYE | MAGNitude | MOVerview | NONE | OCTal
+	PHASe | QEYE | RCONstell | RIMag | RSUMmary | UPHase
+
+TraceModeA
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeA.AVERage
+	# All values (6x):
+	AVERage | MAXHold | MINHold | OFF | VIEW | WRITe
+
+TraceModeB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeB.AVERage
+	# All values (4x):
+	AVERage | MAXHold | MINHold | WRITe
+
+TraceModeC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeC.AVERage
+	# All values (6x):
+	AVERage | BLANk | MAXHold | MINHold | VIEW | WRITe
+
+TraceModeD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeD.MAXHold
+	# All values (2x):
+	MAXHold | WRITe
+
+TraceModeE
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeE.AVERage
+	# All values (3x):
+	AVERage | MAXHold | WRITe
+
+TraceModeF
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeF.AVERage
+	# All values (7x):
+	AVERage | BLANk | DENSity | MAXHold | MINHold | VIEW | WRITe
+
+TraceModeG
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeG.AVERage
+	# All values (5x):
+	AVERage | MAXHold | MINHold | VIEW | WRITe
+
+TraceModeH
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeH.BLANk
+	# All values (3x):
+	BLANk | VIEW | WRITe
+
+TraceModeJ
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceModeJ.AVER
+	# All values (6x):
+	AVER | BLANk | MAXH | MINH | VIEW | WRIT
+
+TraceModeK
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TraceModeK.AVERage
+	# Last value:
+	value = enums.TraceModeK.WRITe
+	# All values (9x):
+	AVERage | BLANk | BURSt | MAXHold | MINHold | PPAVerage | SELPos | VIEW
+	WRITe
+
+TraceNormalizeMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceNormalizeMode.MEASured
+	# All values (3x):
+	MEASured | OFF | REFerence
+
+TraceNumber
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TraceNumber.BTOBits
+	# Last value:
+	value = enums.TraceNumber.TRACe6
+	# All values (15x):
+	BTOBits | BTOFm | ESPLine | HMAXhold | LIST | PSPectrum | SGRam | SPECtrogram
+	SPURious | TRACe1 | TRACe2 | TRACe3 | TRACe4 | TRACe5 | TRACe6
+
+TracePresetType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TracePresetType.ALL
+	# All values (3x):
+	ALL | MAM | MCM
+
+TraceReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceReference.BURSt
+	# All values (3x):
+	BURSt | PATTern | TRIGger
+
+TraceRefType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceRefType.ERRor
+	# All values (4x):
+	ERRor | MEAS | REF | TCAP
+
+TraceResultK18
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceResultK18.BBI
+	# All values (7x):
+	BBI | BBPower | BBQ | MEAS | MODel | REFerence | RF
+
+TraceSmoothing
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceSmoothing.LINear
+	# All values (3x):
+	LINear | LOGarithmic | MEDian
+
+TraceStatistic
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceStatistic.ALL
+	# All values (2x):
+	ALL | SEL
+
+TraceStyleSymbol
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceStyleSymbol.DOTS
+	# All values (2x):
+	DOTS | VECTor
+
+TraceSymbols
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceSymbols.BARS
+	# All values (4x):
+	BARS | DOTS | OFF | ON
+
+TraceTypeDdem
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TraceTypeDdem.MSTRace
+	# Last value:
+	value = enums.TraceTypeDdem.TRACe6
+	# All values (15x):
+	MSTRace | PSTRace | STRace | TRACe1 | TRACe1i | TRACe1r | TRACe2 | TRACe2i
+	TRACe2r | TRACe3 | TRACe3i | TRACe3r | TRACe4 | TRACe5 | TRACe6
+
+TraceTypeIxNone
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceTypeIxNone.NONE
+	# All values (7x):
+	NONE | TRACe1 | TRACe2 | TRACe3 | TRACe4 | TRACe5 | TRACe6
+
+TraceTypeK10X
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TraceTypeK10X.FAL1
+	# Last value:
+	value = enums.TraceTypeK10X.TRACe8
+	# All values (24x):
+	FAL1 | FAL2 | FALLing1 | FALLing2 | LIST | OFF1 | OFF2 | PBCH
+	PCFich | PDCCh | PDSCh | PHICh | RIS1 | RIS2 | RISing1 | RISing2
+	TRACe1 | TRACe2 | TRACe3 | TRACe4 | TRACe5 | TRACe6 | TRACe7 | TRACe8
+
+TraceTypeK30
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceTypeK30.TRACe1
+	# All values (4x):
+	TRACe1 | TRACe2 | TRACe3 | TRACe4
+
+TraceTypeK60
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceTypeK60.SGRam
+	# All values (8x):
+	SGRam | SPECtrogram | TRACe1 | TRACe2 | TRACe3 | TRACe4 | TRACe5 | TRACe6
+
+TraceTypeList
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceTypeList.LIST
+	# All values (7x):
+	LIST | TRACe1 | TRACe2 | TRACe3 | TRACe4 | TRACe5 | TRACe6
+
+TraceTypeNr5G
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TraceTypeNr5G.COReset
+	# Last value:
+	value = enums.TraceTypeNr5G.TRACe9
+	# All values (22x):
+	COReset | FALLing | LIST | OFF | PBCH | RISing | TRACe1 | TRACe10
+	TRACe11 | TRACe12 | TRACe13 | TRACe14 | TRACe15 | TRACe16 | TRACe2 | TRACe3
+	TRACe4 | TRACe5 | TRACe6 | TRACe7 | TRACe8 | TRACe9
+
+TraceTypeNumeric
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TraceTypeNumeric.TRACe1
+	# All values (6x):
+	TRACe1 | TRACe2 | TRACe3 | TRACe4 | TRACe5 | TRACe6
+
+TrBlockScaleFactor
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TrBlockScaleFactor.HALF
+	# All values (3x):
+	HALF | ONE | QUAR
+
+TriggerOutType
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TriggerOutType.DEVice
+	# All values (3x):
+	DEVice | TARMed | UDEFined
+
+TriggerPort
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TriggerPort.EXT1
+	# All values (4x):
+	EXT1 | EXT2 | HOST | OFF
+
+TriggerSeqSource
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSeqSource.ACVideo
+	# Last value:
+	value = enums.TriggerSeqSource.VIDeo
+	# All values (40x):
+	ACVideo | AF | AM | AMRelative | BBPower | EXT2 | EXT3 | EXT4
+	EXTernal | FM | GP0 | GP1 | GP2 | GP3 | GP4 | GP5
+	IFPower | IMMediate | INTernal | IQPower | LXI | MAGNitude | MAIT | MANual
+	MASK | PM | PMTRigger | PSENsor | RFPower | SLEFt | SMONo | SMPX
+	SPILot | SRDS | SRIGht | SSTereo | TDTRigger | TIME | TV | VIDeo
+
+TriggerSourceB
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceB.ACVideo
+	# Last value:
+	value = enums.TriggerSourceB.TV
+	# All values (30x):
+	ACVideo | AF | AM | AMRelative | BBPower | EXT2 | EXT3 | EXT4
+	EXTernal | FM | GP0 | GP1 | GP2 | GP3 | GP4 | GP5
+	IFPower | IMMediate | IQPower | MAGNitude | PM | RFPower | SLEFt | SMONo
+	SMPX | SPILot | SRDS | SRIGht | SSTereo | TV
+
+TriggerSourceC
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceC.EXT2
+	# Last value:
+	value = enums.TriggerSourceC.TIME
+	# All values (9x):
+	EXT2 | EXT3 | EXTernal | IFPower | IMMediate | IQPower | PSENsor | RFPower
+	TIME
+
+TriggerSourceD
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceD.EXT2
+	# Last value:
+	value = enums.TriggerSourceD.VIDeo
+	# All values (10x):
+	EXT2 | EXT3 | EXT4 | EXTernal | IFPower | IMMediate | IQPower | PSENsor
+	RFPower | VIDeo
+
+TriggerSourceF
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TriggerSourceF.EXTernal
+	# All values (3x):
+	EXTernal | IFPower | IMMediate
+
+TriggerSourceG
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceG.EXT2
+	# Last value:
+	value = enums.TriggerSourceG.TIME
+	# All values (11x):
+	EXT2 | EXT3 | EXTernal | IFPower | IMMediate | INTernal | IQPower | MANual
+	PSENsor | RFPower | TIME
+
+TriggerSourceH
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceH.AF
+	# Last value:
+	value = enums.TriggerSourceH.VIDeo
+	# All values (29x):
+	AF | AM | AMRelative | BBPower | EXT2 | EXT3 | EXTernal | FM
+	IFPower | IMMediate | IQPower | LXI | MANual | MASK | PM | PSENsor
+	RFPower | SLEFt | SMONo | SMPX | SPILot | SRDS | SRIGht | SSTereo
+	TDTRigger | TIME | TUNit | TV | VIDeo
+
+TriggerSourceJ
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceJ.EXT2
+	# Last value:
+	value = enums.TriggerSourceJ.VIDeo
+	# All values (13x):
+	EXT2 | EXT3 | EXT4 | EXTernal | IFPower | IMMediate | IQPower | MANual
+	PSENsor | RFPower | TIME | TUNit | VIDeo
+
+TriggerSourceK
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TriggerSourceK.EXT2
+	# All values (8x):
+	EXT2 | EXT3 | EXTernal | IFPower | IMMediate | IQPower | RFPower | TIME
+
+TriggerSourceK60
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceK60.EXT2
+	# Last value:
+	value = enums.TriggerSourceK60.TIME
+	# All values (9x):
+	EXT2 | EXT3 | EXTernal | IFPower | IMMediate | IQPower | MANual | RFPower
+	TIME
+
+TriggerSourceListPower
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceListPower.EXT2
+	# Last value:
+	value = enums.TriggerSourceListPower.VIDeo
+	# All values (10x):
+	EXT2 | EXT3 | EXT4 | EXTernal | IFPower | IMMediate | LINE | LXI
+	RFPower | VIDeo
+
+TriggerSourceLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.TriggerSourceLte.BBPower
+	# Last value:
+	value = enums.TriggerSourceLte.TUNit
+	# All values (13x):
+	BBPower | EXT2 | EXT3 | EXT4 | EXTernal | IFPower | IMMediate | IQPower
+	MANual | PSENsor | RFPower | TIME | TUNit
+
+TriggerSourceMpower
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TriggerSourceMpower.EXT2
+	# All values (8x):
+	EXT2 | EXT3 | EXT4 | EXTernal | IFPower | POWer | RFPower | VIDeo
+
+TuningRange
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TuningRange.SMALl
+	# All values (2x):
+	SMALl | WIDE
+
+TypeLte
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TypeLte.ANCHor
+	# All values (2x):
+	ANCHor | NANChor
+
+TypePowerK6
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.TypePowerK6.POWer
+	# All values (1x):
+	POWer
+
+UnitMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.UnitMode.DB
+	# All values (2x):
+	DB | PCT
+
+UnitReference
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.UnitReference.ABS
+	# All values (2x):
+	ABS | REL
+
+UpDownDirection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.UpDownDirection.DOWN
+	# All values (2x):
+	DOWN | UP
+
+UsagePdcch
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.UsagePdcch.AIRN
+	# Last value:
+	value = enums.UsagePdcch.TSRN
+	# All values (17x):
+	AIRN | CIRN | CRNT | CSRN | INTR | MCSC | MSGB | PRNT
+	PSRN | RNRN | SFIR | SIRN | SPCR | TCRN | TPUC | TPUS
+	TSRN
+
+UserLevel
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.UserLevel.AUTH
+	# All values (3x):
+	AUTH | NOAuth | PRIV
+
+UwbDemodMode
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.UwbDemodMode.BPRF
+	# All values (3x):
+	BPRF | HPRF | HRP
+
+WbBandwidth
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WbBandwidth.AUTO
+	# All values (4x):
+	AUTO | BW1200 | BW160 | BW512
+
+WindowDirection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowDirection.ABOVe
+	# All values (4x):
+	ABOVe | BELow | LEFT | RIGHt
+
+WindowDirReplace
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowDirReplace.ABOVe
+	# All values (5x):
+	ABOVe | BELow | LEFT | REPLace | RIGHt
+
+WindowFunction
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowFunction.BHARris
+	# All values (5x):
+	BHARris | CHEByshev | GAUSsian | RECTangular | SWEPt
+
+WindowName
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowName.FOCus
+	# All values (1x):
+	FOCus
+
+WindowTypeBase
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowTypeBase.Diagram=DIAGram
+	# All values (5x):
+	Diagram | MarkePeakList | MarkeTable | ResultSummary | Spectrogram
+
+WindowTypeIq
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeIq.Diagram=DIAGram
+	# Last value:
+	value = enums.WindowTypeIq.Spectrum=FREQ
+	# All values (9x):
+	Diagram | IqImagReal | IqVector | Magnitude | MarkePeakList | MarkeTable | ResultSummary | Spectrogram
+	Spectrum
+
+WindowTypeK10X
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK10X.AllocIdVsSymbolXcarrier=AISC
+	# Last value:
+	value = enums.WindowTypeK10X.UeRsPhase=URWP
+	# All values (39x):
+	AllocIdVsSymbolXcarrier | AllocSummary | BeamformingAllocSummary | Bitstream | CaptureBuffer | CCDF | CellRsMagnitude | CellRsPhase
+	ChannelDecoderResults | ChannelFlatness | ConstellationDiagram | CsiRsMagnitude | CsiRsPhase | Diagram | EvmVsCarrier | EvmVsRb
+	EvmVsSubframe | EvmVsSymbol | EvmVsSymbolXcarrier | FallingPeriod | FreqErrorVsSymbol | GroupDelay | InbandEmission | InbandEmissionAll
+	MarkerTable | OnOffPowerList | PeakList | PowerSpectrum | PowerVsRbPdsch | PowerVsRbRs | PowerVsSymbolXcarrier | ResultSummary
+	RisingPeriod | SpectrumFlatness | SpectrumFlatnessDiff | SpectrumFlatnessSrs | TimeAlignmentError | UeRsMagnitude | UeRsPhase
+
+WindowTypeK149
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK149.ChipPhaseJitter=CJPH
+	# Last value:
+	value = enums.WindowTypeK149.SymbolTimeJitter=SJT
+	# All values (11x):
+	ChipPhaseJitter | ChipTimeJitter | CorrelatedPulse | MagnitudeCapture | MarkerTable | PacketInsights | PacketSpectrum | Pulse
+	ResultSummary | SymbolPhaseJitter | SymbolTimeJitter
+
+WindowTypeK14X
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK14X.AllocIDvsSymbolXcarrier=AISC
+	# Last value:
+	value = enums.WindowTypeK14X.TimeAlignmentError=TAL
+	# All values (28x):
+	AllocIDvsSymbolXcarrier | AllocSummary | BeamformSummary | CaptureBuffer | Ccdf | ChannelDecoder | ChannelFlatness | CombinedResultSummary
+	ConstellationDiagram | Diagram | EvmVsCarrier | EvmVsRb | EvmVsSymbol | EvmVsSymbolXcarrier | FallingPeriod | FreqErrorVsSubframe
+	FreqErrorVsSymbol | MarkerTable | OnOffPowerList | PeakList | PowerSpectrum | PowerVsSymbolXcarrier | ResultSummary | RisingPeriod
+	RsMagnitude | RsPhase | RsPhaseDifference | TimeAlignmentError
+
+WindowTypeK17
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowTypeK17.Gain=GAIN
+	# All values (8x):
+	Gain | GroupDelayVsFreq | MagnVsFreq | MagnVsFreqRefData | MarkerTable | PhaseDifferenceVsFreq | PhaseVsFreq | PhaseVsFreqRefData
+
+WindowTypeK18
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK18.AdjChPowerTable=ACP
+	# Last value:
+	value = enums.WindowTypeK18.VccVsPower=VCCPower
+	# All values (33x):
+	AdjChPowerTable | AmAm | AmPm | ChannelRespMagnitude | ChannelRespPhase | DdpdResults | EvmVsPower | GainCompression
+	GainDeviationVsTime | GroupDelay | IccVsPower | IpartMagnitudeCapture | IpartSpectrumFft | MarkerTable | MemoryDpdCoefficients | PaeInputPower
+	PaeOutputPower | PaeTime | ParameterSweepDiagram | ParameterSweepTable | PhaseDeviationVsTime | PowerVsTimeIxQ | QpartMagnitudeCapture | QpartSpectrumFft
+	RawEvm | ResultSummaryTable | RfMagnitudeCapture | SpectrumEvm | SpectrumFft | StatisticsTable | TimeDomain | VccVsIcc
+	VccVsPower
+
+WindowTypeK30
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK30.CalPowerCold=CPCold
+	# Last value:
+	value = enums.WindowTypeK30.YfactorResult=YFACtor
+	# All values (12x):
+	CalPowerCold | CalPowerHot | CalYfactor | EnrMeasured | GainResult | MarkerTable | NoiseFigureResult | NoiseTemperatureResult
+	PowerColdResult | PowerHotResult | ResultTable | YfactorResult
+
+WindowTypeK40
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK40.FrequencyDrift=FDRift
+	# Last value:
+	value = enums.WindowTypeK40.SweepResultList=SRESults
+	# All values (9x):
+	FrequencyDrift | MarkerTable | PhaseNoiseDiagram | ResidualNoiseTable | SpectrumMonitor | SpotNoiseTable | SpurList | StabilityFreqLevel
+	SweepResultList
+
+WindowTypeK50
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.WindowTypeK50.MarkerTable=MTABle
+	# All values (5x):
+	MarkerTable | NoiseFloorEstimate | SpectralOverview | SpurDetectionSpectrum | SpurDetectionTable
+
+WindowTypeK6
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK6.CorrelatedMagnitudeCapture=CMCapture
+	# Last value:
+	value = enums.WindowTypeK6.ResultRangeSpectrum=RRSPectrum
+	# All values (18x):
+	CorrelatedMagnitudeCapture | CorrelatedPulseMagnitude | MagnitudeCaptureBuffer | MarkerTable | ParamDistribution | ParameterSpectrum | ParameterTrend | PulseFreq
+	PulseFreqError | PulseIq | PulseMagnitude | PulsePhase | PulsePhaseError | PulsePhaseWrapped | PulsePulseSpectrum | PulseResults
+	PulseStatistics | ResultRangeSpectrum
+
+WindowTypeK60
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK60.ChirpRateTimeDomain=CRTime
+	# Last value:
+	value = enums.WindowTypeK60.StatisticsTable=STABle
+	# All values (15x):
+	ChirpRateTimeDomain | FmTimeDomain | FreqDeviationTimeDomain | IqTimeDomain | MarkerTable | ParameterDistribution | ParameterTrend | PhaseDeviationTimeDomain
+	PmTimeDomain | PMTimeDomainWrapped | ResultsTable | RfPowerTimeDomain | RfSpectrum | Spectrogram | StatisticsTable
+
+WindowTypeK7
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK7.AmSpectrum='XTIM:AM:RELative:AFSPectrum'
+	# Last value:
+	value = enums.WindowTypeK7.RfTimeDomain='XTIM:AM'
+	# All values (11x):
+	AmSpectrum | AmTimeDomain | FmSpectrum | FmTimeDomain | MarkerPeakList | MarkerTable | PmSpectrum | PmTimeDomain
+	ResultSummary | RfSpectrum | RfTimeDomain
+
+WindowTypeK70
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK70.CaptureBufferMagnAbs=CBUFfer
+	# Last value:
+	value = enums.WindowTypeK70.SymbolsHexa=SYMB
+	# All values (9x):
+	CaptureBufferMagnAbs | Equalizer | ErrorVectorMagnitude | MeasMagnRel | ModulationAccuracy | ModulationErrors | MultiSource | RefMagnRel
+	SymbolsHexa
+
+WindowTypeK91
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK91.AmAm=AMAM
+	# Last value:
+	value = enums.WindowTypeK91.UnusedToneErrorSumm=UTESummary
+	# All values (32x):
+	AmAm | AmEvm | AmPm | Bitstream | Constellation | ConstellationVsCarrier | Diagram | EvmVsCarrier
+	EvmVsChip | EvmVsSymbol | FftSpectrum | FreqErrorVsPreamble | GainImbalanceVsCarrier | GroupDelay | MagnitudeCapture | MarkerPeakList
+	MarkerTable | PhaseErrorVsPreamble | PhaseTrackingVsSymbol | PwrVsTimeFallingEdge | PwrVsTimeFullPpdu | PwrVsTimeRisingEdge | QuadratureErrorVsCarrier | ResultSummary
+	ResultSummDetailed | ResultSummGlobal | SignalContentDetailed | SignalField | SpectrumFlatness | SpectrumFlatnessResultSumm | UnusedToneError | UnusedToneErrorSumm
+
+WindowTypeK9X
+----------------------------------------------------
+
+.. code-block:: python
+
+	# First value:
+	value = enums.WindowTypeK9X.ChannelFreqResponse=CFR
+	# Last value:
+	value = enums.WindowTypeK9X.ResultSummaryGlobal=RSGLobal
+	# All values (21x):
+	ChannelFreqResponse | Constellation | DataBitstreamDecoded | DataBitstreamRaw | Diagram | EvmVsSymbol | FreqErrorVsSymbol | HeaderBitstreamDecoded
+	HeaderBitstreamRaw | HeaderInfo | MagnitudeCapture | MarkerPeakList | MarkerTable | PhaseErrorVsSymbol | PhaseTrackingVsSymbol | PowerSpectrum
+	PowerVsTimeFallingEdge | PowerVsTimeFullPpdu | PowerVsTimeRisingEdge | ResultSummary | ResultSummaryGlobal
+
+XaXisPmSettling
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.XaXisPmSettling.PMSLength
+	# All values (3x):
+	PMSLength | PMSPoint | PMSTime
+
+XaxisUnitScale
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.XaxisUnitScale.SYMBol
+	# All values (2x):
+	SYMBol | TIME
+
+Xdistribution
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.Xdistribution.BINCentered
+	# All values (2x):
+	BINCentered | STARtstop
+
+XyDirection
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.XyDirection.HORizontal
+	# All values (2x):
+	HORizontal | VERTical
+
+YaXisItems
+----------------------------------------------------
+
+.. code-block:: python
+
+	# Example value:
+	value = enums.YaXisItems.COUNt
+	# All values (2x):
+	COUNt | OCCurrence
+

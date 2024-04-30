@@ -1,0 +1,20 @@
+Event
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:CORRection[:EVENt]
+
+.. code-block:: python
+
+	STATus:QUEStionable:CORRection[:EVENt]
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Correction.Event.EventCls
+	:members:
+	:undoc-members:
+	:noindex:

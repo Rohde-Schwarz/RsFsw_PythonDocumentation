@@ -1,0 +1,20 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:FDEViation:LENGth
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:FDEViation:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Fdeviation.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:

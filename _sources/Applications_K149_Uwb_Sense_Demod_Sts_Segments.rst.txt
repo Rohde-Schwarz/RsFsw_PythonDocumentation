@@ -1,0 +1,20 @@
+Segments
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:STS:SEGMents
+
+.. code-block:: python
+
+	[SENSe]:DEMod:STS:SEGMents
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Demod.Sts.Segments.SegmentsCls
+	:members:
+	:undoc-members:
+	:noindex:

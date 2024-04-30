@@ -1,0 +1,20 @@
+Evm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:EVM
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:EVM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Evm.EvmCls
+	:members:
+	:undoc-members:
+	:noindex:

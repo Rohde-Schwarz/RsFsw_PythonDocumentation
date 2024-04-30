@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MIXer:HARMonic:HIGH[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:MIXer:HARMonic:HIGH[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Sense.Mixer.Harmonic.High.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

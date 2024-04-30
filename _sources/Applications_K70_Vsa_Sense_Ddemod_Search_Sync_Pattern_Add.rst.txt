@@ -1,0 +1,20 @@
+Add
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:SYNC:PATTern:ADD
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:SYNC:PATTern:ADD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Sync.Pattern.Add.AddCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Center
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:FREQuency:CENTer
+
+.. code-block:: python
+
+	[SENSe]:FREQuency:CENTer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Sense.Frequency.Center.CenterCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Iq
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:POWer:EXPected:IQ
+
+.. code-block:: python
+
+	CONFigure:POWer:EXPected:IQ
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Power.Expected.Iq.IqCls
+	:members:
+	:undoc-members:
+	:noindex:

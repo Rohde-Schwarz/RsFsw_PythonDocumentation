@@ -1,0 +1,20 @@
+Condition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:MODulation<1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16>:CFRequency:CONDition
+
+.. code-block:: python
+
+	STATus:QUEStionable:MODulation<1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16>:CFRequency:CONDition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Status.Questionable.Modulation.Cfrequency.Condition.ConditionCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SWEep:EGATe:SOURce
+
+.. code-block:: python
+
+	[SENSe]:SWEep:EGATe:SOURce
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Sweep.Egate.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

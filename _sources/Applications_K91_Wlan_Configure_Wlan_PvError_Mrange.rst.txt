@@ -1,0 +1,20 @@
+Mrange
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:PVERror:MRANge
+
+.. code-block:: python
+
+	CONFigure:WLAN:PVERror:MRANge
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.PvError.Mrange.MrangeCls
+	:members:
+	:undoc-members:
+	:noindex:

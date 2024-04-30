@@ -1,0 +1,20 @@
+Lte
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADJust:CONFigure:LTE
+
+.. code-block:: python
+
+	[SENSe]:ADJust:CONFigure:LTE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Adjust.Configure.Lte.LteCls
+	:members:
+	:undoc-members:
+	:noindex:

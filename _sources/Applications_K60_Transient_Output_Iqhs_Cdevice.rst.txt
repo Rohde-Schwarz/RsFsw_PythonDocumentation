@@ -1,0 +1,20 @@
+Cdevice
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:IQHS:CDEVice
+
+.. code-block:: python
+
+	OUTPut:IQHS:CDEVice
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Output.Iqhs.Cdevice.CdeviceCls
+	:members:
+	:undoc-members:
+	:noindex:

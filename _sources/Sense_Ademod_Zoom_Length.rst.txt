@@ -1,0 +1,37 @@
+Length
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:ZOOM:LENGth
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:ZOOM:LENGth
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Zoom.Length.LengthCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.ademod.zoom.length.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Ademod_Zoom_Length_Mode.rst

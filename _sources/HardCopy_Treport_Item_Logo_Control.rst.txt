@@ -1,0 +1,20 @@
+Control
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: HCOPy:TREPort:ITEM:LOGO:CONTrol
+
+.. code-block:: python
+
+	HCOPy:TREPort:ITEM:LOGO:CONTrol
+
+
+
+.. autoclass:: RsFsw.Implementations.HardCopy.Treport.Item.Logo.Control.ControlCls
+	:members:
+	:undoc-members:
+	:noindex:

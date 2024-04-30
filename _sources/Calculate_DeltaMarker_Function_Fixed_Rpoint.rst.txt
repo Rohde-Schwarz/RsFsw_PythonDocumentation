@@ -1,0 +1,30 @@
+Rpoint
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Fixed.Rpoint.RpointCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.function.fixed.rpoint.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_DeltaMarker_Function_Fixed_Rpoint_Maximum.rst
+	Calculate_DeltaMarker_Function_Fixed_Rpoint_X.rst
+	Calculate_DeltaMarker_Function_Fixed_Rpoint_Y.rst

@@ -1,0 +1,20 @@
+Left
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:MAXimum:LEFT
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:MAXimum:LEFT
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Calculate.DeltaMarker.Maximum.Left.LeftCls
+	:members:
+	:undoc-members:
+	:noindex:

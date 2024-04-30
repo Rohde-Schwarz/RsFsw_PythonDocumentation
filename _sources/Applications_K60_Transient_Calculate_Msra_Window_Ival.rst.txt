@@ -1,0 +1,20 @@
+Ival
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MSRA:WINDow:IVAL
+
+.. code-block:: python
+
+	CALCulate<n>:MSRA:WINDow:IVAL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.Msra.Window.Ival.IvalCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,37 @@
+Wav
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:STORe<n>:WAV
+
+.. code-block:: python
+
+	MMEMory:STORe<n>:WAV
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.Wav.WavCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.store.wav.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Store_Wav_Agc.rst

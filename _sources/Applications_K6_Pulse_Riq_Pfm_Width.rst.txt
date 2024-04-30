@@ -1,0 +1,20 @@
+Width
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: RIQ:PFM:WIDTh
+
+.. code-block:: python
+
+	RIQ:PFM:WIDTh
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Riq.Pfm.Width.WidthCls
+	:members:
+	:undoc-members:
+	:noindex:

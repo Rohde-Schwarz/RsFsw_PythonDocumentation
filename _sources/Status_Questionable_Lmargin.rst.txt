@@ -1,0 +1,40 @@
+Lmargin<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.status.questionable.lmargin.repcap_window_get()
+	driver.status.questionable.lmargin.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Lmargin.LmarginCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.status.questionable.lmargin.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Status_Questionable_Lmargin_Condition.rst
+	Status_Questionable_Lmargin_Enable.rst
+	Status_Questionable_Lmargin_Event.rst
+	Status_Questionable_Lmargin_Ntransition.rst
+	Status_Questionable_Lmargin_Ptransition.rst

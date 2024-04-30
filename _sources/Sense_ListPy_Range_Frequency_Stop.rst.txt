@@ -1,0 +1,20 @@
+Stop
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>[:FREQuency]:STOP
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>[:FREQuency]:STOP
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.ListPy.Range.Frequency.Stop.StopCls
+	:members:
+	:undoc-members:
+	:noindex:

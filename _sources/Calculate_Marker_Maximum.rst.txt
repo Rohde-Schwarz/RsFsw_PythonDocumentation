@@ -1,0 +1,32 @@
+Maximum
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.marker.maximum.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Marker_Maximum_Auto.rst
+	Calculate_Marker_Maximum_Left.rst
+	Calculate_Marker_Maximum_Next.rst
+	Calculate_Marker_Maximum_Peak.rst
+	Calculate_Marker_Maximum_Right.rst

@@ -1,0 +1,35 @@
+Msr
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Msr.MsrCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.espectrum.msr.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Espectrum_Msr_Apply.rst
+	Sense_Espectrum_Msr_Band.rst
+	Sense_Espectrum_Msr_Bcategory.rst
+	Sense_Espectrum_Msr_ClassPy.rst
+	Sense_Espectrum_Msr_Gsm.rst
+	Sense_Espectrum_Msr_Lte.rst
+	Sense_Espectrum_Msr_Mpower.rst
+	Sense_Espectrum_Msr_RfbWidth.rst

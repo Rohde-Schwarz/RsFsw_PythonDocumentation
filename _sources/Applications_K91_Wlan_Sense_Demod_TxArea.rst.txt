@@ -1,0 +1,20 @@
+TxArea
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:TXARea
+
+.. code-block:: python
+
+	[SENSe]:DEMod:TXARea
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.TxArea.TxAreaCls
+	:members:
+	:undoc-members:
+	:noindex:

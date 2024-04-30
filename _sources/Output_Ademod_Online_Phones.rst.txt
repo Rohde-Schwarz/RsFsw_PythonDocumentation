@@ -1,0 +1,20 @@
+Phones
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:ADEMod[:ONLine]:PHONes
+
+.. code-block:: python
+
+	OUTPut:ADEMod[:ONLine]:PHONes
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.Ademod.Online.Phones.PhonesCls
+	:members:
+	:undoc-members:
+	:noindex:

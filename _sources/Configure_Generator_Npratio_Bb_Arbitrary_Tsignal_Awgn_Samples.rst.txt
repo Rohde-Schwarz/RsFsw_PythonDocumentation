@@ -1,0 +1,20 @@
+Samples
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:BB:ARBitrary:TSIGnal:AWGN:SAMPles
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:BB:ARBitrary:TSIGnal:AWGN:SAMPles
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Bb.Arbitrary.Tsignal.Awgn.Samples.SamplesCls
+	:members:
+	:undoc-members:
+	:noindex:

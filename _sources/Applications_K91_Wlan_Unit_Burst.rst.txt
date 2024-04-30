@@ -1,0 +1,20 @@
+Burst
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: UNIT:BURSt
+
+.. code-block:: python
+
+	UNIT:BURSt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Unit.Burst.BurstCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FMVF:TYPE
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FMVF:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Demod.FmVf.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

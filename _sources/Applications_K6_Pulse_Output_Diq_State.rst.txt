@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:DIQ[:STATe]
+
+.. code-block:: python
+
+	OUTPut:DIQ[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Output.Diq.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

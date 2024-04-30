@@ -1,0 +1,20 @@
+Default
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:DEFault
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:DEFault
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Default.DefaultCls
+	:members:
+	:undoc-members:
+	:noindex:

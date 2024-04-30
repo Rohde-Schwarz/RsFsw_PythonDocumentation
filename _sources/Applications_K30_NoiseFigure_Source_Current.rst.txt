@@ -1,0 +1,31 @@
+Current
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Source.Current.CurrentCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k30NoiseFigure.source.current.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K30_NoiseFigure_Source_Current_Auxiliary.rst
+	Applications_K30_NoiseFigure_Source_Current_Control.rst
+	Applications_K30_NoiseFigure_Source_Current_Power.rst
+	Applications_K30_NoiseFigure_Source_Current_Sequence.rst

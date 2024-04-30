@@ -1,0 +1,20 @@
+Econditions
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:UL[:CC<cc>]:SFLatness:ECONditions
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:UL[:CC<cc>]:SFLatness:ECONditions
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Uplink.Cc.Sflatness.Econditions.EconditionsCls
+	:members:
+	:undoc-members:
+	:noindex:

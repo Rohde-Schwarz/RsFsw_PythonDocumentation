@@ -1,0 +1,20 @@
+Equal
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FORMat:BANalyze:SYMBols:EQUal
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FORMat:BANalyze:SYMBols:EQUal
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.Banalyze.Symbols.Equal.EqualCls
+	:members:
+	:undoc-members:
+	:noindex:

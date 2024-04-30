@@ -1,0 +1,20 @@
+Start
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:AF:STARt
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:AF:STARt
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Af.Start.StartCls
+	:members:
+	:undoc-members:
+	:noindex:

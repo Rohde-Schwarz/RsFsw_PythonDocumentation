@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:INPut:AIQ[:TYPE]
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:INPut:AIQ[:TYPE]
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.InputPy.Aiq.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

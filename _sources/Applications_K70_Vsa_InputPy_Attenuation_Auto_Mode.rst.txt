@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:ATTenuation:AUTO:MODE
+
+.. code-block:: python
+
+	INPut:ATTenuation:AUTO:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.InputPy.Attenuation.Auto.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

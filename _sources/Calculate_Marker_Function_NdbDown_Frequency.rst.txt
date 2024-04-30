@@ -1,0 +1,20 @@
+Frequency
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:FREQuency
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:FUNCtion:NDBDown:FREQuency
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Function.NdbDown.Frequency.FrequencyCls
+	:members:
+	:undoc-members:
+	:noindex:

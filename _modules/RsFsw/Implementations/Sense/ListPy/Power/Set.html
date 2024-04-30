@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RsFsw.Implementations.Sense.ListPy.Power.Set &mdash; RsFsw 6.0.0.217 documentation</title>
+      <link rel="stylesheet" href="../../../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../../../_static/copybutton.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../../../" id="documentation_options" src="../../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../../_static/jquery.js"></script>
+        <script src="../../../../../../_static/underscore.js"></script>
+        <script src="../../../../../../_static/doctools.js"></script>
+        <script src="../../../../../../_static/clipboard.min.js"></script>
+        <script src="../../../../../../_static/copybutton.js"></script>
+    <script src="../../../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../../../index.html" class="icon icon-home"> RsFsw
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../readme.html">Revision History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../enums.html">Enums</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../repcap.html">RepCaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../RsFsw.html">RsFsw API Structure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../utilities.html">RsFsw Utilities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../logger.html">RsFsw Logger</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../events.html">RsFsw Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../../genindex.html">Index</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../../index.html">RsFsw</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../../../../index.html">Module code</a> &raquo;</li>
+          <li><a href="../../../Sense.html">RsFsw.Implementations.Sense</a> &raquo;</li>
+          <li><a href="../../ListPy.html">RsFsw.Implementations.Sense.ListPy</a> &raquo;</li>
+          <li><a href="../Power.html">RsFsw.Implementations.Sense.ListPy.Power</a> &raquo;</li>
+      <li>RsFsw.Implementations.Sense.ListPy.Power.Set</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for RsFsw.Implementations.Sense.ListPy.Power.Set</h1><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">.....Internal.Core</span> <span class="kn">import</span> <span class="n">Core</span>
+<span class="kn">from</span> <span class="nn">.....Internal.CommandsGroup</span> <span class="kn">import</span> <span class="n">CommandsGroup</span>
+<span class="kn">from</span> <span class="nn">.....Internal.StructBase</span> <span class="kn">import</span> <span class="n">StructBase</span>
+<span class="kn">from</span> <span class="nn">.....Internal.ArgStruct</span> <span class="kn">import</span> <span class="n">ArgStruct</span>
+<span class="kn">from</span> <span class="nn">.....</span> <span class="kn">import</span> <span class="n">enums</span>
+
+
+<span class="c1"># noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection</span>
+<div class="viewcode-block" id="SetCls"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Set.html#RsFsw.Implementations.Sense.ListPy.Power.Set.SetCls">[docs]</a><span class="k">class</span> <span class="nc">SetCls</span><span class="p">:</span>
+	<span class="sd">&quot;&quot;&quot;Set commands group definition. 1 total commands, 0 Subgroups, 1 group commands&quot;&quot;&quot;</span>
+
+	<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">core</span><span class="p">:</span> <span class="n">Core</span><span class="p">,</span> <span class="n">parent</span><span class="p">):</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span> <span class="o">=</span> <span class="n">core</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_cmd_group</span> <span class="o">=</span> <span class="n">CommandsGroup</span><span class="p">(</span><span class="s2">&quot;set&quot;</span><span class="p">,</span> <span class="n">core</span><span class="p">,</span> <span class="n">parent</span><span class="p">)</span>
+
+	<span class="c1"># noinspection PyTypeChecker</span>
+<div class="viewcode-block" id="SetCls.SetStruct"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Set.html#RsFsw.Implementations.Sense.ListPy.Power.Set.SetCls.SetStruct">[docs]</a>	<span class="k">class</span> <span class="nc">SetStruct</span><span class="p">(</span><span class="n">StructBase</span><span class="p">):</span>
+		<span class="sd">&quot;&quot;&quot;Structure for setting input parameters. Fields: \n</span>
+<span class="sd">			- State_Peak: bool: ON | OFF | 0 | 1 Turns peak power evaluation on and off.</span>
+<span class="sd">			- State_Rms: bool: ON | OFF | 0 | 1 Turns peak power evaluation on and off.</span>
+<span class="sd">			- State_Avg: bool: ON | OFF | 0 | 1 Turns peak power evaluation on and off.</span>
+<span class="sd">			- Trigger_Source: enums.TriggerSourceListPower: EXTernal | EXT2 | EXT3 | IMMediate | IFPower | RFPower | VIDeo Selects a trigger source. For more information see &#39;Configuring triggered and gated measurements&#39;.</span>
+<span class="sd">			- Trigger_Slope: enums.SlopeType: POSitive | NEGative Selects the trigger slop.</span>
+<span class="sd">			- Trigger_Offset: float: Defines the trigger delay. Range: negative measurement time to 30 s, Unit: s</span>
+<span class="sd">			- Gate_Length: float: Defines the gate length for gated measurements. Setting 0 seconds turns gated measurements off. To perform gated measurements, the trigger source must be different from IMMediate. Range: 31.25 ns to 30 s, Unit: s&quot;&quot;&quot;</span>
+		<span class="n">__meta_args_list</span> <span class="o">=</span> <span class="p">[</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_bool</span><span class="p">(</span><span class="s1">&#39;State_Peak&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_bool</span><span class="p">(</span><span class="s1">&#39;State_Rms&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_bool</span><span class="p">(</span><span class="s1">&#39;State_Avg&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_enum</span><span class="p">(</span><span class="s1">&#39;Trigger_Source&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">TriggerSourceListPower</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_enum</span><span class="p">(</span><span class="s1">&#39;Trigger_Slope&#39;</span><span class="p">,</span> <span class="n">enums</span><span class="o">.</span><span class="n">SlopeType</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Trigger_Offset&#39;</span><span class="p">),</span>
+			<span class="n">ArgStruct</span><span class="o">.</span><span class="n">scalar_float</span><span class="p">(</span><span class="s1">&#39;Gate_Length&#39;</span><span class="p">)]</span>
+
+		<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+			<span class="n">StructBase</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">State_Peak</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">State_Rms</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">State_Avg</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Source</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">TriggerSourceListPower</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Slope</span><span class="p">:</span> <span class="n">enums</span><span class="o">.</span><span class="n">SlopeType</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Trigger_Offset</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span>
+			<span class="bp">self</span><span class="o">.</span><span class="n">Gate_Length</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="kc">None</span></div>
+
+<div class="viewcode-block" id="SetCls.set"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Set.html#RsFsw.Implementations.Sense.ListPy.Power.Set.SetCls.set">[docs]</a>	<span class="k">def</span> <span class="nf">set</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">structure</span><span class="p">:</span> <span class="n">SetStruct</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:LIST:POWer:SET \n</span>
+<span class="sd">		Snippet with structure: \n</span>
+<span class="sd">		structure = driver.sense.listPy.power.set.SetStruct() \n</span>
+<span class="sd">		structure.State_Peak: bool = False \n</span>
+<span class="sd">		structure.State_Rms: bool = False \n</span>
+<span class="sd">		structure.State_Avg: bool = False \n</span>
+<span class="sd">		structure.Trigger_Source: enums.TriggerSourceListPower = enums.TriggerSourceListPower.EXT2 \n</span>
+<span class="sd">		structure.Trigger_Slope: enums.SlopeType = enums.SlopeType.NEGative \n</span>
+<span class="sd">		structure.Trigger_Offset: float = 1.0 \n</span>
+<span class="sd">		structure.Gate_Length: float = 1.0 \n</span>
+<span class="sd">		driver.sense.listPy.power.set.set(structure) \n</span>
+<span class="sd">		Defines global List Evaluation parameters. These parameters are valid for every frequency you want to measure. The state</span>
+<span class="sd">		of the first three parameters (&lt;PeakPower&gt;, &lt;RMSPower&gt; and &lt;AVGPower&gt;) define the number of results for each frequency in</span>
+<span class="sd">		the list. Note that you have to set the trigger level after sending this command. \n</span>
+<span class="sd">			:param structure: for set value, see the help for SetStruct structure arguments.</span>
+<span class="sd">		&quot;&quot;&quot;</span>
+		<span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">write_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:LIST:POWer:SET&#39;</span><span class="p">,</span> <span class="n">structure</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="SetCls.get"><a class="viewcode-back" href="../../../../../../Sense_ListPy_Power_Set.html#RsFsw.Implementations.Sense.ListPy.Power.Set.SetCls.get">[docs]</a>	<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">SetStruct</span><span class="p">:</span>
+		<span class="sd">&quot;&quot;&quot;SCPI: [SENSe]:LIST:POWer:SET \n</span>
+<span class="sd">		Snippet: value: SetStruct = driver.sense.listPy.power.set.get() \n</span>
+<span class="sd">		Defines global List Evaluation parameters. These parameters are valid for every frequency you want to measure. The state</span>
+<span class="sd">		of the first three parameters (&lt;PeakPower&gt;, &lt;RMSPower&gt; and &lt;AVGPower&gt;) define the number of results for each frequency in</span>
+<span class="sd">		the list. Note that you have to set the trigger level after sending this command. \n</span>
+<span class="sd">			:return: structure: for return value, see the help for SetStruct structure arguments.&quot;&quot;&quot;</span>
+		<span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_core</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">query_struct</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SENSe:LIST:POWer:SET?&#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="o">.</span><span class="n">SetStruct</span><span class="p">())</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright © Rohde &amp; Schwarz 2023.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

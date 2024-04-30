@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:DISPlay:FPANel[:STATe]
+
+.. code-block:: python
+
+	SYSTem:DISPlay:FPANel[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Display.Fpanel.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

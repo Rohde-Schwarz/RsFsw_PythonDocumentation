@@ -1,0 +1,37 @@
+Power
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k18AmplifierEt.fetch.power.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K18_AmplifierEt_Fetch_Power_Cfactor.rst
+	Applications_K18_AmplifierEt_Fetch_Power_Gain.rst
+	Applications_K18_AmplifierEt_Fetch_Power_InputPy.rst
+	Applications_K18_AmplifierEt_Fetch_Power_Obw.rst
+	Applications_K18_AmplifierEt_Fetch_Power_Output.rst
+	Applications_K18_AmplifierEt_Fetch_Power_P1Db.rst
+	Applications_K18_AmplifierEt_Fetch_Power_P2Db.rst
+	Applications_K18_AmplifierEt_Fetch_Power_P3Db.rst
+	Applications_K18_AmplifierEt_Fetch_Power_Result.rst
+	Applications_K18_AmplifierEt_Fetch_Power_Sensor.rst

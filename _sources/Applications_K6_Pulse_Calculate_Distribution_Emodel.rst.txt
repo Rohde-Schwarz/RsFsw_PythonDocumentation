@@ -1,0 +1,20 @@
+Emodel
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DISTribution:EMODel
+
+.. code-block:: python
+
+	CALCulate<n>:DISTribution:EMODel
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Distribution.Emodel.EmodelCls
+	:members:
+	:undoc-members:
+	:noindex:

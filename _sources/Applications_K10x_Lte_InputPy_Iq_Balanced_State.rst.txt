@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: INPut:IQ:BALanced[:STATe]
+
+.. code-block:: python
+
+	INPut:IQ:BALanced[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.InputPy.Iq.Balanced.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

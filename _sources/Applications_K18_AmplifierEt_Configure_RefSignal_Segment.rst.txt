@@ -1,0 +1,20 @@
+Segment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:REFSignal:SEGMent
+
+.. code-block:: python
+
+	CONFigure:REFSignal:SEGMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.RefSignal.Segment.SegmentCls
+	:members:
+	:undoc-members:
+	:noindex:

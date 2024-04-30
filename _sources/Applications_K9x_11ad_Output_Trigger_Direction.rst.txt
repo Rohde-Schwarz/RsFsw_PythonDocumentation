@@ -1,0 +1,20 @@
+Direction
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut:TRIGger<2|3>:DIRection
+
+.. code-block:: python
+
+	OUTPut:TRIGger<2|3>:DIRection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K9x_11ad.Output.Trigger.Direction.DirectionCls
+	:members:
+	:undoc-members:
+	:noindex:

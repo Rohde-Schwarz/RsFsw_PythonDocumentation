@@ -1,0 +1,20 @@
+Cid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:PLCI:CID
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:PLCI:CID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Plci.Cid.CidCls
+	:members:
+	:undoc-members:
+	:noindex:

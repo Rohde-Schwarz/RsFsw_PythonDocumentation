@@ -1,0 +1,20 @@
+Definition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:AMPM:DEFinition
+
+.. code-block:: python
+
+	CALCulate<n>:AMPM:DEFinition
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.AmPm.Definition.DefinitionCls
+	:members:
+	:undoc-members:
+	:noindex:

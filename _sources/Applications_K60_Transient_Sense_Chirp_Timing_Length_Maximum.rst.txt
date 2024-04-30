@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:TIMing:LENGth:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:TIMing:LENGth:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Timing.Length.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

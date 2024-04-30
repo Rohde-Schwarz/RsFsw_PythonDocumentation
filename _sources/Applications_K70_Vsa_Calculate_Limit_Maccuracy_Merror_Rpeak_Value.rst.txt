@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:LIMit:MACCuracy:MERRor:RPEak:VALue
+
+.. code-block:: python
+
+	CALCulate<n>:LIMit:MACCuracy:MERRor:RPEak:VALue
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Limit.Maccuracy.Merror.Rpeak.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

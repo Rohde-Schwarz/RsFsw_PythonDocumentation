@@ -1,0 +1,20 @@
+Factory
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:REVision:FACTory
+
+.. code-block:: python
+
+	SYSTem:REVision:FACTory
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Revision.Factory.FactoryCls
+	:members:
+	:undoc-members:
+	:noindex:

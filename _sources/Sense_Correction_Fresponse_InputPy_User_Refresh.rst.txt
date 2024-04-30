@@ -1,0 +1,20 @@
+Refresh
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:INPut<ip>:USER:REFResh
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:INPut<ip>:USER:REFResh
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.InputPy.User.Refresh.RefreshCls
+	:members:
+	:undoc-members:
+	:noindex:

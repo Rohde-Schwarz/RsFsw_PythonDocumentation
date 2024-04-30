@@ -1,0 +1,30 @@
+InputPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Espectrum.Range.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.espectrum.range.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Espectrum_Range_InputPy_Attenuation.rst
+	Sense_Espectrum_Range_InputPy_Gain.rst
+	Sense_Espectrum_Range_InputPy_Sanalyzer.rst

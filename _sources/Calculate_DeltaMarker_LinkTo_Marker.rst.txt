@@ -1,0 +1,36 @@
+Marker<MarkerDestination>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.calculate.deltaMarker.linkTo.marker.repcap_markerDestination_get()
+	driver.calculate.deltaMarker.linkTo.marker.repcap_markerDestination_set(repcap.MarkerDestination.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<ms>:LINK:TO:MARKer<mt>
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<ms>:LINK:TO:MARKer<mt>
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.LinkTo.Marker.MarkerCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.deltaMarker.linkTo.marker.clone()

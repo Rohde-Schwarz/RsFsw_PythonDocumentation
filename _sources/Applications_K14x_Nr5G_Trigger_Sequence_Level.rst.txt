@@ -1,0 +1,32 @@
+Level
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trigger.Sequence.Level.LevelCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.trigger.sequence.level.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Trigger_Sequence_Level_BbPower.rst
+	Applications_K14x_Nr5G_Trigger_Sequence_Level_External.rst
+	Applications_K14x_Nr5G_Trigger_Sequence_Level_IfPower.rst
+	Applications_K14x_Nr5G_Trigger_Sequence_Level_IqPower.rst
+	Applications_K14x_Nr5G_Trigger_Sequence_Level_RfPower.rst

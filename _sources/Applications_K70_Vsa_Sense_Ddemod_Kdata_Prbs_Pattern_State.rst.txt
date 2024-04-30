@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:KDATa:PRBS:PATTern[:STATe]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:KDATa:PRBS:PATTern[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Prbs.Pattern.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

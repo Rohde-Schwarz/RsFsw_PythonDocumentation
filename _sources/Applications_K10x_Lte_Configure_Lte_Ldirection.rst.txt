@@ -1,0 +1,20 @@
+Ldirection
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:LDIRection
+
+.. code-block:: python
+
+	CONFigure[:LTE]:LDIRection
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Ldirection.LdirectionCls
+	:members:
+	:undoc-members:
+	:noindex:

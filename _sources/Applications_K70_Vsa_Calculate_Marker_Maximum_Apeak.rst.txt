@@ -1,0 +1,20 @@
+Apeak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:MAXimum:APEak
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:MAXimum:APEak
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Marker.Maximum.Apeak.ApeakCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,33 @@
+Csirs
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Csirs.CsirsCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k10Xlte.configure.lte.downlink.cc.csirs.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Csirs_Ci.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Csirs_Nap.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Csirs_Opdsch.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Csirs_Power.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Csirs_Sci.rst
+	Applications_K10x_Lte_Configure_Lte_Downlink_Cc_Csirs_State.rst

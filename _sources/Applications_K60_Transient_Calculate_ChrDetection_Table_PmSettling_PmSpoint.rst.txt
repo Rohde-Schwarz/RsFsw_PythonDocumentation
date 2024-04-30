@@ -1,0 +1,20 @@
+PmSpoint
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:PMSettling:PMSPoint
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:PMSettling:PMSPoint
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.PmSettling.PmSpoint.PmSpointCls
+	:members:
+	:undoc-members:
+	:noindex:

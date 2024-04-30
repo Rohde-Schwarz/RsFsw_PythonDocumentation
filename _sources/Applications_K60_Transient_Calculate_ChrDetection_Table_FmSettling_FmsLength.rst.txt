@@ -1,0 +1,20 @@
+FmsLength
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:CHRDetection:TABLe:FMSettling:FMSLength
+
+.. code-block:: python
+
+	CALCulate<n>:CHRDetection:TABLe:FMSettling:FMSLength
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.ChrDetection.Table.FmSettling.FmsLength.FmsLengthCls
+	:members:
+	:undoc-members:
+	:noindex:

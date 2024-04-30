@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ADEMod:ZOOM:LENGth:MODE
+
+.. code-block:: python
+
+	[SENSe]:ADEMod:ZOOM:LENGth:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Ademod.Zoom.Length.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

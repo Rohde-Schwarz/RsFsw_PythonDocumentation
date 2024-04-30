@@ -1,0 +1,43 @@
+Mask
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MASK:DELete
+
+.. code-block:: python
+
+	CALCulate<n>:MASK:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Mask.MaskCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.calculate.mask.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Calculate_Mask_Comment.rst
+	Calculate_Mask_CurrentDirectory.rst
+	Calculate_Mask_Lower.rst
+	Calculate_Mask_Mode.rst
+	Calculate_Mask_Name.rst
+	Calculate_Mask_Span.rst
+	Calculate_Mask_Upper.rst

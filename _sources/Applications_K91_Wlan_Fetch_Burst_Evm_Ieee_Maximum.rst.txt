@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:EVM[:IEEE]:MAXimum
+
+.. code-block:: python
+
+	FETCh:BURSt:EVM[:IEEE]:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.Evm.Ieee.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:POWer:AUTO:CALibration[:STATe]
+
+.. code-block:: python
+
+	CONFigure:POWer:AUTO:CALibration[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Power.Auto.Calibration.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

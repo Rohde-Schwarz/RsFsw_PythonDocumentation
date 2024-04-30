@@ -1,0 +1,20 @@
+Wselect
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:WSELect
+
+.. code-block:: python
+
+	DISPlay:WSELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Wselect.WselectCls
+	:members:
+	:undoc-members:
+	:noindex:

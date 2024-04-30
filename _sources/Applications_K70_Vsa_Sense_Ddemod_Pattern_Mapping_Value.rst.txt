@@ -1,0 +1,20 @@
+Value
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:PATTern:MAPPing[:VALue]
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:PATTern:MAPPing[:VALue]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Pattern.Mapping.Value.ValueCls
+	:members:
+	:undoc-members:
+	:noindex:

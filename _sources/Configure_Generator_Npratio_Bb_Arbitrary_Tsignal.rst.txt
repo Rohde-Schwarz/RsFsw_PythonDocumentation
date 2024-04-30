@@ -1,0 +1,28 @@
+Tsignal
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.Bb.Arbitrary.Tsignal.TsignalCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.configure.generator.npratio.bb.arbitrary.tsignal.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Configure_Generator_Npratio_Bb_Arbitrary_Tsignal_Awgn.rst

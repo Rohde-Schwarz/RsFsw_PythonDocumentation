@@ -1,0 +1,20 @@
+All
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy[:RESult]:ALL
+
+.. code-block:: python
+
+	FETCh:MACCuracy[:RESult]:ALL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.Result.All.AllCls
+	:members:
+	:undoc-members:
+	:noindex:

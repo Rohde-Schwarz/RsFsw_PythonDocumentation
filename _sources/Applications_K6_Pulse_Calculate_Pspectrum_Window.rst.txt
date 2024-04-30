@@ -1,0 +1,20 @@
+Window
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSPectrum:WINDow
+
+.. code-block:: python
+
+	CALCulate<n>:PSPectrum:WINDow
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Calculate.Pspectrum.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:

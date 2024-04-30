@@ -1,0 +1,20 @@
+AlpMode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:ACPower:ALPMode
+
+.. code-block:: python
+
+	[SENSe]:NR5G:ACPower:ALPMode
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.AcPower.AlpMode.AlpModeCls
+	:members:
+	:undoc-members:
+	:noindex:

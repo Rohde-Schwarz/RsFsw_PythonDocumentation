@@ -1,0 +1,30 @@
+Zoom
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Window.Subwindow.Zoom.ZoomCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.display.window.subwindow.zoom.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Display_Window_Subwindow_Zoom_Area.rst
+	Display_Window_Subwindow_Zoom_Multiple.rst
+	Display_Window_Subwindow_Zoom_State.rst

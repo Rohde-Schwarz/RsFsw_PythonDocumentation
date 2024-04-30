@@ -1,0 +1,20 @@
+StDeviation
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:POWer:INPut:MIN:STDeviation
+
+.. code-block:: python
+
+	FETCh:STABle:POWer:INPut:MIN:STDeviation
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Power.InputPy.Min.StDeviation.StDeviationCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:PHASe:UNDershoot:AVERage
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:PHASe:UNDershoot:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Phase.Undershoot.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

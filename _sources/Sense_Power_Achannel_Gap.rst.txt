@@ -1,0 +1,38 @@
+Gap<GapChannel>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr2
+	rc = driver.sense.power.achannel.gap.repcap_gapChannel_get()
+	driver.sense.power.achannel.gap.repcap_gapChannel_set(repcap.GapChannel.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Power.Achannel.Gap.GapCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.sense.power.achannel.gap.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Sense_Power_Achannel_Gap_Auto.rst
+	Sense_Power_Achannel_Gap_Manual.rst
+	Sense_Power_Achannel_Gap_Mode.rst

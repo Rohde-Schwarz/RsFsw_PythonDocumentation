@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD:SEM:STATe
+
+.. code-block:: python
+
+	MMEMory:LOAD:SEM:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.MassMemory.Load.Sem.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

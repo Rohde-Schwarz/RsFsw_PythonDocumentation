@@ -1,0 +1,20 @@
+Count
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:LIMit:COUNt
+
+.. code-block:: python
+
+	[SENSe]:DETect:LIMit:COUNt
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Sense.Detect.Limit.Count.CountCls
+	:members:
+	:undoc-members:
+	:noindex:

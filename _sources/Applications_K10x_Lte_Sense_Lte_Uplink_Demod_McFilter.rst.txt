@@ -1,0 +1,20 @@
+McFilter
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE]:UL:DEMod:MCFilter
+
+.. code-block:: python
+
+	[SENSe][:LTE]:UL:DEMod:MCFilter
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Uplink.Demod.McFilter.McFilterCls
+	:members:
+	:undoc-members:
+	:noindex:

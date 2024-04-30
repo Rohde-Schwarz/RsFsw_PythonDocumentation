@@ -1,0 +1,20 @@
+Ppower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SYNC:PPOWer
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SYNC:PPOWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sync.Ppower.PpowerCls
+	:members:
+	:undoc-members:
+	:noindex:

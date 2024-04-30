@@ -1,0 +1,20 @@
+Real
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SYNC:CSWeight:ANTenna<ant>:SHFRame<fr>:REAL
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SYNC:CSWeight:ANTenna<ant>:SHFRame<fr>:REAL
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sync.CsWeight.Antenna.ShFrame.Real.RealCls
+	:members:
+	:undoc-members:
+	:noindex:

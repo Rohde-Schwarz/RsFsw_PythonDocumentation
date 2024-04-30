@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:IVOLtage:AVG:SELected[:RESult]
+
+.. code-block:: python
+
+	FETCh:STABle:IVOLtage:AVG:SELected[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Ivoltage.Avg.Selected.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

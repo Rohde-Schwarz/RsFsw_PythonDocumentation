@@ -1,0 +1,20 @@
+McaClr
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:NR5G]:MCAClr
+
+.. code-block:: python
+
+	CONFigure[:NR5G]:MCAClr
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.McaClr.McaClrCls
+	:members:
+	:undoc-members:
+	:noindex:

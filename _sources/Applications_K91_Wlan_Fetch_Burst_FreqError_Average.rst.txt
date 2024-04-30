@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:BURSt:FERRor:AVERage
+
+.. code-block:: python
+
+	FETCh:BURSt:FERRor:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.FreqError.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

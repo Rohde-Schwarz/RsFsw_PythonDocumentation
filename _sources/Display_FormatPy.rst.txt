@@ -1,0 +1,20 @@
+FormatPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:FORMat
+
+.. code-block:: python
+
+	DISPlay:FORMat
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.FormatPy.FormatPyCls
+	:members:
+	:undoc-members:
+	:noindex:

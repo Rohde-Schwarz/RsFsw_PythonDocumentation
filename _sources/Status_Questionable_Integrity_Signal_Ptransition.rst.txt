@@ -1,0 +1,20 @@
+Ptransition
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: STATus:QUEStionable:INTegrity:SIGNal:PTRansition
+
+.. code-block:: python
+
+	STATus:QUEStionable:INTegrity:SIGNal:PTRansition
+
+
+
+.. autoclass:: RsFsw.Implementations.Status.Questionable.Integrity.Signal.Ptransition.PtransitionCls
+	:members:
+	:undoc-members:
+	:noindex:

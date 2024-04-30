@@ -1,0 +1,36 @@
+Limit<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k14Xnr5G.massMemory.load.limit.repcap_window_get()
+	driver.applications.k14Xnr5G.massMemory.load.limit.repcap_window_set(repcap.Window.Nr1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:LOAD<n>:LIMit
+
+.. code-block:: python
+
+	MMEMory:LOAD<n>:LIMit
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.MassMemory.Load.Limit.LimitCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.massMemory.load.limit.clone()

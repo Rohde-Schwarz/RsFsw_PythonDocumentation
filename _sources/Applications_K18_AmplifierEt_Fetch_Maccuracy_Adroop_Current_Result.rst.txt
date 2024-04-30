@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:MACCuracy:ADRoop:CURRent[:RESult]
+
+.. code-block:: python
+
+	FETCh:MACCuracy:ADRoop:CURRent[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Maccuracy.Adroop.Current.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

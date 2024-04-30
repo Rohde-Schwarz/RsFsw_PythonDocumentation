@@ -1,0 +1,20 @@
+Result
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PTABle:POUT:MAXimum:X[:RESult]
+
+.. code-block:: python
+
+	FETCh:PTABle:POUT:MAXimum:X[:RESult]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Ptable.Pout.Maximum.X.Result.ResultCls
+	:members:
+	:undoc-members:
+	:noindex:

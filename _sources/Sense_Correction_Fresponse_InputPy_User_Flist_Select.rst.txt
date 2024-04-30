@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:FRESponse:INPut<ip>:USER:FLISt<fli>:SELect
+
+.. code-block:: python
+
+	[SENSe]:CORRection:FRESponse:INPut<ip>:USER:FLISt<fli>:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Fresponse.InputPy.User.Flist.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

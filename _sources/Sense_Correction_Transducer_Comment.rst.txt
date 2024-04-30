@@ -1,0 +1,20 @@
+Comment
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CORRection:TRANsducer:COMMent
+
+.. code-block:: python
+
+	[SENSe]:CORRection:TRANsducer:COMMent
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Correction.Transducer.Comment.CommentCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Tolerance
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:BURSt:TOLerance
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:BURSt:TOLerance
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Burst.Tolerance.ToleranceCls
+	:members:
+	:undoc-members:
+	:noindex:

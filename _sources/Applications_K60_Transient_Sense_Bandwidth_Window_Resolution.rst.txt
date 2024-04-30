@@ -1,0 +1,20 @@
+Resolution
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth[:WINDow<n>]:RESolution
+
+.. code-block:: python
+
+	[SENSe]:BWIDth[:WINDow<n>]:RESolution
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Bandwidth.Window.Resolution.ResolutionCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Ipn
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:PNOise<t>:IPN
+
+.. code-block:: python
+
+	FETCh:PNOise<t>:IPN
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Fetch.Pnoise.Ipn.IpnCls
+	:members:
+	:undoc-members:
+	:noindex:

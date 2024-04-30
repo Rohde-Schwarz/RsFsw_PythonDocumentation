@@ -1,0 +1,20 @@
+N1Cs
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PUCCh:N1CS
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PUCCh:N1CS
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pucch.N1Cs.N1CsCls
+	:members:
+	:undoc-members:
+	:noindex:

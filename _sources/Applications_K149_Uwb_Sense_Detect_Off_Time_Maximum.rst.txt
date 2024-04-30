@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DETect:OFF:TIME:MAXimum
+
+.. code-block:: python
+
+	[SENSe]:DETect:OFF:TIME:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Sense.Detect.Off.Time.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

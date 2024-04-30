@@ -1,0 +1,20 @@
+Z
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:Z
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:Z
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.Marker.Z.ZCls
+	:members:
+	:undoc-members:
+	:noindex:

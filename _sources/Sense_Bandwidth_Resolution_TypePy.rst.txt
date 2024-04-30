@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth[:RESolution]:TYPE
+
+.. code-block:: python
+
+	[SENSe]:BWIDth[:RESolution]:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Bandwidth.Resolution.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

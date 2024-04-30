@@ -1,0 +1,30 @@
+Mcgd
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.MassMemory.Store.Mcgd.McgdCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.massMemory.store.mcgd.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_MassMemory_Store_Mcgd_CorrectionTable.rst
+	Applications_K17_Mcgd_MassMemory_Store_Mcgd_Meas.rst
+	Applications_K17_Mcgd_MassMemory_Store_Mcgd_Rcalibration.rst

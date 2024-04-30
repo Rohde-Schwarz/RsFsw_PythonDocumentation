@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:OPTion:LICense[:LIST]
+
+.. code-block:: python
+
+	SYSTem:OPTion:LICense[:LIST]
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Option.License.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:

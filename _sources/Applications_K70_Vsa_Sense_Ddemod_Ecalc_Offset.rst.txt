@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:ECALc:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:ECALc:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Ecalc.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

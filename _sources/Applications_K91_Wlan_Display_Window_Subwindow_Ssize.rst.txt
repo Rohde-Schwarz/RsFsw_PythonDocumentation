@@ -1,0 +1,20 @@
+Ssize
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay[:WINDow<n>][:SUBWindow<w>]:SSIZe
+
+.. code-block:: python
+
+	DISPlay[:WINDow<n>][:SUBWindow<w>]:SSIZe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Display.Window.Subwindow.Ssize.SsizeCls
+	:members:
+	:undoc-members:
+	:noindex:

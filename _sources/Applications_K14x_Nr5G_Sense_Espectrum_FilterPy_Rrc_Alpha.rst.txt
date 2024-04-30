@@ -1,0 +1,20 @@
+Alpha
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ESPectrum<sb>:FILTer[:RRC]:ALPHa
+
+.. code-block:: python
+
+	[SENSe]:ESPectrum<sb>:FILTer[:RRC]:ALPHa
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Espectrum.FilterPy.Rrc.Alpha.AlphaCls
+	:members:
+	:undoc-members:
+	:noindex:

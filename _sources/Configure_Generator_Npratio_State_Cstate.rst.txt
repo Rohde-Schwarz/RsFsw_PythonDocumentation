@@ -1,0 +1,20 @@
+Cstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:NPRatio:STATe:CSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:NPRatio:STATe:CSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Npratio.State.Cstate.CstateCls
+	:members:
+	:undoc-members:
+	:noindex:

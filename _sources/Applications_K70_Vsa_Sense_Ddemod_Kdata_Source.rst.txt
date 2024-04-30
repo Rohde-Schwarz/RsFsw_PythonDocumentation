@@ -1,0 +1,20 @@
+Source
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:KDATa:SOURce
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:KDATa:SOURce
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Kdata.Source.SourceCls
+	:members:
+	:undoc-members:
+	:noindex:

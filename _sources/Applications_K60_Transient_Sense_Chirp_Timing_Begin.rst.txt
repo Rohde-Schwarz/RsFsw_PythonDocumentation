@@ -1,0 +1,40 @@
+Begin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:CHIRp:TIMing:BEGin
+
+.. code-block:: python
+
+	[SENSe]:CHIRp:TIMing:BEGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Chirp.Timing.Begin.BeginCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k60Transient.sense.chirp.timing.begin.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K60_Transient_Sense_Chirp_Timing_Begin_Average.rst
+	Applications_K60_Transient_Sense_Chirp_Timing_Begin_Maximum.rst
+	Applications_K60_Transient_Sense_Chirp_Timing_Begin_Minimum.rst
+	Applications_K60_Transient_Sense_Chirp_Timing_Begin_StandardDev.rst

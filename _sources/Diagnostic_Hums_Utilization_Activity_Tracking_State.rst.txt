@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:HUMS:UTILization:ACTivity:TRACking:STATe
+
+.. code-block:: python
+
+	DIAGnostic:HUMS:UTILization:ACTivity:TRACking:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Hums.Utilization.Activity.Tracking.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

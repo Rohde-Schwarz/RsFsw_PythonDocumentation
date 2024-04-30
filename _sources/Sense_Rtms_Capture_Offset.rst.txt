@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:RTMS:CAPTure:OFFSet
+
+.. code-block:: python
+
+	[SENSe]:RTMS:CAPTure:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Rtms.Capture.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

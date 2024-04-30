@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: SYSTem:PLUGin:APPStarter:SELect
+
+.. code-block:: python
+
+	SYSTem:PLUGin:APPStarter:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.System.Plugin.AppStarter.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

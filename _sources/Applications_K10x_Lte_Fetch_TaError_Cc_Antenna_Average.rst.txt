@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:TAERror[:CC<cc>]:ANTenna<ant>[:AVERage]
+
+.. code-block:: python
+
+	FETCh:TAERror[:CC<cc>]:ANTenna<ant>[:AVERage]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Fetch.TaError.Cc.Antenna.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

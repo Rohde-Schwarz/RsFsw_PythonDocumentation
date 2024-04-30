@@ -1,0 +1,20 @@
+Offset
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL:FREQuency:OFFSet
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL:FREQuency:OFFSet
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Frequency.Offset.OffsetCls
+	:members:
+	:undoc-members:
+	:noindex:

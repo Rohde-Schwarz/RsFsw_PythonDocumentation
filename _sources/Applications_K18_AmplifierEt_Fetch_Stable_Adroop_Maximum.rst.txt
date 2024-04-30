@@ -1,0 +1,20 @@
+Maximum
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:ADRoop:MAXimum
+
+.. code-block:: python
+
+	FETCh:STABle:ADRoop:MAXimum
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.Adroop.Maximum.MaximumCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Cstate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:CONNection:CSTate
+
+.. code-block:: python
+
+	CONFigure:GENerator:CONNection:CSTate
+
+
+
+.. autoclass:: RsFsw.Implementations.Configure.Generator.Connection.Cstate.CstateCls
+	:members:
+	:undoc-members:
+	:noindex:

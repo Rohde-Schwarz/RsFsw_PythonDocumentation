@@ -1,0 +1,20 @@
+Current
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:MDPD:RMS[:CURRent]
+
+.. code-block:: python
+
+	CONFigure:MDPD:RMS[:CURRent]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.Mdpd.Rms.Current.CurrentCls
+	:members:
+	:undoc-members:
+	:noindex:

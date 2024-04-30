@@ -1,0 +1,11 @@
+RsFsw Utilities
+==========================
+
+.. _Utilities:
+
+.. autoclass:: RsFsw.CustomFiles.utilities.Utilities()
+   :members:
+   :undoc-members:
+   :special-members: enable_properties
+   :noindex:
+   :member-order: bysource

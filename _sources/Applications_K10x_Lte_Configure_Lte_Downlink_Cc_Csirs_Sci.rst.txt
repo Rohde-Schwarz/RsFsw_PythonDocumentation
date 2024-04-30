@@ -1,0 +1,20 @@
+Sci
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:SCI
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:CSIRs:SCI
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Csirs.Sci.SciCls
+	:members:
+	:undoc-members:
+	:noindex:

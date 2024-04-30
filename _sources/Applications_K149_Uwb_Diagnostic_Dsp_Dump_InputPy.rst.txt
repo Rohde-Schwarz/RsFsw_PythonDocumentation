@@ -1,0 +1,20 @@
+InputPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:DSP:DUMP:INPut
+
+.. code-block:: python
+
+	DIAGnostic:DSP:DUMP:INPut
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K149_Uwb.Diagnostic.Dsp.Dump.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:

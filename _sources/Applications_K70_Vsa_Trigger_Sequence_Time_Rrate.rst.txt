@@ -1,0 +1,20 @@
+Rrate
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger<tp>[:SEQuence]:TIME:RRATe
+
+.. code-block:: python
+
+	TRIGger<tp>[:SEQuence]:TIME:RRATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.Time.Rrate.RrateCls
+	:members:
+	:undoc-members:
+	:noindex:

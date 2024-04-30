@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NPRatio:STATe
+
+.. code-block:: python
+
+	[SENSe]:NPRatio:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Npratio.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

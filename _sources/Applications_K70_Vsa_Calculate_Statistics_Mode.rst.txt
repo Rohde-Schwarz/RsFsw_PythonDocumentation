@@ -1,0 +1,20 @@
+Mode
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:STATistics:MODE
+
+.. code-block:: python
+
+	CALCulate<n>:STATistics:MODE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Statistics.Mode.ModeCls
+	:members:
+	:undoc-members:
+	:noindex:

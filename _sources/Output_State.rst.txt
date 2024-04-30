@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: OUTPut<up>[:STATe]
+
+.. code-block:: python
+
+	OUTPut<up>[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Output.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

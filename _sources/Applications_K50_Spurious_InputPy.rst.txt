@@ -1,0 +1,32 @@
+InputPy
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.InputPy.InputPyCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.inputPy.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_InputPy_Connector.rst
+	Applications_K50_Spurious_InputPy_Coupling.rst
+	Applications_K50_Spurious_InputPy_FilterPy.rst
+	Applications_K50_Spurious_InputPy_Impedance.rst
+	Applications_K50_Spurious_InputPy_TypePy.rst

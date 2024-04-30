@@ -1,0 +1,37 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: MMEMory:STORe:STATe
+
+.. code-block:: python
+
+	MMEMory:STORe:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.MassMemory.Store.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.massMemory.store.state.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	MassMemory_Store_State_Next.rst

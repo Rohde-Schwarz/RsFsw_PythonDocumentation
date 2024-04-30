@@ -1,0 +1,40 @@
+Window<Window>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Nr1 .. Nr16
+	rc = driver.applications.k40PhaseNoise.display.window.repcap_window_get()
+	driver.applications.k40PhaseNoise.display.window.repcap_window_set(repcap.Window.Nr1)
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K40_PhaseNoise.Display.Window.WindowCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k40PhaseNoise.display.window.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K40_PhaseNoise_Display_Window_Minfo.rst
+	Applications_K40_PhaseNoise_Display_Window_Mtable.rst
+	Applications_K40_PhaseNoise_Display_Window_Size.rst
+	Applications_K40_PhaseNoise_Display_Window_State.rst
+	Applications_K40_PhaseNoise_Display_Window_Trace.rst

@@ -1,0 +1,33 @@
+Lte
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Configure.Nr5G.Downlink.Cc.Lte.LteCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k14Xnr5G.configure.nr5G.downlink.cc.lte.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Cbw.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Mbsfn.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Nap.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_PointA.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_State.rst
+	Applications_K14x_Nr5G_Configure_Nr5G_Downlink_Cc_Lte_Vshift.rst

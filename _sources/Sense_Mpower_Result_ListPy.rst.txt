@@ -1,0 +1,20 @@
+ListPy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:MPOWer:RESult[:LIST]
+
+.. code-block:: python
+
+	[SENSe]:MPOWer:RESult[:LIST]
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Mpower.Result.ListPy.ListPyCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Margin
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:PSEarch:MARGin
+
+.. code-block:: python
+
+	CALCulate<n>:PSEarch:MARGin
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.PeakSearch.Margin.MarginCls
+	:members:
+	:undoc-members:
+	:noindex:

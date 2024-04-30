@@ -1,0 +1,20 @@
+Path
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:POWer:AUTO:CALibration:DATA:PATH
+
+.. code-block:: python
+
+	CONFigure:POWer:AUTO:CALibration:DATA:PATH
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Power.Auto.Calibration.Data.Path.PathCls
+	:members:
+	:undoc-members:
+	:noindex:

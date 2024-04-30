@@ -1,0 +1,20 @@
+Peak
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:MINimum[:PEAK]
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:MINimum[:PEAK]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Calculate.DeltaMarker.Minimum.Peak.PeakCls
+	:members:
+	:undoc-members:
+	:noindex:

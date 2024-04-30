@@ -1,0 +1,20 @@
+Catalog
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>:CATalog
+
+.. code-block:: python
+
+	TRACe<n>:CATalog
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trace.Catalog.CatalogCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,57 @@
+Range<RangePy>
+----------------------------------------
+
+.. rubric:: RepCap Settings
+
+.. code-block:: python
+
+	# Range: Ix1 .. Ix64
+	rc = driver.applications.k50Spurious.sense.listPy.range.repcap_rangePy_get()
+	driver.applications.k50Spurious.sense.listPy.range.repcap_rangePy_set(repcap.RangePy.Ix1)
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:LIST:RANGe<ri>:DELete
+
+.. code-block:: python
+
+	[SENSe]:LIST:RANGe<ri>:DELete
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.ListPy.Range.RangeCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.listPy.range.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_ListPy_Range_Bandwidth.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Count.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Frequency.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_InputPy.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Insert.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Loffset.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_MfRbw.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Nfft.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Pexcursion.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_RefLevel.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_SnRatio.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_Threshold.rst
+	Applications_K50_Spurious_Sense_ListPy_Range_UaRange.rst

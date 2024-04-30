@@ -1,0 +1,20 @@
+TypePy
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DEMod:FORMat:BANalyze:BTYPe:AUTO:TYPE
+
+.. code-block:: python
+
+	[SENSe]:DEMod:FORMat:BANalyze:BTYPe:AUTO:TYPE
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Sense.Demod.FormatPy.Banalyze.Btype.Auto.TypePy.TypePyCls
+	:members:
+	:undoc-members:
+	:noindex:

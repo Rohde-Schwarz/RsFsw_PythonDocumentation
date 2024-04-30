@@ -1,0 +1,20 @@
+IfPower
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger<tp>[:SEQuence]:LEVel:IFPower
+
+.. code-block:: python
+
+	TRIGger<tp>[:SEQuence]:LEVel:IFPower
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Trigger.Sequence.Level.IfPower.IfPowerCls
+	:members:
+	:undoc-members:
+	:noindex:

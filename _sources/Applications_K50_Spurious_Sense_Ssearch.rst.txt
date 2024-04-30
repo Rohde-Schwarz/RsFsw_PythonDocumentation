@@ -1,0 +1,33 @@
+Ssearch
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.SsearchCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k50Spurious.sense.ssearch.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K50_Spurious_Sense_Ssearch_Control.rst
+	Applications_K50_Spurious_Sense_Ssearch_Fplan.rst
+	Applications_K50_Spurious_Sense_Ssearch_Mspur.rst
+	Applications_K50_Spurious_Sense_Ssearch_Rmark.rst
+	Applications_K50_Spurious_Sense_Ssearch_Rremove.rst
+	Applications_K50_Spurious_Sense_Ssearch_Stype.rst

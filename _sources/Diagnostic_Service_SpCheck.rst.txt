@@ -1,0 +1,29 @@
+SpCheck
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.SpCheck.SpCheckCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.diagnostic.service.spCheck.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Diagnostic_Service_SpCheck_Execute.rst
+	Diagnostic_Service_SpCheck_Result.rst

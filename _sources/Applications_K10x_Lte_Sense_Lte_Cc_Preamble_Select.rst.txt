@@ -1,0 +1,20 @@
+Select
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe][:LTE][:CC<cc>]:PREamble:SELect
+
+.. code-block:: python
+
+	[SENSe][:LTE][:CC<cc>]:PREamble:SELect
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Sense.Lte.Cc.Preamble.Select.SelectCls
+	:members:
+	:undoc-members:
+	:noindex:

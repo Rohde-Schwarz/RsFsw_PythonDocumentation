@@ -1,0 +1,20 @@
+Falling
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:DDEMod:SEARch:BURSt:SKIP:FALLing
+
+.. code-block:: python
+
+	[SENSe]:DDEMod:SEARch:BURSt:SKIP:FALLing
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Sense.Ddemod.Search.Burst.Skip.Falling.FallingCls
+	:members:
+	:undoc-members:
+	:noindex:

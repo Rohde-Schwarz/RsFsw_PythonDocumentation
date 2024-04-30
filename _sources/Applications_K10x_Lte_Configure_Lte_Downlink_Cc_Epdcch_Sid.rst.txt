@@ -1,0 +1,20 @@
+Sid
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:EPDCch:SID
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:EPDCch:SID
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Epdcch.Sid.SidCls
+	:members:
+	:undoc-members:
+	:noindex:

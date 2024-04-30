@@ -1,0 +1,20 @@
+CcResult
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:NR5G:RSUMmary:CCResult
+
+.. code-block:: python
+
+	[SENSe]:NR5G:RSUMmary:CCResult
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Sense.Nr5G.Rsummary.CcResult.CcResultCls
+	:members:
+	:undoc-members:
+	:noindex:

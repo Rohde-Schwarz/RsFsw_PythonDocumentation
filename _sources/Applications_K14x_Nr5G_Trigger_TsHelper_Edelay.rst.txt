@@ -1,0 +1,20 @@
+Edelay
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger:TSHelper:EDELay
+
+.. code-block:: python
+
+	TRIGger:TSHelper:EDELay
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K14x_Nr5G.Trigger.TsHelper.Edelay.EdelayCls
+	:members:
+	:undoc-members:
+	:noindex:

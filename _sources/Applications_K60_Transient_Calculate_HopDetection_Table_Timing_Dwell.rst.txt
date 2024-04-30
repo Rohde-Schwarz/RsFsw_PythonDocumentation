@@ -1,0 +1,20 @@
+Dwell
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:HOPDetection:TABLe:TIMing:DWELl
+
+.. code-block:: python
+
+	CALCulate<n>:HOPDetection:TABLe:TIMing:DWELl
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Calculate.HopDetection.Table.Timing.Dwell.DwellCls
+	:members:
+	:undoc-members:
+	:noindex:

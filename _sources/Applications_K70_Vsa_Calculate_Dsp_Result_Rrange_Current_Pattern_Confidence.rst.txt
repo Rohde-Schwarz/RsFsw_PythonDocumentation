@@ -1,0 +1,20 @@
+Confidence
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DSP:RESult:RRANge:CURRent:PATTern:CONFidence
+
+.. code-block:: python
+
+	CALCulate<n>:DSP:RESult:RRANge:CURRent:PATTern:CONFidence
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K70_Vsa.Calculate.Dsp.Result.Rrange.Current.Pattern.Confidence.ConfidenceCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DISPlay:SBAR[:STATe]
+
+.. code-block:: python
+
+	DISPlay:SBAR[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Display.Sbar.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

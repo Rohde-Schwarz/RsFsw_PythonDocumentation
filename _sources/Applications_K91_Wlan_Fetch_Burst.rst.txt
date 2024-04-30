@@ -1,0 +1,56 @@
+Burst
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Fetch.Burst.BurstCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k91Wlan.fetch.burst.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K91_Wlan_Fetch_Burst_All.rst
+	Applications_K91_Wlan_Fetch_Burst_Am.rst
+	Applications_K91_Wlan_Fetch_Burst_BerPilot.rst
+	Applications_K91_Wlan_Fetch_Burst_CfError.rst
+	Applications_K91_Wlan_Fetch_Burst_Count.rst
+	Applications_K91_Wlan_Fetch_Burst_CpError.rst
+	Applications_K91_Wlan_Fetch_Burst_Crest.rst
+	Applications_K91_Wlan_Fetch_Burst_EcmGain.rst
+	Applications_K91_Wlan_Fetch_Burst_Evm.rst
+	Applications_K91_Wlan_Fetch_Burst_FreqError.rst
+	Applications_K91_Wlan_Fetch_Burst_Gimbalance.rst
+	Applications_K91_Wlan_Fetch_Burst_Ginterval.rst
+	Applications_K91_Wlan_Fetch_Burst_IqOffset.rst
+	Applications_K91_Wlan_Fetch_Burst_IqSkew.rst
+	Applications_K91_Wlan_Fetch_Burst_Lengths.rst
+	Applications_K91_Wlan_Fetch_Burst_MchPower.rst
+	Applications_K91_Wlan_Fetch_Burst_McPower.rst
+	Applications_K91_Wlan_Fetch_Burst_McsIndex.rst
+	Applications_K91_Wlan_Fetch_Burst_Payload.rst
+	Applications_K91_Wlan_Fetch_Burst_PcmGain.rst
+	Applications_K91_Wlan_Fetch_Burst_Peak.rst
+	Applications_K91_Wlan_Fetch_Burst_Ppdu.rst
+	Applications_K91_Wlan_Fetch_Burst_Preamble.rst
+	Applications_K91_Wlan_Fetch_Burst_QuadOffset.rst
+	Applications_K91_Wlan_Fetch_Burst_Rms.rst
+	Applications_K91_Wlan_Fetch_Burst_Starts.rst
+	Applications_K91_Wlan_Fetch_Burst_SymbolError.rst
+	Applications_K91_Wlan_Fetch_Burst_Tfall.rst
+	Applications_K91_Wlan_Fetch_Burst_Trise.rst

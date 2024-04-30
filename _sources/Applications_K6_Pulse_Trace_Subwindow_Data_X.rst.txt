@@ -1,0 +1,20 @@
+X
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRACe<n>[:SUBWindow<w>][:DATA]:X
+
+.. code-block:: python
+
+	TRACe<n>[:SUBWindow<w>][:DATA]:X
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K6_Pulse.Trace.Subwindow.Data.X.XCls
+	:members:
+	:undoc-members:
+	:noindex:

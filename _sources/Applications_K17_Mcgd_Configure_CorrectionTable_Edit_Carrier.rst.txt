@@ -1,0 +1,32 @@
+Carrier
+----------------------------------------
+
+
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.CorrectionTable.Edit.Carrier.CarrierCls
+	:members:
+	:undoc-members:
+	:noindex:
+
+
+.. rubric:: Cloning the Group
+
+.. code-block:: python
+
+	# Create a clone of the original group, that exists independently
+	group2 = driver.applications.k17Mcgd.configure.correctionTable.edit.carrier.clone()
+
+
+
+.. rubric:: Subgroups
+.. toctree::
+	:maxdepth: 6
+	:glob:
+
+	Applications_K17_Mcgd_Configure_CorrectionTable_Edit_Carrier_Execute.rst
+	Applications_K17_Mcgd_Configure_CorrectionTable_Edit_Carrier_Start.rst
+	Applications_K17_Mcgd_Configure_CorrectionTable_Edit_Carrier_State.rst
+	Applications_K17_Mcgd_Configure_CorrectionTable_Edit_Carrier_Stop.rst
+	Applications_K17_Mcgd_Configure_CorrectionTable_Edit_Carrier_Threshold.rst

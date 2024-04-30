@@ -1,0 +1,20 @@
+Span
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:DELTamarker<m>:FUNCtion:BPOWer:SPAN
+
+.. code-block:: python
+
+	CALCulate<n>:DELTamarker<m>:FUNCtion:BPOWer:SPAN
+
+
+
+.. autoclass:: RsFsw.Implementations.Calculate.DeltaMarker.Function.Bpower.Span.SpanCls
+	:members:
+	:undoc-members:
+	:noindex:

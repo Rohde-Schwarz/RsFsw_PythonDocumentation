@@ -1,0 +1,20 @@
+Average
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: FETCh:STABle:FERRor:AVERage
+
+.. code-block:: python
+
+	FETCh:STABle:FERRor:AVERage
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Fetch.Stable.FreqError.Average.AverageCls
+	:members:
+	:undoc-members:
+	:noindex:

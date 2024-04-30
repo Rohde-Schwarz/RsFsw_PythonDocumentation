@@ -1,0 +1,20 @@
+Interval
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:CALibration:INTerval
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:CALibration:INTerval
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Calibration.Interval.IntervalCls
+	:members:
+	:undoc-members:
+	:noindex:

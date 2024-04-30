@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:GENerator:MCGD:CONTrol[:STATe]
+
+.. code-block:: python
+
+	CONFigure:GENerator:MCGD:CONTrol[:STATe]
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K17_Mcgd.Configure.Generator.Mcgd.Control.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

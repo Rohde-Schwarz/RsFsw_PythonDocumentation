@@ -1,0 +1,20 @@
+Imaginary
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:DL[:CC<cc>]:SYNC:CSWeight:ANTenna<ant>:FHFRame<fr>:IMAGinary
+
+.. code-block:: python
+
+	CONFigure[:LTE]:DL[:CC<cc>]:SYNC:CSWeight:ANTenna<ant>:FHFRame<fr>:IMAGinary
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Downlink.Cc.Sync.CsWeight.Antenna.FhFrame.Imaginary.ImaginaryCls
+	:members:
+	:undoc-members:
+	:noindex:

@@ -1,0 +1,20 @@
+Power
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: TRIGger[:SEQuence]:LEVel<ant>:POWer
+
+.. code-block:: python
+
+	TRIGger[:SEQuence]:LEVel<ant>:POWer
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Trigger.Sequence.Level.Power.PowerCls
+	:members:
+	:undoc-members:
+	:noindex:

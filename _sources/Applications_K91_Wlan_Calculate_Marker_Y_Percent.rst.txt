@@ -1,0 +1,20 @@
+Percent
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:MARKer<m>:Y:PERCent
+
+.. code-block:: python
+
+	CALCulate<n>:MARKer<m>:Y:PERCent
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Calculate.Marker.Y.Percent.PercentCls
+	:members:
+	:undoc-members:
+	:noindex:

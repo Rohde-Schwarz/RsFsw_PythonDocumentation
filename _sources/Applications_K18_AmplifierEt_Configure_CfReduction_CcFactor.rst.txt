@@ -1,0 +1,20 @@
+CcFactor
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:CFReduction:CCFactor
+
+.. code-block:: python
+
+	CONFigure:CFReduction:CCFactor
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K18_AmplifierEt.Configure.CfReduction.CcFactor.CcFactorCls
+	:members:
+	:undoc-members:
+	:noindex:

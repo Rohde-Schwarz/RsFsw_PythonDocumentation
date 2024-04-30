@@ -1,0 +1,20 @@
+LbWidth
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:ROSCillator:LBWidth
+
+.. code-block:: python
+
+	[SENSe]:ROSCillator:LBWidth
+
+
+
+.. autoclass:: RsFsw.Implementations.Sense.Roscillator.LbWidth.LbWidthCls
+	:members:
+	:undoc-members:
+	:noindex:

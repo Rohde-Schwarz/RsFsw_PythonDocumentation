@@ -1,0 +1,20 @@
+Nosm
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure[:LTE]:UL[:CC<cc>]:PUSCh:NOSM
+
+.. code-block:: python
+
+	CONFigure[:LTE]:UL[:CC<cc>]:PUSCh:NOSM
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K10x_Lte.Configure.Lte.Uplink.Cc.Pusch.Nosm.NosmCls
+	:members:
+	:undoc-members:
+	:noindex:

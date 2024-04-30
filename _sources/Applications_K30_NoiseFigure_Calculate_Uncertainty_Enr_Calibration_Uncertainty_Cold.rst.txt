@@ -1,0 +1,20 @@
+Cold
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALCulate<n>:UNCertainty:ENR:CALibration:UNCertainty:COLD
+
+.. code-block:: python
+
+	CALCulate<n>:UNCertainty:ENR:CALibration:UNCertainty:COLD
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K30_NoiseFigure.Calculate.Uncertainty.Enr.Calibration.Uncertainty.Cold.ColdCls
+	:members:
+	:undoc-members:
+	:noindex:

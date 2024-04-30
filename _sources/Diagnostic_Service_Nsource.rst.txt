@@ -1,0 +1,20 @@
+Nsource
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:NSOurce
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:NSOurce
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Nsource.NsourceCls
+	:members:
+	:undoc-members:
+	:noindex:

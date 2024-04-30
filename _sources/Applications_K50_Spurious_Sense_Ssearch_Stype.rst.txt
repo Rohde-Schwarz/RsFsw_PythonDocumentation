@@ -1,0 +1,20 @@
+Stype
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:SSEarch:STYPe
+
+.. code-block:: python
+
+	[SENSe]:SSEarch:STYPe
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K50_Spurious.Sense.Ssearch.Stype.StypeCls
+	:members:
+	:undoc-members:
+	:noindex:

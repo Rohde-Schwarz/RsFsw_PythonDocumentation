@@ -1,0 +1,20 @@
+Shutdown
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CALibration:DUE:SHUTdown
+
+.. code-block:: python
+
+	CALibration:DUE:SHUTdown
+
+
+
+.. autoclass:: RsFsw.Implementations.Calibration.Due.Shutdown.ShutdownCls
+	:members:
+	:undoc-members:
+	:noindex:

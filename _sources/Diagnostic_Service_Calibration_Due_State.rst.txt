@@ -1,0 +1,20 @@
+State
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: DIAGnostic:SERVice:CALibration:DUE:STATe
+
+.. code-block:: python
+
+	DIAGnostic:SERVice:CALibration:DUE:STATe
+
+
+
+.. autoclass:: RsFsw.Implementations.Diagnostic.Service.Calibration.Due.State.StateCls
+	:members:
+	:undoc-members:
+	:noindex:

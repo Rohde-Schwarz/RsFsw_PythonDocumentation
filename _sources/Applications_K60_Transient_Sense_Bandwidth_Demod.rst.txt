@@ -1,0 +1,20 @@
+Demod
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: [SENSe]:BWIDth:DEMod
+
+.. code-block:: python
+
+	[SENSe]:BWIDth:DEMod
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K60_Transient.Sense.Bandwidth.Demod.DemodCls
+	:members:
+	:undoc-members:
+	:noindex:

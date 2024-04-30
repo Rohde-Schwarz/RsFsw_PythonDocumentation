@@ -1,0 +1,20 @@
+DutConfig
+----------------------------------------
+
+
+
+.. rubric:: SCPI Command :
+
+.. index::
+	single: CONFigure:WLAN:DUTConfig
+
+.. code-block:: python
+
+	CONFigure:WLAN:DUTConfig
+
+
+
+.. autoclass:: RsFsw.Implementations.Applications.K91_Wlan.Configure.Wlan.DutConfig.DutConfigCls
+	:members:
+	:undoc-members:
+	:noindex:
