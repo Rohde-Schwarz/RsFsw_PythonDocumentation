@@ -1,0 +1,301 @@
+ <!DOCTYPE html><html class="writer-html5" lang="en" data-content_root="./"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>RepCaps &mdash; RsFsw 6.31.0.97 documentation</title><link rel="stylesheet" href="_static/docs.css?v=7f6d989f" /><script src="_static/boot.js?v=9214dcaa"></script></head><body class="wy-body-for-nav"><div class="wy-grid-for-nav"><nav data-toggle="wy-nav-shift" class="wy-nav-side"><div class="wy-side-scroll"><div class="wy-side-nav-search" ><a href="index.html" class="icon icon-home"> RsFsw </a></div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu"><script src="_static/nav.js"></script></div></div></nav><section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" ><i data-toggle="wy-nav-top" class="fa fa-bars"></i><a href="index.html">RsFsw</a></nav><div class="wy-nav-content"><div class="rst-content"><div role="navigation" aria-label="Page navigation"><ul class="wy-breadcrumbs"><li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li><li class="breadcrumb-item"><a href="RsFsw.html">RsFsw C# API Structure</a></li><li class="breadcrumb-item active">RepCaps</li><li class="wy-breadcrumbs-aside"></li></ul><hr/></div><div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article"><div itemprop="articleBody"><section id="repcaps"><h1>RepCaps<a class="headerlink" href="#repcaps" title="Link to this heading">#</a></h1><section id="allocation"><span id="type-AllocationRepCap"></span><h2>Allocation<a class="headerlink" href="#allocation" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Allocation.Nr0;
+<span class="c1">// Values (111x):</span>
+Nr0, Nr1, Nr2 ... Nr109, Nr110
+</pre></div></section><section id="antenna"><span id="type-AntennaRepCap"></span><h2>Antenna<a class="headerlink" href="#antenna" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Antenna.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="antennaport"><span id="type-AntennaPortRepCap"></span><h2>AntennaPort<a class="headerlink" href="#antennaport" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = AntennaPort.Nr1;
+<span class="c1">// Values (12x):</span>
+Nr1, Nr2, Nr3 ... Nr11, Nr12
+</pre></div></section><section id="antennaport1k"><span id="type-AntennaPort1kRepCap"></span><h2>AntennaPort1k<a class="headerlink" href="#antennaport1k" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = AntennaPort1k.Nr1000;
+<span class="c1">// Values (12x):</span>
+Nr1000, Nr1001, Nr1002 ... Nr1010, Nr1011
+</pre></div></section><section id="antennaport3k"><span id="type-AntennaPort3kRepCap"></span><h2>AntennaPort3k<a class="headerlink" href="#antennaport3k" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = AntennaPort3k.Nr3000;
+<span class="c1">// Values (32x):</span>
+Nr3000, Nr3001, Nr3002 ... Nr3030, Nr3031
+</pre></div></section><section id="antennaportconfig"><span id="type-AntennaPortConfigRepCap"></span><h2>AntennaPortConfig<a class="headerlink" href="#antennaportconfig" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = AntennaPortConfig.Nr1;
+<span class="c1">// Values (2x):</span>
+Nr1, Nr2
+</pre></div></section><section id="bwpart"><span id="type-BwPartRepCap"></span><h2>BwPart<a class="headerlink" href="#bwpart" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = BwPart.Nr1;
+<span class="c1">// Values (12x):</span>
+Nr1, Nr2, Nr3 ... Nr11, Nr12
+</pre></div></section><section id="carriercomponent"><span id="type-CarrierComponentRepCap"></span><h2>CarrierComponent<a class="headerlink" href="#carriercomponent" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = CarrierComponent.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="channel"><span id="type-ChannelRepCap"></span><h2>Channel<a class="headerlink" href="#channel" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Channel.Ch1;
+<span class="c1">// Values (64x):</span>
+Ch1, Ch2, Ch3 ... Ch63, Ch64
+</pre></div></section><section id="cluster"><span id="type-ClusterRepCap"></span><h2>Cluster<a class="headerlink" href="#cluster" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Cluster.Nr1;
+<span class="c1">// Values (2x):</span>
+Nr1, Nr2
+</pre></div></section><section id="codeword"><span id="type-CodewordRepCap"></span><h2>Codeword<a class="headerlink" href="#codeword" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Codeword.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="coefficients"><span id="type-CoefficientsRepCap"></span><h2>Coefficients<a class="headerlink" href="#coefficients" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Coefficients.Order1;
+<span class="c1">// Values (16x):</span>
+Order1, Order2, Order3 ... Order15, Order16
+</pre></div></section><section id="colors"><span id="type-ColorsRepCap"></span><h2>Colors<a class="headerlink" href="#colors" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Colors.Ix1;
+<span class="c1">// Values (4x):</span>
+Ix1, Ix2, Ix3, Ix4
+</pre></div></section><section id="component"><span id="type-ComponentRepCap"></span><h2>Component<a class="headerlink" href="#component" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Component.Ix1;
+<span class="c1">// Values (32x):</span>
+Ix1, Ix2, Ix3 ... Ix31, Ix32
+</pre></div></section><section id="coreset"><span id="type-CoresetRepCap"></span><h2>Coreset<a class="headerlink" href="#coreset" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Coreset.Nr1;
+<span class="c1">// Values (64x):</span>
+Nr1, Nr2, Nr3 ... Nr63, Nr64
+</pre></div></section><section id="cornerfrequency"><span id="type-CornerFrequencyRepCap"></span><h2>CornerFrequency<a class="headerlink" href="#cornerfrequency" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = CornerFrequency.Nr1;
+<span class="c1">// Values (5x):</span>
+Nr1, Nr2, Nr3, Nr4, Nr5
+</pre></div></section><section id="csirs"><span id="type-CsiRsRepCap"></span><h2>CsiRs<a class="headerlink" href="#csirs" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = CsiRs.Nr1;
+<span class="c1">// Values (64x):</span>
+Nr1, Nr2, Nr3 ... Nr63, Nr64
+</pre></div></section><section id="deltamarker"><span id="type-DeltaMarkerRepCap"></span><h2>DeltaMarker<a class="headerlink" href="#deltamarker" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = DeltaMarker.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="displayline"><span id="type-DisplayLineRepCap"></span><h2>DisplayLine<a class="headerlink" href="#displayline" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = DisplayLine.Nr1;
+<span class="c1">// Values (2x):</span>
+Nr1, Nr2
+</pre></div></section><section id="externalgen"><span id="type-ExternalGenRepCap"></span><h2>ExternalGen<a class="headerlink" href="#externalgen" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = ExternalGen.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="externalport"><span id="type-ExternalPortRepCap"></span><h2>ExternalPort<a class="headerlink" href="#externalport" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = ExternalPort.Nr1;
+<span class="c1">// Values (3x):</span>
+Nr1, Nr2, Nr3
+</pre></div></section><section id="externalrosc"><span id="type-ExternalRoscRepCap"></span><h2>ExternalRosc<a class="headerlink" href="#externalrosc" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = ExternalRosc.Nr1;
+<span class="c1">// Values (2x):</span>
+Nr1, Nr2
+</pre></div></section><section id="filelist"><span id="type-FileListRepCap"></span><h2>FileList<a class="headerlink" href="#filelist" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = FileList.Nr1;
+<span class="c1">// Values (64x):</span>
+Nr1, Nr2, Nr3 ... Nr63, Nr64
+</pre></div></section><section id="filter"><span id="type-FilterRepCap"></span><h2>Filter<a class="headerlink" href="#filter" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Filter.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="frame"><span id="type-FrameRepCap"></span><h2>Frame<a class="headerlink" href="#frame" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Frame.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="freqline"><span id="type-FreqLineRepCap"></span><h2>FreqLine<a class="headerlink" href="#freqline" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = FreqLine.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="freqoffset"><span id="type-FreqOffsetRepCap"></span><h2>FreqOffset<a class="headerlink" href="#freqoffset" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = FreqOffset.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="gapchannel"><span id="type-GapChannelRepCap"></span><h2>GapChannel<a class="headerlink" href="#gapchannel" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = GapChannel.Nr1;
+<span class="c1">// Values (2x):</span>
+Nr1, Nr2
+</pre></div></section><section id="gaterange"><span id="type-GateRangeRepCap"></span><h2>GateRange<a class="headerlink" href="#gaterange" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = GateRange.Nr1;
+<span class="c1">// Values (64x):</span>
+Nr1, Nr2, Nr3 ... Nr63, Nr64
+</pre></div></section><section id="generator"><span id="type-GeneratorRepCap"></span><h2>Generator<a class="headerlink" href="#generator" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Generator.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="halfdecaderange"><span id="type-HalfDecadeRangeRepCap"></span><h2>HalfDecadeRange<a class="headerlink" href="#halfdecaderange" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = HalfDecadeRange.Rng_1Hz_3Hz;
+<span class="c1">// Values (23x):</span>
+Rng_1Hz_3Hz, Rng_3Hz_10Hz, Rng_10Hz_30Hz ... Rng_30GHz_100GHz, Rng_100GHz_300GHz
+</pre></div></section><section id="input"><span id="type-InputRepCap"></span><h2>Input<a class="headerlink" href="#input" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Input.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="instrument"><span id="type-InstrumentRepCap"></span><h2>Instrument<a class="headerlink" href="#instrument" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Instrument.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="item"><span id="type-ItemRepCap"></span><h2>Item<a class="headerlink" href="#item" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Item.Ix1;
+<span class="c1">// Values (64x):</span>
+Ix1, Ix2, Ix3 ... Ix63, Ix64
+</pre></div></section><section id="limitix"><span id="type-LimitIxRepCap"></span><h2>LimitIx<a class="headerlink" href="#limitix" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = LimitIx.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="limitsegment"><span id="type-LimitSegmentRepCap"></span><h2>LimitSegment<a class="headerlink" href="#limitsegment" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = LimitSegment.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="line"><span id="type-LineRepCap"></span><h2>Line<a class="headerlink" href="#line" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Line.Ix1;
+<span class="c1">// Values (8x):</span>
+Ix1, Ix2, Ix3 ... Ix7, Ix8
+</pre></div></section><section id="localoscillator"><span id="type-LocalOscillatorRepCap"></span><h2>LocalOscillator<a class="headerlink" href="#localoscillator" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = LocalOscillator.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="marker"><span id="type-MarkerRepCap"></span><h2>Marker<a class="headerlink" href="#marker" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Marker.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="markerdestination"><span id="type-MarkerDestinationRepCap"></span><h2>MarkerDestination<a class="headerlink" href="#markerdestination" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = MarkerDestination.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="mimoantenna"><span id="type-MimoAntennaRepCap"></span><h2>MimoAntenna<a class="headerlink" href="#mimoantenna" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = MimoAntenna.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="notch"><span id="type-NotchRepCap"></span><h2>Notch<a class="headerlink" href="#notch" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Notch.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="outputconnector"><span id="type-OutputConnectorRepCap"></span><h2>OutputConnector<a class="headerlink" href="#outputconnector" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = OutputConnector.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="port"><span id="type-PortRepCap"></span><h2>Port<a class="headerlink" href="#port" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Port.Nr1;
+<span class="c1">// Values (2x):</span>
+Nr1, Nr2
+</pre></div></section><section id="powerclass"><span id="type-PowerClassRepCap"></span><h2>PowerClass<a class="headerlink" href="#powerclass" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = PowerClass.Nr1;
+<span class="c1">// Values (30x):</span>
+Nr1, Nr2, Nr3 ... Nr29, Nr30
+</pre></div></section><section id="powerline"><span id="type-PowerLineRepCap"></span><h2>PowerLine<a class="headerlink" href="#powerline" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = PowerLine.Ix1;
+<span class="c1">// Values (7x):</span>
+Ix1, Ix2, Ix3 ... Ix6, Ix8
+</pre></div></section><section id="powermeter"><span id="type-PowerMeterRepCap"></span><h2>PowerMeter<a class="headerlink" href="#powermeter" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = PowerMeter.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="probe"><span id="type-ProbeRepCap"></span><h2>Probe<a class="headerlink" href="#probe" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Probe.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="pucch"><span id="type-PucchRepCap"></span><h2>Pucch<a class="headerlink" href="#pucch" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Pucch.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="range"><span id="type-RangeRepCap"></span><h2>Range<a class="headerlink" href="#range" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Range.Ix1;
+<span class="c1">// Values (64x):</span>
+Ix1, Ix2, Ix3 ... Ix63, Ix64
+</pre></div></section><section id="refmeasurement"><span id="type-RefMeasurementRepCap"></span><h2>RefMeasurement<a class="headerlink" href="#refmeasurement" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = RefMeasurement.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="ruallocationix"><span id="type-RuAllocationIxRepCap"></span><h2>RuAllocationIx<a class="headerlink" href="#ruallocationix" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = RuAllocationIx.Nr1;
+<span class="c1">// Values (9x):</span>
+Nr1, Nr2, Nr3 ... Nr8, Nr9
+</pre></div></section><section id="segment"><span id="type-SegmentRepCap"></span><h2>Segment<a class="headerlink" href="#segment" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Segment.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="slotrc"><span id="type-SlotRcRepCap"></span><h2>SlotRc<a class="headerlink" href="#slotrc" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = SlotRc.Ix0;
+<span class="c1">// Values (81x):</span>
+Ix0, Ix1, Ix2 ... Ix79, Ix80
+</pre></div></section><section id="source"><span id="type-SourceRepCap"></span><h2>Source<a class="headerlink" href="#source" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Source.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="sportpair"><span id="type-SPortPairRepCap"></span><h2>SPortPair<a class="headerlink" href="#sportpair" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = SPortPair.Ix1;
+<span class="c1">// Values (4x):</span>
+Ix1, Ix2, Ix3, Ix4
+</pre></div></section><section id="ssblock"><span id="type-SsBlockRepCap"></span><h2>SsBlock<a class="headerlink" href="#ssblock" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = SsBlock.Nr0;
+<span class="c1">// Values (65x):</span>
+Nr0, Nr1, Nr2 ... Nr63, Nr64
+</pre></div></section><section id="status"><span id="type-StatusRepCap"></span><h2>Status<a class="headerlink" href="#status" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Status.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="step"><span id="type-StepRepCap"></span><h2>Step<a class="headerlink" href="#step" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Step.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="store"><span id="type-StoreRepCap"></span><h2>Store<a class="headerlink" href="#store" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Store.Pos1;
+<span class="c1">// Values (32x):</span>
+Pos1, Pos2, Pos3 ... Pos31, Pos32
+</pre></div></section><section id="stream"><span id="type-StreamRepCap"></span><h2>Stream<a class="headerlink" href="#stream" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Stream.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="subblock"><span id="type-SubBlockRepCap"></span><h2>SubBlock<a class="headerlink" href="#subblock" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = SubBlock.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="subframe"><span id="type-SubframeRepCap"></span><h2>Subframe<a class="headerlink" href="#subframe" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Subframe.Nr0;
+<span class="c1">// Values (42x):</span>
+Nr0, Nr1, Nr2 ... Nr40, Nr41
+</pre></div></section><section id="subwindow"><span id="type-SubWindowRepCap"></span><h2>SubWindow<a class="headerlink" href="#subwindow" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = SubWindow.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="tab"><span id="type-TabRepCap"></span><h2>Tab<a class="headerlink" href="#tab" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Tab.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="targetlimitline"><span id="type-TargetLimitLineRepCap"></span><h2>TargetLimitLine<a class="headerlink" href="#targetlimitline" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = TargetLimitLine.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section><section id="timeline"><span id="type-TimeLineRepCap"></span><h2>TimeLine<a class="headerlink" href="#timeline" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = TimeLine.Nr1;
+<span class="c1">// Values (4x):</span>
+Nr1, Nr2, Nr3, Nr4
+</pre></div></section><section id="touchstone"><span id="type-TouchStoneRepCap"></span><h2>TouchStone<a class="headerlink" href="#touchstone" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = TouchStone.Ix1;
+<span class="c1">// Values (32x):</span>
+Ix1, Ix2, Ix3 ... Ix31, Ix32
+</pre></div></section><section id="trace"><span id="type-TraceRepCap"></span><h2>Trace<a class="headerlink" href="#trace" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Trace.Tr1;
+<span class="c1">// Values (16x):</span>
+Tr1, Tr2, Tr3 ... Tr15, Tr16
+</pre></div></section><section id="triggerport"><span id="type-TriggerPortRepCap"></span><h2>TriggerPort<a class="headerlink" href="#triggerport" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = TriggerPort.Nr1;
+<span class="c1">// Values (8x):</span>
+Nr1, Nr2, Nr3 ... Nr7, Nr8
+</pre></div></section><section id="upperaltchannel"><span id="type-UpperAltChannelRepCap"></span><h2>UpperAltChannel<a class="headerlink" href="#upperaltchannel" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = UpperAltChannel.Nr1;
+<span class="c1">// Values (63x):</span>
+Nr1, Nr2, Nr3 ... Nr62, Nr63
+</pre></div></section><section id="userix"><span id="type-UserIxRepCap"></span><h2>UserIx<a class="headerlink" href="#userix" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = UserIx.Ix1;
+<span class="c1">// Values (8x):</span>
+Ix1, Ix2, Ix3 ... Ix7, Ix8
+</pre></div></section><section id="userrange"><span id="type-UserRangeRepCap"></span><h2>UserRange<a class="headerlink" href="#userrange" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = UserRange.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="window"><span id="type-WindowRepCap"></span><h2>Window<a class="headerlink" href="#window" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = Window.Nr1;
+<span class="c1">// Values (16x):</span>
+Nr1, Nr2, Nr3 ... Nr15, Nr16
+</pre></div></section><section id="zoomwindow"><span id="type-ZoomWindowRepCap"></span><h2>ZoomWindow<a class="headerlink" href="#zoomwindow" title="Link to this heading">#</a></h2><div class="highlight"><pre><span class="c1">// First value:</span>
+var value = ZoomWindow.Nr1;
+<span class="c1">// Values (32x):</span>
+Nr1, Nr2, Nr3 ... Nr31, Nr32
+</pre></div></section></section></div></div><footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer"><a href="Enums.html" class="btn btn-neutral float-left" title="Enums" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a><a href="Utilities.html" class="btn btn-neutral float-right" title="Utilities" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a></div><hr/><div role="contentinfo"><p>&#169; Copyright © Rohde &amp; Schwarz 2026.</p></div></footer></div></div></section></div> </body></html>
